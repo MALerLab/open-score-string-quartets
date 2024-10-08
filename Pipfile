@@ -1,0 +1,39 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[[source]]
+url = "https://download.pytorch.org/whl/cu118"
+verify_ssl = true
+name = "cu118pytorch"
+
+[packages]
+torch = {version="==2.3.1", index="cu118pytorch"}
+torchvision = {version="*", index="cu118pytorch"}
+torchaudio = {version="*", index="cu118pytorch"}
+x-transformers = "*"
+descript-audiotools = "*"
+descript-audio-codec = "*"
+opencv-python = "*"
+numpy = "*"
+partitura = "*"
+scikit-learn = "*"
+omegaconf = "*"
+hydra-core = "*"
+strictyaml = "*"
+matplotlib = "*"
+tqdm = "*"
+pandas = "*"
+wandb = "*"
+pydub = "*"
+requests = "*"
+beautifulsoup4 = "*"
+lxml = "*"
+
+[dev-packages]
+ipykernel = "*"
+
+[requires]
+python_version = "3.10"
+python_full_version = "3.10.12"
