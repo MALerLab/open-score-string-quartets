@@ -4,12 +4,17 @@ notebooks_local/
 # Binary and generated formats
 *.mscz
 *.mxl
-*.musicxml
+# *.musicxml
 *.pdf
+*.png
 *.mid
 *.wav
 *.mp3
 *.zip
+
+# lmx files
+*.lmx
+*.lmxe
 
 # Backup and temporary files
 .mscbackup
@@ -20,6 +25,7 @@ notebooks_local/
 
 # System files
 .DS_Store
+__pycache__/
 
 # Unignores: restore tracking for these files that would otherwise be ignored
 !/data/code-plots/*.pdf
