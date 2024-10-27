@@ -90,7 +90,9 @@ TIME_MODIFICATION_TOKENS = [
     '12in8', '9in4', '10in8', '18in4', '16in8', '15in8', '5in3',
     '11in8', '11in12', '5in2', '8in2', '4in2', '7in1', '35in16',
     '9in2', 
+    # added for string quartet scores
     '3in3', '5in6', '8in6', '9in6', '7in16', '18in8', '8in12', '11in6', '19in16',
+    '11in4', '12in12', '2in2', '3in4', '5in5', '6in5',
 ]
 
 ACCIDENTAL_TOKENS = [

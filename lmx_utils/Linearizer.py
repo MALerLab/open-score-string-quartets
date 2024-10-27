@@ -507,6 +507,10 @@ class Linearizer:
                 "clef:" + clef.find("sign").text.upper()
                     + clef.find("line").text
             )
+            
+            if 'percussion' in clef_token:
+              self._error(f"'percussion' clef is not available. Skipping.")
+              
             clefs_to_print[staff_number] = clef_token
 
             # remember the clef for future printing
@@ -628,7 +632,7 @@ class SQLinearizer(Linearizer):
           self._emit("<new-page>")
 
       # fileter print-object:no elements
-      for el in [el for el in measure]:
+      for el in reversed(measure):
         if el.tag == 'note' and el.get('print-object') == 'no':
           measure.remove(el)
       

@@ -55,14 +55,17 @@ for item in score_pbar:
   with open(xml_path, 'r') as f:
     xml_str = f.read()
   
-  with open('./error.log', 'w') as f:
+  with open('./error.log', 'a') as f:
+    print('', file=f)
+    print(f"----------sq{mscore_id}----------", file=f)
+    
     lmx_score = score_to_lmxe(
       xml_str, 
       error_out=f
     )
   
   for p_i, page in enumerate(lmx_score):
-    lmxe_str = '\n\n'.join([ '\n'.join(system)  for system in lmx_score[0] ])
+    lmxe_str = '\n\n'.join([ '\n'.join(system) for system in page ])
     lmxe_path = lmxe_dir / f'sq{mscore_id}:{str(p_i+1).zfill(4)}.lmxe'
     
     with open(lmxe_path, 'w') as f:
