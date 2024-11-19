@@ -49,8 +49,8 @@ for item in score_pbar:
   lmxe_dir = score_dir / sub_dir / 'lmxe'
   lmxe_dir.mkdir(exist_ok=True)
   
-  if len( list(lmxe_dir.glob('*.lmxe')) ) == len( list((score_dir/sub_dir/'images'/'original').glob('*.png')) ):
-    continue
+  # if len( list(lmxe_dir.glob('*.lmxe')) ) == len( list((score_dir/sub_dir/'images'/'original').glob('*.png')) ):
+  #   continue
   
   with open(xml_path, 'r') as f:
     xml_str = f.read()

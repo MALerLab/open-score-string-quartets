@@ -1,5 +1,7 @@
-from fractions import Fraction
+import argparse
 from typing import Dict
+
+from fractions import Fraction
 
 
 KEY_TOKENS = [
@@ -91,8 +93,10 @@ TIME_MODIFICATION_TOKENS = [
     '11in8', '11in12', '5in2', '8in2', '4in2', '7in1', '35in16',
     '9in2', 
     # added for string quartet scores
-    '3in3', '5in6', '8in6', '9in6', '7in16', '18in8', '8in12', '11in6', '19in16',
-    '11in4', '12in12', '2in2', '3in4', '5in5', '6in5',
+    '8in10', '24in4', '12in5', '12in4', '33in8', '48in16',
+    # old added for string quartet scores
+    # '3in3', '5in6', '8in6', '9in6', '7in16', '18in8', '8in12', '11in6', '19in16',
+    # '11in4', '12in12', '2in2', '3in4', '5in5', '6in5',
 ]
 
 ACCIDENTAL_TOKENS = [
@@ -215,3 +219,19 @@ def print_vocabulary(file=None):
         "\n".join(ALL_TOKENS),
         file=file
     )
+
+
+if __name__ == "__main__":
+    parser = argparse.ArgumentParser(
+      prog='open-score-string-quartets vocabulary',
+      description='Prints the vocabulary of the open-score-string-quartets dataset.',
+    )
+  
+    parser.add_argument('outpath', type=str)
+    
+    args = parser.parse_args()
+    
+    print("Writing vocabulary to", args.outpath)
+    
+    with open(args.outpath, "w") as f:
+      print_vocabulary(file=f)

@@ -407,7 +407,7 @@ class Linearizer:
             )
         
         # verify pitch order
-        previous_order = PITCH_TOKENS.index(self._previous_note_pitch)
+        previous_order = PITCH_TOKENS.index(self._previous_note_pitch) if self._previous_note_pitch is not None else -1
         current_order = PITCH_TOKENS.index(pitch_token)
         if previous_order > current_order:
             self._error(
@@ -509,7 +509,8 @@ class Linearizer:
             )
             
             if 'percussion' in clef_token:
-              self._error(f"'percussion' clef is not available. Skipping.")
+                self._error(f"'percussion' clef is not available. Skipping.")
+                continue
               
             clefs_to_print[staff_number] = clef_token
 
@@ -636,9 +637,9 @@ class SQLinearizer(Linearizer):
         if el.tag == 'note' and el.get('print-object') == 'no':
           measure.remove(el)
       
-      # self.process_measure(measure)
-      try:
-        self.process_measure(measure)
-      except Exception as e:
-        print(e)
-        breakpoint()
+      self.process_measure(measure)
+      # try:
+      #   self.process_measure(measure)
+      # except Exception as e:
+      #   print(e)
+      #   breakpoint()
