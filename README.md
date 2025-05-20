@@ -13,6 +13,9 @@ converted to other formats *en masse* using MuseScore's free desktop software us
 the [Batch Convert Plugin] 
 or the [command line interface][MuseScore Command Line].
 
+**!Important NOTE!**  
+To render or convert .mscx files in this repo, you **need to use MuseScore3 v3.6.2**
+
 # [Scores directory](./scores/)
 
 Score and lyric files are arranged in the following directory structure:
