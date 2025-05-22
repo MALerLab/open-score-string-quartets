@@ -1,0 +1,1 @@
+python3 ./scripts/download_pdfs.py -d $(pwd)

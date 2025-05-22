@@ -5,6 +5,7 @@ from pathlib import Path
 from collections import Counter, defaultdict
 from operator import itemgetter
 from tempfile import NamedTemporaryFile
+import argparse
 
 import math
 import random
@@ -23,9 +24,20 @@ import partitura as pt
 from bs4 import BeautifulSoup
 import requests
 
+def get_argument_parser():
+  parser = argparse.ArgumentParser()
+  parser.add_argument(
+    "-d",
+    "--base-dir",
+    required=True,
+    type=str
+  )
+  
+  return parser
 
-if __name__ == '__main__':
-  data_dir = Path('data')
+
+def main(base_dir):
+  data_dir = base_dir / Path('data')
   
   with open(data_dir / 'scores_w_url.yaml') as f:
     metadata = syaml.load(f.read())
@@ -77,3 +89,10 @@ if __name__ == '__main__':
   
   with open(data_dir / 'scores_w_url.yaml', 'w') as f:
     f.write(syaml.as_document(metadata).as_yaml())
+
+
+if __name__ == '__main__':
+  parser = get_argument_parser()
+  args = parser.parse_args()
+  
+  main(Path(args.base_dir))
