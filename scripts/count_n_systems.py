@@ -16,18 +16,7 @@ import cv2
 import numpy as np
 
 import xml.etree.ElementTree as ET
-
-
-def get_argument_parser():
-  parser = argparse.ArgumentParser()
-  parser.add_argument(
-    "-d",
-    "--base-dir",
-    required=True,
-    type=str
-  )
-  
-  return parser
+from utils import get_argument_parser
 
 
 def main(base_dir):

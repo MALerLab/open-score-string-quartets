@@ -6,7 +6,6 @@ Crop systems from score page images and pred staff heights using LS-YOLO-Staff m
 4. save mean height of staffs to staff_heights.csv
 """
 
-import argparse
 from pathlib import Path
 
 import math
@@ -22,38 +21,8 @@ from tqdm.auto import tqdm
 
 from ultralytics import YOLO
 
-from modules.svdp.svdp import bbox_utils
 from const import excluded_pages
-
-
-def get_argument_parser():
-  parser = argparse.ArgumentParser()
-  parser.add_argument(
-    "-d",
-    "--base-dir",
-    required=True,
-    type=str
-  )
-  
-  return parser
-
-
-def load_bboxs(file_path):
-  with open(file_path, 'r') as f:
-    lines = f.readlines()
-  
-  bboxs = [ 
-    [ int(p) for p in line.strip().split(' ') ] # lx, ly, rx, ry
-    for line in lines
-  ]
-
-  # sort by y, x
-  bboxs = sorted( bboxs, key=lambda x: (x[1], x[0]) )
-  
-  # merge overlapping bboxs
-  bboxs = bbox_utils.merge_match_bboxs(bboxs)
-
-  return bboxs
+from utils import get_argument_parser, load_bboxs
 
 
 def main(base_dir:Path):
@@ -84,7 +53,7 @@ def main(base_dir:Path):
     o_dir = i_p.parent.parent / 'cropped'
     o_dir.mkdir(exist_ok=True)
 
-    o_imgs = []
+    half_imgs = []
 
     for i, (lx, ly, rx, ry) in enumerate(bboxs):
       # save cropped iamge
@@ -93,10 +62,11 @@ def main(base_dir:Path):
       c_i_p = o_dir / f'{i_p.stem}_{i}.png'
 
       cv2.imwrite(c_i_p, c_i)
-      o_imgs.append(c_i_p)
+
+      half_imgs.append(c_i[:, :c_i.shape[1]//2])
     
     # bathch inference
-    results = model(o_imgs)
+    results = model(half_imgs)
 
     with open(b_p, 'w') as f:
       for result, (lx, ly, rx, ry) in zip(results, bboxs):
