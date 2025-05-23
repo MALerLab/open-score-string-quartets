@@ -1,0 +1,1 @@
+python3 ./scripts/count_n_systems.py -d $(pwd)
