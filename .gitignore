@@ -1,6 +1,9 @@
 # .gitignore - Tell Git which files to avoid tracking.
+
+# local dirs and files
 notebooks_local/
-yolov8m.pt
+mscore*/
+*.log
 
 # Binary and generated formats
 *.mscz
@@ -12,6 +15,10 @@ yolov8m.pt
 *.wav
 *.mp3
 *.zip
+
+# yolo related files
+yolov8m.pt
+*_yolo_bboxs.txt
 
 # lmx files
 *.lmx
