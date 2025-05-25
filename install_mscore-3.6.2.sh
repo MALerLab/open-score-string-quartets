@@ -1,7 +1,8 @@
+#!/bin/bash
+
 # this script is for Ubuntu 22.04
 # it will install MuseScore 3.6.2
 
-#!/bin/bash
 sudo apt update
 sudo apt install -y \
   libnss3-dev libegl1-mesa-dev libglu1-mesa-dev \
