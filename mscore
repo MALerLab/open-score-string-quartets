@@ -3,4 +3,9 @@
 # this script launches MuseScore 3.6.2
 # please run install_mscore-3.6.2.sh first to install MuseScore
 
-xvfb-run -a ./mscore-3.6.2/AppRun "$@"
+# export QT_QPA_PLATFORM=offscreen
+# export QT_X11_NO_MITSHM=1
+# export XDG_RUNTIME_DIR=/tmp
+# xvfb-run -a --server-args="-screen 0 1024x768x24" ./mscore-3.6.2/AppRun "$@"
+
+xvfb-run -a --server-args="-screen 0 1024x768x24" sh -c 'echo "Display: $DISPLAY"; ./mscore-3.6.2/AppRun "$@"' -- "$@"
