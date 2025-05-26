@@ -16,6 +16,8 @@ import cv2
 import numpy as np
 import partitura as pt
 
+import pdfplumber
+
 from modules.svdp.svdp import bbox_utils
 
 
@@ -295,260 +297,31 @@ def convert_mscx_to_pdf(metadata, score_dir, script_path):
   terminate_xvfb_process(xvfb_process)
 
 
-
-####### LEGACY FUNCTIONS #######
-####### NOT USED/MAINTAINED #######
-
-def pt_load_mscx(
-  filename:PathLike,
-  mscore_exec:str='musescore3',
-  validate:bool=False,
-  force_note_ids:Union[bool,str]='keep',
-):
-  """
-  modified function from partitura.io.musescore.load_via_musescore
-  """
-  if isinstance(filename, Path):
-    filename = str(filename)
+def split_pdf(pdf_path):
+  if not pdf_path.exists():
+    print(f"PDF file does not exist:{str(pdf_path)}")
+    return
   
-  with NamedTemporaryFile(suffix=".musicxml") as xml_fh:
-    cmd = [mscore_exec, "-o", xml_fh.name, filename, "-f"]
+  img_dir = pdf_path.parent / 'images' / 'synthetic' / 'original'
+  img_dir.mkdir(parents=True, exist_ok=True)
     
-    try:
-      # convert MuseScore file to MusicXML
-      ps = subprocess.run(
-        cmd, 
-        stdout=subprocess.DEVNULL, stderr=subprocess.PIPE
-      )
-      
-      if ps.returncode != 0:
-        raise Exception(
-          "Command {} failed with code {}. MuseScore " "error messages:\n {}"
-          .format(cmd, ps.returncode, ps.stderr.decode("UTF-8"))
-        )
+  pdf = pdfplumber.open(str(pdf_path))
+
+  for page in pdf.pages:
+    page_number = str(page.page_number).zfill(4)
+    image = page.to_image(resolution=300)
     
-    except Exception as e:
-      raise Exception(
-        'Executing "{}" returned  {}.'.format(" ".join(cmd), e)
-      )
-
-    score = pt.load_musicxml(
-      filename=xml_fh.name,
-      validate=validate,
-      force_note_ids=force_note_ids,
-    )
-  
-  return score
+    image_path = img_dir / f'{pdf_path.stem.split("_")[0]}:{page_number}.png'
+    image.save(str(image_path))
 
 
-def pt_render_musescore(
-  score_data: pt.score.ScoreLike,
-  fmt:str='png',
-  out:Union[PathLike,None]=None,
-  dpi:Optional[int]=90,
-  mscore_exec:str='musescore3'
-) -> Union[list[PathLike],list[np.array],None]:
-  """
-  modified function from partitura.io.musescore.render_musescore
-  Render a score-like object using musescore.
-
-  Parameters
-  ----------
-  score_data : ScoreLike
-    Score-like object to be rendered
-  fmt : {'png', 'pdf'}
-    Output image format
-  out : Path or str or None
-    'png': OPTIONAL
-    'pdf': REQUIRED
-  dpi : int, optional
-    Image resolution. 
-    This option is ignored when `fmt` is 'pdf'. 
-    Defaults to 90.
-
-  Returns
-  -------
-  out : 
-    1. list[PathLike]: list of paths to output images if out is provided
-    2. list[np.array]: list of images if out is not provided
-    3. None: if no image was generated
-  """
-  
-  assert fmt in {'png', 'pdf'}, "Unsupported output format"
-  
-  if fmt == 'pdf':
-    assert out is not None, "Output path is required for 'pdf' format"
-
-  with TemporaryDirectory() as tmpdir:
-    xml_fh = Path(tmpdir) / "score.musicxml"
-    img_fh = Path(tmpdir) / f"score.{fmt}"
-
-    pt.save_musicxml(score_data, xml_fh)
-
-    cmd = [
-      mscore_exec,
-      # "-T",
-      # "10",
-      "-r",
-      "{}".format(int(dpi)),
-      "-o",
-      os.fspath(img_fh),
-      os.fspath(xml_fh),
-      "-f",
-    ]
-    try:
-      ps = subprocess.run(
-        cmd, 
-        stdout=subprocess.PIPE, stderr=subprocess.PIPE,
-      )
-      
-      if ps.returncode != 0:
-        raise Exception(
-          "Command {} failed with code {}; stdout: {}; stderr: {}"
-          .format(
-            cmd,
-            ps.returncode,
-            ps.stdout.decode("UTF-8"),
-            ps.stderr.decode("UTF-8"),
-          )
-        )
+def convert_pdf_to_images(metadata:dict, score_dir:PathLike):
+  score_pbar = tqdm(metadata.items())
+  for ossq_id, infos in score_pbar:
+    ossq_id = f'sq{ossq_id}'
     
-    except Exception as e:
-      raise Exception(
-        'Executing "{}" returned  {}.'
-        .format(" ".join(cmd), e),
-      )
+    mscore_dir = score_dir / infos['path'] 
+    pdf_path = mscore_dir / f"{ossq_id}_synthetic.pdf"
     
-    if fmt == "png":
-      # gether all generated image files
-      img_files = list(sorted(Path(tmpdir).glob(f"*.{fmt}")))
-      
-      # if no image was generated
-      if len(img_files) < 1:
-        return None
-      
-      # return images if out is not provided
-      if out is None:
-        out_images = [ cv2.imread(i_fp) for i_fp in img_files ]
-        return out_images
+    split_pdf(pdf_path)
 
-      # return paths of images if out is provided
-      else:
-        out_files = [ out/i_fp.name for i_fp in img_files ]
-        for i_fp, o_fp in zip(img_files, out_files):
-          # make background white
-          o_i = cv2.imread(i_fp, cv2.IMREAD_UNCHANGED)
-          transparent_mask = o_i[:,:,3] == 0
-          o_i[transparent_mask] = [255, 255, 255, 255]
-          o_i = cv2.cvtColor(o_i, cv2.COLOR_BGRA2BGR)
-          cv2.imwrite(o_fp, o_i)
-        return out_files
-    
-    elif fmt == "pdf":
-      if img_fh.is_file():
-        shutil.copy(img_fh, out/img_fh.name)
-      else:
-        return None
-    
-    # if no image was generated
-    return None
-
-
-def render_lilypond(
-  musicxml_path:PathLike,
-  fmt:str="png",
-  out:Optional[PathLike]=None,
-) -> Union[list[PathLike],list[np.array],None]:
-  """
-  Render a score-like object using Lilypond
-
-  Parameters
-  ----------
-  musicxml_path : PathLike
-  fmt : {'png', 'pdf'}
-    Output image format
-
-  Returns
-  -------
-  out : 
-    1. list[PathLike]: list of paths to output images if out is provided
-    2. list[np.array]: list of images if out is not provided
-    3. None: if no image was generated
-  """
-  assert fmt in {'png', 'pdf'}, "Unsupported output format"
-  
-  if fmt == 'pdf':
-    assert out is not None, "Output path is required for 'pdf' format"
-
-  with TemporaryDirectory() as tmpdir:
-    pt_xml = Path(tmpdir) / "score.xml"
-    pt.save_musicxml(pt.load_musicxml(musicxml_path), pt_xml)
-    
-    # convert musicxml to lilypond format (use stdout pipe)
-    cmd1 = ["musicxml2ly", "-o-", str(pt_xml)]
-    try:
-      ps1 = subprocess.run(
-        cmd1, stdout=subprocess.PIPE, check=False
-      )
-      if ps1.returncode != 0:
-        raise Exception(
-          "Command {} failed with code {}".format(cmd1, ps1.returncode)
-        )
-    
-    except Exception as e:
-      raise Exception(
-        'Executing "{}" returned  {}.'
-        .format(" ".join(cmd1), e),
-      )
-
-    # convert lilypond format (read from pipe of ps1) to image, and save to
-    # temporary filename
-    cmd2 = [
-      "lilypond",
-      "--{}".format(fmt),
-      "-dprint-pages",
-      "-o{}".format(tmpdir + '/score'),
-      "-",
-    ]
-    try:
-      ps2 = subprocess.run(cmd2, input=ps1.stdout, check=False)
-      
-      if ps2.returncode != 0:
-        raise Exception(
-          "Command {} failed with following error {}".format(cmd2, ps2.stderr)
-        )
-    
-    except Exception as e:
-      print(e)
-      return
-    
-    if fmt == "png":
-      # gether all generated image files
-      img_files = list(sorted(Path(tmpdir).glob(f"*.{fmt}")))
-      
-      # if no image was generated
-      if len(img_files) < 1:
-        return None
-      
-      # return images if out is not provided
-      if out is None:
-        out_images = [ cv2.imread(i_fp) for i_fp in img_files ]
-        return out_images
-
-      # return paths of images if out is provided
-      else:
-        out_files = [ out/i_fp.name for i_fp in img_files ]
-        for i_fp, o_fp in zip(img_files, out_files):
-          shutil.copy(i_fp, o_fp)
-        return out_files
-    
-    elif fmt == "pdf":
-      pdf_file, *_ = list(Path(tmpdir).glob(f"*.{fmt}"))
-      
-      if pdf_file.is_file():
-        shutil.copy(pdf_file, out/pdf_file.name)
-      else:
-        return None
-    
-    # if no image was generated
-    return None
