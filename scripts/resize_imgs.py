@@ -17,18 +17,19 @@ import cv2
 
 from tqdm.auto import tqdm
 
-from const import excluded_pages
-from utils import get_argument_parser, load_bboxs
+from .const import excluded_pages
+from .utils import get_argument_parser, load_bboxs
 
 
 def main(base_dir:Path, target_height:int):
   score_dir = base_dir / 'scores'
 
-  bbox_paths = score_dir.glob('**/images/original/*_systems.txt')
+  bbox_paths = score_dir.glob('**/images/synthetic/original/*_system_bboxs.txt')
   bbox_paths = [ 
     p
     for p in sorted(bbox_paths)
-    if p.stem.replace('_systems', '') not in excluded_pages # filter out excluded pages
+      if p.stem.replace('_system_bboxs', '') not in excluded_pages 
+      # filter out excluded pages
   ]
 
   print('# of pages:', len(bbox_paths))
@@ -39,7 +40,7 @@ def main(base_dir:Path, target_height:int):
 
     for i, (*_, staff_height) in enumerate(bboxs):
       # load image
-      i_p = b_p.parent.parent / 'cropped' / b_p.name.replace('_systems.txt', f'_{i}.png')
+      i_p = b_p.parent.parent / 'cropped' / b_p.name.replace('_system_bboxs.txt', f':{str(i+1).zfill(4)}.png')
       img = cv2.imread(i_p, cv2.IMREAD_UNCHANGED)
 
       h, w = img.shape[:2]
@@ -49,7 +50,7 @@ def main(base_dir:Path, target_height:int):
 
       # Save the resized image
       out_dir = i_p.parent.parent / 'crop_resized'
-      out_dir.parent.mkdir(exist_ok=True)
+      out_dir.mkdir(exist_ok=True)
 
       cv2.imwrite(out_dir / i_p.name, i_r)
 

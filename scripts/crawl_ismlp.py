@@ -24,6 +24,7 @@ import partitura as pt
 from bs4 import BeautifulSoup
 import requests
 
+
 def get_argument_parser():
   parser = argparse.ArgumentParser()
   parser.add_argument(

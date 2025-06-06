@@ -18,19 +18,18 @@ from tqdm.auto import tqdm
 
 from ultralytics import YOLO
 
-from utils import get_argument_parser
+from .utils import get_argument_parser
 
 
 def main(base_dir:Path):
   score_dir = base_dir / 'scores'
   
-  # model_weight_path = base_dir / 'modules' / 'lsyolo' / 'checkpoints' / 'ls-yolo-system.pt'
-  model_weight_path = base_dir / 'modules' / 'lsyolo' / 'checkpoints' / 'ls-yolo-system-v2.pt'
+  model_weight_path = base_dir / 'modules' / 'lsyolo' / 'checkpoints' / 'ls-yolo-system-v2.0.1.pt'
   
   model = YOLO('yolov8m.pt')
   model._load(weights=str(model_weight_path))
   
-  page_imgs = score_dir.glob('**/images/original/*.png')
+  page_imgs = score_dir.glob('**/images/synthetic/original/*.png')
   page_imgs = list(sorted(page_imgs))
   
   print('# of segments:', len(page_imgs))
@@ -57,7 +56,7 @@ def main(base_dir:Path):
       bboxs = sorted( bboxs, key=lambda x: (x[1], x[0]) )
 
       # save bboxs
-      o_path = orig_path.parent / f'{orig_fn}_systems.txt'
+      o_path = orig_path.parent / f'{orig_fn}_yolo_bboxs.txt'
       
       with open( o_path, 'w') as f:
         for lx, ly, rx, ry in bboxs:

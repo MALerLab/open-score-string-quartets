@@ -16,7 +16,7 @@ import cv2
 import numpy as np
 
 import xml.etree.ElementTree as ET
-from utils import get_argument_parser
+from .utils import get_argument_parser
 
 
 def main(base_dir):
@@ -61,7 +61,8 @@ def main(base_dir):
     data[x_p.stem.replace('sq', '')]['n_pages'] = len(systems_in_page)
     
     if len(systems_in_page) > 0:
-      data[x_p.stem.replace('sq', '')]['n_systems'] = systems_in_page
+      data[x_p.stem.replace('sq', '')]['n_systems'] = sum(systems_in_page)
+      data[x_p.stem.replace('sq', '')]['n_systems_per_page'] = systems_in_page
   
   
   with open(data_dir / 'scores_w_infos.yaml', 'w') as f:

@@ -21,23 +21,23 @@ from tqdm.auto import tqdm
 
 from ultralytics import YOLO
 
-from const import excluded_pages
-from utils import get_argument_parser, load_bboxs
+from .const import excluded_pages
+from .utils import get_argument_parser, load_bboxs
 
 
 def main(base_dir:Path):
   score_dir = base_dir / 'scores'
 
-  model_weight_path = base_dir / 'modules' / 'lsyolo' / 'checkpoints' / 'ls-yolo-staff-v2.pt'
+  model_weight_path = base_dir / 'modules' / 'lsyolo' / 'checkpoints' / 'ls-yolo-staff-v2.0.0.pt'
   model = YOLO('yolov8m.pt')
   model._load(weights=str(model_weight_path))
 
   ## crop original image according to system bounding box coordinates
-  page_imgs = score_dir.glob('**/images/original/*.png')
+  page_imgs = score_dir.glob('**/images/synthetic/original/*.png')
   image_bbox_pairs = [ 
-    (page_img, page_img.parent / page_img.name.replace('.png', '_systems.txt'))
+    (page_img, page_img.parent / page_img.name.replace('.png', '_yolo_bboxs.txt'))
     for page_img in sorted(page_imgs)
-      if page_img.stem not in excluded_pages # filter out excluded pages
+    if page_img.stem not in excluded_pages # filter out excluded pages
   ]
   
   print('# of pages:', len(image_bbox_pairs))
@@ -47,7 +47,7 @@ def main(base_dir:Path):
     img = cv2.imread(i_p, cv2.IMREAD_UNCHANGED)
 
     # load bboxs
-    bboxs = load_bboxs(b_p)
+    bboxs = load_bboxs(b_p, min_ratio=0.2)
 
     # make output directory
     o_dir = i_p.parent.parent / 'cropped'
@@ -59,7 +59,7 @@ def main(base_dir:Path):
       # save cropped iamge
       c_i = img[ly:ry, lx:rx]
 
-      c_i_p = o_dir / f'{i_p.stem}_{i}.png'
+      c_i_p = o_dir / f'{i_p.stem}:{str(i+1).zfill(4)}.png'
 
       cv2.imwrite(c_i_p, c_i)
 
@@ -68,7 +68,7 @@ def main(base_dir:Path):
     # bathch inference
     results = model(half_imgs)
 
-    with open(b_p, 'w') as f:
+    with open(b_p.parent / b_p.name.replace('yolo_bboxs', 'system_bboxs'), 'w') as f:
       for result, (lx, ly, rx, ry) in zip(results, bboxs):
         staff_bboxs = result.boxes.xyxy
         staff_bboxs = staff_bboxs.int().tolist()
