@@ -14,7 +14,9 @@ from tqdm.auto import tqdm
 
 import pdfplumber
 
-from modules.svdp.svdp import bbox_utils
+from modules.svdp.svdp import bbox_utils 
+from modules.lmxe.lmxe import load_lmx, delinearize_lmx
+from modules.lmxe.lmxe import load_lmxe, delinearize_lmxe
 
 from .utils import get_ts, PathLike
 from .utils import spawn_processes, terminate_processes
@@ -25,7 +27,7 @@ def convert_mscx_to_musicxml(
   metadata, 
   score_dir, 
   script_path, 
-  virtual_display=':99'
+  virtual_display=':99',
 ):
   env = os.environ.copy()
   env.update({
@@ -51,7 +53,9 @@ def convert_mscx_to_musicxml(
     mscx_path = mscore_dir / f"{ossq_id}.mscx"
     musicxml_path = mscore_dir / f"{ossq_id}.musicxml"
     
-    cmd = [script_path, "-S ./ossq.mss", "-o", str(musicxml_path), str(mscx_path)]
+    paths = (musicxml_path, mscx_path)
+    
+    cmd = [script_path, "-S ./ossq.mss", "-o", str(paths[0]), str(paths[1])]
       
     try:
       # convert MuseScore file to MusicXML
@@ -72,6 +76,63 @@ def convert_mscx_to_musicxml(
       )
   
   terminate_processes(processes)
+
+
+def convert_musicxml_to_mscx(
+  xml:str,
+  out_dir:PathLike,
+  script_path, 
+  virtual_display=':99',
+):
+  if not isinstance(out_dir, Path):
+    out_dir = Path(out_dir)
+  
+  env = os.environ.copy()
+  env.update({
+    'DISPLAY': virtual_display,
+    'QT_QPA_PLATFORM': 'xcb',
+    'QT_X11_NO_MITSHM': '1',
+    'XDG_RUNTIME_DIR': '/tmp'
+  })
+  
+  process_configs = [
+    ['Xvfb', virtual_display, '-screen', '0', '2560x1440x24', '-ac'],
+    [script_path]
+  ]
+  
+  processes = spawn_processes(process_configs, env)
+  
+  temp_xml_path = out_dir / 'temp.musicxml'
+  out_path = out_dir / 'temp.mscx'
+  
+  with open(temp_xml_path, 'w', encoding='utf-8') as f:
+    f.write(xml)
+  
+  cmd = [script_path, "-S", "./ossq.mss", "-o", str(out_path), str(temp_xml_path)]
+  
+  try:
+    # convert MusicXML to .mscx file
+    ps = subprocess.run(
+      cmd, env=env,
+      stdout=subprocess.DEVNULL, stderr=subprocess.PIPE
+    )
+    
+    if ps.returncode != 0:
+      raise Exception(
+        "Command {} failed with code {}. MuseScore " "error messages:\n {}"
+        .format(cmd, ps.returncode, ps.stderr.decode("UTF-8"))
+      )
+  
+  except Exception as e:
+    raise Exception(
+      'Executing "{}" \nreturned  {}.'.format(" ".join(cmd), e)
+    )
+  
+  temp_xml_path.unlink()
+  
+  terminate_processes(processes)
+  
+  return out_path
 
 
 def render_mscx(
@@ -141,8 +202,12 @@ def render_mscx(
   return None
 
 
-def convert_mscx_to_pdf(metadata, score_dir, script_path):
-  display_id = ':99'
+def convert_mscx_to_pdf(
+  metadata, 
+  score_dir, 
+  script_path,
+  display_id=':99'
+):
   
   env = os.environ.copy()
   env.update({
@@ -209,3 +274,80 @@ def convert_pdf_to_images(metadata:dict, score_dir:PathLike):
     
     split_pdf(pdf_path)
 
+
+
+lmx_func = {
+  'lmx': (load_lmx, delinearize_lmx),
+  'lmxe': (load_lmxe, delinearize_lmxe),
+}
+
+def render_lmx(
+  lmxe_paths:list[PathLike],
+  out_dir:PathLike,
+  type='lmx',
+  dpi:Optional[int]=300,
+  script_path:str='./mscore',
+  display_id = ':99',
+):
+  if not isinstance(out_dir, Path):
+    out_dir = Path(out_dir)
+  
+  env = os.environ.copy()
+  env.update({
+      'DISPLAY': display_id,
+      'QT_QPA_PLATFORM': 'xcb',
+      'QT_X11_NO_MITSHM': '1',
+      'XDG_RUNTIME_DIR': '/tmp'
+  })
+  
+  process_configs = [
+    ['Xvfb', display_id, '-screen', '0', '2560x1440x24', '-ac'],
+    [script_path]
+  ]
+  
+  processes = spawn_processes(process_configs, env)
+  
+  total_paths = []
+  
+  for l_p in tqdm(lmxe_paths):
+    out_sub_dir = out_dir / l_p.stem
+    out_sub_dir.mkdir(exist_ok=True)
+    
+    load, delinearize = lmx_func[type]
+    
+    lmx = load(l_p)
+    xml = delinearize(lmx)
+    
+    mscx_path = convert_musicxml_to_mscx(xml, out_sub_dir, './mscore')
+  
+    pdf_path = out_sub_dir / 'temp.pdf'
+  
+    render_mscx(
+      mscx_path=mscx_path,
+      out_path=pdf_path,
+      env=env,
+      dpi=dpi,
+      mscore_exec=script_path,
+    )
+  
+    mscx_path.unlink()
+  
+    image_paths = []
+    
+    pdf = pdfplumber.open(str(pdf_path))
+    for page in pdf.pages:
+      page_number = str(page.page_number).zfill(4)
+      image = page.to_image(resolution=300)
+      
+      image_path = out_sub_dir / f'{page_number}.png'
+      image.save(str(image_path))
+      image_paths.append(image_path)
+    
+    pdf_path.unlink()
+    
+    total_paths.append(image_paths)
+  
+  
+  terminate_processes(processes)
+  
+  return total_paths

@@ -41,6 +41,24 @@ def get_argument_parser(args=None):
   return parser
 
 
+def merge_yolo_bboxs(bboxs, min_ratio=0.2):
+  if len(bboxs) < 2:
+    return bboxs
+  
+  prev = 0
+  for _ in range(100):
+    bboxs = sorted( bboxs, key=lambda x: bbox_utils.get_box_area(x), reverse=True )
+    bboxs = bbox_utils.merge_match_bboxs(bboxs, min_ratio=min_ratio)
+    
+    if len(bboxs) == prev:
+      break
+    
+    prev = len(bboxs)
+  
+  # sort by y, x
+  bboxs = sorted( bboxs, key=lambda x: (x[1], x[0]) )
+
+
 def load_bboxs(file_path, merge=True, min_ratio=0.2):
   with open(file_path, 'r') as f:
     lines = f.readlines()
@@ -55,18 +73,7 @@ def load_bboxs(file_path, merge=True, min_ratio=0.2):
     return bboxs
 
   # merge overlapping bboxs
-  prev = 0
-  for _ in range(100):
-    bboxs = sorted( bboxs, key=lambda x: bbox_utils.get_box_area(x), reverse=True )
-    bboxs = bbox_utils.merge_match_bboxs(bboxs, min_ratio=min_ratio)
-    
-    if len(bboxs) == prev:
-      break
-    
-    prev = len(bboxs)
-  
-  # sort by y, x
-  bboxs = sorted( bboxs, key=lambda x: (x[1], x[0]) )
+  bboxs = merge_yolo_bboxs(bboxs, min_ratio=min_ratio)
   
   return bboxs
 
