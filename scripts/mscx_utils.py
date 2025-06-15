@@ -14,7 +14,7 @@ from tqdm.auto import tqdm
 
 import pdfplumber
 
-from modules.svdp.svdp import bbox_utils 
+from modules.lsyolo import bbox_utils 
 from modules.lmxe.lmxe import load_lmx, delinearize_lmx
 from modules.lmxe.lmxe import load_lmxe, delinearize_lmxe
 

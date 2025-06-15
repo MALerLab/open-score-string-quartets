@@ -12,7 +12,7 @@ import json
 
 from tqdm.auto import tqdm
 
-from modules.svdp.svdp import bbox_utils
+from modules.lsyolo import bbox_utils 
 
 
 get_ts = lambda: datetime.now().strftime('%Y-%m-%d-%H:%M:%S')
