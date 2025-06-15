@@ -309,7 +309,8 @@ def render_lmx(
   
   total_paths = []
   
-  for l_p in tqdm(lmxe_paths):
+  # for l_p in tqdm(lmxe_paths):
+  for l_p in lmxe_paths:
     out_sub_dir = out_dir / l_p.stem
     out_sub_dir.mkdir(exist_ok=True)
     
@@ -318,7 +319,7 @@ def render_lmx(
     lmx = load(l_p)
     xml = delinearize(lmx)
     
-    mscx_path = convert_musicxml_to_mscx(xml, out_sub_dir, './mscore')
+    mscx_path = convert_musicxml_to_mscx(xml, out_sub_dir, script_path)
   
     pdf_path = out_sub_dir / 'temp.pdf'
   
