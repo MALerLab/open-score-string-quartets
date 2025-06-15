@@ -19,7 +19,6 @@ import matplotlib.pyplot as plt
 
 import cv2
 import numpy as np
-import partitura as pt
 
 from bs4 import BeautifulSoup
 import requests
