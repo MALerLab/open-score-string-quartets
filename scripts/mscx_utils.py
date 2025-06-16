@@ -311,7 +311,7 @@ def render_lmx(
   
   # for l_p in tqdm(lmxe_paths):
   for l_p in lmxe_paths:
-    out_sub_dir = out_dir / l_p.stem
+    out_sub_dir = out_dir / l_p.stem.replace('.system', '').replace('.page', '')
     out_sub_dir.mkdir(exist_ok=True)
     
     load, delinearize = lmx_func[type]
