@@ -57,6 +57,8 @@ def merge_yolo_bboxs(bboxs, min_ratio=0.2):
   
   # sort by y, x
   bboxs = sorted( bboxs, key=lambda x: (x[1], x[0]) )
+  
+  return bboxs
 
 
 def load_bboxs(file_path, merge=True, min_ratio=0.2):

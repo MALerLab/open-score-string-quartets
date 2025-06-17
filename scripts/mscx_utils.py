@@ -292,6 +292,8 @@ def render_lmx(
   if not isinstance(out_dir, Path):
     out_dir = Path(out_dir)
   
+  load, delinearize = lmx_func[type]
+  
   env = os.environ.copy()
   env.update({
       'DISPLAY': display_id,
@@ -313,8 +315,6 @@ def render_lmx(
   for l_p in lmxe_paths:
     out_sub_dir = out_dir / l_p.stem.replace('.system', '').replace('.page', '')
     out_sub_dir.mkdir(exist_ok=True)
-    
-    load, delinearize = lmx_func[type]
     
     lmx = load(l_p)
     xml = delinearize(lmx)
