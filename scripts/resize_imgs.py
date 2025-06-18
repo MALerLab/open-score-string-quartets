@@ -47,6 +47,7 @@ def main(base_dir:Path, target_height:int):
       ratio = target_height / staff_height
 
       i_r = cv2.resize(img, (int(w * ratio), int(h * ratio)), interpolation=cv2.INTER_AREA)
+      i_r = cv2.cvtColor(i_r, cv2.COLOR_RGB2GRAY)
 
       # Save the resized image
       out_dir = i_p.parent.parent / 'crop_resized'
