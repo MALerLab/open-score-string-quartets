@@ -55,8 +55,8 @@ def convert_mscx_to_musicxml(
     
     paths = (musicxml_path, mscx_path)
     
-    cmd = [script_path, "-S ./ossq.mss", "-o", str(paths[0]), str(paths[1])]
-      
+    cmd = [script_path, "-S ./single-system.mss", "-o", str(paths[0]), str(paths[1])]
+    
     try:
       # convert MuseScore file to MusicXML
       ps = subprocess.run(
@@ -108,7 +108,7 @@ def convert_musicxml_to_mscx(
   with open(temp_xml_path, 'w', encoding='utf-8') as f:
     f.write(xml)
   
-  cmd = [script_path, "-S", "./ossq.mss", "-o", str(out_path), str(temp_xml_path)]
+  cmd = [script_path, "-S", "./single-system.mss", "-o", str(out_path), str(temp_xml_path)]
   
   try:
     # convert MusicXML to .mscx file
@@ -166,7 +166,7 @@ def render_mscx(
   
   cmd = [
     mscore_exec,
-    "-S ./ossq.mss", 
+    "-S ./single-system.mss", 
     "-r",
     "{}".format(int(dpi)),
     "-o",
@@ -296,10 +296,10 @@ def render_lmx(
   
   env = os.environ.copy()
   env.update({
-      'DISPLAY': display_id,
-      'QT_QPA_PLATFORM': 'xcb',
-      'QT_X11_NO_MITSHM': '1',
-      'XDG_RUNTIME_DIR': '/tmp'
+    'DISPLAY': display_id,
+    'QT_QPA_PLATFORM': 'xcb',
+    'QT_X11_NO_MITSHM': '1',
+    'XDG_RUNTIME_DIR': '/tmp'
   })
   
   process_configs = [
@@ -311,7 +311,6 @@ def render_lmx(
   
   total_paths = []
   
-  # for l_p in tqdm(lmxe_paths):
   for l_p in lmxe_paths:
     out_sub_dir = out_dir / l_p.stem.replace('.system', '').replace('.page', '')
     out_sub_dir.mkdir(exist_ok=True)
