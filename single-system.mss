@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <museScore version="3.02">
   <Style>
-    <pageWidth>100</pageWidth>
-    <pageHeight>10</pageHeight>
+    <pageWidth>50</pageWidth>
+    <pageHeight>5</pageHeight>
     <pagePrintableWidth>90</pagePrintableWidth>
     <pageEvenLeftMargin>0.590551</pageEvenLeftMargin>
     <pageOddLeftMargin>0.590551</pageOddLeftMargin>

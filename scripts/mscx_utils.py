@@ -1,5 +1,6 @@
 import os
 from datetime import datetime
+import operator
 import time
 import argparse
 import subprocess
@@ -9,6 +10,7 @@ from typing import Union, Any, Optional
 from tempfile import NamedTemporaryFile, TemporaryDirectory
 
 import json
+import cv2
 
 from tqdm.auto import tqdm
 
@@ -20,6 +22,7 @@ from modules.lmxe.lmxe import load_lmxe, delinearize_lmxe
 
 from .utils import get_ts, PathLike
 from .utils import spawn_processes, terminate_processes
+from .utils import strip_musicXML, crop_white_space
 
 
 
@@ -27,6 +30,7 @@ def convert_mscx_to_musicxml(
   metadata, 
   score_dir, 
   script_path, 
+  style_path='',
   virtual_display=':99',
 ):
   env = os.environ.copy()
@@ -55,7 +59,7 @@ def convert_mscx_to_musicxml(
     
     paths = (musicxml_path, mscx_path)
     
-    cmd = [script_path, "-S ./single-system.mss", "-o", str(paths[0]), str(paths[1])]
+    cmd = [script_path, f"-S {style_path}", "-o", str(paths[0]), str(paths[1])]
     
     try:
       # convert MuseScore file to MusicXML
@@ -82,8 +86,11 @@ def convert_musicxml_to_mscx(
   xml:str,
   out_dir:PathLike,
   script_path, 
+  style_path='',
   virtual_display=':99',
 ):
+  xml = strip_musicXML(xml)
+
   if not isinstance(out_dir, Path):
     out_dir = Path(out_dir)
   
@@ -108,7 +115,7 @@ def convert_musicxml_to_mscx(
   with open(temp_xml_path, 'w', encoding='utf-8') as f:
     f.write(xml)
   
-  cmd = [script_path, "-S", "./single-system.mss", "-o", str(out_path), str(temp_xml_path)]
+  cmd = [script_path, "-S", f"{style_path}", "-o", str(out_path), str(temp_xml_path)]
   
   try:
     # convert MusicXML to .mscx file
@@ -128,7 +135,7 @@ def convert_musicxml_to_mscx(
       'Executing "{}" \nreturned  {}.'.format(" ".join(cmd), e)
     )
   
-  temp_xml_path.unlink()
+  # temp_xml_path.unlink()
   
   terminate_processes(processes)
   
@@ -141,6 +148,7 @@ def render_mscx(
   env,
   dpi:Optional[int]=300,
   mscore_exec:str='./mscore',
+  style_path:str='',
 ) -> PathLike:
   """
   render .mscx file as .pdf using MuseScore
@@ -166,7 +174,7 @@ def render_mscx(
   
   cmd = [
     mscore_exec,
-    "-S ./single-system.mss", 
+    f"-S {style_path}", 
     "-r",
     "{}".format(int(dpi)),
     "-o",
@@ -206,6 +214,7 @@ def convert_mscx_to_pdf(
   metadata, 
   score_dir, 
   script_path,
+  style_path='',
   display_id=':99'
 ):
   
@@ -240,6 +249,7 @@ def convert_mscx_to_pdf(
       env=env,
       dpi=300,
       mscore_exec=script_path,
+      style_path=style_path,
     )
   
   # Clean up Xvfb
@@ -287,6 +297,7 @@ def render_lmx(
   type='lmx',
   dpi:Optional[int]=300,
   script_path:str='./mscore',
+  style_path:str='',
   display_id = ':99',
 ):
   if not isinstance(out_dir, Path):
@@ -318,7 +329,12 @@ def render_lmx(
     lmx = load(l_p)
     xml = delinearize(lmx)
     
-    mscx_path = convert_musicxml_to_mscx(xml, out_sub_dir, script_path)
+    mscx_path = convert_musicxml_to_mscx(
+      xml, 
+      out_sub_dir, 
+      script_path,
+      style_path,
+    )
   
     pdf_path = out_sub_dir / 'temp.pdf'
   
@@ -328,6 +344,7 @@ def render_lmx(
       env=env,
       dpi=dpi,
       mscore_exec=script_path,
+      style_path=style_path,
     )
   
     mscx_path.unlink()
@@ -342,11 +359,16 @@ def render_lmx(
       image_path = out_sub_dir / f'{page_number}.png'
       image.save(str(image_path))
       image_paths.append(image_path)
+
+      img = cv2.imread(image_path, cv2.IMREAD_UNCHANGED)
+      img = cv2.cvtColor(img, cv2.COLOR_RGB2GRAY)
+      img = crop_white_space(img, margin=-10, ratio=1.0, compare_fn=operator.lt)
+      cv2.imwrite(str(image_path), img)
+
     
     pdf_path.unlink()
     
     total_paths.append(image_paths)
-  
   
   terminate_processes(processes)
   
