@@ -9,6 +9,8 @@ from pathlib import Path
 from typing import Union, Any, Optional
 from tempfile import NamedTemporaryFile, TemporaryDirectory
 
+import multiprocessing
+
 import json
 import cv2
 
@@ -291,6 +293,40 @@ lmx_func = {
   'lmxe': (load_lmxe, delinearize_lmxe),
 }
 
+def single_render(render_data):
+  l_p, out_dir, load_fn, delinearize_fn, dpi, script_path, env = render_data
+
+  out_sub_dir = out_dir / l_p.stem.replace('.system', '').replace('.page', '')
+  out_sub_dir.mkdir(exist_ok=True)
+  
+  lmx = load_fn(l_p)
+  xml = delinearize_fn(lmx)
+  
+  mscx_path = convert_musicxml_to_mscx(xml, out_sub_dir, script_path)
+
+  pdf_path = out_sub_dir / 'temp.pdf'
+
+  render_mscx(
+    mscx_path=mscx_path,
+    out_path=pdf_path,
+    env=env,
+    dpi=dpi,
+    mscore_exec=script_path,
+  )
+
+  mscx_path.unlink()
+  
+  pdf = pdfplumber.open(str(pdf_path))
+  image = pdf.pages[0].to_image(resolution=300)
+  image_path = out_sub_dir.with_suffix('.png')
+  image.save(str(image_path))
+
+  pdf_path.unlink()
+  out_sub_dir.rmdir()
+
+  return image_path
+
+
 def render_lmx(
   lmxe_paths:list[PathLike],
   out_dir:PathLike,
@@ -321,54 +357,14 @@ def render_lmx(
   processes = spawn_processes(process_configs, env)
   
   total_paths = []
-  
-  for l_p in lmxe_paths:
-    out_sub_dir = out_dir / l_p.stem.replace('.system', '').replace('.page', '')
-    out_sub_dir.mkdir(exist_ok=True)
-    
-    lmx = load(l_p)
-    xml = delinearize(lmx)
-    
-    mscx_path = convert_musicxml_to_mscx(
-      xml, 
-      out_sub_dir, 
-      script_path,
-      style_path,
-    )
-  
-    pdf_path = out_sub_dir / 'temp.pdf'
-  
-    render_mscx(
-      mscx_path=mscx_path,
-      out_path=pdf_path,
-      env=env,
-      dpi=dpi,
-      mscore_exec=script_path,
-      style_path=style_path,
-    )
-  
-    mscx_path.unlink()
-  
-    image_paths = []
-    
-    pdf = pdfplumber.open(str(pdf_path))
-    for page in pdf.pages:
-      page_number = str(page.page_number).zfill(4)
-      image = page.to_image(resolution=300)
-      
-      image_path = out_sub_dir / f'{page_number}.png'
-      image.save(str(image_path))
-      image_paths.append(image_path)
 
-      img = cv2.imread(image_path, cv2.IMREAD_UNCHANGED)
-      img = cv2.cvtColor(img, cv2.COLOR_RGB2GRAY)
-      img = crop_white_space(img, margin=-10, ratio=1.0, compare_fn=operator.lt)
-      cv2.imwrite(str(image_path), img)
+  # for render_data in [(p, out_dir, load, delinearize, dpi, script_path, env) for p in lmxe_paths]:
+  #   image_path = single_render(render_data)
+  #   total_paths.append(image_path)
 
-    
-    pdf_path.unlink()
-    
-    total_paths.append(image_paths)
+  with multiprocessing.Pool(16) as pool:
+    for result in pool.imap_unordered(single_render, [(p, out_dir, load, delinearize, dpi, script_path, env) for p in lmxe_paths]):
+      total_paths.append(result)
   
   terminate_processes(processes)
   
