@@ -27,6 +27,13 @@ from .utils import spawn_processes, terminate_processes
 from .utils import strip_musicXML, crop_white_space
 
 
+DEFAULT_ENV = {
+  'QT_QPA_PLATFORM': 'xcb',
+  'QT_X11_NO_MITSHM': '1',
+  # 'XDG_RUNTIME_DIR': '/home/dongmin/tmp'
+}
+
+
 
 def convert_mscx_to_musicxml(
   metadata, 
@@ -38,9 +45,7 @@ def convert_mscx_to_musicxml(
   env = os.environ.copy()
   env.update({
     'DISPLAY': virtual_display,
-    'QT_QPA_PLATFORM': 'xcb',
-    'QT_X11_NO_MITSHM': '1',
-    'XDG_RUNTIME_DIR': '/tmp'
+    **DEFAULT_ENV
   })
   
   process_configs = [
@@ -99,9 +104,7 @@ def convert_musicxml_to_mscx(
   env = os.environ.copy()
   env.update({
     'DISPLAY': virtual_display,
-    'QT_QPA_PLATFORM': 'xcb',
-    'QT_X11_NO_MITSHM': '1',
-    'XDG_RUNTIME_DIR': '/tmp'
+    **DEFAULT_ENV
   })
   
   process_configs = [
@@ -222,10 +225,8 @@ def convert_mscx_to_pdf(
   
   env = os.environ.copy()
   env.update({
-      'DISPLAY': display_id,
-      'QT_QPA_PLATFORM': 'xcb',
-      'QT_X11_NO_MITSHM': '1',
-      'XDG_RUNTIME_DIR': '/tmp'
+    'DISPLAY': display_id,
+    **DEFAULT_ENV
   })
   
   process_configs = [
@@ -294,7 +295,7 @@ lmx_func = {
 }
 
 def single_render(render_data):
-  l_p, out_dir, load_fn, delinearize_fn, dpi, script_path, env = render_data
+  l_p, out_dir, load_fn, delinearize_fn, dpi, script_path, style_path, env = render_data
 
   out_sub_dir = out_dir / l_p.stem.replace('.system', '').replace('.page', '')
   out_sub_dir.mkdir(exist_ok=True)
@@ -302,7 +303,7 @@ def single_render(render_data):
   lmx = load_fn(l_p)
   xml = delinearize_fn(lmx)
   
-  mscx_path = convert_musicxml_to_mscx(xml, out_sub_dir, script_path)
+  mscx_path = convert_musicxml_to_mscx(xml, out_sub_dir, script_path, style_path)
 
   pdf_path = out_sub_dir / 'temp.pdf'
 
@@ -312,6 +313,7 @@ def single_render(render_data):
     env=env,
     dpi=dpi,
     mscore_exec=script_path,
+    style_path=style_path,
   )
 
   mscx_path.unlink()
@@ -320,9 +322,6 @@ def single_render(render_data):
   image = pdf.pages[0].to_image(resolution=300)
   image_path = out_sub_dir.with_suffix('.png')
   image.save(str(image_path))
-
-  pdf_path.unlink()
-  out_sub_dir.rmdir()
 
   return image_path
 
@@ -346,7 +345,7 @@ def render_lmx(
     'DISPLAY': display_id,
     'QT_QPA_PLATFORM': 'xcb',
     'QT_X11_NO_MITSHM': '1',
-    'XDG_RUNTIME_DIR': '/tmp'
+    'XDG_RUNTIME_DIR': '/home/dongmin/tmp'
   })
   
   process_configs = [
@@ -358,13 +357,16 @@ def render_lmx(
   
   total_paths = []
 
-  # for render_data in [(p, out_dir, load, delinearize, dpi, script_path, env) for p in lmxe_paths]:
-  #   image_path = single_render(render_data)
-  #   total_paths.append(image_path)
+  for render_data in [(p, out_dir, load, delinearize, dpi, script_path, style_path, env) for p in lmxe_paths]:
+    try:
+      image_path = single_render(render_data)
+      total_paths.append(image_path)
+    except:
+      total_paths.append(None)
 
-  with multiprocessing.Pool(16) as pool:
-    for result in pool.imap_unordered(single_render, [(p, out_dir, load, delinearize, dpi, script_path, env) for p in lmxe_paths]):
-      total_paths.append(result)
+  # with multiprocessing.Pool(16) as pool:
+  #   for result in pool.imap_unordered(single_render, [(p, out_dir, load, delinearize, dpi, script_path, style_path, env) for p in lmxe_paths]):
+  #     total_paths.append(result)
   
   terminate_processes(processes)
   

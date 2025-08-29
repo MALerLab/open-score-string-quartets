@@ -136,22 +136,23 @@ def search_letter_box_by_axis(img, nrange, axis, ratio, margin, default=None, co
 
 def crop_white_space(img, margin=10, ratio=0.5, compare_fn=operator.gt):
   h, w = img.shape[:2]
+
+  i_g = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
+  _, ith = cv2.threshold(i_g, 0, 255, cv2.THRESH_BINARY+cv2.THRESH_OTSU)
   
-  _, ith = cv2.threshold(img, 0, 255, cv2.THRESH_BINARY+cv2.THRESH_OTSU)
-  
-  inrm = ith / 255
+  inrm = 1 - (ith / 255)
 
   # scan through y axis until meet some non-black things
   yaxis = range(h)
-  yst = search_letter_box_by_axis(inrm, yaxis, 0, ratio, margin, compare_fn=compare_fn)
-  yed = search_letter_box_by_axis(inrm, reversed(yaxis), 0, ratio, -margin, compare_fn=compare_fn)
+  yst = search_letter_box_by_axis(inrm, yaxis, 0, ratio, -margin, compare_fn=compare_fn)
+  yed = search_letter_box_by_axis(inrm, reversed(yaxis), 0, ratio, margin, compare_fn=compare_fn)
   yst = max(0, yst)
   yed = min(h, yed)
   
   # scan through x axis until meet some non-black things
   xaxis = range(w)
-  xst = search_letter_box_by_axis(inrm, xaxis, 1, ratio, margin, compare_fn=compare_fn)
-  xed = search_letter_box_by_axis(inrm, reversed(xaxis), 1, ratio, -margin, compare_fn=compare_fn)
+  xst = search_letter_box_by_axis(inrm, xaxis, 1, ratio, -margin, compare_fn=compare_fn)
+  xed = search_letter_box_by_axis(inrm, reversed(xaxis), 1, ratio, margin, compare_fn=compare_fn)
   xst = max(0, xst)
   xed = min(w, xed)
   
