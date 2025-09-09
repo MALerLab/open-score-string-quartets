@@ -8,13 +8,18 @@ import shutil
 from pathlib import Path
 from typing import Union, Any, Optional
 from tempfile import NamedTemporaryFile, TemporaryDirectory
+from itertools import groupby
 
+import xml
 import xml.etree.ElementTree as ET
 
 import json
-import cv2
+import strictyaml as syaml
 
 from tqdm.auto import tqdm
+
+import cv2
+import music21
 
 from modules.lsyolo import bbox_utils 
 
@@ -24,6 +29,28 @@ dformat = lambda d: json.dumps(d, indent=2)
 dprint = lambda d: print(dformat(d))
 
 PathLike = Union[Path, str]
+
+
+def load_ossq_metadata(path:PathLike) -> dict[str,Any]:
+  if isinstance(path, str):
+    path = Path(path)
+  
+  assert path.exists(), "Metadata file not found"
+  assert path.suffix in [ '.yaml', '.yml' ], "Only YAML file expected"
+
+  with open(path, 'r') as f:
+    data = syaml.load(f.read()).data
+  
+  metadata = {
+    str(k): dict(
+      sqid=f'sq{k}',
+      xml_path=v['path']+f'/sq{k}.musicxml',
+      **v
+    )
+    for k, v in data.items()
+  }
+  
+  return metadata
 
 
 def get_argument_parser(args=None):
@@ -157,67 +184,3 @@ def crop_white_space(img, margin=10, ratio=0.5, compare_fn=operator.gt):
   xed = min(w, xed)
   
   return img[yst:yed, xst:xed]
-
-
-
-# <-------------------- Deprecated -------------------->
-class deprecated():
-  def delete_old_musicxml_files(metadata, score_dir):
-    """
-    Delete all MusicXML files in the data directory.
-    """
-    for ossq_id, infos in metadata.items():
-      ossq_id = f'sq{ossq_id}'
-      
-      mscore_dir = score_dir / infos['path'] 
-      musicxml_path = mscore_dir / f"{ossq_id}.musicxml"
-      
-      image_paths = (mscore_dir / 'images' / 'original').glob('*.png')
-      image_paths = list(sorted(image_paths))
-      
-      assert musicxml_path.exists(), f"old score: {str(musicxml_path)} does not exist"
-      assert all([ p.exists() for p in image_paths ]), f"old score: some images do not exist"
-      
-      # delete old files
-      musicxml_path.unlink()
-      for p in image_paths:
-        p.unlink()
-
-
-  def merge_external_files(metadata, score_dir, out_dir):
-    score_pbar = tqdm(metadata.items())
-    
-    for ossq_id, infos in score_pbar:
-      ossq_id = f'sq{ossq_id}'
-      
-      score_pbar.set_description(f"{ossq_id}")
-      
-      new_mscore_dir = out_dir / infos['path']
-      new_musicxml_path = new_mscore_dir / f'{ossq_id}.musicxml'
-      new_image_paths = (new_mscore_dir / 'images' / 'original').glob('*.png')
-      new_image_paths = list(sorted(new_image_paths))
-      
-      assert new_musicxml_path.exists(), f"{str(new_musicxml_path)} does not exist"
-      assert all([ p.exists() for p in new_image_paths ]), f"some images do not exist"
-      
-      mscore_dir = score_dir / infos['path'] 
-      musicxml_path = mscore_dir / f"{ossq_id}.musicxml"
-      image_dir = mscore_dir / 'images' / 'original'
-      
-      # copy new files
-      shutil.copy(new_musicxml_path, musicxml_path)
-      for src_img in new_image_paths:
-        shutil.copy(src_img, image_dir / src_img.name)
-
-
-  def delete_old_lmxe(metadata, score_dir):
-    score_pbar = tqdm(metadata.items())
-    for mscore_id, infos in score_pbar:
-      ossq_id = f'sq{mscore_id}'
-      score_pbar.set_description(f"{ossq_id}")
-      
-      mscore_dir = score_dir / infos['path'] 
-      lmxe_paths = (mscore_dir / 'lmxe').glob('*.lmxe')
-      
-      for p in lmxe_paths:
-        p.unlink()
