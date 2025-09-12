@@ -523,6 +523,465 @@ def find_missing_notes(file1, file2):
   return missing_elements, extra_elements
 
 
+class AccidentalComparisonFunctions:
+  pass
+
+def diagnose_accidental_parsing_issues(file1, file2):
+  """Diagnose accidental interpretation differences between identical-looking MusicXML files"""
+  
+  print("=== MUSICXML ACCIDENTAL PARSING DIAGNOSIS ===")
+  
+  # Parse with music21
+  score1 = music21.converter.parse(file1)
+  score2 = music21.converter.parse(file2)
+  
+  notes1 = list(score1.flat.notes)
+  notes2 = list(score2.flat.notes)
+  
+  # Also parse raw XML
+  tree1 = ET.parse(file1)
+  tree2 = ET.parse(file2)
+  
+  print(f"Music21 parsed notes: {len(notes1)} vs {len(notes2)}")
+  
+  # Find pitch differences
+  pitch_diffs = []
+  for i, (n1, n2) in enumerate(zip(notes1, notes2)):
+    if hasattr(n1, 'pitch') and hasattr(n2, 'pitch'):
+      if n1.pitch.midi != n2.pitch.midi:
+        diff_info = {
+          'index': i,
+          'pitch1': n1.pitch,
+          'pitch2': n2.pitch,
+          'midi1': n1.pitch.midi,
+          'midi2': n2.pitch.midi,
+          'diff': n2.pitch.midi - n1.pitch.midi,
+          'measure1': get_measure_number(score1, n1),
+          'measure2': get_measure_number(score2, n2),
+          'offset1': n1.offset,
+          'offset2': n2.offset
+        }
+        pitch_diffs.append(diff_info)
+  
+  if not pitch_diffs:
+    print("✅ No pitch differences found in music21 parsing")
+    return
+  
+  print(f"\n🔍 Found {len(pitch_diffs)} pitch differences:")
+  
+  for i, diff in enumerate(pitch_diffs[:]):  # Show first 5
+    print(f"\nDifference {i+1}:")
+    print(f"  Note index: {diff['index']}")
+    print(f"  Measure: M{diff['measure1']} vs M{diff['measure2']}")
+    print(f"  Music21 interpretation: {diff['pitch1'].name}{diff['pitch1'].octave} vs {diff['pitch2'].name}{diff['pitch2'].octave}")
+    print(f"  MIDI values: {diff['midi1']} vs {diff['midi2']} (diff: {diff['diff']:+d})")
+    print(f"  Accidentals: {diff['pitch1'].accidental} vs {diff['pitch2'].accidental}")
+  
+  # Now check what's actually in the XML
+  print(f"\n=== RAW XML COMPARISON ===")
+  check_xml_accidentals_around_diffs(file1, file2, pitch_diffs[:])
+  
+  # Check for context issues
+  print(f"\n=== CONTEXT ANALYSIS ===")
+  analyze_accidental_context_issues(score1, score2, pitch_diffs)
+  
+  return pitch_diffs
+
+def check_xml_accidentals_around_diffs(file1, file2, pitch_diffs):
+  """Check what's actually written in the XML around problematic notes"""
+  
+  def extract_note_xml_info(filename):
+    tree = ET.parse(filename)
+    root = tree.getroot()
+    
+    notes_xml = []
+    for note in root.findall('.//note'):
+      pitch_elem = note.find('pitch')
+      if pitch_elem is not None:
+        step = pitch_elem.find('step')
+        octave = pitch_elem.find('octave')
+        alter = pitch_elem.find('alter')
+        accidental = note.find('accidental')
+        
+        note_info = {
+          'step': step.text if step is not None else None,
+          'octave': int(octave.text) if octave is not None else None,
+          'alter': int(alter.text) if alter is not None else 0,
+          'accidental': accidental.text if accidental is not None else None,
+          'xml_element': note
+        }
+        notes_xml.append(note_info)
+    return notes_xml
+  
+  xml_notes1 = extract_note_xml_info(file1)
+  xml_notes2 = extract_note_xml_info(file2)
+  
+  print("Raw XML comparison for problematic notes:")
+  
+  for diff in pitch_diffs:
+    idx = diff['index']
+    if idx < len(xml_notes1) and idx < len(xml_notes2):
+      xml1 = xml_notes1[idx]
+      xml2 = xml_notes2[idx]
+      
+      print(f"\nNote {idx}:")
+      print(f"  File1 XML: {xml1['step']}{xml1['octave']} alter={xml1['alter']} accidental={xml1['accidental']}")
+      print(f"  File2 XML: {xml2['step']}{xml2['octave']} alter={xml2['alter']} accidental={xml2['accidental']}")
+      
+      # Check if XML is identical but music21 interprets differently
+      if (xml1['step'] == xml2['step'] and xml1['octave'] == xml2['octave'] and 
+          xml1['alter'] == xml2['alter'] and xml1['accidental'] == xml2['accidental']):
+        print(f"  ⚠️  XML is IDENTICAL but music21 interprets differently!")
+        print(f"      This suggests a context interpretation issue")
+
+def analyze_accidental_context_issues(score1, score2, pitch_diffs):
+  """Analyze context that might cause different accidental interpretation"""
+  
+  # Check key signatures
+  keys1 = [str(k) for k in score1.flat.getElementsByClass('KeySignature')]
+  keys2 = [str(k) for k in score2.flat.getElementsByClass('KeySignature')]
+
+  print(f"Key signatures:")
+  print(f"  File1: {keys1}")
+  print(f"  File2: {keys2}")
+
+  if str(keys1) != str(keys2):
+    print("  ⚠️  Key signature difference detected!")
+  
+  # Check for previous accidentals in the same measure
+  for diff in pitch_diffs[:]:
+    idx = diff['index']
+    measure1 = diff['measure1']
+    measure2 = diff['measure2']
+    
+    print(f"\nContext for note {idx} (M{measure1}):")
+    
+    # Get all notes in the same measure before this note
+    measure_notes1 = []
+    measure_notes2 = []
+    
+    for i, note in enumerate(score1.flat.notes):
+      if i >= idx:
+        break
+      note_measure = get_measure_number(score1, note)
+      if note_measure == measure1 and hasattr(note, 'pitch'):
+        measure_notes1.append((i, note.pitch.name, note.pitch.accidental))
+    
+    for i, note in enumerate(score2.flat.notes):
+      if i >= idx:
+        break
+      note_measure = get_measure_number(score2, note)
+      if note_measure == measure2 and hasattr(note, 'pitch'):
+        measure_notes2.append((i, note.pitch.name, note.pitch.accidental))
+    
+    print(f"  Previous notes in measure (File1): {measure_notes1[-3:] if measure_notes1 else 'None'}")
+    print(f"  Previous notes in measure (File2): {measure_notes2[-3:] if measure_notes2 else 'None'}")
+
+def fix_accidental_interpretation_comparison(file1, file2):
+  """Compare files with normalized accidental interpretation"""
+  
+  print("=== NORMALIZED ACCIDENTAL COMPARISON ===")
+  
+  score1 = music21.converter.parse(file1)
+  score2 = music21.converter.parse(file2)
+  
+  # Method 1: Compare MIDI values only (ignoring enharmonic spelling)
+  midi_seq1 = [n.pitch.midi for n in score1.flat.notes if hasattr(n, 'pitch')]
+  midi_seq2 = [n.pitch.midi for n in score2.flat.notes if hasattr(n, 'pitch')]
+  
+  print(f"MIDI sequence comparison: {'✅ IDENTICAL' if midi_seq1 == midi_seq2 else '❌ DIFFERENT'}")
+  
+  if midi_seq1 != midi_seq2:
+    print(f"  Sequence lengths: {len(midi_seq1)} vs {len(midi_seq2)}")
+    # Find first difference
+    for i, (m1, m2) in enumerate(zip(midi_seq1, midi_seq2)):
+      if m1 != m2:
+        print(f"  First difference at note {i}: MIDI {m1} vs {m2}")
+        break
+  
+  # Method 2: Force respelling to remove enharmonic differences
+  def normalize_pitches(score):
+    normalized = score.flat.stripTies()
+    for note in normalized.notes:
+      if hasattr(note, 'pitch'):
+        # Force to sharp-based spelling
+        note.pitch = note.pitch.getEnharmonic()
+    return normalized
+  
+  try:
+    norm1 = normalize_pitches(score1)
+    norm2 = normalize_pitches(score2)
+    
+    norm_midi1 = [n.pitch.midi for n in norm1.notes if hasattr(n, 'pitch')]
+    norm_midi2 = [n.pitch.midi for n in norm2.notes if hasattr(n, 'pitch')]
+    
+    print(f"Normalized comparison: {'✅ IDENTICAL' if norm_midi1 == norm_midi2 else '❌ DIFFERENT'}")
+    
+  except Exception as e:
+    print(f"Normalization failed: {e}")
+  
+  return midi_seq1 == midi_seq2
+
+def quick_accidental_fix_check(file1, file2):
+  """Quick check to see if accidental issues are the only problem"""
+  
+  # Parse and compare just MIDI values
+  score1 = music21.converter.parse(file1)
+  score2 = music21.converter.parse(file2)
+  
+  midi1 = [n.pitch.midi for n in score1.flat.notes if hasattr(n, 'pitch')]
+  midi2 = [n.pitch.midi for n in score2.flat.notes if hasattr(n, 'pitch')]
+  
+  if midi1 == midi2:
+    print("✅ MIDI sequences are identical - issue is only accidental display/interpretation")
+    print("   Your encoding/decoding is musically correct!")
+    return True
+  else:
+    print("❌ MIDI sequences differ - there are actual pitch errors")
+    print(f"   Length: {len(midi1)} vs {len(midi2)}")
+    if len(midi1) == len(midi2):
+      diffs = sum(1 for m1, m2 in zip(midi1, midi2) if m1 != m2)
+      print(f"   {diffs} actual pitch differences found")
+    return False
+
+# Usage functions
+def comprehensive_accidental_diagnosis(file1, file2):
+  """Complete accidental diagnosis"""
+  print("=" * 60)
+  print("MUSICXML ACCIDENTAL PARSING DIAGNOSIS")
+  print("=" * 60)
+  
+  # Quick check first
+  if quick_accidental_fix_check(file1, file2):
+    print("\n🎯 RECOMMENDATION: Ignore accidental display differences")
+    print("   Your encoding preserves the musical content correctly")
+    return True
+  
+  # Detailed diagnosis
+  print("\n" + "="*40)
+  pitch_diffs = diagnose_accidental_parsing_issues(file1, file2)
+  
+  print("\n" + "="*40)
+  fix_accidental_interpretation_comparison(file1, file2)
+  
+  return False
+
+
+def compare_key_signatures_then_transpose_to_c(file1, file2):
+  """Compare key signatures separately, then compare notes transposed to C major"""
+  
+  print("=== STEP 1: KEY SIGNATURE COMPARISON ===")
+  
+  # Extract key signatures from both files
+  def extract_key_signatures_xml(filename):
+    tree = ET.parse(filename)
+    root = tree.getroot()
+    
+    key_sigs = []
+    for part in root.findall('.//part'):
+      part_id = part.get('id', 'unknown')
+      for i, measure in enumerate(part.findall('measure')):
+        measure_num = measure.get('number', str(i+1))
+        for attributes in measure.findall('attributes'):
+          key_elem = attributes.find('key')
+          if key_elem is not None:
+            fifths_elem = key_elem.find('fifths')
+            mode_elem = key_elem.find('mode')
+            
+            fifths = int(fifths_elem.text) if fifths_elem is not None else 0
+            mode = mode_elem.text if mode_elem is not None else 'major'
+            
+            key_sigs.append({
+              'part': part_id,
+              'measure': measure_num,
+              'fifths': fifths,
+              'mode': mode
+            })
+    return key_sigs
+  
+  keys1 = extract_key_signatures_xml(file1)
+  keys2 = extract_key_signatures_xml(file2)
+  
+  print(f"Key signature count: {len(keys1)} vs {len(keys2)}")
+  
+  # Compare key signatures
+  key_sigs_match = True
+  if len(keys1) != len(keys2):
+    key_sigs_match = False
+    print("❌ Key signature count differs")
+  else:
+    for i, (k1, k2) in enumerate(zip(keys1, keys2)):
+      if k1['fifths'] != k2['fifths'] or k1['mode'] != k2['mode']:
+        key_sigs_match = False
+        print(f"❌ Key {i+1}: Part {k1['part']} M{k1['measure']} - "
+              f"fifths {k1['fifths']} vs {k2['fifths']}, mode {k1['mode']} vs {k2['mode']}")
+  
+  if key_sigs_match:
+    print("✅ Key signatures match perfectly")
+  
+  print(f"\n=== STEP 2: TRANSPOSE BOTH TO C MAJOR AND COMPARE ===")
+  
+  # Create C major versions
+  c_major_file1 = file1.parent / file1.name.replace('.musicxml', '_c_major.musicxml')
+  c_major_file2 = file2.parent / file2.name.replace('.musicxml', '_c_major.musicxml')
+  
+  remove_all_key_signatures(file1, c_major_file1)
+  remove_all_key_signatures(file2, c_major_file2)
+  
+  # Compare the C major versions
+  score1_c = music21.converter.parse(c_major_file1)
+  score2_c = music21.converter.parse(c_major_file2)
+  
+  # Extract MIDI sequences from C major versions
+  midi1 = []
+  midi2 = []
+  
+  for element in score1_c.flat.notes:
+    if hasattr(element, 'pitch'):
+      midi1.append(element.pitch.midi)
+    elif is_chord(element):
+      for pitch in element.pitches:
+        midi1.append(pitch.midi)
+  
+  for element in score2_c.flat.notes:
+    if hasattr(element, 'pitch'):
+      midi2.append(element.pitch.midi)
+    elif is_chord(element):
+      for pitch in element.pitches:
+        midi2.append(pitch.midi)
+  
+  print(f"C major note count: {len(midi1)} vs {len(midi2)}")
+  
+  notes_match = midi1 == midi2
+  
+  if notes_match:
+    print("✅ Notes match perfectly when transposed to C major")
+  else:
+    print("❌ Notes differ even in C major")
+    if len(midi1) == len(midi2):
+      diffs = sum(1 for m1, m2 in zip(midi1, midi2) if m1 != m2)
+      print(f"   {diffs} pitch differences found")
+      
+      # Show first few differences
+      for i, (m1, m2) in enumerate(zip(midi1, midi2)):
+        if m1 != m2:
+          note1_name = music21.pitch.Pitch(midi=m1).nameWithOctave
+          note2_name = music21.pitch.Pitch(midi=m2).nameWithOctave
+          print(f"   Note {i}: {note1_name} (MIDI {m1}) vs {note2_name} (MIDI {m2})")
+    else:
+      print(f"   Different note counts: {len(midi1)} vs {len(midi2)}")
+  
+  # Summary
+  print(f"\n=== SUMMARY ===")
+  if key_sigs_match and notes_match:
+    print("✅ PERFECT MATCH: Both key signatures and notes are identical")
+  elif key_sigs_match and not notes_match:
+    print("🎯 Key signatures match, notes differ")
+    print("   → Focus on note encoding logic")
+  elif not key_sigs_match and notes_match:
+    print("🎯 Notes match, key signatures differ")  
+    print("   → Focus on key signature encoding logic")
+  else:
+    print("❌ Both key signatures and notes differ")
+  
+  return key_sigs_match, notes_match
+
+
+def remove_all_key_signatures(input_file, output_file):
+  """Remove all key signature elements from MusicXML file"""
+  
+  tree = ET.parse(input_file)
+  root = tree.getroot()
+  
+  removed_count = 0
+  
+  # Remove all <key> elements
+  for part in root.findall('.//part'):
+    for measure in part.findall('measure'):
+      for attributes in measure.findall('attributes'):
+        key_elem = attributes.find('key')
+        if key_elem is not None:
+          attributes.remove(key_elem)
+          removed_count += 1
+          
+          # Remove empty attributes elements
+          if len(list(attributes)) == 0:
+            measure.remove(attributes)
+  
+  # Save the modified file
+  tree.write(output_file, encoding='utf-8', xml_declaration=True)
+  print(f"Removed {removed_count} key signatures, saved as {output_file}")
+  
+  return removed_count
+
+
+def compare_with_key_normalization(file1, file2):
+  """Quick comparison with key signature normalization"""
+  
+  print("=== KEY SIGNATURE NORMALIZED COMPARISON ===")
+  
+  # Step 1: Quick key signature check
+  def get_key_signature_sequence(filename):
+    tree = ET.parse(filename)
+    keys = []
+    for key_elem in tree.findall('.//key'):
+      fifths = key_elem.find('fifths')
+      keys.append(
+        int(fifths.text) if fifths is not None else 0,
+      )
+    return keys
+  
+  keys1 = get_key_signature_sequence(file1)
+  keys2 = get_key_signature_sequence(file2)
+  
+  print(f"Key signatures: {keys1}")
+  print(f"                {keys2}")
+  print(f"Key sigs match: {'✅' if keys1 == keys2 else '❌'}")
+  
+  # Step 2: Compare with keys removed
+  temp_file1 = 'temp_no_keys_1.xml'
+  temp_file2 = 'temp_no_keys_2.xml'
+  
+  remove_all_key_signatures(file1, temp_file1)
+  remove_all_key_signatures(file2, temp_file2)
+  
+  # Parse and compare
+  score1 = music21.converter.parse(temp_file1)
+  score2 = music21.converter.parse(temp_file2)
+  
+  midi1 = [n.pitch.midi for n in score1.flat.notes if hasattr(n, 'pitch')]
+  midi2 = [n.pitch.midi for n in score2.flat.notes if hasattr(n, 'pitch')]
+  
+  # Add chord notes
+  for element in score1.flat.notes:
+    if is_chord(element):
+      midi1.extend([p.midi for p in element.pitches])
+  
+  for element in score2.flat.notes:
+    if is_chord(element):
+      midi2.extend([p.midi for p in element.pitches])
+  
+  notes_match = midi1 == midi2
+  print(f"Notes match (no key sigs): {'✅' if notes_match else '❌'}")
+  
+  if not notes_match and len(midi1) == len(midi2):
+    diffs = sum(1 for m1, m2 in zip(midi1, midi2) if m1 != m2)
+    print(f"   {diffs} note differences found")
+    for m1, m2, is_same in [(m1, m2, m1==m2) for m1, m2 in zip(midi1, midi2)]:
+      print(m1, m2, is_same)
+  
+  # Clean up temp files
+  import os
+  try:
+    os.remove(temp_file1)
+    os.remove(temp_file2)
+  except:
+    pass
+  
+  return keys1 == keys2, notes_match
+
+
+
 class ChordComparisonFunctions:
   pass
 
@@ -726,8 +1185,10 @@ def compare_offsets(file1, file2, tolerance=0.001):
   elements1 = list(score1.flat.notesAndRests)
   elements2 = list(score2.flat.notesAndRests)
   
-  musical_elements1 = [e for e in elements1 if hasattr(e, 'pitch') or is_chord(e)]
-  musical_elements2 = [e for e in elements2 if hasattr(e, 'pitch') or is_chord(e)]
+  # musical_elements1 = [e for e in elements1 if hasattr(e, 'pitch') or is_chord(e)]
+  # musical_elements2 = [e for e in elements2 if hasattr(e, 'pitch') or is_chord(e)]
+  musical_elements1 = elements1
+  musical_elements2 = elements2
   
   if len(musical_elements1) != len(musical_elements2):
     print(f"⚠️  Element count mismatch: {len(musical_elements1)} vs {len(musical_elements2)}")
