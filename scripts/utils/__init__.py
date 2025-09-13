@@ -61,12 +61,12 @@ def get_argument_parser(args=None):
       ('-d', '--base_dir', True, str),
     ]
 
-  for short, full, required, type_ in args:
+  for short, full, required, _type in args:
     parser.add_argument(
       short,
       full,
       required=required,
-      type=type_
+      type=_type
     )
   
   return parser
