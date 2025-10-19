@@ -16,11 +16,13 @@ import cv2
 
 from tqdm.auto import tqdm
 
+import xml.etree.ElementTree as ET
 import pdfplumber
 
 from modules.lsyolo import bbox_utils 
 from modules.lmxe.lmxe import load_lmx, delinearize_lmx
-from modules.lmxe.lmxe import load_lmxe, delinearize_lmxe
+from modules.lmxe.lmxe import delinearize_lmxe
+from modules.lmxe.lmxe.LMXEFile import LMXEFile
 
 from .utils import get_ts, PathLike
 from .utils import spawn_processes, terminate_processes
@@ -291,17 +293,17 @@ def convert_pdf_to_images(metadata:dict, score_dir:PathLike):
 
 lmx_func = {
   'lmx': (load_lmx, delinearize_lmx),
-  'lmxe': (load_lmxe, delinearize_lmxe),
+  'lmxe': (None, delinearize_lmxe),
 }
 
 def single_render(render_data):
-  l_p, out_dir, load_fn, delinearize_fn, dpi, script_path, style_path, env = render_data
+  l_p, out_dir, _, delinearize_fn, dpi, script_path, style_path, env = render_data
 
   out_sub_dir = out_dir / l_p.stem.replace('.system', '').replace('.page', '')
   out_sub_dir.mkdir(exist_ok=True)
   
-  lmx = load_fn(l_p)
-  xml = delinearize_fn(lmx)
+  xml = delinearize_fn(l_p)
+  xml = ET.tostring(xml.tree.getroot(), encoding='utf-8', xml_declaration=True).decode('utf-8')
   
   mscx_path = convert_musicxml_to_mscx(xml, out_sub_dir, script_path, style_path)
 
@@ -361,13 +363,10 @@ def render_lmx(
     try:
       image_path = single_render(render_data)
       total_paths.append(image_path)
-    except:
+    except Exception as e:
+      print(f"[ERROR] Rendering {render_data[0]} failed: {e}")
       total_paths.append(None)
 
-  # with multiprocessing.Pool(16) as pool:
-  #   for result in pool.imap_unordered(single_render, [(p, out_dir, load, delinearize, dpi, script_path, style_path, env) for p in lmxe_paths]):
-  #     total_paths.append(result)
-  
   terminate_processes(processes)
   
   return total_paths

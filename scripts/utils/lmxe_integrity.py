@@ -160,8 +160,17 @@ def is_grace_note(note):
 
 def diagnose_semitone_errors(file1, file2):
   """Detailed analysis of ±1 semitone pitch errors"""
-  score1 = music21.converter.parse(file1)
-  score2 = music21.converter.parse(file2)
+  try:
+    score1 = music21.converter.parse(file1)
+  except:
+    parser = music21.musicxml.xmlToM21.MusicXMLImporter()
+    score1 = parser.scoreFromFile(file1)
+  
+  try:
+    score2 = music21.converter.parse(file2)
+  except:
+    parser = music21.musicxml.xmlToM21.MusicXMLImporter()
+    score2 = parser.scoreFromFile(file2)
   
   print("=== SEMITONE ERROR ANALYSIS ===")
   
@@ -406,8 +415,17 @@ def pinpoint_semitone_issues(original_file, decoded_file):
 
 def find_missing_notes(file1, file2):
   """Find missing/extra notes, chords, and rests using sequence alignment"""
-  score1 = music21.converter.parse(file1)
-  score2 = music21.converter.parse(file2)
+  try:
+    score1 = music21.converter.parse(file1)
+  except:
+    parser = music21.musicxml.xmlToM21.MusicXMLImporter()
+    score1 = parser.scoreFromFile(file1)
+  
+  try:
+    score2 = music21.converter.parse(file2)
+  except:
+    parser = music21.musicxml.xmlToM21.MusicXMLImporter()
+    score2 = parser.scoreFromFile(file2)
   
   def extract_elements(score):
     elements = []
@@ -532,8 +550,17 @@ def diagnose_accidental_parsing_issues(file1, file2):
   print("=== MUSICXML ACCIDENTAL PARSING DIAGNOSIS ===")
   
   # Parse with music21
-  score1 = music21.converter.parse(file1)
-  score2 = music21.converter.parse(file2)
+  try:
+    score1 = music21.converter.parse(file1)
+  except:
+    parser = music21.musicxml.xmlToM21.MusicXMLImporter()
+    score1 = parser.scoreFromFile(file1)
+  
+  try:
+    score2 = music21.converter.parse(file2)
+  except:
+    parser = music21.musicxml.xmlToM21.MusicXMLImporter()
+    score2 = parser.scoreFromFile(file2)
   
   notes1 = list(score1.flat.notes)
   notes2 = list(score2.flat.notes)
@@ -682,8 +709,17 @@ def fix_accidental_interpretation_comparison(file1, file2):
   
   print("=== NORMALIZED ACCIDENTAL COMPARISON ===")
   
-  score1 = music21.converter.parse(file1)
-  score2 = music21.converter.parse(file2)
+  try:
+    score1 = music21.converter.parse(file1)
+  except:
+    parser = music21.musicxml.xmlToM21.MusicXMLImporter()
+    score1 = parser.scoreFromFile(file1)
+  
+  try:
+    score2 = music21.converter.parse(file2)
+  except:
+    parser = music21.musicxml.xmlToM21.MusicXMLImporter()
+    score2 = parser.scoreFromFile(file2)
   
   # Method 1: Compare MIDI values only (ignoring enharmonic spelling)
   midi_seq1 = [n.pitch.midi for n in score1.flat.notes if hasattr(n, 'pitch')]
@@ -726,8 +762,17 @@ def quick_accidental_fix_check(file1, file2):
   """Quick check to see if accidental issues are the only problem"""
   
   # Parse and compare just MIDI values
-  score1 = music21.converter.parse(file1)
-  score2 = music21.converter.parse(file2)
+  try:
+    score1 = music21.converter.parse(file1)
+  except:
+    parser = music21.musicxml.xmlToM21.MusicXMLImporter()
+    score1 = parser.scoreFromFile(file1)
+  
+  try:
+    score2 = music21.converter.parse(file2)
+  except:
+    parser = music21.musicxml.xmlToM21.MusicXMLImporter()
+    score2 = parser.scoreFromFile(file2)
   
   midi1 = [n.pitch.midi for n in score1.flat.notes if hasattr(n, 'pitch')]
   midi2 = [n.pitch.midi for n in score2.flat.notes if hasattr(n, 'pitch')]
@@ -1059,8 +1104,17 @@ def compare_chord_structures(chord1, chord2):
 
 def diagnose_chord_differences(file1, file2):
   """Comprehensive chord difference analysis"""
-  score1 = music21.converter.parse(file1)
-  score2 = music21.converter.parse(file2)
+  try:
+    score1 = music21.converter.parse(file1)
+  except:
+    parser = music21.musicxml.xmlToM21.MusicXMLImporter()
+    score1 = parser.scoreFromFile(file1)
+  
+  try:
+    score2 = music21.converter.parse(file2)
+  except:
+    parser = music21.musicxml.xmlToM21.MusicXMLImporter()
+    score2 = parser.scoreFromFile(file2)
   
   print("=== CHORD STRUCTURE ANALYSIS ===")
   
@@ -1130,8 +1184,17 @@ def diagnose_chord_differences(file1, file2):
 
 def analyze_chord_patterns(file1, file2):
   """Analyze patterns in chord encoding/decoding"""
-  score1 = music21.converter.parse(file1)
-  score2 = music21.converter.parse(file2)
+  try:
+    score1 = music21.converter.parse(file1)
+  except:
+    parser = music21.musicxml.xmlToM21.MusicXMLImporter()
+    score1 = parser.scoreFromFile(file1)
+  
+  try:
+    score2 = music21.converter.parse(file2)
+  except:
+    parser = music21.musicxml.xmlToM21.MusicXMLImporter()
+    score2 = parser.scoreFromFile(file2)
   
   elements1 = [e for e in score1.flat.notesAndRests if hasattr(e, 'pitch') or is_chord(e)]
   elements2 = [e for e in score2.flat.notesAndRests if hasattr(e, 'pitch') or is_chord(e)]
@@ -1177,8 +1240,17 @@ class OffsetComparisonFunctions:
 
 def compare_offsets(file1, file2, tolerance=0.001):
   """Comprehensive offset/timing comparison"""
-  score1 = music21.converter.parse(file1)
-  score2 = music21.converter.parse(file2)
+  try:
+    score1 = music21.converter.parse(file1)
+  except:
+    parser = music21.musicxml.xmlToM21.MusicXMLImporter()
+    score1 = parser.scoreFromFile(file1)
+  
+  try:
+    score2 = music21.converter.parse(file2)
+  except:
+    parser = music21.musicxml.xmlToM21.MusicXMLImporter()
+    score2 = parser.scoreFromFile(file2)
   
   print("=== OFFSET/TIMING ANALYSIS ===")
   
@@ -1218,6 +1290,8 @@ def compare_offsets(file1, file2, tolerance=0.001):
     if abs(duration_diff) > tolerance:
       duration_differences.append({
         'index': i,
+        'original_pitch': e1.pitches if is_chord(e1) else (e1.pitch.name,e1.pitch.octave) if hasattr(e1, 'pitch') else None,
+        'decoded_pitch': e2.pitches if is_chord(e2) else (e2.pitch.name,e2.pitch.octave) if hasattr(e2, 'pitch') else None,
         'original_duration': e1.duration.quarterLength,
         'decoded_duration': e2.duration.quarterLength,
         'difference': duration_diff,
@@ -1272,6 +1346,7 @@ def compare_offsets(file1, file2, tolerance=0.001):
   for i, diff in enumerate(duration_differences[:10]):
     idx = diff['index']
     print(f"Element {idx} ({diff['element_type']}) in Measure {diff['measure']}:")
+    print(f"  Pitches: {diff['original_pitch']} → {diff['decoded_pitch']}")
     print(f"  Duration: {diff['original_duration']:.6f} → {diff['decoded_duration']:.6f}")
     print(f"  Difference: {diff['difference']:+.6f} quarter notes")
   
@@ -1280,8 +1355,17 @@ def compare_offsets(file1, file2, tolerance=0.001):
 
 def analyze_rhythmic_patterns(file1, file2):
   """Analyze rhythmic pattern preservation"""
-  score1 = music21.converter.parse(file1)
-  score2 = music21.converter.parse(file2)
+  try:
+    score1 = music21.converter.parse(file1)
+  except:
+    parser = music21.musicxml.xmlToM21.MusicXMLImporter()
+    score1 = parser.scoreFromFile(file1)
+  
+  try:
+    score2 = music21.converter.parse(file2)
+  except:
+    parser = music21.musicxml.xmlToM21.MusicXMLImporter()
+    score2 = parser.scoreFromFile(file2)
   
   print("=== RHYTHMIC PATTERN ANALYSIS ===")
   
