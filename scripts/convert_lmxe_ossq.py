@@ -43,13 +43,15 @@ def main(base_dir:Path, reduced:bool=False, verify:bool=True):
   pbar = tqdm(pbar)
   for score_idx, (sqid, body) in enumerate(pbar):
     # if score_idx not in {32, 70, 95, 113}:
-    #   continue
+    # continue
 
     mscore_id = f'sq{sqid}'
+    if mscore_id not in ['sq7295726']:
+      continue
     pbar.set_description(mscore_id)
 
     xml_dir = score_dir / body['path']
-    xml_path = score_dir / body['xml_path']
+    xml_path = xml_dir / f'{mscore_id}_cleaned.musicxml'
     
     temp_dir = xml_dir / 'temp'
     temp_dir.mkdir(exist_ok=True)
