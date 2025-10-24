@@ -8,7 +8,6 @@ mscore*/
 # Binary and generated formats
 *.mscz
 *.mxl
-# *.musicxml
 *.pdf
 *.png
 *.mid
@@ -20,10 +19,10 @@ mscore*/
 yolov8m.pt
 *_yolo_bboxs.txt
 
-# lmx files
-*.lmx
-*.lmxe
-*.rlmxe
+# symbolic music files
+/scores/*/*/krn/
+/scores/*/*/musicxml/
+/scores/*/*/lmxe/
 
 # Backup and temporary files
 .mscbackup

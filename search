@@ -1,0 +1,7 @@
+#!/bin/bash
+
+ID=$1
+KRN=$(find -wholename "./scores/*/krn/${ID}.krn")
+IMG=$(find -wholename "./scores/*/cropped/${ID}.png")
+imgcat $IMG
+cat $KRN
