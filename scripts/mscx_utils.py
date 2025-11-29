@@ -32,7 +32,7 @@ from .utils import strip_musicXML, crop_white_space
 DEFAULT_ENV = {
   'QT_QPA_PLATFORM': 'xcb',
   'QT_X11_NO_MITSHM': '1',
-  # 'XDG_RUNTIME_DIR': '/home/dongmin/tmp'
+  'XDG_RUNTIME_DIR': '/home/issyun/tmp'
 }
 
 
@@ -181,13 +181,16 @@ def render_mscx(
   
   cmd = [
     mscore_exec,
-    f"-S {style_path}", 
     "-r",
     "{}".format(int(dpi)),
     "-o",
     str(img_fh),
     str(mscx_path),
   ]
+  
+  if style_path:
+    cmd.insert(1, "-S")
+    cmd.insert(2, style_path)
   
   try:
     ps = subprocess.run(
@@ -370,3 +373,160 @@ def render_lmx(
   terminate_processes(processes)
   
   return total_paths
+
+
+def render_musicxml_to_pdf(
+  musicxml_path: PathLike,
+  output_pdf_path: PathLike,
+  dpi: Optional[int] = 300,
+  script_path: str = './mscore',
+  style_path: str = '',
+  display_id: str = ':99',
+  cleanup_temp_files: bool = True,
+) -> PathLike:
+  """
+  Render a MusicXML file to PDF using MuseScore.
+  
+  This function converts a MusicXML file to an intermediate .mscx format,
+  then renders it as a PDF file. It requires MuseScore and Xvfb (virtual display).
+  
+  Parameters
+  ----------
+  musicxml_path : PathLike
+    Path to the input MusicXML file (.musicxml or .xml)
+  output_pdf_path : PathLike
+    Path where the output PDF should be saved
+  dpi : int, optional
+    Image resolution for rendering. Defaults to 300.
+  script_path : str, optional
+    Path to MuseScore executable. Defaults to './mscore'.
+  style_path : str, optional
+    Path to MuseScore style file (.mss). Defaults to empty string.
+  display_id : str, optional
+    Virtual display ID for Xvfb. Defaults to ':99'.
+  cleanup_temp_files : bool, optional
+    Whether to delete temporary .mscx file after rendering. Defaults to True.
+  
+  Returns
+  -------
+  PathLike
+    Path to the output PDF file if rendering was successful.
+  
+  Raises
+  ------
+  FileNotFoundError
+    If the input MusicXML file does not exist.
+  Exception
+    If MuseScore conversion or rendering fails.
+  
+  Example
+  -------
+  >>> render_musicxml_to_pdf(
+  ...     musicxml_path='input.musicxml',
+  ...     output_pdf_path='output.pdf',
+  ...     script_path='/usr/bin/mscore',
+  ... )
+  """
+  musicxml_path = Path(musicxml_path)
+  output_pdf_path = Path(output_pdf_path)
+  
+  if not musicxml_path.exists():
+    raise FileNotFoundError(f"MusicXML file not found: {musicxml_path}")
+  
+  # Create output directory if it doesn't exist
+  output_pdf_path.parent.mkdir(parents=True, exist_ok=True)
+  
+  # Setup environment with audio/jack disabled
+  env = os.environ.copy()
+  env.update({
+    'DISPLAY': display_id,
+    **DEFAULT_ENV,
+    # Disable Jack audio to prevent connection errors
+    'JACK_NO_START_SERVER': '1',
+    'JACK_NO_AUDIO_RESERVATION': '1',
+    # Disable PulseAudio
+    'PULSE_SERVER': '/dev/null',
+    # Disable ALSA
+    'ALSA_CARD': 'none',
+    # Additional Qt settings for headless operation
+    'QT_LOGGING_RULES': '*.debug=false;qt.qpa.*=false',
+  })
+  
+  # Start virtual display and MuseScore
+  process_configs = [
+    ['Xvfb', display_id, '-screen', '0', '2560x1440x24', '-ac'],
+    [script_path]
+  ]
+  
+  processes = spawn_processes(process_configs, env)
+  
+  # Give Xvfb time to start up
+  time.sleep(2)
+  
+  try:
+    # Read MusicXML content
+    with open(musicxml_path, 'r', encoding='utf-8') as f:
+      xml_content = f.read()
+    
+    # Strip and prepare XML
+    xml_content = strip_musicXML(xml_content)
+    
+    # Create temporary directory for intermediate files
+    temp_dir = output_pdf_path.parent / '.temp_musicxml_render'
+    temp_dir.mkdir(exist_ok=True)
+    
+    # Write temporary MusicXML file
+    temp_xml_path = temp_dir / 'temp.musicxml'
+    with open(temp_xml_path, 'w', encoding='utf-8') as f:
+      f.write(xml_content)
+    
+    # Convert MusicXML to .mscx
+    temp_mscx_path = temp_dir / 'temp.mscx'
+    cmd_convert = [
+      script_path,
+      "-o", str(temp_mscx_path), 
+      str(temp_xml_path)
+    ]
+    if style_path:
+      cmd_convert.insert(1, "-S")
+      cmd_convert.insert(2, style_path)
+    
+    ps = subprocess.run(
+      cmd_convert, env=env,
+      stdout=subprocess.PIPE, stderr=subprocess.PIPE
+    )
+    
+    if ps.returncode != 0:
+      raise Exception(
+        f"MusicXML to MSCX conversion failed. Command: {' '.join(cmd_convert)}\n"
+        f"Return code: {ps.returncode}\n"
+        f"Stderr: {ps.stderr.decode('UTF-8')}\n"
+        f"Stdout: {ps.stdout.decode('UTF-8')}"
+      )
+    
+    # Render .mscx to PDF
+    render_mscx(
+      mscx_path=temp_mscx_path,
+      out_path=output_pdf_path,
+      env=env,
+      dpi=dpi,
+      mscore_exec=script_path,
+      style_path=style_path,
+    )
+    
+    # Verify PDF was created
+    if not output_pdf_path.exists():
+      raise Exception(f"PDF rendering failed - output file not created: {output_pdf_path}")
+    
+    # Cleanup temporary files
+    if cleanup_temp_files:
+      shutil.rmtree(temp_dir, ignore_errors=True)
+    
+    return output_pdf_path
+  
+  except Exception as e:
+    raise Exception(f"Failed to render MusicXML to PDF: {e}")
+  
+  finally:
+    # Always cleanup virtual display processes
+    terminate_processes(processes)
