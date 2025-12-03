@@ -4,6 +4,8 @@ verify_ssl = true
 name = "pypi"
 
 [packages]
+ipykernel = "*"
+ipywidgets = "*"
 opencv-python = "*"
 numpy = "~=1.24.4"
 antlr4-python3-runtime = ">=4.13.2"
@@ -19,12 +21,12 @@ beautifulsoup4 = "*"
 lxml = "*"
 ultralytics = "*"
 pdfplumber = "*"
-converter21 = "*"
-music21 = "*"
+music21 = ">=9.7"
+converter21 = ">=3.5"
+musicdiff = "*"
 kernpy = "*"
-
-[dev-packages]
-ipykernel = "*"
+Levenshtein = ">=0.24.0"
+zss = "*"
 
 [requires]
 python_version = "3.10"
