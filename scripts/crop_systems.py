@@ -21,19 +21,20 @@ from tqdm.auto import tqdm
 
 from ultralytics import YOLO
 
-from .const import excluded_pages
-from .utils import get_argument_parser, load_bboxs
+from scripts.const import excluded_pages
+from scripts.utils import get_argument_parser, load_bboxs
 
 
-def main(base_dir:Path):
+def main(base_dir:Path, pdf_type:str='scanned'):
   score_dir = base_dir / 'scores'
 
-  model_weight_path = base_dir / 'modules' / 'lsyolo' / 'checkpoints' / 'ls-yolo-staff-v2.0.0.pt'
+  model_weight_path = base_dir / 'modules' / 'lsyolo' / 'checkpoints' / 'ls-yolo-staff-height-v2.0.0.pt'
   model = YOLO('yolov8m.pt')
   model._load(weights=str(model_weight_path))
 
   ## crop original image according to system bounding box coordinates
-  page_imgs = score_dir.glob('**/images/synthetic/original/*.png')
+  page_imgs = score_dir.glob(f'**/images/{pdf_type}/original/*.png')
+  
   image_bbox_pairs = [ 
     (page_img, page_img.parent / page_img.name.replace('.png', '_yolo_bboxs.txt'))
     for page_img in sorted(page_imgs)
@@ -46,6 +47,9 @@ def main(base_dir:Path):
     # load image
     img = cv2.imread(i_p, cv2.IMREAD_UNCHANGED)
 
+    if not b_p.exists():
+      continue
+    
     # load bboxs
     bboxs = load_bboxs(b_p, min_ratio=0.2)
 
@@ -86,6 +90,14 @@ def main(base_dir:Path):
 
 if __name__ == '__main__':
   parser = get_argument_parser()
+  parser.add_argument(
+    '-t', '--pdf-type',
+    required=True,
+    type=str,
+    default='scanned',
+    choices=['scanned', 'synthetic']
+  )
+  
   args = parser.parse_args()
   
-  main(Path(args.base_dir))
+  main(Path(args.base_dir), args.pdf_type)

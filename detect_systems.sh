@@ -1,2 +1,2 @@
 export PYTHONPATH=.:$PYTHONPATH
-python3 ./scripts/detect_systems.py -d $(pwd)
+python3 ./scripts/detect_systems.py -d $(pwd) -t scanned

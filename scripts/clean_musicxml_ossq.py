@@ -43,9 +43,6 @@ def main(base_dir:Path, verify:bool=True):
   pbar = tqdm(pbar)
   for score_idx, (sqid, body) in enumerate(pbar):
     mscore_id = f'sq{sqid}'
-    # if mscore_id not in ['sq7158117', 'sq7267316']:
-    if mscore_id not in ['sq7295726']:
-      continue
     pbar.set_description(mscore_id)
 
     xml_dir = score_dir / body['path']

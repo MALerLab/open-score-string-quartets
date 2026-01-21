@@ -18,19 +18,47 @@ from tqdm.auto import tqdm
 
 from ultralytics import YOLO
 
-from .utils import get_argument_parser
+from scripts.utils import get_argument_parser
 
 
-def main(base_dir:Path):
+def main(base_dir:Path, pdf_type:str='scanned'):
   score_dir = base_dir / 'scores'
   
-  model_weight_path = base_dir / 'modules' / 'lsyolo' / 'checkpoints' / 'ls-yolo-system-v2.0.1.pt'
+  model_weight_path = base_dir / 'modules' / 'lsyolo' / 'checkpoints' / 'ls-yolo-system-v3.0.0.pt'
   
   model = YOLO('yolov8m.pt')
   model._load(weights=str(model_weight_path))
   
-  page_imgs = score_dir.glob('**/images/synthetic/original/*.png')
-  page_imgs = list(sorted(page_imgs))
+  page_imgs = score_dir.glob(f'**/images/{pdf_type}/original/*.png')
+  page_imgs = sorted(page_imgs)
+  
+  if pdf_type == 'scanned':
+    page_alignments = {}
+    for p in sorted(score_dir.glob(f'**/sq*_scanned.csv')):
+      with open(p, 'r') as f:
+        r = f.readlines()[0].rstrip().split(':')
+        page_alignments[p.stem.split('_')[0]] = r
+    
+    page_imgs_filtered = []
+    for p in page_imgs:
+      sq_id, p_idx = p.stem.split(':')
+      
+      # if sq_id != 'sq10517302':
+      #   continue
+      
+      p_idx = int(p_idx)
+      
+      st, ed = page_alignments[sq_id]
+      st = int(st) if st != '' else 0 # convert empty to 0, p_idx starts from 1
+      ed = int(ed) if ed != '' else 1_000_000 # just a large number for no limit
+      
+      in_range = st <= p_idx <= ed
+      
+      if in_range:
+        page_imgs_filtered.append(p)
+    
+    page_imgs = page_imgs_filtered
+    del page_imgs_filtered
   
   print('# of segments:', len(page_imgs))
   
@@ -65,6 +93,14 @@ def main(base_dir:Path):
 
 if __name__ == '__main__':
   parser = get_argument_parser()
+  parser.add_argument(
+    '-t', '--pdf-type',
+    required=True,
+    type=str,
+    default='scanned',
+    choices=['scanned', 'synthetic']
+  )
+  
   args = parser.parse_args()
   
-  main(Path(args.base_dir))
+  main(Path(args.base_dir), args.pdf_type)

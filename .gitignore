@@ -2,8 +2,8 @@
 
 # local dirs and files
 notebooks_local/
-mscore*/
 *.log
+logs/
 
 # Binary and generated formats
 *.mscz
@@ -20,7 +20,7 @@ yolov8m.pt
 *_yolo_bboxs.txt
 
 # symbolic music files
-/scores/*/*/krn/
+/scores/*/*/kern/
 /scores/*/*/musicxml/
 /scores/*/*/lmxe/
 

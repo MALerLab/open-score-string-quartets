@@ -261,33 +261,42 @@ def convert_mscx_to_pdf(
   terminate_processes(processes)
 
 
-def split_pdf(pdf_path):
+def split_pdf(pdf_path, pdf_type='synthetic', log=None):
   if not pdf_path.exists():
-    print(f"PDF file does not exist:{str(pdf_path)}")
+    print(f"PDF file does not exist:{str(pdf_path)}", file=None)
     return
   
-  img_dir = pdf_path.parent / 'images' / 'synthetic' / 'original'
+  img_dir = pdf_path.parent / 'images' / pdf_type / 'original'
   img_dir.mkdir(parents=True, exist_ok=True)
-    
-  pdf = pdfplumber.open(str(pdf_path))
+  
+  try:
+    pdf = pdfplumber.open(str(pdf_path))
 
-  for page in pdf.pages:
-    page_number = str(page.page_number).zfill(4)
-    image = page.to_image(resolution=300)
-    
-    image_path = img_dir / f'{pdf_path.stem.split("_")[0]}:{page_number}.png'
-    image.save(str(image_path))
+    for page in pdf.pages:
+      page_number = str(page.page_number).zfill(4)
+      image = page.to_image(resolution=300)
+      
+      image_path = img_dir / f'{pdf_path.stem.split("_")[0]}:{page_number}.png'
+      image.save(str(image_path))
+  except Exception as e:
+    print(f"Failed to split:{str(pdf_path)}", file=log)
 
 
-def convert_pdf_to_images(metadata:dict, score_dir:PathLike):
+def convert_pdf_to_images(metadata:dict, score_dir:PathLike, pdf_type='synthetic', log_path:Optional[PathLike]=None):
   score_pbar = tqdm(metadata.items())
+  log = None
+  if log_path is not None:
+    log = open(log_path, 'w', encoding='utf-8')
+  
   for ossq_id, infos in score_pbar:
     ossq_id = f'sq{ossq_id}'
     
     mscore_dir = score_dir / infos['path'] 
-    pdf_path = mscore_dir / f"{ossq_id}_synthetic.pdf"
+    pdf_path = mscore_dir / f"{ossq_id}_{pdf_type}.pdf"
     
-    split_pdf(pdf_path)
+    split_pdf(pdf_path, pdf_type=pdf_type, log=log)
+  
+  log.close()
 
 
 

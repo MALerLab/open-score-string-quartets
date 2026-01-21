@@ -17,19 +17,22 @@ import cv2
 
 from tqdm.auto import tqdm
 
-from .const import excluded_pages
-from .utils import get_argument_parser, load_bboxs
+from scripts.const import excluded_pages
+from scripts.utils import get_argument_parser, load_bboxs
 
 
-def main(base_dir:Path, target_height:int):
+def main(base_dir:Path, target_height:int, pdf_type:str='scanned'):
   score_dir = base_dir / 'scores'
 
-  bbox_paths = score_dir.glob('**/images/synthetic/original/*_system_bboxs.txt')
+  bbox_paths = score_dir.glob(f'**/images/{pdf_type}/original/*_system_bboxs.txt')
+  
+  bbox_paths = [ p for p in sorted(bbox_paths) if p.stem.split(':')[0] == 'sq8623643' ]
+  
   bbox_paths = [ 
     p
     for p in sorted(bbox_paths)
-      if p.stem.replace('_system_bboxs', '') not in excluded_pages 
-      # filter out excluded pages
+    if p.stem.replace('_system_bboxs', '') not in excluded_pages 
+    # filter out excluded pages
   ]
 
   print('# of pages:', len(bbox_paths))
@@ -37,14 +40,20 @@ def main(base_dir:Path, target_height:int):
   for b_p in tqdm(bbox_paths):
     # load bboxs
     bboxs = load_bboxs(b_p, merge=False)
+    
+    staff_heights = [ h for *_, h in bboxs if h > 0 ]
+    mean_staff_height = sum(staff_heights) / len(staff_heights) if len(staff_heights) > 0 else 0
 
+    if mean_staff_height == 0:
+      continue
+    
     for i, (*_, staff_height) in enumerate(bboxs):
       # load image
       i_p = b_p.parent.parent / 'cropped' / b_p.name.replace('_system_bboxs.txt', f':{str(i+1).zfill(4)}.png')
       img = cv2.imread(i_p, cv2.IMREAD_UNCHANGED)
 
       h, w = img.shape[:2]
-      ratio = target_height / staff_height
+      ratio = target_height / mean_staff_height
 
       i_r = cv2.resize(img, (int(w * ratio), int(h * ratio)), interpolation=cv2.INTER_AREA)
       i_r = cv2.cvtColor(i_r, cv2.COLOR_RGB2GRAY)
@@ -61,10 +70,18 @@ if __name__ == '__main__':
     ('-d', '--base_dir', True, str),
     ('-t', '--target_height', True, int),
   ])
+  parser.add_argument(
+    '-p', '--pdf-type',
+    required=True,
+    type=str,
+    default='scanned',
+    choices=['scanned', 'synthetic']
+  )
 
   args = parser.parse_args()
 
   base_dir = Path(args.base_dir)
   target_height = args.target_height
+  pdf_type = args.pdf_type
 
-  main(base_dir, target_height)
+  main(base_dir, target_height, pdf_type)
