@@ -21,8 +21,47 @@ To render or convert .mscx files in this repo, you **need to use MuseScore3 v3.6
 Score and lyric files are arranged in the following directory structure:
 
 ```
-<composer>/<set>/
+<composer>/
+  <set>/
+    sq<id>.mscx
+    sq<id>.musicxml
+    sq<id>_cleaned.musicxml # optional dangling backup and invisible element cleaned version
+    sq<id>_synthetic.pdf
+    sq<id>_scanned.pdf # optional scanned version from IMSLP
+    sq<id>_scanned.csv # optional alignment data
+    images/
+      synthetic/
+        original/
+          sq<id>:<page>.png # 4-digits page index starting from 1
+        cropped/
+          sq<id>:<page>:<system>.png # 4-digits page, system index starting from 1
+        crop_resized/
+          sq<id>:<page>:<system>.png # 4-digits page, system index starting from 1
+        partwise/
+          sq<id>:<page>:<system>:<part>.png # 4-digits page, system index starting from 1, 1-digit part index [1,4]
+      scanned/
+        original/
+        cropped/
+        crop_resized/
+        partwise/
+    lmxe/
+      synthetic/
+        full/
+          sq<id>:<page>:<system>.lmxe
+        reduced/
+          sq<id>:<page>:<system>.lmxe
+        partwise/
+          sq<id>:<page>:<system>:<part>.lmxe
+      scanned/
+    kern/
+      synthetic/
+        full/
+          sq<id>:<page>:<system>.bekrn
+        partwise/
+          sq<id>:<page>:<system>:<part>.bekrn
+      scanned/
 ```
+
 
 Directories:
 
