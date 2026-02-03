@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <museScore version="3.02">
   <programVersion>3.6.2</programVersion>
-  <programRevision></programRevision>
+  <programRevision>3224f34</programRevision>
   <Score>
     <LayerTag id="0" tag="default"></LayerTag>
     <currentLayer>0</currentLayer>
@@ -1317,6 +1317,22 @@
             </Spanner>
           <Spanner type="HairPin">
             <HairPin>
+              <subtype>1</subtype>
+              <linkedMain/>
+              <Segment>
+                <subtype>0</subtype>
+                <offset x="0" y="3.5"/>
+                <off2 x="0" y="0"/>
+                </Segment>
+              </HairPin>
+            <next>
+              <location>
+                <measures>1</measures>
+                </location>
+              </next>
+            </Spanner>
+          <Spanner type="HairPin">
+            <HairPin>
               <subtype>2</subtype>
               <endText></endText>
               <beginText>cresc. poco a poco</beginText>
@@ -1337,22 +1353,6 @@
             <next>
               <location>
                 <measures>3</measures>
-                </location>
-              </next>
-            </Spanner>
-          <Spanner type="HairPin">
-            <HairPin>
-              <subtype>1</subtype>
-              <linkedMain/>
-              <Segment>
-                <subtype>0</subtype>
-                <offset x="0" y="3.5"/>
-                <off2 x="0" y="0"/>
-                </Segment>
-              </HairPin>
-            <next>
-              <location>
-                <measures>1</measures>
                 </location>
               </next>
             </Spanner>
@@ -1909,7 +1909,7 @@
         </Measure>
       <Measure>
         <LayoutBreak>
-          <subtype>line</subtype>
+          <subtype>page</subtype>
           </LayoutBreak>
         <voice>
           <Dynamic>
@@ -3244,7 +3244,7 @@
         </Measure>
       <Measure>
         <LayoutBreak>
-          <subtype>line</subtype>
+          <subtype>page</subtype>
           </LayoutBreak>
         <voice>
           <Dynamic>
@@ -4895,7 +4895,7 @@
         </Measure>
       <Measure>
         <LayoutBreak>
-          <subtype>line</subtype>
+          <subtype>page</subtype>
           </LayoutBreak>
         <voice>
           <Dynamic>
@@ -6144,7 +6144,7 @@
         </Measure>
       <Measure>
         <LayoutBreak>
-          <subtype>line</subtype>
+          <subtype>page</subtype>
           </LayoutBreak>
         <voice>
           <Chord>
@@ -6415,7 +6415,7 @@
         </Measure>
       <Measure>
         <LayoutBreak>
-          <subtype>page</subtype>
+          <subtype>line</subtype>
           </LayoutBreak>
         <voice>
           <RehearsalMark>
@@ -7793,7 +7793,7 @@
         </Measure>
       <Measure>
         <LayoutBreak>
-          <subtype>line</subtype>
+          <subtype>page</subtype>
           </LayoutBreak>
         <voice>
           <Spanner type="HairPin">
@@ -8108,7 +8108,7 @@
         </Measure>
       <Measure>
         <LayoutBreak>
-          <subtype>page</subtype>
+          <subtype>line</subtype>
           </LayoutBreak>
         <voice>
           <Chord>
@@ -9161,7 +9161,7 @@
         </Measure>
       <Measure>
         <LayoutBreak>
-          <subtype>line</subtype>
+          <subtype>page</subtype>
           </LayoutBreak>
         <voice>
           <Spanner type="HairPin">
@@ -10254,7 +10254,7 @@
         </Measure>
       <Measure>
         <LayoutBreak>
-          <subtype>line</subtype>
+          <subtype>page</subtype>
           </LayoutBreak>
         <voice>
           <Spanner type="HairPin">
@@ -11944,7 +11944,7 @@
         </Measure>
       <Measure>
         <LayoutBreak>
-          <subtype>line</subtype>
+          <subtype>page</subtype>
           </LayoutBreak>
         <voice>
           <SystemText>
@@ -12881,6 +12881,17 @@
         <voice>
           <Spanner type="HairPin">
             <HairPin>
+              <subtype>1</subtype>
+              <linkedMain/>
+              </HairPin>
+            <next>
+              <location>
+                <measures>1</measures>
+                </location>
+              </next>
+            </Spanner>
+          <Spanner type="HairPin">
+            <HairPin>
               <subtype>2</subtype>
               <dynType>2</dynType>
               <endText></endText>
@@ -12891,17 +12902,6 @@
             <next>
               <location>
                 <measures>3</measures>
-                </location>
-              </next>
-            </Spanner>
-          <Spanner type="HairPin">
-            <HairPin>
-              <subtype>1</subtype>
-              <linkedMain/>
-              </HairPin>
-            <next>
-              <location>
-                <measures>1</measures>
                 </location>
               </next>
             </Spanner>
@@ -13866,7 +13866,7 @@
         </Measure>
       <Measure>
         <LayoutBreak>
-          <subtype>line</subtype>
+          <subtype>page</subtype>
           </LayoutBreak>
         <voice>
           <Spanner type="HairPin">
@@ -15454,7 +15454,7 @@
         </Measure>
       <Measure>
         <LayoutBreak>
-          <subtype>line</subtype>
+          <subtype>page</subtype>
           </LayoutBreak>
         <voice>
           <Chord>
@@ -16753,7 +16753,7 @@
         </Measure>
       <Measure>
         <LayoutBreak>
-          <subtype>line</subtype>
+          <subtype>page</subtype>
           </LayoutBreak>
         <voice>
           <Spanner type="HairPin">
@@ -17887,7 +17887,7 @@
         </Measure>
       <Measure>
         <LayoutBreak>
-          <subtype>line</subtype>
+          <subtype>page</subtype>
           </LayoutBreak>
         <voice>
           <Chord>
@@ -20697,7 +20697,7 @@
         </Measure>
       <Measure>
         <LayoutBreak>
-          <subtype>line</subtype>
+          <subtype>page</subtype>
           </LayoutBreak>
         <voice>
           <Dynamic>
@@ -20921,9 +20921,6 @@
           </voice>
         </Measure>
       <Measure>
-        <LayoutBreak>
-          <subtype>line</subtype>
-          </LayoutBreak>
         <voice>
           <Chord>
             <linkedMain/>
@@ -25556,7 +25553,7 @@
         </Measure>
       <Measure>
         <LayoutBreak>
-          <subtype>line</subtype>
+          <subtype>page</subtype>
           </LayoutBreak>
         <voice>
           <Dynamic>
@@ -26574,7 +26571,7 @@
         </Measure>
       <Measure>
         <LayoutBreak>
-          <subtype>line</subtype>
+          <subtype>page</subtype>
           </LayoutBreak>
         <voice>
           <Rest>
@@ -28165,7 +28162,7 @@
         </Measure>
       <Measure>
         <LayoutBreak>
-          <subtype>line</subtype>
+          <subtype>page</subtype>
           </LayoutBreak>
         <voice>
           <SystemText>
@@ -29094,7 +29091,7 @@
         </Measure>
       <Measure>
         <LayoutBreak>
-          <subtype>line</subtype>
+          <subtype>page</subtype>
           </LayoutBreak>
         <voice>
           <SystemText>
@@ -29214,6 +29211,9 @@
           </voice>
         </Measure>
       <Measure>
+        <LayoutBreak>
+          <subtype>line</subtype>
+          </LayoutBreak>
         <voice>
           <TimeSig>
             <subtype>2</subtype>
@@ -29525,6 +29525,9 @@
           </voice>
         </Measure>
       <Measure>
+        <LayoutBreak>
+          <subtype>line</subtype>
+          </LayoutBreak>
         <voice>
           <Chord>
             <linkedMain/>
@@ -29715,7 +29718,7 @@
         </Measure>
       <Measure>
         <LayoutBreak>
-          <subtype>line</subtype>
+          <subtype>page</subtype>
           </LayoutBreak>
         <voice>
           <Chord>
@@ -31829,12 +31832,6 @@
             <HairPin>
               <subtype>1</subtype>
               <linkedMain/>
-              <Segment>
-                <subtype>0</subtype>
-                <offset x="0" y="2"/>
-                <off2 x="0" y="0"/>
-                <autoplace>0</autoplace>
-                </Segment>
               </HairPin>
             <next>
               <location>
@@ -35074,6 +35071,7 @@
           <Chord>
             <linkedMain/>
             <durationType>eighth</durationType>
+            <StemDirection>down</StemDirection>
             <Note>
               <linkedMain/>
               <pitch>57</pitch>
@@ -36535,7 +36533,7 @@
         </Measure>
       <Measure>
         <LayoutBreak>
-          <subtype>line</subtype>
+          <subtype>page</subtype>
           </LayoutBreak>
         <voice>
           <Chord>
@@ -36831,9 +36829,6 @@
             <Spanner type="Slur">
               <Slur>
                 <linkedMain/>
-                <SlurSegment no="0">
-                  <o4 x="0.2" y="0"/>
-                  </SlurSegment>
                 </Slur>
               <next>
                 <location>
@@ -39520,7 +39515,7 @@
         </Measure>
       <Measure>
         <LayoutBreak>
-          <subtype>line</subtype>
+          <subtype>page</subtype>
           </LayoutBreak>
         <voice>
           <Tempo>
@@ -41616,7 +41611,7 @@
         </Measure>
       <Measure>
         <LayoutBreak>
-          <subtype>line</subtype>
+          <subtype>page</subtype>
           </LayoutBreak>
         <voice>
           <Dynamic>
@@ -41967,6 +41962,9 @@
           </voice>
         </Measure>
       <Measure>
+        <LayoutBreak>
+          <subtype>line</subtype>
+          </LayoutBreak>
         <voice>
           <TimeSig>
             <subtype>1</subtype>
@@ -42655,6 +42653,9 @@
           </voice>
         </Measure>
       <Measure>
+        <LayoutBreak>
+          <subtype>page</subtype>
+          </LayoutBreak>
         <voice>
           <Chord>
             <linkedMain/>
@@ -43078,6 +43079,9 @@
           </voice>
         </Measure>
       <Measure>
+        <LayoutBreak>
+          <subtype>line</subtype>
+          </LayoutBreak>
         <voice>
           <Chord>
             <linkedMain/>
@@ -43387,6 +43391,9 @@
           </voice>
         </Measure>
       <Measure>
+        <LayoutBreak>
+          <subtype>line</subtype>
+          </LayoutBreak>
         <voice>
           <Chord>
             <linkedMain/>
@@ -43705,6 +43712,9 @@
           </voice>
         </Measure>
       <Measure>
+        <LayoutBreak>
+          <subtype>page</subtype>
+          </LayoutBreak>
         <voice>
           <Chord>
             <linkedMain/>
@@ -43881,9 +43891,6 @@
           </voice>
         </Measure>
       <Measure>
-        <LayoutBreak>
-          <subtype>line</subtype>
-          </LayoutBreak>
         <voice>
           <Rest>
             <linkedMain/>
@@ -45518,7 +45525,7 @@
         </Measure>
       <Measure>
         <LayoutBreak>
-          <subtype>line</subtype>
+          <subtype>page</subtype>
           </LayoutBreak>
         <voice>
           <Dynamic>
@@ -45884,7 +45891,7 @@
         </Measure>
       <Measure>
         <LayoutBreak>
-          <subtype>page</subtype>
+          <subtype>line</subtype>
           </LayoutBreak>
         <voice>
           <TimeSig>
@@ -48787,7 +48794,7 @@
         </Measure>
       <Measure>
         <LayoutBreak>
-          <subtype>line</subtype>
+          <subtype>page</subtype>
           </LayoutBreak>
         <voice>
           <Chord>
@@ -50327,7 +50334,7 @@
         </Measure>
       <Measure>
         <LayoutBreak>
-          <subtype>line</subtype>
+          <subtype>page</subtype>
           </LayoutBreak>
         <voice>
           <Dynamic>
@@ -51244,7 +51251,7 @@
         </Measure>
       <Measure>
         <LayoutBreak>
-          <subtype>line</subtype>
+          <subtype>page</subtype>
           </LayoutBreak>
         <voice>
           <Chord>
@@ -54178,6 +54185,13 @@
             <durationType>quarter</durationType>
             <duration>1/8</duration>
             <Spanner type="Slur">
+              <prev>
+                <location>
+                  <grace>0</grace>
+                  </location>
+                </prev>
+              </Spanner>
+            <Spanner type="Slur">
               <Slur>
                 <linkedMain/>
                 </Slur>
@@ -54186,13 +54200,6 @@
                   <fractions>7/16</fractions>
                   </location>
                 </next>
-              </Spanner>
-            <Spanner type="Slur">
-              <prev>
-                <location>
-                  <grace>0</grace>
-                  </location>
-                </prev>
               </Spanner>
             <StemDirection>down</StemDirection>
             <Note>
@@ -54264,7 +54271,7 @@
         </Measure>
       <Measure>
         <LayoutBreak>
-          <subtype>line</subtype>
+          <subtype>page</subtype>
           </LayoutBreak>
         <voice>
           <Spanner type="HairPin">
@@ -55765,7 +55772,7 @@
         </Measure>
       <Measure>
         <LayoutBreak>
-          <subtype>line</subtype>
+          <subtype>page</subtype>
           </LayoutBreak>
         <voice>
           <Chord>
@@ -58649,7 +58656,7 @@
         </Measure>
       <Measure>
         <LayoutBreak>
-          <subtype>line</subtype>
+          <subtype>page</subtype>
           </LayoutBreak>
         <voice>
           <Spanner type="HairPin">
@@ -62392,7 +62399,7 @@
         </Measure>
       <Measure>
         <LayoutBreak>
-          <subtype>line</subtype>
+          <subtype>page</subtype>
           </LayoutBreak>
         <voice>
           <Chord>
@@ -63189,7 +63196,7 @@
         </Measure>
       <Measure>
         <LayoutBreak>
-          <subtype>line</subtype>
+          <subtype>page</subtype>
           </LayoutBreak>
         <voice>
           <Chord>
@@ -64677,7 +64684,7 @@
         </Measure>
       <Measure>
         <LayoutBreak>
-          <subtype>line</subtype>
+          <subtype>page</subtype>
           </LayoutBreak>
         <voice>
           <Chord>
@@ -67029,21 +67036,6 @@
             </Spanner>
           <Spanner type="HairPin">
             <HairPin>
-              <subtype>2</subtype>
-              <endText></endText>
-              <beginText>cresc. poco a poco</beginText>
-              <placement>above</placement>
-              <linkedMain/>
-              <dashGapLength>20</dashGapLength>
-              </HairPin>
-            <next>
-              <location>
-                <measures>3</measures>
-                </location>
-              </next>
-            </Spanner>
-          <Spanner type="HairPin">
-            <HairPin>
               <subtype>1</subtype>
               <linkedMain/>
               <Segment>
@@ -67055,6 +67047,21 @@
             <next>
               <location>
                 <measures>1</measures>
+                </location>
+              </next>
+            </Spanner>
+          <Spanner type="HairPin">
+            <HairPin>
+              <subtype>2</subtype>
+              <endText></endText>
+              <beginText>cresc. poco a poco</beginText>
+              <placement>above</placement>
+              <linkedMain/>
+              <dashGapLength>20</dashGapLength>
+              </HairPin>
+            <next>
+              <location>
+                <measures>3</measures>
                 </location>
               </next>
             </Spanner>
@@ -104142,8 +104149,8 @@
                 </Segment>
               <Segment>
                 <subtype>3</subtype>
-                <offset x="-0.1" y="2"/>
-                <off2 x="0.1" y="0"/>
+                <offset x="0" y="2"/>
+                <off2 x="0" y="0"/>
                 </Segment>
               </HairPin>
             <next>
@@ -132441,6 +132448,7 @@
               </next>
             </Spanner>
           <Beam>
+            <StemDirection>down</StemDirection>
             </Beam>
           <Chord>
             <linkedMain/>
@@ -132537,6 +132545,7 @@
               </Note>
             </Chord>
           <Beam>
+            <StemDirection>down</StemDirection>
             </Beam>
           <Chord>
             <linkedMain/>
@@ -132613,6 +132622,7 @@
               </Note>
             </Chord>
           <Beam>
+            <StemDirection>down</StemDirection>
             </Beam>
           <Chord>
             <linkedMain/>
@@ -132693,6 +132703,7 @@
       <Measure>
         <voice>
           <Beam>
+            <StemDirection>down</StemDirection>
             </Beam>
           <Chord>
             <linkedMain/>
@@ -132769,6 +132780,7 @@
               </Note>
             </Chord>
           <Beam>
+            <StemDirection>down</StemDirection>
             </Beam>
           <Chord>
             <linkedMain/>
@@ -132845,6 +132857,7 @@
               </Note>
             </Chord>
           <Beam>
+            <StemDirection>down</StemDirection>
             </Beam>
           <Chord>
             <linkedMain/>
@@ -132937,6 +132950,7 @@
               </prev>
             </Spanner>
           <Beam>
+            <StemDirection>down</StemDirection>
             </Beam>
           <Chord>
             <linkedMain/>
@@ -133013,6 +133027,7 @@
               </Note>
             </Chord>
           <Beam>
+            <StemDirection>down</StemDirection>
             </Beam>
           <Chord>
             <linkedMain/>
@@ -133089,238 +133104,7 @@
               </Note>
             </Chord>
           <Beam>
-            </Beam>
-          <Chord>
-            <linkedMain/>
-            <durationType>16th</durationType>
-            <Spanner type="Slur">
-              <Slur>
-                <linkedMain/>
-                </Slur>
-              <next>
-                <location>
-                  <fractions>1/16</fractions>
-                  </location>
-                </next>
-              </Spanner>
-            <Note>
-              <linkedMain/>
-              <pitch>64</pitch>
-              <tpc>18</tpc>
-              </Note>
-            </Chord>
-          <Chord>
-            <linkedMain/>
-            <durationType>16th</durationType>
-            <Spanner type="Slur">
-              <prev>
-                <location>
-                  <fractions>-1/16</fractions>
-                  </location>
-                </prev>
-              </Spanner>
-            <Note>
-              <linkedMain/>
-              <pitch>76</pitch>
-              <tpc>18</tpc>
-              <head>diamond</head>
-              <headType>half</headType>
-              </Note>
-            </Chord>
-          <Chord>
-            <linkedMain/>
-            <durationType>16th</durationType>
-            <Spanner type="Slur">
-              <Slur>
-                <linkedMain/>
-                </Slur>
-              <next>
-                <location>
-                  <fractions>1/16</fractions>
-                  </location>
-                </next>
-              </Spanner>
-            <Note>
-              <linkedMain/>
-              <pitch>76</pitch>
-              <tpc>18</tpc>
-              </Note>
-            </Chord>
-          <Chord>
-            <linkedMain/>
-            <durationType>16th</durationType>
-            <Spanner type="Slur">
-              <prev>
-                <location>
-                  <fractions>-1/16</fractions>
-                  </location>
-                </prev>
-              </Spanner>
-            <Note>
-              <linkedMain/>
-              <pitch>76</pitch>
-              <tpc>18</tpc>
-              <head>diamond</head>
-              <headType>half</headType>
-              </Note>
-            </Chord>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <Beam>
-            </Beam>
-          <Chord>
-            <linkedMain/>
-            <durationType>16th</durationType>
-            <Spanner type="Slur">
-              <Slur>
-                <linkedMain/>
-                </Slur>
-              <next>
-                <location>
-                  <fractions>1/16</fractions>
-                  </location>
-                </next>
-              </Spanner>
-            <Note>
-              <linkedMain/>
-              <pitch>64</pitch>
-              <tpc>18</tpc>
-              </Note>
-            </Chord>
-          <Chord>
-            <linkedMain/>
-            <durationType>16th</durationType>
-            <Spanner type="Slur">
-              <prev>
-                <location>
-                  <fractions>-1/16</fractions>
-                  </location>
-                </prev>
-              </Spanner>
-            <Note>
-              <linkedMain/>
-              <pitch>76</pitch>
-              <tpc>18</tpc>
-              <head>diamond</head>
-              <headType>half</headType>
-              </Note>
-            </Chord>
-          <Chord>
-            <linkedMain/>
-            <durationType>16th</durationType>
-            <Spanner type="Slur">
-              <Slur>
-                <linkedMain/>
-                </Slur>
-              <next>
-                <location>
-                  <fractions>1/16</fractions>
-                  </location>
-                </next>
-              </Spanner>
-            <Note>
-              <linkedMain/>
-              <pitch>76</pitch>
-              <tpc>18</tpc>
-              </Note>
-            </Chord>
-          <Chord>
-            <linkedMain/>
-            <durationType>16th</durationType>
-            <Spanner type="Slur">
-              <prev>
-                <location>
-                  <fractions>-1/16</fractions>
-                  </location>
-                </prev>
-              </Spanner>
-            <Note>
-              <linkedMain/>
-              <pitch>76</pitch>
-              <tpc>18</tpc>
-              <head>diamond</head>
-              <headType>half</headType>
-              </Note>
-            </Chord>
-          <Beam>
-            </Beam>
-          <Chord>
-            <linkedMain/>
-            <durationType>16th</durationType>
-            <Spanner type="Slur">
-              <Slur>
-                <linkedMain/>
-                </Slur>
-              <next>
-                <location>
-                  <fractions>1/16</fractions>
-                  </location>
-                </next>
-              </Spanner>
-            <Note>
-              <linkedMain/>
-              <pitch>64</pitch>
-              <tpc>18</tpc>
-              </Note>
-            </Chord>
-          <Chord>
-            <linkedMain/>
-            <durationType>16th</durationType>
-            <Spanner type="Slur">
-              <prev>
-                <location>
-                  <fractions>-1/16</fractions>
-                  </location>
-                </prev>
-              </Spanner>
-            <Note>
-              <linkedMain/>
-              <pitch>76</pitch>
-              <tpc>18</tpc>
-              <head>diamond</head>
-              <headType>half</headType>
-              </Note>
-            </Chord>
-          <Chord>
-            <linkedMain/>
-            <durationType>16th</durationType>
-            <Spanner type="Slur">
-              <Slur>
-                <linkedMain/>
-                </Slur>
-              <next>
-                <location>
-                  <fractions>1/16</fractions>
-                  </location>
-                </next>
-              </Spanner>
-            <Note>
-              <linkedMain/>
-              <pitch>76</pitch>
-              <tpc>18</tpc>
-              </Note>
-            </Chord>
-          <Chord>
-            <linkedMain/>
-            <durationType>16th</durationType>
-            <Spanner type="Slur">
-              <prev>
-                <location>
-                  <fractions>-1/16</fractions>
-                  </location>
-                </prev>
-              </Spanner>
-            <Note>
-              <linkedMain/>
-              <pitch>76</pitch>
-              <tpc>18</tpc>
-              <head>diamond</head>
-              <headType>half</headType>
-              </Note>
-            </Chord>
-          <Beam>
+            <StemDirection>down</StemDirection>
             </Beam>
           <Chord>
             <linkedMain/>
@@ -133401,6 +133185,7 @@
       <Measure>
         <voice>
           <Beam>
+            <StemDirection>down</StemDirection>
             </Beam>
           <Chord>
             <linkedMain/>
@@ -133477,6 +133262,7 @@
               </Note>
             </Chord>
           <Beam>
+            <StemDirection>down</StemDirection>
             </Beam>
           <Chord>
             <linkedMain/>
@@ -133553,6 +133339,242 @@
               </Note>
             </Chord>
           <Beam>
+            <StemDirection>down</StemDirection>
+            </Beam>
+          <Chord>
+            <linkedMain/>
+            <durationType>16th</durationType>
+            <Spanner type="Slur">
+              <Slur>
+                <linkedMain/>
+                </Slur>
+              <next>
+                <location>
+                  <fractions>1/16</fractions>
+                  </location>
+                </next>
+              </Spanner>
+            <Note>
+              <linkedMain/>
+              <pitch>64</pitch>
+              <tpc>18</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <linkedMain/>
+            <durationType>16th</durationType>
+            <Spanner type="Slur">
+              <prev>
+                <location>
+                  <fractions>-1/16</fractions>
+                  </location>
+                </prev>
+              </Spanner>
+            <Note>
+              <linkedMain/>
+              <pitch>76</pitch>
+              <tpc>18</tpc>
+              <head>diamond</head>
+              <headType>half</headType>
+              </Note>
+            </Chord>
+          <Chord>
+            <linkedMain/>
+            <durationType>16th</durationType>
+            <Spanner type="Slur">
+              <Slur>
+                <linkedMain/>
+                </Slur>
+              <next>
+                <location>
+                  <fractions>1/16</fractions>
+                  </location>
+                </next>
+              </Spanner>
+            <Note>
+              <linkedMain/>
+              <pitch>76</pitch>
+              <tpc>18</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <linkedMain/>
+            <durationType>16th</durationType>
+            <Spanner type="Slur">
+              <prev>
+                <location>
+                  <fractions>-1/16</fractions>
+                  </location>
+                </prev>
+              </Spanner>
+            <Note>
+              <linkedMain/>
+              <pitch>76</pitch>
+              <tpc>18</tpc>
+              <head>diamond</head>
+              <headType>half</headType>
+              </Note>
+            </Chord>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Beam>
+            <StemDirection>down</StemDirection>
+            </Beam>
+          <Chord>
+            <linkedMain/>
+            <durationType>16th</durationType>
+            <Spanner type="Slur">
+              <Slur>
+                <linkedMain/>
+                </Slur>
+              <next>
+                <location>
+                  <fractions>1/16</fractions>
+                  </location>
+                </next>
+              </Spanner>
+            <Note>
+              <linkedMain/>
+              <pitch>64</pitch>
+              <tpc>18</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <linkedMain/>
+            <durationType>16th</durationType>
+            <Spanner type="Slur">
+              <prev>
+                <location>
+                  <fractions>-1/16</fractions>
+                  </location>
+                </prev>
+              </Spanner>
+            <Note>
+              <linkedMain/>
+              <pitch>76</pitch>
+              <tpc>18</tpc>
+              <head>diamond</head>
+              <headType>half</headType>
+              </Note>
+            </Chord>
+          <Chord>
+            <linkedMain/>
+            <durationType>16th</durationType>
+            <Spanner type="Slur">
+              <Slur>
+                <linkedMain/>
+                </Slur>
+              <next>
+                <location>
+                  <fractions>1/16</fractions>
+                  </location>
+                </next>
+              </Spanner>
+            <Note>
+              <linkedMain/>
+              <pitch>76</pitch>
+              <tpc>18</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <linkedMain/>
+            <durationType>16th</durationType>
+            <Spanner type="Slur">
+              <prev>
+                <location>
+                  <fractions>-1/16</fractions>
+                  </location>
+                </prev>
+              </Spanner>
+            <Note>
+              <linkedMain/>
+              <pitch>76</pitch>
+              <tpc>18</tpc>
+              <head>diamond</head>
+              <headType>half</headType>
+              </Note>
+            </Chord>
+          <Beam>
+            <StemDirection>down</StemDirection>
+            </Beam>
+          <Chord>
+            <linkedMain/>
+            <durationType>16th</durationType>
+            <Spanner type="Slur">
+              <Slur>
+                <linkedMain/>
+                </Slur>
+              <next>
+                <location>
+                  <fractions>1/16</fractions>
+                  </location>
+                </next>
+              </Spanner>
+            <Note>
+              <linkedMain/>
+              <pitch>64</pitch>
+              <tpc>18</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <linkedMain/>
+            <durationType>16th</durationType>
+            <Spanner type="Slur">
+              <prev>
+                <location>
+                  <fractions>-1/16</fractions>
+                  </location>
+                </prev>
+              </Spanner>
+            <Note>
+              <linkedMain/>
+              <pitch>76</pitch>
+              <tpc>18</tpc>
+              <head>diamond</head>
+              <headType>half</headType>
+              </Note>
+            </Chord>
+          <Chord>
+            <linkedMain/>
+            <durationType>16th</durationType>
+            <Spanner type="Slur">
+              <Slur>
+                <linkedMain/>
+                </Slur>
+              <next>
+                <location>
+                  <fractions>1/16</fractions>
+                  </location>
+                </next>
+              </Spanner>
+            <Note>
+              <linkedMain/>
+              <pitch>76</pitch>
+              <tpc>18</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <linkedMain/>
+            <durationType>16th</durationType>
+            <Spanner type="Slur">
+              <prev>
+                <location>
+                  <fractions>-1/16</fractions>
+                  </location>
+                </prev>
+              </Spanner>
+            <Note>
+              <linkedMain/>
+              <pitch>76</pitch>
+              <tpc>18</tpc>
+              <head>diamond</head>
+              <headType>half</headType>
+              </Note>
+            </Chord>
+          <Beam>
+            <StemDirection>down</StemDirection>
             </Beam>
           <Chord>
             <linkedMain/>
@@ -133757,6 +133779,9 @@
                 </location>
               </next>
             </Spanner>
+          <Beam>
+            <StemDirection>down</StemDirection>
+            </Beam>
           <Chord>
             <linkedMain/>
             <durationType>16th</durationType>
@@ -133827,6 +133852,9 @@
               <tpc>18</tpc>
               </Note>
             </Chord>
+          <Beam>
+            <StemDirection>down</StemDirection>
+            </Beam>
           <Chord>
             <linkedMain/>
             <durationType>16th</durationType>
@@ -141891,21 +141919,6 @@
             </Spanner>
           <Spanner type="HairPin">
             <HairPin>
-              <subtype>2</subtype>
-              <endText></endText>
-              <beginText>cresc. poco a poco</beginText>
-              <placement>above</placement>
-              <linkedMain/>
-              <dashGapLength>20</dashGapLength>
-              </HairPin>
-            <next>
-              <location>
-                <measures>3</measures>
-                </location>
-              </next>
-            </Spanner>
-          <Spanner type="HairPin">
-            <HairPin>
               <subtype>1</subtype>
               <linkedMain/>
               <Segment>
@@ -141917,6 +141930,21 @@
             <next>
               <location>
                 <measures>1</measures>
+                </location>
+              </next>
+            </Spanner>
+          <Spanner type="HairPin">
+            <HairPin>
+              <subtype>2</subtype>
+              <endText></endText>
+              <beginText>cresc. poco a poco</beginText>
+              <placement>above</placement>
+              <linkedMain/>
+              <dashGapLength>20</dashGapLength>
+              </HairPin>
+            <next>
+              <location>
+                <measures>3</measures>
                 </location>
               </next>
             </Spanner>
@@ -151162,15 +151190,15 @@
               </Note>
             </Chord>
           <endTuplet/>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
           <Clef>
             <concertClefType>G</concertClefType>
             <transposingClefType>G</transposingClefType>
             <linkedMain/>
             </Clef>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
           <Chord>
             <linkedMain/>
             <durationType>quarter</durationType>
@@ -151751,15 +151779,15 @@
               <linkedMain/>
               </Tremolo>
             </Chord>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
           <Clef>
             <concertClefType>G</concertClefType>
             <transposingClefType>G</transposingClefType>
             <linkedMain/>
             </Clef>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
           <Dynamic>
             <subtype>fff</subtype>
             <velocity>126</velocity>
@@ -153068,6 +153096,17 @@
         <voice>
           <Spanner type="HairPin">
             <HairPin>
+              <subtype>1</subtype>
+              <linkedMain/>
+              </HairPin>
+            <next>
+              <location>
+                <measures>1</measures>
+                </location>
+              </next>
+            </Spanner>
+          <Spanner type="HairPin">
+            <HairPin>
               <subtype>2</subtype>
               <dynType>2</dynType>
               <endText></endText>
@@ -153078,17 +153117,6 @@
             <next>
               <location>
                 <measures>3</measures>
-                </location>
-              </next>
-            </Spanner>
-          <Spanner type="HairPin">
-            <HairPin>
-              <subtype>1</subtype>
-              <linkedMain/>
-              </HairPin>
-            <next>
-              <location>
-                <measures>1</measures>
                 </location>
               </next>
             </Spanner>
@@ -178722,6 +178750,17 @@
                 </location>
               </prev>
             </Spanner>
+          <Spanner type="HairPin">
+            <HairPin>
+              <subtype>1</subtype>
+              <linkedMain/>
+              </HairPin>
+            <next>
+              <location>
+                <measures>1</measures>
+                </location>
+              </next>
+            </Spanner>
           <Spanner type="Trill">
             <Trill>
               <subtype>trill</subtype>
@@ -178731,17 +178770,6 @@
             <next>
               <location>
                 <measures>2</measures>
-                </location>
-              </next>
-            </Spanner>
-          <Spanner type="HairPin">
-            <HairPin>
-              <subtype>1</subtype>
-              <linkedMain/>
-              </HairPin>
-            <next>
-              <location>
-                <measures>1</measures>
                 </location>
               </next>
             </Spanner>
@@ -181775,15 +181803,15 @@
               <tpc>8</tpc>
               </Note>
             </Chord>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
           <Clef>
             <concertClefType>C3</concertClefType>
             <transposingClefType>C3</transposingClefType>
             <linkedMain/>
             </Clef>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
           <Dynamic>
             <subtype>p</subtype>
             <velocity>49</velocity>
@@ -193114,10 +193142,6 @@
             <StemDirection>down</StemDirection>
             <Note>
               <linkedMain/>
-              <Accidental>
-                <role>1</role>
-                <subtype>accidentalNatural</subtype>
-                </Accidental>
               <pitch>55</pitch>
               <tpc>15</tpc>
               </Note>
@@ -208731,6 +208755,9 @@
         </Measure>
       <Measure>
         <voice>
+          <Beam>
+            <StemDirection>up</StemDirection>
+            </Beam>
           <Chord>
             <linkedMain/>
             <durationType>16th</durationType>
@@ -208825,6 +208852,9 @@
               <tpc>16</tpc>
               </Note>
             </Chord>
+          <Beam>
+            <StemDirection>up</StemDirection>
+            </Beam>
           <Chord>
             <linkedMain/>
             <durationType>16th</durationType>
@@ -208919,6 +208949,9 @@
               <tpc>11</tpc>
               </Note>
             </Chord>
+          <Beam>
+            <StemDirection>up</StemDirection>
+            </Beam>
           <Chord>
             <linkedMain/>
             <durationType>16th</durationType>
@@ -209020,6 +209053,9 @@
         </Measure>
       <Measure>
         <voice>
+          <Beam>
+            <StemDirection>up</StemDirection>
+            </Beam>
           <Chord>
             <linkedMain/>
             <durationType>16th</durationType>
@@ -209111,6 +209147,9 @@
               <tpc>13</tpc>
               </Note>
             </Chord>
+          <Beam>
+            <StemDirection>up</StemDirection>
+            </Beam>
           <Chord>
             <linkedMain/>
             <durationType>16th</durationType>
@@ -209205,6 +209244,9 @@
               <tpc>18</tpc>
               </Note>
             </Chord>
+          <Beam>
+            <StemDirection>up</StemDirection>
+            </Beam>
           <Chord>
             <linkedMain/>
             <durationType>16th</durationType>
@@ -209413,6 +209455,9 @@
               <tpc>15</tpc>
               </Note>
             </Chord>
+          <Beam>
+            <StemDirection>up</StemDirection>
+            </Beam>
           <Chord>
             <linkedMain/>
             <durationType>16th</durationType>
@@ -209599,6 +209644,9 @@
         </Measure>
       <Measure>
         <voice>
+          <Beam>
+            <StemDirection>up</StemDirection>
+            </Beam>
           <Chord>
             <linkedMain/>
             <durationType>16th</durationType>
@@ -209781,6 +209829,9 @@
               <tpc>15</tpc>
               </Note>
             </Chord>
+          <Beam>
+            <StemDirection>up</StemDirection>
+            </Beam>
           <Chord>
             <linkedMain/>
             <durationType>16th</durationType>
@@ -209978,6 +210029,9 @@
               <tpc>15</tpc>
               </Note>
             </Chord>
+          <Beam>
+            <StemDirection>up</StemDirection>
+            </Beam>
           <Chord>
             <linkedMain/>
             <durationType>16th</durationType>
@@ -210164,6 +210218,9 @@
         </Measure>
       <Measure>
         <voice>
+          <Beam>
+            <StemDirection>up</StemDirection>
+            </Beam>
           <Chord>
             <linkedMain/>
             <durationType>16th</durationType>
@@ -210346,6 +210403,9 @@
               <tpc>15</tpc>
               </Note>
             </Chord>
+          <Beam>
+            <StemDirection>up</StemDirection>
+            </Beam>
           <Chord>
             <linkedMain/>
             <durationType>16th</durationType>
@@ -223319,6 +223379,17 @@
         <voice>
           <Spanner type="HairPin">
             <HairPin>
+              <subtype>1</subtype>
+              <linkedMain/>
+              </HairPin>
+            <next>
+              <location>
+                <measures>1</measures>
+                </location>
+              </next>
+            </Spanner>
+          <Spanner type="HairPin">
+            <HairPin>
               <subtype>2</subtype>
               <dynType>2</dynType>
               <endText></endText>
@@ -223329,17 +223400,6 @@
             <next>
               <location>
                 <measures>3</measures>
-                </location>
-              </next>
-            </Spanner>
-          <Spanner type="HairPin">
-            <HairPin>
-              <subtype>1</subtype>
-              <linkedMain/>
-              </HairPin>
-            <next>
-              <location>
-                <measures>1</measures>
                 </location>
               </next>
             </Spanner>
@@ -225508,15 +225568,15 @@
               <tpc>19</tpc>
               </Note>
             </Chord>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
           <Clef>
             <concertClefType>C4</concertClefType>
             <transposingClefType>C4</transposingClefType>
             <linkedMain/>
             </Clef>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
           <Dynamic>
             <subtype>mp</subtype>
             <velocity>64</velocity>
@@ -228525,15 +228585,15 @@
               <tpc>21</tpc>
               </Note>
             </Chord>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
           <Clef>
             <concertClefType>C4</concertClefType>
             <transposingClefType>C4</transposingClefType>
             <linkedMain/>
             </Clef>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
           <Chord>
             <linkedMain/>
             <durationType>eighth</durationType>
@@ -231610,6 +231670,11 @@
             <durationType>measure</durationType>
             <duration>3/4</duration>
             </Rest>
+          <Clef>
+            <concertClefType>C4</concertClefType>
+            <transposingClefType>C4</transposingClefType>
+            <linkedMain/>
+            </Clef>
           <BarLine>
             <subtype>double</subtype>
             <linkedMain/>
@@ -231627,11 +231692,6 @@
             <sigN>3</sigN>
             <sigD>4</sigD>
             </TimeSig>
-          <Clef>
-            <concertClefType>C4</concertClefType>
-            <transposingClefType>C4</transposingClefType>
-            <linkedMain/>
-            </Clef>
           <Dynamic>
             <subtype>other-dynamics</subtype>
             <velocity>49</velocity>
@@ -232047,15 +232107,15 @@
             <linkedMain/>
             <durationType>quarter</durationType>
             </Rest>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
           <Clef>
             <concertClefType>F</concertClefType>
             <transposingClefType>F</transposingClefType>
             <linkedMain/>
             </Clef>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
           <Dynamic>
             <subtype>p</subtype>
             <velocity>49</velocity>
@@ -232575,15 +232635,15 @@
             <linkedMain/>
             <durationType>quarter</durationType>
             </Rest>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
           <Clef>
             <concertClefType>C4</concertClefType>
             <transposingClefType>C4</transposingClefType>
             <linkedMain/>
             </Clef>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
           <Dynamic>
             <subtype>p</subtype>
             <velocity>49</velocity>
@@ -232917,15 +232977,15 @@
               <tpc>8</tpc>
               </Note>
             </Chord>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
           <Clef>
             <concertClefType>F</concertClefType>
             <transposingClefType>F</transposingClefType>
             <linkedMain/>
             </Clef>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
           <Dynamic>
             <subtype>pp</subtype>
             <velocity>33</velocity>
@@ -238808,9 +238868,6 @@
             <Spanner type="Slur">
               <Slur>
                 <linkedMain/>
-                <SlurSegment no="1">
-                  <o1 x="0" y="-0.4"/>
-                  </SlurSegment>
                 </Slur>
               <next>
                 <location>
@@ -246632,15 +246689,15 @@
               <tpc>17</tpc>
               </Note>
             </Chord>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
           <Clef>
             <concertClefType>C4</concertClefType>
             <transposingClefType>C4</transposingClefType>
             <linkedMain/>
             </Clef>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
           <Spanner type="HairPin">
             <prev>
               <location>
@@ -259435,6 +259492,9 @@
         </Measure>
       <Measure>
         <voice>
+          <Beam>
+            <StemDirection>up</StemDirection>
+            </Beam>
           <Chord>
             <linkedMain/>
             <durationType>16th</durationType>
@@ -259529,6 +259589,9 @@
               <tpc>16</tpc>
               </Note>
             </Chord>
+          <Beam>
+            <StemDirection>up</StemDirection>
+            </Beam>
           <Chord>
             <linkedMain/>
             <durationType>16th</durationType>
@@ -259623,6 +259686,9 @@
               <tpc>11</tpc>
               </Note>
             </Chord>
+          <Beam>
+            <StemDirection>up</StemDirection>
+            </Beam>
           <Chord>
             <linkedMain/>
             <durationType>16th</durationType>
@@ -259724,6 +259790,9 @@
         </Measure>
       <Measure>
         <voice>
+          <Beam>
+            <StemDirection>up</StemDirection>
+            </Beam>
           <Chord>
             <linkedMain/>
             <durationType>16th</durationType>
@@ -259815,6 +259884,9 @@
               <tpc>13</tpc>
               </Note>
             </Chord>
+          <Beam>
+            <StemDirection>up</StemDirection>
+            </Beam>
           <Chord>
             <linkedMain/>
             <durationType>16th</durationType>
@@ -259909,6 +259981,9 @@
               <tpc>18</tpc>
               </Note>
             </Chord>
+          <Beam>
+            <StemDirection>up</StemDirection>
+            </Beam>
           <Chord>
             <linkedMain/>
             <durationType>16th</durationType>
@@ -260010,6 +260085,9 @@
         </Measure>
       <Measure>
         <voice>
+          <Beam>
+            <StemDirection>up</StemDirection>
+            </Beam>
           <Chord>
             <linkedMain/>
             <durationType>16th</durationType>
@@ -260104,6 +260182,9 @@
               <tpc>16</tpc>
               </Note>
             </Chord>
+          <Beam>
+            <StemDirection>up</StemDirection>
+            </Beam>
           <Chord>
             <linkedMain/>
             <durationType>16th</durationType>
@@ -260198,6 +260279,9 @@
               <tpc>11</tpc>
               </Note>
             </Chord>
+          <Beam>
+            <StemDirection>up</StemDirection>
+            </Beam>
           <Chord>
             <linkedMain/>
             <durationType>16th</durationType>
@@ -260299,6 +260383,9 @@
         </Measure>
       <Measure>
         <voice>
+          <Beam>
+            <StemDirection>up</StemDirection>
+            </Beam>
           <Chord>
             <linkedMain/>
             <durationType>16th</durationType>
@@ -260390,6 +260477,9 @@
               <tpc>13</tpc>
               </Note>
             </Chord>
+          <Beam>
+            <StemDirection>up</StemDirection>
+            </Beam>
           <Chord>
             <linkedMain/>
             <durationType>16th</durationType>
@@ -260484,6 +260574,9 @@
               <tpc>18</tpc>
               </Note>
             </Chord>
+          <Beam>
+            <StemDirection>up</StemDirection>
+            </Beam>
           <Chord>
             <linkedMain/>
             <durationType>16th</durationType>
@@ -266025,7 +266118,6 @@
               <HairPin>
                 <subtype>1</subtype>
                 <linked>
-                  <indexDiff>1</indexDiff>
                   </linked>
                 </HairPin>
               <next>
@@ -266041,7 +266133,6 @@
                 <beginText>cresc. poco a poco</beginText>
                 <placement>above</placement>
                 <linked>
-                  <indexDiff>-1</indexDiff>
                   </linked>
                 <dashGapLength>20</dashGapLength>
                 </HairPin>
@@ -279164,7 +279255,6 @@
               <HairPin>
                 <subtype>1</subtype>
                 <linked>
-                  <indexDiff>1</indexDiff>
                   </linked>
                 </HairPin>
               <next>
@@ -279180,7 +279270,6 @@
                 <endText></endText>
                 <placement>above</placement>
                 <linked>
-                  <indexDiff>-1</indexDiff>
                   </linked>
                 <dashGapLength>20</dashGapLength>
                 </HairPin>
@@ -326461,6 +326550,13 @@
               <durationType>quarter</durationType>
               <duration>1/8</duration>
               <Spanner type="Slur">
+                <prev>
+                  <location>
+                    <grace>0</grace>
+                    </location>
+                  </prev>
+                </Spanner>
+              <Spanner type="Slur">
                 <Slur>
                   <linked>
                     </linked>
@@ -326470,13 +326566,6 @@
                     <fractions>7/16</fractions>
                     </location>
                   </next>
-                </Spanner>
-              <Spanner type="Slur">
-                <prev>
-                  <location>
-                    <grace>0</grace>
-                    </location>
-                  </prev>
                 </Spanner>
               <StemDirection>down</StemDirection>
               <Note>
@@ -341325,7 +341414,6 @@
               <HairPin>
                 <subtype>1</subtype>
                 <linked>
-                  <indexDiff>1</indexDiff>
                   </linked>
                 </HairPin>
               <next>
@@ -341341,7 +341429,6 @@
                 <beginText>cresc. poco a poco</beginText>
                 <placement>above</placement>
                 <linked>
-                  <indexDiff>-1</indexDiff>
                   </linked>
                 <dashGapLength>20</dashGapLength>
                 </HairPin>
@@ -429756,7 +429843,6 @@
               <HairPin>
                 <subtype>1</subtype>
                 <linked>
-                  <indexDiff>1</indexDiff>
                   </linked>
                 </HairPin>
               <next>
@@ -429771,7 +429857,6 @@
                 <endText></endText>
                 <beginText>cresc. poco a poco</beginText>
                 <linked>
-                  <indexDiff>-1</indexDiff>
                   </linked>
                 <dashGapLength>20</dashGapLength>
                 <Segment>
@@ -440516,6 +440601,12 @@
                 </Note>
               </Chord>
             <endTuplet/>
+            <Clef>
+              <concertClefType>G</concertClefType>
+              <transposingClefType>G</transposingClefType>
+              <linked>
+                </linked>
+              </Clef>
             </voice>
           </Measure>
         <Measure>
@@ -440523,12 +440614,6 @@
             <subtype>page</subtype>
             </LayoutBreak>
           <voice>
-            <Clef>
-              <concertClefType>G</concertClefType>
-              <transposingClefType>G</transposingClefType>
-              <linked>
-                </linked>
-              </Clef>
             <Chord>
               <linked>
                 </linked>
@@ -441219,16 +441304,16 @@
                   </linked>
                 </Tremolo>
               </Chord>
-            </voice>
-          </Measure>
-        <Measure>
-          <voice>
             <Clef>
               <concertClefType>G</concertClefType>
               <transposingClefType>G</transposingClefType>
               <linked>
                 </linked>
               </Clef>
+            </voice>
+          </Measure>
+        <Measure>
+          <voice>
             <SystemText>
               <linked>
                 <location>
@@ -442768,6 +442853,18 @@
               </Spanner>
             <Spanner type="HairPin">
               <HairPin>
+                <subtype>1</subtype>
+                <linked>
+                  </linked>
+                </HairPin>
+              <next>
+                <location>
+                  <measures>1</measures>
+                  </location>
+                </next>
+              </Spanner>
+            <Spanner type="HairPin">
+              <HairPin>
                 <subtype>2</subtype>
                 <dynType>2</dynType>
                 <endText></endText>
@@ -442779,18 +442876,6 @@
               <next>
                 <location>
                   <measures>3</measures>
-                  </location>
-                </next>
-              </Spanner>
-            <Spanner type="HairPin">
-              <HairPin>
-                <subtype>1</subtype>
-                <linked>
-                  </linked>
-                </HairPin>
-              <next>
-                <location>
-                  <measures>1</measures>
                   </location>
                 </next>
               </Spanner>
@@ -473157,7 +473242,6 @@
               <HairPin>
                 <subtype>1</subtype>
                 <linked>
-                  <indexDiff>1</indexDiff>
                   </linked>
                 </HairPin>
               <next>
@@ -473170,7 +473254,6 @@
               <Trill>
                 <subtype>trill</subtype>
                 <linked>
-                  <indexDiff>-1</indexDiff>
                   </linked>
                 <lineWidth>0.0902611</lineWidth>
                 </Trill>
@@ -476804,16 +476887,16 @@
                 <tpc>8</tpc>
                 </Note>
               </Chord>
-            </voice>
-          </Measure>
-        <Measure>
-          <voice>
             <Clef>
               <concertClefType>C3</concertClefType>
               <transposingClefType>C3</transposingClefType>
               <linked>
                 </linked>
               </Clef>
+            </voice>
+          </Measure>
+        <Measure>
+          <voice>
             <Dynamic>
               <subtype>p</subtype>
               <velocity>49</velocity>
@@ -490291,10 +490374,6 @@
               <Note>
                 <linked>
                   </linked>
-                <Accidental>
-                  <role>1</role>
-                  <subtype>accidentalNatural</subtype>
-                  </Accidental>
                 <pitch>55</pitch>
                 <tpc>15</tpc>
                 </Note>
@@ -525761,6 +525840,7 @@
                 <endText></endText>
                 <placement>above</placement>
                 <linked>
+                  <indexDiff>1</indexDiff>
                   </linked>
                 <dashGapLength>20</dashGapLength>
                 </HairPin>
@@ -525781,6 +525861,7 @@
               <HairPin>
                 <subtype>1</subtype>
                 <linked>
+                  <indexDiff>-1</indexDiff>
                   </linked>
                 </HairPin>
               <next>
@@ -528321,16 +528402,16 @@
                 <tpc>19</tpc>
                 </Note>
               </Chord>
-            </voice>
-          </Measure>
-        <Measure>
-          <voice>
             <Clef>
               <concertClefType>C4</concertClefType>
               <transposingClefType>C4</transposingClefType>
               <linked>
                 </linked>
               </Clef>
+            </voice>
+          </Measure>
+        <Measure>
+          <voice>
             <Dynamic>
               <subtype>mp</subtype>
               <velocity>64</velocity>
@@ -531992,16 +532073,16 @@
                 <tpc>21</tpc>
                 </Note>
               </Chord>
-            </voice>
-          </Measure>
-        <Measure>
-          <voice>
             <Clef>
               <concertClefType>C4</concertClefType>
               <transposingClefType>C4</transposingClefType>
               <linked>
                 </linked>
               </Clef>
+            </voice>
+          </Measure>
+        <Measure>
+          <voice>
             <Chord>
               <linked>
                 </linked>
@@ -535731,6 +535812,12 @@
               <durationType>measure</durationType>
               <duration>3/4</duration>
               </Rest>
+            <Clef>
+              <concertClefType>C4</concertClefType>
+              <transposingClefType>C4</transposingClefType>
+              <linked>
+                </linked>
+              </Clef>
             <BarLine>
               <subtype>double</subtype>
               <linked>
@@ -535751,12 +535838,6 @@
               <sigN>3</sigN>
               <sigD>4</sigD>
               </TimeSig>
-            <Clef>
-              <concertClefType>C4</concertClefType>
-              <transposingClefType>C4</transposingClefType>
-              <linked>
-                </linked>
-              </Clef>
             <RehearsalMark>
               <linked>
                 <location>
@@ -536263,16 +536344,16 @@
                 </linked>
               <durationType>quarter</durationType>
               </Rest>
-            </voice>
-          </Measure>
-        <Measure>
-          <voice>
             <Clef>
               <concertClefType>F</concertClefType>
               <transposingClefType>F</transposingClefType>
               <linked>
                 </linked>
               </Clef>
+            </voice>
+          </Measure>
+        <Measure>
+          <voice>
             <Tempo>
               <tempo>0.76666666666666672</tempo>
               <linked>
@@ -536904,16 +536985,16 @@
                 </linked>
               <durationType>quarter</durationType>
               </Rest>
-            </voice>
-          </Measure>
-        <Measure>
-          <voice>
             <Clef>
               <concertClefType>C4</concertClefType>
               <transposingClefType>C4</transposingClefType>
               <linked>
                 </linked>
               </Clef>
+            </voice>
+          </Measure>
+        <Measure>
+          <voice>
             <Dynamic>
               <subtype>p</subtype>
               <velocity>49</velocity>
@@ -537344,6 +537425,12 @@
                 <tpc>8</tpc>
                 </Note>
               </Chord>
+            <Clef>
+              <concertClefType>F</concertClefType>
+              <transposingClefType>F</transposingClefType>
+              <linked>
+                </linked>
+              </Clef>
             </voice>
           </Measure>
         <Measure>
@@ -537351,12 +537438,6 @@
             <subtype>line</subtype>
             </LayoutBreak>
           <voice>
-            <Clef>
-              <concertClefType>F</concertClefType>
-              <transposingClefType>F</transposingClefType>
-              <linked>
-                </linked>
-              </Clef>
             <SystemText>
               <linked>
                 <location>
@@ -554095,16 +554176,16 @@
                 <tpc>17</tpc>
                 </Note>
               </Chord>
-            </voice>
-          </Measure>
-        <Measure>
-          <voice>
             <Clef>
               <concertClefType>C4</concertClefType>
               <transposingClefType>C4</transposingClefType>
               <linked>
                 </linked>
               </Clef>
+            </voice>
+          </Measure>
+        <Measure>
+          <voice>
             <Spanner type="HairPin">
               <prev>
                 <location>
