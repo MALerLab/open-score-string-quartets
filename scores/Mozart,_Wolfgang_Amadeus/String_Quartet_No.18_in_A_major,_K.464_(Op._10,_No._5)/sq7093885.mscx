@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <museScore version="3.02">
   <programVersion>3.6.2</programVersion>
-  <programRevision></programRevision>
+  <programRevision>3224f34</programRevision>
   <Score>
     <LayerTag id="0" tag="default"></LayerTag>
     <currentLayer>0</currentLayer>
@@ -11048,7 +11048,7 @@ I. Allegro
         </Measure>
       <Measure>
         <LayoutBreak>
-          <subtype>page</subtype>
+          <subtype>line</subtype>
           </LayoutBreak>
         <voice>
           <Chord>
@@ -13966,7 +13966,7 @@ I. Allegro
         </Measure>
       <Measure>
         <LayoutBreak>
-          <subtype>page</subtype>
+          <subtype>line</subtype>
           </LayoutBreak>
         <voice>
           <Chord>
@@ -14494,6 +14494,9 @@ I. Allegro
           </voice>
         </Measure>
       <Measure>
+        <LayoutBreak>
+          <subtype>line</subtype>
+          </LayoutBreak>
         <voice>
           <Chord>
             <linkedMain/>
@@ -14908,6 +14911,9 @@ I. Allegro
           </voice>
         </Measure>
       <Measure>
+        <LayoutBreak>
+          <subtype>page</subtype>
+          </LayoutBreak>
         <voice>
           <Chord>
             <linkedMain/>
@@ -15010,9 +15016,6 @@ I. Allegro
           </voice>
         </Measure>
       <Measure>
-        <LayoutBreak>
-          <subtype>line</subtype>
-          </LayoutBreak>
         <voice>
           <Dynamic>
             <subtype>p</subtype>
@@ -15344,11 +15347,6 @@ I. Allegro
               <endText></endText>
               <lineVisible>0</lineVisible>
               <linkedMain/>
-              <Segment>
-                <subtype>0</subtype>
-                <offset x="3.24852" y="4"/>
-                <off2 x="-3.24852" y="0"/>
-                </Segment>
               </HairPin>
             <next>
               <location>
@@ -40894,11 +40892,6 @@ I. Allegro
               <endText></endText>
               <lineVisible>0</lineVisible>
               <linkedMain/>
-              <Segment>
-                <subtype>0</subtype>
-                <offset x="0" y="2.5"/>
-                <off2 x="0" y="0"/>
-                </Segment>
               </HairPin>
             <next>
               <location>
@@ -50293,11 +50286,6 @@ I. Allegro
               <endText></endText>
               <lineVisible>0</lineVisible>
               <linkedMain/>
-              <Segment>
-                <subtype>0</subtype>
-                <offset x="0" y="3"/>
-                <off2 x="0" y="0"/>
-                </Segment>
               </HairPin>
             <next>
               <location>

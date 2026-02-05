@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <museScore version="3.02">
   <programVersion>3.6.2</programVersion>
-  <programRevision></programRevision>
+  <programRevision>3224f34</programRevision>
   <Score>
     <LayerTag id="0" tag="default"></LayerTag>
     <currentLayer>0</currentLayer>
@@ -2467,6 +2467,9 @@ II. Minuet and Trio</text>
           </voice>
         </Measure>
       <Measure>
+        <LayoutBreak>
+          <subtype>page</subtype>
+          </LayoutBreak>
         <voice>
           <Dynamic>
             <subtype>p</subtype>
@@ -3167,7 +3170,7 @@ II. Minuet and Trio</text>
         </Measure>
       <Measure>
         <LayoutBreak>
-          <subtype>page</subtype>
+          <subtype>line</subtype>
           </LayoutBreak>
         <voice>
           <Chord>
@@ -5906,6 +5909,9 @@ II. Minuet and Trio</text>
           </voice>
         </Measure>
       <Measure>
+        <LayoutBreak>
+          <subtype>page</subtype>
+          </LayoutBreak>
         <voice>
           <Dynamic>
             <subtype>p</subtype>
@@ -5942,9 +5948,6 @@ II. Minuet and Trio</text>
           </voice>
         </Measure>
       <Measure>
-        <LayoutBreak>
-          <subtype>line</subtype>
-          </LayoutBreak>
         <voice>
           <Chord>
             <linkedMain/>
@@ -6198,9 +6201,6 @@ II. Minuet and Trio</text>
             <Spanner type="Slur">
               <Slur>
                 <linkedMain/>
-                <SlurSegment no="0">
-                  <offset x="0" y="-1"/>
-                  </SlurSegment>
                 </Slur>
               <next>
                 <location>
@@ -6277,9 +6277,6 @@ II. Minuet and Trio</text>
             <Spanner type="Slur">
               <Slur>
                 <linkedMain/>
-                <SlurSegment no="0">
-                  <o1 x="0.1" y="0"/>
-                  </SlurSegment>
                 </Slur>
               <next>
                 <location>
@@ -11058,9 +11055,6 @@ II. Minuet and Trio</text>
             <Spanner type="Slur">
               <Slur>
                 <linkedMain/>
-                <SlurSegment no="0">
-                  <offset x="0.301382" y="1.26036"/>
-                  </SlurSegment>
                 </Slur>
               <next>
                 <location>
@@ -11137,9 +11131,6 @@ II. Minuet and Trio</text>
             <Spanner type="Slur">
               <Slur>
                 <linkedMain/>
-                <SlurSegment no="0">
-                  <o1 x="0.1" y="0"/>
-                  </SlurSegment>
                 </Slur>
               <next>
                 <location>
@@ -11241,9 +11232,6 @@ II. Minuet and Trio</text>
             <Spanner type="Slur">
               <Slur>
                 <linkedMain/>
-                <SlurSegment no="0">
-                  <offset x="0" y="-0.1"/>
-                  </SlurSegment>
                 </Slur>
               <next>
                 <location>
@@ -15419,10 +15407,6 @@ II. Minuet and Trio</text>
             <Spanner type="Slur">
               <Slur>
                 <linkedMain/>
-                <SlurSegment no="0">
-                  <o1 x="0.1" y="0"/>
-                  <o4 x="-0.1" y="0"/>
-                  </SlurSegment>
                 </Slur>
               <next>
                 <location>
@@ -15530,9 +15514,6 @@ II. Minuet and Trio</text>
             <Spanner type="Slur">
               <Slur>
                 <linkedMain/>
-                <SlurSegment no="0">
-                  <offset x="0" y="-0.1"/>
-                  </SlurSegment>
                 </Slur>
               <next>
                 <location>
@@ -19328,10 +19309,6 @@ II. Minuet and Trio</text>
             <Spanner type="Slur">
               <Slur>
                 <linkedMain/>
-                <SlurSegment no="0">
-                  <o1 x="0.1" y="0"/>
-                  <o4 x="-0.1" y="0"/>
-                  </SlurSegment>
                 </Slur>
               <next>
                 <location>
@@ -19439,9 +19416,6 @@ II. Minuet and Trio</text>
             <Spanner type="Slur">
               <Slur>
                 <linkedMain/>
-                <SlurSegment no="0">
-                  <offset x="0" y="-0.1"/>
-                  </SlurSegment>
                 </Slur>
               <next>
                 <location>
