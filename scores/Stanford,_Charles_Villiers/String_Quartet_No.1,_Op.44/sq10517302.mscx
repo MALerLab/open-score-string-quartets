@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <museScore version="3.02">
   <programVersion>3.6.2</programVersion>
-  <programRevision></programRevision>
+  <programRevision>3224f34</programRevision>
   <Score>
     <LayerTag id="0" tag="default"></LayerTag>
     <currentLayer>0</currentLayer>
@@ -32540,6 +32540,17 @@
             <velocity>96</velocity>
             <linkedMain/>
             </Dynamic>
+          <Spanner type="HairPin">
+            <HairPin>
+              <subtype>1</subtype>
+              <linkedMain/>
+              </HairPin>
+            <next>
+              <location>
+                <measures>1</measures>
+                </location>
+              </next>
+            </Spanner>
           <Spanner type="Volta">
             <Volta>
               <endHookType>1</endHookType>
@@ -32550,17 +32561,6 @@
             <next>
               <location>
                 <measures>4</measures>
-                </location>
-              </next>
-            </Spanner>
-          <Spanner type="HairPin">
-            <HairPin>
-              <subtype>1</subtype>
-              <linkedMain/>
-              </HairPin>
-            <next>
-              <location>
-                <measures>1</measures>
                 </location>
               </next>
             </Spanner>
@@ -71029,21 +71029,21 @@
             <Spanner type="Slur">
               <Slur>
                 <linkedMain/>
-                <up>up</up>
                 </Slur>
               <next>
                 <location>
-                  <measures>1</measures>
-                  <fractions>-1/8</fractions>
                   </location>
                 </next>
               </Spanner>
             <Spanner type="Slur">
               <Slur>
                 <linkedMain/>
+                <up>up</up>
                 </Slur>
               <next>
                 <location>
+                  <measures>1</measures>
+                  <fractions>-1/8</fractions>
                   </location>
                 </next>
               </Spanner>
@@ -216772,6 +216772,13 @@
             <linkedMain/>
             <durationType>eighth</durationType>
             <Spanner type="Slur">
+              <prev>
+                <location>
+                  <grace>0</grace>
+                  </location>
+                </prev>
+              </Spanner>
+            <Spanner type="Slur">
               <Slur>
                 <linkedMain/>
                 </Slur>
@@ -216780,13 +216787,6 @@
                   <fractions>1/8</fractions>
                   </location>
                 </next>
-              </Spanner>
-            <Spanner type="Slur">
-              <prev>
-                <location>
-                  <grace>0</grace>
-                  </location>
-                </prev>
               </Spanner>
             <Articulation>
               <subtype>articAccentAbove</subtype>
@@ -289277,6 +289277,13 @@
             <dots>1</dots>
             <durationType>quarter</durationType>
             <Spanner type="Slur">
+              <prev>
+                <location>
+                  <grace>0</grace>
+                  </location>
+                </prev>
+              </Spanner>
+            <Spanner type="Slur">
               <Slur>
                 <linkedMain/>
                 </Slur>
@@ -289286,13 +289293,6 @@
                   <fractions>-3/8</fractions>
                   </location>
                 </next>
-              </Spanner>
-            <Spanner type="Slur">
-              <prev>
-                <location>
-                  <grace>0</grace>
-                  </location>
-                </prev>
               </Spanner>
             <StemDirection>up</StemDirection>
             <Note>
@@ -291889,6 +291889,13 @@
             <BeamMode>begin</BeamMode>
             <durationType>eighth</durationType>
             <Spanner type="Slur">
+              <prev>
+                <location>
+                  <grace>0</grace>
+                  </location>
+                </prev>
+              </Spanner>
+            <Spanner type="Slur">
               <Slur>
                 <linkedMain/>
                 </Slur>
@@ -291897,13 +291904,6 @@
                   <fractions>5/8</fractions>
                   </location>
                 </next>
-              </Spanner>
-            <Spanner type="Slur">
-              <prev>
-                <location>
-                  <grace>0</grace>
-                  </location>
-                </prev>
               </Spanner>
             <Note>
               <linkedMain/>
@@ -337695,6 +337695,18 @@
               <linked>
                 </linked>
               </Dynamic>
+            <Spanner type="HairPin">
+              <HairPin>
+                <subtype>1</subtype>
+                <linked>
+                  </linked>
+                </HairPin>
+              <next>
+                <location>
+                  <measures>1</measures>
+                  </location>
+                </next>
+              </Spanner>
             <Spanner type="Volta">
               <Volta>
                 <endHookType>1</endHookType>
@@ -337706,18 +337718,6 @@
               <next>
                 <location>
                   <measures>4</measures>
-                  </location>
-                </next>
-              </Spanner>
-            <Spanner type="HairPin">
-              <HairPin>
-                <subtype>1</subtype>
-                <linked>
-                  </linked>
-                </HairPin>
-              <next>
-                <location>
-                  <measures>1</measures>
                   </location>
                 </next>
               </Spanner>
@@ -381805,7 +381805,6 @@
               <Spanner type="Slur">
                 <Slur>
                   <linked>
-                    <indexDiff>1</indexDiff>
                     </linked>
                   </Slur>
                 <next>
@@ -381816,7 +381815,6 @@
               <Spanner type="Slur">
                 <Slur>
                   <linked>
-                    <indexDiff>-1</indexDiff>
                     </linked>
                   <up>up</up>
                   </Slur>
@@ -428271,24 +428269,6 @@
                   </location>
                 </prev>
               </Spanner>
-            <Spanner type="Volta">
-              <Volta>
-                <endHookType>1</endHookType>
-                <beginText>1.</beginText>
-                <linked>
-                  <location>
-                    <staves>-1</staves>
-                    </location>
-                  <indexDiff>1</indexDiff>
-                  </linked>
-                <endings>1</endings>
-                </Volta>
-              <next>
-                <location>
-                  <measures>4</measures>
-                  </location>
-                </next>
-              </Spanner>
             <Spanner type="HairPin">
               <HairPin>
                 <subtype>1</subtype>
@@ -428301,13 +428281,33 @@
                   </location>
                 </next>
               </Spanner>
+            <Spanner type="Volta">
+              <Volta>
+                <endHookType>1</endHookType>
+                <beginText>1.</beginText>
+                <linked>
+                  <location>
+                    <staves>-1</staves>
+                    </location>
+                  <indexDiff>2</indexDiff>
+                  </linked>
+                <endings>1</endings>
+                </Volta>
+              <next>
+                <location>
+                  <measures>4</measures>
+                  </location>
+                </next>
+              </Spanner>
             <Chord>
               <linked>
+                <indexDiff>1</indexDiff>
                 </linked>
               <durationType>half</durationType>
               <Spanner type="Slur">
                 <Slur>
                   <linked>
+                    <indexDiff>1</indexDiff>
                     </linked>
                   </Slur>
                 <next>
@@ -428319,6 +428319,7 @@
               <StemDirection>up</StemDirection>
               <Note>
                 <linked>
+                  <indexDiff>1</indexDiff>
                   </linked>
                 <pitch>67</pitch>
                 <tpc>15</tpc>
@@ -520924,7 +520925,7 @@
                   <location>
                     <staves>-2</staves>
                     </location>
-                  <indexDiff>1</indexDiff>
+                  <indexDiff>2</indexDiff>
                   </linked>
                 <endings>1</endings>
                 </Volta>
@@ -604425,7 +604426,7 @@
                   <location>
                     <staves>-3</staves>
                     </location>
-                  <indexDiff>1</indexDiff>
+                  <indexDiff>2</indexDiff>
                   </linked>
                 <endings>1</endings>
                 </Volta>
