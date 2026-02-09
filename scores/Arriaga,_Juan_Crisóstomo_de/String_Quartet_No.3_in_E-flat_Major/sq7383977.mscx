@@ -157,6 +157,7 @@
         <StaffType group="pitched">
           <name>stdNormal</name>
           </StaffType>
+        <barLineSpan>1</barLineSpan>
         </Staff>
       <trackName>Violin 2</trackName>
       <Instrument id="violin">
@@ -19399,15 +19400,6 @@
             <Spanner type="Slur">
               <Slur>
                 <linkedMain/>
-                </Slur>
-              <next>
-                <location>
-                  </location>
-                </next>
-              </Spanner>
-            <Spanner type="Slur">
-              <Slur>
-                <linkedMain/>
                 <SlurSegment no="1">
                   <o3 x="1" y="0"/>
                   <offset x="0" y="1"/>
@@ -19417,6 +19409,15 @@
                 <location>
                   <measures>1</measures>
                   <fractions>3/8</fractions>
+                  </location>
+                </next>
+              </Spanner>
+            <Spanner type="Slur">
+              <Slur>
+                <linkedMain/>
+                </Slur>
+              <next>
+                <location>
                   </location>
                 </next>
               </Spanner>
@@ -19932,13 +19933,6 @@
               </Note>
             </Chord>
           <Spanner type="HairPin">
-            <prev>
-              <location>
-                <fractions>-1/8</fractions>
-                </location>
-              </prev>
-            </Spanner>
-          <Spanner type="HairPin">
             <HairPin>
               <subtype>1</subtype>
               <veloChange>16</veloChange>
@@ -19949,6 +19943,13 @@
                 <fractions>1/4</fractions>
                 </location>
               </next>
+            </Spanner>
+          <Spanner type="HairPin">
+            <prev>
+              <location>
+                <fractions>-1/8</fractions>
+                </location>
+              </prev>
             </Spanner>
           <Chord>
             <linkedMain/>
@@ -19973,13 +19974,6 @@
             <linkedMain/>
             <durationType>quarter</durationType>
             <Spanner type="Slur">
-              <prev>
-                <location>
-                  <grace>0</grace>
-                  </location>
-                </prev>
-              </Spanner>
-            <Spanner type="Slur">
               <Slur>
                 <linkedMain/>
                 <SlurSegment no="0">
@@ -19993,6 +19987,13 @@
                   <fractions>1/4</fractions>
                   </location>
                 </next>
+              </Spanner>
+            <Spanner type="Slur">
+              <prev>
+                <location>
+                  <grace>0</grace>
+                  </location>
+                </prev>
               </Spanner>
             <Note>
               <linkedMain/>
@@ -21748,8 +21749,95 @@
         <voice>
           <Rest>
             <linkedMain/>
-            <durationType>measure</durationType>
-            <duration>6/8</duration>
+            <offset x="-1.38462" y="0"/>
+            <durationType>eighth</durationType>
+            </Rest>
+          <Rest>
+            <linkedMain/>
+            <dots>1</dots>
+            <durationType>16th</durationType>
+            </Rest>
+          <Chord>
+            <linkedMain/>
+            <durationType>32nd</durationType>
+            <Spanner type="Slur">
+              <Slur>
+                <linkedMain/>
+                </Slur>
+              <next>
+                <location>
+                  <fractions>1/32</fractions>
+                  </location>
+                </next>
+              </Spanner>
+            <Note>
+              <linkedMain/>
+              <pitch>86</pitch>
+              <tpc>16</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <linkedMain/>
+            <BeamMode>mid</BeamMode>
+            <durationType>16th</durationType>
+            <Spanner type="Slur">
+              <prev>
+                <location>
+                  <fractions>-1/32</fractions>
+                  </location>
+                </prev>
+              </Spanner>
+            <Note>
+              <linkedMain/>
+              <pitch>91</pitch>
+              <tpc>15</tpc>
+              </Note>
+            </Chord>
+          <Rest>
+            <linkedMain/>
+            <offset x="0" y="-3"/>
+            <BeamMode>mid</BeamMode>
+            <durationType>32nd</durationType>
+            </Rest>
+          <Chord>
+            <linkedMain/>
+            <BeamMode>mid</BeamMode>
+            <durationType>32nd</durationType>
+            <Spanner type="Slur">
+              <Slur>
+                <linkedMain/>
+                </Slur>
+              <next>
+                <location>
+                  <fractions>1/32</fractions>
+                  </location>
+                </next>
+              </Spanner>
+            <Note>
+              <linkedMain/>
+              <pitch>86</pitch>
+              <tpc>16</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <linkedMain/>
+            <durationType>quarter</durationType>
+            <Spanner type="Slur">
+              <prev>
+                <location>
+                  <fractions>-1/32</fractions>
+                  </location>
+                </prev>
+              </Spanner>
+            <Note>
+              <linkedMain/>
+              <pitch>90</pitch>
+              <tpc>20</tpc>
+              </Note>
+            </Chord>
+          <Rest>
+            <linkedMain/>
+            <durationType>eighth</durationType>
             </Rest>
           </voice>
         </Measure>
@@ -76224,15 +76312,6 @@ Research suggests that the quaver triplets should generally be played staccato, 
             <Spanner type="Slur">
               <Slur>
                 <linkedMain/>
-                </Slur>
-              <next>
-                <location>
-                  </location>
-                </next>
-              </Spanner>
-            <Spanner type="Slur">
-              <Slur>
-                <linkedMain/>
                 <SlurSegment no="1">
                   <o3 x="1" y="0"/>
                   <o4 x="0" y="0.5"/>
@@ -76242,6 +76321,15 @@ Research suggests that the quaver triplets should generally be played staccato, 
                 <location>
                   <measures>1</measures>
                   <fractions>3/8</fractions>
+                  </location>
+                </next>
+              </Spanner>
+            <Spanner type="Slur">
+              <Slur>
+                <linkedMain/>
+                </Slur>
+              <next>
+                <location>
                   </location>
                 </next>
               </Spanner>
@@ -76760,13 +76848,6 @@ Research suggests that the quaver triplets should generally be played staccato, 
               </Note>
             </Chord>
           <Spanner type="HairPin">
-            <prev>
-              <location>
-                <fractions>-1/8</fractions>
-                </location>
-              </prev>
-            </Spanner>
-          <Spanner type="HairPin">
             <HairPin>
               <subtype>1</subtype>
               <veloChange>16</veloChange>
@@ -76777,6 +76858,13 @@ Research suggests that the quaver triplets should generally be played staccato, 
                 <fractions>1/4</fractions>
                 </location>
               </next>
+            </Spanner>
+          <Spanner type="HairPin">
+            <prev>
+              <location>
+                <fractions>-1/8</fractions>
+                </location>
+              </prev>
             </Spanner>
           <Chord>
             <linkedMain/>
@@ -76801,13 +76889,6 @@ Research suggests that the quaver triplets should generally be played staccato, 
             <linkedMain/>
             <durationType>quarter</durationType>
             <Spanner type="Slur">
-              <prev>
-                <location>
-                  <grace>0</grace>
-                  </location>
-                </prev>
-              </Spanner>
-            <Spanner type="Slur">
               <Slur>
                 <linkedMain/>
                 <SlurSegment no="0">
@@ -76821,6 +76902,13 @@ Research suggests that the quaver triplets should generally be played staccato, 
                   <fractions>1/4</fractions>
                   </location>
                 </next>
+              </Spanner>
+            <Spanner type="Slur">
+              <prev>
+                <location>
+                  <grace>0</grace>
+                  </location>
+                </prev>
               </Spanner>
             <Note>
               <linkedMain/>
@@ -78525,7 +78613,6 @@ Research suggests that the quaver triplets should generally be played staccato, 
             </Chord>
           <Rest>
             <linkedMain/>
-            <offset x="0" y="-2"/>
             <BeamMode>mid</BeamMode>
             <durationType>32nd</durationType>
             </Rest>
@@ -229192,6 +229279,7 @@ Research suggests that the quaver triplets should generally be played staccato, 
               <Spanner type="Slur">
                 <Slur>
                   <linked>
+                    <indexDiff>1</indexDiff>
                     </linked>
                   </Slur>
                 <next>
@@ -229202,6 +229290,7 @@ Research suggests that the quaver triplets should generally be played staccato, 
               <Spanner type="Slur">
                 <Slur>
                   <linked>
+                    <indexDiff>-1</indexDiff>
                     </linked>
                   </Slur>
                 <next>
@@ -231820,8 +231909,106 @@ Research suggests that the quaver triplets should generally be played staccato, 
             <Rest>
               <linked>
                 </linked>
-              <durationType>measure</durationType>
-              <duration>6/8</duration>
+              <durationType>eighth</durationType>
+              </Rest>
+            <Rest>
+              <linked>
+                </linked>
+              <dots>1</dots>
+              <durationType>16th</durationType>
+              </Rest>
+            <Chord>
+              <linked>
+                </linked>
+              <durationType>32nd</durationType>
+              <Spanner type="Slur">
+                <Slur>
+                  <linked>
+                    </linked>
+                  </Slur>
+                <next>
+                  <location>
+                    <fractions>1/32</fractions>
+                    </location>
+                  </next>
+                </Spanner>
+              <Note>
+                <linked>
+                  </linked>
+                <pitch>86</pitch>
+                <tpc>16</tpc>
+                </Note>
+              </Chord>
+            <Chord>
+              <linked>
+                </linked>
+              <BeamMode>mid</BeamMode>
+              <durationType>16th</durationType>
+              <Spanner type="Slur">
+                <prev>
+                  <location>
+                    <fractions>-1/32</fractions>
+                    </location>
+                  </prev>
+                </Spanner>
+              <Note>
+                <linked>
+                  </linked>
+                <pitch>91</pitch>
+                <tpc>15</tpc>
+                </Note>
+              </Chord>
+            <Rest>
+              <linked>
+                </linked>
+              <BeamMode>mid</BeamMode>
+              <durationType>32nd</durationType>
+              </Rest>
+            <Chord>
+              <linked>
+                </linked>
+              <BeamMode>mid</BeamMode>
+              <durationType>32nd</durationType>
+              <Spanner type="Slur">
+                <Slur>
+                  <linked>
+                    </linked>
+                  </Slur>
+                <next>
+                  <location>
+                    <fractions>1/32</fractions>
+                    </location>
+                  </next>
+                </Spanner>
+              <Note>
+                <linked>
+                  </linked>
+                <pitch>86</pitch>
+                <tpc>16</tpc>
+                </Note>
+              </Chord>
+            <Chord>
+              <linked>
+                </linked>
+              <durationType>quarter</durationType>
+              <Spanner type="Slur">
+                <prev>
+                  <location>
+                    <fractions>-1/32</fractions>
+                    </location>
+                  </prev>
+                </Spanner>
+              <Note>
+                <linked>
+                  </linked>
+                <pitch>90</pitch>
+                <tpc>20</tpc>
+                </Note>
+              </Chord>
+            <Rest>
+              <linked>
+                </linked>
+              <durationType>eighth</durationType>
               </Rest>
             </voice>
           </Measure>
@@ -294422,6 +294609,7 @@ Research suggests that the quaver triplets should generally be played staccato, 
               <Spanner type="Slur">
                 <Slur>
                   <linked>
+                    <indexDiff>1</indexDiff>
                     </linked>
                   </Slur>
                 <next>
@@ -294432,6 +294620,7 @@ Research suggests that the quaver triplets should generally be played staccato, 
               <Spanner type="Slur">
                 <Slur>
                   <linked>
+                    <indexDiff>-1</indexDiff>
                     </linked>
                   </Slur>
                 <next>
