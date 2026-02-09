@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <museScore version="3.02">
   <programVersion>3.6.2</programVersion>
-  <programRevision></programRevision>
+  <programRevision>3224f34</programRevision>
   <Score>
     <LayerTag id="0" tag="default"></LayerTag>
     <currentLayer>0</currentLayer>
@@ -543,6 +543,7 @@
             <subtype>p</subtype>
             <velocity>49</velocity>
             <linkedMain/>
+            <offset x="0.1" y="2.6"/>
             </Dynamic>
           <Chord>
             <linkedMain/>
@@ -1747,7 +1748,7 @@
         </Measure>
       <Measure>
         <LayoutBreak>
-          <subtype>line</subtype>
+          <subtype>page</subtype>
           </LayoutBreak>
         <voice>
           <Chord>
@@ -2969,7 +2970,7 @@
         </Measure>
       <Measure>
         <LayoutBreak>
-          <subtype>line</subtype>
+          <subtype>page</subtype>
           </LayoutBreak>
         <voice>
           <Chord>
@@ -4241,7 +4242,7 @@
         </Measure>
       <Measure>
         <LayoutBreak>
-          <subtype>line</subtype>
+          <subtype>page</subtype>
           </LayoutBreak>
         <voice>
           <Chord>
@@ -5491,7 +5492,7 @@
         </Measure>
       <Measure>
         <LayoutBreak>
-          <subtype>line</subtype>
+          <subtype>page</subtype>
           </LayoutBreak>
         <voice>
           <Chord>
@@ -6537,7 +6538,7 @@
         </Measure>
       <Measure>
         <LayoutBreak>
-          <subtype>line</subtype>
+          <subtype>page</subtype>
           </LayoutBreak>
         <voice>
           <Chord>
@@ -7742,7 +7743,7 @@
         </Measure>
       <Measure>
         <LayoutBreak>
-          <subtype>line</subtype>
+          <subtype>page</subtype>
           </LayoutBreak>
         <voice>
           <Chord>
@@ -8690,7 +8691,7 @@
         </Measure>
       <Measure>
         <LayoutBreak>
-          <subtype>line</subtype>
+          <subtype>page</subtype>
           </LayoutBreak>
         <voice>
           <Chord>
@@ -9605,7 +9606,7 @@
         </Measure>
       <Measure>
         <LayoutBreak>
-          <subtype>line</subtype>
+          <subtype>page</subtype>
           </LayoutBreak>
         <voice>
           <Chord>
@@ -10704,7 +10705,7 @@
         </Measure>
       <Measure>
         <LayoutBreak>
-          <subtype>line</subtype>
+          <subtype>page</subtype>
           </LayoutBreak>
         <voice>
           <Rest>
@@ -12054,7 +12055,7 @@
         </Measure>
       <Measure>
         <LayoutBreak>
-          <subtype>line</subtype>
+          <subtype>page</subtype>
           </LayoutBreak>
         <voice>
           <Chord>
@@ -13409,7 +13410,7 @@
         </Measure>
       <Measure>
         <LayoutBreak>
-          <subtype>line</subtype>
+          <subtype>page</subtype>
           </LayoutBreak>
         <voice>
           <Chord>
@@ -14417,7 +14418,7 @@
         </Measure>
       <Measure>
         <LayoutBreak>
-          <subtype>line</subtype>
+          <subtype>page</subtype>
           </LayoutBreak>
         <voice>
           <Chord>
@@ -14719,6 +14720,9 @@
           </voice>
         </Measure>
       <Measure>
+        <LayoutBreak>
+          <subtype>line</subtype>
+          </LayoutBreak>
         <voice>
           <Chord>
             <linkedMain/>
@@ -14846,9 +14850,6 @@
           </voice>
         </Measure>
       <Measure>
-        <LayoutBreak>
-          <subtype>page</subtype>
-          </LayoutBreak>
         <voice>
           <Chord>
             <linkedMain/>
@@ -15081,6 +15082,9 @@
           </voice>
         </Measure>
       <Measure>
+        <LayoutBreak>
+          <subtype>line</subtype>
+          </LayoutBreak>
         <voice>
           <Rest>
             <linkedMain/>
@@ -15090,9 +15094,6 @@
           </voice>
         </Measure>
       <Measure>
-        <LayoutBreak>
-          <subtype>line</subtype>
-          </LayoutBreak>
         <voice>
           <Rest>
             <linkedMain/>
@@ -15433,7 +15434,7 @@
         </Measure>
       <Measure>
         <LayoutBreak>
-          <subtype>line</subtype>
+          <subtype>page</subtype>
           </LayoutBreak>
         <voice>
           <Chord>
@@ -16192,7 +16193,7 @@
         </Measure>
       <Measure>
         <LayoutBreak>
-          <subtype>page</subtype>
+          <subtype>line</subtype>
           </LayoutBreak>
         <voice>
           <Spanner type="HairPin">
@@ -16617,7 +16618,7 @@
         </Measure>
       <Measure>
         <LayoutBreak>
-          <subtype>line</subtype>
+          <subtype>page</subtype>
           </LayoutBreak>
         <voice>
           <Chord>
@@ -18460,7 +18461,7 @@
         </Measure>
       <Measure>
         <LayoutBreak>
-          <subtype>line</subtype>
+          <subtype>page</subtype>
           </LayoutBreak>
         <voice>
           <Chord>
@@ -19399,15 +19400,6 @@
             <Spanner type="Slur">
               <Slur>
                 <linkedMain/>
-                </Slur>
-              <next>
-                <location>
-                  </location>
-                </next>
-              </Spanner>
-            <Spanner type="Slur">
-              <Slur>
-                <linkedMain/>
                 <SlurSegment no="1">
                   <o3 x="1" y="0"/>
                   <offset x="0" y="1"/>
@@ -19417,6 +19409,15 @@
                 <location>
                   <measures>1</measures>
                   <fractions>3/8</fractions>
+                  </location>
+                </next>
+              </Spanner>
+            <Spanner type="Slur">
+              <Slur>
+                <linkedMain/>
+                </Slur>
+              <next>
+                <location>
                   </location>
                 </next>
               </Spanner>
@@ -19650,6 +19651,13 @@
             <linkedMain/>
             <durationType>quarter</durationType>
             <Spanner type="Slur">
+              <prev>
+                <location>
+                  <grace>0</grace>
+                  </location>
+                </prev>
+              </Spanner>
+            <Spanner type="Slur">
               <Slur>
                 <linkedMain/>
                 </Slur>
@@ -19658,13 +19666,6 @@
                   <fractions>1/4</fractions>
                   </location>
                 </next>
-              </Spanner>
-            <Spanner type="Slur">
-              <prev>
-                <location>
-                  <grace>0</grace>
-                  </location>
-                </prev>
               </Spanner>
             <Note>
               <linkedMain/>
@@ -19932,13 +19933,6 @@
               </Note>
             </Chord>
           <Spanner type="HairPin">
-            <prev>
-              <location>
-                <fractions>-1/8</fractions>
-                </location>
-              </prev>
-            </Spanner>
-          <Spanner type="HairPin">
             <HairPin>
               <subtype>1</subtype>
               <veloChange>16</veloChange>
@@ -19949,6 +19943,13 @@
                 <fractions>1/4</fractions>
                 </location>
               </next>
+            </Spanner>
+          <Spanner type="HairPin">
+            <prev>
+              <location>
+                <fractions>-1/8</fractions>
+                </location>
+              </prev>
             </Spanner>
           <Chord>
             <linkedMain/>
@@ -19973,13 +19974,6 @@
             <linkedMain/>
             <durationType>quarter</durationType>
             <Spanner type="Slur">
-              <prev>
-                <location>
-                  <grace>0</grace>
-                  </location>
-                </prev>
-              </Spanner>
-            <Spanner type="Slur">
               <Slur>
                 <linkedMain/>
                 <SlurSegment no="0">
@@ -19993,6 +19987,13 @@
                   <fractions>1/4</fractions>
                   </location>
                 </next>
+              </Spanner>
+            <Spanner type="Slur">
+              <prev>
+                <location>
+                  <grace>0</grace>
+                  </location>
+                </prev>
               </Spanner>
             <Note>
               <linkedMain/>
@@ -20058,7 +20059,7 @@
         </Measure>
       <Measure>
         <LayoutBreak>
-          <subtype>line</subtype>
+          <subtype>page</subtype>
           </LayoutBreak>
         <voice>
           <Rest>
@@ -20096,6 +20097,9 @@
           </voice>
         </Measure>
       <Measure>
+        <LayoutBreak>
+          <subtype>line</subtype>
+          </LayoutBreak>
         <voice>
           <Chord>
             <linkedMain/>
@@ -20130,6 +20134,9 @@
           </voice>
         </Measure>
       <Measure>
+        <LayoutBreak>
+          <subtype>line</subtype>
+          </LayoutBreak>
         <voice>
           <Spanner type="HairPin">
             <HairPin>
@@ -20191,9 +20198,6 @@
           </voice>
         </Measure>
       <Measure>
-        <LayoutBreak>
-          <subtype>line</subtype>
-          </LayoutBreak>
         <voice>
           <Chord>
             <linkedMain/>
@@ -20245,6 +20249,9 @@
           </voice>
         </Measure>
       <Measure>
+        <LayoutBreak>
+          <subtype>page</subtype>
+          </LayoutBreak>
         <voice>
           <Dynamic>
             <subtype>f</subtype>
@@ -20351,6 +20358,9 @@
           </voice>
         </Measure>
       <Measure>
+        <LayoutBreak>
+          <subtype>line</subtype>
+          </LayoutBreak>
         <voice>
           <Chord>
             <linkedMain/>
@@ -20424,6 +20434,9 @@
           </voice>
         </Measure>
       <Measure>
+        <LayoutBreak>
+          <subtype>line</subtype>
+          </LayoutBreak>
         <voice>
           <Chord>
             <linkedMain/>
@@ -20537,6 +20550,9 @@
           </voice>
         </Measure>
       <Measure>
+        <LayoutBreak>
+          <subtype>page</subtype>
+          </LayoutBreak>
         <voice>
           <Chord>
             <linkedMain/>
@@ -20582,9 +20598,6 @@
           </voice>
         </Measure>
       <Measure>
-        <LayoutBreak>
-          <subtype>line</subtype>
-          </LayoutBreak>
         <voice>
           <Chord>
             <linkedMain/>
@@ -20740,6 +20753,9 @@
           </voice>
         </Measure>
       <Measure>
+        <LayoutBreak>
+          <subtype>line</subtype>
+          </LayoutBreak>
         <voice>
           <Chord>
             <linkedMain/>
@@ -20901,9 +20917,6 @@
           </voice>
         </Measure>
       <Measure>
-        <LayoutBreak>
-          <subtype>line</subtype>
-          </LayoutBreak>
         <voice>
           <Chord>
             <linkedMain/>
@@ -21275,6 +21288,9 @@
           </voice>
         </Measure>
       <Measure>
+        <LayoutBreak>
+          <subtype>line</subtype>
+          </LayoutBreak>
         <voice>
           <Chord>
             <linkedMain/>
@@ -21630,6 +21646,9 @@
           </voice>
         </Measure>
       <Measure>
+        <LayoutBreak>
+          <subtype>page</subtype>
+          </LayoutBreak>
         <voice>
           <Chord>
             <linkedMain/>
@@ -21730,8 +21749,95 @@
         <voice>
           <Rest>
             <linkedMain/>
-            <durationType>measure</durationType>
-            <duration>6/8</duration>
+            <offset x="-1.38462" y="0"/>
+            <durationType>eighth</durationType>
+            </Rest>
+          <Rest>
+            <linkedMain/>
+            <dots>1</dots>
+            <durationType>16th</durationType>
+            </Rest>
+          <Chord>
+            <linkedMain/>
+            <durationType>32nd</durationType>
+            <Spanner type="Slur">
+              <Slur>
+                <linkedMain/>
+                </Slur>
+              <next>
+                <location>
+                  <fractions>1/32</fractions>
+                  </location>
+                </next>
+              </Spanner>
+            <Note>
+              <linkedMain/>
+              <pitch>86</pitch>
+              <tpc>16</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <linkedMain/>
+            <BeamMode>mid</BeamMode>
+            <durationType>16th</durationType>
+            <Spanner type="Slur">
+              <prev>
+                <location>
+                  <fractions>-1/32</fractions>
+                  </location>
+                </prev>
+              </Spanner>
+            <Note>
+              <linkedMain/>
+              <pitch>91</pitch>
+              <tpc>15</tpc>
+              </Note>
+            </Chord>
+          <Rest>
+            <linkedMain/>
+            <offset x="0" y="-3"/>
+            <BeamMode>mid</BeamMode>
+            <durationType>32nd</durationType>
+            </Rest>
+          <Chord>
+            <linkedMain/>
+            <BeamMode>mid</BeamMode>
+            <durationType>32nd</durationType>
+            <Spanner type="Slur">
+              <Slur>
+                <linkedMain/>
+                </Slur>
+              <next>
+                <location>
+                  <fractions>1/32</fractions>
+                  </location>
+                </next>
+              </Spanner>
+            <Note>
+              <linkedMain/>
+              <pitch>86</pitch>
+              <tpc>16</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <linkedMain/>
+            <durationType>quarter</durationType>
+            <Spanner type="Slur">
+              <prev>
+                <location>
+                  <fractions>-1/32</fractions>
+                  </location>
+                </prev>
+              </Spanner>
+            <Note>
+              <linkedMain/>
+              <pitch>90</pitch>
+              <tpc>20</tpc>
+              </Note>
+            </Chord>
+          <Rest>
+            <linkedMain/>
+            <durationType>eighth</durationType>
             </Rest>
           </voice>
         </Measure>
@@ -21864,6 +21970,9 @@
           </voice>
         </Measure>
       <Measure>
+        <LayoutBreak>
+          <subtype>line</subtype>
+          </LayoutBreak>
         <voice>
           <Spanner type="HairPin">
             <HairPin>
@@ -22068,6 +22177,9 @@
           </voice>
         </Measure>
       <Measure>
+        <LayoutBreak>
+          <subtype>line</subtype>
+          </LayoutBreak>
         <voice>
           <Chord>
             <linkedMain/>
@@ -22330,6 +22442,9 @@
           </voice>
         </Measure>
       <Measure>
+        <LayoutBreak>
+          <subtype>page</subtype>
+          </LayoutBreak>
         <voice>
           <Chord>
             <linkedMain/>
@@ -22497,9 +22612,6 @@
           </voice>
         </Measure>
       <Measure>
-        <LayoutBreak>
-          <subtype>line</subtype>
-          </LayoutBreak>
         <voice>
           <Chord>
             <linkedMain/>
@@ -22528,6 +22640,9 @@
           </voice>
         </Measure>
       <Measure>
+        <LayoutBreak>
+          <subtype>line</subtype>
+          </LayoutBreak>
         <voice>
           <Rest>
             <linkedMain/>
@@ -22664,6 +22779,9 @@
           </voice>
         </Measure>
       <Measure>
+        <LayoutBreak>
+          <subtype>line</subtype>
+          </LayoutBreak>
         <voice>
           <Rest>
             <linkedMain/>
@@ -22826,7 +22944,7 @@
         </Measure>
       <Measure>
         <LayoutBreak>
-          <subtype>line</subtype>
+          <subtype>page</subtype>
           </LayoutBreak>
         <voice>
           <Chord>
@@ -23098,6 +23216,9 @@
           </voice>
         </Measure>
       <Measure>
+        <LayoutBreak>
+          <subtype>line</subtype>
+          </LayoutBreak>
         <voice>
           <Rest>
             <linkedMain/>
@@ -23524,6 +23645,9 @@
           </voice>
         </Measure>
       <Measure>
+        <LayoutBreak>
+          <subtype>page</subtype>
+          </LayoutBreak>
         <voice>
           <Rest>
             <linkedMain/>
@@ -24467,6 +24591,9 @@
           </voice>
         </Measure>
       <Measure>
+        <LayoutBreak>
+          <subtype>page</subtype>
+          </LayoutBreak>
         <voice>
           <Chord>
             <linkedMain/>
@@ -24947,6 +25074,9 @@
           </voice>
         </Measure>
       <Measure>
+        <LayoutBreak>
+          <subtype>line</subtype>
+          </LayoutBreak>
         <voice>
           <Chord>
             <linkedMain/>
@@ -24997,6 +25127,9 @@
           </voice>
         </Measure>
       <Measure>
+        <LayoutBreak>
+          <subtype>page</subtype>
+          </LayoutBreak>
         <voice>
           <Chord>
             <linkedMain/>
@@ -25454,6 +25587,9 @@
           </voice>
         </Measure>
       <Measure>
+        <LayoutBreak>
+          <subtype>line</subtype>
+          </LayoutBreak>
         <voice>
           <Rest>
             <linkedMain/>
@@ -25490,7 +25626,7 @@
         </Measure>
       <Measure>
         <LayoutBreak>
-          <subtype>line</subtype>
+          <subtype>page</subtype>
           </LayoutBreak>
         <voice>
           <Chord>
@@ -25536,6 +25672,9 @@
           </voice>
         </Measure>
       <Measure>
+        <LayoutBreak>
+          <subtype>line</subtype>
+          </LayoutBreak>
         <voice>
           <Spanner type="HairPin">
             <HairPin>
@@ -25615,6 +25754,9 @@
           </voice>
         </Measure>
       <Measure>
+        <LayoutBreak>
+          <subtype>line</subtype>
+          </LayoutBreak>
         <voice>
           <Dynamic>
             <subtype>f</subtype>
@@ -25779,7 +25921,7 @@
         </Measure>
       <Measure>
         <LayoutBreak>
-          <subtype>line</subtype>
+          <subtype>page</subtype>
           </LayoutBreak>
         <voice>
           <Chord>
@@ -26036,6 +26178,9 @@
           </voice>
         </Measure>
       <Measure>
+        <LayoutBreak>
+          <subtype>line</subtype>
+          </LayoutBreak>
         <voice>
           <Chord>
             <linkedMain/>
@@ -26152,6 +26297,9 @@
           </voice>
         </Measure>
       <Measure>
+        <LayoutBreak>
+          <subtype>line</subtype>
+          </LayoutBreak>
         <voice>
           <Chord>
             <linkedMain/>
@@ -26174,9 +26322,6 @@
           </voice>
         </Measure>
       <Measure>
-        <LayoutBreak>
-          <subtype>line</subtype>
-          </LayoutBreak>
         <voice>
           <StaffText>
             <linkedMain/>
@@ -26308,6 +26453,9 @@
           </voice>
         </Measure>
       <Measure>
+        <LayoutBreak>
+          <subtype>page</subtype>
+          </LayoutBreak>
         <voice>
           <Chord>
             <linkedMain/>
@@ -35951,7 +36099,7 @@ Research suggests that the quaver triplets should generally be played staccato, 
         </Measure>
       <Measure>
         <LayoutBreak>
-          <subtype>line</subtype>
+          <subtype>page</subtype>
           </LayoutBreak>
         <voice>
           <Rest>
@@ -36898,7 +37046,7 @@ Research suggests that the quaver triplets should generally be played staccato, 
         </Measure>
       <Measure>
         <LayoutBreak>
-          <subtype>line</subtype>
+          <subtype>page</subtype>
           </LayoutBreak>
         <voice>
           <Tuplet>
@@ -38147,7 +38295,7 @@ Research suggests that the quaver triplets should generally be played staccato, 
         </Measure>
       <Measure>
         <LayoutBreak>
-          <subtype>line</subtype>
+          <subtype>page</subtype>
           </LayoutBreak>
         <voice>
           <Chord>
@@ -39262,7 +39410,7 @@ Research suggests that the quaver triplets should generally be played staccato, 
                 </Slur>
               <next>
                 <location>
-                  <measures>1</measures>
+                  <fractions>1/4</fractions>
                   </location>
                 </next>
               </Spanner>
@@ -39272,7 +39420,7 @@ Research suggests that the quaver triplets should generally be played staccato, 
                 </Slur>
               <next>
                 <location>
-                  <fractions>1/4</fractions>
+                  <measures>1</measures>
                   </location>
                 </next>
               </Spanner>
@@ -39322,7 +39470,7 @@ Research suggests that the quaver triplets should generally be played staccato, 
         </Measure>
       <Measure>
         <LayoutBreak>
-          <subtype>line</subtype>
+          <subtype>page</subtype>
           </LayoutBreak>
         <voice>
           <Chord>
@@ -39908,7 +40056,7 @@ Research suggests that the quaver triplets should generally be played staccato, 
         </Measure>
       <Measure>
         <LayoutBreak>
-          <subtype>line</subtype>
+          <subtype>page</subtype>
           </LayoutBreak>
         <voice>
           <Chord>
@@ -40891,7 +41039,7 @@ Research suggests that the quaver triplets should generally be played staccato, 
         </Measure>
       <Measure>
         <LayoutBreak>
-          <subtype>line</subtype>
+          <subtype>page</subtype>
           </LayoutBreak>
         <voice>
           <Chord>
@@ -42171,7 +42319,7 @@ Research suggests that the quaver triplets should generally be played staccato, 
         </Measure>
       <Measure>
         <LayoutBreak>
-          <subtype>line</subtype>
+          <subtype>page</subtype>
           </LayoutBreak>
         <voice>
           <Tuplet>
@@ -43477,7 +43625,7 @@ Research suggests that the quaver triplets should generally be played staccato, 
         </Measure>
       <Measure>
         <LayoutBreak>
-          <subtype>line</subtype>
+          <subtype>page</subtype>
           </LayoutBreak>
         <voice>
           <Chord>
@@ -44364,7 +44512,7 @@ Research suggests that the quaver triplets should generally be played staccato, 
         </Measure>
       <Measure>
         <LayoutBreak>
-          <subtype>line</subtype>
+          <subtype>page</subtype>
           </LayoutBreak>
         <voice>
           <Chord>
@@ -45372,7 +45520,7 @@ Research suggests that the quaver triplets should generally be played staccato, 
         </Measure>
       <Measure>
         <LayoutBreak>
-          <subtype>line</subtype>
+          <subtype>page</subtype>
           </LayoutBreak>
         <voice>
           <Chord>
@@ -46923,7 +47071,7 @@ Research suggests that the quaver triplets should generally be played staccato, 
         </Measure>
       <Measure>
         <LayoutBreak>
-          <subtype>line</subtype>
+          <subtype>page</subtype>
           </LayoutBreak>
         <voice>
           <Tuplet>
@@ -48047,7 +48195,7 @@ Research suggests that the quaver triplets should generally be played staccato, 
         </Measure>
       <Measure>
         <LayoutBreak>
-          <subtype>line</subtype>
+          <subtype>page</subtype>
           </LayoutBreak>
         <voice>
           <Chord>
@@ -49180,7 +49328,7 @@ Research suggests that the quaver triplets should generally be played staccato, 
         </Measure>
       <Measure>
         <LayoutBreak>
-          <subtype>line</subtype>
+          <subtype>page</subtype>
           </LayoutBreak>
         <voice>
           <Chord>
@@ -50321,7 +50469,7 @@ Research suggests that the quaver triplets should generally be played staccato, 
         </Measure>
       <Measure>
         <LayoutBreak>
-          <subtype>line</subtype>
+          <subtype>page</subtype>
           </LayoutBreak>
         <voice>
           <Chord>
@@ -51358,7 +51506,7 @@ Research suggests that the quaver triplets should generally be played staccato, 
         </Measure>
       <Measure>
         <LayoutBreak>
-          <subtype>line</subtype>
+          <subtype>page</subtype>
           </LayoutBreak>
         <voice>
           <Chord>
@@ -52124,7 +52272,7 @@ Research suggests that the quaver triplets should generally be played staccato, 
         </Measure>
       <Measure>
         <LayoutBreak>
-          <subtype>page</subtype>
+          <subtype>line</subtype>
           </LayoutBreak>
         <voice>
           <Chord>
@@ -52275,7 +52423,7 @@ Research suggests that the quaver triplets should generally be played staccato, 
         </Measure>
       <Measure>
         <LayoutBreak>
-          <subtype>line</subtype>
+          <subtype>page</subtype>
           </LayoutBreak>
         <voice>
           <Rest>
@@ -53014,6 +53162,9 @@ Research suggests that the quaver triplets should generally be played staccato, 
           </voice>
         </Measure>
       <Measure>
+        <LayoutBreak>
+          <subtype>page</subtype>
+          </LayoutBreak>
         <voice>
           <Dynamic>
             <subtype>sf</subtype>
@@ -53092,9 +53243,6 @@ Research suggests that the quaver triplets should generally be played staccato, 
           </voice>
         </Measure>
       <Measure>
-        <LayoutBreak>
-          <subtype>page</subtype>
-          </LayoutBreak>
         <voice>
           <Chord>
             <linkedMain/>
@@ -54047,7 +54195,7 @@ Research suggests that the quaver triplets should generally be played staccato, 
         </Measure>
       <Measure>
         <LayoutBreak>
-          <subtype>line</subtype>
+          <subtype>page</subtype>
           </LayoutBreak>
         <voice>
           <Chord>
@@ -54326,7 +54474,7 @@ Research suggests that the quaver triplets should generally be played staccato, 
         </Measure>
       <Measure>
         <LayoutBreak>
-          <subtype>page</subtype>
+          <subtype>line</subtype>
           </LayoutBreak>
         <voice>
           <Rest>
@@ -55790,7 +55938,7 @@ Research suggests that the quaver triplets should generally be played staccato, 
         </Measure>
       <Measure>
         <LayoutBreak>
-          <subtype>line</subtype>
+          <subtype>page</subtype>
           </LayoutBreak>
         <voice>
           <Chord>
@@ -56130,7 +56278,7 @@ Research suggests that the quaver triplets should generally be played staccato, 
         </Measure>
       <Measure>
         <LayoutBreak>
-          <subtype>page</subtype>
+          <subtype>line</subtype>
           </LayoutBreak>
         <voice>
           <Chord>
@@ -56413,7 +56561,7 @@ Research suggests that the quaver triplets should generally be played staccato, 
         </Measure>
       <Measure>
         <LayoutBreak>
-          <subtype>line</subtype>
+          <subtype>page</subtype>
           </LayoutBreak>
         <voice>
           <Chord>
@@ -71640,10 +71788,6 @@ Research suggests that the quaver triplets should generally be played staccato, 
             <Spanner type="Slur">
               <Slur>
                 <linkedMain/>
-                <SlurSegment no="0">
-                  <o1 x="0" y="0.1"/>
-                  <offset x="0" y="0.5"/>
-                  </SlurSegment>
                 </Slur>
               <next>
                 <location>
@@ -71719,9 +71863,6 @@ Research suggests that the quaver triplets should generally be played staccato, 
             <Spanner type="Slur">
               <Slur>
                 <linkedMain/>
-                <SlurSegment no="0">
-                  <o4 x="0" y="0.3"/>
-                  </SlurSegment>
                 </Slur>
               <next>
                 <location>
@@ -73476,9 +73617,6 @@ Research suggests that the quaver triplets should generally be played staccato, 
             <Spanner type="Slur">
               <Slur>
                 <linkedMain/>
-                <SlurSegment no="0">
-                  <o4 x="0" y="-1"/>
-                  </SlurSegment>
                 </Slur>
               <next>
                 <location>
@@ -73560,9 +73698,6 @@ Research suggests that the quaver triplets should generally be played staccato, 
             <Spanner type="Slur">
               <Slur>
                 <linkedMain/>
-                <SlurSegment no="0">
-                  <o4 x="0" y="-1"/>
-                  </SlurSegment>
                 </Slur>
               <next>
                 <location>
@@ -76713,13 +76848,6 @@ Research suggests that the quaver triplets should generally be played staccato, 
               </Note>
             </Chord>
           <Spanner type="HairPin">
-            <prev>
-              <location>
-                <fractions>-1/8</fractions>
-                </location>
-              </prev>
-            </Spanner>
-          <Spanner type="HairPin">
             <HairPin>
               <subtype>1</subtype>
               <veloChange>16</veloChange>
@@ -76730,6 +76858,13 @@ Research suggests that the quaver triplets should generally be played staccato, 
                 <fractions>1/4</fractions>
                 </location>
               </next>
+            </Spanner>
+          <Spanner type="HairPin">
+            <prev>
+              <location>
+                <fractions>-1/8</fractions>
+                </location>
+              </prev>
             </Spanner>
           <Chord>
             <linkedMain/>
@@ -78478,7 +78613,6 @@ Research suggests that the quaver triplets should generally be played staccato, 
             </Chord>
           <Rest>
             <linkedMain/>
-            <offset x="0" y="-2"/>
             <BeamMode>mid</BeamMode>
             <durationType>32nd</durationType>
             </Rest>
@@ -81245,7 +81379,12 @@ Research suggests that the quaver triplets should generally be played staccato, 
               <continueText></continueText>
               <linkedMain/>
               <Segment>
-                <subtype>0</subtype>
+                <subtype>1</subtype>
+                <offset x="0" y="2.5"/>
+                <off2 x="0" y="0"/>
+                </Segment>
+              <Segment>
+                <subtype>3</subtype>
                 <offset x="0" y="2.5"/>
                 <off2 x="0" y="0"/>
                 </Segment>
@@ -81666,7 +81805,12 @@ Research suggests that the quaver triplets should generally be played staccato, 
               <continueText></continueText>
               <linkedMain/>
               <Segment>
-                <subtype>0</subtype>
+                <subtype>1</subtype>
+                <offset x="0" y="2.5"/>
+                <off2 x="0" y="0"/>
+                </Segment>
+              <Segment>
+                <subtype>3</subtype>
                 <offset x="0" y="2.5"/>
                 <off2 x="0" y="0"/>
                 </Segment>
@@ -84062,6 +84206,13 @@ Research suggests that the quaver triplets should generally be played staccato, 
             <linkedMain/>
             <durationType>eighth</durationType>
             <Spanner type="Slur">
+              <prev>
+                <location>
+                  <grace>0</grace>
+                  </location>
+                </prev>
+              </Spanner>
+            <Spanner type="Slur">
               <Slur>
                 <linkedMain/>
                 </Slur>
@@ -84070,13 +84221,6 @@ Research suggests that the quaver triplets should generally be played staccato, 
                   <fractions>1/8</fractions>
                   </location>
                 </next>
-              </Spanner>
-            <Spanner type="Slur">
-              <prev>
-                <location>
-                  <grace>0</grace>
-                  </location>
-                </prev>
               </Spanner>
             <Note>
               <linkedMain/>
@@ -126850,9 +126994,6 @@ Research suggests that the quaver triplets should generally be played staccato, 
             <Spanner type="Slur">
               <Slur>
                 <linkedMain/>
-                <SlurSegment no="0">
-                  <o4 x="0" y="-0.3"/>
-                  </SlurSegment>
                 </Slur>
               <next>
                 <location>
@@ -128397,9 +128538,6 @@ Research suggests that the quaver triplets should generally be played staccato, 
             <Spanner type="Slur">
               <Slur>
                 <linkedMain/>
-                <SlurSegment no="0">
-                  <o4 x="0" y="-1"/>
-                  </SlurSegment>
                 </Slur>
               <next>
                 <location>
@@ -128481,9 +128619,6 @@ Research suggests that the quaver triplets should generally be played staccato, 
             <Spanner type="Slur">
               <Slur>
                 <linkedMain/>
-                <SlurSegment no="0">
-                  <o4 x="0" y="-1"/>
-                  </SlurSegment>
                 </Slur>
               <next>
                 <location>
@@ -131810,7 +131945,12 @@ Research suggests that the quaver triplets should generally be played staccato, 
               <continueText></continueText>
               <linkedMain/>
               <Segment>
-                <subtype>0</subtype>
+                <subtype>1</subtype>
+                <offset x="0" y="2.5"/>
+                <off2 x="0" y="0"/>
+                </Segment>
+              <Segment>
+                <subtype>3</subtype>
                 <offset x="0" y="2.5"/>
                 <off2 x="0" y="0"/>
                 </Segment>
@@ -136346,7 +136486,12 @@ Research suggests that the quaver triplets should generally be played staccato, 
               <continueText></continueText>
               <linkedMain/>
               <Segment>
-                <subtype>0</subtype>
+                <subtype>1</subtype>
+                <offset x="0" y="2.5"/>
+                <off2 x="0" y="0"/>
+                </Segment>
+              <Segment>
+                <subtype>3</subtype>
                 <offset x="0" y="2.5"/>
                 <off2 x="0" y="0"/>
                 </Segment>
@@ -139260,6 +139405,13 @@ Research suggests that the quaver triplets should generally be played staccato, 
             <linkedMain/>
             <durationType>eighth</durationType>
             <Spanner type="Slur">
+              <prev>
+                <location>
+                  <grace>0</grace>
+                  </location>
+                </prev>
+              </Spanner>
+            <Spanner type="Slur">
               <Slur>
                 <linkedMain/>
                 </Slur>
@@ -139268,13 +139420,6 @@ Research suggests that the quaver triplets should generally be played staccato, 
                   <fractions>1/8</fractions>
                   </location>
                 </next>
-              </Spanner>
-            <Spanner type="Slur">
-              <prev>
-                <location>
-                  <grace>0</grace>
-                  </location>
-                </prev>
               </Spanner>
             <Note>
               <linkedMain/>
@@ -139419,6 +139564,13 @@ Research suggests that the quaver triplets should generally be played staccato, 
             <linkedMain/>
             <durationType>eighth</durationType>
             <Spanner type="Slur">
+              <prev>
+                <location>
+                  <grace>0</grace>
+                  </location>
+                </prev>
+              </Spanner>
+            <Spanner type="Slur">
               <Slur>
                 <linkedMain/>
                 </Slur>
@@ -139427,13 +139579,6 @@ Research suggests that the quaver triplets should generally be played staccato, 
                   <fractions>1/8</fractions>
                   </location>
                 </next>
-              </Spanner>
-            <Spanner type="Slur">
-              <prev>
-                <location>
-                  <grace>0</grace>
-                  </location>
-                </prev>
               </Spanner>
             <Note>
               <linkedMain/>
@@ -229134,6 +229279,7 @@ Research suggests that the quaver triplets should generally be played staccato, 
               <Spanner type="Slur">
                 <Slur>
                   <linked>
+                    <indexDiff>1</indexDiff>
                     </linked>
                   </Slur>
                 <next>
@@ -229144,6 +229290,7 @@ Research suggests that the quaver triplets should generally be played staccato, 
               <Spanner type="Slur">
                 <Slur>
                   <linked>
+                    <indexDiff>-1</indexDiff>
                     </linked>
                   </Slur>
                 <next>
@@ -229770,6 +229917,13 @@ Research suggests that the quaver triplets should generally be played staccato, 
                 </linked>
               <durationType>quarter</durationType>
               <Spanner type="Slur">
+                <prev>
+                  <location>
+                    <grace>0</grace>
+                    </location>
+                  </prev>
+                </Spanner>
+              <Spanner type="Slur">
                 <Slur>
                   <linked>
                     </linked>
@@ -229779,13 +229933,6 @@ Research suggests that the quaver triplets should generally be played staccato, 
                     <fractions>1/4</fractions>
                     </location>
                   </next>
-                </Spanner>
-              <Spanner type="Slur">
-                <prev>
-                  <location>
-                    <grace>0</grace>
-                    </location>
-                  </prev>
                 </Spanner>
               <Note>
                 <linked>
@@ -231762,8 +231909,106 @@ Research suggests that the quaver triplets should generally be played staccato, 
             <Rest>
               <linked>
                 </linked>
-              <durationType>measure</durationType>
-              <duration>6/8</duration>
+              <durationType>eighth</durationType>
+              </Rest>
+            <Rest>
+              <linked>
+                </linked>
+              <dots>1</dots>
+              <durationType>16th</durationType>
+              </Rest>
+            <Chord>
+              <linked>
+                </linked>
+              <durationType>32nd</durationType>
+              <Spanner type="Slur">
+                <Slur>
+                  <linked>
+                    </linked>
+                  </Slur>
+                <next>
+                  <location>
+                    <fractions>1/32</fractions>
+                    </location>
+                  </next>
+                </Spanner>
+              <Note>
+                <linked>
+                  </linked>
+                <pitch>86</pitch>
+                <tpc>16</tpc>
+                </Note>
+              </Chord>
+            <Chord>
+              <linked>
+                </linked>
+              <BeamMode>mid</BeamMode>
+              <durationType>16th</durationType>
+              <Spanner type="Slur">
+                <prev>
+                  <location>
+                    <fractions>-1/32</fractions>
+                    </location>
+                  </prev>
+                </Spanner>
+              <Note>
+                <linked>
+                  </linked>
+                <pitch>91</pitch>
+                <tpc>15</tpc>
+                </Note>
+              </Chord>
+            <Rest>
+              <linked>
+                </linked>
+              <BeamMode>mid</BeamMode>
+              <durationType>32nd</durationType>
+              </Rest>
+            <Chord>
+              <linked>
+                </linked>
+              <BeamMode>mid</BeamMode>
+              <durationType>32nd</durationType>
+              <Spanner type="Slur">
+                <Slur>
+                  <linked>
+                    </linked>
+                  </Slur>
+                <next>
+                  <location>
+                    <fractions>1/32</fractions>
+                    </location>
+                  </next>
+                </Spanner>
+              <Note>
+                <linked>
+                  </linked>
+                <pitch>86</pitch>
+                <tpc>16</tpc>
+                </Note>
+              </Chord>
+            <Chord>
+              <linked>
+                </linked>
+              <durationType>quarter</durationType>
+              <Spanner type="Slur">
+                <prev>
+                  <location>
+                    <fractions>-1/32</fractions>
+                    </location>
+                  </prev>
+                </Spanner>
+              <Note>
+                <linked>
+                  </linked>
+                <pitch>90</pitch>
+                <tpc>20</tpc>
+                </Note>
+              </Chord>
+            <Rest>
+              <linked>
+                </linked>
+              <durationType>eighth</durationType>
               </Rest>
             </voice>
           </Measure>
@@ -251801,7 +252046,7 @@ Research suggests that the quaver triplets should generally be played staccato, 
                   </Slur>
                 <next>
                   <location>
-                    <measures>1</measures>
+                    <fractions>1/4</fractions>
                     </location>
                   </next>
                 </Spanner>
@@ -251812,7 +252057,7 @@ Research suggests that the quaver triplets should generally be played staccato, 
                   </Slur>
                 <next>
                   <location>
-                    <fractions>1/4</fractions>
+                    <measures>1</measures>
                     </location>
                   </next>
                 </Spanner>
@@ -294724,22 +294969,24 @@ Research suggests that the quaver triplets should generally be played staccato, 
               <Spanner type="Slur">
                 <Slur>
                   <linked>
+                    <indexDiff>1</indexDiff>
                     </linked>
                   </Slur>
                 <next>
                   <location>
-                    <measures>1</measures>
-                    <fractions>3/8</fractions>
                     </location>
                   </next>
                 </Spanner>
               <Spanner type="Slur">
                 <Slur>
                   <linked>
+                    <indexDiff>-1</indexDiff>
                     </linked>
                   </Slur>
                 <next>
                   <location>
+                    <measures>1</measures>
+                    <fractions>3/8</fractions>
                     </location>
                   </next>
                 </Spanner>
@@ -303712,6 +303959,13 @@ Research suggests that the quaver triplets should generally be played staccato, 
                 </linked>
               <durationType>eighth</durationType>
               <Spanner type="Slur">
+                <prev>
+                  <location>
+                    <grace>0</grace>
+                    </location>
+                  </prev>
+                </Spanner>
+              <Spanner type="Slur">
                 <Slur>
                   <linked>
                     </linked>
@@ -303721,13 +303975,6 @@ Research suggests that the quaver triplets should generally be played staccato, 
                     <fractions>1/8</fractions>
                     </location>
                   </next>
-                </Spanner>
-              <Spanner type="Slur">
-                <prev>
-                  <location>
-                    <grace>0</grace>
-                    </location>
-                  </prev>
                 </Spanner>
               <Note>
                 <linked>

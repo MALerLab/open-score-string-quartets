@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <museScore version="3.02">
   <programVersion>3.6.2</programVersion>
-  <programRevision>a732723</programRevision>
+  <programRevision>3224f34</programRevision>
   <Score>
     <LayerTag id="0" tag="default"></LayerTag>
     <currentLayer>0</currentLayer>
@@ -1910,7 +1910,7 @@
         </Measure>
       <Measure>
         <LayoutBreak>
-          <subtype>line</subtype>
+          <subtype>page</subtype>
           </LayoutBreak>
         <voice>
           <RehearsalMark>
@@ -2609,6 +2609,17 @@
             </Spanner>
           <Spanner type="HairPin">
             <HairPin>
+              <subtype>1</subtype>
+              <linkedMain/>
+              </HairPin>
+            <next>
+              <location>
+                <fractions>1/2</fractions>
+                </location>
+              </next>
+            </Spanner>
+          <Spanner type="HairPin">
+            <HairPin>
               <subtype>2</subtype>
               <endText></endText>
               <lineVisible>0</lineVisible>
@@ -2623,17 +2634,6 @@
             <next>
               <location>
                 <measures>1</measures>
-                </location>
-              </next>
-            </Spanner>
-          <Spanner type="HairPin">
-            <HairPin>
-              <subtype>1</subtype>
-              <linkedMain/>
-              </HairPin>
-            <next>
-              <location>
-                <fractions>1/2</fractions>
                 </location>
               </next>
             </Spanner>
@@ -5878,7 +5878,7 @@
         </Measure>
       <Measure>
         <LayoutBreak>
-          <subtype>line</subtype>
+          <subtype>page</subtype>
           </LayoutBreak>
         <voice>
           <Chord>
@@ -7718,23 +7718,6 @@
             <textLineSpacing>0.85</textLineSpacing>
             <text><b></b><font face="ScoreText"></font><b><font face="Edwin"></font> = 62</b></text>
             </Tempo>
-          <Spanner type="HairPin">
-            <HairPin>
-              <subtype>1</subtype>
-              <linkedMain/>
-              <Segment>
-                <subtype>0</subtype>
-                <offset x="0" y="2"/>
-                <off2 x="-0.690273" y="0"/>
-                </Segment>
-              </HairPin>
-            <next>
-              <location>
-                <measures>1</measures>
-                <fractions>-1/4</fractions>
-                </location>
-              </next>
-            </Spanner>
           <Spanner type="TextLine">
             <TextLine system="1">
               <beginText>rit. </beginText>
@@ -7758,6 +7741,23 @@
             <next>
               <location>
                 <fractions>3/4</fractions>
+                </location>
+              </next>
+            </Spanner>
+          <Spanner type="HairPin">
+            <HairPin>
+              <subtype>1</subtype>
+              <linkedMain/>
+              <Segment>
+                <subtype>0</subtype>
+                <offset x="0" y="2"/>
+                <off2 x="-0.690273" y="0"/>
+                </Segment>
+              </HairPin>
+            <next>
+              <location>
+                <measures>1</measures>
+                <fractions>-1/4</fractions>
                 </location>
               </next>
             </Spanner>
@@ -8065,6 +8065,9 @@
           </voice>
         </Measure>
       <Measure>
+        <LayoutBreak>
+          <subtype>page</subtype>
+          </LayoutBreak>
         <voice>
           <TimeSig>
             <linkedMain/>
@@ -12162,7 +12165,7 @@
         </Measure>
       <Measure>
         <LayoutBreak>
-          <subtype>line</subtype>
+          <subtype>page</subtype>
           </LayoutBreak>
         <voice>
           <Beam>
@@ -13892,7 +13895,7 @@
         </Measure>
       <Measure>
         <LayoutBreak>
-          <subtype>line</subtype>
+          <subtype>page</subtype>
           </LayoutBreak>
         <voice>
           <RehearsalMark>
@@ -16000,7 +16003,7 @@
         </Measure>
       <Measure>
         <LayoutBreak>
-          <subtype>line</subtype>
+          <subtype>page</subtype>
           </LayoutBreak>
         <voice>
           <Chord>
@@ -17043,7 +17046,7 @@
         </Measure>
       <Measure>
         <LayoutBreak>
-          <subtype>page</subtype>
+          <subtype>line</subtype>
           </LayoutBreak>
         <voice>
           <Rest>
@@ -17983,7 +17986,7 @@
         </Measure>
       <Measure>
         <LayoutBreak>
-          <subtype>line</subtype>
+          <subtype>page</subtype>
           </LayoutBreak>
         <voice>
           <Chord>
@@ -19835,7 +19838,7 @@
         </Measure>
       <Measure>
         <LayoutBreak>
-          <subtype>line</subtype>
+          <subtype>page</subtype>
           </LayoutBreak>
         <voice>
           <Rest>
@@ -21658,7 +21661,7 @@
         </Measure>
       <Measure>
         <LayoutBreak>
-          <subtype>line</subtype>
+          <subtype>page</subtype>
           </LayoutBreak>
         <voice>
           <Chord>
@@ -22407,6 +22410,17 @@
             </Chord>
           <Spanner type="HairPin">
             <HairPin>
+              <subtype>1</subtype>
+              </HairPin>
+            <next>
+              <location>
+                <measures>1</measures>
+                <fractions>-1/4</fractions>
+                </location>
+              </next>
+            </Spanner>
+          <Spanner type="HairPin">
+            <HairPin>
               <subtype>2</subtype>
               <endText></endText>
               <lineVisible>0</lineVisible>
@@ -22422,17 +22436,6 @@
             <next>
               <location>
                 <measures>2</measures>
-                <fractions>-1/4</fractions>
-                </location>
-              </next>
-            </Spanner>
-          <Spanner type="HairPin">
-            <HairPin>
-              <subtype>1</subtype>
-              </HairPin>
-            <next>
-              <location>
-                <measures>1</measures>
                 <fractions>-1/4</fractions>
                 </location>
               </next>
@@ -24694,7 +24697,7 @@
         </Measure>
       <Measure>
         <LayoutBreak>
-          <subtype>line</subtype>
+          <subtype>page</subtype>
           </LayoutBreak>
         <voice>
           <Chord>
@@ -26586,7 +26589,7 @@
         </Measure>
       <Measure>
         <LayoutBreak>
-          <subtype>line</subtype>
+          <subtype>page</subtype>
           </LayoutBreak>
         <voice>
           <Spanner type="HairPin">
@@ -27629,7 +27632,7 @@
         </Measure>
       <Measure>
         <LayoutBreak>
-          <subtype>page</subtype>
+          <subtype>line</subtype>
           </LayoutBreak>
         <voice>
           <Chord>
@@ -28498,7 +28501,7 @@
         </Measure>
       <Measure>
         <LayoutBreak>
-          <subtype>line</subtype>
+          <subtype>page</subtype>
           </LayoutBreak>
         <voice>
           <Dynamic>
@@ -29142,7 +29145,7 @@
         </Measure>
       <Measure>
         <LayoutBreak>
-          <subtype>page</subtype>
+          <subtype>line</subtype>
           </LayoutBreak>
         <voice>
           <Chord>
@@ -29851,7 +29854,7 @@
         </Measure>
       <Measure>
         <LayoutBreak>
-          <subtype>line</subtype>
+          <subtype>page</subtype>
           </LayoutBreak>
         <voice>
           <Dynamic>
@@ -31294,7 +31297,7 @@
         </Measure>
       <Measure>
         <LayoutBreak>
-          <subtype>line</subtype>
+          <subtype>page</subtype>
           </LayoutBreak>
         <voice>
           <Tempo>
@@ -32391,17 +32394,6 @@
                 </location>
               </prev>
             </Spanner>
-          <Spanner type="Ottava">
-            <Ottava>
-              <subtype>8va</subtype>
-              </Ottava>
-            <next>
-              <location>
-                <measures>1</measures>
-                <fractions>1/2</fractions>
-                </location>
-              </next>
-            </Spanner>
           <Spanner type="HairPin">
             <HairPin>
               <subtype>3</subtype>
@@ -32413,6 +32405,17 @@
               <location>
                 <measures>1</measures>
                 <fractions>-1/4</fractions>
+                </location>
+              </next>
+            </Spanner>
+          <Spanner type="Ottava">
+            <Ottava>
+              <subtype>8va</subtype>
+              </Ottava>
+            <next>
+              <location>
+                <measures>1</measures>
+                <fractions>1/2</fractions>
                 </location>
               </next>
             </Spanner>
@@ -33597,7 +33600,7 @@
         </Measure>
       <Measure>
         <LayoutBreak>
-          <subtype>line</subtype>
+          <subtype>page</subtype>
           </LayoutBreak>
         <voice>
           <Chord>
@@ -35215,7 +35218,7 @@
         </Measure>
       <Measure>
         <LayoutBreak>
-          <subtype>line</subtype>
+          <subtype>page</subtype>
           </LayoutBreak>
         <voice>
           <RehearsalMark>
@@ -37768,7 +37771,7 @@
         </Measure>
       <Measure>
         <LayoutBreak>
-          <subtype>line</subtype>
+          <subtype>page</subtype>
           </LayoutBreak>
         <voice>
           <Rest>
@@ -39768,7 +39771,7 @@
         </Measure>
       <Measure>
         <LayoutBreak>
-          <subtype>line</subtype>
+          <subtype>page</subtype>
           </LayoutBreak>
         <voice>
           <Tempo>
@@ -43195,7 +43198,7 @@
         </Measure>
       <Measure>
         <LayoutBreak>
-          <subtype>line</subtype>
+          <subtype>page</subtype>
           </LayoutBreak>
         <voice>
           <Chord>
@@ -43621,7 +43624,7 @@
         </Measure>
       <Measure>
         <LayoutBreak>
-          <subtype>page</subtype>
+          <subtype>line</subtype>
           </LayoutBreak>
         <voice>
           <RehearsalMark>
@@ -44046,7 +44049,7 @@
         </Measure>
       <Measure>
         <LayoutBreak>
-          <subtype>line</subtype>
+          <subtype>page</subtype>
           </LayoutBreak>
         <voice>
           <TimeSig>
@@ -44132,7 +44135,7 @@
         </Measure>
       <Measure>
         <LayoutBreak>
-          <subtype>page</subtype>
+          <subtype>line</subtype>
           </LayoutBreak>
         <voice>
           <TimeSig>
@@ -44292,7 +44295,7 @@
         </Measure>
       <Measure>
         <LayoutBreak>
-          <subtype>line</subtype>
+          <subtype>page</subtype>
           </LayoutBreak>
         <voice>
           <Chord>
@@ -45678,7 +45681,7 @@
         </Measure>
       <Measure>
         <LayoutBreak>
-          <subtype>line</subtype>
+          <subtype>page</subtype>
           </LayoutBreak>
         <voice>
           <Chord>
@@ -47128,7 +47131,7 @@
         </Measure>
       <Measure>
         <LayoutBreak>
-          <subtype>line</subtype>
+          <subtype>page</subtype>
           </LayoutBreak>
         <voice>
           <Chord>
@@ -48994,7 +48997,7 @@
         </Measure>
       <Measure>
         <LayoutBreak>
-          <subtype>line</subtype>
+          <subtype>page</subtype>
           </LayoutBreak>
         <voice>
           <Spanner type="HairPin">
@@ -50657,7 +50660,7 @@
         </Measure>
       <Measure>
         <LayoutBreak>
-          <subtype>line</subtype>
+          <subtype>page</subtype>
           </LayoutBreak>
         <voice>
           <Chord>
@@ -51919,7 +51922,7 @@
         </Measure>
       <Measure>
         <LayoutBreak>
-          <subtype>line</subtype>
+          <subtype>page</subtype>
           </LayoutBreak>
         <voice>
           <Chord>
@@ -52956,7 +52959,7 @@
         </Measure>
       <Measure>
         <LayoutBreak>
-          <subtype>line</subtype>
+          <subtype>page</subtype>
           </LayoutBreak>
         <voice>
           <TimeSig>
@@ -54806,7 +54809,7 @@
         </Measure>
       <Measure>
         <LayoutBreak>
-          <subtype>line</subtype>
+          <subtype>page</subtype>
           </LayoutBreak>
         <voice>
           <TimeSig>
@@ -57147,7 +57150,7 @@
         </Measure>
       <Measure>
         <LayoutBreak>
-          <subtype>line</subtype>
+          <subtype>page</subtype>
           </LayoutBreak>
         <voice>
           <Chord>
@@ -59119,7 +59122,7 @@
         </Measure>
       <Measure>
         <LayoutBreak>
-          <subtype>line</subtype>
+          <subtype>page</subtype>
           </LayoutBreak>
         <voice>
           <TimeSig>
@@ -61110,7 +61113,7 @@
         </Measure>
       <Measure>
         <LayoutBreak>
-          <subtype>line</subtype>
+          <subtype>page</subtype>
           </LayoutBreak>
         <voice>
           <Chord>
@@ -258528,7 +258531,6 @@ sostenuto</text>
               <HairPin>
                 <subtype>1</subtype>
                 <linked>
-                  <indexDiff>1</indexDiff>
                   </linked>
                 </HairPin>
               <next>
@@ -258545,7 +258547,6 @@ sostenuto</text>
                 <beginText>cresc. poco a poco</beginText>
                 <placement>above</placement>
                 <linked>
-                  <indexDiff>-1</indexDiff>
                   </linked>
                 <Segment>
                   <subtype>0</subtype>
@@ -264224,7 +264225,6 @@ sostenuto</text>
                 <endFontStyle>1</endFontStyle>
                 <endTextOffset x="-1.32353" y="0"/>
                 <linked>
-                  <indexDiff>1</indexDiff>
                   </linked>
                 <diagonal>1</diagonal>
                 <lineWidth>0.0685801</lineWidth>
@@ -264241,7 +264241,6 @@ sostenuto</text>
               <HairPin>
                 <subtype>1</subtype>
                 <linked>
-                  <indexDiff>-1</indexDiff>
                   </linked>
                 </HairPin>
               <next>
@@ -282809,18 +282808,6 @@ sostenuto</text>
                   </location>
                 </prev>
               </Spanner>
-            <Spanner type="TextLine">
-              <TextLine>
-                <beginText>rit.  </beginText>
-                <diagonal>1</diagonal>
-                <lineWidth>0.134688</lineWidth>
-                </TextLine>
-              <next>
-                <location>
-                  <measures>8</measures>
-                  </location>
-                </next>
-              </Spanner>
             <Spanner type="HairPin">
               <HairPin>
                 <subtype>3</subtype>
@@ -282830,6 +282817,18 @@ sostenuto</text>
               <next>
                 <location>
                   <measures>3</measures>
+                  </location>
+                </next>
+              </Spanner>
+            <Spanner type="TextLine">
+              <TextLine>
+                <beginText>rit.  </beginText>
+                <diagonal>1</diagonal>
+                <lineWidth>0.134688</lineWidth>
+                </TextLine>
+              <next>
+                <location>
+                  <measures>8</measures>
                   </location>
                 </next>
               </Spanner>
@@ -427183,6 +427182,18 @@ sostenuto</text>
                   </location>
                 </prev>
               </Spanner>
+            <Spanner type="HairPin">
+              <HairPin>
+                <subtype>1</subtype>
+                <linked>
+                  </linked>
+                </HairPin>
+              <next>
+                <location>
+                  <measures>1</measures>
+                  </location>
+                </next>
+              </Spanner>
             <Spanner type="TextLine">
               <TextLine system="1">
                 <beginText>poco stringendo  </beginText>
@@ -427195,18 +427206,6 @@ sostenuto</text>
               <next>
                 <location>
                   <measures>5</measures>
-                  </location>
-                </next>
-              </Spanner>
-            <Spanner type="HairPin">
-              <HairPin>
-                <subtype>1</subtype>
-                <linked>
-                  </linked>
-                </HairPin>
-              <next>
-                <location>
-                  <measures>1</measures>
                   </location>
                 </next>
               </Spanner>
@@ -461284,20 +461283,6 @@ sostenuto</text>
               <Spanner type="Slur">
                 <Slur>
                   <linked>
-                    <indexDiff>1</indexDiff>
-                    </linked>
-                  </Slur>
-                <next>
-                  <location>
-                    <measures>1</measures>
-                    <fractions>7/16</fractions>
-                    </location>
-                  </next>
-                </Spanner>
-              <Spanner type="Slur">
-                <Slur>
-                  <linked>
-                    <indexDiff>-1</indexDiff>
                     </linked>
                   <up>down</up>
                   </Slur>
@@ -461305,6 +461290,18 @@ sostenuto</text>
                   <location>
                     <measures>1</measures>
                     <fractions>-1/2</fractions>
+                    </location>
+                  </next>
+                </Spanner>
+              <Spanner type="Slur">
+                <Slur>
+                  <linked>
+                    </linked>
+                  </Slur>
+                <next>
+                  <location>
+                    <measures>1</measures>
+                    <fractions>7/16</fractions>
                     </location>
                   </next>
                 </Spanner>
@@ -484598,32 +484595,30 @@ sostenuto</text>
               </Spanner>
             <Spanner type="HairPin">
               <HairPin>
+                <subtype>0</subtype>
+                <linked>
+                  </linked>
+                </HairPin>
+              <next>
+                <location>
+                  <fractions>1/2</fractions>
+                  </location>
+                </next>
+              </Spanner>
+            <Spanner type="HairPin">
+              <HairPin>
                 <subtype>2</subtype>
                 <endText></endText>
                 <lineVisible>0</lineVisible>
                 <beginText>sempre cresc.</beginText>
                 <continueText></continueText>
                 <linked>
-                  <indexDiff>1</indexDiff>
                   </linked>
                 <dashGapLength>20</dashGapLength>
                 </HairPin>
               <next>
                 <location>
                   <measures>1</measures>
-                  </location>
-                </next>
-              </Spanner>
-            <Spanner type="HairPin">
-              <HairPin>
-                <subtype>0</subtype>
-                <linked>
-                  <indexDiff>-1</indexDiff>
-                  </linked>
-                </HairPin>
-              <next>
-                <location>
-                  <fractions>1/2</fractions>
                   </location>
                 </next>
               </Spanner>
@@ -504569,6 +504564,19 @@ sostenuto</text>
                   </location>
                 </prev>
               </Spanner>
+            <Spanner type="HairPin">
+              <HairPin>
+                <subtype>0</subtype>
+                <linked>
+                  <indexDiff>1</indexDiff>
+                  </linked>
+                </HairPin>
+              <next>
+                <location>
+                  <measures>1</measures>
+                  </location>
+                </next>
+              </Spanner>
             <Spanner type="TextLine">
               <TextLine system="1">
                 <beginText>cresc. </beginText>
@@ -504589,6 +504597,7 @@ sostenuto</text>
                 <subtype>2</subtype>
                 <endText></endText>
                 <linked>
+                  <indexDiff>-1</indexDiff>
                   </linked>
                 <visible>0</visible>
                 <Segment>
@@ -504601,18 +504610,6 @@ sostenuto</text>
               <next>
                 <location>
                   <measures>4</measures>
-                  </location>
-                </next>
-              </Spanner>
-            <Spanner type="HairPin">
-              <HairPin>
-                <subtype>0</subtype>
-                <linked>
-                  </linked>
-                </HairPin>
-              <next>
-                <location>
-                  <measures>1</measures>
                   </location>
                 </next>
               </Spanner>
@@ -534620,20 +534617,6 @@ sostenuto</text>
               <Spanner type="Slur">
                 <Slur>
                   <linked>
-                    <indexDiff>1</indexDiff>
-                    </linked>
-                  </Slur>
-                <next>
-                  <location>
-                    <measures>1</measures>
-                    <fractions>7/16</fractions>
-                    </location>
-                  </next>
-                </Spanner>
-              <Spanner type="Slur">
-                <Slur>
-                  <linked>
-                    <indexDiff>-1</indexDiff>
                     </linked>
                   <up>down</up>
                   </Slur>
@@ -534641,6 +534624,18 @@ sostenuto</text>
                   <location>
                     <measures>1</measures>
                     <fractions>-1/2</fractions>
+                    </location>
+                  </next>
+                </Spanner>
+              <Spanner type="Slur">
+                <Slur>
+                  <linked>
+                    </linked>
+                  </Slur>
+                <next>
+                  <location>
+                    <measures>1</measures>
+                    <fractions>7/16</fractions>
                     </location>
                   </next>
                 </Spanner>
