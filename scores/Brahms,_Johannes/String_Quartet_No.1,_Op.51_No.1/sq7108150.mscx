@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <museScore version="3.02">
   <programVersion>3.6.2</programVersion>
-  <programRevision>a732723</programRevision>
+  <programRevision>3224f34</programRevision>
   <Score>
     <LayerTag id="0" tag="default"></LayerTag>
     <currentLayer>0</currentLayer>
@@ -3816,6 +3816,16 @@
             <Spanner type="Slur">
               <Slur>
                 <linkedMain/>
+                </Slur>
+              <next>
+                <location>
+                  <fractions>1/4</fractions>
+                  </location>
+                </next>
+              </Spanner>
+            <Spanner type="Slur">
+              <Slur>
+                <linkedMain/>
                 <SlurSegment no="0">
                   <offset x="0" y="-0.5"/>
                   </SlurSegment>
@@ -3823,16 +3833,6 @@
               <next>
                 <location>
                   <fractions>3/4</fractions>
-                  </location>
-                </next>
-              </Spanner>
-            <Spanner type="Slur">
-              <Slur>
-                <linkedMain/>
-                </Slur>
-              <next>
-                <location>
-                  <fractions>1/4</fractions>
                   </location>
                 </next>
               </Spanner>
@@ -261022,7 +261022,7 @@
                   </Slur>
                 <next>
                   <location>
-                    <fractions>3/4</fractions>
+                    <fractions>1/4</fractions>
                     </location>
                   </next>
                 </Spanner>
@@ -261033,7 +261033,7 @@
                   </Slur>
                 <next>
                   <location>
-                    <fractions>1/4</fractions>
+                    <fractions>3/4</fractions>
                     </location>
                   </next>
                 </Spanner>
