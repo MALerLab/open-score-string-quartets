@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <museScore version="3.02">
   <programVersion>3.6.2</programVersion>
-  <programRevision></programRevision>
+  <programRevision>3224f34</programRevision>
   <Score>
     <LayerTag id="0" tag="default"></LayerTag>
     <currentLayer>0</currentLayer>
@@ -1657,7 +1657,7 @@
         </Measure>
       <Measure>
         <LayoutBreak>
-          <subtype>line</subtype>
+          <subtype>page</subtype>
           </LayoutBreak>
         <voice>
           <Chord>
@@ -3276,7 +3276,7 @@
         </Measure>
       <Measure>
         <LayoutBreak>
-          <subtype>line</subtype>
+          <subtype>page</subtype>
           </LayoutBreak>
         <voice>
           <Spanner type="HairPin">
@@ -4699,7 +4699,7 @@
         </Measure>
       <Measure>
         <LayoutBreak>
-          <subtype>line</subtype>
+          <subtype>page</subtype>
           </LayoutBreak>
         <voice>
           <Dynamic>
@@ -5149,7 +5149,7 @@
         </Measure>
       <Measure>
         <LayoutBreak>
-          <subtype>page</subtype>
+          <subtype>line</subtype>
           </LayoutBreak>
         <voice>
           <Dynamic>
@@ -5169,21 +5169,21 @@
             <Spanner type="Slur">
               <Slur>
                 <linkedMain/>
-                <up>up</up>
                 </Slur>
               <next>
                 <location>
-                  <fractions>1/4</fractions>
+                  <fractions>1/16</fractions>
                   </location>
                 </next>
               </Spanner>
             <Spanner type="Slur">
               <Slur>
                 <linkedMain/>
+                <up>up</up>
                 </Slur>
               <next>
                 <location>
-                  <fractions>1/16</fractions>
+                  <fractions>1/4</fractions>
                   </location>
                 </next>
               </Spanner>
@@ -6054,7 +6054,7 @@
         </Measure>
       <Measure>
         <LayoutBreak>
-          <subtype>line</subtype>
+          <subtype>page</subtype>
           </LayoutBreak>
         <voice>
           <Chord>
@@ -7903,7 +7903,7 @@
         </Measure>
       <Measure>
         <LayoutBreak>
-          <subtype>line</subtype>
+          <subtype>page</subtype>
           </LayoutBreak>
         <voice>
           <Chord>
@@ -8917,7 +8917,7 @@
         </Measure>
       <Measure>
         <LayoutBreak>
-          <subtype>page</subtype>
+          <subtype>line</subtype>
           </LayoutBreak>
         <voice>
           <Tempo>
@@ -9671,7 +9671,7 @@
         </Measure>
       <Measure>
         <LayoutBreak>
-          <subtype>line</subtype>
+          <subtype>page</subtype>
           </LayoutBreak>
         <voice>
           <Dynamic>
@@ -10158,877 +10158,877 @@
         </Measure>
       <Measure>
         <LayoutBreak>
+          <subtype>line</subtype>
+          </LayoutBreak>
+        <voice>
+          <Dynamic>
+            <subtype>f</subtype>
+            <velocity>96</velocity>
+            <linkedMain/>
+            </Dynamic>
+          <Tuplet>
+            <linkedMain/>
+            <visible>0</visible>
+            <normalNotes>2</normalNotes>
+            <actualNotes>3</actualNotes>
+            <baseNote>16th</baseNote>
+            <Number>
+              <visible>0</visible>
+              <style>Tuplet</style>
+              <text>3</text>
+              </Number>
+            </Tuplet>
+          <Beam>
+            <distribute>1</distribute>
+            </Beam>
+          <Chord>
+            <linkedMain/>
+            <durationType>16th</durationType>
+            <Spanner type="Slur">
+              <Slur>
+                <linkedMain/>
+                <SlurSegment no="0">
+                  <o3 x="0" y="-2"/>
+                  </SlurSegment>
+                </Slur>
+              <next>
+                <location>
+                  <fractions>11/24</fractions>
+                  </location>
+                </next>
+              </Spanner>
+            <Note>
+              <linkedMain/>
+              <pitch>64</pitch>
+              <tpc>18</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <linkedMain/>
+            <durationType>16th</durationType>
+            <Note>
+              <linkedMain/>
+              <pitch>71</pitch>
+              <tpc>19</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <linkedMain/>
+            <durationType>16th</durationType>
+            <Note>
+              <linkedMain/>
+              <pitch>76</pitch>
+              <tpc>18</tpc>
+              </Note>
+            </Chord>
+          <endTuplet/>
+          <Dynamic>
+            <subtype>fp</subtype>
+            <velocity>96</velocity>
+            <linkedMain/>
+            </Dynamic>
+          <Chord>
+            <linkedMain/>
+            <durationType>quarter</durationType>
+            <Note>
+              <linkedMain/>
+              <Spanner type="Tie">
+                <Tie>
+                  <linkedMain/>
+                  </Tie>
+                <next>
+                  <location>
+                    <fractions>1/4</fractions>
+                    </location>
+                  </next>
+                </Spanner>
+              <pitch>78</pitch>
+              <tpc>20</tpc>
+              </Note>
+            </Chord>
+          <Tuplet>
+            <linkedMain/>
+            <visible>0</visible>
+            <normalNotes>2</normalNotes>
+            <actualNotes>3</actualNotes>
+            <baseNote>16th</baseNote>
+            <Number>
+              <visible>0</visible>
+              <style>Tuplet</style>
+              <text>3</text>
+              </Number>
+            </Tuplet>
+          <Chord>
+            <linkedMain/>
+            <durationType>16th</durationType>
+            <Note>
+              <linkedMain/>
+              <Spanner type="Tie">
+                <prev>
+                  <location>
+                    <fractions>-1/4</fractions>
+                    </location>
+                  </prev>
+                </Spanner>
+              <pitch>78</pitch>
+              <tpc>20</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <linkedMain/>
+            <durationType>16th</durationType>
+            <Note>
+              <linkedMain/>
+              <pitch>76</pitch>
+              <tpc>18</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <linkedMain/>
+            <durationType>16th</durationType>
+            <Spanner type="Slur">
+              <prev>
+                <location>
+                  <fractions>-11/24</fractions>
+                  </location>
+                </prev>
+              </Spanner>
+            <Note>
+              <linkedMain/>
+              <pitch>71</pitch>
+              <tpc>19</tpc>
+              </Note>
+            </Chord>
+          <endTuplet/>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Dynamic>
+            <subtype>f</subtype>
+            <velocity>96</velocity>
+            <linkedMain/>
+            </Dynamic>
+          <Tuplet>
+            <linkedMain/>
+            <visible>0</visible>
+            <normalNotes>2</normalNotes>
+            <actualNotes>3</actualNotes>
+            <baseNote>16th</baseNote>
+            <Number>
+              <visible>0</visible>
+              <style>Tuplet</style>
+              <text>3</text>
+              </Number>
+            </Tuplet>
+          <Beam>
+            <distribute>1</distribute>
+            </Beam>
+          <Chord>
+            <linkedMain/>
+            <durationType>16th</durationType>
+            <Spanner type="Slur">
+              <Slur>
+                <linkedMain/>
+                <SlurSegment no="0">
+                  <o3 x="0" y="-2"/>
+                  </SlurSegment>
+                </Slur>
+              <next>
+                <location>
+                  <fractions>11/24</fractions>
+                  </location>
+                </next>
+              </Spanner>
+            <Note>
+              <linkedMain/>
+              <pitch>64</pitch>
+              <tpc>18</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <linkedMain/>
+            <durationType>16th</durationType>
+            <Note>
+              <linkedMain/>
+              <pitch>71</pitch>
+              <tpc>19</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <linkedMain/>
+            <durationType>16th</durationType>
+            <Note>
+              <linkedMain/>
+              <pitch>76</pitch>
+              <tpc>18</tpc>
+              </Note>
+            </Chord>
+          <endTuplet/>
+          <Dynamic>
+            <subtype>fp</subtype>
+            <velocity>96</velocity>
+            <linkedMain/>
+            </Dynamic>
+          <Chord>
+            <linkedMain/>
+            <durationType>quarter</durationType>
+            <Note>
+              <linkedMain/>
+              <Spanner type="Tie">
+                <Tie>
+                  <linkedMain/>
+                  </Tie>
+                <next>
+                  <location>
+                    <fractions>1/4</fractions>
+                    </location>
+                  </next>
+                </Spanner>
+              <pitch>78</pitch>
+              <tpc>20</tpc>
+              </Note>
+            </Chord>
+          <Tuplet>
+            <linkedMain/>
+            <visible>0</visible>
+            <normalNotes>2</normalNotes>
+            <actualNotes>3</actualNotes>
+            <baseNote>16th</baseNote>
+            <Number>
+              <visible>0</visible>
+              <style>Tuplet</style>
+              <text>3</text>
+              </Number>
+            </Tuplet>
+          <Chord>
+            <linkedMain/>
+            <durationType>16th</durationType>
+            <Note>
+              <linkedMain/>
+              <Spanner type="Tie">
+                <prev>
+                  <location>
+                    <fractions>-1/4</fractions>
+                    </location>
+                  </prev>
+                </Spanner>
+              <pitch>78</pitch>
+              <tpc>20</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <linkedMain/>
+            <durationType>16th</durationType>
+            <Note>
+              <linkedMain/>
+              <pitch>76</pitch>
+              <tpc>18</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <linkedMain/>
+            <durationType>16th</durationType>
+            <Spanner type="Slur">
+              <prev>
+                <location>
+                  <fractions>-11/24</fractions>
+                  </location>
+                </prev>
+              </Spanner>
+            <Note>
+              <linkedMain/>
+              <pitch>71</pitch>
+              <tpc>19</tpc>
+              </Note>
+            </Chord>
+          <endTuplet/>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Dynamic>
+            <subtype>f</subtype>
+            <velocity>96</velocity>
+            <linkedMain/>
+            </Dynamic>
+          <Tuplet>
+            <linkedMain/>
+            <visible>0</visible>
+            <normalNotes>2</normalNotes>
+            <actualNotes>3</actualNotes>
+            <baseNote>16th</baseNote>
+            <Number>
+              <visible>0</visible>
+              <style>Tuplet</style>
+              <text>3</text>
+              </Number>
+            </Tuplet>
+          <Beam>
+            <distribute>1</distribute>
+            </Beam>
+          <Chord>
+            <linkedMain/>
+            <durationType>16th</durationType>
+            <Spanner type="Slur">
+              <Slur>
+                <linkedMain/>
+                <SlurSegment no="0">
+                  <o3 x="0" y="-2"/>
+                  </SlurSegment>
+                </Slur>
+              <next>
+                <location>
+                  <fractions>11/24</fractions>
+                  </location>
+                </next>
+              </Spanner>
+            <Note>
+              <linkedMain/>
+              <pitch>64</pitch>
+              <tpc>18</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <linkedMain/>
+            <durationType>16th</durationType>
+            <Note>
+              <linkedMain/>
+              <pitch>71</pitch>
+              <tpc>19</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <linkedMain/>
+            <durationType>16th</durationType>
+            <Note>
+              <linkedMain/>
+              <pitch>76</pitch>
+              <tpc>18</tpc>
+              </Note>
+            </Chord>
+          <endTuplet/>
+          <Dynamic>
+            <subtype>fp</subtype>
+            <velocity>96</velocity>
+            <linkedMain/>
+            </Dynamic>
+          <Chord>
+            <linkedMain/>
+            <durationType>quarter</durationType>
+            <Note>
+              <linkedMain/>
+              <Spanner type="Tie">
+                <Tie>
+                  <linkedMain/>
+                  </Tie>
+                <next>
+                  <location>
+                    <fractions>1/4</fractions>
+                    </location>
+                  </next>
+                </Spanner>
+              <pitch>78</pitch>
+              <tpc>20</tpc>
+              </Note>
+            </Chord>
+          <Tuplet>
+            <linkedMain/>
+            <visible>0</visible>
+            <normalNotes>2</normalNotes>
+            <actualNotes>3</actualNotes>
+            <baseNote>16th</baseNote>
+            <Number>
+              <visible>0</visible>
+              <style>Tuplet</style>
+              <text>3</text>
+              </Number>
+            </Tuplet>
+          <Chord>
+            <linkedMain/>
+            <durationType>16th</durationType>
+            <Note>
+              <linkedMain/>
+              <Spanner type="Tie">
+                <prev>
+                  <location>
+                    <fractions>-1/4</fractions>
+                    </location>
+                  </prev>
+                </Spanner>
+              <pitch>78</pitch>
+              <tpc>20</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <linkedMain/>
+            <durationType>16th</durationType>
+            <Note>
+              <linkedMain/>
+              <pitch>76</pitch>
+              <tpc>18</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <linkedMain/>
+            <durationType>16th</durationType>
+            <Spanner type="Slur">
+              <prev>
+                <location>
+                  <fractions>-11/24</fractions>
+                  </location>
+                </prev>
+              </Spanner>
+            <Note>
+              <linkedMain/>
+              <pitch>71</pitch>
+              <tpc>19</tpc>
+              </Note>
+            </Chord>
+          <endTuplet/>
+          </voice>
+        </Measure>
+      <Measure>
+        <LayoutBreak>
+          <subtype>line</subtype>
+          </LayoutBreak>
+        <voice>
+          <Dynamic>
+            <subtype>f</subtype>
+            <velocity>96</velocity>
+            <linkedMain/>
+            </Dynamic>
+          <Tuplet>
+            <linkedMain/>
+            <visible>0</visible>
+            <normalNotes>2</normalNotes>
+            <actualNotes>3</actualNotes>
+            <baseNote>16th</baseNote>
+            <Number>
+              <visible>0</visible>
+              <style>Tuplet</style>
+              <text>3</text>
+              </Number>
+            </Tuplet>
+          <Beam>
+            <distribute>1</distribute>
+            </Beam>
+          <Chord>
+            <linkedMain/>
+            <durationType>16th</durationType>
+            <Spanner type="Slur">
+              <Slur>
+                <linkedMain/>
+                <SlurSegment no="0">
+                  <o3 x="0" y="-2"/>
+                  </SlurSegment>
+                </Slur>
+              <next>
+                <location>
+                  <fractions>11/24</fractions>
+                  </location>
+                </next>
+              </Spanner>
+            <Note>
+              <linkedMain/>
+              <pitch>64</pitch>
+              <tpc>18</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <linkedMain/>
+            <durationType>16th</durationType>
+            <Note>
+              <linkedMain/>
+              <pitch>71</pitch>
+              <tpc>19</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <linkedMain/>
+            <durationType>16th</durationType>
+            <Note>
+              <linkedMain/>
+              <pitch>76</pitch>
+              <tpc>18</tpc>
+              </Note>
+            </Chord>
+          <endTuplet/>
+          <Dynamic>
+            <subtype>fp</subtype>
+            <velocity>96</velocity>
+            <linkedMain/>
+            </Dynamic>
+          <Chord>
+            <linkedMain/>
+            <durationType>quarter</durationType>
+            <Note>
+              <linkedMain/>
+              <Spanner type="Tie">
+                <Tie>
+                  <linkedMain/>
+                  </Tie>
+                <next>
+                  <location>
+                    <fractions>1/4</fractions>
+                    </location>
+                  </next>
+                </Spanner>
+              <pitch>78</pitch>
+              <tpc>20</tpc>
+              </Note>
+            </Chord>
+          <Tuplet>
+            <linkedMain/>
+            <visible>0</visible>
+            <normalNotes>2</normalNotes>
+            <actualNotes>3</actualNotes>
+            <baseNote>16th</baseNote>
+            <Number>
+              <visible>0</visible>
+              <style>Tuplet</style>
+              <text>3</text>
+              </Number>
+            </Tuplet>
+          <Chord>
+            <linkedMain/>
+            <durationType>16th</durationType>
+            <Note>
+              <linkedMain/>
+              <Spanner type="Tie">
+                <prev>
+                  <location>
+                    <fractions>-1/4</fractions>
+                    </location>
+                  </prev>
+                </Spanner>
+              <pitch>78</pitch>
+              <tpc>20</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <linkedMain/>
+            <durationType>16th</durationType>
+            <Note>
+              <linkedMain/>
+              <pitch>76</pitch>
+              <tpc>18</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <linkedMain/>
+            <durationType>16th</durationType>
+            <Spanner type="Slur">
+              <prev>
+                <location>
+                  <fractions>-11/24</fractions>
+                  </location>
+                </prev>
+              </Spanner>
+            <Note>
+              <linkedMain/>
+              <pitch>71</pitch>
+              <tpc>19</tpc>
+              </Note>
+            </Chord>
+          <endTuplet/>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Dynamic>
+            <subtype>f</subtype>
+            <velocity>96</velocity>
+            <linkedMain/>
+            </Dynamic>
+          <Tuplet>
+            <linkedMain/>
+            <visible>0</visible>
+            <normalNotes>2</normalNotes>
+            <actualNotes>3</actualNotes>
+            <baseNote>16th</baseNote>
+            <Number>
+              <visible>0</visible>
+              <style>Tuplet</style>
+              <text>3</text>
+              </Number>
+            </Tuplet>
+          <Beam>
+            <distribute>1</distribute>
+            </Beam>
+          <Chord>
+            <linkedMain/>
+            <durationType>16th</durationType>
+            <Spanner type="Slur">
+              <Slur>
+                <linkedMain/>
+                </Slur>
+              <next>
+                <location>
+                  <fractions>11/24</fractions>
+                  </location>
+                </next>
+              </Spanner>
+            <Note>
+              <linkedMain/>
+              <pitch>66</pitch>
+              <tpc>20</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <linkedMain/>
+            <durationType>16th</durationType>
+            <Note>
+              <linkedMain/>
+              <Accidental>
+                <subtype>accidentalSharp</subtype>
+                </Accidental>
+              <pitch>73</pitch>
+              <tpc>21</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <linkedMain/>
+            <durationType>16th</durationType>
+            <Note>
+              <linkedMain/>
+              <pitch>78</pitch>
+              <tpc>20</tpc>
+              </Note>
+            </Chord>
+          <endTuplet/>
+          <Dynamic>
+            <subtype>fp</subtype>
+            <velocity>96</velocity>
+            <linkedMain/>
+            </Dynamic>
+          <Chord>
+            <linkedMain/>
+            <durationType>quarter</durationType>
+            <Note>
+              <linkedMain/>
+              <Accidental>
+                <subtype>accidentalSharp</subtype>
+                </Accidental>
+              <Spanner type="Tie">
+                <Tie>
+                  <linkedMain/>
+                  </Tie>
+                <next>
+                  <location>
+                    <fractions>1/4</fractions>
+                    </location>
+                  </next>
+                </Spanner>
+              <pitch>80</pitch>
+              <tpc>22</tpc>
+              </Note>
+            </Chord>
+          <Tuplet>
+            <linkedMain/>
+            <visible>0</visible>
+            <normalNotes>2</normalNotes>
+            <actualNotes>3</actualNotes>
+            <baseNote>16th</baseNote>
+            <Number>
+              <visible>0</visible>
+              <style>Tuplet</style>
+              <text>3</text>
+              </Number>
+            </Tuplet>
+          <Chord>
+            <linkedMain/>
+            <durationType>16th</durationType>
+            <Note>
+              <linkedMain/>
+              <Spanner type="Tie">
+                <prev>
+                  <location>
+                    <fractions>-1/4</fractions>
+                    </location>
+                  </prev>
+                </Spanner>
+              <pitch>80</pitch>
+              <tpc>22</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <linkedMain/>
+            <durationType>16th</durationType>
+            <Note>
+              <linkedMain/>
+              <pitch>78</pitch>
+              <tpc>20</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <linkedMain/>
+            <durationType>16th</durationType>
+            <Spanner type="Slur">
+              <prev>
+                <location>
+                  <fractions>-11/24</fractions>
+                  </location>
+                </prev>
+              </Spanner>
+            <Note>
+              <linkedMain/>
+              <pitch>73</pitch>
+              <tpc>21</tpc>
+              </Note>
+            </Chord>
+          <endTuplet/>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Dynamic>
+            <subtype>f</subtype>
+            <velocity>96</velocity>
+            <linkedMain/>
+            </Dynamic>
+          <Tuplet>
+            <linkedMain/>
+            <visible>0</visible>
+            <normalNotes>2</normalNotes>
+            <actualNotes>3</actualNotes>
+            <baseNote>16th</baseNote>
+            <Number>
+              <visible>0</visible>
+              <style>Tuplet</style>
+              <text>3</text>
+              </Number>
+            </Tuplet>
+          <Beam>
+            <distribute>1</distribute>
+            </Beam>
+          <Chord>
+            <linkedMain/>
+            <durationType>16th</durationType>
+            <Spanner type="Slur">
+              <Slur>
+                <linkedMain/>
+                </Slur>
+              <next>
+                <location>
+                  <fractions>11/24</fractions>
+                  </location>
+                </next>
+              </Spanner>
+            <Note>
+              <linkedMain/>
+              <pitch>66</pitch>
+              <tpc>20</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <linkedMain/>
+            <durationType>16th</durationType>
+            <Note>
+              <linkedMain/>
+              <Accidental>
+                <subtype>accidentalSharp</subtype>
+                </Accidental>
+              <pitch>73</pitch>
+              <tpc>21</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <linkedMain/>
+            <durationType>16th</durationType>
+            <Note>
+              <linkedMain/>
+              <pitch>78</pitch>
+              <tpc>20</tpc>
+              </Note>
+            </Chord>
+          <endTuplet/>
+          <Dynamic>
+            <subtype>fp</subtype>
+            <velocity>96</velocity>
+            <linkedMain/>
+            </Dynamic>
+          <Chord>
+            <linkedMain/>
+            <durationType>quarter</durationType>
+            <Note>
+              <linkedMain/>
+              <Accidental>
+                <subtype>accidentalSharp</subtype>
+                </Accidental>
+              <Spanner type="Tie">
+                <Tie>
+                  <linkedMain/>
+                  </Tie>
+                <next>
+                  <location>
+                    <fractions>1/4</fractions>
+                    </location>
+                  </next>
+                </Spanner>
+              <pitch>80</pitch>
+              <tpc>22</tpc>
+              </Note>
+            </Chord>
+          <Tuplet>
+            <linkedMain/>
+            <visible>0</visible>
+            <normalNotes>2</normalNotes>
+            <actualNotes>3</actualNotes>
+            <baseNote>16th</baseNote>
+            <Number>
+              <visible>0</visible>
+              <style>Tuplet</style>
+              <text>3</text>
+              </Number>
+            </Tuplet>
+          <Chord>
+            <linkedMain/>
+            <durationType>16th</durationType>
+            <Note>
+              <linkedMain/>
+              <Spanner type="Tie">
+                <prev>
+                  <location>
+                    <fractions>-1/4</fractions>
+                    </location>
+                  </prev>
+                </Spanner>
+              <pitch>80</pitch>
+              <tpc>22</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <linkedMain/>
+            <durationType>16th</durationType>
+            <Note>
+              <linkedMain/>
+              <pitch>78</pitch>
+              <tpc>20</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <linkedMain/>
+            <durationType>16th</durationType>
+            <Spanner type="Slur">
+              <prev>
+                <location>
+                  <fractions>-11/24</fractions>
+                  </location>
+                </prev>
+              </Spanner>
+            <Note>
+              <linkedMain/>
+              <pitch>73</pitch>
+              <tpc>21</tpc>
+              </Note>
+            </Chord>
+          <endTuplet/>
+          </voice>
+        </Measure>
+      <Measure>
+        <LayoutBreak>
           <subtype>page</subtype>
-          </LayoutBreak>
-        <voice>
-          <Dynamic>
-            <subtype>f</subtype>
-            <velocity>96</velocity>
-            <linkedMain/>
-            </Dynamic>
-          <Tuplet>
-            <linkedMain/>
-            <visible>0</visible>
-            <normalNotes>2</normalNotes>
-            <actualNotes>3</actualNotes>
-            <baseNote>16th</baseNote>
-            <Number>
-              <visible>0</visible>
-              <style>Tuplet</style>
-              <text>3</text>
-              </Number>
-            </Tuplet>
-          <Beam>
-            <distribute>1</distribute>
-            </Beam>
-          <Chord>
-            <linkedMain/>
-            <durationType>16th</durationType>
-            <Spanner type="Slur">
-              <Slur>
-                <linkedMain/>
-                <SlurSegment no="0">
-                  <o3 x="0" y="-2"/>
-                  </SlurSegment>
-                </Slur>
-              <next>
-                <location>
-                  <fractions>11/24</fractions>
-                  </location>
-                </next>
-              </Spanner>
-            <Note>
-              <linkedMain/>
-              <pitch>64</pitch>
-              <tpc>18</tpc>
-              </Note>
-            </Chord>
-          <Chord>
-            <linkedMain/>
-            <durationType>16th</durationType>
-            <Note>
-              <linkedMain/>
-              <pitch>71</pitch>
-              <tpc>19</tpc>
-              </Note>
-            </Chord>
-          <Chord>
-            <linkedMain/>
-            <durationType>16th</durationType>
-            <Note>
-              <linkedMain/>
-              <pitch>76</pitch>
-              <tpc>18</tpc>
-              </Note>
-            </Chord>
-          <endTuplet/>
-          <Dynamic>
-            <subtype>fp</subtype>
-            <velocity>96</velocity>
-            <linkedMain/>
-            </Dynamic>
-          <Chord>
-            <linkedMain/>
-            <durationType>quarter</durationType>
-            <Note>
-              <linkedMain/>
-              <Spanner type="Tie">
-                <Tie>
-                  <linkedMain/>
-                  </Tie>
-                <next>
-                  <location>
-                    <fractions>1/4</fractions>
-                    </location>
-                  </next>
-                </Spanner>
-              <pitch>78</pitch>
-              <tpc>20</tpc>
-              </Note>
-            </Chord>
-          <Tuplet>
-            <linkedMain/>
-            <visible>0</visible>
-            <normalNotes>2</normalNotes>
-            <actualNotes>3</actualNotes>
-            <baseNote>16th</baseNote>
-            <Number>
-              <visible>0</visible>
-              <style>Tuplet</style>
-              <text>3</text>
-              </Number>
-            </Tuplet>
-          <Chord>
-            <linkedMain/>
-            <durationType>16th</durationType>
-            <Note>
-              <linkedMain/>
-              <Spanner type="Tie">
-                <prev>
-                  <location>
-                    <fractions>-1/4</fractions>
-                    </location>
-                  </prev>
-                </Spanner>
-              <pitch>78</pitch>
-              <tpc>20</tpc>
-              </Note>
-            </Chord>
-          <Chord>
-            <linkedMain/>
-            <durationType>16th</durationType>
-            <Note>
-              <linkedMain/>
-              <pitch>76</pitch>
-              <tpc>18</tpc>
-              </Note>
-            </Chord>
-          <Chord>
-            <linkedMain/>
-            <durationType>16th</durationType>
-            <Spanner type="Slur">
-              <prev>
-                <location>
-                  <fractions>-11/24</fractions>
-                  </location>
-                </prev>
-              </Spanner>
-            <Note>
-              <linkedMain/>
-              <pitch>71</pitch>
-              <tpc>19</tpc>
-              </Note>
-            </Chord>
-          <endTuplet/>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <Dynamic>
-            <subtype>f</subtype>
-            <velocity>96</velocity>
-            <linkedMain/>
-            </Dynamic>
-          <Tuplet>
-            <linkedMain/>
-            <visible>0</visible>
-            <normalNotes>2</normalNotes>
-            <actualNotes>3</actualNotes>
-            <baseNote>16th</baseNote>
-            <Number>
-              <visible>0</visible>
-              <style>Tuplet</style>
-              <text>3</text>
-              </Number>
-            </Tuplet>
-          <Beam>
-            <distribute>1</distribute>
-            </Beam>
-          <Chord>
-            <linkedMain/>
-            <durationType>16th</durationType>
-            <Spanner type="Slur">
-              <Slur>
-                <linkedMain/>
-                <SlurSegment no="0">
-                  <o3 x="0" y="-2"/>
-                  </SlurSegment>
-                </Slur>
-              <next>
-                <location>
-                  <fractions>11/24</fractions>
-                  </location>
-                </next>
-              </Spanner>
-            <Note>
-              <linkedMain/>
-              <pitch>64</pitch>
-              <tpc>18</tpc>
-              </Note>
-            </Chord>
-          <Chord>
-            <linkedMain/>
-            <durationType>16th</durationType>
-            <Note>
-              <linkedMain/>
-              <pitch>71</pitch>
-              <tpc>19</tpc>
-              </Note>
-            </Chord>
-          <Chord>
-            <linkedMain/>
-            <durationType>16th</durationType>
-            <Note>
-              <linkedMain/>
-              <pitch>76</pitch>
-              <tpc>18</tpc>
-              </Note>
-            </Chord>
-          <endTuplet/>
-          <Dynamic>
-            <subtype>fp</subtype>
-            <velocity>96</velocity>
-            <linkedMain/>
-            </Dynamic>
-          <Chord>
-            <linkedMain/>
-            <durationType>quarter</durationType>
-            <Note>
-              <linkedMain/>
-              <Spanner type="Tie">
-                <Tie>
-                  <linkedMain/>
-                  </Tie>
-                <next>
-                  <location>
-                    <fractions>1/4</fractions>
-                    </location>
-                  </next>
-                </Spanner>
-              <pitch>78</pitch>
-              <tpc>20</tpc>
-              </Note>
-            </Chord>
-          <Tuplet>
-            <linkedMain/>
-            <visible>0</visible>
-            <normalNotes>2</normalNotes>
-            <actualNotes>3</actualNotes>
-            <baseNote>16th</baseNote>
-            <Number>
-              <visible>0</visible>
-              <style>Tuplet</style>
-              <text>3</text>
-              </Number>
-            </Tuplet>
-          <Chord>
-            <linkedMain/>
-            <durationType>16th</durationType>
-            <Note>
-              <linkedMain/>
-              <Spanner type="Tie">
-                <prev>
-                  <location>
-                    <fractions>-1/4</fractions>
-                    </location>
-                  </prev>
-                </Spanner>
-              <pitch>78</pitch>
-              <tpc>20</tpc>
-              </Note>
-            </Chord>
-          <Chord>
-            <linkedMain/>
-            <durationType>16th</durationType>
-            <Note>
-              <linkedMain/>
-              <pitch>76</pitch>
-              <tpc>18</tpc>
-              </Note>
-            </Chord>
-          <Chord>
-            <linkedMain/>
-            <durationType>16th</durationType>
-            <Spanner type="Slur">
-              <prev>
-                <location>
-                  <fractions>-11/24</fractions>
-                  </location>
-                </prev>
-              </Spanner>
-            <Note>
-              <linkedMain/>
-              <pitch>71</pitch>
-              <tpc>19</tpc>
-              </Note>
-            </Chord>
-          <endTuplet/>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <Dynamic>
-            <subtype>f</subtype>
-            <velocity>96</velocity>
-            <linkedMain/>
-            </Dynamic>
-          <Tuplet>
-            <linkedMain/>
-            <visible>0</visible>
-            <normalNotes>2</normalNotes>
-            <actualNotes>3</actualNotes>
-            <baseNote>16th</baseNote>
-            <Number>
-              <visible>0</visible>
-              <style>Tuplet</style>
-              <text>3</text>
-              </Number>
-            </Tuplet>
-          <Beam>
-            <distribute>1</distribute>
-            </Beam>
-          <Chord>
-            <linkedMain/>
-            <durationType>16th</durationType>
-            <Spanner type="Slur">
-              <Slur>
-                <linkedMain/>
-                <SlurSegment no="0">
-                  <o3 x="0" y="-2"/>
-                  </SlurSegment>
-                </Slur>
-              <next>
-                <location>
-                  <fractions>11/24</fractions>
-                  </location>
-                </next>
-              </Spanner>
-            <Note>
-              <linkedMain/>
-              <pitch>64</pitch>
-              <tpc>18</tpc>
-              </Note>
-            </Chord>
-          <Chord>
-            <linkedMain/>
-            <durationType>16th</durationType>
-            <Note>
-              <linkedMain/>
-              <pitch>71</pitch>
-              <tpc>19</tpc>
-              </Note>
-            </Chord>
-          <Chord>
-            <linkedMain/>
-            <durationType>16th</durationType>
-            <Note>
-              <linkedMain/>
-              <pitch>76</pitch>
-              <tpc>18</tpc>
-              </Note>
-            </Chord>
-          <endTuplet/>
-          <Dynamic>
-            <subtype>fp</subtype>
-            <velocity>96</velocity>
-            <linkedMain/>
-            </Dynamic>
-          <Chord>
-            <linkedMain/>
-            <durationType>quarter</durationType>
-            <Note>
-              <linkedMain/>
-              <Spanner type="Tie">
-                <Tie>
-                  <linkedMain/>
-                  </Tie>
-                <next>
-                  <location>
-                    <fractions>1/4</fractions>
-                    </location>
-                  </next>
-                </Spanner>
-              <pitch>78</pitch>
-              <tpc>20</tpc>
-              </Note>
-            </Chord>
-          <Tuplet>
-            <linkedMain/>
-            <visible>0</visible>
-            <normalNotes>2</normalNotes>
-            <actualNotes>3</actualNotes>
-            <baseNote>16th</baseNote>
-            <Number>
-              <visible>0</visible>
-              <style>Tuplet</style>
-              <text>3</text>
-              </Number>
-            </Tuplet>
-          <Chord>
-            <linkedMain/>
-            <durationType>16th</durationType>
-            <Note>
-              <linkedMain/>
-              <Spanner type="Tie">
-                <prev>
-                  <location>
-                    <fractions>-1/4</fractions>
-                    </location>
-                  </prev>
-                </Spanner>
-              <pitch>78</pitch>
-              <tpc>20</tpc>
-              </Note>
-            </Chord>
-          <Chord>
-            <linkedMain/>
-            <durationType>16th</durationType>
-            <Note>
-              <linkedMain/>
-              <pitch>76</pitch>
-              <tpc>18</tpc>
-              </Note>
-            </Chord>
-          <Chord>
-            <linkedMain/>
-            <durationType>16th</durationType>
-            <Spanner type="Slur">
-              <prev>
-                <location>
-                  <fractions>-11/24</fractions>
-                  </location>
-                </prev>
-              </Spanner>
-            <Note>
-              <linkedMain/>
-              <pitch>71</pitch>
-              <tpc>19</tpc>
-              </Note>
-            </Chord>
-          <endTuplet/>
-          </voice>
-        </Measure>
-      <Measure>
-        <LayoutBreak>
-          <subtype>line</subtype>
-          </LayoutBreak>
-        <voice>
-          <Dynamic>
-            <subtype>f</subtype>
-            <velocity>96</velocity>
-            <linkedMain/>
-            </Dynamic>
-          <Tuplet>
-            <linkedMain/>
-            <visible>0</visible>
-            <normalNotes>2</normalNotes>
-            <actualNotes>3</actualNotes>
-            <baseNote>16th</baseNote>
-            <Number>
-              <visible>0</visible>
-              <style>Tuplet</style>
-              <text>3</text>
-              </Number>
-            </Tuplet>
-          <Beam>
-            <distribute>1</distribute>
-            </Beam>
-          <Chord>
-            <linkedMain/>
-            <durationType>16th</durationType>
-            <Spanner type="Slur">
-              <Slur>
-                <linkedMain/>
-                <SlurSegment no="0">
-                  <o3 x="0" y="-2"/>
-                  </SlurSegment>
-                </Slur>
-              <next>
-                <location>
-                  <fractions>11/24</fractions>
-                  </location>
-                </next>
-              </Spanner>
-            <Note>
-              <linkedMain/>
-              <pitch>64</pitch>
-              <tpc>18</tpc>
-              </Note>
-            </Chord>
-          <Chord>
-            <linkedMain/>
-            <durationType>16th</durationType>
-            <Note>
-              <linkedMain/>
-              <pitch>71</pitch>
-              <tpc>19</tpc>
-              </Note>
-            </Chord>
-          <Chord>
-            <linkedMain/>
-            <durationType>16th</durationType>
-            <Note>
-              <linkedMain/>
-              <pitch>76</pitch>
-              <tpc>18</tpc>
-              </Note>
-            </Chord>
-          <endTuplet/>
-          <Dynamic>
-            <subtype>fp</subtype>
-            <velocity>96</velocity>
-            <linkedMain/>
-            </Dynamic>
-          <Chord>
-            <linkedMain/>
-            <durationType>quarter</durationType>
-            <Note>
-              <linkedMain/>
-              <Spanner type="Tie">
-                <Tie>
-                  <linkedMain/>
-                  </Tie>
-                <next>
-                  <location>
-                    <fractions>1/4</fractions>
-                    </location>
-                  </next>
-                </Spanner>
-              <pitch>78</pitch>
-              <tpc>20</tpc>
-              </Note>
-            </Chord>
-          <Tuplet>
-            <linkedMain/>
-            <visible>0</visible>
-            <normalNotes>2</normalNotes>
-            <actualNotes>3</actualNotes>
-            <baseNote>16th</baseNote>
-            <Number>
-              <visible>0</visible>
-              <style>Tuplet</style>
-              <text>3</text>
-              </Number>
-            </Tuplet>
-          <Chord>
-            <linkedMain/>
-            <durationType>16th</durationType>
-            <Note>
-              <linkedMain/>
-              <Spanner type="Tie">
-                <prev>
-                  <location>
-                    <fractions>-1/4</fractions>
-                    </location>
-                  </prev>
-                </Spanner>
-              <pitch>78</pitch>
-              <tpc>20</tpc>
-              </Note>
-            </Chord>
-          <Chord>
-            <linkedMain/>
-            <durationType>16th</durationType>
-            <Note>
-              <linkedMain/>
-              <pitch>76</pitch>
-              <tpc>18</tpc>
-              </Note>
-            </Chord>
-          <Chord>
-            <linkedMain/>
-            <durationType>16th</durationType>
-            <Spanner type="Slur">
-              <prev>
-                <location>
-                  <fractions>-11/24</fractions>
-                  </location>
-                </prev>
-              </Spanner>
-            <Note>
-              <linkedMain/>
-              <pitch>71</pitch>
-              <tpc>19</tpc>
-              </Note>
-            </Chord>
-          <endTuplet/>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <Dynamic>
-            <subtype>f</subtype>
-            <velocity>96</velocity>
-            <linkedMain/>
-            </Dynamic>
-          <Tuplet>
-            <linkedMain/>
-            <visible>0</visible>
-            <normalNotes>2</normalNotes>
-            <actualNotes>3</actualNotes>
-            <baseNote>16th</baseNote>
-            <Number>
-              <visible>0</visible>
-              <style>Tuplet</style>
-              <text>3</text>
-              </Number>
-            </Tuplet>
-          <Beam>
-            <distribute>1</distribute>
-            </Beam>
-          <Chord>
-            <linkedMain/>
-            <durationType>16th</durationType>
-            <Spanner type="Slur">
-              <Slur>
-                <linkedMain/>
-                </Slur>
-              <next>
-                <location>
-                  <fractions>11/24</fractions>
-                  </location>
-                </next>
-              </Spanner>
-            <Note>
-              <linkedMain/>
-              <pitch>66</pitch>
-              <tpc>20</tpc>
-              </Note>
-            </Chord>
-          <Chord>
-            <linkedMain/>
-            <durationType>16th</durationType>
-            <Note>
-              <linkedMain/>
-              <Accidental>
-                <subtype>accidentalSharp</subtype>
-                </Accidental>
-              <pitch>73</pitch>
-              <tpc>21</tpc>
-              </Note>
-            </Chord>
-          <Chord>
-            <linkedMain/>
-            <durationType>16th</durationType>
-            <Note>
-              <linkedMain/>
-              <pitch>78</pitch>
-              <tpc>20</tpc>
-              </Note>
-            </Chord>
-          <endTuplet/>
-          <Dynamic>
-            <subtype>fp</subtype>
-            <velocity>96</velocity>
-            <linkedMain/>
-            </Dynamic>
-          <Chord>
-            <linkedMain/>
-            <durationType>quarter</durationType>
-            <Note>
-              <linkedMain/>
-              <Accidental>
-                <subtype>accidentalSharp</subtype>
-                </Accidental>
-              <Spanner type="Tie">
-                <Tie>
-                  <linkedMain/>
-                  </Tie>
-                <next>
-                  <location>
-                    <fractions>1/4</fractions>
-                    </location>
-                  </next>
-                </Spanner>
-              <pitch>80</pitch>
-              <tpc>22</tpc>
-              </Note>
-            </Chord>
-          <Tuplet>
-            <linkedMain/>
-            <visible>0</visible>
-            <normalNotes>2</normalNotes>
-            <actualNotes>3</actualNotes>
-            <baseNote>16th</baseNote>
-            <Number>
-              <visible>0</visible>
-              <style>Tuplet</style>
-              <text>3</text>
-              </Number>
-            </Tuplet>
-          <Chord>
-            <linkedMain/>
-            <durationType>16th</durationType>
-            <Note>
-              <linkedMain/>
-              <Spanner type="Tie">
-                <prev>
-                  <location>
-                    <fractions>-1/4</fractions>
-                    </location>
-                  </prev>
-                </Spanner>
-              <pitch>80</pitch>
-              <tpc>22</tpc>
-              </Note>
-            </Chord>
-          <Chord>
-            <linkedMain/>
-            <durationType>16th</durationType>
-            <Note>
-              <linkedMain/>
-              <pitch>78</pitch>
-              <tpc>20</tpc>
-              </Note>
-            </Chord>
-          <Chord>
-            <linkedMain/>
-            <durationType>16th</durationType>
-            <Spanner type="Slur">
-              <prev>
-                <location>
-                  <fractions>-11/24</fractions>
-                  </location>
-                </prev>
-              </Spanner>
-            <Note>
-              <linkedMain/>
-              <pitch>73</pitch>
-              <tpc>21</tpc>
-              </Note>
-            </Chord>
-          <endTuplet/>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <Dynamic>
-            <subtype>f</subtype>
-            <velocity>96</velocity>
-            <linkedMain/>
-            </Dynamic>
-          <Tuplet>
-            <linkedMain/>
-            <visible>0</visible>
-            <normalNotes>2</normalNotes>
-            <actualNotes>3</actualNotes>
-            <baseNote>16th</baseNote>
-            <Number>
-              <visible>0</visible>
-              <style>Tuplet</style>
-              <text>3</text>
-              </Number>
-            </Tuplet>
-          <Beam>
-            <distribute>1</distribute>
-            </Beam>
-          <Chord>
-            <linkedMain/>
-            <durationType>16th</durationType>
-            <Spanner type="Slur">
-              <Slur>
-                <linkedMain/>
-                </Slur>
-              <next>
-                <location>
-                  <fractions>11/24</fractions>
-                  </location>
-                </next>
-              </Spanner>
-            <Note>
-              <linkedMain/>
-              <pitch>66</pitch>
-              <tpc>20</tpc>
-              </Note>
-            </Chord>
-          <Chord>
-            <linkedMain/>
-            <durationType>16th</durationType>
-            <Note>
-              <linkedMain/>
-              <Accidental>
-                <subtype>accidentalSharp</subtype>
-                </Accidental>
-              <pitch>73</pitch>
-              <tpc>21</tpc>
-              </Note>
-            </Chord>
-          <Chord>
-            <linkedMain/>
-            <durationType>16th</durationType>
-            <Note>
-              <linkedMain/>
-              <pitch>78</pitch>
-              <tpc>20</tpc>
-              </Note>
-            </Chord>
-          <endTuplet/>
-          <Dynamic>
-            <subtype>fp</subtype>
-            <velocity>96</velocity>
-            <linkedMain/>
-            </Dynamic>
-          <Chord>
-            <linkedMain/>
-            <durationType>quarter</durationType>
-            <Note>
-              <linkedMain/>
-              <Accidental>
-                <subtype>accidentalSharp</subtype>
-                </Accidental>
-              <Spanner type="Tie">
-                <Tie>
-                  <linkedMain/>
-                  </Tie>
-                <next>
-                  <location>
-                    <fractions>1/4</fractions>
-                    </location>
-                  </next>
-                </Spanner>
-              <pitch>80</pitch>
-              <tpc>22</tpc>
-              </Note>
-            </Chord>
-          <Tuplet>
-            <linkedMain/>
-            <visible>0</visible>
-            <normalNotes>2</normalNotes>
-            <actualNotes>3</actualNotes>
-            <baseNote>16th</baseNote>
-            <Number>
-              <visible>0</visible>
-              <style>Tuplet</style>
-              <text>3</text>
-              </Number>
-            </Tuplet>
-          <Chord>
-            <linkedMain/>
-            <durationType>16th</durationType>
-            <Note>
-              <linkedMain/>
-              <Spanner type="Tie">
-                <prev>
-                  <location>
-                    <fractions>-1/4</fractions>
-                    </location>
-                  </prev>
-                </Spanner>
-              <pitch>80</pitch>
-              <tpc>22</tpc>
-              </Note>
-            </Chord>
-          <Chord>
-            <linkedMain/>
-            <durationType>16th</durationType>
-            <Note>
-              <linkedMain/>
-              <pitch>78</pitch>
-              <tpc>20</tpc>
-              </Note>
-            </Chord>
-          <Chord>
-            <linkedMain/>
-            <durationType>16th</durationType>
-            <Spanner type="Slur">
-              <prev>
-                <location>
-                  <fractions>-11/24</fractions>
-                  </location>
-                </prev>
-              </Spanner>
-            <Note>
-              <linkedMain/>
-              <pitch>73</pitch>
-              <tpc>21</tpc>
-              </Note>
-            </Chord>
-          <endTuplet/>
-          </voice>
-        </Measure>
-      <Measure>
-        <LayoutBreak>
-          <subtype>line</subtype>
           </LayoutBreak>
         <voice>
           <Dynamic>
@@ -11188,6 +11188,16 @@
             <Spanner type="Slur">
               <Slur>
                 <linkedMain/>
+                </Slur>
+              <next>
+                <location>
+                  <fractions>1/16</fractions>
+                  </location>
+                </next>
+              </Spanner>
+            <Spanner type="Slur">
+              <Slur>
+                <linkedMain/>
                 <SlurSegment no="0">
                   <o4 x="0" y="-1"/>
                   </SlurSegment>
@@ -11195,16 +11205,6 @@
               <next>
                 <location>
                   <fractions>3/16</fractions>
-                  </location>
-                </next>
-              </Spanner>
-            <Spanner type="Slur">
-              <Slur>
-                <linkedMain/>
-                </Slur>
-              <next>
-                <location>
-                  <fractions>1/16</fractions>
                   </location>
                 </next>
               </Spanner>
@@ -11314,6 +11314,16 @@
             <Spanner type="Slur">
               <Slur>
                 <linkedMain/>
+                </Slur>
+              <next>
+                <location>
+                  <fractions>1/16</fractions>
+                  </location>
+                </next>
+              </Spanner>
+            <Spanner type="Slur">
+              <Slur>
+                <linkedMain/>
                 <SlurSegment no="0">
                   <o4 x="0" y="-1"/>
                   </SlurSegment>
@@ -11321,16 +11331,6 @@
               <next>
                 <location>
                   <fractions>3/16</fractions>
-                  </location>
-                </next>
-              </Spanner>
-            <Spanner type="Slur">
-              <Slur>
-                <linkedMain/>
-                </Slur>
-              <next>
-                <location>
-                  <fractions>1/16</fractions>
                   </location>
                 </next>
               </Spanner>
@@ -12277,6 +12277,7 @@
               <next>
                 <location>
                   <measures>1</measures>
+                  <fractions>-1/8</fractions>
                   </location>
                 </next>
               </Spanner>
@@ -12287,7 +12288,6 @@
               <next>
                 <location>
                   <measures>1</measures>
-                  <fractions>-1/8</fractions>
                   </location>
                 </next>
               </Spanner>
@@ -12557,7 +12557,7 @@
         </Measure>
       <Measure>
         <LayoutBreak>
-          <subtype>line</subtype>
+          <subtype>page</subtype>
           </LayoutBreak>
         <voice>
           <Tempo>
@@ -12845,6 +12845,7 @@
               <next>
                 <location>
                   <measures>1</measures>
+                  <fractions>-1/8</fractions>
                   </location>
                 </next>
               </Spanner>
@@ -12855,7 +12856,6 @@
               <next>
                 <location>
                   <measures>1</measures>
-                  <fractions>-1/8</fractions>
                   </location>
                 </next>
               </Spanner>
@@ -13475,7 +13475,7 @@
         </Measure>
       <Measure>
         <LayoutBreak>
-          <subtype>page</subtype>
+          <subtype>line</subtype>
           </LayoutBreak>
         <voice>
           <Spanner type="HairPin">
@@ -13509,6 +13509,28 @@
             <Spanner type="Slur">
               <Slur>
                 <linkedMain/>
+                </Slur>
+              <next>
+                <location>
+                  <measures>1</measures>
+                  <fractions>-1/8</fractions>
+                  </location>
+                </next>
+              </Spanner>
+            <Spanner type="Slur">
+              <Slur>
+                <linkedMain/>
+                </Slur>
+              <next>
+                <location>
+                  <measures>1</measures>
+                  <fractions>-1/8</fractions>
+                  </location>
+                </next>
+              </Spanner>
+            <Spanner type="Slur">
+              <Slur>
+                <linkedMain/>
                 <SlurSegment no="0">
                   <o1 x="0" y="-0.3"/>
                   <o4 x="0" y="-1"/>
@@ -13520,28 +13542,6 @@
               <next>
                 <location>
                   <measures>1</measures>
-                  </location>
-                </next>
-              </Spanner>
-            <Spanner type="Slur">
-              <Slur>
-                <linkedMain/>
-                </Slur>
-              <next>
-                <location>
-                  <measures>1</measures>
-                  <fractions>-1/8</fractions>
-                  </location>
-                </next>
-              </Spanner>
-            <Spanner type="Slur">
-              <Slur>
-                <linkedMain/>
-                </Slur>
-              <next>
-                <location>
-                  <measures>1</measures>
-                  <fractions>-1/8</fractions>
                   </location>
                 </next>
               </Spanner>
@@ -13760,6 +13760,20 @@
                 </location>
               </prev>
             </Spanner>
+          <Spanner type="HairPin">
+            <HairPin>
+              <subtype>2</subtype>
+              <endText></endText>
+              <lineVisible>0</lineVisible>
+              <continueText></continueText>
+              <linkedMain/>
+              </HairPin>
+            <next>
+              <location>
+                <measures>3</measures>
+                </location>
+              </next>
+            </Spanner>
           <Spanner type="Trill">
             <Trill>
               <subtype>trill</subtype>
@@ -13772,20 +13786,6 @@
             <next>
               <location>
                 <measures>5</measures>
-                </location>
-              </next>
-            </Spanner>
-          <Spanner type="HairPin">
-            <HairPin>
-              <subtype>2</subtype>
-              <endText></endText>
-              <lineVisible>0</lineVisible>
-              <continueText></continueText>
-              <linkedMain/>
-              </HairPin>
-            <next>
-              <location>
-                <measures>3</measures>
                 </location>
               </next>
             </Spanner>
@@ -14326,7 +14326,7 @@
         </Measure>
       <Measure>
         <LayoutBreak>
-          <subtype>line</subtype>
+          <subtype>page</subtype>
           </LayoutBreak>
         <voice>
           <Spanner type="HairPin">
@@ -15705,7 +15705,7 @@
         </Measure>
       <Measure>
         <LayoutBreak>
-          <subtype>line</subtype>
+          <subtype>page</subtype>
           </LayoutBreak>
         <voice>
           <Chord>
@@ -17067,7 +17067,7 @@
         </Measure>
       <Measure>
         <LayoutBreak>
-          <subtype>line</subtype>
+          <subtype>page</subtype>
           </LayoutBreak>
         <voice>
           <Chord>
@@ -23085,17 +23085,6 @@ largamente</text>
             <Spanner type="Slur">
               <Slur>
                 <linkedMain/>
-                </Slur>
-              <next>
-                <location>
-                  <measures>3</measures>
-                  <fractions>-1/4</fractions>
-                  </location>
-                </next>
-              </Spanner>
-            <Spanner type="Slur">
-              <Slur>
-                <linkedMain/>
                 <SlurSegment no="0">
                   <o4 x="0.1" y="0"/>
                   </SlurSegment>
@@ -23103,6 +23092,17 @@ largamente</text>
               <next>
                 <location>
                   <grace>1</grace>
+                  </location>
+                </next>
+              </Spanner>
+            <Spanner type="Slur">
+              <Slur>
+                <linkedMain/>
+                </Slur>
+              <next>
+                <location>
+                  <measures>3</measures>
+                  <fractions>-1/4</fractions>
                   </location>
                 </next>
               </Spanner>
@@ -23288,7 +23288,7 @@ largamente</text>
         </Measure>
       <Measure>
         <LayoutBreak>
-          <subtype>line</subtype>
+          <subtype>page</subtype>
           </LayoutBreak>
         <voice>
           <Rest>
@@ -24152,7 +24152,7 @@ largamente</text>
         </Measure>
       <Measure>
         <LayoutBreak>
-          <subtype>line</subtype>
+          <subtype>page</subtype>
           </LayoutBreak>
         <voice>
           <Spanner type="HairPin">
@@ -25109,7 +25109,7 @@ largamente</text>
         </Measure>
       <Measure>
         <LayoutBreak>
-          <subtype>line</subtype>
+          <subtype>page</subtype>
           </LayoutBreak>
         <voice>
           <Tempo>
@@ -25691,7 +25691,7 @@ largamente</text>
         </Measure>
       <Measure>
         <LayoutBreak>
-          <subtype>page</subtype>
+          <subtype>line</subtype>
           </LayoutBreak>
         <voice>
           <Chord>
@@ -25839,7 +25839,7 @@ largamente</text>
         </Measure>
       <Measure>
         <LayoutBreak>
-          <subtype>line</subtype>
+          <subtype>page</subtype>
           </LayoutBreak>
         <voice>
           <Chord>
@@ -26391,7 +26391,7 @@ largamente</text>
         </Measure>
       <Measure>
         <LayoutBreak>
-          <subtype>page</subtype>
+          <subtype>line</subtype>
           </LayoutBreak>
         <voice>
           <TimeSig>
@@ -26724,7 +26724,7 @@ largamente</text>
         </Measure>
       <Measure>
         <LayoutBreak>
-          <subtype>line</subtype>
+          <subtype>page</subtype>
           </LayoutBreak>
         <voice>
           <TimeSig>
@@ -27381,7 +27381,7 @@ largamente</text>
         </Measure>
       <Measure>
         <LayoutBreak>
-          <subtype>page</subtype>
+          <subtype>line</subtype>
           </LayoutBreak>
         <voice>
           <Chord>
@@ -27592,7 +27592,7 @@ largamente</text>
         </Measure>
       <Measure>
         <LayoutBreak>
-          <subtype>line</subtype>
+          <subtype>page</subtype>
           </LayoutBreak>
         <voice>
           <TimeSig>
@@ -28688,7 +28688,7 @@ largamente</text>
         </Measure>
       <Measure>
         <LayoutBreak>
-          <subtype>line</subtype>
+          <subtype>page</subtype>
           </LayoutBreak>
         <voice>
           <Tempo>
@@ -29538,7 +29538,7 @@ largamente</text>
         </Measure>
       <Measure>
         <LayoutBreak>
-          <subtype>line</subtype>
+          <subtype>page</subtype>
           </LayoutBreak>
         <voice>
           <Chord>
@@ -30002,7 +30002,7 @@ largamente</text>
         </Measure>
       <Measure>
         <LayoutBreak>
-          <subtype>page</subtype>
+          <subtype>line</subtype>
           </LayoutBreak>
         <voice>
           <Chord>
@@ -31384,7 +31384,7 @@ poco meno mosso </b><font face="ScoreText"></font><b><font face="Edwin"></fon
         </Measure>
       <Measure>
         <LayoutBreak>
-          <subtype>line</subtype>
+          <subtype>page</subtype>
           </LayoutBreak>
         <voice>
           <Spanner type="HairPin">
@@ -32276,7 +32276,7 @@ poco meno mosso </b><font face="ScoreText"></font><b><font face="Edwin"></fon
         </Measure>
       <Measure>
         <LayoutBreak>
-          <subtype>line</subtype>
+          <subtype>page</subtype>
           </LayoutBreak>
         <voice>
           <Rest>
@@ -33723,7 +33723,7 @@ Con moto </b><font face="ScoreText"></font><b><font face="Edwin"></font> = 13
         </Measure>
       <Measure>
         <LayoutBreak>
-          <subtype>line</subtype>
+          <subtype>page</subtype>
           </LayoutBreak>
         <voice>
           <Chord>
@@ -34399,7 +34399,7 @@ Con moto </b><font face="ScoreText"></font><b><font face="Edwin"></font> = 13
         </Measure>
       <Measure>
         <LayoutBreak>
-          <subtype>line</subtype>
+          <subtype>page</subtype>
           </LayoutBreak>
         <voice>
           <Chord>
@@ -36337,7 +36337,7 @@ Con moto </b><font face="ScoreText"></font><b><font face="Edwin"></font> = 13
         </Measure>
       <Measure>
         <LayoutBreak>
-          <subtype>line</subtype>
+          <subtype>page</subtype>
           </LayoutBreak>
         <voice>
           <Tempo>
@@ -37436,7 +37436,7 @@ Con moto </b><font face="ScoreText"></font><b><font face="Edwin"></font> = 13
         </Measure>
       <Measure>
         <LayoutBreak>
-          <subtype>line</subtype>
+          <subtype>page</subtype>
           </LayoutBreak>
         <voice>
           <Tuplet>
@@ -38631,7 +38631,7 @@ accel. al </b><font face="ScoreText"></font><b><font face="Edwin"></font> = 1
         </Measure>
       <Measure>
         <LayoutBreak>
-          <subtype>line</subtype>
+          <subtype>page</subtype>
           </LayoutBreak>
         <voice>
           <Rest>
@@ -39868,7 +39868,7 @@ accel. al </b><font face="ScoreText"></font><b><font face="Edwin"></font> = 1
         </Measure>
       <Measure>
         <LayoutBreak>
-          <subtype>line</subtype>
+          <subtype>page</subtype>
           </LayoutBreak>
         <voice>
           <Chord>
@@ -40386,7 +40386,7 @@ accel. al </b><font face="ScoreText"></font><b><font face="Edwin"></font> = 1
         </Measure>
       <Measure>
         <LayoutBreak>
-          <subtype>page</subtype>
+          <subtype>line</subtype>
           </LayoutBreak>
         <voice>
           <Chord>
@@ -40640,7 +40640,7 @@ accel. al </b><font face="ScoreText"></font><b><font face="Edwin"></font> = 1
         </Measure>
       <Measure>
         <LayoutBreak>
-          <subtype>line</subtype>
+          <subtype>page</subtype>
           </LayoutBreak>
         <voice>
           <Spanner type="HairPin">
@@ -41356,7 +41356,7 @@ accel. al </b><font face="ScoreText"></font><b><font face="Edwin"></font> = 1
         </Measure>
       <Measure>
         <LayoutBreak>
-          <subtype>page</subtype>
+          <subtype>line</subtype>
           </LayoutBreak>
         <voice>
           <Chord>
@@ -41484,7 +41484,7 @@ accel. al </b><font face="ScoreText"></font><b><font face="Edwin"></font> = 1
         </Measure>
       <Measure>
         <LayoutBreak>
-          <subtype>line</subtype>
+          <subtype>page</subtype>
           </LayoutBreak>
         <voice>
           <Chord>
@@ -41968,7 +41968,7 @@ accel. al </b><font face="ScoreText"></font><b><font face="Edwin"></font> = 1
         </Measure>
       <Measure>
         <LayoutBreak>
-          <subtype>page</subtype>
+          <subtype>line</subtype>
           </LayoutBreak>
         <voice>
           <Tempo>
@@ -42489,7 +42489,7 @@ accel. al </b><font face="ScoreText"></font><b><font face="Edwin"></font> = 1
         </Measure>
       <Measure>
         <LayoutBreak>
-          <subtype>line</subtype>
+          <subtype>page</subtype>
           </LayoutBreak>
         <voice>
           <Chord>
@@ -45315,6 +45315,16 @@ accel. al </b><font face="ScoreText"></font><b><font face="Edwin"></font> = 1
             <Spanner type="Slur">
               <Slur>
                 <linkedMain/>
+                </Slur>
+              <next>
+                <location>
+                  <fractions>1/4</fractions>
+                  </location>
+                </next>
+              </Spanner>
+            <Spanner type="Slur">
+              <Slur>
+                <linkedMain/>
                 <SlurSegment no="0">
                   <offset x="0" y="-1"/>
                   </SlurSegment>
@@ -45322,16 +45332,6 @@ accel. al </b><font face="ScoreText"></font><b><font face="Edwin"></font> = 1
               <next>
                 <location>
                   <measures>1</measures>
-                  </location>
-                </next>
-              </Spanner>
-            <Spanner type="Slur">
-              <Slur>
-                <linkedMain/>
-                </Slur>
-              <next>
-                <location>
-                  <fractions>1/4</fractions>
                   </location>
                 </next>
               </Spanner>
@@ -58835,6 +58835,13 @@ accel. al </b><font face="ScoreText"></font><b><font face="Edwin"></font> = 1
             <linkedMain/>
             <durationType>quarter</durationType>
             <Spanner type="Slur">
+              <prev>
+                <location>
+                  <grace>0</grace>
+                  </location>
+                </prev>
+              </Spanner>
+            <Spanner type="Slur">
               <Slur>
                 <linkedMain/>
                 </Slur>
@@ -58843,13 +58850,6 @@ accel. al </b><font face="ScoreText"></font><b><font face="Edwin"></font> = 1
                   <fractions>1/1</fractions>
                   </location>
                 </next>
-              </Spanner>
-            <Spanner type="Slur">
-              <prev>
-                <location>
-                  <grace>0</grace>
-                  </location>
-                </prev>
               </Spanner>
             <Note>
               <linkedMain/>
@@ -62796,6 +62796,13 @@ accel. al </b><font face="ScoreText"></font><b><font face="Edwin"></font> = 1
             <linkedMain/>
             <durationType>quarter</durationType>
             <Spanner type="Slur">
+              <prev>
+                <location>
+                  <grace>0</grace>
+                  </location>
+                </prev>
+              </Spanner>
+            <Spanner type="Slur">
               <Slur>
                 <linkedMain/>
                 </Slur>
@@ -62804,13 +62811,6 @@ accel. al </b><font face="ScoreText"></font><b><font face="Edwin"></font> = 1
                   <measures>2</measures>
                   </location>
                 </next>
-              </Spanner>
-            <Spanner type="Slur">
-              <prev>
-                <location>
-                  <grace>0</grace>
-                  </location>
-                </prev>
               </Spanner>
             <Note>
               <linkedMain/>
@@ -106373,6 +106373,13 @@ accel. al </b><font face="ScoreText"></font><b><font face="Edwin"></font> = 1
             <linkedMain/>
             <durationType>quarter</durationType>
             <Spanner type="Slur">
+              <prev>
+                <location>
+                  <grace>0</grace>
+                  </location>
+                </prev>
+              </Spanner>
+            <Spanner type="Slur">
               <Slur>
                 <linkedMain/>
                 <SlurSegment no="1">
@@ -106384,13 +106391,6 @@ accel. al </b><font face="ScoreText"></font><b><font face="Edwin"></font> = 1
                   <measures>2</measures>
                   </location>
                 </next>
-              </Spanner>
-            <Spanner type="Slur">
-              <prev>
-                <location>
-                  <grace>0</grace>
-                  </location>
-                </prev>
               </Spanner>
             <Note>
               <linkedMain/>
@@ -108176,6 +108176,7 @@ accel. al </b><font face="ScoreText"></font><b><font face="Edwin"></font> = 1
               <next>
                 <location>
                   <measures>1</measures>
+                  <fractions>-1/8</fractions>
                   </location>
                 </next>
               </Spanner>
@@ -108186,7 +108187,6 @@ accel. al </b><font face="ScoreText"></font><b><font face="Edwin"></font> = 1
               <next>
                 <location>
                   <measures>1</measures>
-                  <fractions>-1/8</fractions>
                   </location>
                 </next>
               </Spanner>
@@ -115635,6 +115635,13 @@ accel. al </b><font face="ScoreText"></font><b><font face="Edwin"></font> = 1
             <dots>1</dots>
             <durationType>eighth</durationType>
             <Spanner type="Slur">
+              <prev>
+                <location>
+                  <grace>0</grace>
+                  </location>
+                </prev>
+              </Spanner>
+            <Spanner type="Slur">
               <Slur>
                 <linkedMain/>
                 </Slur>
@@ -115643,13 +115650,6 @@ accel. al </b><font face="ScoreText"></font><b><font face="Edwin"></font> = 1
                   <fractions>3/16</fractions>
                   </location>
                 </next>
-              </Spanner>
-            <Spanner type="Slur">
-              <prev>
-                <location>
-                  <grace>0</grace>
-                  </location>
-                </prev>
               </Spanner>
             <Note>
               <linkedMain/>
@@ -137076,21 +137076,21 @@ accel. al </b><font face="ScoreText"></font><b><font face="Edwin"></font> = 1
             <Spanner type="Slur">
               <Slur>
                 <linkedMain/>
-                <up>up</up>
                 </Slur>
               <next>
                 <location>
-                  <fractions>3/16</fractions>
+                  <fractions>1/16</fractions>
                   </location>
                 </next>
               </Spanner>
             <Spanner type="Slur">
               <Slur>
                 <linkedMain/>
+                <up>up</up>
                 </Slur>
               <next>
                 <location>
-                  <fractions>1/16</fractions>
+                  <fractions>3/16</fractions>
                   </location>
                 </next>
               </Spanner>
@@ -137206,21 +137206,21 @@ accel. al </b><font face="ScoreText"></font><b><font face="Edwin"></font> = 1
             <Spanner type="Slur">
               <Slur>
                 <linkedMain/>
-                <up>up</up>
                 </Slur>
               <next>
                 <location>
-                  <fractions>3/16</fractions>
+                  <fractions>1/16</fractions>
                   </location>
                 </next>
               </Spanner>
             <Spanner type="Slur">
               <Slur>
                 <linkedMain/>
+                <up>up</up>
                 </Slur>
               <next>
                 <location>
-                  <fractions>1/16</fractions>
+                  <fractions>3/16</fractions>
                   </location>
                 </next>
               </Spanner>
@@ -139079,21 +139079,6 @@ accel. al </b><font face="ScoreText"></font><b><font face="Edwin"></font> = 1
         </Measure>
       <Measure>
         <voice>
-          <Spanner type="Trill">
-            <Trill>
-              <subtype>trill</subtype>
-              <linkedMain/>
-              <lineWidth>0.0544498</lineWidth>
-              <Accidental>
-                <subtype>accidentalNatural</subtype>
-                </Accidental>
-              </Trill>
-            <next>
-              <location>
-                <measures>4</measures>
-                </location>
-              </next>
-            </Spanner>
           <Spanner type="HairPin">
             <HairPin>
               <subtype>2</subtype>
@@ -139106,6 +139091,21 @@ accel. al </b><font face="ScoreText"></font><b><font face="Edwin"></font> = 1
             <next>
               <location>
                 <measures>3</measures>
+                </location>
+              </next>
+            </Spanner>
+          <Spanner type="Trill">
+            <Trill>
+              <subtype>trill</subtype>
+              <linkedMain/>
+              <lineWidth>0.0544498</lineWidth>
+              <Accidental>
+                <subtype>accidentalNatural</subtype>
+                </Accidental>
+              </Trill>
+            <next>
+              <location>
+                <measures>4</measures>
                 </location>
               </next>
             </Spanner>
@@ -139247,6 +139247,17 @@ accel. al </b><font face="ScoreText"></font><b><font face="Edwin"></font> = 1
                 </location>
               </prev>
             </Spanner>
+          <Spanner type="HairPin">
+            <HairPin>
+              <subtype>0</subtype>
+              <linkedMain/>
+              </HairPin>
+            <next>
+              <location>
+                <measures>1</measures>
+                </location>
+              </next>
+            </Spanner>
           <Spanner type="Trill">
             <Trill>
               <subtype>trill</subtype>
@@ -139264,17 +139275,6 @@ accel. al </b><font face="ScoreText"></font><b><font face="Edwin"></font> = 1
             <next>
               <location>
                 <measures>2</measures>
-                </location>
-              </next>
-            </Spanner>
-          <Spanner type="HairPin">
-            <HairPin>
-              <subtype>0</subtype>
-              <linkedMain/>
-              </HairPin>
-            <next>
-              <location>
-                <measures>1</measures>
                 </location>
               </next>
             </Spanner>
@@ -139703,6 +139703,13 @@ accel. al </b><font face="ScoreText"></font><b><font face="Edwin"></font> = 1
             <dots>1</dots>
             <durationType>quarter</durationType>
             <Spanner type="Slur">
+              <prev>
+                <location>
+                  <grace>0</grace>
+                  </location>
+                </prev>
+              </Spanner>
+            <Spanner type="Slur">
               <Slur>
                 <linkedMain/>
                 </Slur>
@@ -139711,13 +139718,6 @@ accel. al </b><font face="ScoreText"></font><b><font face="Edwin"></font> = 1
                   <fractions>3/8</fractions>
                   </location>
                 </next>
-              </Spanner>
-            <Spanner type="Slur">
-              <prev>
-                <location>
-                  <grace>0</grace>
-                  </location>
-                </prev>
               </Spanner>
             <Note>
               <linkedMain/>
@@ -170323,6 +170323,13 @@ accel. al </b><font face="ScoreText"></font><b><font face="Edwin"></font> = 1
                 </linked>
               <durationType>16th</durationType>
               <Spanner type="Slur">
+                <prev>
+                  <location>
+                    <grace>0</grace>
+                    </location>
+                  </prev>
+                </Spanner>
+              <Spanner type="Slur">
                 <Slur>
                   <linked>
                     </linked>
@@ -170333,13 +170340,6 @@ accel. al </b><font face="ScoreText"></font><b><font face="Edwin"></font> = 1
                     <fractions>1/16</fractions>
                     </location>
                   </next>
-                </Spanner>
-              <Spanner type="Slur">
-                <prev>
-                  <location>
-                    <grace>0</grace>
-                    </location>
-                  </prev>
                 </Spanner>
               <Note>
                 <linked>
@@ -173329,7 +173329,6 @@ accel. al </b><font face="ScoreText"></font><b><font face="Edwin"></font> = 1
               <Spanner type="Slur">
                 <Slur>
                   <linked>
-                    <indexDiff>1</indexDiff>
                     </linked>
                   </Slur>
                 <next>
@@ -173341,7 +173340,6 @@ accel. al </b><font face="ScoreText"></font><b><font face="Edwin"></font> = 1
               <Spanner type="Slur">
                 <Slur>
                   <linked>
-                    <indexDiff>-1</indexDiff>
                     </linked>
                   <up>up</up>
                   </Slur>
@@ -180061,7 +180059,6 @@ accel. al </b><font face="ScoreText"></font><b><font face="Edwin"></font> = 1
               <Spanner type="Slur">
                 <Slur>
                   <linked>
-                    <indexDiff>1</indexDiff>
                     </linked>
                   </Slur>
                 <next>
@@ -180073,7 +180070,6 @@ accel. al </b><font face="ScoreText"></font><b><font face="Edwin"></font> = 1
               <Spanner type="Slur">
                 <Slur>
                   <linked>
-                    <indexDiff>-1</indexDiff>
                     </linked>
                   </Slur>
                 <next>
@@ -180202,7 +180198,6 @@ accel. al </b><font face="ScoreText"></font><b><font face="Edwin"></font> = 1
               <Spanner type="Slur">
                 <Slur>
                   <linked>
-                    <indexDiff>1</indexDiff>
                     </linked>
                   </Slur>
                 <next>
@@ -180214,7 +180209,6 @@ accel. al </b><font face="ScoreText"></font><b><font face="Edwin"></font> = 1
               <Spanner type="Slur">
                 <Slur>
                   <linked>
-                    <indexDiff>-1</indexDiff>
                     </linked>
                   </Slur>
                 <next>
@@ -181281,7 +181275,6 @@ accel. al </b><font face="ScoreText"></font><b><font face="Edwin"></font> = 1
               <Spanner type="Slur">
                 <Slur>
                   <linked>
-                    <indexDiff>1</indexDiff>
                     </linked>
                   </Slur>
                 <next>
@@ -181294,7 +181287,6 @@ accel. al </b><font face="ScoreText"></font><b><font face="Edwin"></font> = 1
               <Spanner type="Slur">
                 <Slur>
                   <linked>
-                    <indexDiff>-1</indexDiff>
                     </linked>
                   </Slur>
                 <next>
@@ -181919,7 +181911,6 @@ accel. al </b><font face="ScoreText"></font><b><font face="Edwin"></font> = 1
               <Spanner type="Slur">
                 <Slur>
                   <linked>
-                    <indexDiff>1</indexDiff>
                     </linked>
                   </Slur>
                 <next>
@@ -181932,7 +181923,6 @@ accel. al </b><font face="ScoreText"></font><b><font face="Edwin"></font> = 1
               <Spanner type="Slur">
                 <Slur>
                   <linked>
-                    <indexDiff>-1</indexDiff>
                     </linked>
                   </Slur>
                 <next>
@@ -182687,17 +182677,6 @@ accel. al </b><font face="ScoreText"></font><b><font face="Edwin"></font> = 1
                 <next>
                   <location>
                     <measures>1</measures>
-                    </location>
-                  </next>
-                </Spanner>
-              <Spanner type="Slur">
-                <Slur>
-                  <linked>
-                    </linked>
-                  </Slur>
-                <next>
-                  <location>
-                    <measures>1</measures>
                     <fractions>-1/8</fractions>
                     </location>
                   </next>
@@ -182711,6 +182690,17 @@ accel. al </b><font face="ScoreText"></font><b><font face="Edwin"></font> = 1
                   <location>
                     <measures>1</measures>
                     <fractions>-1/8</fractions>
+                    </location>
+                  </next>
+                </Spanner>
+              <Spanner type="Slur">
+                <Slur>
+                  <linked>
+                    </linked>
+                  </Slur>
+                <next>
+                  <location>
+                    <measures>1</measures>
                     </location>
                   </next>
                 </Spanner>
@@ -182960,7 +182950,6 @@ accel. al </b><font face="ScoreText"></font><b><font face="Edwin"></font> = 1
                 <lineVisible>0</lineVisible>
                 <continueText></continueText>
                 <linked>
-                  <indexDiff>1</indexDiff>
                   </linked>
                 </HairPin>
               <next>
@@ -182973,7 +182962,6 @@ accel. al </b><font face="ScoreText"></font><b><font face="Edwin"></font> = 1
               <Trill>
                 <subtype>trill</subtype>
                 <linked>
-                  <indexDiff>-1</indexDiff>
                   </linked>
                 <lineWidth>0.0348523</lineWidth>
                 <Accidental>
@@ -184920,6 +184908,13 @@ accel. al </b><font face="ScoreText"></font><b><font face="Edwin"></font> = 1
                 </linked>
               <durationType>quarter</durationType>
               <Spanner type="Slur">
+                <prev>
+                  <location>
+                    <grace>0</grace>
+                    </location>
+                  </prev>
+                </Spanner>
+              <Spanner type="Slur">
                 <Slur>
                   <linked>
                     </linked>
@@ -184929,13 +184924,6 @@ accel. al </b><font face="ScoreText"></font><b><font face="Edwin"></font> = 1
                     <measures>2</measures>
                     </location>
                   </next>
-                </Spanner>
-              <Spanner type="Slur">
-                <prev>
-                  <location>
-                    <grace>0</grace>
-                    </location>
-                  </prev>
                 </Spanner>
               <Note>
                 <linked>
@@ -186264,6 +186252,13 @@ accel. al </b><font face="ScoreText"></font><b><font face="Edwin"></font> = 1
                 </linked>
               <durationType>quarter</durationType>
               <Spanner type="Slur">
+                <prev>
+                  <location>
+                    <grace>0</grace>
+                    </location>
+                  </prev>
+                </Spanner>
+              <Spanner type="Slur">
                 <Slur>
                   <linked>
                     </linked>
@@ -186273,13 +186268,6 @@ accel. al </b><font face="ScoreText"></font><b><font face="Edwin"></font> = 1
                     <measures>2</measures>
                     </location>
                   </next>
-                </Spanner>
-              <Spanner type="Slur">
-                <prev>
-                  <location>
-                    <grace>0</grace>
-                    </location>
-                  </prev>
                 </Spanner>
               <Note>
                 <linked>
@@ -192563,24 +192551,22 @@ largamente</text>
               <Spanner type="Slur">
                 <Slur>
                   <linked>
-                    <indexDiff>1</indexDiff>
                     </linked>
                   </Slur>
                 <next>
                   <location>
-                    <measures>1</measures>
-                    <fractions>1/8</fractions>
                     </location>
                   </next>
                 </Spanner>
               <Spanner type="Slur">
                 <Slur>
                   <linked>
-                    <indexDiff>-1</indexDiff>
                     </linked>
                   </Slur>
                 <next>
                   <location>
+                    <measures>1</measures>
+                    <fractions>1/8</fractions>
                     </location>
                   </next>
                 </Spanner>
@@ -193479,7 +193465,6 @@ largamente</text>
               <Spanner type="Slur">
                 <Slur>
                   <linked>
-                    <indexDiff>1</indexDiff>
                     </linked>
                   </Slur>
                 <next>
@@ -193491,7 +193476,6 @@ largamente</text>
               <Spanner type="Slur">
                 <Slur>
                   <linked>
-                    <indexDiff>-1</indexDiff>
                     </linked>
                   </Slur>
                 <next>
@@ -218860,7 +218844,6 @@ accel. al </b><font face="ScoreText"></font><b><font face="Edwin"></font> = 1
               <Spanner type="Slur">
                 <Slur>
                   <linked>
-                    <indexDiff>1</indexDiff>
                     </linked>
                   </Slur>
                 <next>
@@ -218872,7 +218855,6 @@ accel. al </b><font face="ScoreText"></font><b><font face="Edwin"></font> = 1
               <Spanner type="Slur">
                 <Slur>
                   <linked>
-                    <indexDiff>-1</indexDiff>
                     </linked>
                   </Slur>
                 <next>
@@ -235141,6 +235123,13 @@ largamente</text>
                 </linked>
               <durationType>quarter</durationType>
               <Spanner type="Slur">
+                <prev>
+                  <location>
+                    <grace>0</grace>
+                    </location>
+                  </prev>
+                </Spanner>
+              <Spanner type="Slur">
                 <Slur>
                   <linked>
                     </linked>
@@ -235150,13 +235139,6 @@ largamente</text>
                     <fractions>1/1</fractions>
                     </location>
                   </next>
-                </Spanner>
-              <Spanner type="Slur">
-                <prev>
-                  <location>
-                    <grace>0</grace>
-                    </location>
-                  </prev>
                 </Spanner>
               <Note>
                 <linked>
@@ -235893,26 +235875,24 @@ largamente</text>
               <Spanner type="Slur">
                 <Slur>
                   <linked>
-                    <indexDiff>1</indexDiff>
-                    </linked>
-                  <up>up</up>
-                  </Slur>
-                <next>
-                  <location>
-                    <measures>1</measures>
-                    </location>
-                  </next>
-                </Spanner>
-              <Spanner type="Slur">
-                <Slur>
-                  <linked>
-                    <indexDiff>-1</indexDiff>
                     </linked>
                   </Slur>
                 <next>
                   <location>
                     <measures>1</measures>
                     <fractions>-1/8</fractions>
+                    </location>
+                  </next>
+                </Spanner>
+              <Spanner type="Slur">
+                <Slur>
+                  <linked>
+                    </linked>
+                  <up>up</up>
+                  </Slur>
+                <next>
+                  <location>
+                    <measures>1</measures>
                     </location>
                   </next>
                 </Spanner>
@@ -275787,23 +275767,25 @@ accel. al </b><font face="ScoreText"></font><b><font face="Edwin"></font> = 1
               <Spanner type="Slur">
                 <Slur>
                   <linked>
+                    <indexDiff>1</indexDiff>
                     </linked>
-                  <up>up</up>
                   </Slur>
                 <next>
                   <location>
-                    <fractions>1/4</fractions>
+                    <fractions>3/16</fractions>
                     </location>
                   </next>
                 </Spanner>
               <Spanner type="Slur">
                 <Slur>
                   <linked>
+                    <indexDiff>-1</indexDiff>
                     </linked>
+                  <up>up</up>
                   </Slur>
                 <next>
                   <location>
-                    <fractions>3/16</fractions>
+                    <fractions>1/4</fractions>
                     </location>
                   </next>
                 </Spanner>
@@ -291706,6 +291688,13 @@ largamente</text>
                 </linked>
               <durationType>quarter</durationType>
               <Spanner type="Slur">
+                <prev>
+                  <location>
+                    <grace>0</grace>
+                    </location>
+                  </prev>
+                </Spanner>
+              <Spanner type="Slur">
                 <Slur>
                   <linked>
                     </linked>
@@ -291715,13 +291704,6 @@ largamente</text>
                     <measures>2</measures>
                     </location>
                   </next>
-                </Spanner>
-              <Spanner type="Slur">
-                <prev>
-                  <location>
-                    <grace>0</grace>
-                    </location>
-                  </prev>
                 </Spanner>
               <Note>
                 <linked>
@@ -293901,7 +293883,6 @@ largamente</text>
               <Spanner type="Slur">
                 <Slur>
                   <linked>
-                    <indexDiff>1</indexDiff>
                     </linked>
                   </Slur>
                 <next>
@@ -293914,7 +293895,6 @@ largamente</text>
               <Spanner type="Slur">
                 <Slur>
                   <linked>
-                    <indexDiff>-1</indexDiff>
                     </linked>
                   </Slur>
                 <next>
@@ -323236,25 +323216,23 @@ accel. al </b><font face="ScoreText"></font><b><font face="Edwin"></font> = 1
               <Spanner type="Slur">
                 <Slur>
                   <linked>
-                    <indexDiff>1</indexDiff>
                     </linked>
-                  <up>up</up>
                   </Slur>
                 <next>
                   <location>
-                    <fractions>1/4</fractions>
+                    <fractions>3/16</fractions>
                     </location>
                   </next>
                 </Spanner>
               <Spanner type="Slur">
                 <Slur>
                   <linked>
-                    <indexDiff>-1</indexDiff>
                     </linked>
+                  <up>up</up>
                   </Slur>
                 <next>
                   <location>
-                    <fractions>3/16</fractions>
+                    <fractions>1/4</fractions>
                     </location>
                   </next>
                 </Spanner>
@@ -328161,7 +328139,6 @@ accel. al </b><font face="ScoreText"></font><b><font face="Edwin"></font> = 1
               <Spanner type="Slur">
                 <Slur>
                   <linked>
-                    <indexDiff>1</indexDiff>
                     </linked>
                   </Slur>
                 <next>
@@ -328173,7 +328150,6 @@ accel. al </b><font face="ScoreText"></font><b><font face="Edwin"></font> = 1
               <Spanner type="Slur">
                 <Slur>
                   <linked>
-                    <indexDiff>-1</indexDiff>
                     </linked>
                   <up>up</up>
                   </Slur>
@@ -328312,7 +328288,6 @@ accel. al </b><font face="ScoreText"></font><b><font face="Edwin"></font> = 1
               <Spanner type="Slur">
                 <Slur>
                   <linked>
-                    <indexDiff>1</indexDiff>
                     </linked>
                   </Slur>
                 <next>
@@ -328324,7 +328299,6 @@ accel. al </b><font face="ScoreText"></font><b><font face="Edwin"></font> = 1
               <Spanner type="Slur">
                 <Slur>
                   <linked>
-                    <indexDiff>-1</indexDiff>
                     </linked>
                   <up>up</up>
                   </Slur>
@@ -329553,10 +329527,28 @@ accel. al </b><font face="ScoreText"></font><b><font face="Edwin"></font> = 1
               <visible>0</visible>
               <text><b></b><font face="ScoreText"></font><b><font face="Edwin"></font> = 100</b></text>
               </Tempo>
+            <Spanner type="HairPin">
+              <HairPin>
+                <subtype>2</subtype>
+                <veloChange>16</veloChange>
+                <endText></endText>
+                <lineVisible>0</lineVisible>
+                <continueText></continueText>
+                <linked>
+                  <indexDiff>1</indexDiff>
+                  </linked>
+                </HairPin>
+              <next>
+                <location>
+                  <measures>3</measures>
+                  </location>
+                </next>
+              </Spanner>
             <Spanner type="Trill">
               <Trill>
                 <subtype>trill</subtype>
                 <linked>
+                  <indexDiff>-1</indexDiff>
                   </linked>
                 <lineWidth>0.0338608</lineWidth>
                 <Accidental>
@@ -329566,22 +329558,6 @@ accel. al </b><font face="ScoreText"></font><b><font face="Edwin"></font> = 1
               <next>
                 <location>
                   <measures>4</measures>
-                  </location>
-                </next>
-              </Spanner>
-            <Spanner type="HairPin">
-              <HairPin>
-                <subtype>2</subtype>
-                <veloChange>16</veloChange>
-                <endText></endText>
-                <lineVisible>0</lineVisible>
-                <continueText></continueText>
-                <linked>
-                  </linked>
-                </HairPin>
-              <next>
-                <location>
-                  <measures>3</measures>
                   </location>
                 </next>
               </Spanner>
@@ -329754,11 +329730,22 @@ accel. al </b><font face="ScoreText"></font><b><font face="Edwin"></font> = 1
                   </location>
                 </prev>
               </Spanner>
+            <Spanner type="HairPin">
+              <HairPin>
+                <subtype>0</subtype>
+                <linked>
+                  </linked>
+                </HairPin>
+              <next>
+                <location>
+                  <measures>1</measures>
+                  </location>
+                </next>
+              </Spanner>
             <Spanner type="Trill">
               <Trill>
                 <subtype>trill</subtype>
                 <linked>
-                  <indexDiff>1</indexDiff>
                   </linked>
                 <lineWidth>0.0410759</lineWidth>
                 <Accidental>
@@ -329768,19 +329755,6 @@ accel. al </b><font face="ScoreText"></font><b><font face="Edwin"></font> = 1
               <next>
                 <location>
                   <measures>2</measures>
-                  </location>
-                </next>
-              </Spanner>
-            <Spanner type="HairPin">
-              <HairPin>
-                <subtype>0</subtype>
-                <linked>
-                  <indexDiff>-1</indexDiff>
-                  </linked>
-                </HairPin>
-              <next>
-                <location>
-                  <measures>1</measures>
                   </location>
                 </next>
               </Spanner>
@@ -330535,7 +330509,6 @@ accel. al </b><font face="ScoreText"></font><b><font face="Edwin"></font> = 1
                 <lineVisible>0</lineVisible>
                 <continueText></continueText>
                 <linked>
-                  <indexDiff>1</indexDiff>
                   </linked>
                 </HairPin>
               <next>
@@ -330548,7 +330521,6 @@ accel. al </b><font face="ScoreText"></font><b><font face="Edwin"></font> = 1
               <Trill>
                 <subtype>trill</subtype>
                 <linked>
-                  <indexDiff>-1</indexDiff>
                   </linked>
                 <lineWidth>0.0348523</lineWidth>
                 <Accidental>
@@ -330734,7 +330706,6 @@ accel. al </b><font face="ScoreText"></font><b><font face="Edwin"></font> = 1
               <HairPin>
                 <subtype>0</subtype>
                 <linked>
-                  <indexDiff>1</indexDiff>
                   </linked>
                 </HairPin>
               <next>
@@ -330747,7 +330718,6 @@ accel. al </b><font face="ScoreText"></font><b><font face="Edwin"></font> = 1
               <Trill>
                 <subtype>trill</subtype>
                 <linked>
-                  <indexDiff>-1</indexDiff>
                   </linked>
                 <lineWidth>0.0410759</lineWidth>
                 <Accidental>
@@ -331278,6 +331248,13 @@ accel. al </b><font face="ScoreText"></font><b><font face="Edwin"></font> = 1
               <dots>1</dots>
               <durationType>quarter</durationType>
               <Spanner type="Slur">
+                <prev>
+                  <location>
+                    <grace>0</grace>
+                    </location>
+                  </prev>
+                </Spanner>
+              <Spanner type="Slur">
                 <Slur>
                   <linked>
                     </linked>
@@ -331287,13 +331264,6 @@ accel. al </b><font face="ScoreText"></font><b><font face="Edwin"></font> = 1
                     <fractions>3/8</fractions>
                     </location>
                   </next>
-                </Spanner>
-              <Spanner type="Slur">
-                <prev>
-                  <location>
-                    <grace>0</grace>
-                    </location>
-                  </prev>
                 </Spanner>
               <Note>
                 <linked>
@@ -331528,6 +331498,13 @@ accel. al </b><font face="ScoreText"></font><b><font face="Edwin"></font> = 1
               <dots>1</dots>
               <durationType>quarter</durationType>
               <Spanner type="Slur">
+                <prev>
+                  <location>
+                    <grace>0</grace>
+                    </location>
+                  </prev>
+                </Spanner>
+              <Spanner type="Slur">
                 <Slur>
                   <linked>
                     </linked>
@@ -331537,13 +331514,6 @@ accel. al </b><font face="ScoreText"></font><b><font face="Edwin"></font> = 1
                     <fractions>3/8</fractions>
                     </location>
                   </next>
-                </Spanner>
-              <Spanner type="Slur">
-                <prev>
-                  <location>
-                    <grace>0</grace>
-                    </location>
-                  </prev>
                 </Spanner>
               <Note>
                 <linked>
