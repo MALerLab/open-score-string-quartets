@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <museScore version="3.02">
   <programVersion>3.6.2</programVersion>
-  <programRevision>a732723</programRevision>
+  <programRevision>3224f34</programRevision>
   <Score>
     <LayerTag id="0" tag="default"></LayerTag>
     <currentLayer>0</currentLayer>
@@ -3716,7 +3716,7 @@
         </Measure>
       <Measure>
         <LayoutBreak>
-          <subtype>line</subtype>
+          <subtype>page</subtype>
           </LayoutBreak>
         <voice>
           <Chord>
@@ -7762,7 +7762,7 @@
         </Measure>
       <Measure>
         <LayoutBreak>
-          <subtype>line</subtype>
+          <subtype>page</subtype>
           </LayoutBreak>
         <voice>
           <Chord>
@@ -11271,7 +11271,7 @@
         </Measure>
       <Measure>
         <LayoutBreak>
-          <subtype>line</subtype>
+          <subtype>page</subtype>
           </LayoutBreak>
         <voice>
           <Chord>
@@ -13244,7 +13244,7 @@
         </Measure>
       <Measure>
         <LayoutBreak>
-          <subtype>page</subtype>
+          <subtype>line</subtype>
           </LayoutBreak>
         <voice>
           <Dynamic>
@@ -14861,7 +14861,7 @@
         </Measure>
       <Measure>
         <LayoutBreak>
-          <subtype>line</subtype>
+          <subtype>page</subtype>
           </LayoutBreak>
         <voice>
           <Dynamic>
@@ -16398,12 +16398,7 @@
               <lineVisible>0</lineVisible>
               <linkedMain/>
               <Segment>
-                <subtype>1</subtype>
-                <offset x="0" y="2.5"/>
-                <off2 x="0" y="0"/>
-                </Segment>
-              <Segment>
-                <subtype>3</subtype>
+                <subtype>0</subtype>
                 <offset x="0" y="2.5"/>
                 <off2 x="0" y="0"/>
                 </Segment>
@@ -16443,9 +16438,6 @@
           </voice>
         </Measure>
       <Measure>
-        <LayoutBreak>
-          <subtype>page</subtype>
-          </LayoutBreak>
         <voice>
           <Chord>
             <linkedMain/>
@@ -18640,7 +18632,7 @@
         </Measure>
       <Measure>
         <LayoutBreak>
-          <subtype>line</subtype>
+          <subtype>page</subtype>
           </LayoutBreak>
         <voice>
           <Dynamic>
@@ -19722,7 +19714,7 @@
         </Measure>
       <Measure>
         <LayoutBreak>
-          <subtype>page</subtype>
+          <subtype>line</subtype>
           </LayoutBreak>
         <voice>
           <Chord>
@@ -21983,7 +21975,7 @@
         </Measure>
       <Measure>
         <LayoutBreak>
-          <subtype>line</subtype>
+          <subtype>page</subtype>
           </LayoutBreak>
         <voice>
           <Rest>
@@ -23437,7 +23429,7 @@
         </Measure>
       <Measure>
         <LayoutBreak>
-          <subtype>page</subtype>
+          <subtype>line</subtype>
           </LayoutBreak>
         <voice>
           <Chord>
@@ -25568,7 +25560,7 @@
         </Measure>
       <Measure>
         <LayoutBreak>
-          <subtype>line</subtype>
+          <subtype>page</subtype>
           </LayoutBreak>
         <voice>
           <Chord>
@@ -29184,7 +29176,7 @@
         </Measure>
       <Measure>
         <LayoutBreak>
-          <subtype>line</subtype>
+          <subtype>page</subtype>
           </LayoutBreak>
         <voice>
           <Dynamic>
@@ -30123,7 +30115,7 @@
         </Measure>
       <Measure>
         <LayoutBreak>
-          <subtype>page</subtype>
+          <subtype>line</subtype>
           </LayoutBreak>
         <voice>
           <Chord>
@@ -31129,6 +31121,13 @@
             <linkedMain/>
             <durationType>eighth</durationType>
             <Spanner type="Slur">
+              <prev>
+                <location>
+                  <grace>0</grace>
+                  </location>
+                </prev>
+              </Spanner>
+            <Spanner type="Slur">
               <Slur>
                 <linkedMain/>
                 </Slur>
@@ -31137,13 +31136,6 @@
                   <fractions>5/8</fractions>
                   </location>
                 </next>
-              </Spanner>
-            <Spanner type="Slur">
-              <prev>
-                <location>
-                  <grace>0</grace>
-                  </location>
-                </prev>
               </Spanner>
             <Note>
               <linkedMain/>
@@ -31747,7 +31739,7 @@
         </Measure>
       <Measure>
         <LayoutBreak>
-          <subtype>line</subtype>
+          <subtype>page</subtype>
           </LayoutBreak>
         <voice>
           <Chord>
@@ -35274,7 +35266,7 @@
         </Measure>
       <Measure>
         <LayoutBreak>
-          <subtype>line</subtype>
+          <subtype>page</subtype>
           </LayoutBreak>
         <voice>
           <Chord>
@@ -36901,7 +36893,7 @@
         </Measure>
       <Measure>
         <LayoutBreak>
-          <subtype>page</subtype>
+          <subtype>line</subtype>
           </LayoutBreak>
         <voice>
           <Dynamic>
@@ -38102,7 +38094,7 @@
         </Measure>
       <Measure>
         <LayoutBreak>
-          <subtype>line</subtype>
+          <subtype>page</subtype>
           </LayoutBreak>
         <voice>
           <Fermata>
@@ -41281,7 +41273,7 @@
         </Measure>
       <Measure>
         <LayoutBreak>
-          <subtype>line</subtype>
+          <subtype>page</subtype>
           </LayoutBreak>
         <voice>
           <Rest>
@@ -43481,7 +43473,7 @@
         </Measure>
       <Measure>
         <LayoutBreak>
-          <subtype>page</subtype>
+          <subtype>line</subtype>
           </LayoutBreak>
         <voice>
           <Spanner type="HairPin">
@@ -44881,7 +44873,7 @@
         </Measure>
       <Measure>
         <LayoutBreak>
-          <subtype>line</subtype>
+          <subtype>page</subtype>
           </LayoutBreak>
         <voice>
           <Chord>
@@ -46854,7 +46846,7 @@
         </Measure>
       <Measure>
         <LayoutBreak>
-          <subtype>page</subtype>
+          <subtype>line</subtype>
           </LayoutBreak>
         <voice>
           <Beam>
@@ -48555,7 +48547,7 @@
         </Measure>
       <Measure>
         <LayoutBreak>
-          <subtype>line</subtype>
+          <subtype>page</subtype>
           </LayoutBreak>
         <voice>
           <Chord>
@@ -52028,7 +52020,7 @@
         </Measure>
       <Measure>
         <LayoutBreak>
-          <subtype>line</subtype>
+          <subtype>page</subtype>
           </LayoutBreak>
         <voice>
           <Chord>
@@ -54770,7 +54762,7 @@
         </Measure>
       <Measure>
         <LayoutBreak>
-          <subtype>line</subtype>
+          <subtype>page</subtype>
           </LayoutBreak>
         <voice>
           <Chord>
@@ -56577,7 +56569,7 @@
         </Measure>
       <Measure>
         <LayoutBreak>
-          <subtype>page</subtype>
+          <subtype>line</subtype>
           </LayoutBreak>
         <voice>
           <Rest>
@@ -57520,7 +57512,7 @@
         </Measure>
       <Measure>
         <LayoutBreak>
-          <subtype>line</subtype>
+          <subtype>page</subtype>
           </LayoutBreak>
         <voice>
           <Chord>
@@ -58980,7 +58972,7 @@
         </Measure>
       <Measure>
         <LayoutBreak>
-          <subtype>page</subtype>
+          <subtype>line</subtype>
           </LayoutBreak>
         <voice>
           <Spanner type="HairPin">
@@ -60451,7 +60443,7 @@
         </Measure>
       <Measure>
         <LayoutBreak>
-          <subtype>line</subtype>
+          <subtype>page</subtype>
           </LayoutBreak>
         <voice>
           <Spanner type="HairPin">
@@ -62869,7 +62861,7 @@
         </Measure>
       <Measure>
         <LayoutBreak>
-          <subtype>page</subtype>
+          <subtype>line</subtype>
           </LayoutBreak>
         <voice>
           <Chord>
@@ -63426,7 +63418,7 @@
         </Measure>
       <Measure>
         <LayoutBreak>
-          <subtype>line</subtype>
+          <subtype>page</subtype>
           </LayoutBreak>
         <voice>
           <Tuplet>
@@ -65608,7 +65600,7 @@
         </Measure>
       <Measure>
         <LayoutBreak>
-          <subtype>page</subtype>
+          <subtype>line</subtype>
           </LayoutBreak>
         <voice>
           <Chord>
@@ -66156,7 +66148,7 @@
         </Measure>
       <Measure>
         <LayoutBreak>
-          <subtype>line</subtype>
+          <subtype>page</subtype>
           </LayoutBreak>
         <voice>
           <Chord>
@@ -70862,7 +70854,7 @@
         </Measure>
       <Measure>
         <LayoutBreak>
-          <subtype>line</subtype>
+          <subtype>page</subtype>
           </LayoutBreak>
         <voice>
           <Dynamic>
@@ -277268,6 +277260,13 @@
                 </linked>
               <durationType>eighth</durationType>
               <Spanner type="Slur">
+                <prev>
+                  <location>
+                    <grace>0</grace>
+                    </location>
+                  </prev>
+                </Spanner>
+              <Spanner type="Slur">
                 <Slur>
                   <linked>
                     </linked>
@@ -277277,13 +277276,6 @@
                     <fractions>5/8</fractions>
                     </location>
                   </next>
-                </Spanner>
-              <Spanner type="Slur">
-                <prev>
-                  <location>
-                    <grace>0</grace>
-                    </location>
-                  </prev>
                 </Spanner>
               <Note>
                 <linked>
@@ -478549,6 +478541,13 @@
                 </linked>
               <durationType>eighth</durationType>
               <Spanner type="Slur">
+                <prev>
+                  <location>
+                    <grace>0</grace>
+                    </location>
+                  </prev>
+                </Spanner>
+              <Spanner type="Slur">
                 <Slur>
                   <linked>
                     </linked>
@@ -478558,13 +478557,6 @@
                     <fractions>5/8</fractions>
                     </location>
                   </next>
-                </Spanner>
-              <Spanner type="Slur">
-                <prev>
-                  <location>
-                    <grace>0</grace>
-                    </location>
-                  </prev>
                 </Spanner>
               <Note>
                 <linked>
