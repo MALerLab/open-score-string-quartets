@@ -397,13 +397,6 @@
           <style>Composer</style>
           <text>Wolfgang Amadeus Mozart</text>
           </Text>
-        <Text>
-          <style>Frame</style>
-          <color r="0" g="0" b="255" a="255"/>
-          <align>center,top</align>
-          <offset x="3" y="-6"/>
-          <text>Ignore all movements except the one assigned to you in the spreadsheet.</text>
-          </Text>
         </VBox>
       <TBox>
         <height>1</height>
@@ -4086,18 +4079,8 @@
           <Rest>
             <durationType>quarter</durationType>
             </Rest>
-          <StaffText>
-            <minDistance>-1.69463</minDistance>
-            <color r="255" g="0" b="0" a="255"/>
-            <offset x="-1.03277" y="-5.82351"/>
-            <text>V1 missing staccato 
-on source</text>
-            </StaffText>
           <Chord>
             <durationType>quarter</durationType>
-            <Articulation>
-              <subtype>articStaccatoAbove</subtype>
-              </Articulation>
             <Note>
               <Accidental>
                 <subtype>accidentalSharp</subtype>
@@ -4190,10 +4173,6 @@ on source</text>
               <tpc>17</tpc>
               </Note>
             </Chord>
-          <StaffText>
-            <color r="64" g="128" b="2" a="255"/>
-            <text>agree this change!</text>
-            </StaffText>
           <Chord>
             <durationType>quarter</durationType>
             <Note>
@@ -6888,27 +6867,9 @@ on source</text>
         </Measure>
       <Measure>
         <voice>
-          <StaffText>
-            <color r="64" g="128" b="2" a="255"/>
-            <text>slur attached here matches all others
-v</text>
-            </StaffText>
-          <StaffText>
-            <color r="64" g="128" b="2" a="255"/>
-            <text>as per transcriber</text>
-            </StaffText>
           <Chord>
             <dots>1</dots>
             <durationType>quarter</durationType>
-            <Spanner type="Slur">
-              <Slur>
-                </Slur>
-              <next>
-                <location>
-                  <fractions>11/24</fractions>
-                  </location>
-                </next>
-              </Spanner>
             <Note>
               <Spanner type="Tie">
                 <prev>
@@ -6932,6 +6893,15 @@ v</text>
             </Tuplet>
           <Chord>
             <durationType>16th</durationType>
+            <Spanner type="Slur">
+              <Slur>
+                </Slur>
+              <next>
+                <location>
+                  <fractions>1/12</fractions>
+                  </location>
+                </next>
+              </Spanner>
             <Note>
               <Accidental>
                 <role>1</role>
@@ -6953,7 +6923,7 @@ v</text>
             <Spanner type="Slur">
               <prev>
                 <location>
-                  <fractions>-11/24</fractions>
+                  <fractions>-1/12</fractions>
                   </location>
                 </prev>
               </Spanner>
@@ -6970,15 +6940,6 @@ v</text>
           <Chord>
             <dots>1</dots>
             <durationType>quarter</durationType>
-            <Spanner type="Slur">
-              <Slur>
-                </Slur>
-              <next>
-                <location>
-                  <fractions>11/24</fractions>
-                  </location>
-                </next>
-              </Spanner>
             <Note>
               <pitch>74</pitch>
               <tpc>16</tpc>
@@ -6995,6 +6956,15 @@ v</text>
             </Tuplet>
           <Chord>
             <durationType>16th</durationType>
+            <Spanner type="Slur">
+              <Slur>
+                </Slur>
+              <next>
+                <location>
+                  <fractions>1/12</fractions>
+                  </location>
+                </next>
+              </Spanner>
             <Note>
               <Accidental>
                 <subtype>accidentalNatural</subtype>
@@ -7018,7 +6988,7 @@ v</text>
             <Spanner type="Slur">
               <prev>
                 <location>
-                  <fractions>-11/24</fractions>
+                  <fractions>-1/12</fractions>
                   </location>
                 </prev>
               </Spanner>
@@ -7821,11 +7791,6 @@ v</text>
             <velocity>64</velocity>
             <visible>0</visible>
             </Dynamic>
-          <StaffText>
-            <color r="85" g="0" b="127" a="255"/>
-            <text>I've added invisible mps
- like bar 1 - for playback</text>
-            </StaffText>
           <Chord>
             <durationType>whole</durationType>
             <Spanner type="Slur">
@@ -13921,12 +13886,6 @@ v</text>
               <tpc>21</tpc>
               </Note>
             </Chord>
-          <StaffText>
-            <color r="85" g="0" b="127" a="255"/>
-            <text>I would be tempted to replace dot with 
- tie to <font face="ScoreText"></font><font face="Edwin"></font> in vlns in this instance as it 
-just looks odd to me..</text>
-            </StaffText>
           <Chord>
             <dots>1</dots>
             <durationType>eighth</durationType>
@@ -13966,6 +13925,9 @@ just looks odd to me..</text>
               <tpc>16</tpc>
               </Note>
             </Chord>
+          <Beam>
+            <StemDirection>down</StemDirection>
+            </Beam>
           <Chord>
             <durationType>16th</durationType>
             <Note>
@@ -17685,13 +17647,6 @@ just looks odd to me..</text>
           <Chord>
             <durationType>half</durationType>
             <Spanner type="Slur">
-              <prev>
-                <location>
-                  <grace>0</grace>
-                  </location>
-                </prev>
-              </Spanner>
-            <Spanner type="Slur">
               <Slur>
                 </Slur>
               <next>
@@ -17699,6 +17654,13 @@ just looks odd to me..</text>
                   <fractions>5/8</fractions>
                   </location>
                 </next>
+              </Spanner>
+            <Spanner type="Slur">
+              <prev>
+                <location>
+                  <grace>0</grace>
+                  </location>
+                </prev>
               </Spanner>
             <Note>
               <pitch>69</pitch>
@@ -20137,16 +20099,6 @@ just looks odd to me..</text>
               <tpc>16</tpc>
               </Note>
             </Chord>
-          <StaffText>
-            <color r="64" g="128" b="2" a="255"/>
-            <text>is nat needed because of
-lower Bflat in 304?
-v</text>
-            </StaffText>
-          <StaffText>
-            <color r="85" g="0" b="127" a="255"/>
-            <text>probably - better safe than sorry</text>
-            </StaffText>
           <Chord>
             <durationType>quarter</durationType>
             <Articulation>
@@ -25134,15 +25086,6 @@ v</text>
           <Rest>
             <durationType>quarter</durationType>
             </Rest>
-          <Dynamic>
-            <subtype>other-dynamics</subtype>
-            <velocity>80</velocity>
-            <text><i>[</i><font face="ScoreText"></font><i><font face="Edwin"></font>]</i></text>
-            </Dynamic>
-          <StaffText>
-            <color r="85" g="0" b="127" a="255"/>
-            <text>I've added mf to match v2.  </text>
-            </StaffText>
           <Chord>
             <durationType>quarter</durationType>
             <Spanner type="Slur">
@@ -29642,21 +29585,8 @@ v</text>
           <Rest>
             <durationType>eighth</durationType>
             </Rest>
-          <StaffText>
-            <textLineSpacing>0.8</textLineSpacing>
-            <color r="255" g="0" b="0" a="255"/>
-            <text>missing staccatto 
-dot on source</text>
-            </StaffText>
-          <StaffText>
-            <color r="85" g="0" b="127" a="255"/>
-            <text>agree</text>
-            </StaffText>
           <Chord>
             <durationType>eighth</durationType>
-            <Articulation>
-              <subtype>articStaccatoAbove</subtype>
-              </Articulation>
             <Note>
               <pitch>74</pitch>
               <tpc>16</tpc>
@@ -31077,22 +31007,8 @@ dot on source</text>
           <Dynamic>
             <subtype>other-dynamics</subtype>
             <velocity>96</velocity>
-            <text><sym>dynamicForte</sym></text>
+            <text><i>(</i><font face="ScoreText"/><i><font face="Edwin"/>)</i></text>
             </Dynamic>
-          <StaffText>
-            <color r="255" g="0" b="0" a="255"/>
-            <text>fortes appear in 
-brakets on source</text>
-            </StaffText>
-          <StaffText>
-            <color r="128" g="128" b="3" a="255"/>
-            <text>agree remove brackets but should
-f in V2 be on beat 1.5?</text>
-            </StaffText>
-          <StaffText>
-            <color r="85" g="0" b="127" a="255"/>
-            <text>perhaps it is different to v2 as va is tied from bar before?</text>
-            </StaffText>
           <Tuplet>
             <visible>0</visible>
             <normalNotes>2</normalNotes>
@@ -43168,13 +43084,6 @@ f in V2 be on beat 1.5?</text>
           <Chord>
             <durationType>half</durationType>
             <Spanner type="Slur">
-              <prev>
-                <location>
-                  <grace>0</grace>
-                  </location>
-                </prev>
-              </Spanner>
-            <Spanner type="Slur">
               <Slur>
                 </Slur>
               <next>
@@ -43182,6 +43091,13 @@ f in V2 be on beat 1.5?</text>
                   <fractions>3/4</fractions>
                   </location>
                 </next>
+              </Spanner>
+            <Spanner type="Slur">
+              <prev>
+                <location>
+                  <grace>0</grace>
+                  </location>
+                </prev>
               </Spanner>
             <Note>
               <pitch>69</pitch>
@@ -54785,17 +54701,6 @@ f in V2 be on beat 1.5?</text>
               <tpc>16</tpc>
               </Note>
             </Chord>
-          <Dynamic>
-            <subtype>other-dynamics</subtype>
-            <velocity>96</velocity>
-            <text><sym>dynamicForte</sym></text>
-            </Dynamic>
-          <StaffText>
-            <textLineSpacing>0.8</textLineSpacing>
-            <color r="255" g="0" b="0" a="255"/>
-            <text>V2 missing 
-forte on source</text>
-            </StaffText>
           <Chord>
             <dots>1</dots>
             <durationType>eighth</durationType>
@@ -58246,16 +58151,8 @@ forte on source</text>
       <Measure>
         <voice>
           <StaffText>
-            <color r="255" g="0" b="0" a="255"/>
-            <offset x="1.87813" y="-3.61252"/>
-            <text>hidden note for playback</text>
-            </StaffText>
-          <StaffText>
+            <offset x="-1.85567" y="-3.64488"/>
             <text> ♮</text>
-            </StaffText>
-          <StaffText>
-            <color r="85" g="0" b="127" a="255"/>
-            <text>..and I unticked 'play'in the inspector</text>
             </StaffText>
           <Beam>
             <StemDirection>up</StemDirection>
@@ -58281,16 +58178,6 @@ forte on source</text>
             <Note>
               <pitch>71</pitch>
               <tpc>19</tpc>
-              </Note>
-            <Note>
-              <visible>0</visible>
-              <Accidental>
-                <subtype>accidentalNatural</subtype>
-                <visible>0</visible>
-                </Accidental>
-              <pitch>72</pitch>
-              <tpc>14</tpc>
-              <play>0</play>
               </Note>
             </Chord>
           <Chord>
@@ -63187,30 +63074,11 @@ forte on source</text>
               <tpc>19</tpc>
               </Note>
             </Chord>
-          <StaffText>
-            <textLineSpacing>0.7</textLineSpacing>
-            <color r="255" g="0" b="0" a="255"/>
-            <text>probably a mistake on the breitkopf ed. 
-as this should be c-natural
-suggest putting natural in brakets</text>
-            </StaffText>
-          <StaffText>
-            <color r="128" g="128" b="3" a="255"/>
-            <text>sounds right</text>
-            </StaffText>
-          <StaffText>
-            <color r="85" g="0" b="127" a="255"/>
-            <text>... and the cautionary accidental next bar is confirmation it should be nat.</text>
-            </StaffText>
           <Chord>
             <durationType>eighth</durationType>
             <Note>
-              <Accidental>
-                <bracket>2</bracket>
-                <subtype>accidentalNatural</subtype>
-                </Accidental>
-              <pitch>72</pitch>
-              <tpc>14</tpc>
+              <pitch>73</pitch>
+              <tpc>21</tpc>
               </Note>
             </Chord>
           <endTuplet/>
@@ -63685,7 +63553,7 @@ suggest putting natural in brakets</text>
           <Dynamic>
             <subtype>other-dynamics</subtype>
             <velocity>96</velocity>
-            <text><sym>dynamicForte</sym></text>
+            <text><i>(</i><font face="ScoreText"/><i><font face="Edwin"/>)</i></text>
             </Dynamic>
           <Chord>
             <durationType>eighth</durationType>
@@ -67758,7 +67626,6 @@ suggest putting natural in brakets</text>
             <durationType>eighth</durationType>
             <Spanner type="Slur">
               <Slur>
-                <up>up</up>
                 </Slur>
               <next>
                 <location>
@@ -67769,6 +67636,7 @@ suggest putting natural in brakets</text>
               </Spanner>
             <Spanner type="Slur">
               <Slur>
+                <up>up</up>
                 </Slur>
               <next>
                 <location>
@@ -68012,6 +67880,7 @@ suggest putting natural in brakets</text>
             <durationType>eighth</durationType>
             <Spanner type="Slur">
               <Slur>
+                <up>up</up>
                 </Slur>
               <next>
                 <location>
@@ -68022,7 +67891,6 @@ suggest putting natural in brakets</text>
               </Spanner>
             <Spanner type="Slur">
               <Slur>
-                <up>up</up>
                 </Slur>
               <next>
                 <location>
@@ -68227,6 +68095,7 @@ suggest putting natural in brakets</text>
             <durationType>eighth</durationType>
             <Spanner type="Slur">
               <Slur>
+                <up>up</up>
                 </Slur>
               <next>
                 <location>
@@ -68237,7 +68106,6 @@ suggest putting natural in brakets</text>
               </Spanner>
             <Spanner type="Slur">
               <Slur>
-                <up>up</up>
                 </Slur>
               <next>
                 <location>
@@ -70058,26 +69926,9 @@ suggest putting natural in brakets</text>
         </Measure>
       <Measure>
         <voice>
-          <StaffText>
-            <placement>below</placement>
-            <minDistance>-999</minDistance>
-            <color r="255" g="0" b="0" a="255"/>
-            <offset x="2.36843" y="1.04545"/>
-            <frameType>1</frameType>
-            <text>using modern convention (acciacatura)
-on source it's notated as appogiatura</text>
-            </StaffText>
           <Chord>
-            <durationType>eighth</durationType>
-            <Spanner type="Slur">
-              <Slur>
-                </Slur>
-              <next>
-                <location>
-                  </location>
-                </next>
-              </Spanner>
-            <acciaccatura/>
+            <durationType>16th</durationType>
+            <grace16/>
             <Note>
               <pitch>50</pitch>
               <tpc>16</tpc>
@@ -70085,13 +69936,6 @@ on source it's notated as appogiatura</text>
             </Chord>
           <Chord>
             <durationType>whole</durationType>
-            <Spanner type="Slur">
-              <prev>
-                <location>
-                  <grace>0</grace>
-                  </location>
-                </prev>
-              </Spanner>
             <Spanner type="Slur">
               <Slur>
                 </Slur>
@@ -72730,12 +72574,6 @@ on source it's notated as appogiatura</text>
               </Note>
             </Chord>
           <endTuplet/>
-          <StaffText>
-            <color r="255" g="0" b="0" a="255"/>
-            <offset x="-0.903674" y="-4.14526"/>
-            <text>Va missing slur
-on source</text>
-            </StaffText>
           <Tuplet>
             <visible>0</visible>
             <normalNotes>2</normalNotes>
@@ -72749,15 +72587,6 @@ on source</text>
             </Tuplet>
           <Chord>
             <durationType>eighth</durationType>
-            <Spanner type="Slur">
-              <Slur>
-                </Slur>
-              <next>
-                <location>
-                  <fractions>1/12</fractions>
-                  </location>
-                </next>
-              </Spanner>
             <Note>
               <pitch>59</pitch>
               <tpc>19</tpc>
@@ -72765,13 +72594,6 @@ on source</text>
             </Chord>
           <Chord>
             <durationType>eighth</durationType>
-            <Spanner type="Slur">
-              <prev>
-                <location>
-                  <fractions>-1/12</fractions>
-                  </location>
-                </prev>
-              </Spanner>
             <Note>
               <pitch>62</pitch>
               <tpc>16</tpc>
@@ -75695,13 +75517,6 @@ on source</text>
           <Chord>
             <durationType>whole</durationType>
             <Spanner type="Slur">
-              <prev>
-                <location>
-                  <grace>0</grace>
-                  </location>
-                </prev>
-              </Spanner>
-            <Spanner type="Slur">
               <Slur>
                 </Slur>
               <next>
@@ -75710,6 +75525,13 @@ on source</text>
                   <fractions>1/2</fractions>
                   </location>
                 </next>
+              </Spanner>
+            <Spanner type="Slur">
+              <prev>
+                <location>
+                  <grace>0</grace>
+                  </location>
+                </prev>
               </Spanner>
             <Note>
               <pitch>62</pitch>
@@ -82722,14 +82544,6 @@ on source</text>
           <Rest>
             <durationType>16th</durationType>
             </Rest>
-          <Dynamic>
-            <subtype>f</subtype>
-            <velocity>96</velocity>
-            </Dynamic>
-          <StaffText>
-            <color r="85" g="0" b="127" a="255"/>
-            <text>+ f to match</text>
-            </StaffText>
           <Chord>
             <durationType>16th</durationType>
             <Spanner type="Slur">
@@ -88848,14 +88662,6 @@ on source</text>
         </Measure>
       <Measure>
         <voice>
-          <Dynamic>
-            <subtype>sf</subtype>
-            <velocity>112</velocity>
-            </Dynamic>
-          <StaffText>
-            <color r="64" g="128" b="2" a="255"/>
-            <text>sf added</text>
-            </StaffText>
           <Chord>
             <dots>1</dots>
             <durationType>half</durationType>
@@ -93333,11 +93139,6 @@ on source</text>
           <StaffText>
             <text> ♮</text>
             </StaffText>
-          <StaffText>
-            <color r="255" g="0" b="0" a="255"/>
-            <offset x="2.34396" y="-3.14669"/>
-            <text>hidden note for playback</text>
-            </StaffText>
           <Beam>
             <Fragment>
               <y1>-0.75</y1>
@@ -93365,16 +93166,6 @@ on source</text>
                 </Accidental>
               <pitch>58</pitch>
               <tpc>12</tpc>
-              </Note>
-            <Note>
-              <visible>0</visible>
-              <Accidental>
-                <subtype>accidentalNatural</subtype>
-                <visible>0</visible>
-                </Accidental>
-              <pitch>60</pitch>
-              <tpc>14</tpc>
-              <play>0</play>
               </Note>
             </Chord>
           <Chord>
@@ -101570,18 +101361,14 @@ on source</text>
             <durationType>quarter</durationType>
             </Rest>
           <Clef>
-            <concertClefType>C4</concertClefType>
-            <transposingClefType>C4</transposingClefType>
+            <concertClefType>G</concertClefType>
+            <transposingClefType>G</transposingClefType>
             </Clef>
           <Dynamic>
             <subtype>other-dynamics</subtype>
             <velocity>96</velocity>
             <text><sym>dynamicForte</sym></text>
             </Dynamic>
-          <StaffText>
-            <color r="64" g="128" b="2" a="255"/>
-            <text>correct</text>
-            </StaffText>
           <Chord>
             <durationType>eighth</durationType>
             <Spanner type="Slur">
@@ -101594,21 +101381,21 @@ on source</text>
                 </next>
               </Spanner>
             <Note>
-              <pitch>57</pitch>
+              <pitch>69</pitch>
               <tpc>17</tpc>
               </Note>
             </Chord>
           <Chord>
             <durationType>eighth</durationType>
             <Note>
-              <pitch>62</pitch>
+              <pitch>74</pitch>
               <tpc>16</tpc>
               </Note>
             </Chord>
           <Chord>
             <durationType>eighth</durationType>
             <Note>
-              <pitch>66</pitch>
+              <pitch>78</pitch>
               <tpc>20</tpc>
               </Note>
             </Chord>
@@ -101622,7 +101409,7 @@ on source</text>
                 </prev>
               </Spanner>
             <Note>
-              <pitch>69</pitch>
+              <pitch>81</pitch>
               <tpc>17</tpc>
               </Note>
             </Chord>
@@ -101642,21 +101429,21 @@ on source</text>
                 </next>
               </Spanner>
             <Note>
-              <pitch>69</pitch>
+              <pitch>81</pitch>
               <tpc>17</tpc>
               </Note>
             </Chord>
           <Chord>
             <durationType>eighth</durationType>
             <Note>
-              <pitch>67</pitch>
+              <pitch>79</pitch>
               <tpc>15</tpc>
               </Note>
             </Chord>
           <Chord>
             <durationType>eighth</durationType>
             <Note>
-              <pitch>66</pitch>
+              <pitch>78</pitch>
               <tpc>20</tpc>
               </Note>
             </Chord>
@@ -101670,7 +101457,7 @@ on source</text>
                 </prev>
               </Spanner>
             <Note>
-              <pitch>64</pitch>
+              <pitch>76</pitch>
               <tpc>18</tpc>
               </Note>
             </Chord>
@@ -101686,7 +101473,7 @@ on source</text>
                 </next>
               </Spanner>
             <Note>
-              <pitch>64</pitch>
+              <pitch>76</pitch>
               <tpc>18</tpc>
               </Note>
             </Chord>
@@ -101700,7 +101487,7 @@ on source</text>
                 </prev>
               </Spanner>
             <Note>
-              <pitch>62</pitch>
+              <pitch>74</pitch>
               <tpc>16</tpc>
               </Note>
             </Chord>
@@ -101716,7 +101503,7 @@ on source</text>
                 </next>
               </Spanner>
             <Note>
-              <pitch>62</pitch>
+              <pitch>74</pitch>
               <tpc>16</tpc>
               </Note>
             </Chord>
@@ -101730,7 +101517,7 @@ on source</text>
                 </prev>
               </Spanner>
             <Note>
-              <pitch>61</pitch>
+              <pitch>73</pitch>
               <tpc>21</tpc>
               </Note>
             </Chord>
@@ -101750,7 +101537,7 @@ on source</text>
                     </location>
                   </next>
                 </Spanner>
-              <pitch>62</pitch>
+              <pitch>74</pitch>
               <tpc>16</tpc>
               </Note>
             </Chord>
@@ -101777,7 +101564,7 @@ on source</text>
                     </location>
                   </prev>
                 </Spanner>
-              <pitch>62</pitch>
+              <pitch>74</pitch>
               <tpc>16</tpc>
               </Note>
             </Chord>
@@ -101801,7 +101588,7 @@ on source</text>
                     </location>
                   </prev>
                 </Spanner>
-              <pitch>62</pitch>
+              <pitch>74</pitch>
               <tpc>16</tpc>
               </Note>
             </Chord>
@@ -101815,7 +101602,7 @@ on source</text>
                 </prev>
               </Spanner>
             <Note>
-              <pitch>69</pitch>
+              <pitch>81</pitch>
               <tpc>17</tpc>
               </Note>
             </Chord>
@@ -101835,21 +101622,21 @@ on source</text>
                 </next>
               </Spanner>
             <Note>
-              <pitch>69</pitch>
+              <pitch>81</pitch>
               <tpc>17</tpc>
               </Note>
             </Chord>
           <Chord>
             <durationType>eighth</durationType>
             <Note>
-              <pitch>67</pitch>
+              <pitch>79</pitch>
               <tpc>15</tpc>
               </Note>
             </Chord>
           <Chord>
             <durationType>eighth</durationType>
             <Note>
-              <pitch>66</pitch>
+              <pitch>78</pitch>
               <tpc>20</tpc>
               </Note>
             </Chord>
@@ -101863,7 +101650,7 @@ on source</text>
                 </prev>
               </Spanner>
             <Note>
-              <pitch>67</pitch>
+              <pitch>79</pitch>
               <tpc>15</tpc>
               </Note>
             </Chord>
@@ -101879,14 +101666,14 @@ on source</text>
                 </next>
               </Spanner>
             <Note>
-              <pitch>67</pitch>
+              <pitch>79</pitch>
               <tpc>15</tpc>
               </Note>
             </Chord>
           <Chord>
             <durationType>eighth</durationType>
             <Note>
-              <pitch>66</pitch>
+              <pitch>78</pitch>
               <tpc>20</tpc>
               </Note>
             </Chord>
@@ -101896,7 +101683,7 @@ on source</text>
               <Accidental>
                 <subtype>accidentalSharp</subtype>
                 </Accidental>
-              <pitch>65</pitch>
+              <pitch>77</pitch>
               <tpc>25</tpc>
               </Note>
             </Chord>
@@ -101910,7 +101697,7 @@ on source</text>
                 </prev>
               </Spanner>
             <Note>
-              <pitch>66</pitch>
+              <pitch>78</pitch>
               <tpc>20</tpc>
               </Note>
             </Chord>
@@ -101925,7 +101712,7 @@ on source</text>
                 <role>1</role>
                 <subtype>accidentalNatural</subtype>
                 </Accidental>
-              <pitch>64</pitch>
+              <pitch>76</pitch>
               <tpc>18</tpc>
               </Note>
             </Chord>
@@ -102019,8 +101806,8 @@ on source</text>
             <durationType>quarter</durationType>
             </Rest>
           <Clef>
-            <concertClefType>C4</concertClefType>
-            <transposingClefType>C4</transposingClefType>
+            <concertClefType>G</concertClefType>
+            <transposingClefType>G</transposingClefType>
             </Clef>
           <StaffText>
             <style>Expression</style>
@@ -102045,7 +101832,7 @@ on source</text>
                 </next>
               </Spanner>
             <Note>
-              <pitch>57</pitch>
+              <pitch>69</pitch>
               <tpc>17</tpc>
               </Note>
             </Chord>
@@ -102059,7 +101846,7 @@ on source</text>
                 </prev>
               </Spanner>
             <Note>
-              <pitch>61</pitch>
+              <pitch>73</pitch>
               <tpc>21</tpc>
               </Note>
             </Chord>
@@ -102075,7 +101862,7 @@ on source</text>
                 </next>
               </Spanner>
             <Note>
-              <pitch>61</pitch>
+              <pitch>73</pitch>
               <tpc>21</tpc>
               </Note>
             </Chord>
@@ -102089,7 +101876,7 @@ on source</text>
                 </prev>
               </Spanner>
             <Note>
-              <pitch>64</pitch>
+              <pitch>76</pitch>
               <tpc>18</tpc>
               </Note>
             </Chord>
@@ -102109,7 +101896,7 @@ on source</text>
                     </location>
                   </next>
                 </Spanner>
-              <pitch>64</pitch>
+              <pitch>76</pitch>
               <tpc>18</tpc>
               </Note>
             </Chord>
@@ -102137,7 +101924,7 @@ on source</text>
                     </location>
                   </prev>
                 </Spanner>
-              <pitch>64</pitch>
+              <pitch>76</pitch>
               <tpc>18</tpc>
               </Note>
             </Chord>
@@ -102145,7 +101932,7 @@ on source</text>
             <dots>1</dots>
             <durationType>eighth</durationType>
             <Note>
-              <pitch>66</pitch>
+              <pitch>78</pitch>
               <tpc>20</tpc>
               </Note>
             </Chord>
@@ -102162,7 +101949,7 @@ on source</text>
               <Accidental>
                 <subtype>accidentalSharp</subtype>
                 </Accidental>
-              <pitch>68</pitch>
+              <pitch>80</pitch>
               <tpc>22</tpc>
               </Note>
             </Chord>
@@ -102182,7 +101969,7 @@ on source</text>
                 </next>
               </Spanner>
             <Note>
-              <pitch>69</pitch>
+              <pitch>81</pitch>
               <tpc>17</tpc>
               </Note>
             </Chord>
@@ -102192,14 +101979,14 @@ on source</text>
               <Accidental>
                 <subtype>accidentalSharp</subtype>
                 </Accidental>
-              <pitch>65</pitch>
+              <pitch>77</pitch>
               <tpc>25</tpc>
               </Note>
             </Chord>
           <Chord>
             <durationType>quarter</durationType>
             <Note>
-              <pitch>66</pitch>
+              <pitch>78</pitch>
               <tpc>20</tpc>
               </Note>
             </Chord>
@@ -102213,7 +102000,7 @@ on source</text>
                 </prev>
               </Spanner>
             <Note>
-              <pitch>61</pitch>
+              <pitch>73</pitch>
               <tpc>21</tpc>
               </Note>
             </Chord>
@@ -102237,7 +102024,7 @@ on source</text>
                 <role>1</role>
                 <subtype>accidentalNatural</subtype>
                 </Accidental>
-              <pitch>64</pitch>
+              <pitch>76</pitch>
               <tpc>18</tpc>
               </Note>
             </Chord>
@@ -102251,7 +102038,7 @@ on source</text>
                 </prev>
               </Spanner>
             <Note>
-              <pitch>62</pitch>
+              <pitch>74</pitch>
               <tpc>16</tpc>
               </Note>
             </Chord>
@@ -103447,18 +103234,8 @@ on source</text>
               <tpc>17</tpc>
               </Note>
             </Chord>
-          <StaffText>
-            <minDistance>0.0660431</minDistance>
-            <color r="255" g="0" b="0" a="255"/>
-            <offset x="-0.887865" y="-3.36012"/>
-            <text>Vc missing staccato 
-on source</text>
-            </StaffText>
           <Chord>
             <durationType>eighth</durationType>
-            <Articulation>
-              <subtype>articStaccatoBelow</subtype>
-              </Articulation>
             <Note>
               <pitch>47</pitch>
               <tpc>19</tpc>
@@ -105499,10 +105276,6 @@ on source</text>
             <velocity>64</velocity>
             <visible>0</visible>
             </Dynamic>
-          <StaffText>
-            <color r="85" g="0" b="127" a="255"/>
-            <text>+invisible mp</text>
-            </StaffText>
           <Chord>
             <durationType>quarter</durationType>
             <Note>
@@ -105892,8 +105665,8 @@ on source</text>
             <durationType>quarter</durationType>
             </Rest>
           <Clef>
-            <concertClefType>C4</concertClefType>
-            <transposingClefType>C4</transposingClefType>
+            <concertClefType>G</concertClefType>
+            <transposingClefType>G</transposingClefType>
             </Clef>
           <Dynamic>
             <subtype>other-dynamics</subtype>
@@ -105912,21 +105685,21 @@ on source</text>
                 </next>
               </Spanner>
             <Note>
-              <pitch>57</pitch>
+              <pitch>69</pitch>
               <tpc>17</tpc>
               </Note>
             </Chord>
           <Chord>
             <durationType>eighth</durationType>
             <Note>
-              <pitch>62</pitch>
+              <pitch>74</pitch>
               <tpc>16</tpc>
               </Note>
             </Chord>
           <Chord>
             <durationType>eighth</durationType>
             <Note>
-              <pitch>66</pitch>
+              <pitch>78</pitch>
               <tpc>20</tpc>
               </Note>
             </Chord>
@@ -105940,7 +105713,7 @@ on source</text>
                 </prev>
               </Spanner>
             <Note>
-              <pitch>69</pitch>
+              <pitch>81</pitch>
               <tpc>17</tpc>
               </Note>
             </Chord>
@@ -105960,21 +105733,21 @@ on source</text>
                 </next>
               </Spanner>
             <Note>
-              <pitch>69</pitch>
+              <pitch>81</pitch>
               <tpc>17</tpc>
               </Note>
             </Chord>
           <Chord>
             <durationType>eighth</durationType>
             <Note>
-              <pitch>67</pitch>
+              <pitch>79</pitch>
               <tpc>15</tpc>
               </Note>
             </Chord>
           <Chord>
             <durationType>eighth</durationType>
             <Note>
-              <pitch>66</pitch>
+              <pitch>78</pitch>
               <tpc>20</tpc>
               </Note>
             </Chord>
@@ -105988,7 +105761,7 @@ on source</text>
                 </prev>
               </Spanner>
             <Note>
-              <pitch>64</pitch>
+              <pitch>76</pitch>
               <tpc>18</tpc>
               </Note>
             </Chord>
@@ -106004,7 +105777,7 @@ on source</text>
                 </next>
               </Spanner>
             <Note>
-              <pitch>64</pitch>
+              <pitch>76</pitch>
               <tpc>18</tpc>
               </Note>
             </Chord>
@@ -106018,7 +105791,7 @@ on source</text>
                 </prev>
               </Spanner>
             <Note>
-              <pitch>62</pitch>
+              <pitch>74</pitch>
               <tpc>16</tpc>
               </Note>
             </Chord>
@@ -106034,7 +105807,7 @@ on source</text>
                 </next>
               </Spanner>
             <Note>
-              <pitch>62</pitch>
+              <pitch>74</pitch>
               <tpc>16</tpc>
               </Note>
             </Chord>
@@ -106048,7 +105821,7 @@ on source</text>
                 </prev>
               </Spanner>
             <Note>
-              <pitch>61</pitch>
+              <pitch>73</pitch>
               <tpc>21</tpc>
               </Note>
             </Chord>
@@ -106068,7 +105841,7 @@ on source</text>
                     </location>
                   </next>
                 </Spanner>
-              <pitch>62</pitch>
+              <pitch>74</pitch>
               <tpc>16</tpc>
               </Note>
             </Chord>
@@ -106095,7 +105868,7 @@ on source</text>
                     </location>
                   </prev>
                 </Spanner>
-              <pitch>62</pitch>
+              <pitch>74</pitch>
               <tpc>16</tpc>
               </Note>
             </Chord>
@@ -106119,7 +105892,7 @@ on source</text>
                     </location>
                   </prev>
                 </Spanner>
-              <pitch>62</pitch>
+              <pitch>74</pitch>
               <tpc>16</tpc>
               </Note>
             </Chord>
@@ -106133,7 +105906,7 @@ on source</text>
                 </prev>
               </Spanner>
             <Note>
-              <pitch>69</pitch>
+              <pitch>81</pitch>
               <tpc>17</tpc>
               </Note>
             </Chord>
@@ -106153,21 +105926,21 @@ on source</text>
                 </next>
               </Spanner>
             <Note>
-              <pitch>69</pitch>
+              <pitch>81</pitch>
               <tpc>17</tpc>
               </Note>
             </Chord>
           <Chord>
             <durationType>eighth</durationType>
             <Note>
-              <pitch>67</pitch>
+              <pitch>79</pitch>
               <tpc>15</tpc>
               </Note>
             </Chord>
           <Chord>
             <durationType>eighth</durationType>
             <Note>
-              <pitch>66</pitch>
+              <pitch>78</pitch>
               <tpc>20</tpc>
               </Note>
             </Chord>
@@ -106181,7 +105954,7 @@ on source</text>
                 </prev>
               </Spanner>
             <Note>
-              <pitch>67</pitch>
+              <pitch>79</pitch>
               <tpc>15</tpc>
               </Note>
             </Chord>
@@ -106197,14 +105970,14 @@ on source</text>
                 </next>
               </Spanner>
             <Note>
-              <pitch>67</pitch>
+              <pitch>79</pitch>
               <tpc>15</tpc>
               </Note>
             </Chord>
           <Chord>
             <durationType>eighth</durationType>
             <Note>
-              <pitch>66</pitch>
+              <pitch>78</pitch>
               <tpc>20</tpc>
               </Note>
             </Chord>
@@ -106214,7 +105987,7 @@ on source</text>
               <Accidental>
                 <subtype>accidentalSharp</subtype>
                 </Accidental>
-              <pitch>65</pitch>
+              <pitch>77</pitch>
               <tpc>25</tpc>
               </Note>
             </Chord>
@@ -106228,7 +106001,7 @@ on source</text>
                 </prev>
               </Spanner>
             <Note>
-              <pitch>66</pitch>
+              <pitch>78</pitch>
               <tpc>20</tpc>
               </Note>
             </Chord>
@@ -106243,7 +106016,7 @@ on source</text>
                 <role>1</role>
                 <subtype>accidentalNatural</subtype>
                 </Accidental>
-              <pitch>64</pitch>
+              <pitch>76</pitch>
               <tpc>18</tpc>
               </Note>
             </Chord>
@@ -107801,15 +107574,6 @@ on source</text>
         </Measure>
       <Measure>
         <voice>
-          <StaffText>
-            <color r="255" g="0" b="0" a="255"/>
-            <text>Vc seems to have a staccatto
-probably engraving error</text>
-            </StaffText>
-          <StaffText>
-            <color r="64" g="128" b="2" a="255"/>
-            <text>agree</text>
-            </StaffText>
           <Chord>
             <dots>1</dots>
             <durationType>quarter</durationType>
@@ -107821,6 +107585,9 @@ probably engraving error</text>
                   </location>
                 </prev>
               </Spanner>
+            <Articulation>
+              <subtype>articStaccatoAbove</subtype>
+              </Articulation>
             <Note>
               <pitch>57</pitch>
               <tpc>17</tpc>
@@ -109065,8 +108832,8 @@ probably engraving error</text>
             <durationType>eighth</durationType>
             </Rest>
           <Clef>
-            <concertClefType>C4</concertClefType>
-            <transposingClefType>C4</transposingClefType>
+            <concertClefType>G</concertClefType>
+            <transposingClefType>G</transposingClefType>
             </Clef>
           <Chord>
             <durationType>eighth</durationType>
@@ -109080,7 +108847,7 @@ probably engraving error</text>
                 </next>
               </Spanner>
             <Note>
-              <pitch>59</pitch>
+              <pitch>71</pitch>
               <tpc>19</tpc>
               </Note>
             </Chord>
@@ -109090,7 +108857,7 @@ probably engraving error</text>
               <Accidental>
                 <subtype>accidentalSharp</subtype>
                 </Accidental>
-              <pitch>63</pitch>
+              <pitch>75</pitch>
               <tpc>23</tpc>
               </Note>
             </Chord>
@@ -109104,7 +108871,7 @@ probably engraving error</text>
                 </prev>
               </Spanner>
             <Note>
-              <pitch>66</pitch>
+              <pitch>78</pitch>
               <tpc>20</tpc>
               </Note>
             </Chord>
@@ -109125,42 +108892,42 @@ probably engraving error</text>
                 </next>
               </Spanner>
             <Note>
-              <pitch>71</pitch>
+              <pitch>83</pitch>
               <tpc>19</tpc>
               </Note>
             </Chord>
           <Chord>
             <durationType>16th</durationType>
             <Note>
-              <pitch>73</pitch>
+              <pitch>85</pitch>
               <tpc>21</tpc>
               </Note>
             </Chord>
           <Chord>
             <durationType>16th</durationType>
             <Note>
-              <pitch>71</pitch>
+              <pitch>83</pitch>
               <tpc>19</tpc>
               </Note>
             </Chord>
           <Chord>
             <durationType>16th</durationType>
             <Note>
-              <pitch>69</pitch>
+              <pitch>81</pitch>
               <tpc>17</tpc>
               </Note>
             </Chord>
           <Chord>
             <durationType>16th</durationType>
             <Note>
-              <pitch>68</pitch>
+              <pitch>80</pitch>
               <tpc>22</tpc>
               </Note>
             </Chord>
           <Chord>
             <durationType>16th</durationType>
             <Note>
-              <pitch>66</pitch>
+              <pitch>78</pitch>
               <tpc>20</tpc>
               </Note>
             </Chord>
@@ -109174,7 +108941,7 @@ probably engraving error</text>
                 </prev>
               </Spanner>
             <Note>
-              <pitch>64</pitch>
+              <pitch>76</pitch>
               <tpc>18</tpc>
               </Note>
             </Chord>
@@ -109195,7 +108962,7 @@ probably engraving error</text>
                 </next>
               </Spanner>
             <Note>
-              <pitch>68</pitch>
+              <pitch>80</pitch>
               <tpc>22</tpc>
               </Note>
             </Chord>
@@ -109209,7 +108976,7 @@ probably engraving error</text>
                 </prev>
               </Spanner>
             <Note>
-              <pitch>66</pitch>
+              <pitch>78</pitch>
               <tpc>20</tpc>
               </Note>
             </Chord>
@@ -109226,7 +108993,7 @@ probably engraving error</text>
                 </next>
               </Spanner>
             <Note>
-              <pitch>69</pitch>
+              <pitch>81</pitch>
               <tpc>17</tpc>
               </Note>
             </Chord>
@@ -109240,7 +109007,7 @@ probably engraving error</text>
                 </prev>
               </Spanner>
             <Note>
-              <pitch>68</pitch>
+              <pitch>80</pitch>
               <tpc>22</tpc>
               </Note>
             </Chord>
@@ -109256,7 +109023,7 @@ probably engraving error</text>
                 </next>
               </Spanner>
             <Note>
-              <pitch>66</pitch>
+              <pitch>78</pitch>
               <tpc>20</tpc>
               </Note>
             </Chord>
@@ -109270,7 +109037,7 @@ probably engraving error</text>
                 </prev>
               </Spanner>
             <Note>
-              <pitch>64</pitch>
+              <pitch>76</pitch>
               <tpc>18</tpc>
               </Note>
             </Chord>
@@ -109293,7 +109060,7 @@ probably engraving error</text>
               <Accidental>
                 <subtype>accidentalSharp</subtype>
                 </Accidental>
-              <pitch>63</pitch>
+              <pitch>75</pitch>
               <tpc>23</tpc>
               </Note>
             </Chord>
@@ -109303,14 +109070,14 @@ probably engraving error</text>
               <Accidental>
                 <subtype>accidentalNatural</subtype>
                 </Accidental>
-              <pitch>67</pitch>
+              <pitch>79</pitch>
               <tpc>15</tpc>
               </Note>
             </Chord>
           <Chord>
             <durationType>quarter</durationType>
             <Note>
-              <pitch>66</pitch>
+              <pitch>78</pitch>
               <tpc>20</tpc>
               </Note>
             </Chord>
@@ -109324,7 +109091,7 @@ probably engraving error</text>
                 </prev>
               </Spanner>
             <Note>
-              <pitch>64</pitch>
+              <pitch>76</pitch>
               <tpc>18</tpc>
               </Note>
             </Chord>
@@ -109338,7 +109105,7 @@ probably engraving error</text>
               <Accidental>
                 <subtype>accidentalSharp</subtype>
                 </Accidental>
-              <pitch>63</pitch>
+              <pitch>75</pitch>
               <tpc>23</tpc>
               </Note>
             </Chord>
@@ -109431,8 +109198,8 @@ probably engraving error</text>
             <durationType>quarter</durationType>
             </Rest>
           <Clef>
-            <concertClefType>C4</concertClefType>
-            <transposingClefType>C4</transposingClefType>
+            <concertClefType>G</concertClefType>
+            <transposingClefType>G</transposingClefType>
             </Clef>
           <Rest>
             <durationType>quarter</durationType>
@@ -109450,7 +109217,7 @@ probably engraving error</text>
                 </next>
               </Spanner>
             <Note>
-              <pitch>71</pitch>
+              <pitch>83</pitch>
               <tpc>19</tpc>
               </Note>
             </Chord>
@@ -109464,7 +109231,7 @@ probably engraving error</text>
                 </prev>
               </Spanner>
             <Note>
-              <pitch>68</pitch>
+              <pitch>80</pitch>
               <tpc>22</tpc>
               </Note>
             </Chord>
@@ -109481,7 +109248,7 @@ probably engraving error</text>
                 </next>
               </Spanner>
             <Note>
-              <pitch>69</pitch>
+              <pitch>81</pitch>
               <tpc>17</tpc>
               </Note>
             </Chord>
@@ -109495,7 +109262,7 @@ probably engraving error</text>
                 </prev>
               </Spanner>
             <Note>
-              <pitch>66</pitch>
+              <pitch>78</pitch>
               <tpc>20</tpc>
               </Note>
             </Chord>
@@ -109515,7 +109282,7 @@ probably engraving error</text>
                     </location>
                   </next>
                 </Spanner>
-              <pitch>64</pitch>
+              <pitch>76</pitch>
               <tpc>18</tpc>
               </Note>
             </Chord>
@@ -109539,28 +109306,28 @@ probably engraving error</text>
                     </location>
                   </prev>
                 </Spanner>
-              <pitch>64</pitch>
+              <pitch>76</pitch>
               <tpc>18</tpc>
               </Note>
             </Chord>
           <Chord>
             <durationType>32nd</durationType>
             <Note>
-              <pitch>66</pitch>
+              <pitch>78</pitch>
               <tpc>20</tpc>
               </Note>
             </Chord>
           <Chord>
             <durationType>32nd</durationType>
             <Note>
-              <pitch>68</pitch>
+              <pitch>80</pitch>
               <tpc>22</tpc>
               </Note>
             </Chord>
           <Chord>
             <durationType>eighth</durationType>
             <Note>
-              <pitch>69</pitch>
+              <pitch>81</pitch>
               <tpc>17</tpc>
               </Note>
             </Chord>
@@ -109574,7 +109341,7 @@ probably engraving error</text>
                 </prev>
               </Spanner>
             <Note>
-              <pitch>68</pitch>
+              <pitch>80</pitch>
               <tpc>22</tpc>
               </Note>
             </Chord>
@@ -109594,14 +109361,14 @@ probably engraving error</text>
                 </next>
               </Spanner>
             <Note>
-              <pitch>73</pitch>
+              <pitch>85</pitch>
               <tpc>21</tpc>
               </Note>
             </Chord>
           <Chord>
             <durationType>eighth</durationType>
             <Note>
-              <pitch>71</pitch>
+              <pitch>83</pitch>
               <tpc>19</tpc>
               </Note>
             </Chord>
@@ -109612,7 +109379,7 @@ probably engraving error</text>
               <Accidental>
                 <subtype>accidentalSharp</subtype>
                 </Accidental>
-              <pitch>70</pitch>
+              <pitch>82</pitch>
               <tpc>24</tpc>
               </Note>
             </Chord>
@@ -109622,7 +109389,7 @@ probably engraving error</text>
               <Accidental>
                 <subtype>accidentalNatural</subtype>
                 </Accidental>
-              <pitch>69</pitch>
+              <pitch>81</pitch>
               <tpc>17</tpc>
               </Note>
             </Chord>
@@ -109636,7 +109403,7 @@ probably engraving error</text>
                 </prev>
               </Spanner>
             <Note>
-              <pitch>68</pitch>
+              <pitch>80</pitch>
               <tpc>22</tpc>
               </Note>
             </Chord>
@@ -109656,28 +109423,28 @@ probably engraving error</text>
                 </next>
               </Spanner>
             <Note>
-              <pitch>66</pitch>
+              <pitch>78</pitch>
               <tpc>20</tpc>
               </Note>
             </Chord>
           <Chord>
             <durationType>16th</durationType>
             <Note>
-              <pitch>73</pitch>
+              <pitch>85</pitch>
               <tpc>21</tpc>
               </Note>
             </Chord>
           <Chord>
             <durationType>16th</durationType>
             <Note>
-              <pitch>69</pitch>
+              <pitch>81</pitch>
               <tpc>17</tpc>
               </Note>
             </Chord>
           <Chord>
             <durationType>16th</durationType>
             <Note>
-              <pitch>66</pitch>
+              <pitch>78</pitch>
               <tpc>20</tpc>
               </Note>
             </Chord>
@@ -109691,7 +109458,7 @@ probably engraving error</text>
                 </prev>
               </Spanner>
             <Note>
-              <pitch>64</pitch>
+              <pitch>76</pitch>
               <tpc>18</tpc>
               </Note>
             </Chord>
@@ -109707,7 +109474,7 @@ probably engraving error</text>
                 </next>
               </Spanner>
             <Note>
-              <pitch>68</pitch>
+              <pitch>80</pitch>
               <tpc>22</tpc>
               </Note>
             </Chord>
@@ -109722,14 +109489,14 @@ probably engraving error</text>
                 </prev>
               </Spanner>
             <Note>
-              <pitch>66</pitch>
+              <pitch>78</pitch>
               <tpc>20</tpc>
               </Note>
             </Chord>
           <Chord>
             <durationType>32nd</durationType>
             <Note>
-              <pitch>64</pitch>
+              <pitch>76</pitch>
               <tpc>18</tpc>
               </Note>
             </Chord>
@@ -109751,7 +109518,7 @@ probably engraving error</text>
                 </next>
               </Spanner>
             <Note>
-              <pitch>64</pitch>
+              <pitch>76</pitch>
               <tpc>18</tpc>
               </Note>
             </Chord>
@@ -109765,7 +109532,7 @@ probably engraving error</text>
               <Accidental>
                 <subtype>accidentalSharp</subtype>
                 </Accidental>
-              <pitch>63</pitch>
+              <pitch>75</pitch>
               <tpc>23</tpc>
               </Note>
             </Chord>
@@ -109779,14 +109546,14 @@ probably engraving error</text>
               <Accidental>
                 <subtype>accidentalNatural</subtype>
                 </Accidental>
-              <pitch>62</pitch>
+              <pitch>74</pitch>
               <tpc>16</tpc>
               </Note>
             </Chord>
           <Chord>
             <durationType>16th</durationType>
             <Note>
-              <pitch>61</pitch>
+              <pitch>73</pitch>
               <tpc>21</tpc>
               </Note>
             </Chord>
@@ -109801,7 +109568,7 @@ probably engraving error</text>
                 </prev>
               </Spanner>
             <Note>
-              <pitch>62</pitch>
+              <pitch>74</pitch>
               <tpc>16</tpc>
               </Note>
             </Chord>
@@ -109822,21 +109589,21 @@ probably engraving error</text>
                 </next>
               </Spanner>
             <Note>
-              <pitch>61</pitch>
+              <pitch>73</pitch>
               <tpc>21</tpc>
               </Note>
             </Chord>
           <Chord>
             <durationType>eighth</durationType>
             <Note>
-              <pitch>64</pitch>
+              <pitch>76</pitch>
               <tpc>18</tpc>
               </Note>
             </Chord>
           <Chord>
             <durationType>eighth</durationType>
             <Note>
-              <pitch>62</pitch>
+              <pitch>74</pitch>
               <tpc>16</tpc>
               </Note>
             </Chord>
@@ -109850,7 +109617,7 @@ probably engraving error</text>
                 </prev>
               </Spanner>
             <Note>
-              <pitch>66</pitch>
+              <pitch>78</pitch>
               <tpc>20</tpc>
               </Note>
             </Chord>
@@ -109870,7 +109637,7 @@ probably engraving error</text>
                 </next>
               </Spanner>
             <Note>
-              <pitch>66</pitch>
+              <pitch>78</pitch>
               <tpc>20</tpc>
               </Note>
             </Chord>
@@ -109885,7 +109652,7 @@ probably engraving error</text>
                 </prev>
               </Spanner>
             <Note>
-              <pitch>64</pitch>
+              <pitch>76</pitch>
               <tpc>18</tpc>
               </Note>
             </Chord>
@@ -109901,7 +109668,7 @@ probably engraving error</text>
                 </next>
               </Spanner>
             <Note>
-              <pitch>62</pitch>
+              <pitch>74</pitch>
               <tpc>16</tpc>
               </Note>
             </Chord>
@@ -109915,7 +109682,7 @@ probably engraving error</text>
                 </prev>
               </Spanner>
             <Note>
-              <pitch>61</pitch>
+              <pitch>73</pitch>
               <tpc>21</tpc>
               </Note>
             </Chord>
@@ -109939,7 +109706,7 @@ probably engraving error</text>
                 </next>
               </Spanner>
             <Note>
-              <pitch>69</pitch>
+              <pitch>81</pitch>
               <tpc>17</tpc>
               </Note>
             </Chord>
@@ -109953,7 +109720,7 @@ probably engraving error</text>
                 </prev>
               </Spanner>
             <Note>
-              <pitch>68</pitch>
+              <pitch>80</pitch>
               <tpc>22</tpc>
               </Note>
             </Chord>
@@ -109970,7 +109737,7 @@ probably engraving error</text>
                 </next>
               </Spanner>
             <Note>
-              <pitch>68</pitch>
+              <pitch>80</pitch>
               <tpc>22</tpc>
               </Note>
             </Chord>
@@ -109984,7 +109751,7 @@ probably engraving error</text>
                 </prev>
               </Spanner>
             <Note>
-              <pitch>66</pitch>
+              <pitch>78</pitch>
               <tpc>20</tpc>
               </Note>
             </Chord>
@@ -110001,7 +109768,7 @@ probably engraving error</text>
                 </next>
               </Spanner>
             <Note>
-              <pitch>66</pitch>
+              <pitch>78</pitch>
               <tpc>20</tpc>
               </Note>
             </Chord>
@@ -110015,7 +109782,7 @@ probably engraving error</text>
                 </prev>
               </Spanner>
             <Note>
-              <pitch>64</pitch>
+              <pitch>76</pitch>
               <tpc>18</tpc>
               </Note>
             </Chord>
@@ -110035,7 +109802,7 @@ probably engraving error</text>
                     </location>
                   </next>
                 </Spanner>
-              <pitch>64</pitch>
+              <pitch>76</pitch>
               <tpc>18</tpc>
               </Note>
             </Chord>
@@ -110058,28 +109825,28 @@ probably engraving error</text>
                     </location>
                   </prev>
                 </Spanner>
-              <pitch>64</pitch>
+              <pitch>76</pitch>
               <tpc>18</tpc>
               </Note>
             </Chord>
           <Chord>
             <durationType>32nd</durationType>
             <Note>
-              <pitch>66</pitch>
+              <pitch>78</pitch>
               <tpc>20</tpc>
               </Note>
             </Chord>
           <Chord>
             <durationType>32nd</durationType>
             <Note>
-              <pitch>64</pitch>
+              <pitch>76</pitch>
               <tpc>18</tpc>
               </Note>
             </Chord>
           <Chord>
             <durationType>32nd</durationType>
             <Note>
-              <pitch>62</pitch>
+              <pitch>74</pitch>
               <tpc>16</tpc>
               </Note>
             </Chord>
@@ -110093,7 +109860,7 @@ probably engraving error</text>
                 </prev>
               </Spanner>
             <Note>
-              <pitch>61</pitch>
+              <pitch>73</pitch>
               <tpc>21</tpc>
               </Note>
             </Chord>
@@ -110119,7 +109886,7 @@ probably engraving error</text>
                 </next>
               </Spanner>
             <Note>
-              <pitch>61</pitch>
+              <pitch>73</pitch>
               <tpc>21</tpc>
               </Note>
             </Chord>
@@ -110127,14 +109894,14 @@ probably engraving error</text>
             <dots>1</dots>
             <durationType>eighth</durationType>
             <Note>
-              <pitch>62</pitch>
+              <pitch>74</pitch>
               <tpc>16</tpc>
               </Note>
             </Chord>
           <Chord>
             <durationType>16th</durationType>
             <Note>
-              <pitch>59</pitch>
+              <pitch>71</pitch>
               <tpc>19</tpc>
               </Note>
             </Chord>
@@ -110148,7 +109915,7 @@ probably engraving error</text>
                 </prev>
               </Spanner>
             <Note>
-              <pitch>64</pitch>
+              <pitch>76</pitch>
               <tpc>18</tpc>
               </Note>
             </Chord>
@@ -110171,7 +109938,7 @@ probably engraving error</text>
                 </next>
               </Spanner>
             <Note>
-              <pitch>61</pitch>
+              <pitch>73</pitch>
               <tpc>21</tpc>
               </Note>
             </Chord>
@@ -110179,14 +109946,14 @@ probably engraving error</text>
             <dots>1</dots>
             <durationType>eighth</durationType>
             <Note>
-              <pitch>62</pitch>
+              <pitch>74</pitch>
               <tpc>16</tpc>
               </Note>
             </Chord>
           <Chord>
             <durationType>16th</durationType>
             <Note>
-              <pitch>59</pitch>
+              <pitch>71</pitch>
               <tpc>19</tpc>
               </Note>
             </Chord>
@@ -110200,7 +109967,7 @@ probably engraving error</text>
                 </prev>
               </Spanner>
             <Note>
-              <pitch>64</pitch>
+              <pitch>76</pitch>
               <tpc>18</tpc>
               </Note>
             </Chord>
@@ -110217,7 +109984,7 @@ probably engraving error</text>
               <subtype>articTenutoAbove</subtype>
               </Articulation>
             <Note>
-              <pitch>61</pitch>
+              <pitch>73</pitch>
               <tpc>21</tpc>
               </Note>
             </Chord>
@@ -110230,7 +109997,7 @@ probably engraving error</text>
               <subtype>articTenutoAbove</subtype>
               </Articulation>
             <Note>
-              <pitch>61</pitch>
+              <pitch>73</pitch>
               <tpc>21</tpc>
               </Note>
             </Chord>
@@ -110249,21 +110016,21 @@ probably engraving error</text>
                 </next>
               </Spanner>
             <Note>
-              <pitch>62</pitch>
+              <pitch>74</pitch>
               <tpc>16</tpc>
               </Note>
             </Chord>
           <Chord>
             <durationType>16th</durationType>
             <Note>
-              <pitch>64</pitch>
+              <pitch>76</pitch>
               <tpc>18</tpc>
               </Note>
             </Chord>
           <Chord>
             <durationType>16th</durationType>
             <Note>
-              <pitch>66</pitch>
+              <pitch>78</pitch>
               <tpc>20</tpc>
               </Note>
             </Chord>
@@ -110277,7 +110044,7 @@ probably engraving error</text>
                 </prev>
               </Spanner>
             <Note>
-              <pitch>62</pitch>
+              <pitch>74</pitch>
               <tpc>16</tpc>
               </Note>
             </Chord>
@@ -110297,7 +110064,7 @@ probably engraving error</text>
                 </next>
               </Spanner>
             <Note>
-              <pitch>61</pitch>
+              <pitch>73</pitch>
               <tpc>21</tpc>
               </Note>
             </Chord>
@@ -110311,7 +110078,7 @@ probably engraving error</text>
                 </prev>
               </Spanner>
             <Note>
-              <pitch>59</pitch>
+              <pitch>71</pitch>
               <tpc>19</tpc>
               </Note>
             </Chord>
@@ -111097,35 +110864,15 @@ probably engraving error</text>
             <durationType>quarter</durationType>
             </Rest>
           <Clef>
-            <concertClefType>C4</concertClefType>
-            <transposingClefType>C4</transposingClefType>
+            <concertClefType>G</concertClefType>
+            <transposingClefType>G</transposingClefType>
             </Clef>
-          <StaffText>
-            <color r="255" g="0" b="0" a="255"/>
-            <text>missing dolce as 
-in V1 bar 254?</text>
-            </StaffText>
-          <StaffText>
-            <style>Expression</style>
-            <placement>below</placement>
-            <text>[dolce]</text>
-            </StaffText>
           <Dynamic>
             <subtype>other-dynamics</subtype>
             <velocity>48</velocity>
             <visible>0</visible>
             <text><sym>dynamicPiano</sym></text>
             </Dynamic>
-          <StaffText>
-            <color r="64" g="128" b="2" a="255"/>
-            <text>added in square brackets</text>
-            </StaffText>
-          <StaffText>
-            <color r="85" g="0" b="127" a="255"/>
-            <text>I noticed a similar thing in mvt 1 bar 32.  Only first instrument to have the theme is marked dolce.  
-I presumed the other players would copy the style, hence why not in following itereations.  So if we are adding 
-dolce in square  brackets here, should we also add them in mvt 1 from bar 32? </text>
-            </StaffText>
           <Chord>
             <dots>1</dots>
             <durationType>eighth</durationType>
@@ -111139,14 +110886,14 @@ dolce in square  brackets here, should we also add them in mvt 1 from bar 32? </
                 </next>
               </Spanner>
             <Note>
-              <pitch>66</pitch>
+              <pitch>78</pitch>
               <tpc>20</tpc>
               </Note>
             </Chord>
           <Chord>
             <durationType>32nd</durationType>
             <Note>
-              <pitch>68</pitch>
+              <pitch>80</pitch>
               <tpc>22</tpc>
               </Note>
             </Chord>
@@ -111160,7 +110907,7 @@ dolce in square  brackets here, should we also add them in mvt 1 from bar 32? </
                 </prev>
               </Spanner>
             <Note>
-              <pitch>69</pitch>
+              <pitch>81</pitch>
               <tpc>17</tpc>
               </Note>
             </Chord>
@@ -111180,14 +110927,14 @@ dolce in square  brackets here, should we also add them in mvt 1 from bar 32? </
                 </next>
               </Spanner>
             <Note>
-              <pitch>69</pitch>
+              <pitch>81</pitch>
               <tpc>17</tpc>
               </Note>
             </Chord>
           <Chord>
             <durationType>eighth</durationType>
             <Note>
-              <pitch>64</pitch>
+              <pitch>76</pitch>
               <tpc>18</tpc>
               </Note>
             </Chord>
@@ -111204,7 +110951,7 @@ dolce in square  brackets here, should we also add them in mvt 1 from bar 32? </
               <Accidental>
                 <subtype>accidentalSharp</subtype>
                 </Accidental>
-              <pitch>65</pitch>
+              <pitch>77</pitch>
               <tpc>25</tpc>
               </Note>
             </Chord>
@@ -111219,7 +110966,7 @@ dolce in square  brackets here, should we also add them in mvt 1 from bar 32? </
               </Spanner>
             <grace32after/>
             <Note>
-              <pitch>66</pitch>
+              <pitch>78</pitch>
               <tpc>20</tpc>
               </Note>
             </Chord>
@@ -111227,7 +110974,7 @@ dolce in square  brackets here, should we also add them in mvt 1 from bar 32? </
             <durationType>32nd</durationType>
             <grace32after/>
             <Note>
-              <pitch>65</pitch>
+              <pitch>77</pitch>
               <tpc>25</tpc>
               </Note>
             </Chord>
@@ -111235,7 +110982,7 @@ dolce in square  brackets here, should we also add them in mvt 1 from bar 32? </
             <durationType>32nd</durationType>
             <grace32after/>
             <Note>
-              <pitch>66</pitch>
+              <pitch>78</pitch>
               <tpc>20</tpc>
               </Note>
             </Chord>
@@ -111258,7 +111005,7 @@ dolce in square  brackets here, should we also add them in mvt 1 from bar 32? </
               </Spanner>
             <grace32after/>
             <Note>
-              <pitch>68</pitch>
+              <pitch>80</pitch>
               <tpc>22</tpc>
               </Note>
             </Chord>
@@ -111278,14 +111025,14 @@ dolce in square  brackets here, should we also add them in mvt 1 from bar 32? </
                 </next>
               </Spanner>
             <Note>
-              <pitch>66</pitch>
+              <pitch>78</pitch>
               <tpc>20</tpc>
               </Note>
             </Chord>
           <Chord>
             <durationType>32nd</durationType>
             <Note>
-              <pitch>68</pitch>
+              <pitch>80</pitch>
               <tpc>22</tpc>
               </Note>
             </Chord>
@@ -111299,7 +111046,7 @@ dolce in square  brackets here, should we also add them in mvt 1 from bar 32? </
                 </prev>
               </Spanner>
             <Note>
-              <pitch>69</pitch>
+              <pitch>81</pitch>
               <tpc>17</tpc>
               </Note>
             </Chord>
@@ -111319,7 +111066,7 @@ dolce in square  brackets here, should we also add them in mvt 1 from bar 32? </
                     </location>
                   </next>
                 </Spanner>
-              <pitch>69</pitch>
+              <pitch>81</pitch>
               <tpc>17</tpc>
               </Note>
             </Chord>
@@ -111351,21 +111098,21 @@ dolce in square  brackets here, should we also add them in mvt 1 from bar 32? </
                     </location>
                   </prev>
                 </Spanner>
-              <pitch>69</pitch>
+              <pitch>81</pitch>
               <tpc>17</tpc>
               </Note>
             </Chord>
           <Chord>
             <durationType>eighth</durationType>
             <Note>
-              <pitch>64</pitch>
+              <pitch>76</pitch>
               <tpc>18</tpc>
               </Note>
             </Chord>
           <Chord>
             <durationType>eighth</durationType>
             <Note>
-              <pitch>61</pitch>
+              <pitch>73</pitch>
               <tpc>21</tpc>
               </Note>
             </Chord>
@@ -111382,14 +111129,14 @@ dolce in square  brackets here, should we also add them in mvt 1 from bar 32? </
           <Chord>
             <durationType>eighth</durationType>
             <Note>
-              <pitch>59</pitch>
+              <pitch>71</pitch>
               <tpc>19</tpc>
               </Note>
             </Chord>
           <Chord>
             <durationType>eighth</durationType>
             <Note>
-              <pitch>62</pitch>
+              <pitch>74</pitch>
               <tpc>16</tpc>
               </Note>
             </Chord>
@@ -111403,7 +111150,7 @@ dolce in square  brackets here, should we also add them in mvt 1 from bar 32? </
                 </prev>
               </Spanner>
             <Note>
-              <pitch>66</pitch>
+              <pitch>78</pitch>
               <tpc>20</tpc>
               </Note>
             </Chord>
@@ -111412,11 +111159,6 @@ dolce in square  brackets here, should we also add them in mvt 1 from bar 32? </
         </Measure>
       <Measure>
         <voice>
-          <StaffText>
-            <color r="64" g="128" b="2" a="255"/>
-            <offset x="-1.87798" y="-4.00135"/>
-            <text>?Nuno's knowledge</text>
-            </StaffText>
           <Chord>
             <durationType>eighth</durationType>
             <Spanner type="Slur">
@@ -111427,9 +111169,9 @@ dolce in square  brackets here, should we also add them in mvt 1 from bar 32? </
                   </location>
                 </next>
               </Spanner>
-            <acciaccatura/>
+            <appoggiatura/>
             <Note>
-              <pitch>66</pitch>
+              <pitch>78</pitch>
               <tpc>20</tpc>
               </Note>
             </Chord>
@@ -111444,7 +111186,7 @@ dolce in square  brackets here, should we also add them in mvt 1 from bar 32? </
               </Spanner>
             <grace32after/>
             <Note>
-              <pitch>57</pitch>
+              <pitch>69</pitch>
               <tpc>17</tpc>
               </Note>
             </Chord>
@@ -111452,7 +111194,7 @@ dolce in square  brackets here, should we also add them in mvt 1 from bar 32? </
             <durationType>32nd</durationType>
             <grace32after/>
             <Note>
-              <pitch>56</pitch>
+              <pitch>68</pitch>
               <tpc>22</tpc>
               </Note>
             </Chord>
@@ -111460,7 +111202,7 @@ dolce in square  brackets here, should we also add them in mvt 1 from bar 32? </
             <durationType>32nd</durationType>
             <grace32after/>
             <Note>
-              <pitch>57</pitch>
+              <pitch>69</pitch>
               <tpc>17</tpc>
               </Note>
             </Chord>
@@ -111483,19 +111225,12 @@ dolce in square  brackets here, should we also add them in mvt 1 from bar 32? </
               </Spanner>
             <grace32after/>
             <Note>
-              <pitch>59</pitch>
+              <pitch>71</pitch>
               <tpc>19</tpc>
               </Note>
             </Chord>
           <Chord>
             <durationType>half</durationType>
-            <Spanner type="Slur">
-              <prev>
-                <location>
-                  <grace>0</grace>
-                  </location>
-                </prev>
-              </Spanner>
             <Spanner type="Slur">
               <Slur>
                 </Slur>
@@ -111505,15 +111240,22 @@ dolce in square  brackets here, should we also add them in mvt 1 from bar 32? </
                   </location>
                 </next>
               </Spanner>
+            <Spanner type="Slur">
+              <prev>
+                <location>
+                  <grace>0</grace>
+                  </location>
+                </prev>
+              </Spanner>
             <Note>
-              <pitch>57</pitch>
+              <pitch>69</pitch>
               <tpc>17</tpc>
               </Note>
             </Chord>
           <Chord>
             <durationType>eighth</durationType>
             <Note>
-              <pitch>61</pitch>
+              <pitch>73</pitch>
               <tpc>21</tpc>
               </Note>
             </Chord>
@@ -111527,7 +111269,7 @@ dolce in square  brackets here, should we also add them in mvt 1 from bar 32? </
                 </prev>
               </Spanner>
             <Note>
-              <pitch>59</pitch>
+              <pitch>71</pitch>
               <tpc>19</tpc>
               </Note>
             </Chord>
@@ -111538,7 +111280,7 @@ dolce in square  brackets here, should we also add them in mvt 1 from bar 32? </
           <Chord>
             <durationType>quarter</durationType>
             <Note>
-              <pitch>57</pitch>
+              <pitch>69</pitch>
               <tpc>17</tpc>
               </Note>
             </Chord>
@@ -114376,8 +114118,8 @@ dolce in square  brackets here, should we also add them in mvt 1 from bar 32? </
             <duration>3/4</duration>
             </Rest>
           <Clef>
-            <concertClefType>C4</concertClefType>
-            <transposingClefType>C4</transposingClefType>
+            <concertClefType>G</concertClefType>
+            <transposingClefType>G</transposingClefType>
             </Clef>
           </voice>
         </Measure>
@@ -114400,28 +114142,28 @@ dolce in square  brackets here, should we also add them in mvt 1 from bar 32? </
                 </next>
               </Spanner>
             <Note>
-              <pitch>67</pitch>
+              <pitch>79</pitch>
               <tpc>15</tpc>
               </Note>
             </Chord>
           <Chord>
             <durationType>16th</durationType>
             <Note>
-              <pitch>69</pitch>
+              <pitch>81</pitch>
               <tpc>17</tpc>
               </Note>
             </Chord>
           <Chord>
             <durationType>16th</durationType>
             <Note>
-              <pitch>67</pitch>
+              <pitch>79</pitch>
               <tpc>15</tpc>
               </Note>
             </Chord>
           <Chord>
             <durationType>16th</durationType>
             <Note>
-              <pitch>66</pitch>
+              <pitch>78</pitch>
               <tpc>20</tpc>
               </Note>
             </Chord>
@@ -114435,7 +114177,7 @@ dolce in square  brackets here, should we also add them in mvt 1 from bar 32? </
                 </prev>
               </Spanner>
             <Note>
-              <pitch>67</pitch>
+              <pitch>79</pitch>
               <tpc>15</tpc>
               </Note>
             </Chord>
@@ -114455,14 +114197,14 @@ dolce in square  brackets here, should we also add them in mvt 1 from bar 32? </
                 </next>
               </Spanner>
             <Note>
-              <pitch>69</pitch>
+              <pitch>81</pitch>
               <tpc>17</tpc>
               </Note>
             </Chord>
           <Chord>
             <durationType>quarter</durationType>
             <Note>
-              <pitch>66</pitch>
+              <pitch>78</pitch>
               <tpc>20</tpc>
               </Note>
             </Chord>
@@ -114476,7 +114218,7 @@ dolce in square  brackets here, should we also add them in mvt 1 from bar 32? </
                 </prev>
               </Spanner>
             <Note>
-              <pitch>62</pitch>
+              <pitch>74</pitch>
               <tpc>16</tpc>
               </Note>
             </Chord>
@@ -114496,7 +114238,7 @@ dolce in square  brackets here, should we also add them in mvt 1 from bar 32? </
                 </next>
               </Spanner>
             <Note>
-              <pitch>71</pitch>
+              <pitch>83</pitch>
               <tpc>19</tpc>
               </Note>
             </Chord>
@@ -114510,7 +114252,7 @@ dolce in square  brackets here, should we also add them in mvt 1 from bar 32? </
                 </prev>
               </Spanner>
             <Note>
-              <pitch>72</pitch>
+              <pitch>84</pitch>
               <tpc>14</tpc>
               </Note>
             </Chord>
@@ -114521,7 +114263,7 @@ dolce in square  brackets here, should we also add them in mvt 1 from bar 32? </
           <Chord>
             <durationType>quarter</durationType>
             <Note>
-              <pitch>69</pitch>
+              <pitch>81</pitch>
               <tpc>17</tpc>
               </Note>
             </Chord>
@@ -114563,28 +114305,28 @@ dolce in square  brackets here, should we also add them in mvt 1 from bar 32? </
                 </next>
               </Spanner>
             <Note>
-              <pitch>67</pitch>
+              <pitch>79</pitch>
               <tpc>15</tpc>
               </Note>
             </Chord>
           <Chord>
             <durationType>16th</durationType>
             <Note>
-              <pitch>69</pitch>
+              <pitch>81</pitch>
               <tpc>17</tpc>
               </Note>
             </Chord>
           <Chord>
             <durationType>16th</durationType>
             <Note>
-              <pitch>67</pitch>
+              <pitch>79</pitch>
               <tpc>15</tpc>
               </Note>
             </Chord>
           <Chord>
             <durationType>16th</durationType>
             <Note>
-              <pitch>66</pitch>
+              <pitch>78</pitch>
               <tpc>20</tpc>
               </Note>
             </Chord>
@@ -114598,7 +114340,7 @@ dolce in square  brackets here, should we also add them in mvt 1 from bar 32? </
                 </prev>
               </Spanner>
             <Note>
-              <pitch>67</pitch>
+              <pitch>79</pitch>
               <tpc>15</tpc>
               </Note>
             </Chord>
@@ -114618,14 +114360,14 @@ dolce in square  brackets here, should we also add them in mvt 1 from bar 32? </
                 </next>
               </Spanner>
             <Note>
-              <pitch>69</pitch>
+              <pitch>81</pitch>
               <tpc>17</tpc>
               </Note>
             </Chord>
           <Chord>
             <durationType>quarter</durationType>
             <Note>
-              <pitch>72</pitch>
+              <pitch>84</pitch>
               <tpc>14</tpc>
               </Note>
             </Chord>
@@ -114639,7 +114381,7 @@ dolce in square  brackets here, should we also add them in mvt 1 from bar 32? </
                 </prev>
               </Spanner>
             <Note>
-              <pitch>69</pitch>
+              <pitch>81</pitch>
               <tpc>17</tpc>
               </Note>
             </Chord>
@@ -114659,14 +114401,14 @@ dolce in square  brackets here, should we also add them in mvt 1 from bar 32? </
                 </next>
               </Spanner>
             <Note>
-              <pitch>66</pitch>
+              <pitch>78</pitch>
               <tpc>20</tpc>
               </Note>
             </Chord>
           <Chord>
             <durationType>eighth</durationType>
             <Note>
-              <pitch>69</pitch>
+              <pitch>81</pitch>
               <tpc>17</tpc>
               </Note>
             </Chord>
@@ -114680,7 +114422,7 @@ dolce in square  brackets here, should we also add them in mvt 1 from bar 32? </
                 </prev>
               </Spanner>
             <Note>
-              <pitch>67</pitch>
+              <pitch>79</pitch>
               <tpc>15</tpc>
               </Note>
             </Chord>
@@ -114691,7 +114433,7 @@ dolce in square  brackets here, should we also add them in mvt 1 from bar 32? </
           <Chord>
             <durationType>quarter</durationType>
             <Note>
-              <pitch>67</pitch>
+              <pitch>79</pitch>
               <tpc>15</tpc>
               </Note>
             </Chord>
@@ -114705,7 +114447,7 @@ dolce in square  brackets here, should we also add them in mvt 1 from bar 32? </
           <Chord>
             <durationType>quarter</durationType>
             <Note>
-              <pitch>59</pitch>
+              <pitch>71</pitch>
               <tpc>19</tpc>
               </Note>
             </Chord>
@@ -114717,7 +114459,7 @@ dolce in square  brackets here, should we also add them in mvt 1 from bar 32? </
             <dots>1</dots>
             <durationType>half</durationType>
             <Note>
-              <pitch>71</pitch>
+              <pitch>83</pitch>
               <tpc>19</tpc>
               </Note>
             </Chord>
@@ -114737,7 +114479,7 @@ dolce in square  brackets here, should we also add them in mvt 1 from bar 32? </
                 </next>
               </Spanner>
             <Note>
-              <pitch>67</pitch>
+              <pitch>79</pitch>
               <tpc>15</tpc>
               </Note>
             </Chord>
@@ -114751,7 +114493,7 @@ dolce in square  brackets here, should we also add them in mvt 1 from bar 32? </
                 </prev>
               </Spanner>
             <Note>
-              <pitch>64</pitch>
+              <pitch>76</pitch>
               <tpc>18</tpc>
               </Note>
             </Chord>
@@ -114774,7 +114516,7 @@ dolce in square  brackets here, should we also add them in mvt 1 from bar 32? </
               <Accidental>
                 <subtype>accidentalSharp</subtype>
                 </Accidental>
-              <pitch>63</pitch>
+              <pitch>75</pitch>
               <tpc>23</tpc>
               </Note>
             </Chord>
@@ -114788,7 +114530,7 @@ dolce in square  brackets here, should we also add them in mvt 1 from bar 32? </
                 </prev>
               </Spanner>
             <Note>
-              <pitch>66</pitch>
+              <pitch>78</pitch>
               <tpc>20</tpc>
               </Note>
             </Chord>
@@ -114799,7 +114541,7 @@ dolce in square  brackets here, should we also add them in mvt 1 from bar 32? </
           <Chord>
             <durationType>quarter</durationType>
             <Note>
-              <pitch>64</pitch>
+              <pitch>76</pitch>
               <tpc>18</tpc>
               </Note>
             </Chord>
@@ -114817,7 +114559,7 @@ dolce in square  brackets here, should we also add them in mvt 1 from bar 32? </
             <dots>1</dots>
             <durationType>half</durationType>
             <Note>
-              <pitch>69</pitch>
+              <pitch>81</pitch>
               <tpc>17</tpc>
               </Note>
             </Chord>
@@ -114837,35 +114579,35 @@ dolce in square  brackets here, should we also add them in mvt 1 from bar 32? </
                 </next>
               </Spanner>
             <Note>
-              <pitch>71</pitch>
+              <pitch>83</pitch>
               <tpc>19</tpc>
               </Note>
             </Chord>
           <Chord>
             <durationType>eighth</durationType>
             <Note>
-              <pitch>69</pitch>
+              <pitch>81</pitch>
               <tpc>17</tpc>
               </Note>
             </Chord>
           <Chord>
             <durationType>eighth</durationType>
             <Note>
-              <pitch>67</pitch>
+              <pitch>79</pitch>
               <tpc>15</tpc>
               </Note>
             </Chord>
           <Chord>
             <durationType>eighth</durationType>
             <Note>
-              <pitch>66</pitch>
+              <pitch>78</pitch>
               <tpc>20</tpc>
               </Note>
             </Chord>
           <Chord>
             <durationType>eighth</durationType>
             <Note>
-              <pitch>64</pitch>
+              <pitch>76</pitch>
               <tpc>18</tpc>
               </Note>
             </Chord>
@@ -114883,7 +114625,7 @@ dolce in square  brackets here, should we also add them in mvt 1 from bar 32? </
                 <role>1</role>
                 <subtype>accidentalNatural</subtype>
                 </Accidental>
-              <pitch>62</pitch>
+              <pitch>74</pitch>
               <tpc>16</tpc>
               </Note>
             </Chord>
@@ -114906,14 +114648,14 @@ dolce in square  brackets here, should we also add them in mvt 1 from bar 32? </
               <Accidental>
                 <subtype>accidentalSharp</subtype>
                 </Accidental>
-              <pitch>61</pitch>
+              <pitch>73</pitch>
               <tpc>21</tpc>
               </Note>
             </Chord>
           <Chord>
             <durationType>eighth</durationType>
             <Note>
-              <pitch>64</pitch>
+              <pitch>76</pitch>
               <tpc>18</tpc>
               </Note>
             </Chord>
@@ -114927,7 +114669,7 @@ dolce in square  brackets here, should we also add them in mvt 1 from bar 32? </
                 </prev>
               </Spanner>
             <Note>
-              <pitch>62</pitch>
+              <pitch>74</pitch>
               <tpc>16</tpc>
               </Note>
             </Chord>
@@ -114938,7 +114680,7 @@ dolce in square  brackets here, should we also add them in mvt 1 from bar 32? </
           <Chord>
             <durationType>quarter</durationType>
             <Note>
-              <pitch>62</pitch>
+              <pitch>74</pitch>
               <tpc>16</tpc>
               </Note>
             </Chord>
@@ -114948,7 +114690,7 @@ dolce in square  brackets here, should we also add them in mvt 1 from bar 32? </
           <Chord>
             <durationType>quarter</durationType>
             <Note>
-              <pitch>57</pitch>
+              <pitch>69</pitch>
               <tpc>17</tpc>
               </Note>
             </Chord>
@@ -114969,7 +114711,7 @@ dolce in square  brackets here, should we also add them in mvt 1 from bar 32? </
                 </next>
               </Spanner>
             <Note>
-              <pitch>62</pitch>
+              <pitch>74</pitch>
               <tpc>16</tpc>
               </Note>
             </Chord>
@@ -114999,7 +114741,7 @@ dolce in square  brackets here, should we also add them in mvt 1 from bar 32? </
               <Accidental>
                 <subtype>accidentalSharp</subtype>
                 </Accidental>
-              <pitch>63</pitch>
+              <pitch>75</pitch>
               <tpc>23</tpc>
               </Note>
             </Chord>
@@ -115011,7 +114753,7 @@ dolce in square  brackets here, should we also add them in mvt 1 from bar 32? </
             <dots>1</dots>
             <durationType>half</durationType>
             <Note>
-              <pitch>64</pitch>
+              <pitch>76</pitch>
               <tpc>18</tpc>
               </Note>
             </Chord>
@@ -115033,7 +114775,7 @@ dolce in square  brackets here, should we also add them in mvt 1 from bar 32? </
               <Accidental>
                 <subtype>accidentalNatural</subtype>
                 </Accidental>
-              <pitch>65</pitch>
+              <pitch>77</pitch>
               <tpc>13</tpc>
               </Note>
             </Chord>
@@ -115057,28 +114799,28 @@ dolce in square  brackets here, should we also add them in mvt 1 from bar 32? </
                 <role>1</role>
                 <subtype>accidentalSharp</subtype>
                 </Accidental>
-              <pitch>66</pitch>
+              <pitch>78</pitch>
               <tpc>20</tpc>
               </Note>
             </Chord>
           <Chord>
             <durationType>16th</durationType>
             <Note>
-              <pitch>67</pitch>
+              <pitch>79</pitch>
               <tpc>15</tpc>
               </Note>
             </Chord>
           <Chord>
             <durationType>16th</durationType>
             <Note>
-              <pitch>66</pitch>
+              <pitch>78</pitch>
               <tpc>20</tpc>
               </Note>
             </Chord>
           <Chord>
             <durationType>16th</durationType>
             <Note>
-              <pitch>64</pitch>
+              <pitch>76</pitch>
               <tpc>18</tpc>
               </Note>
             </Chord>
@@ -115092,7 +114834,7 @@ dolce in square  brackets here, should we also add them in mvt 1 from bar 32? </
                 </prev>
               </Spanner>
             <Note>
-              <pitch>66</pitch>
+              <pitch>78</pitch>
               <tpc>20</tpc>
               </Note>
             </Chord>
@@ -115112,7 +114854,7 @@ dolce in square  brackets here, should we also add them in mvt 1 from bar 32? </
                 </next>
               </Spanner>
             <Note>
-              <pitch>67</pitch>
+              <pitch>79</pitch>
               <tpc>15</tpc>
               </Note>
             </Chord>
@@ -115126,7 +114868,7 @@ dolce in square  brackets here, should we also add them in mvt 1 from bar 32? </
                 </prev>
               </Spanner>
             <Note>
-              <pitch>64</pitch>
+              <pitch>76</pitch>
               <tpc>18</tpc>
               </Note>
             </Chord>
@@ -115151,7 +114893,7 @@ dolce in square  brackets here, should we also add them in mvt 1 from bar 32? </
                     </location>
                   </next>
                 </Spanner>
-              <pitch>62</pitch>
+              <pitch>74</pitch>
               <tpc>16</tpc>
               </Note>
             </Chord>
@@ -115169,7 +114911,7 @@ dolce in square  brackets here, should we also add them in mvt 1 from bar 32? </
                     </location>
                   </prev>
                 </Spanner>
-              <pitch>62</pitch>
+              <pitch>74</pitch>
               <tpc>16</tpc>
               </Note>
             </Chord>
@@ -115202,14 +114944,14 @@ dolce in square  brackets here, should we also add them in mvt 1 from bar 32? </
               <Accidental>
                 <subtype>accidentalSharp</subtype>
                 </Accidental>
-              <pitch>61</pitch>
+              <pitch>73</pitch>
               <tpc>21</tpc>
               </Note>
             </Chord>
           <Chord>
             <durationType>eighth</durationType>
             <Note>
-              <pitch>62</pitch>
+              <pitch>74</pitch>
               <tpc>16</tpc>
               </Note>
             </Chord>
@@ -115220,7 +114962,7 @@ dolce in square  brackets here, should we also add them in mvt 1 from bar 32? </
           <Chord>
             <durationType>eighth</durationType>
             <Note>
-              <pitch>64</pitch>
+              <pitch>76</pitch>
               <tpc>18</tpc>
               </Note>
             </Chord>
@@ -115235,7 +114977,7 @@ dolce in square  brackets here, should we also add them in mvt 1 from bar 32? </
                 </prev>
               </Spanner>
             <Note>
-              <pitch>62</pitch>
+              <pitch>74</pitch>
               <tpc>16</tpc>
               </Note>
             </Chord>
@@ -115251,7 +114993,7 @@ dolce in square  brackets here, should we also add them in mvt 1 from bar 32? </
                 </next>
               </Spanner>
             <Note>
-              <pitch>62</pitch>
+              <pitch>74</pitch>
               <tpc>16</tpc>
               </Note>
             </Chord>
@@ -115269,7 +115011,7 @@ dolce in square  brackets here, should we also add them in mvt 1 from bar 32? </
                 <role>1</role>
                 <subtype>accidentalNatural</subtype>
                 </Accidental>
-              <pitch>60</pitch>
+              <pitch>72</pitch>
               <tpc>14</tpc>
               </Note>
             </Chord>
@@ -115285,7 +115027,7 @@ dolce in square  brackets here, should we also add them in mvt 1 from bar 32? </
                 </next>
               </Spanner>
             <Note>
-              <pitch>60</pitch>
+              <pitch>72</pitch>
               <tpc>14</tpc>
               </Note>
             </Chord>
@@ -115299,7 +115041,7 @@ dolce in square  brackets here, should we also add them in mvt 1 from bar 32? </
                 </prev>
               </Spanner>
             <Note>
-              <pitch>59</pitch>
+              <pitch>71</pitch>
               <tpc>19</tpc>
               </Note>
             </Chord>
@@ -115319,7 +115061,7 @@ dolce in square  brackets here, should we also add them in mvt 1 from bar 32? </
                 </next>
               </Spanner>
             <Note>
-              <pitch>62</pitch>
+              <pitch>74</pitch>
               <tpc>16</tpc>
               </Note>
             </Chord>
@@ -115333,7 +115075,7 @@ dolce in square  brackets here, should we also add them in mvt 1 from bar 32? </
                 </prev>
               </Spanner>
             <Note>
-              <pitch>60</pitch>
+              <pitch>72</pitch>
               <tpc>14</tpc>
               </Note>
             </Chord>
@@ -115349,7 +115091,7 @@ dolce in square  brackets here, should we also add them in mvt 1 from bar 32? </
                 </next>
               </Spanner>
             <Note>
-              <pitch>60</pitch>
+              <pitch>72</pitch>
               <tpc>14</tpc>
               </Note>
             </Chord>
@@ -115363,7 +115105,7 @@ dolce in square  brackets here, should we also add them in mvt 1 from bar 32? </
                 </prev>
               </Spanner>
             <Note>
-              <pitch>59</pitch>
+              <pitch>71</pitch>
               <tpc>19</tpc>
               </Note>
             </Chord>
@@ -115379,7 +115121,7 @@ dolce in square  brackets here, should we also add them in mvt 1 from bar 32? </
                 </next>
               </Spanner>
             <Note>
-              <pitch>59</pitch>
+              <pitch>71</pitch>
               <tpc>19</tpc>
               </Note>
             </Chord>
@@ -115393,7 +115135,7 @@ dolce in square  brackets here, should we also add them in mvt 1 from bar 32? </
                 </prev>
               </Spanner>
             <Note>
-              <pitch>57</pitch>
+              <pitch>69</pitch>
               <tpc>17</tpc>
               </Note>
             </Chord>
@@ -115719,8 +115461,8 @@ dolce in square  brackets here, should we also add them in mvt 1 from bar 32? </
             <showCourtesySig>0</showCourtesySig>
             </TimeSig>
           <Clef>
-            <concertClefType>C4</concertClefType>
-            <transposingClefType>C4</transposingClefType>
+            <concertClefType>G</concertClefType>
+            <transposingClefType>G</transposingClefType>
             </Clef>
           <Dynamic>
             <subtype>other-dynamics</subtype>
@@ -115740,21 +115482,21 @@ dolce in square  brackets here, should we also add them in mvt 1 from bar 32? </
                 </next>
               </Spanner>
             <Note>
-              <pitch>62</pitch>
+              <pitch>74</pitch>
               <tpc>16</tpc>
               </Note>
             </Chord>
           <Chord>
             <durationType>quarter</durationType>
             <Note>
-              <pitch>66</pitch>
+              <pitch>78</pitch>
               <tpc>20</tpc>
               </Note>
             </Chord>
           <Chord>
             <durationType>quarter</durationType>
             <Note>
-              <pitch>69</pitch>
+              <pitch>81</pitch>
               <tpc>17</tpc>
               </Note>
             </Chord>
@@ -115765,14 +115507,14 @@ dolce in square  brackets here, should we also add them in mvt 1 from bar 32? </
           <Chord>
             <durationType>quarter</durationType>
             <Note>
-              <pitch>67</pitch>
+              <pitch>79</pitch>
               <tpc>15</tpc>
               </Note>
             </Chord>
           <Chord>
             <durationType>quarter</durationType>
             <Note>
-              <pitch>64</pitch>
+              <pitch>76</pitch>
               <tpc>18</tpc>
               </Note>
             </Chord>
@@ -115793,7 +115535,7 @@ dolce in square  brackets here, should we also add them in mvt 1 from bar 32? </
                 </prev>
               </Spanner>
             <Note>
-              <pitch>69</pitch>
+              <pitch>81</pitch>
               <tpc>17</tpc>
               </Note>
             </Chord>
@@ -115804,7 +115546,7 @@ dolce in square  brackets here, should we also add them in mvt 1 from bar 32? </
           <Chord>
             <durationType>half</durationType>
             <Note>
-              <pitch>66</pitch>
+              <pitch>78</pitch>
               <tpc>20</tpc>
               </Note>
             </Chord>
@@ -115820,7 +115562,7 @@ dolce in square  brackets here, should we also add them in mvt 1 from bar 32? </
                 </next>
               </Spanner>
             <Note>
-              <pitch>69</pitch>
+              <pitch>81</pitch>
               <tpc>17</tpc>
               </Note>
             </Chord>
@@ -115834,7 +115576,7 @@ dolce in square  brackets here, should we also add them in mvt 1 from bar 32? </
                 </prev>
               </Spanner>
             <Note>
-              <pitch>67</pitch>
+              <pitch>79</pitch>
               <tpc>15</tpc>
               </Note>
             </Chord>
@@ -115853,7 +115595,7 @@ dolce in square  brackets here, should we also add them in mvt 1 from bar 32? </
                 </next>
               </Spanner>
             <Note>
-              <pitch>66</pitch>
+              <pitch>78</pitch>
               <tpc>20</tpc>
               </Note>
             </Chord>
@@ -115867,7 +115609,7 @@ dolce in square  brackets here, should we also add them in mvt 1 from bar 32? </
                 </prev>
               </Spanner>
             <Note>
-              <pitch>64</pitch>
+              <pitch>76</pitch>
               <tpc>18</tpc>
               </Note>
             </Chord>
@@ -115890,7 +115632,7 @@ dolce in square  brackets here, should we also add them in mvt 1 from bar 32? </
                 </next>
               </Spanner>
             <Note>
-              <pitch>62</pitch>
+              <pitch>74</pitch>
               <tpc>16</tpc>
               </Note>
             </Chord>
@@ -115904,7 +115646,7 @@ dolce in square  brackets here, should we also add them in mvt 1 from bar 32? </
                 </prev>
               </Spanner>
             <Note>
-              <pitch>61</pitch>
+              <pitch>73</pitch>
               <tpc>21</tpc>
               </Note>
             </Chord>
@@ -115918,21 +115660,21 @@ dolce in square  brackets here, should we also add them in mvt 1 from bar 32? </
           <Chord>
             <durationType>half</durationType>
             <Note>
-              <pitch>62</pitch>
+              <pitch>74</pitch>
               <tpc>16</tpc>
               </Note>
             </Chord>
           <Chord>
             <durationType>quarter</durationType>
             <Note>
-              <pitch>62</pitch>
+              <pitch>74</pitch>
               <tpc>16</tpc>
               </Note>
             </Chord>
           <Chord>
             <durationType>quarter</durationType>
             <Note>
-              <pitch>62</pitch>
+              <pitch>74</pitch>
               <tpc>16</tpc>
               </Note>
             </Chord>
@@ -115953,7 +115695,7 @@ dolce in square  brackets here, should we also add them in mvt 1 from bar 32? </
                 </next>
               </Spanner>
             <Note>
-              <pitch>62</pitch>
+              <pitch>74</pitch>
               <tpc>16</tpc>
               </Note>
             </Chord>
@@ -115967,7 +115709,7 @@ dolce in square  brackets here, should we also add them in mvt 1 from bar 32? </
                 </prev>
               </Spanner>
             <Note>
-              <pitch>71</pitch>
+              <pitch>83</pitch>
               <tpc>19</tpc>
               </Note>
             </Chord>
@@ -115987,7 +115729,7 @@ dolce in square  brackets here, should we also add them in mvt 1 from bar 32? </
               </Spanner>
             <grace32/>
             <Note>
-              <pitch>71</pitch>
+              <pitch>83</pitch>
               <tpc>19</tpc>
               </Note>
             </Chord>
@@ -116001,7 +115743,7 @@ dolce in square  brackets here, should we also add them in mvt 1 from bar 32? </
                 </prev>
               </Spanner>
             <Note>
-              <pitch>69</pitch>
+              <pitch>81</pitch>
               <tpc>17</tpc>
               </Note>
             </Chord>
@@ -116017,7 +115759,7 @@ dolce in square  brackets here, should we also add them in mvt 1 from bar 32? </
                 </next>
               </Spanner>
             <Note>
-              <pitch>67</pitch>
+              <pitch>79</pitch>
               <tpc>15</tpc>
               </Note>
             </Chord>
@@ -116031,7 +115773,7 @@ dolce in square  brackets here, should we also add them in mvt 1 from bar 32? </
                 </prev>
               </Spanner>
             <Note>
-              <pitch>64</pitch>
+              <pitch>76</pitch>
               <tpc>18</tpc>
               </Note>
             </Chord>
@@ -116047,7 +115789,7 @@ dolce in square  brackets here, should we also add them in mvt 1 from bar 32? </
                 </next>
               </Spanner>
             <Note>
-              <pitch>66</pitch>
+              <pitch>78</pitch>
               <tpc>20</tpc>
               </Note>
             </Chord>
@@ -116061,7 +115803,7 @@ dolce in square  brackets here, should we also add them in mvt 1 from bar 32? </
                 </prev>
               </Spanner>
             <Note>
-              <pitch>62</pitch>
+              <pitch>74</pitch>
               <tpc>16</tpc>
               </Note>
             </Chord>
@@ -116081,7 +115823,7 @@ dolce in square  brackets here, should we also add them in mvt 1 from bar 32? </
                 </next>
               </Spanner>
             <Note>
-              <pitch>66</pitch>
+              <pitch>78</pitch>
               <tpc>20</tpc>
               </Note>
             </Chord>
@@ -116095,28 +115837,17 @@ dolce in square  brackets here, should we also add them in mvt 1 from bar 32? </
                 </prev>
               </Spanner>
             <Note>
-              <pitch>64</pitch>
+              <pitch>76</pitch>
               <tpc>18</tpc>
               </Note>
             </Chord>
           <Rest>
             <durationType>quarter</durationType>
             </Rest>
-          <Clef>
-            <concertClefType>F</concertClefType>
-            <transposingClefType>F</transposingClefType>
-            </Clef>
           </voice>
         </Measure>
       <Measure>
         <voice>
-          <StaffText>
-            <textLineSpacing>0.7</textLineSpacing>
-            <color r="255" g="0" b="0" a="255"/>
-            <offset x="-5.16484" y="-3.30111"/>
-            <text>Vc clef change 
-missed on source</text>
-            </StaffText>
           <Rest>
             <durationType>quarter</durationType>
             </Rest>
@@ -116131,8 +115862,8 @@ missed on source</text>
               <subtype>articStaccatoBelow</subtype>
               </Articulation>
             <Note>
-              <pitch>38</pitch>
-              <tpc>16</tpc>
+              <pitch>59</pitch>
+              <tpc>19</tpc>
               </Note>
             </Chord>
           <Chord>
@@ -116147,8 +115878,8 @@ missed on source</text>
                 </next>
               </Spanner>
             <Note>
-              <pitch>50</pitch>
-              <tpc>16</tpc>
+              <pitch>71</pitch>
+              <tpc>19</tpc>
               </Note>
             </Chord>
           <Chord>
@@ -116161,8 +115892,8 @@ missed on source</text>
                 </prev>
               </Spanner>
             <Note>
-              <pitch>54</pitch>
-              <tpc>20</tpc>
+              <pitch>74</pitch>
+              <tpc>16</tpc>
               </Note>
             </Chord>
           </voice>
@@ -116181,22 +115912,22 @@ missed on source</text>
                 </next>
               </Spanner>
             <Note>
-              <pitch>52</pitch>
-              <tpc>18</tpc>
-              </Note>
-            </Chord>
-          <Chord>
-            <durationType>quarter</durationType>
-            <Note>
-              <pitch>50</pitch>
-              <tpc>16</tpc>
-              </Note>
-            </Chord>
-          <Chord>
-            <durationType>quarter</durationType>
-            <Note>
-              <pitch>49</pitch>
+              <pitch>73</pitch>
               <tpc>21</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <durationType>quarter</durationType>
+            <Note>
+              <pitch>71</pitch>
+              <tpc>19</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <durationType>quarter</durationType>
+            <Note>
+              <pitch>69</pitch>
+              <tpc>17</tpc>
               </Note>
             </Chord>
           <Chord>
@@ -116209,10 +115940,14 @@ missed on source</text>
                 </prev>
               </Spanner>
             <Note>
-              <pitch>45</pitch>
-              <tpc>17</tpc>
+              <pitch>66</pitch>
+              <tpc>20</tpc>
               </Note>
             </Chord>
+          <Clef>
+            <concertClefType>F</concertClefType>
+            <transposingClefType>F</transposingClefType>
+            </Clef>
           </voice>
         </Measure>
       <Measure>
@@ -121358,7 +121093,7 @@ missed on source</text>
           <Dynamic>
             <subtype>other-dynamics</subtype>
             <velocity>96</velocity>
-            <text><sym>dynamicForte</sym></text>
+            <text><i>(</i><font face="ScoreText"/><i><font face="Edwin"/>)</i></text>
             </Dynamic>
           <Chord>
             <durationType>quarter</durationType>
@@ -123373,7 +123108,7 @@ missed on source</text>
               <next>
                 <location>
                   <measures>1</measures>
-                  <fractions>1/2</fractions>
+                  <fractions>1/4</fractions>
                   </location>
                 </next>
               </Spanner>
@@ -123409,6 +123144,14 @@ missed on source</text>
             </Chord>
           <Chord>
             <durationType>quarter</durationType>
+            <Spanner type="Slur">
+              <prev>
+                <location>
+                  <measures>-1</measures>
+                  <fractions>-1/4</fractions>
+                  </location>
+                </prev>
+              </Spanner>
             <Note>
               <pitch>47</pitch>
               <tpc>19</tpc>
@@ -123419,27 +123162,8 @@ missed on source</text>
             <velocity>80</velocity>
             <text><sym>dynamicMezzo</sym><sym>dynamicForte</sym></text>
             </Dynamic>
-          <StaffText>
-            <minDistance>-3.36092</minDistance>
-            <color r="255" g="0" b="0" a="255"/>
-            <offset x="-1.44934" y="-3.09135"/>
-            <text>Vc: on source slur ends
-on the preceding note</text>
-            </StaffText>
-          <StaffText>
-            <color r="128" g="128" b="3" a="255"/>
-            <text>agree</text>
-            </StaffText>
           <Chord>
             <durationType>half</durationType>
-            <Spanner type="Slur">
-              <prev>
-                <location>
-                  <measures>-1</measures>
-                  <fractions>-1/2</fractions>
-                  </location>
-                </prev>
-              </Spanner>
             <Note>
               <pitch>52</pitch>
               <tpc>18</tpc>
@@ -123596,8 +123320,8 @@ on the preceding note</text>
               </Note>
             </Chord>
           <Clef>
-            <concertClefType>C4</concertClefType>
-            <transposingClefType>C4</transposingClefType>
+            <concertClefType>G</concertClefType>
+            <transposingClefType>G</transposingClefType>
             </Clef>
           </voice>
         </Measure>
@@ -123615,7 +123339,7 @@ on the preceding note</text>
                 </next>
               </Spanner>
             <Note>
-              <pitch>62</pitch>
+              <pitch>74</pitch>
               <tpc>16</tpc>
               </Note>
             </Chord>
@@ -123626,7 +123350,7 @@ on the preceding note</text>
                 <role>1</role>
                 <subtype>accidentalSharp</subtype>
                 </Accidental>
-              <pitch>66</pitch>
+              <pitch>78</pitch>
               <tpc>20</tpc>
               </Note>
             </Chord>
@@ -123640,7 +123364,7 @@ on the preceding note</text>
                 </prev>
               </Spanner>
             <Note>
-              <pitch>69</pitch>
+              <pitch>81</pitch>
               <tpc>17</tpc>
               </Note>
             </Chord>
@@ -123660,14 +123384,14 @@ on the preceding note</text>
                 </next>
               </Spanner>
             <Note>
-              <pitch>67</pitch>
+              <pitch>79</pitch>
               <tpc>15</tpc>
               </Note>
             </Chord>
           <Chord>
             <durationType>quarter</durationType>
             <Note>
-              <pitch>64</pitch>
+              <pitch>76</pitch>
               <tpc>18</tpc>
               </Note>
             </Chord>
@@ -123687,7 +123411,7 @@ on the preceding note</text>
                 </prev>
               </Spanner>
             <Note>
-              <pitch>69</pitch>
+              <pitch>81</pitch>
               <tpc>17</tpc>
               </Note>
             </Chord>
@@ -123698,7 +123422,7 @@ on the preceding note</text>
           <Chord>
             <durationType>half</durationType>
             <Note>
-              <pitch>66</pitch>
+              <pitch>78</pitch>
               <tpc>20</tpc>
               </Note>
             </Chord>
@@ -123714,7 +123438,7 @@ on the preceding note</text>
                 </next>
               </Spanner>
             <Note>
-              <pitch>69</pitch>
+              <pitch>81</pitch>
               <tpc>17</tpc>
               </Note>
             </Chord>
@@ -123728,7 +123452,7 @@ on the preceding note</text>
                 </prev>
               </Spanner>
             <Note>
-              <pitch>67</pitch>
+              <pitch>79</pitch>
               <tpc>15</tpc>
               </Note>
             </Chord>
@@ -123747,7 +123471,7 @@ on the preceding note</text>
                 </next>
               </Spanner>
             <Note>
-              <pitch>66</pitch>
+              <pitch>78</pitch>
               <tpc>20</tpc>
               </Note>
             </Chord>
@@ -123761,7 +123485,7 @@ on the preceding note</text>
                 </prev>
               </Spanner>
             <Note>
-              <pitch>64</pitch>
+              <pitch>76</pitch>
               <tpc>18</tpc>
               </Note>
             </Chord>
@@ -123784,7 +123508,7 @@ on the preceding note</text>
                 </next>
               </Spanner>
             <Note>
-              <pitch>62</pitch>
+              <pitch>74</pitch>
               <tpc>16</tpc>
               </Note>
             </Chord>
@@ -123798,7 +123522,7 @@ on the preceding note</text>
                 </prev>
               </Spanner>
             <Note>
-              <pitch>61</pitch>
+              <pitch>73</pitch>
               <tpc>21</tpc>
               </Note>
             </Chord>
@@ -123812,21 +123536,21 @@ on the preceding note</text>
           <Chord>
             <durationType>half</durationType>
             <Note>
-              <pitch>62</pitch>
+              <pitch>74</pitch>
               <tpc>16</tpc>
               </Note>
             </Chord>
           <Chord>
             <durationType>quarter</durationType>
             <Note>
-              <pitch>62</pitch>
+              <pitch>74</pitch>
               <tpc>16</tpc>
               </Note>
             </Chord>
           <Chord>
             <durationType>quarter</durationType>
             <Note>
-              <pitch>62</pitch>
+              <pitch>74</pitch>
               <tpc>16</tpc>
               </Note>
             </Chord>
@@ -123847,7 +123571,7 @@ on the preceding note</text>
                 </next>
               </Spanner>
             <Note>
-              <pitch>62</pitch>
+              <pitch>74</pitch>
               <tpc>16</tpc>
               </Note>
             </Chord>
@@ -123861,7 +123585,7 @@ on the preceding note</text>
                 </prev>
               </Spanner>
             <Note>
-              <pitch>71</pitch>
+              <pitch>83</pitch>
               <tpc>19</tpc>
               </Note>
             </Chord>
@@ -123881,7 +123605,7 @@ on the preceding note</text>
               </Spanner>
             <grace32/>
             <Note>
-              <pitch>71</pitch>
+              <pitch>83</pitch>
               <tpc>19</tpc>
               </Note>
             </Chord>
@@ -123895,7 +123619,7 @@ on the preceding note</text>
                 </prev>
               </Spanner>
             <Note>
-              <pitch>69</pitch>
+              <pitch>81</pitch>
               <tpc>17</tpc>
               </Note>
             </Chord>
@@ -123911,7 +123635,7 @@ on the preceding note</text>
                 </next>
               </Spanner>
             <Note>
-              <pitch>67</pitch>
+              <pitch>79</pitch>
               <tpc>15</tpc>
               </Note>
             </Chord>
@@ -123925,7 +123649,7 @@ on the preceding note</text>
                 </prev>
               </Spanner>
             <Note>
-              <pitch>64</pitch>
+              <pitch>76</pitch>
               <tpc>18</tpc>
               </Note>
             </Chord>
@@ -123941,7 +123665,7 @@ on the preceding note</text>
                 </next>
               </Spanner>
             <Note>
-              <pitch>66</pitch>
+              <pitch>78</pitch>
               <tpc>20</tpc>
               </Note>
             </Chord>
@@ -123955,7 +123679,7 @@ on the preceding note</text>
                 </prev>
               </Spanner>
             <Note>
-              <pitch>62</pitch>
+              <pitch>74</pitch>
               <tpc>16</tpc>
               </Note>
             </Chord>
@@ -123975,7 +123699,7 @@ on the preceding note</text>
                 </next>
               </Spanner>
             <Note>
-              <pitch>66</pitch>
+              <pitch>78</pitch>
               <tpc>20</tpc>
               </Note>
             </Chord>
@@ -123989,7 +123713,7 @@ on the preceding note</text>
                 </prev>
               </Spanner>
             <Note>
-              <pitch>64</pitch>
+              <pitch>76</pitch>
               <tpc>18</tpc>
               </Note>
             </Chord>
@@ -125160,8 +124884,8 @@ on the preceding note</text>
             <duration>2/2</duration>
             </Rest>
           <Clef>
-            <concertClefType>C4</concertClefType>
-            <transposingClefType>C4</transposingClefType>
+            <concertClefType>G</concertClefType>
+            <transposingClefType>G</transposingClefType>
             </Clef>
           </voice>
         </Measure>
@@ -125180,21 +124904,21 @@ on the preceding note</text>
                 </next>
               </Spanner>
             <Note>
-              <pitch>62</pitch>
+              <pitch>74</pitch>
               <tpc>16</tpc>
               </Note>
             </Chord>
           <Chord>
             <durationType>quarter</durationType>
             <Note>
-              <pitch>66</pitch>
+              <pitch>78</pitch>
               <tpc>20</tpc>
               </Note>
             </Chord>
           <Chord>
             <durationType>quarter</durationType>
             <Note>
-              <pitch>69</pitch>
+              <pitch>81</pitch>
               <tpc>17</tpc>
               </Note>
             </Chord>
@@ -125205,14 +124929,14 @@ on the preceding note</text>
           <Chord>
             <durationType>quarter</durationType>
             <Note>
-              <pitch>67</pitch>
+              <pitch>79</pitch>
               <tpc>15</tpc>
               </Note>
             </Chord>
           <Chord>
             <durationType>quarter</durationType>
             <Note>
-              <pitch>64</pitch>
+              <pitch>76</pitch>
               <tpc>18</tpc>
               </Note>
             </Chord>
@@ -125226,7 +124950,7 @@ on the preceding note</text>
             <dots>1</dots>
             <durationType>quarter</durationType>
             <Note>
-              <pitch>69</pitch>
+              <pitch>81</pitch>
               <tpc>17</tpc>
               </Note>
             </Chord>
@@ -125241,7 +124965,7 @@ on the preceding note</text>
                 </prev>
               </Spanner>
             <Note>
-              <pitch>67</pitch>
+              <pitch>79</pitch>
               <tpc>15</tpc>
               </Note>
             </Chord>
@@ -125261,7 +124985,7 @@ on the preceding note</text>
                 </next>
               </Spanner>
             <Note>
-              <pitch>67</pitch>
+              <pitch>79</pitch>
               <tpc>15</tpc>
               </Note>
             </Chord>
@@ -125275,7 +124999,7 @@ on the preceding note</text>
                 </prev>
               </Spanner>
             <Note>
-              <pitch>66</pitch>
+              <pitch>78</pitch>
               <tpc>20</tpc>
               </Note>
             </Chord>
@@ -125288,7 +125012,7 @@ on the preceding note</text>
               <subtype>articStaccatoAbove</subtype>
               </Articulation>
             <Note>
-              <pitch>71</pitch>
+              <pitch>83</pitch>
               <tpc>19</tpc>
               </Note>
             </Chord>
@@ -125304,7 +125028,7 @@ on the preceding note</text>
                 </next>
               </Spanner>
             <Note>
-              <pitch>71</pitch>
+              <pitch>83</pitch>
               <tpc>19</tpc>
               </Note>
             </Chord>
@@ -125318,7 +125042,7 @@ on the preceding note</text>
                 </prev>
               </Spanner>
             <Note>
-              <pitch>69</pitch>
+              <pitch>81</pitch>
               <tpc>17</tpc>
               </Note>
             </Chord>
@@ -125334,7 +125058,7 @@ on the preceding note</text>
                 </next>
               </Spanner>
             <Note>
-              <pitch>69</pitch>
+              <pitch>81</pitch>
               <tpc>17</tpc>
               </Note>
             </Chord>
@@ -125351,7 +125075,7 @@ on the preceding note</text>
               <Accidental>
                 <subtype>accidentalSharp</subtype>
                 </Accidental>
-              <pitch>68</pitch>
+              <pitch>80</pitch>
               <tpc>22</tpc>
               </Note>
             </Chord>
@@ -125371,7 +125095,7 @@ on the preceding note</text>
                 </next>
               </Spanner>
             <Note>
-              <pitch>69</pitch>
+              <pitch>81</pitch>
               <tpc>17</tpc>
               </Note>
             </Chord>
@@ -125382,7 +125106,7 @@ on the preceding note</text>
                 <role>1</role>
                 <subtype>accidentalNatural</subtype>
                 </Accidental>
-              <pitch>67</pitch>
+              <pitch>79</pitch>
               <tpc>15</tpc>
               </Note>
             </Chord>
@@ -125396,7 +125120,7 @@ on the preceding note</text>
                 </prev>
               </Spanner>
             <Note>
-              <pitch>66</pitch>
+              <pitch>78</pitch>
               <tpc>20</tpc>
               </Note>
             </Chord>
@@ -125415,7 +125139,7 @@ on the preceding note</text>
               <subtype>articStaccatoAbove</subtype>
               </Articulation>
             <Note>
-              <pitch>64</pitch>
+              <pitch>76</pitch>
               <tpc>18</tpc>
               </Note>
             </Chord>
@@ -125425,7 +125149,7 @@ on the preceding note</text>
               <subtype>articStaccatoAbove</subtype>
               </Articulation>
             <Note>
-              <pitch>64</pitch>
+              <pitch>76</pitch>
               <tpc>18</tpc>
               </Note>
             </Chord>
@@ -125445,7 +125169,7 @@ on the preceding note</text>
                 </next>
               </Spanner>
             <Note>
-              <pitch>64</pitch>
+              <pitch>76</pitch>
               <tpc>18</tpc>
               </Note>
             </Chord>
@@ -125467,7 +125191,7 @@ on the preceding note</text>
               <Accidental>
                 <subtype>accidentalNatural</subtype>
                 </Accidental>
-              <pitch>65</pitch>
+              <pitch>77</pitch>
               <tpc>13</tpc>
               </Note>
             </Chord>
@@ -125477,7 +125201,7 @@ on the preceding note</text>
               <subtype>articStaccatoAbove</subtype>
               </Articulation>
             <Note>
-              <pitch>65</pitch>
+              <pitch>77</pitch>
               <tpc>13</tpc>
               </Note>
             </Chord>
@@ -125497,7 +125221,7 @@ on the preceding note</text>
                 </next>
               </Spanner>
             <Note>
-              <pitch>65</pitch>
+              <pitch>77</pitch>
               <tpc>13</tpc>
               </Note>
             </Chord>
@@ -125520,7 +125244,7 @@ on the preceding note</text>
                 <role>1</role>
                 <subtype>accidentalSharp</subtype>
                 </Accidental>
-              <pitch>66</pitch>
+              <pitch>78</pitch>
               <tpc>20</tpc>
               </Note>
             </Chord>
@@ -125530,7 +125254,7 @@ on the preceding note</text>
               <subtype>articStaccatoAbove</subtype>
               </Articulation>
             <Note>
-              <pitch>66</pitch>
+              <pitch>78</pitch>
               <tpc>20</tpc>
               </Note>
             </Chord>
@@ -125555,7 +125279,7 @@ on the preceding note</text>
                 </next>
               </Spanner>
             <Note>
-              <pitch>66</pitch>
+              <pitch>78</pitch>
               <tpc>20</tpc>
               </Note>
             </Chord>
@@ -125574,7 +125298,7 @@ on the preceding note</text>
                 </prev>
               </Spanner>
             <Note>
-              <pitch>67</pitch>
+              <pitch>79</pitch>
               <tpc>15</tpc>
               </Note>
             </Chord>
@@ -125584,7 +125308,7 @@ on the preceding note</text>
               <subtype>articStaccatoAbove</subtype>
               </Articulation>
             <Note>
-              <pitch>67</pitch>
+              <pitch>79</pitch>
               <tpc>15</tpc>
               </Note>
             </Chord>
