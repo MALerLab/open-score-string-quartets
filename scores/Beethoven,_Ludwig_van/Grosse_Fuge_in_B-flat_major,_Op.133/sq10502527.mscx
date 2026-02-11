@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <museScore version="3.02">
   <programVersion>3.6.2</programVersion>
-  <programRevision></programRevision>
+  <programRevision>3224f34</programRevision>
   <Score>
     <LayerTag id="0" tag="default"></LayerTag>
     <currentLayer>0</currentLayer>
@@ -90337,18 +90337,6 @@
             <linkedMain/>
             <durationType>eighth</durationType>
             </Rest>
-          <Spanner type="HairPin">
-            <HairPin>
-              <subtype>0</subtype>
-              <linkedMain/>
-              </HairPin>
-            <next>
-              <location>
-                <measures>1</measures>
-                <fractions>1/4</fractions>
-                </location>
-              </next>
-            </Spanner>
           <Spanner type="Trill">
             <Trill>
               <subtype>trill</subtype>
@@ -90359,6 +90347,18 @@
               <location>
                 <measures>1</measures>
                 <fractions>-1/8</fractions>
+                </location>
+              </next>
+            </Spanner>
+          <Spanner type="HairPin">
+            <HairPin>
+              <subtype>0</subtype>
+              <linkedMain/>
+              </HairPin>
+            <next>
+              <location>
+                <measures>1</measures>
+                <fractions>1/4</fractions>
                 </location>
               </next>
             </Spanner>
@@ -132386,18 +132386,6 @@
             <linkedMain/>
             <durationType>eighth</durationType>
             </Rest>
-          <Spanner type="HairPin">
-            <HairPin>
-              <subtype>0</subtype>
-              <linkedMain/>
-              </HairPin>
-            <next>
-              <location>
-                <measures>1</measures>
-                <fractions>1/4</fractions>
-                </location>
-              </next>
-            </Spanner>
           <Spanner type="Trill">
             <Trill>
               <subtype>trill</subtype>
@@ -132408,6 +132396,18 @@
               <location>
                 <measures>1</measures>
                 <fractions>-1/8</fractions>
+                </location>
+              </next>
+            </Spanner>
+          <Spanner type="HairPin">
+            <HairPin>
+              <subtype>0</subtype>
+              <linkedMain/>
+              </HairPin>
+            <next>
+              <location>
+                <measures>1</measures>
+                <fractions>1/4</fractions>
                 </location>
               </next>
             </Spanner>
@@ -132642,18 +132642,6 @@
             <linkedMain/>
             <durationType>eighth</durationType>
             </Rest>
-          <Spanner type="HairPin">
-            <HairPin>
-              <subtype>0</subtype>
-              <linkedMain/>
-              </HairPin>
-            <next>
-              <location>
-                <measures>1</measures>
-                <fractions>1/4</fractions>
-                </location>
-              </next>
-            </Spanner>
           <Spanner type="Trill">
             <Trill>
               <subtype>trill</subtype>
@@ -132664,6 +132652,18 @@
               <location>
                 <measures>1</measures>
                 <fractions>-1/8</fractions>
+                </location>
+              </next>
+            </Spanner>
+          <Spanner type="HairPin">
+            <HairPin>
+              <subtype>0</subtype>
+              <linkedMain/>
+              </HairPin>
+            <next>
+              <location>
+                <measures>1</measures>
+                <fractions>1/4</fractions>
                 </location>
               </next>
             </Spanner>
@@ -164732,6 +164732,19 @@
             <linkedMain/>
             <durationType>quarter</durationType>
             </Rest>
+          <Spanner type="Trill">
+            <Trill>
+              <subtype>trill</subtype>
+              <linkedMain/>
+              <lineWidth>0.0644297</lineWidth>
+              </Trill>
+            <next>
+              <location>
+                <measures>2</measures>
+                <fractions>-1/4</fractions>
+                </location>
+              </next>
+            </Spanner>
           <Spanner type="HairPin">
             <HairPin>
               <subtype>3</subtype>
@@ -164743,19 +164756,6 @@
             <next>
               <location>
                 <measures>2</measures>
-                </location>
-              </next>
-            </Spanner>
-          <Spanner type="Trill">
-            <Trill>
-              <subtype>trill</subtype>
-              <linkedMain/>
-              <lineWidth>0.0644297</lineWidth>
-              </Trill>
-            <next>
-              <location>
-                <measures>2</measures>
-                <fractions>-1/4</fractions>
                 </location>
               </next>
             </Spanner>
@@ -278693,7 +278693,6 @@
               <Trill>
                 <subtype>trill</subtype>
                 <linked>
-                  <indexDiff>1</indexDiff>
                   </linked>
                 <lineWidth>0.0405038</lineWidth>
                 </Trill>
@@ -278708,7 +278707,6 @@
               <HairPin>
                 <subtype>0</subtype>
                 <linked>
-                  <indexDiff>-1</indexDiff>
                   </linked>
                 </HairPin>
               <next>
@@ -328087,7 +328085,6 @@
               <Trill>
                 <subtype>trill</subtype>
                 <linked>
-                  <indexDiff>1</indexDiff>
                   </linked>
                 <lineWidth>0.0416898</lineWidth>
                 </Trill>
@@ -328102,7 +328099,6 @@
               <HairPin>
                 <subtype>0</subtype>
                 <linked>
-                  <indexDiff>-1</indexDiff>
                   </linked>
                 </HairPin>
               <next>
@@ -328374,7 +328370,6 @@
               <Trill>
                 <subtype>trill</subtype>
                 <linked>
-                  <indexDiff>1</indexDiff>
                   </linked>
                 <lineWidth>0.0416898</lineWidth>
                 </Trill>
@@ -328389,7 +328384,6 @@
               <HairPin>
                 <subtype>0</subtype>
                 <linked>
-                  <indexDiff>-1</indexDiff>
                   </linked>
                 </HairPin>
               <next>
@@ -366365,7 +366359,6 @@
               <Trill>
                 <subtype>trill</subtype>
                 <linked>
-                  <indexDiff>1</indexDiff>
                   </linked>
                 <lineWidth>0.0416898</lineWidth>
                 </Trill>
@@ -366382,7 +366375,6 @@
                 <endText></endText>
                 <beginText>dim.  </beginText>
                 <linked>
-                  <indexDiff>-1</indexDiff>
                   </linked>
                 <dashGapLength>20</dashGapLength>
                 </HairPin>
