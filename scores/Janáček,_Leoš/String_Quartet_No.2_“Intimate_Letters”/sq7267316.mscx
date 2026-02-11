@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <museScore version="3.02">
   <programVersion>3.6.2</programVersion>
-  <programRevision></programRevision>
+  <programRevision>3224f34</programRevision>
   <Score>
     <LayerTag id="0" tag="default"></LayerTag>
     <currentLayer>0</currentLayer>
@@ -1346,7 +1346,7 @@
         </Measure>
       <Measure>
         <LayoutBreak>
-          <subtype>line</subtype>
+          <subtype>page</subtype>
           </LayoutBreak>
         <voice>
           <Rest>
@@ -2386,7 +2386,7 @@
         </Measure>
       <Measure>
         <LayoutBreak>
-          <subtype>line</subtype>
+          <subtype>page</subtype>
           </LayoutBreak>
         <voice>
           <Chord>
@@ -3615,7 +3615,7 @@
         </Measure>
       <Measure>
         <LayoutBreak>
-          <subtype>line</subtype>
+          <subtype>page</subtype>
           </LayoutBreak>
         <voice>
           <Chord>
@@ -4668,7 +4668,7 @@
         </Measure>
       <Measure>
         <LayoutBreak>
-          <subtype>line</subtype>
+          <subtype>page</subtype>
           </LayoutBreak>
         <voice>
           <Spanner type="HairPin">
@@ -5981,7 +5981,7 @@
         </Measure>
       <Measure>
         <LayoutBreak>
-          <subtype>line</subtype>
+          <subtype>page</subtype>
           </LayoutBreak>
         <voice>
           <Chord>
@@ -6651,7 +6651,7 @@
         </Measure>
       <Measure>
         <LayoutBreak>
-          <subtype>line</subtype>
+          <subtype>page</subtype>
           </LayoutBreak>
         <voice>
           <Chord>
@@ -7581,7 +7581,7 @@
         </Measure>
       <Measure>
         <LayoutBreak>
-          <subtype>line</subtype>
+          <subtype>page</subtype>
           </LayoutBreak>
         <voice>
           <Tempo>
@@ -9034,7 +9034,7 @@
         </Measure>
       <Measure>
         <LayoutBreak>
-          <subtype>line</subtype>
+          <subtype>page</subtype>
           </LayoutBreak>
         <voice>
           <Rest>
@@ -10145,7 +10145,7 @@
         </Measure>
       <Measure>
         <LayoutBreak>
-          <subtype>line</subtype>
+          <subtype>page</subtype>
           </LayoutBreak>
         <voice>
           <Chord>
@@ -11848,7 +11848,7 @@
       <Measure>
         <endRepeat>2</endRepeat>
         <LayoutBreak>
-          <subtype>line</subtype>
+          <subtype>page</subtype>
           </LayoutBreak>
         <voice>
           <Tuplet>
@@ -13219,7 +13219,7 @@
         </Measure>
       <Measure>
         <LayoutBreak>
-          <subtype>line</subtype>
+          <subtype>page</subtype>
           </LayoutBreak>
         <voice>
           <Tuplet>
@@ -17048,9 +17048,6 @@
               <Slur>
                 <autoplace>0</autoplace>
                 <linkedMain/>
-                <SlurSegment no="0">
-                  <autoplace>0</autoplace>
-                  </SlurSegment>
                 </Slur>
               <next>
                 <location>
@@ -17150,9 +17147,6 @@
               <Slur>
                 <autoplace>0</autoplace>
                 <linkedMain/>
-                <SlurSegment no="0">
-                  <autoplace>0</autoplace>
-                  </SlurSegment>
                 </Slur>
               <next>
                 <location>
@@ -17219,12 +17213,6 @@
               <subtype>0</subtype>
               <veloChange>24</veloChange>
               <veloChangeMethod>ease-in</veloChangeMethod>
-              <Segment>
-                <subtype>0</subtype>
-                <offset x="0" y="1.4"/>
-                <off2 x="0" y="0"/>
-                <minDistance>0.687991</minDistance>
-                </Segment>
               </HairPin>
             <next>
               <location>
@@ -17250,12 +17238,6 @@
               <subtype>1</subtype>
               <veloChange>24</veloChange>
               <veloChangeMethod>ease-in</veloChangeMethod>
-              <Segment>
-                <subtype>0</subtype>
-                <offset x="0" y="1.3"/>
-                <off2 x="0" y="0"/>
-                <minDistance>0.587991</minDistance>
-                </Segment>
               </HairPin>
             <next>
               <location>
@@ -17521,11 +17503,6 @@
               <subtype>0</subtype>
               <veloChange>24</veloChange>
               <veloChangeMethod>ease-in</veloChangeMethod>
-              <Segment>
-                <subtype>0</subtype>
-                <offset x="0" y="2"/>
-                <off2 x="0" y="0"/>
-                </Segment>
               </HairPin>
             <next>
               <location>
@@ -17551,11 +17528,6 @@
               <subtype>1</subtype>
               <veloChange>24</veloChange>
               <veloChangeMethod>ease-in</veloChangeMethod>
-              <Segment>
-                <subtype>0</subtype>
-                <offset x="0" y="2"/>
-                <off2 x="0" y="0"/>
-                </Segment>
               </HairPin>
             <next>
               <location>
@@ -17903,9 +17875,6 @@
             <Spanner type="Slur">
               <Slur>
                 <linkedMain/>
-                <SlurSegment no="0">
-                  <offset x="0" y="-0.5"/>
-                  </SlurSegment>
                 </Slur>
               <next>
                 <location>
@@ -18125,7 +18094,7 @@
         </Measure>
       <Measure>
         <LayoutBreak>
-          <subtype>line</subtype>
+          <subtype>page</subtype>
           </LayoutBreak>
         <voice>
           <Spanner type="HairPin">
@@ -18134,11 +18103,6 @@
               <endText></endText>
               <lineVisible>0</lineVisible>
               <linkedMain/>
-              <Segment>
-                <subtype>0</subtype>
-                <offset x="0" y="3.5"/>
-                <off2 x="0" y="0"/>
-                </Segment>
               </HairPin>
             <next>
               <location>
@@ -18200,11 +18164,6 @@
               <subtype>0</subtype>
               <veloChange>24</veloChange>
               <veloChangeMethod>ease-in</veloChangeMethod>
-              <Segment>
-                <subtype>0</subtype>
-                <offset x="0" y="1.8"/>
-                <off2 x="0" y="0"/>
-                </Segment>
               </HairPin>
             <next>
               <location>
@@ -18230,12 +18189,6 @@
               <subtype>1</subtype>
               <veloChange>24</veloChange>
               <veloChangeMethod>ease-in</veloChangeMethod>
-              <Segment>
-                <subtype>0</subtype>
-                <offset x="0" y="1.94545"/>
-                <off2 x="0" y="0"/>
-                <minDistance>-0.3</minDistance>
-                </Segment>
               </HairPin>
             <next>
               <location>
@@ -18603,11 +18556,6 @@
             <HairPin>
               <subtype>0</subtype>
               <veloChange>24</veloChange>
-              <Segment>
-                <subtype>0</subtype>
-                <offset x="0" y="2"/>
-                <off2 x="-1" y="0"/>
-                </Segment>
               </HairPin>
             <next>
               <location>
@@ -18632,11 +18580,6 @@
             <HairPin>
               <subtype>1</subtype>
               <veloChange>24</veloChange>
-              <Segment>
-                <subtype>0</subtype>
-                <offset x="0" y="2"/>
-                <off2 x="-1" y="0"/>
-                </Segment>
               </HairPin>
             <next>
               <location>
@@ -18823,11 +18766,6 @@
             <HairPin>
               <subtype>1</subtype>
               <veloChange>24</veloChange>
-              <Segment>
-                <subtype>0</subtype>
-                <offset x="1" y="2"/>
-                <off2 x="-1" y="0"/>
-                </Segment>
               </HairPin>
             <next>
               <location>
@@ -18890,9 +18828,6 @@
             <Spanner type="Slur">
               <Slur>
                 <linkedMain/>
-                <SlurSegment no="0">
-                  <o1 x="0.5" y="-0.3"/>
-                  </SlurSegment>
                 </Slur>
               <next>
                 <location>
@@ -19042,12 +18977,6 @@
             <Spanner type="Slur">
               <Slur>
                 <linkedMain/>
-                <SlurSegment no="0">
-                  <o1 x="1" y="-0.6"/>
-                  <o2 x="0" y="-0.5"/>
-                  <o3 x="0" y="-0.5"/>
-                  <o4 x="-1" y="0"/>
-                  </SlurSegment>
                 </Slur>
               <next>
                 <location>
@@ -19117,11 +19046,6 @@
             <HairPin>
               <subtype>1</subtype>
               <veloChange>24</veloChange>
-              <Segment>
-                <subtype>0</subtype>
-                <offset x="1" y="2"/>
-                <off2 x="-1" y="0"/>
-                </Segment>
               </HairPin>
             <next>
               <location>
@@ -19158,11 +19082,6 @@
               <subtype>0</subtype>
               <veloChange>24</veloChange>
               <linkedMain/>
-              <Segment>
-                <subtype>0</subtype>
-                <offset x="0" y="3"/>
-                <off2 x="0" y="0"/>
-                </Segment>
               </HairPin>
             <next>
               <location>
@@ -19223,11 +19142,6 @@
               <subtype>1</subtype>
               <veloChange>24</veloChange>
               <linkedMain/>
-              <Segment>
-                <subtype>0</subtype>
-                <offset x="1" y="3"/>
-                <off2 x="-2" y="0"/>
-                </Segment>
               </HairPin>
             <next>
               <location>
@@ -19242,11 +19156,6 @@
             <Spanner type="Slur">
               <Slur>
                 <linkedMain/>
-                <SlurSegment no="0">
-                  <o2 x="0" y="-0.5"/>
-                  <o3 x="0" y="-0.5"/>
-                  <o4 x="-1" y="-0.1"/>
-                  </SlurSegment>
                 </Slur>
               <next>
                 <location>
@@ -19308,11 +19217,6 @@
               <subtype>0</subtype>
               <veloChange>24</veloChange>
               <linkedMain/>
-              <Segment>
-                <subtype>0</subtype>
-                <offset x="0" y="3"/>
-                <off2 x="0" y="0"/>
-                </Segment>
               </HairPin>
             <next>
               <location>
@@ -19373,11 +19277,6 @@
               <subtype>1</subtype>
               <veloChange>24</veloChange>
               <linkedMain/>
-              <Segment>
-                <subtype>0</subtype>
-                <offset x="1" y="3"/>
-                <off2 x="-2" y="0"/>
-                </Segment>
               </HairPin>
             <next>
               <location>
@@ -19552,7 +19451,7 @@
         </Measure>
       <Measure>
         <LayoutBreak>
-          <subtype>line</subtype>
+          <subtype>page</subtype>
           </LayoutBreak>
         <voice>
           <Chord>
@@ -19627,11 +19526,6 @@
             <HairPin>
               <subtype>1</subtype>
               <veloChange>24</veloChange>
-              <Segment>
-                <subtype>0</subtype>
-                <offset x="0.5" y="2"/>
-                <off2 x="0" y="0"/>
-                </Segment>
               </HairPin>
             <next>
               <location>
@@ -19770,11 +19664,6 @@
               <subtype>1</subtype>
               <veloChange>24</veloChange>
               <linkedMain/>
-              <Segment>
-                <subtype>0</subtype>
-                <offset x="1" y="2"/>
-                <off2 x="-1" y="0"/>
-                </Segment>
               </HairPin>
             <next>
               <location>
@@ -19932,11 +19821,6 @@
               <subtype>0</subtype>
               <veloChange>24</veloChange>
               <linkedMain/>
-              <Segment>
-                <subtype>0</subtype>
-                <offset x="0" y="2"/>
-                <off2 x="-1" y="0"/>
-                </Segment>
               </HairPin>
             <next>
               <location>
@@ -19950,10 +19834,6 @@
             <Spanner type="Slur">
               <Slur>
                 <linkedMain/>
-                <SlurSegment no="0">
-                  <o2 x="1.88299e-18" y="-0.5"/>
-                  <o3 x="1.88299e-18" y="-0.5"/>
-                  </SlurSegment>
                 </Slur>
               <next>
                 <location>
@@ -20017,11 +19897,6 @@
               <subtype>0</subtype>
               <veloChange>24</veloChange>
               <linkedMain/>
-              <Segment>
-                <subtype>0</subtype>
-                <offset x="0" y="2"/>
-                <off2 x="-1" y="0"/>
-                </Segment>
               </HairPin>
             <next>
               <location>
@@ -20035,10 +19910,6 @@
             <Spanner type="Slur">
               <Slur>
                 <linkedMain/>
-                <SlurSegment no="0">
-                  <o2 x="0" y="-0.5"/>
-                  <o3 x="0" y="-0.5"/>
-                  </SlurSegment>
                 </Slur>
               <next>
                 <location>
@@ -20415,11 +20286,6 @@
             <HairPin>
               <subtype>1</subtype>
               <veloChange>24</veloChange>
-              <Segment>
-                <subtype>0</subtype>
-                <offset x="1" y="2"/>
-                <off2 x="-1" y="0"/>
-                </Segment>
               </HairPin>
             <next>
               <location>
@@ -20457,11 +20323,6 @@
               <subtype>0</subtype>
               <veloChange>24</veloChange>
               <linkedMain/>
-              <Segment>
-                <subtype>0</subtype>
-                <offset x="0" y="2.5"/>
-                <off2 x="0" y="0"/>
-                </Segment>
               </HairPin>
             <next>
               <location>
@@ -20520,11 +20381,6 @@
               <subtype>1</subtype>
               <veloChange>24</veloChange>
               <linkedMain/>
-              <Segment>
-                <subtype>0</subtype>
-                <offset x="1" y="2.5"/>
-                <off2 x="-1" y="0"/>
-                </Segment>
               </HairPin>
             <next>
               <location>
@@ -20630,11 +20486,6 @@
             <HairPin>
               <subtype>0</subtype>
               <veloChange>24</veloChange>
-              <Segment>
-                <subtype>0</subtype>
-                <offset x="0" y="2.5"/>
-                <off2 x="0" y="0"/>
-                </Segment>
               </HairPin>
             <next>
               <location>
@@ -20659,11 +20510,6 @@
             <HairPin>
               <subtype>1</subtype>
               <veloChange>24</veloChange>
-              <Segment>
-                <subtype>0</subtype>
-                <offset x="1" y="2.5"/>
-                <off2 x="-1" y="0"/>
-                </Segment>
               </HairPin>
             <next>
               <location>
@@ -20692,7 +20538,7 @@
         </Measure>
       <Measure>
         <LayoutBreak>
-          <subtype>line</subtype>
+          <subtype>page</subtype>
           </LayoutBreak>
         <voice>
           <Chord>
@@ -24263,7 +24109,7 @@
         </Measure>
       <Measure>
         <LayoutBreak>
-          <subtype>line</subtype>
+          <subtype>page</subtype>
           </LayoutBreak>
         <voice>
           <Chord>
@@ -26567,7 +26413,7 @@
         </Measure>
       <Measure>
         <LayoutBreak>
-          <subtype>line</subtype>
+          <subtype>page</subtype>
           </LayoutBreak>
         <voice>
           <Spanner type="HairPin">
@@ -28298,7 +28144,7 @@
         </Measure>
       <Measure>
         <LayoutBreak>
-          <subtype>line</subtype>
+          <subtype>page</subtype>
           </LayoutBreak>
         <voice>
           <Rest>
@@ -29292,7 +29138,7 @@
         </Measure>
       <Measure>
         <LayoutBreak>
-          <subtype>line</subtype>
+          <subtype>page</subtype>
           </LayoutBreak>
         <voice>
           <Chord>
@@ -30476,7 +30322,7 @@
         </Measure>
       <Measure>
         <LayoutBreak>
-          <subtype>line</subtype>
+          <subtype>page</subtype>
           </LayoutBreak>
         <voice>
           <Tuplet>
@@ -32248,6 +32094,18 @@
                 </location>
               </prev>
             </Spanner>
+          <Spanner type="HairPin">
+            <HairPin>
+              <subtype>0</subtype>
+              <veloChange>24</veloChange>
+              <linkedMain/>
+              </HairPin>
+            <next>
+              <location>
+                <fractions>3/4</fractions>
+                </location>
+              </next>
+            </Spanner>
           <Spanner type="Ottava">
             <Ottava>
               <subtype>8va</subtype>
@@ -32266,18 +32124,6 @@
             <next>
               <location>
                 <measures>1</measures>
-                <fractions>3/4</fractions>
-                </location>
-              </next>
-            </Spanner>
-          <Spanner type="HairPin">
-            <HairPin>
-              <subtype>0</subtype>
-              <veloChange>24</veloChange>
-              <linkedMain/>
-              </HairPin>
-            <next>
-              <location>
                 <fractions>3/4</fractions>
                 </location>
               </next>
@@ -33251,7 +33097,7 @@
         </Measure>
       <Measure>
         <LayoutBreak>
-          <subtype>line</subtype>
+          <subtype>page</subtype>
           </LayoutBreak>
         <voice>
           <Chord>
@@ -34993,7 +34839,7 @@
         </Measure>
       <Measure>
         <LayoutBreak>
-          <subtype>line</subtype>
+          <subtype>page</subtype>
           </LayoutBreak>
         <voice>
           <Spanner type="HairPin">
@@ -35814,7 +35660,7 @@
         </Measure>
       <Measure>
         <LayoutBreak>
-          <subtype>line</subtype>
+          <subtype>page</subtype>
           </LayoutBreak>
         <voice>
           <Chord>
@@ -36031,7 +35877,7 @@
         </Measure>
       <Measure>
         <LayoutBreak>
-          <subtype>page</subtype>
+          <subtype>line</subtype>
           </LayoutBreak>
         <voice>
           <Chord>
@@ -36600,7 +36446,7 @@
         </Measure>
       <Measure>
         <LayoutBreak>
-          <subtype>line</subtype>
+          <subtype>page</subtype>
           </LayoutBreak>
         <voice>
           <Chord>
@@ -37756,7 +37602,7 @@
         </Measure>
       <Measure>
         <LayoutBreak>
-          <subtype>line</subtype>
+          <subtype>page</subtype>
           </LayoutBreak>
         <voice>
           <Chord>
@@ -39251,7 +39097,7 @@
         </Measure>
       <Measure>
         <LayoutBreak>
-          <subtype>line</subtype>
+          <subtype>page</subtype>
           </LayoutBreak>
         <voice>
           <Chord>
@@ -39557,7 +39403,7 @@
         </Measure>
       <Measure>
         <LayoutBreak>
-          <subtype>page</subtype>
+          <subtype>line</subtype>
           </LayoutBreak>
         <voice>
           <Spanner type="HairPin">
@@ -40695,7 +40541,7 @@
         </Measure>
       <Measure>
         <LayoutBreak>
-          <subtype>line</subtype>
+          <subtype>page</subtype>
           </LayoutBreak>
         <voice>
           <Chord>
@@ -41057,7 +40903,7 @@
       <Measure>
         <endRepeat>2</endRepeat>
         <LayoutBreak>
-          <subtype>page</subtype>
+          <subtype>line</subtype>
           </LayoutBreak>
         <voice>
           <Chord>
@@ -42572,7 +42418,7 @@
         </Measure>
       <Measure>
         <LayoutBreak>
-          <subtype>line</subtype>
+          <subtype>page</subtype>
           </LayoutBreak>
         <voice>
           <Chord>
@@ -45464,7 +45310,7 @@
       <Measure>
         <endRepeat>2</endRepeat>
         <LayoutBreak>
-          <subtype>line</subtype>
+          <subtype>page</subtype>
           </LayoutBreak>
         <voice>
           <Chord>
@@ -45876,7 +45722,7 @@
         </Measure>
       <Measure>
         <LayoutBreak>
-          <subtype>page</subtype>
+          <subtype>line</subtype>
           </LayoutBreak>
         <voice>
           <Chord>
@@ -47005,7 +46851,7 @@
         </Measure>
       <Measure>
         <LayoutBreak>
-          <subtype>line</subtype>
+          <subtype>page</subtype>
           </LayoutBreak>
         <voice>
           <Rest>
@@ -48182,7 +48028,7 @@
         </Measure>
       <Measure>
         <LayoutBreak>
-          <subtype>line</subtype>
+          <subtype>page</subtype>
           </LayoutBreak>
         <voice>
           <Chord>
@@ -49286,7 +49132,7 @@
         </Measure>
       <Measure>
         <LayoutBreak>
-          <subtype>line</subtype>
+          <subtype>page</subtype>
           </LayoutBreak>
         <voice>
           <Rest>
@@ -50298,7 +50144,7 @@
         </Measure>
       <Measure>
         <LayoutBreak>
-          <subtype>line</subtype>
+          <subtype>page</subtype>
           </LayoutBreak>
         <voice>
           <Chord>
@@ -51627,7 +51473,7 @@
         </Measure>
       <Measure>
         <LayoutBreak>
-          <subtype>line</subtype>
+          <subtype>page</subtype>
           </LayoutBreak>
         <voice>
           <RehearsalMark>
@@ -51766,7 +51612,7 @@
                 </Slur>
               <next>
                 <location>
-                  <fractions>1/3</fractions>
+                  <fractions>1/6</fractions>
                   </location>
                 </next>
               </Spanner>
@@ -51775,7 +51621,7 @@
                 </Slur>
               <next>
                 <location>
-                  <fractions>1/6</fractions>
+                  <fractions>1/3</fractions>
                   </location>
                 </next>
               </Spanner>
@@ -52007,7 +51853,7 @@
         </Measure>
       <Measure>
         <LayoutBreak>
-          <subtype>page</subtype>
+          <subtype>line</subtype>
           </LayoutBreak>
         <voice>
           <Rest>
@@ -52589,7 +52435,7 @@
         </Measure>
       <Measure>
         <LayoutBreak>
-          <subtype>line</subtype>
+          <subtype>page</subtype>
           </LayoutBreak>
         <voice>
           <Tuplet>
@@ -53962,7 +53808,7 @@
         </Measure>
       <Measure>
         <LayoutBreak>
-          <subtype>line</subtype>
+          <subtype>page</subtype>
           </LayoutBreak>
         <voice>
           <Chord>
@@ -55295,7 +55141,7 @@
         </Measure>
       <Measure>
         <LayoutBreak>
-          <subtype>line</subtype>
+          <subtype>page</subtype>
           </LayoutBreak>
         <voice>
           <Chord>
@@ -56700,7 +56546,7 @@
         </Measure>
       <Measure>
         <LayoutBreak>
-          <subtype>line</subtype>
+          <subtype>page</subtype>
           </LayoutBreak>
         <voice>
           <Spanner type="HairPin">
@@ -57822,9 +57668,6 @@
             <duration>3/8</duration>
             <Spanner type="Slur">
               <Slur>
-                <SlurSegment no="0">
-                  <offset x="0" y="-1"/>
-                  </SlurSegment>
                 </Slur>
               <next>
                 <location>
@@ -57944,10 +57787,6 @@
             <duration>3/8</duration>
             <Spanner type="Slur">
               <Slur>
-                <SlurSegment no="0">
-                  <o1 x="0" y="-1"/>
-                  <offset x="0" y="-1.5"/>
-                  </SlurSegment>
                 </Slur>
               <next>
                 <location>
@@ -58070,10 +57909,6 @@
             <duration>3/8</duration>
             <Spanner type="Slur">
               <Slur>
-                <SlurSegment no="0">
-                  <o1 x="0" y="-1"/>
-                  <offset x="0" y="-1.5"/>
-                  </SlurSegment>
                 </Slur>
               <next>
                 <location>
@@ -58228,9 +58063,6 @@
             <duration>3/8</duration>
             <Spanner type="Slur">
               <Slur>
-                <SlurSegment no="0">
-                  <offset x="0" y="-1"/>
-                  </SlurSegment>
                 </Slur>
               <next>
                 <location>
@@ -58289,9 +58121,6 @@
             <duration>3/8</duration>
             <Spanner type="Slur">
               <Slur>
-                <SlurSegment no="0">
-                  <offset x="0" y="-1"/>
-                  </SlurSegment>
                 </Slur>
               <next>
                 <location>
@@ -58348,9 +58177,6 @@
             <duration>3/8</duration>
             <Spanner type="Slur">
               <Slur>
-                <SlurSegment no="0">
-                  <offset x="0" y="-1"/>
-                  </SlurSegment>
                 </Slur>
               <next>
                 <location>
@@ -58396,7 +58222,7 @@
         </Measure>
       <Measure>
         <LayoutBreak>
-          <subtype>line</subtype>
+          <subtype>page</subtype>
           </LayoutBreak>
         <voice>
           <Spanner type="HairPin">
@@ -58439,9 +58265,6 @@
             <duration>3/8</duration>
             <Spanner type="Slur">
               <Slur>
-                <SlurSegment no="0">
-                  <offset x="0" y="-1.5"/>
-                  </SlurSegment>
                 </Slur>
               <next>
                 <location>
@@ -58500,9 +58323,6 @@
             <duration>3/8</duration>
             <Spanner type="Slur">
               <Slur>
-                <SlurSegment no="0">
-                  <offset x="0" y="-1.5"/>
-                  </SlurSegment>
                 </Slur>
               <next>
                 <location>
@@ -58559,9 +58379,6 @@
             <duration>3/8</duration>
             <Spanner type="Slur">
               <Slur>
-                <SlurSegment no="0">
-                  <offset x="0" y="-1.5"/>
-                  </SlurSegment>
                 </Slur>
               <next>
                 <location>
@@ -59964,7 +59781,7 @@
         </Measure>
       <Measure>
         <LayoutBreak>
-          <subtype>line</subtype>
+          <subtype>page</subtype>
           </LayoutBreak>
         <voice>
           <Chord>
@@ -60871,7 +60688,7 @@
         </Measure>
       <Measure>
         <LayoutBreak>
-          <subtype>line</subtype>
+          <subtype>page</subtype>
           </LayoutBreak>
         <voice>
           <Tuplet>
@@ -61806,7 +61623,7 @@
         </Measure>
       <Measure>
         <LayoutBreak>
-          <subtype>line</subtype>
+          <subtype>page</subtype>
           </LayoutBreak>
         <voice>
           <Chord>
@@ -62332,12 +62149,6 @@
             <Trill>
               <subtype>trill</subtype>
               <lineWidth>0.0595573</lineWidth>
-              <Segment>
-                <subtype>0</subtype>
-                <offset x="0" y="-1.5"/>
-                <off2 x="0" y="0"/>
-                <autoplace>0</autoplace>
-                </Segment>
               </Trill>
             <next>
               <location>
@@ -76787,11 +76598,6 @@
               <subtype>0</subtype>
               <veloChange>24</veloChange>
               <linkedMain/>
-              <Segment>
-                <subtype>0</subtype>
-                <offset x="0" y="2"/>
-                <off2 x="0" y="0"/>
-                </Segment>
               </HairPin>
             <next>
               <location>
@@ -76815,11 +76621,6 @@
             <HairPin>
               <subtype>1</subtype>
               <veloChange>24</veloChange>
-              <Segment>
-                <subtype>0</subtype>
-                <offset x="0" y="2"/>
-                <off2 x="0" y="0"/>
-                </Segment>
               </HairPin>
             <next>
               <location>
@@ -77003,11 +76804,6 @@
               <veloChange>24</veloChange>
               <veloChangeMethod>ease-in</veloChangeMethod>
               <linkedMain/>
-              <Segment>
-                <subtype>0</subtype>
-                <offset x="0" y="2"/>
-                <off2 x="0" y="0"/>
-                </Segment>
               </HairPin>
             <next>
               <location>
@@ -77033,11 +76829,6 @@
               <subtype>1</subtype>
               <veloChange>24</veloChange>
               <veloChangeMethod>ease-in</veloChangeMethod>
-              <Segment>
-                <subtype>0</subtype>
-                <offset x="0" y="2"/>
-                <off2 x="0" y="0"/>
-                </Segment>
               </HairPin>
             <next>
               <location>
@@ -77097,11 +76888,6 @@
             <HairPin>
               <subtype>0</subtype>
               <linkedMain/>
-              <Segment>
-                <subtype>0</subtype>
-                <offset x="0" y="1.9"/>
-                <off2 x="0" y="0"/>
-                </Segment>
               </HairPin>
             <next>
               <location>
@@ -77325,12 +77111,6 @@
             <HairPin>
               <subtype>0</subtype>
               <linkedMain/>
-              <Segment>
-                <subtype>0</subtype>
-                <offset x="0" y="1.3"/>
-                <off2 x="0" y="0"/>
-                <minDistance>0.587991</minDistance>
-                </Segment>
               </HairPin>
             <next>
               <location>
@@ -77379,12 +77159,6 @@
             <HairPin>
               <subtype>1</subtype>
               <linkedMain/>
-              <Segment>
-                <subtype>0</subtype>
-                <offset x="0" y="1.3"/>
-                <off2 x="0" y="0"/>
-                <minDistance>0.587991</minDistance>
-                </Segment>
               </HairPin>
             <next>
               <location>
@@ -77585,11 +77359,6 @@
               <veloChange>24</veloChange>
               <veloChangeMethod>ease-in</veloChangeMethod>
               <linkedMain/>
-              <Segment>
-                <subtype>0</subtype>
-                <offset x="0" y="1.5"/>
-                <off2 x="0" y="0"/>
-                </Segment>
               </HairPin>
             <next>
               <location>
@@ -77616,12 +77385,6 @@
               <veloChange>24</veloChange>
               <veloChangeMethod>ease-in</veloChangeMethod>
               <linkedMain/>
-              <Segment>
-                <subtype>0</subtype>
-                <offset x="0" y="1.4"/>
-                <off2 x="0" y="0"/>
-                <minDistance>0.687991</minDistance>
-                </Segment>
               </HairPin>
             <next>
               <location>
@@ -77836,11 +77599,6 @@
               <veloChange>24</veloChange>
               <veloChangeMethod>ease-in</veloChangeMethod>
               <linkedMain/>
-              <Segment>
-                <subtype>0</subtype>
-                <offset x="0" y="2"/>
-                <off2 x="0" y="0"/>
-                </Segment>
               </HairPin>
             <next>
               <location>
@@ -77867,11 +77625,6 @@
               <veloChange>24</veloChange>
               <veloChangeMethod>ease-in</veloChangeMethod>
               <linkedMain/>
-              <Segment>
-                <subtype>0</subtype>
-                <offset x="0" y="2"/>
-                <off2 x="0" y="0"/>
-                </Segment>
               </HairPin>
             <next>
               <location>
@@ -78145,11 +77898,6 @@
               <veloChange>24</veloChange>
               <veloChangeMethod>ease-in</veloChangeMethod>
               <linkedMain/>
-              <Segment>
-                <subtype>0</subtype>
-                <offset x="0" y="2"/>
-                <off2 x="0" y="0"/>
-                </Segment>
               </HairPin>
             <next>
               <location>
@@ -78175,12 +77923,6 @@
               <subtype>1</subtype>
               <veloChange>24</veloChange>
               <veloChangeMethod>ease-in</veloChangeMethod>
-              <Segment>
-                <subtype>0</subtype>
-                <offset x="0" y="1.84545"/>
-                <off2 x="0" y="0"/>
-                <minDistance>-0.4</minDistance>
-                </Segment>
               </HairPin>
             <next>
               <location>
@@ -78347,11 +78089,6 @@
               <veloChange>24</veloChange>
               <veloChangeMethod>ease-in</veloChangeMethod>
               <linkedMain/>
-              <Segment>
-                <subtype>0</subtype>
-                <offset x="0" y="2"/>
-                <off2 x="0" y="0"/>
-                </Segment>
               </HairPin>
             <next>
               <location>
@@ -78377,12 +78114,6 @@
               <subtype>1</subtype>
               <veloChange>24</veloChange>
               <veloChangeMethod>ease-in</veloChangeMethod>
-              <Segment>
-                <subtype>0</subtype>
-                <offset x="0" y="2.04545"/>
-                <off2 x="0" y="0"/>
-                <minDistance>-0.2</minDistance>
-                </Segment>
               </HairPin>
             <next>
               <location>
@@ -78660,11 +78391,6 @@
               <subtype>0</subtype>
               <veloChange>24</veloChange>
               <linkedMain/>
-              <Segment>
-                <subtype>0</subtype>
-                <offset x="0" y="2"/>
-                <off2 x="-1" y="0"/>
-                </Segment>
               </HairPin>
             <next>
               <location>
@@ -78690,11 +78416,6 @@
               <subtype>1</subtype>
               <veloChange>24</veloChange>
               <linkedMain/>
-              <Segment>
-                <subtype>0</subtype>
-                <offset x="0" y="2"/>
-                <off2 x="-1" y="0"/>
-                </Segment>
               </HairPin>
             <next>
               <location>
@@ -78869,11 +78590,6 @@
               <subtype>1</subtype>
               <veloChange>24</veloChange>
               <linkedMain/>
-              <Segment>
-                <subtype>0</subtype>
-                <offset x="1" y="2"/>
-                <off2 x="-1" y="0"/>
-                </Segment>
               </HairPin>
             <next>
               <location>
@@ -79255,11 +78971,6 @@
               <subtype>0</subtype>
               <veloChange>24</veloChange>
               <linkedMain/>
-              <Segment>
-                <subtype>0</subtype>
-                <offset x="0" y="3"/>
-                <off2 x="0" y="0"/>
-                </Segment>
               </HairPin>
             <next>
               <location>
@@ -79376,11 +79087,6 @@
               <subtype>1</subtype>
               <veloChange>24</veloChange>
               <linkedMain/>
-              <Segment>
-                <subtype>0</subtype>
-                <offset x="0" y="3"/>
-                <off2 x="0" y="0"/>
-                </Segment>
               </HairPin>
             <next>
               <location>
@@ -79452,11 +79158,6 @@
               <subtype>0</subtype>
               <veloChange>24</veloChange>
               <linkedMain/>
-              <Segment>
-                <subtype>0</subtype>
-                <offset x="0" y="3"/>
-                <off2 x="0" y="0"/>
-                </Segment>
               </HairPin>
             <next>
               <location>
@@ -80242,11 +79943,6 @@
               <subtype>0</subtype>
               <veloChange>24</veloChange>
               <linkedMain/>
-              <Segment>
-                <subtype>0</subtype>
-                <offset x="0" y="2.5"/>
-                <off2 x="0" y="0"/>
-                </Segment>
               </HairPin>
             <next>
               <location>
@@ -80271,11 +79967,6 @@
             <HairPin>
               <subtype>1</subtype>
               <veloChange>24</veloChange>
-              <Segment>
-                <subtype>0</subtype>
-                <offset x="1" y="2.5"/>
-                <off2 x="-1" y="0"/>
-                </Segment>
               </HairPin>
             <next>
               <location>
@@ -105669,19 +105360,6 @@
                 </location>
               </prev>
             </Spanner>
-          <Spanner type="HairPin">
-            <HairPin>
-              <subtype>2</subtype>
-              <endText></endText>
-              <lineVisible>0</lineVisible>
-              <linkedMain/>
-              </HairPin>
-            <next>
-              <location>
-                <measures>2</measures>
-                </location>
-              </next>
-            </Spanner>
           <Spanner type="Trill">
             <Trill>
               <subtype>trill</subtype>
@@ -105694,6 +105372,19 @@
             <next>
               <location>
                 <measures>1</measures>
+                </location>
+              </next>
+            </Spanner>
+          <Spanner type="HairPin">
+            <HairPin>
+              <subtype>2</subtype>
+              <endText></endText>
+              <lineVisible>0</lineVisible>
+              <linkedMain/>
+              </HairPin>
+            <next>
+              <location>
+                <measures>2</measures>
                 </location>
               </next>
             </Spanner>
@@ -114821,9 +114512,6 @@
             <Spanner type="Slur">
               <Slur>
                 <linkedMain/>
-                <SlurSegment no="0">
-                  <offset x="0" y="-1.5"/>
-                  </SlurSegment>
                 </Slur>
               <next>
                 <location>
@@ -114890,9 +114578,6 @@
             <Spanner type="Slur">
               <Slur>
                 <linkedMain/>
-                <SlurSegment no="0">
-                  <offset x="0" y="-1.5"/>
-                  </SlurSegment>
                 </Slur>
               <next>
                 <location>
@@ -114957,9 +114642,6 @@
             <Spanner type="Slur">
               <Slur>
                 <linkedMain/>
-                <SlurSegment no="0">
-                  <offset x="0" y="-1.5"/>
-                  </SlurSegment>
                 </Slur>
               <next>
                 <location>
@@ -118822,6 +118504,18 @@
                 </location>
               </prev>
             </Spanner>
+          <Spanner type="HairPin">
+            <HairPin>
+              <subtype>1</subtype>
+              <veloChange>24</veloChange>
+              <linkedMain/>
+              </HairPin>
+            <next>
+              <location>
+                <measures>2</measures>
+                </location>
+              </next>
+            </Spanner>
           <Spanner type="Trill">
             <Trill>
               <subtype>trill</subtype>
@@ -118835,18 +118529,6 @@
               <location>
                 <measures>2</measures>
                 <fractions>1/4</fractions>
-                </location>
-              </next>
-            </Spanner>
-          <Spanner type="HairPin">
-            <HairPin>
-              <subtype>1</subtype>
-              <veloChange>24</veloChange>
-              <linkedMain/>
-              </HairPin>
-            <next>
-              <location>
-                <measures>2</measures>
                 </location>
               </next>
             </Spanner>
@@ -133481,11 +133163,6 @@
               <veloChange>24</veloChange>
               <veloChangeMethod>ease-in</veloChangeMethod>
               <linkedMain/>
-              <Segment>
-                <subtype>0</subtype>
-                <offset x="0" y="2"/>
-                <off2 x="0" y="0"/>
-                </Segment>
               </HairPin>
             <next>
               <location>
@@ -133510,11 +133187,6 @@
               <subtype>1</subtype>
               <veloChange>24</veloChange>
               <veloChangeMethod>ease-in</veloChangeMethod>
-              <Segment>
-                <subtype>0</subtype>
-                <offset x="0" y="2"/>
-                <off2 x="0" y="0"/>
-                </Segment>
               </HairPin>
             <next>
               <location>
@@ -133715,11 +133387,6 @@
               <veloChange>24</veloChange>
               <veloChangeMethod>ease-in</veloChangeMethod>
               <linkedMain/>
-              <Segment>
-                <subtype>0</subtype>
-                <offset x="0" y="2"/>
-                <off2 x="0" y="0"/>
-                </Segment>
               </HairPin>
             <next>
               <location>
@@ -133745,11 +133412,6 @@
               <subtype>1</subtype>
               <veloChange>24</veloChange>
               <veloChangeMethod>ease-in</veloChangeMethod>
-              <Segment>
-                <subtype>0</subtype>
-                <offset x="0" y="2"/>
-                <off2 x="0" y="0"/>
-                </Segment>
               </HairPin>
             <next>
               <location>
@@ -134109,11 +133771,6 @@
               <veloChange>24</veloChange>
               <veloChangeMethod>ease-in</veloChangeMethod>
               <linkedMain/>
-              <Segment>
-                <subtype>0</subtype>
-                <offset x="0" y="2"/>
-                <off2 x="0" y="0"/>
-                </Segment>
               </HairPin>
             <next>
               <location>
@@ -134139,11 +133796,6 @@
               <subtype>1</subtype>
               <veloChange>24</veloChange>
               <veloChangeMethod>ease-in</veloChangeMethod>
-              <Segment>
-                <subtype>0</subtype>
-                <offset x="0" y="2"/>
-                <off2 x="0" y="0"/>
-                </Segment>
               </HairPin>
             <next>
               <location>
@@ -134390,12 +134042,6 @@
               <veloChange>24</veloChange>
               <veloChangeMethod>ease-in</veloChangeMethod>
               <linkedMain/>
-              <Segment>
-                <subtype>0</subtype>
-                <offset x="0" y="1.93701"/>
-                <off2 x="0" y="0"/>
-                <minDistance>0.1</minDistance>
-                </Segment>
               </HairPin>
             <next>
               <location>
@@ -134421,11 +134067,6 @@
               <subtype>1</subtype>
               <veloChange>24</veloChange>
               <veloChangeMethod>ease-in</veloChangeMethod>
-              <Segment>
-                <subtype>0</subtype>
-                <offset x="0" y="1.9"/>
-                <off2 x="0" y="0"/>
-                </Segment>
               </HairPin>
             <next>
               <location>
@@ -134581,11 +134222,6 @@
               <veloChange>24</veloChange>
               <veloChangeMethod>ease-in</veloChangeMethod>
               <linkedMain/>
-              <Segment>
-                <subtype>0</subtype>
-                <offset x="0" y="2"/>
-                <off2 x="0" y="0"/>
-                </Segment>
               </HairPin>
             <next>
               <location>
@@ -134611,11 +134247,6 @@
               <subtype>1</subtype>
               <veloChange>24</veloChange>
               <veloChangeMethod>ease-in</veloChangeMethod>
-              <Segment>
-                <subtype>0</subtype>
-                <offset x="0" y="2"/>
-                <off2 x="0" y="0"/>
-                </Segment>
               </HairPin>
             <next>
               <location>
@@ -134780,11 +134411,6 @@
               <veloChange>24</veloChange>
               <veloChangeMethod>ease-in</veloChangeMethod>
               <linkedMain/>
-              <Segment>
-                <subtype>0</subtype>
-                <offset x="0" y="2"/>
-                <off2 x="0" y="0"/>
-                </Segment>
               </HairPin>
             <next>
               <location>
@@ -134810,11 +134436,6 @@
               <subtype>1</subtype>
               <veloChange>24</veloChange>
               <veloChangeMethod>ease-in</veloChangeMethod>
-              <Segment>
-                <subtype>0</subtype>
-                <offset x="0" y="2"/>
-                <off2 x="0" y="0"/>
-                </Segment>
               </HairPin>
             <next>
               <location>
@@ -135186,11 +134807,6 @@
               <subtype>0</subtype>
               <veloChange>24</veloChange>
               <linkedMain/>
-              <Segment>
-                <subtype>0</subtype>
-                <offset x="0" y="2"/>
-                <off2 x="-1" y="0"/>
-                </Segment>
               </HairPin>
             <next>
               <location>
@@ -135216,11 +134832,6 @@
               <subtype>1</subtype>
               <veloChange>24</veloChange>
               <linkedMain/>
-              <Segment>
-                <subtype>0</subtype>
-                <offset x="0" y="2"/>
-                <off2 x="-1" y="0"/>
-                </Segment>
               </HairPin>
             <next>
               <location>
@@ -135401,11 +135012,6 @@
               <subtype>1</subtype>
               <veloChange>24</veloChange>
               <linkedMain/>
-              <Segment>
-                <subtype>0</subtype>
-                <offset x="1" y="2"/>
-                <off2 x="-1" y="0"/>
-                </Segment>
               </HairPin>
             <next>
               <location>
@@ -136266,11 +135872,6 @@
             <HairPin>
               <subtype>1</subtype>
               <veloChange>24</veloChange>
-              <Segment>
-                <subtype>0</subtype>
-                <offset x="1" y="2"/>
-                <off2 x="-1" y="0"/>
-                </Segment>
               </HairPin>
             <next>
               <location>
@@ -136465,11 +136066,6 @@
             <HairPin>
               <subtype>1</subtype>
               <veloChange>24</veloChange>
-              <Segment>
-                <subtype>0</subtype>
-                <offset x="1" y="2"/>
-                <off2 x="-1" y="0"/>
-                </Segment>
               </HairPin>
             <next>
               <location>
@@ -136643,11 +136239,6 @@
               <subtype>1</subtype>
               <veloChange>24</veloChange>
               <linkedMain/>
-              <Segment>
-                <subtype>0</subtype>
-                <offset x="1" y="2"/>
-                <off2 x="-1" y="0"/>
-                </Segment>
               </HairPin>
             <next>
               <location>
@@ -191531,11 +191122,6 @@
             <Spanner type="Slur">
               <Slur>
                 <linkedMain/>
-                <SlurSegment no="0">
-                  <o1 x="0" y="-1"/>
-                  <o3 x="0" y="0.40324"/>
-                  <offset x="0" y="0.6"/>
-                  </SlurSegment>
                 </Slur>
               <next>
                 <location>
@@ -191625,10 +191211,6 @@
             <Spanner type="Slur">
               <Slur>
                 <linkedMain/>
-                <SlurSegment no="0">
-                  <o1 x="0" y="-1"/>
-                  <o3 x="0" y="0.40324"/>
-                  </SlurSegment>
                 </Slur>
               <next>
                 <location>
@@ -191715,10 +191297,6 @@
             <Spanner type="Slur">
               <Slur>
                 <linkedMain/>
-                <SlurSegment no="0">
-                  <o1 x="0" y="-1"/>
-                  <o3 x="0" y="0.40324"/>
-                  </SlurSegment>
                 </Slur>
               <next>
                 <location>
@@ -191809,11 +191387,6 @@
             <Spanner type="Slur">
               <Slur>
                 <linkedMain/>
-                <SlurSegment no="0">
-                  <o1 x="0" y="-1"/>
-                  <o3 x="0" y="0.40324"/>
-                  <offset x="0" y="0.6"/>
-                  </SlurSegment>
                 </Slur>
               <next>
                 <location>
@@ -191903,11 +191476,6 @@
             <Spanner type="Slur">
               <Slur>
                 <linkedMain/>
-                <SlurSegment no="0">
-                  <o1 x="0" y="-1"/>
-                  <o3 x="0" y="0.40324"/>
-                  <offset x="0" y="0.6"/>
-                  </SlurSegment>
                 </Slur>
               <next>
                 <location>
@@ -191997,11 +191565,6 @@
             <Spanner type="Slur">
               <Slur>
                 <linkedMain/>
-                <SlurSegment no="0">
-                  <o1 x="0" y="-1"/>
-                  <o3 x="0" y="0.40324"/>
-                  <offset x="0" y="-0.5"/>
-                  </SlurSegment>
                 </Slur>
               <next>
                 <location>
@@ -192095,11 +191658,6 @@
             <Spanner type="Slur">
               <Slur>
                 <linkedMain/>
-                <SlurSegment no="0">
-                  <o1 x="0" y="-1"/>
-                  <o3 x="0" y="0.40324"/>
-                  <offset x="0" y="0.6"/>
-                  </SlurSegment>
                 </Slur>
               <next>
                 <location>
@@ -192189,10 +191747,6 @@
             <Spanner type="Slur">
               <Slur>
                 <linkedMain/>
-                <SlurSegment no="0">
-                  <o1 x="0" y="-1"/>
-                  <o3 x="0" y="0.40324"/>
-                  </SlurSegment>
                 </Slur>
               <next>
                 <location>
@@ -192279,10 +191833,6 @@
             <Spanner type="Slur">
               <Slur>
                 <linkedMain/>
-                <SlurSegment no="0">
-                  <o1 x="0" y="-1"/>
-                  <o3 x="0" y="0.40324"/>
-                  </SlurSegment>
                 </Slur>
               <next>
                 <location>
@@ -192527,11 +192077,6 @@
             <Spanner type="Slur">
               <Slur>
                 <linkedMain/>
-                <SlurSegment no="0">
-                  <o1 x="0" y="-1"/>
-                  <o3 x="0" y="0.40324"/>
-                  <offset x="0" y="-0.5"/>
-                  </SlurSegment>
                 </Slur>
               <next>
                 <location>
@@ -192631,11 +192176,6 @@
             <Spanner type="Slur">
               <Slur>
                 <linkedMain/>
-                <SlurSegment no="0">
-                  <o1 x="0" y="-1"/>
-                  <o3 x="0" y="0.40324"/>
-                  <offset x="0" y="0.6"/>
-                  </SlurSegment>
                 </Slur>
               <next>
                 <location>
@@ -192731,10 +192271,6 @@
             <Spanner type="Slur">
               <Slur>
                 <linkedMain/>
-                <SlurSegment no="0">
-                  <o1 x="0" y="-1"/>
-                  <o3 x="0" y="0.40324"/>
-                  </SlurSegment>
                 </Slur>
               <next>
                 <location>
@@ -192839,10 +192375,6 @@
             <Spanner type="Slur">
               <Slur>
                 <linkedMain/>
-                <SlurSegment no="0">
-                  <o1 x="0" y="-1"/>
-                  <o3 x="0" y="0.40324"/>
-                  </SlurSegment>
                 </Slur>
               <next>
                 <location>
@@ -192940,9 +192472,6 @@
             <Spanner type="Slur">
               <Slur>
                 <linkedMain/>
-                <SlurSegment no="0">
-                  <offset x="0" y="0.5"/>
-                  </SlurSegment>
                 </Slur>
               <next>
                 <location>
@@ -244575,29 +244104,27 @@
               <linked>
                 </linked>
               </Fermata>
-            <Spanner type="Ottava">
-              <Ottava>
-                <subtype>8va</subtype>
-                <linked>
-                  <indexDiff>1</indexDiff>
-                  </linked>
-                </Ottava>
-              <next>
-                <location>
-                  <measures>1</measures>
-                  </location>
-                </next>
-              </Spanner>
             <Spanner type="HairPin">
               <HairPin>
                 <subtype>0</subtype>
                 <linked>
-                  <indexDiff>-1</indexDiff>
                   </linked>
                 </HairPin>
               <next>
                 <location>
                   <fractions>3/8</fractions>
+                  </location>
+                </next>
+              </Spanner>
+            <Spanner type="Ottava">
+              <Ottava>
+                <subtype>8va</subtype>
+                <linked>
+                  </linked>
+                </Ottava>
+              <next>
+                <location>
+                  <measures>1</measures>
                   </location>
                 </next>
               </Spanner>
@@ -261204,19 +260731,6 @@
                   </location>
                 </prev>
               </Spanner>
-            <Spanner type="Ottava">
-              <Ottava>
-                <subtype>8va</subtype>
-                <linked>
-                  </linked>
-                </Ottava>
-              <next>
-                <location>
-                  <measures>1</measures>
-                  <fractions>3/4</fractions>
-                  </location>
-                </next>
-              </Spanner>
             <Spanner type="HairPin">
               <HairPin>
                 <subtype>0</subtype>
@@ -261226,6 +260740,19 @@
                 </HairPin>
               <next>
                 <location>
+                  <fractions>3/4</fractions>
+                  </location>
+                </next>
+              </Spanner>
+            <Spanner type="Ottava">
+              <Ottava>
+                <subtype>8va</subtype>
+                <linked>
+                  </linked>
+                </Ottava>
+              <next>
+                <location>
+                  <measures>1</measures>
                   <fractions>3/4</fractions>
                   </location>
                 </next>
@@ -309782,11 +309309,25 @@
           <voice>
             <Spanner type="HairPin">
               <HairPin>
+                <subtype>0</subtype>
+                <linked>
+                  <indexDiff>1</indexDiff>
+                  </linked>
+                </HairPin>
+              <next>
+                <location>
+                  <fractions>1/8</fractions>
+                  </location>
+                </next>
+              </Spanner>
+            <Spanner type="HairPin">
+              <HairPin>
                 <subtype>2</subtype>
                 <endText></endText>
                 <lineVisible>0</lineVisible>
                 <continueText></continueText>
                 <linked>
+                  <indexDiff>-1</indexDiff>
                   </linked>
                 <Segment>
                   <subtype>0</subtype>
@@ -309798,18 +309339,6 @@
               <next>
                 <location>
                   <measures>6</measures>
-                  </location>
-                </next>
-              </Spanner>
-            <Spanner type="HairPin">
-              <HairPin>
-                <subtype>0</subtype>
-                <linked>
-                  </linked>
-                </HairPin>
-              <next>
-                <location>
-                  <fractions>1/8</fractions>
                   </location>
                 </next>
               </Spanner>
@@ -343122,7 +342651,6 @@
               <Trill>
                 <subtype>trill</subtype>
                 <linked>
-                  <indexDiff>1</indexDiff>
                   </linked>
                 <lineWidth>0.0412922</lineWidth>
                 <Accidental>
@@ -343141,7 +342669,6 @@
                 <endText></endText>
                 <lineVisible>0</lineVisible>
                 <linked>
-                  <indexDiff>-1</indexDiff>
                   </linked>
                 </HairPin>
               <next>
@@ -358563,6 +358090,19 @@
                   </location>
                 </prev>
               </Spanner>
+            <Spanner type="HairPin">
+              <HairPin>
+                <subtype>1</subtype>
+                <veloChange>24</veloChange>
+                <linked>
+                  </linked>
+                </HairPin>
+              <next>
+                <location>
+                  <measures>2</measures>
+                  </location>
+                </next>
+              </Spanner>
             <Spanner type="Trill">
               <Trill>
                 <subtype>trill</subtype>
@@ -358577,19 +358117,6 @@
                 <location>
                   <measures>2</measures>
                   <fractions>1/4</fractions>
-                  </location>
-                </next>
-              </Spanner>
-            <Spanner type="HairPin">
-              <HairPin>
-                <subtype>1</subtype>
-                <veloChange>24</veloChange>
-                <linked>
-                  </linked>
-                </HairPin>
-              <next>
-                <location>
-                  <measures>2</measures>
                   </location>
                 </next>
               </Spanner>

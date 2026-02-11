@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <museScore version="3.02">
   <programVersion>3.6.2</programVersion>
-  <programRevision>a732723</programRevision>
+  <programRevision>3224f34</programRevision>
   <Score>
     <LayerTag id="0" tag="default"></LayerTag>
     <currentLayer>0</currentLayer>
@@ -14402,6 +14402,13 @@
             <linkedMain/>
             <durationType>quarter</durationType>
             <Spanner type="Slur">
+              <prev>
+                <location>
+                  <grace>0</grace>
+                  </location>
+                </prev>
+              </Spanner>
+            <Spanner type="Slur">
               <Slur>
                 <linkedMain/>
                 </Slur>
@@ -14410,13 +14417,6 @@
                   <fractions>1/4</fractions>
                   </location>
                 </next>
-              </Spanner>
-            <Spanner type="Slur">
-              <prev>
-                <location>
-                  <grace>0</grace>
-                  </location>
-                </prev>
               </Spanner>
             <Articulation>
               <subtype>articAccentAbove</subtype>
@@ -14650,6 +14650,13 @@
             <linkedMain/>
             <durationType>quarter</durationType>
             <Spanner type="Slur">
+              <prev>
+                <location>
+                  <grace>0</grace>
+                  </location>
+                </prev>
+              </Spanner>
+            <Spanner type="Slur">
               <Slur>
                 <linkedMain/>
                 </Slur>
@@ -14658,13 +14665,6 @@
                   <fractions>1/4</fractions>
                   </location>
                 </next>
-              </Spanner>
-            <Spanner type="Slur">
-              <prev>
-                <location>
-                  <grace>0</grace>
-                  </location>
-                </prev>
               </Spanner>
             <Articulation>
               <subtype>articAccentAbove</subtype>
@@ -17730,7 +17730,7 @@
         </Measure>
       <Measure>
         <LayoutBreak>
-          <subtype>page</subtype>
+          <subtype>line</subtype>
           </LayoutBreak>
         <voice>
           <Rest>
@@ -18095,7 +18095,7 @@
         </Measure>
       <Measure>
         <LayoutBreak>
-          <subtype>line</subtype>
+          <subtype>page</subtype>
           </LayoutBreak>
         <voice>
           <Chord>
@@ -19211,7 +19211,7 @@
         </Measure>
       <Measure>
         <LayoutBreak>
-          <subtype>page</subtype>
+          <subtype>line</subtype>
           </LayoutBreak>
         <voice>
           <Rest>
@@ -19851,7 +19851,7 @@
         </Measure>
       <Measure>
         <LayoutBreak>
-          <subtype>line</subtype>
+          <subtype>page</subtype>
           </LayoutBreak>
         <voice>
           <Chord>
@@ -20422,7 +20422,7 @@
         </Measure>
       <Measure>
         <LayoutBreak>
-          <subtype>page</subtype>
+          <subtype>line</subtype>
           </LayoutBreak>
         <voice>
           <Rest>
@@ -21409,7 +21409,7 @@
         </Measure>
       <Measure>
         <LayoutBreak>
-          <subtype>line</subtype>
+          <subtype>page</subtype>
           </LayoutBreak>
         <voice>
           <Dynamic>
@@ -21775,7 +21775,7 @@
         </Measure>
       <Measure>
         <LayoutBreak>
-          <subtype>page</subtype>
+          <subtype>line</subtype>
           </LayoutBreak>
         <voice>
           <Spanner type="HairPin">
@@ -22519,9 +22519,6 @@
           </voice>
         </Measure>
       <Measure>
-        <LayoutBreak>
-          <subtype>line</subtype>
-          </LayoutBreak>
         <voice>
           <Chord>
             <linkedMain/>
@@ -23086,9 +23083,6 @@
           </voice>
         </Measure>
       <Measure>
-        <LayoutBreak>
-          <subtype>line</subtype>
-          </LayoutBreak>
         <voice>
           <Chord>
             <linkedMain/>
@@ -27510,12 +27504,12 @@
               <Segment>
                 <subtype>1</subtype>
                 <offset x="0" y="-0.5"/>
-                <off2 x="0" y="0"/>
+                <off2 x="-2" y="0"/>
                 </Segment>
               <Segment>
                 <subtype>3</subtype>
                 <offset x="0" y="-0.5"/>
-                <off2 x="-2" y="0"/>
+                <off2 x="0" y="0"/>
                 </Segment>
               </Trill>
             <next>
@@ -30964,7 +30958,7 @@
               <visible>0</visible>
               <Segment>
                 <subtype>0</subtype>
-                <offset x="-0.1" y="2.94371"/>
+                <offset x="0" y="2"/>
                 <off2 x="0" y="0"/>
                 <visible>0</visible>
                 </Segment>
@@ -36359,11 +36353,6 @@
               <subtype>trill</subtype>
               <linkedMain/>
               <lineWidth>0.077894</lineWidth>
-              <Segment>
-                <subtype>0</subtype>
-                <offset x="0" y="-0.5"/>
-                <off2 x="0" y="0"/>
-                </Segment>
               </Trill>
             <next>
               <location>
@@ -36521,11 +36510,6 @@
               <subtype>trill</subtype>
               <linkedMain/>
               <lineWidth>0.077894</lineWidth>
-              <Segment>
-                <subtype>0</subtype>
-                <offset x="0" y="-0.5"/>
-                <off2 x="0" y="0"/>
-                </Segment>
               </Trill>
             <next>
               <location>
@@ -43461,11 +43445,6 @@
             <HairPin>
               <subtype>1</subtype>
               <linkedMain/>
-              <Segment>
-                <subtype>0</subtype>
-                <offset x="0" y="2"/>
-                <off2 x="0" y="0"/>
-                </Segment>
               </HairPin>
             <next>
               <location>
@@ -44621,7 +44600,7 @@
         </Measure>
       <Measure>
         <LayoutBreak>
-          <subtype>page</subtype>
+          <subtype>line</subtype>
           </LayoutBreak>
         <voice>
           <Spanner type="HairPin">
@@ -45300,6 +45279,10 @@
         </Measure>
       <Measure>
         <voice>
+          <RehearsalMark>
+            <linkedMain/>
+            <text>B</text>
+            </RehearsalMark>
           <Rest>
             <linkedMain/>
             <durationType>quarter</durationType>
@@ -45490,7 +45473,7 @@
         </Measure>
       <Measure>
         <LayoutBreak>
-          <subtype>line</subtype>
+          <subtype>page</subtype>
           </LayoutBreak>
         <voice>
           <Chord>
@@ -46636,7 +46619,7 @@
         </Measure>
       <Measure>
         <LayoutBreak>
-          <subtype>page</subtype>
+          <subtype>line</subtype>
           </LayoutBreak>
         <voice>
           <Spanner type="HairPin">
@@ -48212,11 +48195,6 @@
             <Ottava>
               <subtype>8va</subtype>
               <linkedMain/>
-              <Segment>
-                <subtype>0</subtype>
-                <offset x="-2" y="-2"/>
-                <off2 x="2" y="0"/>
-                </Segment>
               </Ottava>
             <next>
               <location>
@@ -57597,9 +57575,6 @@
             <Spanner type="Slur">
               <Slur>
                 <linkedMain/>
-                <SlurSegment no="0">
-                  <o4 x="0" y="-2"/>
-                  </SlurSegment>
                 </Slur>
               <next>
                 <location>
@@ -58449,8 +58424,8 @@
               </Articulation>
             <Note>
               <linkedMain/>
-              <pitch>66</pitch>
-              <tpc>20</tpc>
+              <pitch>67</pitch>
+              <tpc>15</tpc>
               </Note>
             </Chord>
           <Chord>
@@ -65854,9 +65829,6 @@
             <Spanner type="Slur">
               <Slur>
                 <linkedMain/>
-                <SlurSegment no="0">
-                  <o4 x="0" y="-2"/>
-                  </SlurSegment>
                 </Slur>
               <next>
                 <location>
@@ -65933,9 +65905,6 @@
             <Spanner type="Slur">
               <Slur>
                 <linkedMain/>
-                <SlurSegment no="0">
-                  <offset x="0" y="-0.5"/>
-                  </SlurSegment>
                 </Slur>
               <next>
                 <location>
@@ -66008,9 +65977,6 @@
             <Spanner type="Slur">
               <Slur>
                 <linkedMain/>
-                <SlurSegment no="0">
-                  <offset x="0" y="-0.5"/>
-                  </SlurSegment>
                 </Slur>
               <next>
                 <location>
@@ -66080,9 +66046,6 @@
             <Spanner type="Slur">
               <Slur>
                 <linkedMain/>
-                <SlurSegment no="0">
-                  <offset x="0" y="-0.5"/>
-                  </SlurSegment>
                 </Slur>
               <next>
                 <location>
@@ -66156,9 +66119,6 @@
             <Spanner type="Slur">
               <Slur>
                 <linkedMain/>
-                <SlurSegment no="0">
-                  <offset x="0" y="-0.5"/>
-                  </SlurSegment>
                 </Slur>
               <next>
                 <location>
@@ -66228,9 +66188,6 @@
             <Spanner type="Slur">
               <Slur>
                 <linkedMain/>
-                <SlurSegment no="0">
-                  <offset x="0" y="-0.5"/>
-                  </SlurSegment>
                 </Slur>
               <next>
                 <location>
@@ -66789,9 +66746,6 @@
             <Spanner type="Slur">
               <Slur>
                 <linkedMain/>
-                <SlurSegment no="0">
-                  <o4 x="0" y="-2"/>
-                  </SlurSegment>
                 <up>up</up>
                 </Slur>
               <next>
@@ -96032,11 +95986,6 @@
               <endText></endText>
               <lineVisible>0</lineVisible>
               <linkedMain/>
-              <Segment>
-                <subtype>0</subtype>
-                <offset x="0" y="2.5"/>
-                <off2 x="0" y="0"/>
-                </Segment>
               </HairPin>
             <next>
               <location>
@@ -102884,11 +102833,6 @@
             <HairPin>
               <subtype>1</subtype>
               <linkedMain/>
-              <Segment>
-                <subtype>0</subtype>
-                <offset x="2.48182e-16" y="2"/>
-                <off2 x="-2.48182e-16" y="0"/>
-                </Segment>
               </HairPin>
             <next>
               <location>
@@ -140113,9 +140057,6 @@
             <Spanner type="Slur">
               <Slur>
                 <linkedMain/>
-                <SlurSegment no="0">
-                  <offset x="0" y="-0.99187"/>
-                  </SlurSegment>
                 </Slur>
               <next>
                 <location>
@@ -147631,11 +147572,6 @@
               <endText></endText>
               <lineVisible>0</lineVisible>
               <linkedMain/>
-              <Segment>
-                <subtype>0</subtype>
-                <offset x="0" y="2.5"/>
-                <off2 x="0" y="0"/>
-                </Segment>
               </HairPin>
             <next>
               <location>
@@ -153680,11 +153616,6 @@
             <HairPin>
               <subtype>1</subtype>
               <linkedMain/>
-              <Segment>
-                <subtype>0</subtype>
-                <offset x="-2.48182e-16" y="2"/>
-                <off2 x="2.48182e-16" y="0"/>
-                </Segment>
               </HairPin>
             <next>
               <location>
@@ -156215,9 +156146,6 @@
             <Spanner type="Slur">
               <Slur>
                 <linkedMain/>
-                <SlurSegment no="0">
-                  <o1 x="0" y="-0.3"/>
-                  </SlurSegment>
                 </Slur>
               <next>
                 <location>
@@ -184999,9 +184927,6 @@
             <Spanner type="Slur">
               <Slur>
                 <linkedMain/>
-                <SlurSegment no="0">
-                  <offset x="0" y="-0.99187"/>
-                  </SlurSegment>
                 </Slur>
               <next>
                 <location>
@@ -199869,11 +199794,6 @@
             <HairPin>
               <subtype>1</subtype>
               <linkedMain/>
-              <Segment>
-                <subtype>0</subtype>
-                <offset x="7.44546e-16" y="2"/>
-                <off2 x="-7.44546e-16" y="0"/>
-                </Segment>
               </HairPin>
             <next>
               <location>
@@ -230342,6 +230262,13 @@
                 </linked>
               <durationType>quarter</durationType>
               <Spanner type="Slur">
+                <prev>
+                  <location>
+                    <grace>0</grace>
+                    </location>
+                  </prev>
+                </Spanner>
+              <Spanner type="Slur">
                 <Slur>
                   <linked>
                     </linked>
@@ -230351,13 +230278,6 @@
                     <fractions>1/4</fractions>
                     </location>
                   </next>
-                </Spanner>
-              <Spanner type="Slur">
-                <prev>
-                  <location>
-                    <grace>0</grace>
-                    </location>
-                  </prev>
                 </Spanner>
               <Articulation>
                 <subtype>articAccentAbove</subtype>
@@ -265385,6 +265305,11 @@
           </Measure>
         <Measure>
           <voice>
+            <RehearsalMark>
+              <linked>
+                </linked>
+              <text>B</text>
+              </RehearsalMark>
             <Rest>
               <linked>
                 </linked>
@@ -280450,8 +280375,8 @@
               <Note>
                 <linked>
                   </linked>
-                <pitch>66</pitch>
-                <tpc>20</tpc>
+                <pitch>67</pitch>
+                <tpc>15</tpc>
                 </Note>
               </Chord>
             <Chord>
@@ -334039,6 +333964,14 @@
           </Measure>
         <Measure>
           <voice>
+            <RehearsalMark>
+              <linked>
+                <location>
+                  <staves>-1</staves>
+                  </location>
+                </linked>
+              <text>B</text>
+              </RehearsalMark>
             <Chord>
               <linked>
                 </linked>
@@ -394156,6 +394089,14 @@
           </Measure>
         <Measure>
           <voice>
+            <RehearsalMark>
+              <linked>
+                <location>
+                  <staves>-2</staves>
+                  </location>
+                </linked>
+              <text>B</text>
+              </RehearsalMark>
             <Chord>
               <linked>
                 </linked>
@@ -449429,6 +449370,14 @@
           </Measure>
         <Measure>
           <voice>
+            <RehearsalMark>
+              <linked>
+                <location>
+                  <staves>-3</staves>
+                  </location>
+                </linked>
+              <text>B</text>
+              </RehearsalMark>
             <Chord>
               <linked>
                 </linked>

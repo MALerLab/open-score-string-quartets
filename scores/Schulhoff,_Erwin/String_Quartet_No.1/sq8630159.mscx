@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <museScore version="3.02">
   <programVersion>3.6.2</programVersion>
-  <programRevision></programRevision>
+  <programRevision>3224f34</programRevision>
   <Score>
     <LayerTag id="0" tag="default"></LayerTag>
     <currentLayer>0</currentLayer>
@@ -4471,7 +4471,7 @@
         </Measure>
       <Measure>
         <LayoutBreak>
-          <subtype>line</subtype>
+          <subtype>page</subtype>
           </LayoutBreak>
         <voice>
           <RehearsalMark>
@@ -5887,7 +5887,7 @@
         </Measure>
       <Measure>
         <LayoutBreak>
-          <subtype>line</subtype>
+          <subtype>page</subtype>
           </LayoutBreak>
         <voice>
           <RehearsalMark>
@@ -8199,7 +8199,7 @@
         </Measure>
       <Measure>
         <LayoutBreak>
-          <subtype>line</subtype>
+          <subtype>page</subtype>
           </LayoutBreak>
         <voice>
           <RehearsalMark>
@@ -10077,7 +10077,7 @@
         </Measure>
       <Measure>
         <LayoutBreak>
-          <subtype>line</subtype>
+          <subtype>page</subtype>
           </LayoutBreak>
         <voice>
           <RehearsalMark>
@@ -12120,7 +12120,7 @@
         </Measure>
       <Measure>
         <LayoutBreak>
-          <subtype>line</subtype>
+          <subtype>page</subtype>
           </LayoutBreak>
         <voice>
           <Chord>
@@ -14273,6 +14273,20 @@
               <Slur>
                 <linkedMain/>
                 <SlurSegment no="0">
+                  <o2 x="0" y="0.4"/>
+                  <o3 x="0" y="0.4"/>
+                  </SlurSegment>
+                </Slur>
+              <next>
+                <location>
+                  <fractions>1/4</fractions>
+                  </location>
+                </next>
+              </Spanner>
+            <Spanner type="Slur">
+              <Slur>
+                <linkedMain/>
+                <SlurSegment no="0">
                   <o2 x="5.59517e-18" y="-1.2"/>
                   <o3 x="5.59517e-18" y="-0.4"/>
                   <o4 x="0" y="0.4"/>
@@ -14282,20 +14296,6 @@
               <next>
                 <location>
                   <fractions>1/2</fractions>
-                  </location>
-                </next>
-              </Spanner>
-            <Spanner type="Slur">
-              <Slur>
-                <linkedMain/>
-                <SlurSegment no="0">
-                  <o2 x="0" y="0.4"/>
-                  <o3 x="0" y="0.4"/>
-                  </SlurSegment>
-                </Slur>
-              <next>
-                <location>
-                  <fractions>1/4</fractions>
                   </location>
                 </next>
               </Spanner>
@@ -16157,7 +16157,7 @@
         </Measure>
       <Measure>
         <LayoutBreak>
-          <subtype>line</subtype>
+          <subtype>page</subtype>
           </LayoutBreak>
         <voice>
           <Tuplet>
@@ -18517,7 +18517,7 @@
         </Measure>
       <Measure>
         <LayoutBreak>
-          <subtype>line</subtype>
+          <subtype>page</subtype>
           </LayoutBreak>
         <voice>
           <Tuplet>
@@ -19114,7 +19114,7 @@
         </Measure>
       <Measure>
         <LayoutBreak>
-          <subtype>page</subtype>
+          <subtype>line</subtype>
           </LayoutBreak>
         <voice>
           <Tuplet>
@@ -20918,7 +20918,7 @@
         </Measure>
       <Measure>
         <LayoutBreak>
-          <subtype>line</subtype>
+          <subtype>page</subtype>
           </LayoutBreak>
         <voice>
           <Tuplet>
@@ -23807,7 +23807,7 @@
       <Measure>
         <stretch>0.8</stretch>
         <LayoutBreak>
-          <subtype>line</subtype>
+          <subtype>page</subtype>
           </LayoutBreak>
         <voice>
           <Spanner type="HairPin">
@@ -24540,7 +24540,7 @@
         </Measure>
       <Measure>
         <LayoutBreak>
-          <subtype>line</subtype>
+          <subtype>page</subtype>
           </LayoutBreak>
         <voice>
           <StaffText>
@@ -24901,7 +24901,7 @@
         </Measure>
       <Measure>
         <LayoutBreak>
-          <subtype>page</subtype>
+          <subtype>line</subtype>
           </LayoutBreak>
         <voice>
           <Chord>
@@ -25586,7 +25586,7 @@
         </Measure>
       <Measure>
         <LayoutBreak>
-          <subtype>line</subtype>
+          <subtype>page</subtype>
           </LayoutBreak>
         <voice>
           <Chord>
@@ -26691,7 +26691,7 @@ ordinario</text>
                 </Slur>
               <next>
                 <location>
-                  <fractions>3/8</fractions>
+                  <fractions>1/8</fractions>
                   </location>
                 </next>
               </Spanner>
@@ -26701,7 +26701,7 @@ ordinario</text>
                 </Slur>
               <next>
                 <location>
-                  <fractions>1/8</fractions>
+                  <fractions>3/8</fractions>
                   </location>
                 </next>
               </Spanner>
@@ -26845,7 +26845,7 @@ ordinario</text>
         </Measure>
       <Measure>
         <LayoutBreak>
-          <subtype>line</subtype>
+          <subtype>page</subtype>
           </LayoutBreak>
         <voice>
           <Chord>
@@ -28256,7 +28256,7 @@ ordinario</text>
                 </Slur>
               <next>
                 <location>
-                  <fractions>1/4</fractions>
+                  <fractions>1/8</fractions>
                   </location>
                 </next>
               </Spanner>
@@ -28266,7 +28266,7 @@ ordinario</text>
                 </Slur>
               <next>
                 <location>
-                  <fractions>1/8</fractions>
+                  <fractions>1/4</fractions>
                   </location>
                 </next>
               </Spanner>
@@ -28518,7 +28518,7 @@ ordinario</text>
                 </Slur>
               <next>
                 <location>
-                  <fractions>3/8</fractions>
+                  <fractions>1/8</fractions>
                   </location>
                 </next>
               </Spanner>
@@ -28528,7 +28528,7 @@ ordinario</text>
                 </Slur>
               <next>
                 <location>
-                  <fractions>1/8</fractions>
+                  <fractions>3/8</fractions>
                   </location>
                 </next>
               </Spanner>
@@ -29178,7 +29178,7 @@ ordinario</text>
         </Measure>
       <Measure>
         <LayoutBreak>
-          <subtype>line</subtype>
+          <subtype>page</subtype>
           </LayoutBreak>
         <voice>
           <RehearsalMark>
@@ -31432,7 +31432,7 @@ ordinario</text>
         </Measure>
       <Measure>
         <LayoutBreak>
-          <subtype>line</subtype>
+          <subtype>page</subtype>
           </LayoutBreak>
         <voice>
           <Chord>
@@ -33584,7 +33584,7 @@ ordinario</text>
         </Measure>
       <Measure>
         <LayoutBreak>
-          <subtype>line</subtype>
+          <subtype>page</subtype>
           </LayoutBreak>
         <voice>
           <Rest>
@@ -34795,7 +34795,7 @@ ordinario</text>
         </Measure>
       <Measure>
         <LayoutBreak>
-          <subtype>line</subtype>
+          <subtype>page</subtype>
           </LayoutBreak>
         <voice>
           <Spanner type="HairPin">
@@ -36704,7 +36704,7 @@ ordinario</text>
         </Measure>
       <Measure>
         <LayoutBreak>
-          <subtype>line</subtype>
+          <subtype>page</subtype>
           </LayoutBreak>
         <voice>
           <RehearsalMark>
@@ -39079,7 +39079,7 @@ ordinario</text>
                 </Slur>
               <next>
                 <location>
-                  <fractions>3/8</fractions>
+                  <fractions>1/8</fractions>
                   </location>
                 </next>
               </Spanner>
@@ -39089,7 +39089,7 @@ ordinario</text>
                 </Slur>
               <next>
                 <location>
-                  <fractions>1/8</fractions>
+                  <fractions>3/8</fractions>
                   </location>
                 </next>
               </Spanner>
@@ -44184,7 +44184,7 @@ ordinario</text>
         </Measure>
       <Measure>
         <LayoutBreak>
-          <subtype>line</subtype>
+          <subtype>page</subtype>
           </LayoutBreak>
         <voice>
           <Tuplet>
@@ -46388,7 +46388,7 @@ ordinario</text>
         </Measure>
       <Measure>
         <LayoutBreak>
-          <subtype>line</subtype>
+          <subtype>page</subtype>
           </LayoutBreak>
         <voice>
           <Spanner type="HairPin">
@@ -46918,7 +46918,7 @@ ordinario</text>
         </Measure>
       <Measure len="11/8">
         <LayoutBreak>
-          <subtype>page</subtype>
+          <subtype>line</subtype>
           </LayoutBreak>
         <voice>
           <RehearsalMark>
@@ -49249,7 +49249,7 @@ ordinario</text>
         </Measure>
       <Measure>
         <LayoutBreak>
-          <subtype>line</subtype>
+          <subtype>page</subtype>
           </LayoutBreak>
         <voice>
           <Spanner type="HairPin">
@@ -51621,7 +51621,7 @@ ordinario</text>
         </Measure>
       <Measure>
         <LayoutBreak>
-          <subtype>line</subtype>
+          <subtype>page</subtype>
           </LayoutBreak>
         <voice>
           <Spanner type="HairPin">
@@ -52161,7 +52161,7 @@ ordinario</text>
         </Measure>
       <Measure>
         <LayoutBreak>
-          <subtype>line</subtype>
+          <subtype>page</subtype>
           </LayoutBreak>
         <voice>
           <Chord>
@@ -52522,7 +52522,7 @@ ordinario</text>
         </Measure>
       <Measure>
         <LayoutBreak>
-          <subtype>page</subtype>
+          <subtype>line</subtype>
           </LayoutBreak>
         <voice>
           <Chord>
@@ -52646,7 +52646,7 @@ ordinario</text>
         </Measure>
       <Measure>
         <LayoutBreak>
-          <subtype>line</subtype>
+          <subtype>page</subtype>
           </LayoutBreak>
         <voice>
           <Chord>
@@ -52686,12 +52686,12 @@ ordinario</text>
               <linkedMain/>
               <dashGapLength>20</dashGapLength>
               <Segment>
-                <subtype>1</subtype>
+                <subtype>3</subtype>
                 <offset x="2" y="2.5"/>
                 <off2 x="-2" y="0"/>
                 </Segment>
               <Segment>
-                <subtype>3</subtype>
+                <subtype>1</subtype>
                 <offset x="0" y="2.5"/>
                 <off2 x="0" y="0"/>
                 </Segment>
@@ -78914,7 +78914,7 @@ ordinario</text>
                 </Slur>
               <next>
                 <location>
-                  <fractions>3/8</fractions>
+                  <fractions>1/8</fractions>
                   </location>
                 </next>
               </Spanner>
@@ -78924,7 +78924,7 @@ ordinario</text>
                 </Slur>
               <next>
                 <location>
-                  <fractions>1/8</fractions>
+                  <fractions>3/8</fractions>
                   </location>
                 </next>
               </Spanner>
@@ -79055,7 +79055,7 @@ ordinario</text>
                 </Slur>
               <next>
                 <location>
-                  <fractions>3/8</fractions>
+                  <fractions>1/8</fractions>
                   </location>
                 </next>
               </Spanner>
@@ -79065,7 +79065,7 @@ ordinario</text>
                 </Slur>
               <next>
                 <location>
-                  <fractions>1/8</fractions>
+                  <fractions>3/8</fractions>
                   </location>
                 </next>
               </Spanner>
@@ -80273,7 +80273,7 @@ ordinario</text>
                 </Slur>
               <next>
                 <location>
-                  <fractions>1/4</fractions>
+                  <fractions>1/8</fractions>
                   </location>
                 </next>
               </Spanner>
@@ -80283,7 +80283,7 @@ ordinario</text>
                 </Slur>
               <next>
                 <location>
-                  <fractions>1/8</fractions>
+                  <fractions>1/4</fractions>
                   </location>
                 </next>
               </Spanner>
@@ -80383,7 +80383,7 @@ ordinario</text>
                 </Slur>
               <next>
                 <location>
-                  <fractions>3/8</fractions>
+                  <fractions>1/8</fractions>
                   </location>
                 </next>
               </Spanner>
@@ -80393,7 +80393,7 @@ ordinario</text>
                 </Slur>
               <next>
                 <location>
-                  <fractions>1/8</fractions>
+                  <fractions>3/8</fractions>
                   </location>
                 </next>
               </Spanner>
@@ -91205,7 +91205,7 @@ ordinario</text>
                 </Slur>
               <next>
                 <location>
-                  <fractions>1/4</fractions>
+                  <fractions>1/8</fractions>
                   </location>
                 </next>
               </Spanner>
@@ -91215,7 +91215,7 @@ ordinario</text>
                 </Slur>
               <next>
                 <location>
-                  <fractions>1/8</fractions>
+                  <fractions>1/4</fractions>
                   </location>
                 </next>
               </Spanner>
@@ -91465,7 +91465,7 @@ ordinario</text>
                 </Slur>
               <next>
                 <location>
-                  <fractions>3/8</fractions>
+                  <fractions>1/8</fractions>
                   </location>
                 </next>
               </Spanner>
@@ -91475,7 +91475,7 @@ ordinario</text>
                 </Slur>
               <next>
                 <location>
-                  <fractions>1/8</fractions>
+                  <fractions>3/8</fractions>
                   </location>
                 </next>
               </Spanner>
@@ -99072,12 +99072,12 @@ ordinario</text>
               <linkedMain/>
               <dashGapLength>20</dashGapLength>
               <Segment>
-                <subtype>1</subtype>
+                <subtype>3</subtype>
                 <offset x="2" y="2.5"/>
                 <off2 x="-2" y="0"/>
                 </Segment>
               <Segment>
-                <subtype>3</subtype>
+                <subtype>1</subtype>
                 <offset x="0" y="2.5"/>
                 <off2 x="0" y="0"/>
                 </Segment>
@@ -117056,6 +117056,16 @@ ordinario</text>
             <Spanner type="Slur">
               <Slur>
                 <linkedMain/>
+                </Slur>
+              <next>
+                <location>
+                  <fractions>1/16</fractions>
+                  </location>
+                </next>
+              </Spanner>
+            <Spanner type="Slur">
+              <Slur>
+                <linkedMain/>
                 <SlurSegment no="0">
                   <o1 x="0" y="-0.5"/>
                   </SlurSegment>
@@ -117063,16 +117073,6 @@ ordinario</text>
               <next>
                 <location>
                   <fractions>1/8</fractions>
-                  </location>
-                </next>
-              </Spanner>
-            <Spanner type="Slur">
-              <Slur>
-                <linkedMain/>
-                </Slur>
-              <next>
-                <location>
-                  <fractions>1/16</fractions>
                   </location>
                 </next>
               </Spanner>
@@ -139294,7 +139294,7 @@ al perdendosi</text>
                 </Slur>
               <next>
                 <location>
-                  <fractions>3/8</fractions>
+                  <fractions>1/8</fractions>
                   </location>
                 </next>
               </Spanner>
@@ -139304,7 +139304,7 @@ al perdendosi</text>
                 </Slur>
               <next>
                 <location>
-                  <fractions>1/8</fractions>
+                  <fractions>3/8</fractions>
                   </location>
                 </next>
               </Spanner>
@@ -174233,7 +174233,7 @@ al perdendosi</text>
                 </Slur>
               <next>
                 <location>
-                  <fractions>1/4</fractions>
+                  <fractions>1/8</fractions>
                   </location>
                 </next>
               </Spanner>
@@ -174243,7 +174243,7 @@ al perdendosi</text>
                 </Slur>
               <next>
                 <location>
-                  <fractions>1/8</fractions>
+                  <fractions>1/4</fractions>
                   </location>
                 </next>
               </Spanner>
@@ -182733,7 +182733,7 @@ al perdendosi</text>
                 </Slur>
               <next>
                 <location>
-                  <fractions>1/4</fractions>
+                  <fractions>1/8</fractions>
                   </location>
                 </next>
               </Spanner>
@@ -182743,7 +182743,7 @@ al perdendosi</text>
                 </Slur>
               <next>
                 <location>
-                  <fractions>1/8</fractions>
+                  <fractions>1/4</fractions>
                   </location>
                 </next>
               </Spanner>
@@ -208636,7 +208636,6 @@ al perdendosi</text>
               <Spanner type="Slur">
                 <Slur>
                   <linked>
-                    <indexDiff>1</indexDiff>
                     </linked>
                   </Slur>
                 <next>
@@ -208648,7 +208647,6 @@ al perdendosi</text>
               <Spanner type="Slur">
                 <Slur>
                   <linked>
-                    <indexDiff>-1</indexDiff>
                     </linked>
                   </Slur>
                 <next>
@@ -208890,24 +208888,22 @@ al perdendosi</text>
               <Spanner type="Slur">
                 <Slur>
                   <linked>
-                    <indexDiff>1</indexDiff>
                     </linked>
                   </Slur>
                 <next>
                   <location>
-                    <fractions>1/4</fractions>
+                    <fractions>1/16</fractions>
                     </location>
                   </next>
                 </Spanner>
               <Spanner type="Slur">
                 <Slur>
                   <linked>
-                    <indexDiff>-1</indexDiff>
                     </linked>
                   </Slur>
                 <next>
                   <location>
-                    <fractions>1/16</fractions>
+                    <fractions>1/4</fractions>
                     </location>
                   </next>
                 </Spanner>
@@ -222125,24 +222121,22 @@ ordinario</text>
               <Spanner type="Slur">
                 <Slur>
                   <linked>
-                    <indexDiff>1</indexDiff>
                     </linked>
                   </Slur>
                 <next>
                   <location>
-                    <fractions>3/8</fractions>
+                    <fractions>1/8</fractions>
                     </location>
                   </next>
                 </Spanner>
               <Spanner type="Slur">
                 <Slur>
                   <linked>
-                    <indexDiff>-1</indexDiff>
                     </linked>
                   </Slur>
                 <next>
                   <location>
-                    <fractions>1/8</fractions>
+                    <fractions>3/8</fractions>
                     </location>
                   </next>
                 </Spanner>
@@ -222463,7 +222457,7 @@ ordinario</text>
                   </Slur>
                 <next>
                   <location>
-                    <fractions>3/8</fractions>
+                    <fractions>1/8</fractions>
                     </location>
                   </next>
                 </Spanner>
@@ -222474,7 +222468,7 @@ ordinario</text>
                   </Slur>
                 <next>
                   <location>
-                    <fractions>1/8</fractions>
+                    <fractions>3/8</fractions>
                     </location>
                   </next>
                 </Spanner>
@@ -222649,24 +222643,22 @@ ordinario</text>
               <Spanner type="Slur">
                 <Slur>
                   <linked>
-                    <indexDiff>1</indexDiff>
                     </linked>
                   </Slur>
                 <next>
                   <location>
-                    <fractions>3/8</fractions>
+                    <fractions>1/8</fractions>
                     </location>
                   </next>
                 </Spanner>
               <Spanner type="Slur">
                 <Slur>
                   <linked>
-                    <indexDiff>-1</indexDiff>
                     </linked>
                   </Slur>
                 <next>
                   <location>
-                    <fractions>1/8</fractions>
+                    <fractions>3/8</fractions>
                     </location>
                   </next>
                 </Spanner>
@@ -224315,7 +224307,6 @@ ordinario</text>
               <Spanner type="Slur">
                 <Slur>
                   <linked>
-                    <indexDiff>1</indexDiff>
                     </linked>
                   </Slur>
                 <next>
@@ -224327,7 +224318,6 @@ ordinario</text>
               <Spanner type="Slur">
                 <Slur>
                   <linked>
-                    <indexDiff>-1</indexDiff>
                     </linked>
                   </Slur>
                 <next>
@@ -224443,24 +224433,22 @@ ordinario</text>
               <Spanner type="Slur">
                 <Slur>
                   <linked>
-                    <indexDiff>1</indexDiff>
                     </linked>
                   </Slur>
                 <next>
                   <location>
-                    <fractions>3/8</fractions>
+                    <fractions>1/8</fractions>
                     </location>
                   </next>
                 </Spanner>
               <Spanner type="Slur">
                 <Slur>
                   <linked>
-                    <indexDiff>-1</indexDiff>
                     </linked>
                   </Slur>
                 <next>
                   <location>
-                    <fractions>1/8</fractions>
+                    <fractions>3/8</fractions>
                     </location>
                   </next>
                 </Spanner>
@@ -224623,7 +224611,6 @@ ordinario</text>
               <Spanner type="Slur">
                 <Slur>
                   <linked>
-                    <indexDiff>1</indexDiff>
                     </linked>
                   </Slur>
                 <next>
@@ -224635,7 +224622,6 @@ ordinario</text>
               <Spanner type="Slur">
                 <Slur>
                   <linked>
-                    <indexDiff>-1</indexDiff>
                     </linked>
                   </Slur>
                 <next>
@@ -236726,24 +236712,22 @@ ordinario</text>
               <Spanner type="Slur">
                 <Slur>
                   <linked>
-                    <indexDiff>1</indexDiff>
                     </linked>
                   </Slur>
                 <next>
                   <location>
-                    <fractions>1/4</fractions>
+                    <fractions>1/8</fractions>
                     </location>
                   </next>
                 </Spanner>
               <Spanner type="Slur">
                 <Slur>
                   <linked>
-                    <indexDiff>-1</indexDiff>
                     </linked>
                   </Slur>
                 <next>
                   <location>
-                    <fractions>1/8</fractions>
+                    <fractions>1/4</fractions>
                     </location>
                   </next>
                 </Spanner>
@@ -236851,7 +236835,6 @@ ordinario</text>
               <Spanner type="Slur">
                 <Slur>
                   <linked>
-                    <indexDiff>1</indexDiff>
                     </linked>
                   </Slur>
                 <next>
@@ -236863,7 +236846,6 @@ ordinario</text>
               <Spanner type="Slur">
                 <Slur>
                   <linked>
-                    <indexDiff>-1</indexDiff>
                     </linked>
                   </Slur>
                 <next>
@@ -283665,7 +283647,6 @@ ordinario</text>
               <Spanner type="Slur">
                 <Slur>
                   <linked>
-                    <indexDiff>1</indexDiff>
                     </linked>
                   </Slur>
                 <next>
@@ -283677,7 +283658,6 @@ ordinario</text>
               <Spanner type="Slur">
                 <Slur>
                   <linked>
-                    <indexDiff>-1</indexDiff>
                     </linked>
                   </Slur>
                 <next>
@@ -283830,7 +283810,6 @@ ordinario</text>
               <Spanner type="Slur">
                 <Slur>
                   <linked>
-                    <indexDiff>1</indexDiff>
                     </linked>
                   </Slur>
                 <next>
@@ -283842,7 +283821,6 @@ ordinario</text>
               <Spanner type="Slur">
                 <Slur>
                   <linked>
-                    <indexDiff>-1</indexDiff>
                     </linked>
                   </Slur>
                 <next>
@@ -285270,7 +285248,6 @@ ordinario</text>
               <Spanner type="Slur">
                 <Slur>
                   <linked>
-                    <indexDiff>1</indexDiff>
                     </linked>
                   </Slur>
                 <next>
@@ -285282,7 +285259,6 @@ ordinario</text>
               <Spanner type="Slur">
                 <Slur>
                   <linked>
-                    <indexDiff>-1</indexDiff>
                     </linked>
                   </Slur>
                 <next>
@@ -285405,7 +285381,7 @@ ordinario</text>
                   </Slur>
                 <next>
                   <location>
-                    <fractions>3/8</fractions>
+                    <fractions>1/8</fractions>
                     </location>
                   </next>
                 </Spanner>
@@ -285416,7 +285392,7 @@ ordinario</text>
                   </Slur>
                 <next>
                   <location>
-                    <fractions>1/8</fractions>
+                    <fractions>3/8</fractions>
                     </location>
                   </next>
                 </Spanner>
@@ -298221,7 +298197,7 @@ ordinario</text>
                   </Slur>
                 <next>
                   <location>
-                    <fractions>1/4</fractions>
+                    <fractions>1/8</fractions>
                     </location>
                   </next>
                 </Spanner>
@@ -298232,7 +298208,7 @@ ordinario</text>
                   </Slur>
                 <next>
                   <location>
-                    <fractions>1/8</fractions>
+                    <fractions>1/4</fractions>
                     </location>
                   </next>
                 </Spanner>
@@ -298523,7 +298499,6 @@ ordinario</text>
               <Spanner type="Slur">
                 <Slur>
                   <linked>
-                    <indexDiff>1</indexDiff>
                     </linked>
                   </Slur>
                 <next>
@@ -298535,7 +298510,6 @@ ordinario</text>
               <Spanner type="Slur">
                 <Slur>
                   <linked>
-                    <indexDiff>-1</indexDiff>
                     </linked>
                   </Slur>
                 <next>
@@ -328857,7 +328831,6 @@ ordinario</text>
               <Spanner type="Slur">
                 <Slur>
                   <linked>
-                    <indexDiff>1</indexDiff>
                     </linked>
                   </Slur>
                 <next>
@@ -328869,7 +328842,6 @@ ordinario</text>
               <Spanner type="Slur">
                 <Slur>
                   <linked>
-                    <indexDiff>-1</indexDiff>
                     </linked>
                   </Slur>
                 <next>
@@ -355042,7 +355014,6 @@ al perdendosi</text>
               <Spanner type="Slur">
                 <Slur>
                   <linked>
-                    <indexDiff>1</indexDiff>
                     </linked>
                   </Slur>
                 <next>
@@ -355054,7 +355025,6 @@ al perdendosi</text>
               <Spanner type="Slur">
                 <Slur>
                   <linked>
-                    <indexDiff>-1</indexDiff>
                     </linked>
                   </Slur>
                 <next>
@@ -396248,7 +396218,6 @@ al perdendosi</text>
               <Spanner type="Slur">
                 <Slur>
                   <linked>
-                    <indexDiff>1</indexDiff>
                     </linked>
                   </Slur>
                 <next>
@@ -396260,7 +396229,6 @@ al perdendosi</text>
               <Spanner type="Slur">
                 <Slur>
                   <linked>
-                    <indexDiff>-1</indexDiff>
                     </linked>
                   </Slur>
                 <next>
@@ -406365,7 +406333,6 @@ al perdendosi</text>
               <Spanner type="Slur">
                 <Slur>
                   <linked>
-                    <indexDiff>1</indexDiff>
                     </linked>
                   </Slur>
                 <next>
@@ -406377,7 +406344,6 @@ al perdendosi</text>
               <Spanner type="Slur">
                 <Slur>
                   <linked>
-                    <indexDiff>-1</indexDiff>
                     </linked>
                   </Slur>
                 <next>

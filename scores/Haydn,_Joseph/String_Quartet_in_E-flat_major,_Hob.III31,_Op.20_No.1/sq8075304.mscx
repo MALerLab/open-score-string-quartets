@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <museScore version="3.02">
   <programVersion>3.6.2</programVersion>
-  <programRevision></programRevision>
+  <programRevision>3224f34</programRevision>
   <Score>
     <LayerTag id="0" tag="default"></LayerTag>
     <currentLayer>0</currentLayer>
@@ -1273,7 +1273,7 @@
         </Measure>
       <Measure>
         <LayoutBreak>
-          <subtype>line</subtype>
+          <subtype>page</subtype>
           </LayoutBreak>
         <voice>
           <Chord>
@@ -2868,6 +2868,16 @@
             <Spanner type="Slur">
               <Slur>
                 <linkedMain/>
+                </Slur>
+              <next>
+                <location>
+                  <fractions>1/4</fractions>
+                  </location>
+                </next>
+              </Spanner>
+            <Spanner type="Slur">
+              <Slur>
+                <linkedMain/>
                 <SlurSegment no="0">
                   <o1 x="0" y="0.7"/>
                   </SlurSegment>
@@ -2875,16 +2885,6 @@
               <next>
                 <location>
                   <fractions>3/8</fractions>
-                  </location>
-                </next>
-              </Spanner>
-            <Spanner type="Slur">
-              <Slur>
-                <linkedMain/>
-                </Slur>
-              <next>
-                <location>
-                  <fractions>1/4</fractions>
                   </location>
                 </next>
               </Spanner>
@@ -3529,7 +3529,7 @@
         </Measure>
       <Measure>
         <LayoutBreak>
-          <subtype>line</subtype>
+          <subtype>page</subtype>
           </LayoutBreak>
         <voice>
           <Chord>
@@ -5407,7 +5407,7 @@
         </Measure>
       <Measure>
         <LayoutBreak>
-          <subtype>line</subtype>
+          <subtype>page</subtype>
           </LayoutBreak>
         <voice>
           <Spanner type="Volta">
@@ -7049,7 +7049,7 @@
         </Measure>
       <Measure>
         <LayoutBreak>
-          <subtype>line</subtype>
+          <subtype>page</subtype>
           </LayoutBreak>
         <voice>
           <Chord>
@@ -7421,7 +7421,7 @@
         </Measure>
       <Measure>
         <LayoutBreak>
-          <subtype>page</subtype>
+          <subtype>line</subtype>
           </LayoutBreak>
         <voice>
           <Chord>
@@ -8239,6 +8239,16 @@
             <Spanner type="Slur">
               <Slur>
                 <linkedMain/>
+                </Slur>
+              <next>
+                <location>
+                  <fractions>1/4</fractions>
+                  </location>
+                </next>
+              </Spanner>
+            <Spanner type="Slur">
+              <Slur>
+                <linkedMain/>
                 <SlurSegment no="0">
                   <o1 x="0" y="-0.9"/>
                   </SlurSegment>
@@ -8246,16 +8256,6 @@
               <next>
                 <location>
                   <fractions>3/8</fractions>
-                  </location>
-                </next>
-              </Spanner>
-            <Spanner type="Slur">
-              <Slur>
-                <linkedMain/>
-                </Slur>
-              <next>
-                <location>
-                  <fractions>1/4</fractions>
                   </location>
                 </next>
               </Spanner>
@@ -8549,7 +8549,7 @@
         </Measure>
       <Measure>
         <LayoutBreak>
-          <subtype>line</subtype>
+          <subtype>page</subtype>
           </LayoutBreak>
         <voice>
           <Dynamic>
@@ -10389,7 +10389,7 @@
         </Measure>
       <Measure>
         <LayoutBreak>
-          <subtype>line</subtype>
+          <subtype>page</subtype>
           </LayoutBreak>
         <voice>
           <Beam>
@@ -12157,6 +12157,17 @@
             <Spanner type="Slur">
               <Slur>
                 <linkedMain/>
+                <up>down</up>
+                </Slur>
+              <next>
+                <location>
+                  <fractions>1/4</fractions>
+                  </location>
+                </next>
+              </Spanner>
+            <Spanner type="Slur">
+              <Slur>
+                <linkedMain/>
                 <SlurSegment no="0">
                   <o1 x="0" y="1.3"/>
                   <o2 x="0" y="0.5"/>
@@ -12167,17 +12178,6 @@
               <next>
                 <location>
                   <fractions>3/8</fractions>
-                  </location>
-                </next>
-              </Spanner>
-            <Spanner type="Slur">
-              <Slur>
-                <linkedMain/>
-                <up>down</up>
-                </Slur>
-              <next>
-                <location>
-                  <fractions>1/4</fractions>
                   </location>
                 </next>
               </Spanner>
@@ -12451,7 +12451,7 @@
         </Measure>
       <Measure>
         <LayoutBreak>
-          <subtype>line</subtype>
+          <subtype>page</subtype>
           </LayoutBreak>
         <voice>
           <Chord>
@@ -14384,6 +14384,17 @@
                 </location>
               </prev>
             </Spanner>
+          <Spanner type="HairPin">
+            <HairPin>
+              <subtype>1</subtype>
+              <linkedMain/>
+              </HairPin>
+            <next>
+              <location>
+                <fractions>1/2</fractions>
+                </location>
+              </next>
+            </Spanner>
           <Spanner type="Volta">
             <Volta>
               <endHookType>1</endHookType>
@@ -14394,17 +14405,6 @@
             <next>
               <location>
                 <measures>1</measures>
-                </location>
-              </next>
-            </Spanner>
-          <Spanner type="HairPin">
-            <HairPin>
-              <subtype>1</subtype>
-              <linkedMain/>
-              </HairPin>
-            <next>
-              <location>
-                <fractions>1/2</fractions>
                 </location>
               </next>
             </Spanner>
@@ -18174,6 +18174,13 @@
             <linkedMain/>
             <durationType>eighth</durationType>
             <Spanner type="Slur">
+              <prev>
+                <location>
+                  <grace>0</grace>
+                  </location>
+                </prev>
+              </Spanner>
+            <Spanner type="Slur">
               <Slur>
                 <linkedMain/>
                 </Slur>
@@ -18182,13 +18189,6 @@
                   <fractions>1/4</fractions>
                   </location>
                 </next>
-              </Spanner>
-            <Spanner type="Slur">
-              <prev>
-                <location>
-                  <grace>0</grace>
-                  </location>
-                </prev>
               </Spanner>
             <Note>
               <linkedMain/>
@@ -23035,6 +23035,13 @@
             <BeamMode>begin</BeamMode>
             <durationType>16th</durationType>
             <Spanner type="Slur">
+              <prev>
+                <location>
+                  <grace>0</grace>
+                  </location>
+                </prev>
+              </Spanner>
+            <Spanner type="Slur">
               <Slur>
                 <linkedMain/>
                 </Slur>
@@ -23043,13 +23050,6 @@
                   <fractions>3/32</fractions>
                   </location>
                 </next>
-              </Spanner>
-            <Spanner type="Slur">
-              <prev>
-                <location>
-                  <grace>0</grace>
-                  </location>
-                </prev>
               </Spanner>
             <Note>
               <linkedMain/>
@@ -24775,7 +24775,7 @@
         </Measure>
       <Measure>
         <LayoutBreak>
-          <subtype>line</subtype>
+          <subtype>page</subtype>
           </LayoutBreak>
         <voice>
           <Chord>
@@ -26337,7 +26337,7 @@
         </Measure>
       <Measure>
         <LayoutBreak>
-          <subtype>line</subtype>
+          <subtype>page</subtype>
           </LayoutBreak>
         <voice>
           <Chord>
@@ -27991,7 +27991,7 @@
         </Measure>
       <Measure>
         <LayoutBreak>
-          <subtype>line</subtype>
+          <subtype>page</subtype>
           </LayoutBreak>
         <voice>
           <Chord>
@@ -29544,7 +29544,7 @@
         </Measure>
       <Measure>
         <LayoutBreak>
-          <subtype>line</subtype>
+          <subtype>page</subtype>
           </LayoutBreak>
         <voice>
           <Chord>
@@ -30492,7 +30492,7 @@
                 </Slur>
               <next>
                 <location>
-                  <fractions>7/16</fractions>
+                  <fractions>1/4</fractions>
                   </location>
                 </next>
               </Spanner>
@@ -30502,7 +30502,7 @@
                 </Slur>
               <next>
                 <location>
-                  <fractions>1/4</fractions>
+                  <fractions>7/16</fractions>
                   </location>
                 </next>
               </Spanner>
@@ -32697,6 +32697,16 @@
             <Spanner type="Slur">
               <Slur>
                 <linkedMain/>
+                </Slur>
+              <next>
+                <location>
+                  <fractions>1/4</fractions>
+                  </location>
+                </next>
+              </Spanner>
+            <Spanner type="Slur">
+              <Slur>
+                <linkedMain/>
                 <SlurSegment no="0">
                   <offset x="0" y="0.6"/>
                   </SlurSegment>
@@ -32704,16 +32714,6 @@
               <next>
                 <location>
                   <fractions>3/8</fractions>
-                  </location>
-                </next>
-              </Spanner>
-            <Spanner type="Slur">
-              <Slur>
-                <linkedMain/>
-                </Slur>
-              <next>
-                <location>
-                  <fractions>1/4</fractions>
                   </location>
                 </next>
               </Spanner>
@@ -33884,6 +33884,16 @@
             <Spanner type="Slur">
               <Slur>
                 <linkedMain/>
+                </Slur>
+              <next>
+                <location>
+                  <fractions>1/16</fractions>
+                  </location>
+                </next>
+              </Spanner>
+            <Spanner type="Slur">
+              <Slur>
+                <linkedMain/>
                 <SlurSegment no="0">
                   <o1 x="0" y="-0.6"/>
                   <o4 x="0" y="-0.9"/>
@@ -33892,16 +33902,6 @@
               <next>
                 <location>
                   <fractions>3/16</fractions>
-                  </location>
-                </next>
-              </Spanner>
-            <Spanner type="Slur">
-              <Slur>
-                <linkedMain/>
-                </Slur>
-              <next>
-                <location>
-                  <fractions>1/16</fractions>
                   </location>
                 </next>
               </Spanner>
@@ -34294,6 +34294,16 @@
             <Spanner type="Slur">
               <Slur>
                 <linkedMain/>
+                </Slur>
+              <next>
+                <location>
+                  <fractions>1/4</fractions>
+                  </location>
+                </next>
+              </Spanner>
+            <Spanner type="Slur">
+              <Slur>
+                <linkedMain/>
                 <SlurSegment no="0">
                   <o1 x="0" y="0.7"/>
                   </SlurSegment>
@@ -34301,16 +34311,6 @@
               <next>
                 <location>
                   <fractions>3/8</fractions>
-                  </location>
-                </next>
-              </Spanner>
-            <Spanner type="Slur">
-              <Slur>
-                <linkedMain/>
-                </Slur>
-              <next>
-                <location>
-                  <fractions>1/4</fractions>
                   </location>
                 </next>
               </Spanner>
@@ -36358,17 +36358,11 @@
             <linkedMain/>
             <durationType>quarter</durationType>
             <Spanner type="Slur">
-              <Slur>
-                <linkedMain/>
-                <SlurSegment no="0">
-                  <o1 x="0" y="0.6"/>
-                  </SlurSegment>
-                </Slur>
-              <next>
+              <prev>
                 <location>
-                  <fractions>3/8</fractions>
+                  <grace>0</grace>
                   </location>
-                </next>
+                </prev>
               </Spanner>
             <Spanner type="Slur">
               <Slur>
@@ -36381,11 +36375,17 @@
                 </next>
               </Spanner>
             <Spanner type="Slur">
-              <prev>
+              <Slur>
+                <linkedMain/>
+                <SlurSegment no="0">
+                  <o1 x="0" y="0.6"/>
+                  </SlurSegment>
+                </Slur>
+              <next>
                 <location>
-                  <grace>0</grace>
+                  <fractions>3/8</fractions>
                   </location>
-                </prev>
+                </next>
               </Spanner>
             <Note>
               <linkedMain/>
@@ -36503,6 +36503,16 @@
             <Spanner type="Slur">
               <Slur>
                 <linkedMain/>
+                </Slur>
+              <next>
+                <location>
+                  <fractions>1/4</fractions>
+                  </location>
+                </next>
+              </Spanner>
+            <Spanner type="Slur">
+              <Slur>
+                <linkedMain/>
                 <SlurSegment no="0">
                   <o1 x="0" y="0.6"/>
                   </SlurSegment>
@@ -36510,16 +36520,6 @@
               <next>
                 <location>
                   <fractions>3/8</fractions>
-                  </location>
-                </next>
-              </Spanner>
-            <Spanner type="Slur">
-              <Slur>
-                <linkedMain/>
-                </Slur>
-              <next>
-                <location>
-                  <fractions>1/4</fractions>
                   </location>
                 </next>
               </Spanner>
@@ -36976,6 +36976,16 @@
             <Spanner type="Slur">
               <Slur>
                 <linkedMain/>
+                </Slur>
+              <next>
+                <location>
+                  <fractions>1/4</fractions>
+                  </location>
+                </next>
+              </Spanner>
+            <Spanner type="Slur">
+              <Slur>
+                <linkedMain/>
                 <SlurSegment no="0">
                   <o1 x="0" y="0.9"/>
                   </SlurSegment>
@@ -36983,16 +36993,6 @@
               <next>
                 <location>
                   <fractions>3/8</fractions>
-                  </location>
-                </next>
-              </Spanner>
-            <Spanner type="Slur">
-              <Slur>
-                <linkedMain/>
-                </Slur>
-              <next>
-                <location>
-                  <fractions>1/4</fractions>
                   </location>
                 </next>
               </Spanner>
@@ -37199,6 +37199,16 @@
             <Spanner type="Slur">
               <Slur>
                 <linkedMain/>
+                </Slur>
+              <next>
+                <location>
+                  <fractions>1/16</fractions>
+                  </location>
+                </next>
+              </Spanner>
+            <Spanner type="Slur">
+              <Slur>
+                <linkedMain/>
                 <SlurSegment no="0">
                   <o1 x="0" y="-0.5"/>
                   </SlurSegment>
@@ -37206,16 +37216,6 @@
               <next>
                 <location>
                   <fractions>3/16</fractions>
-                  </location>
-                </next>
-              </Spanner>
-            <Spanner type="Slur">
-              <Slur>
-                <linkedMain/>
-                </Slur>
-              <next>
-                <location>
-                  <fractions>1/16</fractions>
                   </location>
                 </next>
               </Spanner>
@@ -38345,7 +38345,7 @@
                 </Slur>
               <next>
                 <location>
-                  <fractions>3/8</fractions>
+                  <fractions>1/4</fractions>
                   </location>
                 </next>
               </Spanner>
@@ -38355,7 +38355,7 @@
                 </Slur>
               <next>
                 <location>
-                  <fractions>1/4</fractions>
+                  <fractions>3/8</fractions>
                   </location>
                 </next>
               </Spanner>
@@ -39330,6 +39330,16 @@
             <Spanner type="Slur">
               <Slur>
                 <linkedMain/>
+                </Slur>
+              <next>
+                <location>
+                  <fractions>1/16</fractions>
+                  </location>
+                </next>
+              </Spanner>
+            <Spanner type="Slur">
+              <Slur>
+                <linkedMain/>
                 <SlurSegment no="0">
                   <o1 x="0" y="1.3"/>
                   <o4 x="0" y="0.4"/>
@@ -39338,16 +39348,6 @@
               <next>
                 <location>
                   <fractions>3/16</fractions>
-                  </location>
-                </next>
-              </Spanner>
-            <Spanner type="Slur">
-              <Slur>
-                <linkedMain/>
-                </Slur>
-              <next>
-                <location>
-                  <fractions>1/16</fractions>
                   </location>
                 </next>
               </Spanner>
@@ -52328,6 +52328,16 @@
             <Spanner type="Slur">
               <Slur>
                 <linkedMain/>
+                </Slur>
+              <next>
+                <location>
+                  <fractions>1/4</fractions>
+                  </location>
+                </next>
+              </Spanner>
+            <Spanner type="Slur">
+              <Slur>
+                <linkedMain/>
                 <SlurSegment no="0">
                   <offset x="0" y="-1"/>
                   </SlurSegment>
@@ -52335,16 +52345,6 @@
               <next>
                 <location>
                   <fractions>3/8</fractions>
-                  </location>
-                </next>
-              </Spanner>
-            <Spanner type="Slur">
-              <Slur>
-                <linkedMain/>
-                </Slur>
-              <next>
-                <location>
-                  <fractions>1/4</fractions>
                   </location>
                 </next>
               </Spanner>
@@ -52705,6 +52705,16 @@
             <Spanner type="Slur">
               <Slur>
                 <linkedMain/>
+                </Slur>
+              <next>
+                <location>
+                  <fractions>1/4</fractions>
+                  </location>
+                </next>
+              </Spanner>
+            <Spanner type="Slur">
+              <Slur>
+                <linkedMain/>
                 <SlurSegment no="0">
                   <o1 x="0" y="-1.2"/>
                   </SlurSegment>
@@ -52712,16 +52722,6 @@
               <next>
                 <location>
                   <fractions>3/8</fractions>
-                  </location>
-                </next>
-              </Spanner>
-            <Spanner type="Slur">
-              <Slur>
-                <linkedMain/>
-                </Slur>
-              <next>
-                <location>
-                  <fractions>1/4</fractions>
                   </location>
                 </next>
               </Spanner>
@@ -53834,6 +53834,16 @@
             <Spanner type="Slur">
               <Slur>
                 <linkedMain/>
+                </Slur>
+              <next>
+                <location>
+                  <fractions>1/4</fractions>
+                  </location>
+                </next>
+              </Spanner>
+            <Spanner type="Slur">
+              <Slur>
+                <linkedMain/>
                 <SlurSegment no="0">
                   <o1 x="0" y="-0.9"/>
                   </SlurSegment>
@@ -53841,16 +53851,6 @@
               <next>
                 <location>
                   <fractions>3/8</fractions>
-                  </location>
-                </next>
-              </Spanner>
-            <Spanner type="Slur">
-              <Slur>
-                <linkedMain/>
-                </Slur>
-              <next>
-                <location>
-                  <fractions>1/4</fractions>
                   </location>
                 </next>
               </Spanner>
@@ -57054,7 +57054,7 @@
                 </Slur>
               <next>
                 <location>
-                  <fractions>3/8</fractions>
+                  <fractions>1/4</fractions>
                   </location>
                 </next>
               </Spanner>
@@ -57064,7 +57064,7 @@
                 </Slur>
               <next>
                 <location>
-                  <fractions>1/4</fractions>
+                  <fractions>3/8</fractions>
                   </location>
                 </next>
               </Spanner>
@@ -57279,7 +57279,7 @@
                 </Slur>
               <next>
                 <location>
-                  <fractions>3/8</fractions>
+                  <fractions>1/4</fractions>
                   </location>
                 </next>
               </Spanner>
@@ -57289,7 +57289,7 @@
                 </Slur>
               <next>
                 <location>
-                  <fractions>1/4</fractions>
+                  <fractions>3/8</fractions>
                   </location>
                 </next>
               </Spanner>
@@ -58138,6 +58138,16 @@
             <Spanner type="Slur">
               <Slur>
                 <linkedMain/>
+                </Slur>
+              <next>
+                <location>
+                  <fractions>1/16</fractions>
+                  </location>
+                </next>
+              </Spanner>
+            <Spanner type="Slur">
+              <Slur>
+                <linkedMain/>
                 <SlurSegment no="0">
                   <o1 x="0" y="-0.5"/>
                   </SlurSegment>
@@ -58145,16 +58155,6 @@
               <next>
                 <location>
                   <fractions>3/16</fractions>
-                  </location>
-                </next>
-              </Spanner>
-            <Spanner type="Slur">
-              <Slur>
-                <linkedMain/>
-                </Slur>
-              <next>
-                <location>
-                  <fractions>1/16</fractions>
                   </location>
                 </next>
               </Spanner>
@@ -58743,7 +58743,7 @@
                 </Slur>
               <next>
                 <location>
-                  <fractions>3/8</fractions>
+                  <fractions>1/4</fractions>
                   </location>
                 </next>
               </Spanner>
@@ -58753,7 +58753,7 @@
                 </Slur>
               <next>
                 <location>
-                  <fractions>1/4</fractions>
+                  <fractions>3/8</fractions>
                   </location>
                 </next>
               </Spanner>
@@ -59231,6 +59231,16 @@
             <Spanner type="Slur">
               <Slur>
                 <linkedMain/>
+                </Slur>
+              <next>
+                <location>
+                  <fractions>1/4</fractions>
+                  </location>
+                </next>
+              </Spanner>
+            <Spanner type="Slur">
+              <Slur>
+                <linkedMain/>
                 <SlurSegment no="0">
                   <o1 x="-0.491213" y="-2.92443"/>
                   </SlurSegment>
@@ -59239,16 +59249,6 @@
               <next>
                 <location>
                   <fractions>3/8</fractions>
-                  </location>
-                </next>
-              </Spanner>
-            <Spanner type="Slur">
-              <Slur>
-                <linkedMain/>
-                </Slur>
-              <next>
-                <location>
-                  <fractions>1/4</fractions>
                   </location>
                 </next>
               </Spanner>
@@ -59303,6 +59303,17 @@
             <Spanner type="Slur">
               <Slur>
                 <linkedMain/>
+                <up>up</up>
+                </Slur>
+              <next>
+                <location>
+                  <fractions>1/4</fractions>
+                  </location>
+                </next>
+              </Spanner>
+            <Spanner type="Slur">
+              <Slur>
+                <linkedMain/>
                 <SlurSegment no="0">
                   <o1 x="0" y="-0.8"/>
                   <o2 x="0" y="0.5"/>
@@ -59313,17 +59324,6 @@
               <next>
                 <location>
                   <fractions>3/8</fractions>
-                  </location>
-                </next>
-              </Spanner>
-            <Spanner type="Slur">
-              <Slur>
-                <linkedMain/>
-                <up>up</up>
-                </Slur>
-              <next>
-                <location>
-                  <fractions>1/4</fractions>
                   </location>
                 </next>
               </Spanner>
@@ -60142,6 +60142,16 @@
             <Spanner type="Slur">
               <Slur>
                 <linkedMain/>
+                </Slur>
+              <next>
+                <location>
+                  <fractions>1/16</fractions>
+                  </location>
+                </next>
+              </Spanner>
+            <Spanner type="Slur">
+              <Slur>
+                <linkedMain/>
                 <SlurSegment no="0">
                   <o1 x="0" y="-0.5"/>
                   <o4 x="0" y="-1.1"/>
@@ -60150,16 +60160,6 @@
               <next>
                 <location>
                   <fractions>3/16</fractions>
-                  </location>
-                </next>
-              </Spanner>
-            <Spanner type="Slur">
-              <Slur>
-                <linkedMain/>
-                </Slur>
-              <next>
-                <location>
-                  <fractions>1/16</fractions>
                   </location>
                 </next>
               </Spanner>
@@ -72643,6 +72643,16 @@
             <Spanner type="Slur">
               <Slur>
                 <linkedMain/>
+                </Slur>
+              <next>
+                <location>
+                  <fractions>1/4</fractions>
+                  </location>
+                </next>
+              </Spanner>
+            <Spanner type="Slur">
+              <Slur>
+                <linkedMain/>
                 <SlurSegment no="0">
                   <o1 x="0" y="-0.8"/>
                   </SlurSegment>
@@ -72650,16 +72660,6 @@
               <next>
                 <location>
                   <fractions>3/8</fractions>
-                  </location>
-                </next>
-              </Spanner>
-            <Spanner type="Slur">
-              <Slur>
-                <linkedMain/>
-                </Slur>
-              <next>
-                <location>
-                  <fractions>1/4</fractions>
                   </location>
                 </next>
               </Spanner>
@@ -91897,24 +91897,22 @@
               <Spanner type="Slur">
                 <Slur>
                   <linked>
-                    <indexDiff>1</indexDiff>
                     </linked>
                   </Slur>
                 <next>
                   <location>
-                    <fractions>3/8</fractions>
+                    <fractions>1/4</fractions>
                     </location>
                   </next>
                 </Spanner>
               <Spanner type="Slur">
                 <Slur>
                   <linked>
-                    <indexDiff>-1</indexDiff>
                     </linked>
                   </Slur>
                 <next>
                   <location>
-                    <fractions>1/4</fractions>
+                    <fractions>3/8</fractions>
                     </location>
                   </next>
                 </Spanner>
@@ -94177,7 +94175,6 @@
               <Spanner type="Slur">
                 <Slur>
                   <linked>
-                    <indexDiff>1</indexDiff>
                     </linked>
                   </Slur>
                 <next>
@@ -94189,7 +94186,6 @@
               <Spanner type="Slur">
                 <Slur>
                   <linked>
-                    <indexDiff>-1</indexDiff>
                     </linked>
                   </Slur>
                 <next>
@@ -95945,24 +95941,22 @@
               <Spanner type="Slur">
                 <Slur>
                   <linked>
-                    <indexDiff>1</indexDiff>
                     </linked>
                   </Slur>
                 <next>
                   <location>
-                    <fractions>3/16</fractions>
+                    <fractions>1/16</fractions>
                     </location>
                   </next>
                 </Spanner>
               <Spanner type="Slur">
                 <Slur>
                   <linked>
-                    <indexDiff>-1</indexDiff>
                     </linked>
                   </Slur>
                 <next>
                   <location>
-                    <fractions>1/16</fractions>
+                    <fractions>3/16</fractions>
                     </location>
                   </next>
                 </Spanner>
@@ -100360,7 +100354,6 @@
               <Spanner type="Slur">
                 <Slur>
                   <linked>
-                    <indexDiff>1</indexDiff>
                     </linked>
                   </Slur>
                 <next>
@@ -100372,7 +100365,6 @@
               <Spanner type="Slur">
                 <Slur>
                   <linked>
-                    <indexDiff>-1</indexDiff>
                     </linked>
                   </Slur>
                 <next>
@@ -104812,7 +104804,6 @@
               <Spanner type="Slur">
                 <Slur>
                   <linked>
-                    <indexDiff>1</indexDiff>
                     </linked>
                   <up>down</up>
                   </Slur>
@@ -104825,7 +104816,6 @@
               <Spanner type="Slur">
                 <Slur>
                   <linked>
-                    <indexDiff>-1</indexDiff>
                     </linked>
                   <up>down</up>
                   </Slur>
@@ -107328,7 +107318,6 @@
               <HairPin>
                 <subtype>1</subtype>
                 <linked>
-                  <indexDiff>1</indexDiff>
                   </linked>
                 </HairPin>
               <next>
@@ -107342,7 +107331,6 @@
                 <endHookType>1</endHookType>
                 <beginText>2.</beginText>
                 <linked>
-                  <indexDiff>-1</indexDiff>
                   </linked>
                 <endings>2</endings>
                 </Volta>
@@ -111666,6 +111654,13 @@
                 </linked>
               <durationType>eighth</durationType>
               <Spanner type="Slur">
+                <prev>
+                  <location>
+                    <grace>0</grace>
+                    </location>
+                  </prev>
+                </Spanner>
+              <Spanner type="Slur">
                 <Slur>
                   <linked>
                     </linked>
@@ -111675,13 +111670,6 @@
                     <fractions>1/4</fractions>
                     </location>
                   </next>
-                </Spanner>
-              <Spanner type="Slur">
-                <prev>
-                  <location>
-                    <grace>0</grace>
-                    </location>
-                  </prev>
                 </Spanner>
               <Note>
                 <linked>
@@ -125738,7 +125726,6 @@
               <Spanner type="Slur">
                 <Slur>
                   <linked>
-                    <indexDiff>1</indexDiff>
                     </linked>
                   </Slur>
                 <next>
@@ -125750,7 +125737,6 @@
               <Spanner type="Slur">
                 <Slur>
                   <linked>
-                    <indexDiff>-1</indexDiff>
                     </linked>
                   </Slur>
                 <next>
@@ -128474,7 +128460,6 @@
               <Spanner type="Slur">
                 <Slur>
                   <linked>
-                    <indexDiff>1</indexDiff>
                     </linked>
                   </Slur>
                 <next>
@@ -128486,7 +128471,6 @@
               <Spanner type="Slur">
                 <Slur>
                   <linked>
-                    <indexDiff>-1</indexDiff>
                     </linked>
                   </Slur>
                 <next>
@@ -129844,7 +129828,6 @@
               <Spanner type="Slur">
                 <Slur>
                   <linked>
-                    <indexDiff>1</indexDiff>
                     </linked>
                   </Slur>
                 <next>
@@ -129856,7 +129839,6 @@
               <Spanner type="Slur">
                 <Slur>
                   <linked>
-                    <indexDiff>-1</indexDiff>
                     </linked>
                   </Slur>
                 <next>
@@ -130366,7 +130348,7 @@
                   </Slur>
                 <next>
                   <location>
-                    <fractions>3/8</fractions>
+                    <fractions>1/4</fractions>
                     </location>
                   </next>
                 </Spanner>
@@ -130377,7 +130359,7 @@
                   </Slur>
                 <next>
                   <location>
-                    <fractions>1/4</fractions>
+                    <fractions>3/8</fractions>
                     </location>
                   </next>
                 </Spanner>
@@ -132745,20 +132727,6 @@
                 </linked>
               <durationType>quarter</durationType>
               <Spanner type="Slur">
-                <Slur>
-                  <linked>
-                    </linked>
-                  <SlurSegment no="0">
-                    <offset x="0" y="0.5"/>
-                    </SlurSegment>
-                  </Slur>
-                <next>
-                  <location>
-                    <fractions>3/8</fractions>
-                    </location>
-                  </next>
-                </Spanner>
-              <Spanner type="Slur">
                 <prev>
                   <location>
                     <grace>0</grace>
@@ -132773,6 +132741,20 @@
                 <next>
                   <location>
                     <fractions>1/4</fractions>
+                    </location>
+                  </next>
+                </Spanner>
+              <Spanner type="Slur">
+                <Slur>
+                  <linked>
+                    </linked>
+                  <SlurSegment no="0">
+                    <offset x="0" y="0.5"/>
+                    </SlurSegment>
+                  </Slur>
+                <next>
+                  <location>
+                    <fractions>3/8</fractions>
                     </location>
                   </next>
                 </Spanner>
@@ -132908,13 +132890,10 @@
                 <Slur>
                   <linked>
                     </linked>
-                  <SlurSegment no="0">
-                    <offset x="0" y="0.5"/>
-                    </SlurSegment>
                   </Slur>
                 <next>
                   <location>
-                    <fractions>3/8</fractions>
+                    <fractions>1/4</fractions>
                     </location>
                   </next>
                 </Spanner>
@@ -132922,10 +132901,13 @@
                 <Slur>
                   <linked>
                     </linked>
+                  <SlurSegment no="0">
+                    <offset x="0" y="0.5"/>
+                    </SlurSegment>
                   </Slur>
                 <next>
                   <location>
-                    <fractions>1/4</fractions>
+                    <fractions>3/8</fractions>
                     </location>
                   </next>
                 </Spanner>
@@ -133453,13 +133435,10 @@
                 <Slur>
                   <linked>
                     </linked>
-                  <SlurSegment no="0">
-                    <offset x="0" y="0.5"/>
-                    </SlurSegment>
                   </Slur>
                 <next>
                   <location>
-                    <fractions>3/8</fractions>
+                    <fractions>1/4</fractions>
                     </location>
                   </next>
                 </Spanner>
@@ -133467,10 +133446,13 @@
                 <Slur>
                   <linked>
                     </linked>
+                  <SlurSegment no="0">
+                    <offset x="0" y="0.5"/>
+                    </SlurSegment>
                   </Slur>
                 <next>
                   <location>
-                    <fractions>1/4</fractions>
+                    <fractions>3/8</fractions>
                     </location>
                   </next>
                 </Spanner>
@@ -133722,7 +133704,6 @@
               <Spanner type="Slur">
                 <Slur>
                   <linked>
-                    <indexDiff>1</indexDiff>
                     </linked>
                   </Slur>
                 <next>
@@ -133734,7 +133715,6 @@
               <Spanner type="Slur">
                 <Slur>
                   <linked>
-                    <indexDiff>-1</indexDiff>
                     </linked>
                   <SlurSegment no="0">
                     <offset x="0" y="-0.5"/>
@@ -134332,7 +134312,17 @@
               <Spanner type="Slur">
                 <Slur>
                   <linked>
-                    <indexDiff>1</indexDiff>
+                    </linked>
+                  </Slur>
+                <next>
+                  <location>
+                    <fractions>1/4</fractions>
+                    </location>
+                  </next>
+                </Spanner>
+              <Spanner type="Slur">
+                <Slur>
+                  <linked>
                     </linked>
                   <SlurSegment no="0">
                     <offset x="0" y="0.5"/>
@@ -134341,18 +134331,6 @@
                 <next>
                   <location>
                     <fractions>3/8</fractions>
-                    </location>
-                  </next>
-                </Spanner>
-              <Spanner type="Slur">
-                <Slur>
-                  <linked>
-                    <indexDiff>-1</indexDiff>
-                    </linked>
-                  </Slur>
-                <next>
-                  <location>
-                    <fractions>1/4</fractions>
                     </location>
                   </next>
                 </Spanner>
@@ -135055,7 +135033,7 @@
                   </Slur>
                 <next>
                   <location>
-                    <fractions>3/8</fractions>
+                    <fractions>1/4</fractions>
                     </location>
                   </next>
                 </Spanner>
@@ -135066,7 +135044,7 @@
                   </Slur>
                 <next>
                   <location>
-                    <fractions>1/4</fractions>
+                    <fractions>3/8</fractions>
                     </location>
                   </next>
                 </Spanner>
@@ -136215,7 +136193,6 @@
               <Spanner type="Slur">
                 <Slur>
                   <linked>
-                    <indexDiff>1</indexDiff>
                     </linked>
                   </Slur>
                 <next>
@@ -136227,7 +136204,6 @@
               <Spanner type="Slur">
                 <Slur>
                   <linked>
-                    <indexDiff>-1</indexDiff>
                     </linked>
                   <SlurSegment no="0">
                     <offset x="0" y="1"/>
@@ -151666,7 +151642,7 @@
               <Spanner type="Slur">
                 <Slur>
                   <linked>
-                    <indexDiff>3</indexDiff>
+                    <indexDiff>2</indexDiff>
                     </linked>
                   </Slur>
                 <next>
@@ -151678,7 +151654,7 @@
               <Spanner type="Slur">
                 <Slur>
                   <linked>
-                    <indexDiff>1</indexDiff>
+                    <indexDiff>2</indexDiff>
                     </linked>
                   </Slur>
                 <next>
@@ -152104,7 +152080,6 @@
               <Spanner type="Slur">
                 <Slur>
                   <linked>
-                    <indexDiff>1</indexDiff>
                     </linked>
                   </Slur>
                 <next>
@@ -152116,7 +152091,6 @@
               <Spanner type="Slur">
                 <Slur>
                   <linked>
-                    <indexDiff>-1</indexDiff>
                     </linked>
                   </Slur>
                 <next>
@@ -152857,24 +152831,22 @@
               <Spanner type="Slur">
                 <Slur>
                   <linked>
-                    <indexDiff>1</indexDiff>
                     </linked>
                   </Slur>
                 <next>
                   <location>
-                    <fractions>3/16</fractions>
+                    <fractions>1/16</fractions>
                     </location>
                   </next>
                 </Spanner>
               <Spanner type="Slur">
                 <Slur>
                   <linked>
-                    <indexDiff>-1</indexDiff>
                     </linked>
                   </Slur>
                 <next>
                   <location>
-                    <fractions>1/16</fractions>
+                    <fractions>3/16</fractions>
                     </location>
                   </next>
                 </Spanner>
@@ -153421,7 +153393,6 @@
               <Spanner type="Slur">
                 <Slur>
                   <linked>
-                    <indexDiff>1</indexDiff>
                     </linked>
                   </Slur>
                 <next>
@@ -153433,7 +153404,6 @@
               <Spanner type="Slur">
                 <Slur>
                   <linked>
-                    <indexDiff>-1</indexDiff>
                     </linked>
                   </Slur>
                 <next>
@@ -157217,7 +157187,6 @@
               <Spanner type="Slur">
                 <Slur>
                   <linked>
-                    <indexDiff>1</indexDiff>
                     </linked>
                   </Slur>
                 <next>
@@ -157229,7 +157198,6 @@
               <Spanner type="Slur">
                 <Slur>
                   <linked>
-                    <indexDiff>-1</indexDiff>
                     </linked>
                   </Slur>
                 <next>
@@ -157474,7 +157442,6 @@
               <Spanner type="Slur">
                 <Slur>
                   <linked>
-                    <indexDiff>1</indexDiff>
                     </linked>
                   </Slur>
                 <next>
@@ -157486,7 +157453,6 @@
               <Spanner type="Slur">
                 <Slur>
                   <linked>
-                    <indexDiff>-1</indexDiff>
                     </linked>
                   </Slur>
                 <next>
@@ -158465,7 +158431,6 @@
               <Spanner type="Slur">
                 <Slur>
                   <linked>
-                    <indexDiff>1</indexDiff>
                     </linked>
                   </Slur>
                 <next>
@@ -158477,7 +158442,6 @@
               <Spanner type="Slur">
                 <Slur>
                   <linked>
-                    <indexDiff>-1</indexDiff>
                     </linked>
                   <SlurSegment no="0">
                     <offset x="0" y="-0.5"/>
@@ -159167,7 +159131,6 @@
               <Spanner type="Slur">
                 <Slur>
                   <linked>
-                    <indexDiff>1</indexDiff>
                     </linked>
                   </Slur>
                 <next>
@@ -159179,7 +159142,6 @@
               <Spanner type="Slur">
                 <Slur>
                   <linked>
-                    <indexDiff>-1</indexDiff>
                     </linked>
                   </Slur>
                 <next>
@@ -159729,7 +159691,6 @@
               <Spanner type="Slur">
                 <Slur>
                   <linked>
-                    <indexDiff>1</indexDiff>
                     </linked>
                   </Slur>
                 <next>
@@ -159741,7 +159702,6 @@
               <Spanner type="Slur">
                 <Slur>
                   <linked>
-                    <indexDiff>-1</indexDiff>
                     </linked>
                   <up>up</up>
                   </Slur>
@@ -159809,7 +159769,6 @@
               <Spanner type="Slur">
                 <Slur>
                   <linked>
-                    <indexDiff>1</indexDiff>
                     </linked>
                   <up>up</up>
                   </Slur>
@@ -159822,7 +159781,6 @@
               <Spanner type="Slur">
                 <Slur>
                   <linked>
-                    <indexDiff>-1</indexDiff>
                     </linked>
                   <SlurSegment no="0">
                     <offset x="0" y="-0.5"/>
@@ -160771,7 +160729,6 @@
               <Spanner type="Slur">
                 <Slur>
                   <linked>
-                    <indexDiff>1</indexDiff>
                     </linked>
                   </Slur>
                 <next>
@@ -160783,7 +160740,6 @@
               <Spanner type="Slur">
                 <Slur>
                   <linked>
-                    <indexDiff>-1</indexDiff>
                     </linked>
                   <SlurSegment no="0">
                     <offset x="0" y="-0.5"/>
@@ -175685,7 +175641,6 @@
               <Spanner type="Slur">
                 <Slur>
                   <linked>
-                    <indexDiff>1</indexDiff>
                     </linked>
                   </Slur>
                 <next>
@@ -175697,7 +175652,6 @@
               <Spanner type="Slur">
                 <Slur>
                   <linked>
-                    <indexDiff>-1</indexDiff>
                     </linked>
                   </Slur>
                 <next>
@@ -177933,24 +177887,22 @@
               <Spanner type="Slur">
                 <Slur>
                   <linked>
-                    <indexDiff>1</indexDiff>
                     </linked>
                   </Slur>
                 <next>
                   <location>
-                    <fractions>3/16</fractions>
+                    <fractions>1/16</fractions>
                     </location>
                   </next>
                 </Spanner>
               <Spanner type="Slur">
                 <Slur>
                   <linked>
-                    <indexDiff>-1</indexDiff>
                     </linked>
                   </Slur>
                 <next>
                   <location>
-                    <fractions>1/16</fractions>
+                    <fractions>3/16</fractions>
                     </location>
                   </next>
                 </Spanner>
