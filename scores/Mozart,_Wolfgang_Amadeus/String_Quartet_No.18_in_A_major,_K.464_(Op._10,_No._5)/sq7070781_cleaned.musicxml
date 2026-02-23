@@ -12,7 +12,7 @@
     <rights>OpenScore (CC0)</rights>
     <encoding>
       <software>MuseScore 3.6.2</software>
-      <encoding-date>2025-06-05</encoding-date>
+      <encoding-date>2026-02-19</encoding-date>
       <supports element="accidental" type="yes" />
       <supports element="beam" type="yes" />
       <supports element="print" attribute="new-page" type="yes" value="yes" />
@@ -70,6 +70,10 @@
     <credit-words default-x="1050.3" default-y="240" justify="center" valign="bottom" font-size="9">OpenScore (CC0)</credit-words>
   </credit>
   <credit page="2">
+    <credit-type>rights</credit-type>
+    <credit-words default-x="1050.3" default-y="240" justify="center" valign="bottom" font-size="9">OpenScore (CC0)</credit-words>
+  </credit>
+  <credit page="3">
     <credit-type>rights</credit-type>
     <credit-words default-x="1050.3" default-y="240" justify="center" valign="bottom" font-size="9">OpenScore (CC0)</credit-words>
   </credit>
@@ -680,7 +684,7 @@
             <left-margin>5.94</left-margin>
             <right-margin>0.00</right-margin>
           </system-margins>
-          <system-distance>170.25</system-distance>
+          <system-distance>266.63</system-distance>
         </system-layout>
       </print>
       <note>
@@ -1330,14 +1334,14 @@
         <type>quarter</type>
       </note>
     </measure>
-    <measure number="29" width="192.36">
+    <measure number="29" width="210.89">
       <print new-system="yes">
         <system-layout>
           <system-margins>
             <left-margin>5.94</left-margin>
             <right-margin>-0.00</right-margin>
           </system-margins>
-          <system-distance>170.25</system-distance>
+          <system-distance>266.63</system-distance>
         </system-layout>
       </print>
       <note>
@@ -1388,7 +1392,7 @@
         </notations>
       </note>
     </measure>
-    <measure number="30" width="112.27">
+    <measure number="30" width="130.81">
       <note>
         <pitch>
           <step>B</step>
@@ -1442,7 +1446,7 @@
         <stem>up</stem>
       </note>
     </measure>
-    <measure number="31" width="73.82">
+    <measure number="31" width="92.36">
       <note>
         <pitch>
           <step>C</step>
@@ -1494,7 +1498,7 @@
         </notations>
       </note>
     </measure>
-    <measure number="32" width="97.82">
+    <measure number="32" width="116.35">
       <note>
         <pitch>
           <step>C</step>
@@ -1548,21 +1552,21 @@
         <stem>up</stem>
       </note>
     </measure>
-    <measure number="33" width="51.03">
+    <measure number="33" width="69.57">
       <note>
         <rest measure="yes" />
         <duration>72</duration>
         <voice>1</voice>
       </note>
     </measure>
-    <measure number="34" width="73.82">
+    <measure number="34" width="92.36">
       <note>
         <rest measure="yes" />
         <duration>72</duration>
         <voice>1</voice>
       </note>
     </measure>
-    <measure number="35" width="115.77">
+    <measure number="35" width="134.31">
       <note>
         <pitch>
           <step>C</step>
@@ -1576,14 +1580,14 @@
         <stem>down</stem>
       </note>
     </measure>
-    <measure number="36" width="73.82">
+    <measure number="36" width="92.36">
       <note>
         <rest measure="yes" />
         <duration>72</duration>
         <voice>1</voice>
       </note>
     </measure>
-    <measure number="37" width="97.82">
+    <measure number="37" width="116.35">
       <note>
         <pitch>
           <step>F</step>
@@ -1600,7 +1604,7 @@
         </notations>
       </note>
     </measure>
-    <measure number="38" width="78.86">
+    <measure number="38" width="97.39">
       <note>
         <pitch>
           <step>G</step>
@@ -1648,111 +1652,7 @@
         </notations>
       </note>
     </measure>
-    <measure number="39" width="102.85">
-      <note>
-        <pitch>
-          <step>G</step>
-          <octave>5</octave>
-        </pitch>
-        <duration>24</duration>
-        <voice>1</voice>
-        <type>quarter</type>
-        <accidental>natural</accidental>
-        <stem>down</stem>
-        <notations>
-          <slur type="start" />
-        </notations>
-      </note>
-      <note>
-        <pitch>
-          <step>F</step>
-          <alter>1</alter>
-          <octave>5</octave>
-        </pitch>
-        <duration>18</duration>
-        <voice>1</voice>
-        <type>eighth</type>
-        <dot />
-        <stem>down</stem>
-        <beam number="1">begin</beam>
-        <notations>
-          <slur type="stop" />
-        </notations>
-      </note>
-      <note>
-        <pitch>
-          <step>E</step>
-          <octave>5</octave>
-        </pitch>
-        <duration>6</duration>
-        <voice>1</voice>
-        <type>16th</type>
-        <stem>down</stem>
-        <beam number="1">end</beam>
-        <beam number="2">backward hook</beam>
-      </note>
-      <note>
-        <pitch>
-          <step>D</step>
-          <octave>5</octave>
-        </pitch>
-        <duration>24</duration>
-        <voice>1</voice>
-        <type>quarter</type>
-        <stem>down</stem>
-      </note>
-    </measure>
-    <measure number="40" width="78.86">
-      <note>
-        <pitch>
-          <step>G</step>
-          <octave>5</octave>
-        </pitch>
-        <duration>24</duration>
-        <voice>1</voice>
-        <type>quarter</type>
-        <accidental>natural</accidental>
-        <stem>down</stem>
-        <notations>
-          <slur type="start" />
-          <articulations>
-            <staccato />
-          </articulations>
-        </notations>
-      </note>
-      <note>
-        <pitch>
-          <step>G</step>
-          <octave>5</octave>
-        </pitch>
-        <duration>24</duration>
-        <voice>1</voice>
-        <type>quarter</type>
-        <stem>down</stem>
-        <notations>
-          <articulations>
-            <staccato />
-          </articulations>
-        </notations>
-      </note>
-      <note>
-        <pitch>
-          <step>G</step>
-          <octave>5</octave>
-        </pitch>
-        <duration>24</duration>
-        <voice>1</voice>
-        <type>quarter</type>
-        <stem>down</stem>
-        <notations>
-          <slur type="stop" />
-          <articulations>
-            <staccato />
-          </articulations>
-        </notations>
-      </note>
-    </measure>
-    <measure number="41" width="102.85">
+    <measure number="39" width="121.39">
       <note>
         <pitch>
           <step>G</step>
@@ -1806,7 +1706,111 @@
         <stem>down</stem>
       </note>
     </measure>
-    <measure number="42" width="92.86">
+    <measure number="40" width="97.39">
+      <note>
+        <pitch>
+          <step>G</step>
+          <octave>5</octave>
+        </pitch>
+        <duration>24</duration>
+        <voice>1</voice>
+        <type>quarter</type>
+        <accidental>natural</accidental>
+        <stem>down</stem>
+        <notations>
+          <slur type="start" />
+          <articulations>
+            <staccato />
+          </articulations>
+        </notations>
+      </note>
+      <note>
+        <pitch>
+          <step>G</step>
+          <octave>5</octave>
+        </pitch>
+        <duration>24</duration>
+        <voice>1</voice>
+        <type>quarter</type>
+        <stem>down</stem>
+        <notations>
+          <articulations>
+            <staccato />
+          </articulations>
+        </notations>
+      </note>
+      <note>
+        <pitch>
+          <step>G</step>
+          <octave>5</octave>
+        </pitch>
+        <duration>24</duration>
+        <voice>1</voice>
+        <type>quarter</type>
+        <stem>down</stem>
+        <notations>
+          <slur type="stop" />
+          <articulations>
+            <staccato />
+          </articulations>
+        </notations>
+      </note>
+    </measure>
+    <measure number="41" width="121.39">
+      <note>
+        <pitch>
+          <step>G</step>
+          <octave>5</octave>
+        </pitch>
+        <duration>24</duration>
+        <voice>1</voice>
+        <type>quarter</type>
+        <accidental>natural</accidental>
+        <stem>down</stem>
+        <notations>
+          <slur type="start" />
+        </notations>
+      </note>
+      <note>
+        <pitch>
+          <step>F</step>
+          <alter>1</alter>
+          <octave>5</octave>
+        </pitch>
+        <duration>18</duration>
+        <voice>1</voice>
+        <type>eighth</type>
+        <dot />
+        <stem>down</stem>
+        <beam number="1">begin</beam>
+        <notations>
+          <slur type="stop" />
+        </notations>
+      </note>
+      <note>
+        <pitch>
+          <step>E</step>
+          <octave>5</octave>
+        </pitch>
+        <duration>6</duration>
+        <voice>1</voice>
+        <type>16th</type>
+        <stem>down</stem>
+        <beam number="1">end</beam>
+        <beam number="2">backward hook</beam>
+      </note>
+      <note>
+        <pitch>
+          <step>D</step>
+          <octave>5</octave>
+        </pitch>
+        <duration>24</duration>
+        <voice>1</voice>
+        <type>quarter</type>
+        <stem>down</stem>
+      </note>
+    </measure>
+    <measure number="42" width="111.39">
       <note>
         <pitch>
           <step>B</step>
@@ -1853,7 +1857,7 @@
         </notations>
       </note>
     </measure>
-    <measure number="43" width="78.86">
+    <measure number="43" width="97.39">
       <note>
         <pitch>
           <step>B</step>
@@ -1882,7 +1886,7 @@
         <type>quarter</type>
       </note>
     </measure>
-    <measure number="44" width="73.82">
+    <measure number="44" width="92.36">
       <note>
         <pitch>
           <step>C</step>
@@ -1921,7 +1925,16 @@
         </notations>
       </note>
     </measure>
-    <measure number="45" width="73.82">
+    <measure number="45" width="179.10">
+      <print new-page="yes">
+        <system-layout>
+          <system-margins>
+            <left-margin>6.54</left-margin>
+            <right-margin>-0.00</right-margin>
+          </system-margins>
+          <top-system-distance>70.00</top-system-distance>
+        </system-layout>
+      </print>
       <note>
         <pitch>
           <step>F</step>
@@ -1950,7 +1963,7 @@
         </notations>
       </note>
     </measure>
-    <measure number="46" width="117.89">
+    <measure number="46" width="135.05">
       <note>
         <pitch>
           <step>D</step>
@@ -1986,7 +1999,7 @@
         <type>quarter</type>
       </note>
     </measure>
-    <measure number="47" width="104.86">
+    <measure number="47" width="122.02">
       <note>
         <pitch>
           <step>A</step>
@@ -2026,16 +2039,7 @@
         </notations>
       </note>
     </measure>
-    <measure number="48" width="261.07">
-      <print new-system="yes">
-        <system-layout>
-          <system-margins>
-            <left-margin>5.94</left-margin>
-            <right-margin>-0.00</right-margin>
-          </system-margins>
-          <system-distance>170.25</system-distance>
-        </system-layout>
-      </print>
+    <measure number="48" width="137.40">
       <note>
         <pitch>
           <step>E</step>
@@ -2072,7 +2076,7 @@
         <type>quarter</type>
       </note>
     </measure>
-    <measure number="49" width="138.00">
+    <measure number="49" width="106.74">
       <note>
         <pitch>
           <step>A</step>
@@ -2121,7 +2125,7 @@
         </notations>
       </note>
     </measure>
-    <measure number="50" width="172.23">
+    <measure number="50" width="140.98">
       <note>
         <pitch>
           <step>A</step>
@@ -2176,7 +2180,7 @@
         <stem>up</stem>
       </note>
     </measure>
-    <measure number="51" width="139.74">
+    <measure number="51" width="108.48">
       <note>
         <pitch>
           <step>G</step>
@@ -2217,7 +2221,7 @@
         <stem>down</stem>
       </note>
     </measure>
-    <measure number="52" width="185.15">
+    <measure number="52" width="153.90">
       <note>
         <pitch>
           <step>E</step>
@@ -2273,7 +2277,7 @@
         </notations>
       </note>
     </measure>
-    <measure number="53" width="167.23">
+    <measure number="53" width="135.98">
       <note>
         <pitch>
           <step>D</step>
@@ -2348,7 +2352,7 @@
         </notations>
       </note>
     </measure>
-    <measure number="54" width="148.23">
+    <measure number="54" width="116.98">
       <note>
         <pitch>
           <step>E</step>
@@ -2372,7 +2376,7 @@
         <type>quarter</type>
       </note>
     </measure>
-    <measure number="55" width="139.74">
+    <measure number="55" width="108.48">
       <note>
         <pitch>
           <step>A</step>
@@ -2401,7 +2405,7 @@
         </notations>
       </note>
     </measure>
-    <measure number="56" width="163.73">
+    <measure number="56" width="132.48">
       <note>
         <pitch>
           <step>E</step>
@@ -2435,7 +2439,7 @@
         <type>quarter</type>
       </note>
     </measure>
-    <measure number="57" width="122.24">
+    <measure number="57" width="90.98">
       <note>
         <pitch>
           <step>B</step>
@@ -2463,7 +2467,7 @@
         </notations>
       </note>
     </measure>
-    <measure number="58" width="156.73">
+    <measure number="58" width="125.48">
       <note>
         <pitch>
           <step>F</step>
@@ -2499,13 +2503,13 @@
       </note>
     </measure>
     <measure number="59" width="188.91">
-      <print new-page="yes">
+      <print new-system="yes">
         <system-layout>
           <system-margins>
             <left-margin>6.54</left-margin>
             <right-margin>-0.00</right-margin>
           </system-margins>
-          <top-system-distance>70.00</top-system-distance>
+          <system-distance>156.08</system-distance>
         </system-layout>
       </print>
       <note>
@@ -3187,7 +3191,7 @@
             <left-margin>6.54</left-margin>
             <right-margin>0.00</right-margin>
           </system-margins>
-          <system-distance>158.33</system-distance>
+          <system-distance>156.08</system-distance>
         </system-layout>
       </print>
       <attributes>
@@ -3590,7 +3594,7 @@
             <left-margin>6.54</left-margin>
             <right-margin>0.00</right-margin>
           </system-margins>
-          <system-distance>158.33</system-distance>
+          <system-distance>156.08</system-distance>
         </system-layout>
       </print>
       <note>
@@ -4678,14 +4682,14 @@
         </notations>
       </note>
     </measure>
-    <measure number="88" width="211.50">
+    <measure number="88" width="231.83">
       <print new-system="yes">
         <system-layout>
           <system-margins>
             <left-margin>6.54</left-margin>
-            <right-margin>-0.00</right-margin>
+            <right-margin>0.00</right-margin>
           </system-margins>
-          <system-distance>158.33</system-distance>
+          <system-distance>156.08</system-distance>
         </system-layout>
       </print>
       <note>
@@ -4704,7 +4708,7 @@
         </notations>
       </note>
     </measure>
-    <measure number="89" width="177.33">
+    <measure number="89" width="197.66">
       <note>
         <pitch>
           <step>B</step>
@@ -4773,7 +4777,7 @@
         </notations>
       </note>
     </measure>
-    <measure number="90" width="143.37">
+    <measure number="90" width="163.71">
       <note>
         <pitch>
           <step>B</step>
@@ -4838,7 +4842,7 @@
         </notations>
       </note>
     </measure>
-    <measure number="91" width="158.37">
+    <measure number="91" width="178.70">
       <note>
         <pitch>
           <step>A</step>
@@ -4914,7 +4918,7 @@
         </notations>
       </note>
     </measure>
-    <measure number="92" width="113.38">
+    <measure number="92" width="133.71">
       <note>
         <pitch>
           <step>G</step>
@@ -4950,7 +4954,7 @@
         <type>quarter</type>
       </note>
     </measure>
-    <measure number="93" width="172.37">
+    <measure number="93" width="192.70">
       <note>
         <pitch>
           <step>B</step>
@@ -4967,7 +4971,7 @@
         </notations>
       </note>
     </measure>
-    <measure number="94" width="179.37">
+    <measure number="94" width="199.70">
       <note>
         <pitch>
           <step>B</step>
@@ -4986,7 +4990,7 @@
         </notations>
       </note>
     </measure>
-    <measure number="95" width="144.80">
+    <measure number="95" width="165.13">
       <note>
         <pitch>
           <step>B</step>
@@ -5029,7 +5033,7 @@
         </notations>
       </note>
     </measure>
-    <measure number="96" width="146.87">
+    <measure number="96" width="167.21">
       <note>
         <pitch>
           <step>E</step>
@@ -5093,7 +5097,7 @@
         </notations>
       </note>
     </measure>
-    <measure number="97" width="143.37">
+    <measure number="97" width="163.71">
       <note>
         <pitch>
           <step>G</step>
@@ -5111,7 +5115,16 @@
         </notations>
       </note>
     </measure>
-    <measure number="98" width="203.36">
+    <measure number="98" width="341.00">
+      <print new-page="yes">
+        <system-layout>
+          <system-margins>
+            <left-margin>5.94</left-margin>
+            <right-margin>0.00</right-margin>
+          </system-margins>
+          <top-system-distance>70.00</top-system-distance>
+        </system-layout>
+      </print>
       <note>
         <pitch>
           <step>G</step>
@@ -5211,16 +5224,7 @@
         </notations>
       </note>
     </measure>
-    <measure number="99" width="339.99">
-      <print new-system="yes">
-        <system-layout>
-          <system-margins>
-            <left-margin>6.54</left-margin>
-            <right-margin>-0.00</right-margin>
-          </system-margins>
-          <system-distance>158.33</system-distance>
-        </system-layout>
-      </print>
+    <measure number="99" width="201.39">
       <note>
         <pitch>
           <step>B</step>
@@ -5268,7 +5272,7 @@
         </notations>
       </note>
     </measure>
-    <measure number="100" width="267.87">
+    <measure number="100" width="227.39">
       <note>
         <pitch>
           <step>B</step>
@@ -5349,7 +5353,7 @@
         </notations>
       </note>
     </measure>
-    <measure number="101" width="321.87">
+    <measure number="101" width="281.39">
       <note>
         <pitch>
           <step>G</step>
@@ -5420,7 +5424,7 @@
         </notations>
       </note>
     </measure>
-    <measure number="102" width="367.85">
+    <measure number="102" width="327.37">
       <note>
         <pitch>
           <step>G</step>
@@ -5518,7 +5522,7 @@
         </notations>
       </note>
     </measure>
-    <measure number="103" width="284.47">
+    <measure number="103" width="243.99">
       <note>
         <pitch>
           <step>B</step>
@@ -5594,7 +5598,7 @@
         <beam number="1">end</beam>
       </note>
     </measure>
-    <measure number="104" width="212.00">
+    <measure number="104" width="171.52">
       <note>
         <pitch>
           <step>E</step>
@@ -5626,7 +5630,7 @@
     <measure number="1" width="206.53">
       <print>
         <staff-layout number="1">
-          <staff-distance>72.03</staff-distance>
+          <staff-distance>106.65</staff-distance>
         </staff-layout>
       </print>
       <attributes>
@@ -6023,7 +6027,7 @@
     <measure number="15" width="191.02">
       <print new-system="yes">
         <staff-layout number="1">
-          <staff-distance>68.10</staff-distance>
+          <staff-distance>106.65</staff-distance>
         </staff-layout>
       </print>
       <note>
@@ -6531,10 +6535,10 @@
         <type>quarter</type>
       </note>
     </measure>
-    <measure number="29" width="192.36">
+    <measure number="29" width="210.89">
       <print new-system="yes">
         <staff-layout number="1">
-          <staff-distance>68.10</staff-distance>
+          <staff-distance>106.65</staff-distance>
         </staff-layout>
       </print>
       <note>
@@ -6588,7 +6592,7 @@
         </notations>
       </note>
     </measure>
-    <measure number="30" width="112.27">
+    <measure number="30" width="130.81">
       <note>
         <pitch>
           <step>G</step>
@@ -6644,7 +6648,7 @@
         <stem>up</stem>
       </note>
     </measure>
-    <measure number="31" width="73.82">
+    <measure number="31" width="92.36">
       <note>
         <pitch>
           <step>A</step>
@@ -6693,7 +6697,7 @@
         </notations>
       </note>
     </measure>
-    <measure number="32" width="97.82">
+    <measure number="32" width="116.35">
       <note>
         <pitch>
           <step>A</step>
@@ -6747,21 +6751,21 @@
         <stem>up</stem>
       </note>
     </measure>
-    <measure number="33" width="51.03">
+    <measure number="33" width="69.57">
       <note>
         <rest measure="yes" />
         <duration>72</duration>
         <voice>1</voice>
       </note>
     </measure>
-    <measure number="34" width="73.82">
+    <measure number="34" width="92.36">
       <note>
         <rest measure="yes" />
         <duration>72</duration>
         <voice>1</voice>
       </note>
     </measure>
-    <measure number="35" width="115.77">
+    <measure number="35" width="134.31">
       <note>
         <pitch>
           <step>C</step>
@@ -6775,14 +6779,14 @@
         <stem>up</stem>
       </note>
     </measure>
-    <measure number="36" width="73.82">
+    <measure number="36" width="92.36">
       <note>
         <rest measure="yes" />
         <duration>72</duration>
         <voice>1</voice>
       </note>
     </measure>
-    <measure number="37" width="97.82">
+    <measure number="37" width="116.35">
       <note>
         <pitch>
           <step>F</step>
@@ -6799,7 +6803,7 @@
         </notations>
       </note>
     </measure>
-    <measure number="38" width="78.86">
+    <measure number="38" width="97.39">
       <note>
         <pitch>
           <step>G</step>
@@ -6847,111 +6851,7 @@
         </notations>
       </note>
     </measure>
-    <measure number="39" width="102.85">
-      <note>
-        <pitch>
-          <step>G</step>
-          <octave>4</octave>
-        </pitch>
-        <duration>24</duration>
-        <voice>1</voice>
-        <type>quarter</type>
-        <accidental>natural</accidental>
-        <stem>up</stem>
-        <notations>
-          <slur type="start" />
-        </notations>
-      </note>
-      <note>
-        <pitch>
-          <step>F</step>
-          <alter>1</alter>
-          <octave>4</octave>
-        </pitch>
-        <duration>18</duration>
-        <voice>1</voice>
-        <type>eighth</type>
-        <dot />
-        <stem>up</stem>
-        <beam number="1">begin</beam>
-        <notations>
-          <slur type="stop" />
-        </notations>
-      </note>
-      <note>
-        <pitch>
-          <step>E</step>
-          <octave>4</octave>
-        </pitch>
-        <duration>6</duration>
-        <voice>1</voice>
-        <type>16th</type>
-        <stem>up</stem>
-        <beam number="1">end</beam>
-        <beam number="2">backward hook</beam>
-      </note>
-      <note>
-        <pitch>
-          <step>D</step>
-          <octave>4</octave>
-        </pitch>
-        <duration>24</duration>
-        <voice>1</voice>
-        <type>quarter</type>
-        <stem>up</stem>
-      </note>
-    </measure>
-    <measure number="40" width="78.86">
-      <note>
-        <pitch>
-          <step>G</step>
-          <octave>4</octave>
-        </pitch>
-        <duration>24</duration>
-        <voice>1</voice>
-        <type>quarter</type>
-        <accidental>natural</accidental>
-        <stem>up</stem>
-        <notations>
-          <slur type="start" />
-          <articulations>
-            <staccato />
-          </articulations>
-        </notations>
-      </note>
-      <note>
-        <pitch>
-          <step>G</step>
-          <octave>4</octave>
-        </pitch>
-        <duration>24</duration>
-        <voice>1</voice>
-        <type>quarter</type>
-        <stem>up</stem>
-        <notations>
-          <articulations>
-            <staccato />
-          </articulations>
-        </notations>
-      </note>
-      <note>
-        <pitch>
-          <step>G</step>
-          <octave>4</octave>
-        </pitch>
-        <duration>24</duration>
-        <voice>1</voice>
-        <type>quarter</type>
-        <stem>up</stem>
-        <notations>
-          <slur type="stop" />
-          <articulations>
-            <staccato />
-          </articulations>
-        </notations>
-      </note>
-    </measure>
-    <measure number="41" width="102.85">
+    <measure number="39" width="121.39">
       <note>
         <pitch>
           <step>G</step>
@@ -7005,111 +6905,42 @@
         <stem>up</stem>
       </note>
     </measure>
-    <measure number="42" width="92.86">
+    <measure number="40" width="97.39">
       <note>
         <pitch>
-          <step>C</step>
-          <alter>1</alter>
-          <octave>5</octave>
-        </pitch>
-        <duration>24</duration>
-        <voice>1</voice>
-        <type>quarter</type>
-        <stem>down</stem>
-        <notations>
-          <articulations>
-            <staccato />
-          </articulations>
-        </notations>
-      </note>
-      <note>
-        <pitch>
-          <step>C</step>
-          <alter>1</alter>
-          <octave>5</octave>
-        </pitch>
-        <duration>24</duration>
-        <voice>1</voice>
-        <type>quarter</type>
-        <stem>down</stem>
-        <notations>
-          <articulations>
-            <staccato />
-          </articulations>
-        </notations>
-      </note>
-      <note>
-        <pitch>
-          <step>C</step>
-          <alter>1</alter>
-          <octave>5</octave>
-        </pitch>
-        <duration>24</duration>
-        <voice>1</voice>
-        <type>quarter</type>
-        <stem>down</stem>
-        <notations>
-          <articulations>
-            <staccato />
-          </articulations>
-        </notations>
-      </note>
-    </measure>
-    <measure number="43" width="78.86">
-      <note>
-        <pitch>
-          <step>C</step>
-          <alter>1</alter>
-          <octave>5</octave>
-        </pitch>
-        <duration>24</duration>
-        <voice>1</voice>
-        <type>quarter</type>
-        <stem>down</stem>
-        <notations>
-          <articulations>
-            <staccato />
-          </articulations>
-        </notations>
-      </note>
-      <note>
-        <rest />
-        <duration>24</duration>
-        <voice>1</voice>
-        <type>quarter</type>
-      </note>
-      <note>
-        <rest />
-        <duration>24</duration>
-        <voice>1</voice>
-        <type>quarter</type>
-      </note>
-    </measure>
-    <measure number="44" width="73.82">
-      <note>
-        <rest measure="yes" />
-        <duration>72</duration>
-        <voice>1</voice>
-      </note>
-    </measure>
-    <measure number="45" width="73.82">
-      <note>
-        <pitch>
-          <step>D</step>
+          <step>G</step>
           <octave>4</octave>
         </pitch>
-        <duration>48</duration>
+        <duration>24</duration>
         <voice>1</voice>
-        <type>half</type>
+        <type>quarter</type>
+        <accidental>natural</accidental>
         <stem>up</stem>
         <notations>
           <slur type="start" />
+          <articulations>
+            <staccato />
+          </articulations>
         </notations>
       </note>
       <note>
         <pitch>
-          <step>C</step>
-          <alter>1</alter>
+          <step>G</step>
+          <octave>4</octave>
+        </pitch>
+        <duration>24</duration>
+        <voice>1</voice>
+        <type>quarter</type>
+        <stem>up</stem>
+        <notations>
+          <articulations>
+            <staccato />
+          </articulations>
+        </notations>
+      </note>
+      <note>
+        <pitch>
+          <step>G</step>
           <octave>4</octave>
         </pitch>
         <duration>24</duration>
@@ -7118,13 +6949,16 @@
         <stem>up</stem>
         <notations>
           <slur type="stop" />
+          <articulations>
+            <staccato />
+          </articulations>
         </notations>
       </note>
     </measure>
-    <measure number="46" width="117.89">
+    <measure number="41" width="121.39">
       <note>
         <pitch>
-          <step>C</step>
+          <step>G</step>
           <octave>4</octave>
         </pitch>
         <duration>24</duration>
@@ -7138,38 +6972,18 @@
       </note>
       <note>
         <pitch>
-          <step>B</step>
-          <octave>3</octave>
-        </pitch>
-        <duration>24</duration>
-        <voice>1</voice>
-        <type>quarter</type>
-        <stem>up</stem>
-        <notations>
-          <slur type="stop" />
-        </notations>
-      </note>
-      <note>
-        <rest />
-        <duration>24</duration>
-        <voice>1</voice>
-        <type>quarter</type>
-      </note>
-    </measure>
-    <measure number="47" width="104.86">
-      <note>
-        <pitch>
-          <step>D</step>
+          <step>F</step>
           <alter>1</alter>
           <octave>4</octave>
         </pitch>
-        <duration>24</duration>
+        <duration>18</duration>
         <voice>1</voice>
-        <type>quarter</type>
-        <accidental>sharp</accidental>
+        <type>eighth</type>
+        <dot />
         <stem>up</stem>
+        <beam number="1">begin</beam>
         <notations>
-          <slur type="start" />
+          <slur type="stop" />
         </notations>
       </note>
       <note>
@@ -7177,10 +6991,12 @@
           <step>E</step>
           <octave>4</octave>
         </pitch>
-        <duration>24</duration>
+        <duration>6</duration>
         <voice>1</voice>
-        <type>quarter</type>
+        <type>16th</type>
         <stem>up</stem>
+        <beam number="1">end</beam>
+        <beam number="2">backward hook</beam>
       </note>
       <note>
         <pitch>
@@ -7190,21 +7006,209 @@
         <duration>24</duration>
         <voice>1</voice>
         <type>quarter</type>
-        <accidental>natural</accidental>
         <stem>up</stem>
+      </note>
+    </measure>
+    <measure number="42" width="111.39">
+      <note>
+        <pitch>
+          <step>C</step>
+          <alter>1</alter>
+          <octave>5</octave>
+        </pitch>
+        <duration>24</duration>
+        <voice>1</voice>
+        <type>quarter</type>
+        <stem>down</stem>
         <notations>
-          <slur type="stop" />
+          <articulations>
+            <staccato />
+          </articulations>
+        </notations>
+      </note>
+      <note>
+        <pitch>
+          <step>C</step>
+          <alter>1</alter>
+          <octave>5</octave>
+        </pitch>
+        <duration>24</duration>
+        <voice>1</voice>
+        <type>quarter</type>
+        <stem>down</stem>
+        <notations>
+          <articulations>
+            <staccato />
+          </articulations>
+        </notations>
+      </note>
+      <note>
+        <pitch>
+          <step>C</step>
+          <alter>1</alter>
+          <octave>5</octave>
+        </pitch>
+        <duration>24</duration>
+        <voice>1</voice>
+        <type>quarter</type>
+        <stem>down</stem>
+        <notations>
+          <articulations>
+            <staccato />
+          </articulations>
         </notations>
       </note>
     </measure>
-    <measure number="48" width="261.07">
-      <print new-system="yes">
+    <measure number="43" width="97.39">
+      <note>
+        <pitch>
+          <step>C</step>
+          <alter>1</alter>
+          <octave>5</octave>
+        </pitch>
+        <duration>24</duration>
+        <voice>1</voice>
+        <type>quarter</type>
+        <stem>down</stem>
+        <notations>
+          <articulations>
+            <staccato />
+          </articulations>
+        </notations>
+      </note>
+      <note>
+        <rest />
+        <duration>24</duration>
+        <voice>1</voice>
+        <type>quarter</type>
+      </note>
+      <note>
+        <rest />
+        <duration>24</duration>
+        <voice>1</voice>
+        <type>quarter</type>
+      </note>
+    </measure>
+    <measure number="44" width="92.36">
+      <note>
+        <rest measure="yes" />
+        <duration>72</duration>
+        <voice>1</voice>
+      </note>
+    </measure>
+    <measure number="45" width="179.10">
+      <print new-page="yes">
         <staff-layout number="1">
-          <staff-distance>68.10</staff-distance>
+          <staff-distance>62.43</staff-distance>
         </staff-layout>
       </print>
       <note>
         <pitch>
+          <step>D</step>
+          <octave>4</octave>
+        </pitch>
+        <duration>48</duration>
+        <voice>1</voice>
+        <type>half</type>
+        <stem>up</stem>
+        <notations>
+          <slur type="start" />
+        </notations>
+      </note>
+      <note>
+        <pitch>
+          <step>C</step>
+          <alter>1</alter>
+          <octave>4</octave>
+        </pitch>
+        <duration>24</duration>
+        <voice>1</voice>
+        <type>quarter</type>
+        <stem>up</stem>
+        <notations>
+          <slur type="stop" />
+        </notations>
+      </note>
+    </measure>
+    <measure number="46" width="135.05">
+      <note>
+        <pitch>
+          <step>C</step>
+          <octave>4</octave>
+        </pitch>
+        <duration>24</duration>
+        <voice>1</voice>
+        <type>quarter</type>
+        <accidental>natural</accidental>
+        <stem>up</stem>
+        <notations>
+          <slur type="start" />
+        </notations>
+      </note>
+      <note>
+        <pitch>
+          <step>B</step>
+          <octave>3</octave>
+        </pitch>
+        <duration>24</duration>
+        <voice>1</voice>
+        <type>quarter</type>
+        <stem>up</stem>
+        <notations>
+          <slur type="stop" />
+        </notations>
+      </note>
+      <note>
+        <rest />
+        <duration>24</duration>
+        <voice>1</voice>
+        <type>quarter</type>
+      </note>
+    </measure>
+    <measure number="47" width="122.02">
+      <note>
+        <pitch>
+          <step>D</step>
+          <alter>1</alter>
+          <octave>4</octave>
+        </pitch>
+        <duration>24</duration>
+        <voice>1</voice>
+        <type>quarter</type>
+        <accidental>sharp</accidental>
+        <stem>up</stem>
+        <notations>
+          <slur type="start" />
+        </notations>
+      </note>
+      <note>
+        <pitch>
+          <step>E</step>
+          <octave>4</octave>
+        </pitch>
+        <duration>24</duration>
+        <voice>1</voice>
+        <type>quarter</type>
+        <stem>up</stem>
+      </note>
+      <note>
+        <pitch>
+          <step>D</step>
+          <octave>4</octave>
+        </pitch>
+        <duration>24</duration>
+        <voice>1</voice>
+        <type>quarter</type>
+        <accidental>natural</accidental>
+        <stem>up</stem>
+        <notations>
+          <slur type="stop" />
+        </notations>
+      </note>
+    </measure>
+    <measure number="48" width="137.40">
+      <note>
+        <pitch>
           <step>C</step>
           <alter>1</alter>
           <octave>4</octave>
@@ -7221,7 +7225,7 @@
         <type>quarter</type>
       </note>
     </measure>
-    <measure number="49" width="138.00">
+    <measure number="49" width="106.74">
       <note>
         <rest />
         <duration>24</duration>
@@ -7255,7 +7259,7 @@
         <stem>up</stem>
       </note>
     </measure>
-    <measure number="50" width="172.23">
+    <measure number="50" width="140.98">
       <note>
         <pitch>
           <step>E</step>
@@ -7291,7 +7295,7 @@
         </notations>
       </note>
     </measure>
-    <measure number="51" width="139.74">
+    <measure number="51" width="108.48">
       <note>
         <pitch>
           <step>D</step>
@@ -7323,7 +7327,7 @@
         <stem>up</stem>
       </note>
     </measure>
-    <measure number="52" width="185.15">
+    <measure number="52" width="153.90">
       <note>
         <pitch>
           <step>G</step>
@@ -7378,7 +7382,7 @@
         <stem>down</stem>
       </note>
     </measure>
-    <measure number="53" width="167.23">
+    <measure number="53" width="135.98">
       <note>
         <rest />
         <duration>24</duration>
@@ -7406,7 +7410,7 @@
         <stem>up</stem>
       </note>
     </measure>
-    <measure number="54" width="148.23">
+    <measure number="54" width="116.98">
       <note>
         <pitch>
           <step>E</step>
@@ -7447,7 +7451,7 @@
         </notations>
       </note>
     </measure>
-    <measure number="55" width="139.74">
+    <measure number="55" width="108.48">
       <note>
         <pitch>
           <step>C</step>
@@ -7499,7 +7503,7 @@
         </notations>
       </note>
     </measure>
-    <measure number="56" width="163.73">
+    <measure number="56" width="132.48">
       <note>
         <pitch>
           <step>C</step>
@@ -7553,7 +7557,7 @@
         <stem>up</stem>
       </note>
     </measure>
-    <measure number="57" width="122.24">
+    <measure number="57" width="90.98">
       <note>
         <pitch>
           <step>D</step>
@@ -7602,7 +7606,7 @@
         </notations>
       </note>
     </measure>
-    <measure number="58" width="156.73">
+    <measure number="58" width="125.48">
       <note>
         <pitch>
           <step>D</step>
@@ -7656,9 +7660,9 @@
       </note>
     </measure>
     <measure number="59" width="188.91">
-      <print new-page="yes">
+      <print new-system="yes">
         <staff-layout number="1">
-          <staff-distance>63.33</staff-distance>
+          <staff-distance>62.43</staff-distance>
         </staff-layout>
       </print>
       <note>
@@ -8243,7 +8247,7 @@
     <measure number="73" width="326.39">
       <print new-system="yes">
         <staff-layout number="1">
-          <staff-distance>63.33</staff-distance>
+          <staff-distance>62.43</staff-distance>
         </staff-layout>
       </print>
       <attributes>
@@ -8528,7 +8532,7 @@
     <measure number="81" width="358.79">
       <print new-system="yes">
         <staff-layout number="1">
-          <staff-distance>63.33</staff-distance>
+          <staff-distance>62.43</staff-distance>
         </staff-layout>
       </print>
       <note>
@@ -8837,10 +8841,10 @@
         </notations>
       </note>
     </measure>
-    <measure number="88" width="211.50">
+    <measure number="88" width="231.83">
       <print new-system="yes">
         <staff-layout number="1">
-          <staff-distance>63.33</staff-distance>
+          <staff-distance>62.43</staff-distance>
         </staff-layout>
       </print>
       <note>
@@ -8879,7 +8883,7 @@
         <stem>up</stem>
       </note>
     </measure>
-    <measure number="89" width="177.33">
+    <measure number="89" width="197.66">
       <note>
         <pitch>
           <step>G</step>
@@ -8915,7 +8919,7 @@
         </notations>
       </note>
     </measure>
-    <measure number="90" width="143.37">
+    <measure number="90" width="163.71">
       <note>
         <pitch>
           <step>F</step>
@@ -8955,7 +8959,7 @@
         </notations>
       </note>
     </measure>
-    <measure number="91" width="158.37">
+    <measure number="91" width="178.70">
       <note>
         <pitch>
           <step>D</step>
@@ -9033,7 +9037,7 @@
         </notations>
       </note>
     </measure>
-    <measure number="92" width="113.38">
+    <measure number="92" width="133.71">
       <note>
         <pitch>
           <step>E</step>
@@ -9068,7 +9072,7 @@
         <type>quarter</type>
       </note>
     </measure>
-    <measure number="93" width="172.37">
+    <measure number="93" width="192.70">
       <note>
         <pitch>
           <step>B</step>
@@ -9146,7 +9150,7 @@
         </notations>
       </note>
     </measure>
-    <measure number="94" width="179.37">
+    <measure number="94" width="199.70">
       <note>
         <pitch>
           <step>A</step>
@@ -9223,7 +9227,7 @@
         </notations>
       </note>
     </measure>
-    <measure number="95" width="144.80">
+    <measure number="95" width="165.13">
       <note>
         <pitch>
           <step>G</step>
@@ -9252,7 +9256,7 @@
         <stem>down</stem>
       </note>
     </measure>
-    <measure number="96" width="146.87">
+    <measure number="96" width="167.21">
       <note>
         <pitch>
           <step>G</step>
@@ -9324,7 +9328,7 @@
         </notations>
       </note>
     </measure>
-    <measure number="97" width="143.37">
+    <measure number="97" width="163.71">
       <note>
         <pitch>
           <step>E</step>
@@ -9341,7 +9345,12 @@
         </notations>
       </note>
     </measure>
-    <measure number="98" width="203.36">
+    <measure number="98" width="341.00">
+      <print new-page="yes">
+        <staff-layout number="1">
+          <staff-distance>126.15</staff-distance>
+        </staff-layout>
+      </print>
       <note>
         <pitch>
           <step>E</step>
@@ -9385,12 +9394,7 @@
         </notations>
       </note>
     </measure>
-    <measure number="99" width="339.99">
-      <print new-system="yes">
-        <staff-layout number="1">
-          <staff-distance>63.33</staff-distance>
-        </staff-layout>
-      </print>
+    <measure number="99" width="201.39">
       <note>
         <pitch>
           <step>E</step>
@@ -9468,7 +9472,7 @@
         </notations>
       </note>
     </measure>
-    <measure number="100" width="267.87">
+    <measure number="100" width="227.39">
       <note>
         <pitch>
           <step>A</step>
@@ -9516,7 +9520,7 @@
         <type>quarter</type>
       </note>
     </measure>
-    <measure number="101" width="321.87">
+    <measure number="101" width="281.39">
       <note>
         <pitch>
           <step>E</step>
@@ -9586,7 +9590,7 @@
         </notations>
       </note>
     </measure>
-    <measure number="102" width="367.85">
+    <measure number="102" width="327.37">
       <note>
         <pitch>
           <step>E</step>
@@ -9683,7 +9687,7 @@
         </notations>
       </note>
     </measure>
-    <measure number="103" width="284.47">
+    <measure number="103" width="243.99">
       <note>
         <pitch>
           <step>E</step>
@@ -9748,7 +9752,7 @@
         </notations>
       </note>
     </measure>
-    <measure number="104" width="212.00">
+    <measure number="104" width="171.52">
       <note>
         <pitch>
           <step>E</step>
@@ -9777,7 +9781,7 @@
     <measure number="1" width="206.53">
       <print>
         <staff-layout number="1">
-          <staff-distance>75.78</staff-distance>
+          <staff-distance>106.65</staff-distance>
         </staff-layout>
       </print>
       <attributes>
@@ -10148,7 +10152,7 @@
     <measure number="15" width="191.02">
       <print new-system="yes">
         <staff-layout number="1">
-          <staff-distance>68.10</staff-distance>
+          <staff-distance>106.65</staff-distance>
         </staff-layout>
       </print>
       <note>
@@ -10632,10 +10636,10 @@
         <type>quarter</type>
       </note>
     </measure>
-    <measure number="29" width="192.36">
+    <measure number="29" width="210.89">
       <print new-system="yes">
         <staff-layout number="1">
-          <staff-distance>68.10</staff-distance>
+          <staff-distance>106.65</staff-distance>
         </staff-layout>
       </print>
       <note>
@@ -10644,7 +10648,7 @@
         <voice>1</voice>
       </note>
     </measure>
-    <measure number="30" width="112.27">
+    <measure number="30" width="130.81">
       <note>
         <pitch>
           <step>B</step>
@@ -10657,14 +10661,14 @@
         <stem>up</stem>
       </note>
     </measure>
-    <measure number="31" width="73.82">
+    <measure number="31" width="92.36">
       <note>
         <rest measure="yes" />
         <duration>72</duration>
         <voice>1</voice>
       </note>
     </measure>
-    <measure number="32" width="97.82">
+    <measure number="32" width="116.35">
       <note>
         <pitch>
           <step>E</step>
@@ -10677,14 +10681,14 @@
         <stem>down</stem>
       </note>
     </measure>
-    <measure number="33" width="51.03">
+    <measure number="33" width="69.57">
       <note>
         <rest measure="yes" />
         <duration>72</duration>
         <voice>1</voice>
       </note>
     </measure>
-    <measure number="34" width="73.82">
+    <measure number="34" width="92.36">
       <note>
         <pitch>
           <step>C</step>
@@ -10736,7 +10740,7 @@
         </notations>
       </note>
     </measure>
-    <measure number="35" width="115.77">
+    <measure number="35" width="134.31">
       <note>
         <pitch>
           <step>C</step>
@@ -10790,7 +10794,7 @@
         <stem>up</stem>
       </note>
     </measure>
-    <measure number="36" width="73.82">
+    <measure number="36" width="92.36">
       <note>
         <pitch>
           <step>D</step>
@@ -10839,7 +10843,7 @@
         </notations>
       </note>
     </measure>
-    <measure number="37" width="97.82">
+    <measure number="37" width="116.35">
       <note>
         <pitch>
           <step>D</step>
@@ -10892,7 +10896,7 @@
         <stem>up</stem>
       </note>
     </measure>
-    <measure number="38" width="78.86">
+    <measure number="38" width="97.39">
       <note>
         <pitch>
           <step>A</step>
@@ -10909,7 +10913,7 @@
         </notations>
       </note>
     </measure>
-    <measure number="39" width="102.85">
+    <measure number="39" width="121.39">
       <note>
         <pitch>
           <step>A</step>
@@ -10928,7 +10932,7 @@
         </notations>
       </note>
     </measure>
-    <measure number="40" width="78.86">
+    <measure number="40" width="97.39">
       <note>
         <pitch>
           <step>A</step>
@@ -10947,7 +10951,7 @@
         </notations>
       </note>
     </measure>
-    <measure number="41" width="102.85">
+    <measure number="41" width="121.39">
       <note>
         <pitch>
           <step>A</step>
@@ -10964,7 +10968,7 @@
         </notations>
       </note>
     </measure>
-    <measure number="42" width="92.86">
+    <measure number="42" width="111.39">
       <note>
         <pitch>
           <step>E</step>
@@ -11011,7 +11015,7 @@
         </notations>
       </note>
     </measure>
-    <measure number="43" width="78.86">
+    <measure number="43" width="97.39">
       <note>
         <pitch>
           <step>E</step>
@@ -11040,14 +11044,19 @@
         <type>quarter</type>
       </note>
     </measure>
-    <measure number="44" width="73.82">
+    <measure number="44" width="92.36">
       <note>
         <rest measure="yes" />
         <duration>72</duration>
         <voice>1</voice>
       </note>
     </measure>
-    <measure number="45" width="73.82">
+    <measure number="45" width="179.10">
+      <print new-page="yes">
+        <staff-layout number="1">
+          <staff-distance>64.28</staff-distance>
+        </staff-layout>
+      </print>
       <note>
         <pitch>
           <step>A</step>
@@ -11096,7 +11105,7 @@
         </notations>
       </note>
     </measure>
-    <measure number="46" width="117.89">
+    <measure number="46" width="135.05">
       <note>
         <pitch>
           <step>A</step>
@@ -11150,7 +11159,7 @@
         <stem>up</stem>
       </note>
     </measure>
-    <measure number="47" width="104.86">
+    <measure number="47" width="122.02">
       <note>
         <pitch>
           <step>B</step>
@@ -11199,12 +11208,7 @@
         </notations>
       </note>
     </measure>
-    <measure number="48" width="261.07">
-      <print new-system="yes">
-        <staff-layout number="1">
-          <staff-distance>68.10</staff-distance>
-        </staff-layout>
-      </print>
+    <measure number="48" width="137.40">
       <note>
         <pitch>
           <step>B</step>
@@ -11259,7 +11263,7 @@
         <stem>up</stem>
       </note>
     </measure>
-    <measure number="49" width="138.00">
+    <measure number="49" width="106.74">
       <note>
         <rest />
         <duration>24</duration>
@@ -11294,7 +11298,7 @@
         </notations>
       </note>
     </measure>
-    <measure number="50" width="172.23">
+    <measure number="50" width="140.98">
       <note>
         <pitch>
           <step>E</step>
@@ -11322,7 +11326,7 @@
         </notations>
       </note>
     </measure>
-    <measure number="51" width="139.74">
+    <measure number="51" width="108.48">
       <note>
         <pitch>
           <step>D</step>
@@ -11346,7 +11350,7 @@
         <type>quarter</type>
       </note>
     </measure>
-    <measure number="52" width="185.15">
+    <measure number="52" width="153.90">
       <note>
         <pitch>
           <step>B</step>
@@ -11384,7 +11388,7 @@
         <stem>down</stem>
       </note>
     </measure>
-    <measure number="53" width="167.23">
+    <measure number="53" width="135.98">
       <note>
         <rest />
         <duration>24</duration>
@@ -11412,7 +11416,7 @@
         <stem>up</stem>
       </note>
     </measure>
-    <measure number="54" width="148.23">
+    <measure number="54" width="116.98">
       <note>
         <pitch>
           <step>G</step>
@@ -11437,7 +11441,7 @@
         <type>quarter</type>
       </note>
     </measure>
-    <measure number="55" width="139.74">
+    <measure number="55" width="108.48">
       <note>
         <pitch>
           <step>E</step>
@@ -11454,26 +11458,7 @@
         </notations>
       </note>
     </measure>
-    <measure number="56" width="163.73">
-      <note>
-        <pitch>
-          <step>E</step>
-          <octave>4</octave>
-        </pitch>
-        <duration>72</duration>
-        <tie type="stop" />
-        <tie type="start" />
-        <voice>1</voice>
-        <type>half</type>
-        <dot />
-        <stem>down</stem>
-        <notations>
-          <tied type="stop" />
-          <tied type="start" />
-        </notations>
-      </note>
-    </measure>
-    <measure number="57" width="122.24">
+    <measure number="56" width="132.48">
       <note>
         <pitch>
           <step>E</step>
@@ -11492,7 +11477,26 @@
         </notations>
       </note>
     </measure>
-    <measure number="58" width="156.73">
+    <measure number="57" width="90.98">
+      <note>
+        <pitch>
+          <step>E</step>
+          <octave>4</octave>
+        </pitch>
+        <duration>72</duration>
+        <tie type="stop" />
+        <tie type="start" />
+        <voice>1</voice>
+        <type>half</type>
+        <dot />
+        <stem>down</stem>
+        <notations>
+          <tied type="stop" />
+          <tied type="start" />
+        </notations>
+      </note>
+    </measure>
+    <measure number="58" width="125.48">
       <note>
         <pitch>
           <step>E</step>
@@ -11510,7 +11514,7 @@
       </note>
     </measure>
     <measure number="59" width="188.91">
-      <print new-page="yes">
+      <print new-system="yes">
         <staff-layout number="1">
           <staff-distance>78.84</staff-distance>
         </staff-layout>
@@ -12009,7 +12013,7 @@
     <measure number="73" width="326.39">
       <print new-system="yes">
         <staff-layout number="1">
-          <staff-distance>63.33</staff-distance>
+          <staff-distance>62.43</staff-distance>
         </staff-layout>
       </print>
       <attributes>
@@ -12297,7 +12301,7 @@
     <measure number="81" width="358.79">
       <print new-system="yes">
         <staff-layout number="1">
-          <staff-distance>63.33</staff-distance>
+          <staff-distance>62.43</staff-distance>
         </staff-layout>
       </print>
       <note>
@@ -12570,10 +12574,10 @@
         <stem>up</stem>
       </note>
     </measure>
-    <measure number="88" width="211.50">
+    <measure number="88" width="231.83">
       <print new-system="yes">
         <staff-layout number="1">
-          <staff-distance>67.61</staff-distance>
+          <staff-distance>67.20</staff-distance>
         </staff-layout>
       </print>
       <note>
@@ -12612,7 +12616,7 @@
         <stem>down</stem>
       </note>
     </measure>
-    <measure number="89" width="177.33">
+    <measure number="89" width="197.66">
       <note>
         <pitch>
           <step>E</step>
@@ -12651,7 +12655,7 @@
         </notations>
       </note>
     </measure>
-    <measure number="90" width="143.37">
+    <measure number="90" width="163.71">
       <note>
         <pitch>
           <step>D</step>
@@ -12692,7 +12696,7 @@
         </notations>
       </note>
     </measure>
-    <measure number="91" width="158.37">
+    <measure number="91" width="178.70">
       <note>
         <pitch>
           <step>B</step>
@@ -12721,7 +12725,7 @@
         <stem>down</stem>
       </note>
     </measure>
-    <measure number="92" width="113.38">
+    <measure number="92" width="133.71">
       <note>
         <pitch>
           <step>B</step>
@@ -12739,7 +12743,7 @@
         <type>quarter</type>
       </note>
     </measure>
-    <measure number="93" width="172.37">
+    <measure number="93" width="192.70">
       <note>
         <rest />
         <duration>24</duration>
@@ -12799,7 +12803,7 @@
         </notations>
       </note>
     </measure>
-    <measure number="94" width="179.37">
+    <measure number="94" width="199.70">
       <note>
         <pitch>
           <step>F</step>
@@ -12877,7 +12881,7 @@
         </notations>
       </note>
     </measure>
-    <measure number="95" width="144.80">
+    <measure number="95" width="165.13">
       <note>
         <pitch>
           <step>E</step>
@@ -12905,7 +12909,7 @@
         <stem>down</stem>
       </note>
     </measure>
-    <measure number="96" width="146.87">
+    <measure number="96" width="167.21">
       <note>
         <pitch>
           <step>B</step>
@@ -12959,7 +12963,7 @@
         </notations>
       </note>
     </measure>
-    <measure number="97" width="143.37">
+    <measure number="97" width="163.71">
       <note>
         <pitch>
           <step>G</step>
@@ -12988,7 +12992,12 @@
         </notations>
       </note>
     </measure>
-    <measure number="98" width="203.36">
+    <measure number="98" width="341.00">
+      <print new-page="yes">
+        <staff-layout number="1">
+          <staff-distance>126.15</staff-distance>
+        </staff-layout>
+      </print>
       <note>
         <pitch>
           <step>E</step>
@@ -13066,12 +13075,7 @@
         </notations>
       </note>
     </measure>
-    <measure number="99" width="339.99">
-      <print new-system="yes">
-        <staff-layout number="1">
-          <staff-distance>63.33</staff-distance>
-        </staff-layout>
-      </print>
+    <measure number="99" width="201.39">
       <note>
         <pitch>
           <step>B</step>
@@ -13147,7 +13151,7 @@
         </notations>
       </note>
     </measure>
-    <measure number="100" width="267.87">
+    <measure number="100" width="227.39">
       <note>
         <pitch>
           <step>F</step>
@@ -13196,7 +13200,7 @@
         <type>quarter</type>
       </note>
     </measure>
-    <measure number="101" width="321.87">
+    <measure number="101" width="281.39">
       <note>
         <pitch>
           <step>G</step>
@@ -13324,7 +13328,7 @@
         </notations>
       </note>
     </measure>
-    <measure number="102" width="367.85">
+    <measure number="102" width="327.37">
       <note>
         <pitch>
           <step>E</step>
@@ -13487,7 +13491,7 @@
         </notations>
       </note>
     </measure>
-    <measure number="103" width="284.47">
+    <measure number="103" width="243.99">
       <note>
         <pitch>
           <step>B</step>
@@ -13533,7 +13537,7 @@
         </notations>
       </note>
     </measure>
-    <measure number="104" width="212.00">
+    <measure number="104" width="171.52">
       <note>
         <pitch>
           <step>G</step>
@@ -13563,7 +13567,7 @@
     <measure number="1" width="206.53">
       <print>
         <staff-layout number="1">
-          <staff-distance>70.02</staff-distance>
+          <staff-distance>106.65</staff-distance>
         </staff-layout>
       </print>
       <attributes>
@@ -13866,7 +13870,7 @@
     <measure number="15" width="191.02">
       <print new-system="yes">
         <staff-layout number="1">
-          <staff-distance>68.10</staff-distance>
+          <staff-distance>106.65</staff-distance>
         </staff-layout>
       </print>
       <note>
@@ -14314,10 +14318,10 @@
         <type>quarter</type>
       </note>
     </measure>
-    <measure number="29" width="192.36">
+    <measure number="29" width="210.89">
       <print new-system="yes">
         <staff-layout number="1">
-          <staff-distance>68.10</staff-distance>
+          <staff-distance>106.65</staff-distance>
         </staff-layout>
       </print>
       <note>
@@ -14326,7 +14330,7 @@
         <voice>1</voice>
       </note>
     </measure>
-    <measure number="30" width="112.27">
+    <measure number="30" width="130.81">
       <note>
         <pitch>
           <step>B</step>
@@ -14339,14 +14343,14 @@
         <stem>up</stem>
       </note>
     </measure>
-    <measure number="31" width="73.82">
+    <measure number="31" width="92.36">
       <note>
         <rest measure="yes" />
         <duration>72</duration>
         <voice>1</voice>
       </note>
     </measure>
-    <measure number="32" width="97.82">
+    <measure number="32" width="116.35">
       <note>
         <pitch>
           <step>E</step>
@@ -14359,14 +14363,14 @@
         <stem>down</stem>
       </note>
     </measure>
-    <measure number="33" width="51.03">
+    <measure number="33" width="69.57">
       <note>
         <rest measure="yes" />
         <duration>72</duration>
         <voice>1</voice>
       </note>
     </measure>
-    <measure number="34" width="73.82">
+    <measure number="34" width="92.36">
       <note>
         <pitch>
           <step>A</step>
@@ -14415,7 +14419,7 @@
         </notations>
       </note>
     </measure>
-    <measure number="35" width="115.77">
+    <measure number="35" width="134.31">
       <note>
         <pitch>
           <step>A</step>
@@ -14471,7 +14475,7 @@
         <stem>down</stem>
       </note>
     </measure>
-    <measure number="36" width="73.82">
+    <measure number="36" width="92.36">
       <note>
         <pitch>
           <step>B</step>
@@ -14520,7 +14524,7 @@
         </notations>
       </note>
     </measure>
-    <measure number="37" width="97.82">
+    <measure number="37" width="116.35">
       <note>
         <pitch>
           <step>B</step>
@@ -14574,7 +14578,7 @@
         <stem>down</stem>
       </note>
     </measure>
-    <measure number="38" width="78.86">
+    <measure number="38" width="97.39">
       <note>
         <pitch>
           <step>C</step>
@@ -14626,113 +14630,7 @@
         </notations>
       </note>
     </measure>
-    <measure number="39" width="102.85">
-      <note>
-        <pitch>
-          <step>C</step>
-          <alter>1</alter>
-          <octave>3</octave>
-        </pitch>
-        <duration>24</duration>
-        <voice>1</voice>
-        <type>quarter</type>
-        <stem>up</stem>
-        <notations>
-          <slur type="start" />
-        </notations>
-      </note>
-      <note>
-        <pitch>
-          <step>D</step>
-          <octave>3</octave>
-        </pitch>
-        <duration>18</duration>
-        <voice>1</voice>
-        <type>eighth</type>
-        <dot />
-        <stem>down</stem>
-        <beam number="1">begin</beam>
-        <notations>
-          <slur type="stop" />
-        </notations>
-      </note>
-      <note>
-        <pitch>
-          <step>E</step>
-          <octave>3</octave>
-        </pitch>
-        <duration>6</duration>
-        <voice>1</voice>
-        <type>16th</type>
-        <stem>down</stem>
-        <beam number="1">end</beam>
-        <beam number="2">backward hook</beam>
-      </note>
-      <note>
-        <pitch>
-          <step>F</step>
-          <alter>1</alter>
-          <octave>3</octave>
-        </pitch>
-        <duration>24</duration>
-        <voice>1</voice>
-        <type>quarter</type>
-        <stem>down</stem>
-      </note>
-    </measure>
-    <measure number="40" width="78.86">
-      <note>
-        <pitch>
-          <step>C</step>
-          <alter>1</alter>
-          <octave>3</octave>
-        </pitch>
-        <duration>24</duration>
-        <voice>1</voice>
-        <type>quarter</type>
-        <stem>up</stem>
-        <notations>
-          <slur type="start" />
-          <articulations>
-            <staccato />
-          </articulations>
-        </notations>
-      </note>
-      <note>
-        <pitch>
-          <step>C</step>
-          <alter>1</alter>
-          <octave>3</octave>
-        </pitch>
-        <duration>24</duration>
-        <voice>1</voice>
-        <type>quarter</type>
-        <stem>up</stem>
-        <notations>
-          <articulations>
-            <staccato />
-          </articulations>
-        </notations>
-      </note>
-      <note>
-        <pitch>
-          <step>C</step>
-          <alter>1</alter>
-          <octave>3</octave>
-        </pitch>
-        <duration>24</duration>
-        <voice>1</voice>
-        <type>quarter</type>
-        <stem>up</stem>
-        <notations>
-          <slur type="stop" />
-          <articulations>
-            <staccato />
-          </articulations>
-        </notations>
-      </note>
-    </measure>
-    <measure number="41" width="102.85">
+    <measure number="39" width="121.39">
       <note>
         <pitch>
           <step>C</step>
@@ -14786,7 +14684,113 @@
         <stem>down</stem>
       </note>
     </measure>
-    <measure number="42" width="92.86">
+    <measure number="40" width="97.39">
+      <note>
+        <pitch>
+          <step>C</step>
+          <alter>1</alter>
+          <octave>3</octave>
+        </pitch>
+        <duration>24</duration>
+        <voice>1</voice>
+        <type>quarter</type>
+        <stem>up</stem>
+        <notations>
+          <slur type="start" />
+          <articulations>
+            <staccato />
+          </articulations>
+        </notations>
+      </note>
+      <note>
+        <pitch>
+          <step>C</step>
+          <alter>1</alter>
+          <octave>3</octave>
+        </pitch>
+        <duration>24</duration>
+        <voice>1</voice>
+        <type>quarter</type>
+        <stem>up</stem>
+        <notations>
+          <articulations>
+            <staccato />
+          </articulations>
+        </notations>
+      </note>
+      <note>
+        <pitch>
+          <step>C</step>
+          <alter>1</alter>
+          <octave>3</octave>
+        </pitch>
+        <duration>24</duration>
+        <voice>1</voice>
+        <type>quarter</type>
+        <stem>up</stem>
+        <notations>
+          <slur type="stop" />
+          <articulations>
+            <staccato />
+          </articulations>
+        </notations>
+      </note>
+    </measure>
+    <measure number="41" width="121.39">
+      <note>
+        <pitch>
+          <step>C</step>
+          <alter>1</alter>
+          <octave>3</octave>
+        </pitch>
+        <duration>24</duration>
+        <voice>1</voice>
+        <type>quarter</type>
+        <stem>up</stem>
+        <notations>
+          <slur type="start" />
+        </notations>
+      </note>
+      <note>
+        <pitch>
+          <step>D</step>
+          <octave>3</octave>
+        </pitch>
+        <duration>18</duration>
+        <voice>1</voice>
+        <type>eighth</type>
+        <dot />
+        <stem>down</stem>
+        <beam number="1">begin</beam>
+        <notations>
+          <slur type="stop" />
+        </notations>
+      </note>
+      <note>
+        <pitch>
+          <step>E</step>
+          <octave>3</octave>
+        </pitch>
+        <duration>6</duration>
+        <voice>1</voice>
+        <type>16th</type>
+        <stem>down</stem>
+        <beam number="1">end</beam>
+        <beam number="2">backward hook</beam>
+      </note>
+      <note>
+        <pitch>
+          <step>F</step>
+          <alter>1</alter>
+          <octave>3</octave>
+        </pitch>
+        <duration>24</duration>
+        <voice>1</voice>
+        <type>quarter</type>
+        <stem>down</stem>
+      </note>
+    </measure>
+    <measure number="42" width="111.39">
       <note>
         <pitch>
           <step>G</step>
@@ -14868,7 +14872,7 @@
         <stem>up</stem>
       </note>
     </measure>
-    <measure number="43" width="78.86">
+    <measure number="43" width="97.39">
       <note>
         <pitch>
           <step>G</step>
@@ -14910,38 +14914,17 @@
         <type>quarter</type>
       </note>
     </measure>
-    <measure number="44" width="73.82">
+    <measure number="44" width="92.36">
       <note>
         <rest measure="yes" />
         <duration>72</duration>
         <voice>1</voice>
       </note>
     </measure>
-    <measure number="45" width="73.82">
-      <note>
-        <rest measure="yes" />
-        <duration>72</duration>
-        <voice>1</voice>
-      </note>
-    </measure>
-    <measure number="46" width="117.89">
-      <note>
-        <rest measure="yes" />
-        <duration>72</duration>
-        <voice>1</voice>
-      </note>
-    </measure>
-    <measure number="47" width="104.86">
-      <note>
-        <rest measure="yes" />
-        <duration>72</duration>
-        <voice>1</voice>
-      </note>
-    </measure>
-    <measure number="48" width="261.07">
-      <print new-system="yes">
+    <measure number="45" width="179.10">
+      <print new-page="yes">
         <staff-layout number="1">
-          <staff-distance>68.67</staff-distance>
+          <staff-distance>68.17</staff-distance>
         </staff-layout>
       </print>
       <note>
@@ -14950,21 +14933,42 @@
         <voice>1</voice>
       </note>
     </measure>
-    <measure number="49" width="138.00">
+    <measure number="46" width="135.05">
       <note>
         <rest measure="yes" />
         <duration>72</duration>
         <voice>1</voice>
       </note>
     </measure>
-    <measure number="50" width="172.23">
+    <measure number="47" width="122.02">
       <note>
         <rest measure="yes" />
         <duration>72</duration>
         <voice>1</voice>
       </note>
     </measure>
-    <measure number="51" width="139.74">
+    <measure number="48" width="137.40">
+      <note>
+        <rest measure="yes" />
+        <duration>72</duration>
+        <voice>1</voice>
+      </note>
+    </measure>
+    <measure number="49" width="106.74">
+      <note>
+        <rest measure="yes" />
+        <duration>72</duration>
+        <voice>1</voice>
+      </note>
+    </measure>
+    <measure number="50" width="140.98">
+      <note>
+        <rest measure="yes" />
+        <duration>72</duration>
+        <voice>1</voice>
+      </note>
+    </measure>
+    <measure number="51" width="108.48">
       <note>
         <pitch>
           <step>D</step>
@@ -15013,7 +15017,7 @@
         </notations>
       </note>
     </measure>
-    <measure number="52" width="185.15">
+    <measure number="52" width="153.90">
       <note>
         <pitch>
           <step>D</step>
@@ -15066,7 +15070,7 @@
         <stem>down</stem>
       </note>
     </measure>
-    <measure number="53" width="167.23">
+    <measure number="53" width="135.98">
       <note>
         <rest />
         <duration>24</duration>
@@ -15096,7 +15100,7 @@
         <stem>down</stem>
       </note>
     </measure>
-    <measure number="54" width="148.23">
+    <measure number="54" width="116.98">
       <note>
         <pitch>
           <step>E</step>
@@ -15120,21 +15124,21 @@
         <type>quarter</type>
       </note>
     </measure>
-    <measure number="55" width="139.74">
+    <measure number="55" width="108.48">
       <note>
         <rest measure="yes" />
         <duration>72</duration>
         <voice>1</voice>
       </note>
     </measure>
-    <measure number="56" width="163.73">
+    <measure number="56" width="132.48">
       <note>
         <rest measure="yes" />
         <duration>72</duration>
         <voice>1</voice>
       </note>
     </measure>
-    <measure number="57" width="122.24">
+    <measure number="57" width="90.98">
       <note>
         <pitch>
           <step>D</step>
@@ -15162,7 +15166,7 @@
         </notations>
       </note>
     </measure>
-    <measure number="58" width="156.73">
+    <measure number="58" width="125.48">
       <note>
         <pitch>
           <step>G</step>
@@ -15198,9 +15202,9 @@
       </note>
     </measure>
     <measure number="59" width="188.91">
-      <print new-page="yes">
+      <print new-system="yes">
         <staff-layout number="1">
-          <staff-distance>63.33</staff-distance>
+          <staff-distance>62.43</staff-distance>
         </staff-layout>
       </print>
       <note>
@@ -15618,7 +15622,7 @@
     <measure number="73" width="326.39">
       <print new-system="yes">
         <staff-layout number="1">
-          <staff-distance>63.33</staff-distance>
+          <staff-distance>62.43</staff-distance>
         </staff-layout>
       </print>
       <attributes>
@@ -15908,7 +15912,7 @@
     <measure number="81" width="358.79">
       <print new-system="yes">
         <staff-layout number="1">
-          <staff-distance>63.33</staff-distance>
+          <staff-distance>62.43</staff-distance>
         </staff-layout>
       </print>
       <note>
@@ -16104,10 +16108,10 @@
         <stem>down</stem>
       </note>
     </measure>
-    <measure number="88" width="211.50">
+    <measure number="88" width="231.83">
       <print new-system="yes">
         <staff-layout number="1">
-          <staff-distance>63.33</staff-distance>
+          <staff-distance>62.43</staff-distance>
         </staff-layout>
       </print>
       <note>
@@ -16134,7 +16138,7 @@
         <stem>down</stem>
       </note>
     </measure>
-    <measure number="89" width="177.33">
+    <measure number="89" width="197.66">
       <note>
         <pitch>
           <step>G</step>
@@ -16173,7 +16177,7 @@
         </notations>
       </note>
     </measure>
-    <measure number="90" width="143.37">
+    <measure number="90" width="163.71">
       <note>
         <pitch>
           <step>F</step>
@@ -16214,7 +16218,7 @@
         </notations>
       </note>
     </measure>
-    <measure number="91" width="158.37">
+    <measure number="91" width="178.70">
       <note>
         <pitch>
           <step>E</step>
@@ -16247,7 +16251,7 @@
         <stem>up</stem>
       </note>
     </measure>
-    <measure number="92" width="113.38">
+    <measure number="92" width="133.71">
       <note>
         <pitch>
           <step>B</step>
@@ -16275,7 +16279,7 @@
         </notations>
       </note>
     </measure>
-    <measure number="93" width="172.37">
+    <measure number="93" width="192.70">
       <note>
         <pitch>
           <step>G</step>
@@ -16292,7 +16296,7 @@
         </notations>
       </note>
     </measure>
-    <measure number="94" width="179.37">
+    <measure number="94" width="199.70">
       <note>
         <pitch>
           <step>F</step>
@@ -16309,7 +16313,7 @@
         </notations>
       </note>
     </measure>
-    <measure number="95" width="144.80">
+    <measure number="95" width="165.13">
       <note>
         <pitch>
           <step>E</step>
@@ -16339,7 +16343,7 @@
         <stem>up</stem>
       </note>
     </measure>
-    <measure number="96" width="146.87">
+    <measure number="96" width="167.21">
       <note>
         <pitch>
           <step>B</step>
@@ -16381,7 +16385,7 @@
         </notations>
       </note>
     </measure>
-    <measure number="97" width="143.37">
+    <measure number="97" width="163.71">
       <note>
         <pitch>
           <step>E</step>
@@ -16434,7 +16438,12 @@
         </notations>
       </note>
     </measure>
-    <measure number="98" width="203.36">
+    <measure number="98" width="341.00">
+      <print new-page="yes">
+        <staff-layout number="1">
+          <staff-distance>126.15</staff-distance>
+        </staff-layout>
+      </print>
       <note>
         <pitch>
           <step>C</step>
@@ -16511,12 +16520,7 @@
         </notations>
       </note>
     </measure>
-    <measure number="99" width="339.99">
-      <print new-system="yes">
-        <staff-layout number="1">
-          <staff-distance>67.45</staff-distance>
-        </staff-layout>
-      </print>
+    <measure number="99" width="201.39">
       <note>
         <pitch>
           <step>G</step>
@@ -16594,7 +16598,7 @@
         </notations>
       </note>
     </measure>
-    <measure number="100" width="267.87">
+    <measure number="100" width="227.39">
       <note>
         <pitch>
           <step>D</step>
@@ -16642,7 +16646,7 @@
         <type>quarter</type>
       </note>
     </measure>
-    <measure number="101" width="321.87">
+    <measure number="101" width="281.39">
       <note>
         <pitch>
           <step>E</step>
@@ -16767,7 +16771,7 @@
         </notations>
       </note>
     </measure>
-    <measure number="102" width="367.85">
+    <measure number="102" width="327.37">
       <note>
         <pitch>
           <step>C</step>
@@ -16928,7 +16932,7 @@
         </notations>
       </note>
     </measure>
-    <measure number="103" width="284.47">
+    <measure number="103" width="243.99">
       <note>
         <pitch>
           <step>G</step>
@@ -16957,7 +16961,7 @@
         <stem>down</stem>
       </note>
     </measure>
-    <measure number="104" width="212.00">
+    <measure number="104" width="171.52">
       <note>
         <pitch>
           <step>E</step>
