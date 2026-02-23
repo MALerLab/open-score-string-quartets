@@ -1,0 +1,37 @@
+#!/bin/bash
+ID=$1
+TYPE="${2:-l}"
+IDIR="crop_resized"
+DIR="lmxe"
+
+if [[ "$TYPE" == "kern" || "$TYPE" == "k" || "$TYPE" == "krn" ]];  then
+  TYPE="krn"
+  DIR="krn"
+elif [[ "$TYPE" == "ekern" || "$TYPE" == "e" || "$TYPE" == "ekrn" ]];  then
+  TYPE="ekrn"
+  DIR="krn"
+elif [[ "$TYPE" == "partwise_ekrn" || "$TYPE" == "pwe" || "$TYPE" == "partwise_ekrn" ]];  then
+  TYPE="ekrn"
+  IDIR="staff_crop"
+  DIR="partwise_ekrn"
+elif [[ "$TYPE" == "lmx" || "$TYPE" == "l" || "$TYPE" == "lmxe" ]];  then
+  TYPE="lmxe"
+  DIR="lmxe"
+elif [[ "$TYPE" == "partwise_lmx" || "$TYPE" == "pwl" || "$TYPE" == "partwise_lmxe" ]];  then
+  TYPE="lmxe"
+  IDIR="staff_crop"
+  DIR="partwise_lmxe"
+else
+  TYPE="lmxe"
+  DIR="lmxe"
+fi
+
+echo "search $DIR/*.$TYPE"
+
+SYM=$(find -wholename "./scores/*/${DIR}/${ID}.${TYPE}")
+IMG=$(find -wholename "./scores/*/${IDIR}/${ID}.png")
+echo $IMG
+imcat $IMG
+echo ""
+echo $SYM
+cat $SYM
