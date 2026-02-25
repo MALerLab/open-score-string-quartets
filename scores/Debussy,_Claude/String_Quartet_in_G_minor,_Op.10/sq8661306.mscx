@@ -40526,6 +40526,9 @@
             <Spanner type="Slur">
               <Slur>
                 <linkedMain/>
+                <SlurSegment no="0">
+                  <offset x="0" y="-0.3"/>
+                  </SlurSegment>
                 </Slur>
               <next>
                 <location>
@@ -40552,6 +40555,16 @@
           <Chord>
             <linkedMain/>
             <durationType>32nd</durationType>
+            <Spanner type="Slur">
+              <Slur>
+                <linkedMain/>
+                </Slur>
+              <next>
+                <location>
+                  <fractions>1/24</fractions>
+                  </location>
+                </next>
+              </Spanner>
             <Note>
               <linkedMain/>
               <pitch>80</pitch>
@@ -40574,6 +40587,13 @@
               <prev>
                 <location>
                   <fractions>-5/48</fractions>
+                  </location>
+                </prev>
+              </Spanner>
+            <Spanner type="Slur">
+              <prev>
+                <location>
+                  <fractions>-1/24</fractions>
                   </location>
                 </prev>
               </Spanner>
@@ -40672,6 +40692,16 @@
           <Chord>
             <linkedMain/>
             <durationType>32nd</durationType>
+            <Spanner type="Slur">
+              <Slur>
+                <linkedMain/>
+                </Slur>
+              <next>
+                <location>
+                  <fractions>1/24</fractions>
+                  </location>
+                </next>
+              </Spanner>
             <Note>
               <linkedMain/>
               <pitch>76</pitch>
@@ -40694,6 +40724,13 @@
               <prev>
                 <location>
                   <fractions>-5/48</fractions>
+                  </location>
+                </prev>
+              </Spanner>
+            <Spanner type="Slur">
+              <prev>
+                <location>
+                  <fractions>-1/24</fractions>
                   </location>
                 </prev>
               </Spanner>
@@ -40785,6 +40822,16 @@
           <Chord>
             <linkedMain/>
             <durationType>32nd</durationType>
+            <Spanner type="Slur">
+              <Slur>
+                <linkedMain/>
+                </Slur>
+              <next>
+                <location>
+                  <fractions>1/24</fractions>
+                  </location>
+                </next>
+              </Spanner>
             <Note>
               <linkedMain/>
               <pitch>66</pitch>
@@ -40807,6 +40854,13 @@
               <prev>
                 <location>
                   <fractions>-5/48</fractions>
+                  </location>
+                </prev>
+              </Spanner>
+            <Spanner type="Slur">
+              <prev>
+                <location>
+                  <fractions>-1/24</fractions>
                   </location>
                 </prev>
               </Spanner>
@@ -40978,6 +41032,16 @@
           <Chord>
             <linkedMain/>
             <durationType>32nd</durationType>
+            <Spanner type="Slur">
+              <Slur>
+                <linkedMain/>
+                </Slur>
+              <next>
+                <location>
+                  <fractions>1/24</fractions>
+                  </location>
+                </next>
+              </Spanner>
             <Note>
               <linkedMain/>
               <pitch>66</pitch>
@@ -41000,6 +41064,13 @@
               <prev>
                 <location>
                   <fractions>-5/48</fractions>
+                  </location>
+                </prev>
+              </Spanner>
+            <Spanner type="Slur">
+              <prev>
+                <location>
+                  <fractions>-1/24</fractions>
                   </location>
                 </prev>
               </Spanner>
@@ -132297,16 +132368,6 @@ et avec passion </b><font face="ScoreText"></font><b><font face="Edwin"></fon
           <Chord>
             <linkedMain/>
             <durationType>quarter</durationType>
-            <Spanner type="Slur">
-              <Slur>
-                <linkedMain/>
-                </Slur>
-              <next>
-                <location>
-                  <fractions>5/8</fractions>
-                  </location>
-                </next>
-              </Spanner>
             <Note>
               <linkedMain/>
               <Accidental>
@@ -132357,13 +132418,6 @@ et avec passion </b><font face="ScoreText"></font><b><font face="Edwin"></fon
           <Chord>
             <linkedMain/>
             <durationType>eighth</durationType>
-            <Spanner type="Slur">
-              <prev>
-                <location>
-                  <fractions>-5/8</fractions>
-                  </location>
-                </prev>
-              </Spanner>
             <Note>
               <linkedMain/>
               <Spanner type="Tie">
@@ -132415,16 +132469,6 @@ et avec passion </b><font face="ScoreText"></font><b><font face="Edwin"></fon
           <Chord>
             <linkedMain/>
             <durationType>quarter</durationType>
-            <Spanner type="Slur">
-              <Slur>
-                <linkedMain/>
-                </Slur>
-              <next>
-                <location>
-                  <fractions>2/3</fractions>
-                  </location>
-                </next>
-              </Spanner>
             <Note>
               <linkedMain/>
               <Accidental>
@@ -132504,13 +132548,6 @@ et avec passion </b><font face="ScoreText"></font><b><font face="Edwin"></fon
           <Chord>
             <linkedMain/>
             <durationType>quarter</durationType>
-            <Spanner type="Slur">
-              <prev>
-                <location>
-                  <fractions>-2/3</fractions>
-                  </location>
-                </prev>
-              </Spanner>
             <Note>
               <linkedMain/>
               <Accidental>
@@ -214420,6 +214457,16 @@ expressif</i></text>
           <Chord>
             <linkedMain/>
             <durationType>eighth</durationType>
+            <Spanner type="Slur">
+              <Slur>
+                <linkedMain/>
+                </Slur>
+              <next>
+                <location>
+                  <fractions>1/6</fractions>
+                  </location>
+                </next>
+              </Spanner>
             <Note>
               <linkedMain/>
               <Accidental>
@@ -214442,6 +214489,13 @@ expressif</i></text>
           <Chord>
             <linkedMain/>
             <durationType>eighth</durationType>
+            <Spanner type="Slur">
+              <prev>
+                <location>
+                  <fractions>-1/6</fractions>
+                  </location>
+                </prev>
+              </Spanner>
             <Note>
               <linkedMain/>
               <Accidental>
@@ -251562,6 +251616,11 @@ expressif</i></text>
             <linkedMain/>
             <durationType>half</durationType>
             </Rest>
+          <Clef>
+            <concertClefType>C4</concertClefType>
+            <transposingClefType>C4</transposingClefType>
+            <linkedMain/>
+            </Clef>
           </voice>
         </Measure>
       <Measure>
@@ -252426,6 +252485,11 @@ expressif</i></text>
               </Note>
             </Chord>
           <endTuplet/>
+          <Clef>
+            <concertClefType>F</concertClefType>
+            <transposingClefType>F</transposingClefType>
+            <linkedMain/>
+            </Clef>
           </voice>
         </Measure>
       <Measure>
@@ -252527,6 +252591,7 @@ expressif</i></text>
               <style>Tuplet</style>
               <text>3</text>
               </Number>
+            <direction>up</direction>
             </Tuplet>
           <Chord>
             <linkedMain/>
@@ -253325,6 +253390,11 @@ expressif</i></text>
               <tpc>13</tpc>
               </Note>
             </Chord>
+          <Clef>
+            <concertClefType>C4</concertClefType>
+            <transposingClefType>C4</transposingClefType>
+            <linkedMain/>
+            </Clef>
           </voice>
         </Measure>
       <Measure>
@@ -253720,7 +253790,7 @@ expressif</i></text>
             <linkedMain/>
             <durationType>eighth</durationType>
             <Articulation>
-              <subtype>articStaccatoAbove</subtype>
+              <subtype>articStaccatoBelow</subtype>
               <linkedMain/>
               </Articulation>
             <Note>
@@ -253733,7 +253803,7 @@ expressif</i></text>
             <linkedMain/>
             <durationType>eighth</durationType>
             <Articulation>
-              <subtype>articStaccatoAbove</subtype>
+              <subtype>articStaccatoBelow</subtype>
               <linkedMain/>
               </Articulation>
             <Note>
@@ -253750,7 +253820,7 @@ expressif</i></text>
             <linkedMain/>
             <durationType>eighth</durationType>
             <Articulation>
-              <subtype>articStaccatoAbove</subtype>
+              <subtype>articStaccatoBelow</subtype>
               <linkedMain/>
               </Articulation>
             <Note>
@@ -253842,7 +253912,7 @@ expressif</i></text>
             <linkedMain/>
             <durationType>eighth</durationType>
             <Articulation>
-              <subtype>articStaccatoAbove</subtype>
+              <subtype>articStaccatoBelow</subtype>
               <linkedMain/>
               </Articulation>
             <Note>
@@ -253855,7 +253925,7 @@ expressif</i></text>
             <linkedMain/>
             <durationType>eighth</durationType>
             <Articulation>
-              <subtype>articStaccatoAbove</subtype>
+              <subtype>articStaccatoBelow</subtype>
               <linkedMain/>
               </Articulation>
             <Note>
@@ -253868,7 +253938,7 @@ expressif</i></text>
             <linkedMain/>
             <durationType>eighth</durationType>
             <Articulation>
-              <subtype>articStaccatoAbove</subtype>
+              <subtype>articStaccatoBelow</subtype>
               <linkedMain/>
               </Articulation>
             <Note>
@@ -253878,6 +253948,11 @@ expressif</i></text>
               </Note>
             </Chord>
           <endTuplet/>
+          <Clef>
+            <concertClefType>F</concertClefType>
+            <transposingClefType>F</transposingClefType>
+            <linkedMain/>
+            </Clef>
           </voice>
         </Measure>
       <Measure>
@@ -258468,8 +258543,9 @@ expressif</i></text>
             <subtype>other-dynamics</subtype>
             <velocity>49</velocity>
             <linkedMain/>
+            <placement>above</placement>
             <align>left,baseline</align>
-            <offset x="-0.5" y="2.5"/>
+            <offset x="-0.5" y="-1.5"/>
             <text><i></i><font face="ScoreText"></font><i><font face="Edwin"></font> et animé</i></text>
             </Dynamic>
           <Tuplet>
@@ -258484,6 +258560,9 @@ expressif</i></text>
               <text>3</text>
               </Number>
             </Tuplet>
+          <Beam>
+            <StemDirection>down</StemDirection>
+            </Beam>
           <Chord>
             <linkedMain/>
             <durationType>eighth</durationType>
@@ -258550,6 +258629,9 @@ expressif</i></text>
               <text>3</text>
               </Number>
             </Tuplet>
+          <Beam>
+            <StemDirection>down</StemDirection>
+            </Beam>
           <Chord>
             <linkedMain/>
             <durationType>eighth</durationType>
@@ -258607,6 +258689,9 @@ expressif</i></text>
               <text>3</text>
               </Number>
             </Tuplet>
+          <Beam>
+            <StemDirection>down</StemDirection>
+            </Beam>
           <Chord>
             <linkedMain/>
             <durationType>eighth</durationType>
@@ -258673,6 +258758,9 @@ expressif</i></text>
               <text>3</text>
               </Number>
             </Tuplet>
+          <Beam>
+            <StemDirection>down</StemDirection>
+            </Beam>
           <Chord>
             <linkedMain/>
             <durationType>eighth</durationType>
@@ -258734,6 +258822,9 @@ expressif</i></text>
               <text>3</text>
               </Number>
             </Tuplet>
+          <Beam>
+            <StemDirection>down</StemDirection>
+            </Beam>
           <Chord>
             <linkedMain/>
             <durationType>eighth</durationType>
@@ -258791,6 +258882,9 @@ expressif</i></text>
               <text>3</text>
               </Number>
             </Tuplet>
+          <Beam>
+            <StemDirection>down</StemDirection>
+            </Beam>
           <Chord>
             <linkedMain/>
             <durationType>eighth</durationType>
@@ -258848,6 +258942,9 @@ expressif</i></text>
               <text>3</text>
               </Number>
             </Tuplet>
+          <Beam>
+            <StemDirection>down</StemDirection>
+            </Beam>
           <Chord>
             <linkedMain/>
             <durationType>eighth</durationType>
@@ -258914,6 +259011,9 @@ expressif</i></text>
               <text>3</text>
               </Number>
             </Tuplet>
+          <Beam>
+            <StemDirection>down</StemDirection>
+            </Beam>
           <Chord>
             <linkedMain/>
             <durationType>eighth</durationType>
@@ -259073,6 +259173,11 @@ expressif</i></text>
               <tpc>13</tpc>
               </Note>
             </Chord>
+          <Clef>
+            <concertClefType>C4</concertClefType>
+            <transposingClefType>C4</transposingClefType>
+            <linkedMain/>
+            </Clef>
           </voice>
         </Measure>
       <Measure>
@@ -259119,6 +259224,7 @@ expressif</i></text>
               <style>Tuplet</style>
               <text>3</text>
               </Number>
+            <direction>down</direction>
             </Tuplet>
           <Chord>
             <linkedMain/>
@@ -259907,6 +260013,11 @@ expressif</i></text>
               <tpc>18</tpc>
               </Note>
             </Chord>
+          <Clef>
+            <concertClefType>F</concertClefType>
+            <transposingClefType>F</transposingClefType>
+            <linkedMain/>
+            </Clef>
           <Chord>
             <linkedMain/>
             <durationType>quarter</durationType>
@@ -265967,6 +266078,11 @@ expressif</i></text>
               </Note>
             </Chord>
           <endTuplet/>
+          <Clef>
+            <concertClefType>C4</concertClefType>
+            <transposingClefType>C4</transposingClefType>
+            <linkedMain/>
+            </Clef>
           </voice>
         </Measure>
       <Measure>
@@ -266211,6 +266327,11 @@ expressif</i></text>
             <linkedMain/>
             <durationType>eighth</durationType>
             </Rest>
+          <Clef>
+            <concertClefType>F</concertClefType>
+            <transposingClefType>F</transposingClefType>
+            <linkedMain/>
+            </Clef>
           </voice>
         </Measure>
       <Measure>
@@ -266500,6 +266621,11 @@ expressif</i></text>
               </Note>
             </Chord>
           <endTuplet/>
+          <Clef>
+            <concertClefType>C4</concertClefType>
+            <transposingClefType>C4</transposingClefType>
+            <linkedMain/>
+            </Clef>
           </voice>
         </Measure>
       <Measure>
@@ -266655,6 +266781,11 @@ expressif</i></text>
               <tpc>16</tpc>
               </Note>
             </Chord>
+          <Clef>
+            <concertClefType>F</concertClefType>
+            <transposingClefType>F</transposingClefType>
+            <linkedMain/>
+            </Clef>
           </voice>
         </Measure>
       <Measure>
@@ -270675,6 +270806,11 @@ expressif</i></text>
             <durationType>measure</durationType>
             <duration>6/8</duration>
             </Rest>
+          <Clef>
+            <concertClefType>C4</concertClefType>
+            <transposingClefType>C4</transposingClefType>
+            <linkedMain/>
+            </Clef>
           </voice>
         </Measure>
       <Measure>
@@ -271004,6 +271140,11 @@ expressif</i></text>
             <linkedMain/>
             <durationType>eighth</durationType>
             </Rest>
+          <Clef>
+            <concertClefType>F</concertClefType>
+            <transposingClefType>F</transposingClefType>
+            <linkedMain/>
+            </Clef>
           </voice>
         </Measure>
       <Measure>
@@ -276297,6 +276438,11 @@ expressif</i></text>
             <linkedMain/>
             <durationType>eighth</durationType>
             </Rest>
+          <Clef>
+            <concertClefType>C4</concertClefType>
+            <transposingClefType>C4</transposingClefType>
+            <linkedMain/>
+            </Clef>
           </voice>
         </Measure>
       <Measure>
@@ -276677,7 +276823,7 @@ expressif</i></text>
             <dots>1</dots>
             <durationType>quarter</durationType>
             <Articulation>
-              <subtype>articTenutoAbove</subtype>
+              <subtype>articTenutoBelow</subtype>
               <linkedMain/>
               </Articulation>
             <Note>
@@ -276691,7 +276837,7 @@ expressif</i></text>
             <dots>1</dots>
             <durationType>quarter</durationType>
             <Articulation>
-              <subtype>articTenutoAbove</subtype>
+              <subtype>articTenutoBelow</subtype>
               <linkedMain/>
               </Articulation>
             <Note>
@@ -276742,6 +276888,11 @@ expressif</i></text>
               <tpc>23</tpc>
               </Note>
             </Chord>
+          <Clef>
+            <concertClefType>F</concertClefType>
+            <transposingClefType>F</transposingClefType>
+            <linkedMain/>
+            </Clef>
           <Chord>
             <linkedMain/>
             <durationType>quarter</durationType>
@@ -276995,6 +277146,11 @@ expressif</i></text>
               <tpc>25</tpc>
               </Note>
             </Chord>
+          <Clef>
+            <concertClefType>C4</concertClefType>
+            <transposingClefType>C4</transposingClefType>
+            <linkedMain/>
+            </Clef>
           </voice>
         </Measure>
       <Measure>
@@ -277332,6 +277488,11 @@ expressif</i></text>
               <tpc>18</tpc>
               </Note>
             </Chord>
+          <Clef>
+            <concertClefType>F</concertClefType>
+            <transposingClefType>F</transposingClefType>
+            <linkedMain/>
+            </Clef>
           </voice>
         </Measure>
       <Measure>
@@ -277767,7 +277928,11 @@ expressif</i></text>
             <subtype>pp</subtype>
             <velocity>33</velocity>
             <linkedMain/>
+            <placement>above</placement>
             </Dynamic>
+          <Beam>
+            <StemDirection>down</StemDirection>
+            </Beam>
           <Chord>
             <linkedMain/>
             <durationType>16th</durationType>
@@ -277842,6 +278007,9 @@ expressif</i></text>
               <tpc>11</tpc>
               </Note>
             </Chord>
+          <Beam>
+            <StemDirection>down</StemDirection>
+            </Beam>
           <Chord>
             <linkedMain/>
             <durationType>16th</durationType>
@@ -277999,7 +278167,11 @@ expressif</i></text>
             <subtype>pp</subtype>
             <velocity>33</velocity>
             <linkedMain/>
+            <placement>above</placement>
             </Dynamic>
+          <Beam>
+            <StemDirection>down</StemDirection>
+            </Beam>
           <Chord>
             <linkedMain/>
             <durationType>16th</durationType>
@@ -278074,6 +278246,9 @@ expressif</i></text>
               <tpc>11</tpc>
               </Note>
             </Chord>
+          <Beam>
+            <StemDirection>down</StemDirection>
+            </Beam>
           <Chord>
             <linkedMain/>
             <durationType>16th</durationType>
@@ -278149,6 +278324,9 @@ expressif</i></text>
         </Measure>
       <Measure>
         <voice>
+          <Beam>
+            <StemDirection>down</StemDirection>
+            </Beam>
           <Chord>
             <linkedMain/>
             <durationType>16th</durationType>
@@ -278223,6 +278401,9 @@ expressif</i></text>
               <tpc>11</tpc>
               </Note>
             </Chord>
+          <Beam>
+            <StemDirection>down</StemDirection>
+            </Beam>
           <Chord>
             <linkedMain/>
             <durationType>16th</durationType>
@@ -278302,11 +278483,13 @@ expressif</i></text>
             <subtype>other-dynamics</subtype>
             <velocity>33</velocity>
             <linkedMain/>
+            <placement>above</placement>
             <text><i>più </i><font face="ScoreText"></font></text>
             </Dynamic>
           <Spanner type="HairPin">
             <HairPin>
               <subtype>1</subtype>
+              <placement>above</placement>
               <linkedMain/>
               </HairPin>
             <next>
@@ -278315,6 +278498,9 @@ expressif</i></text>
                 </location>
               </next>
             </Spanner>
+          <Beam>
+            <StemDirection>down</StemDirection>
+            </Beam>
           <Chord>
             <linkedMain/>
             <durationType>16th</durationType>
@@ -278389,6 +278575,9 @@ expressif</i></text>
               <tpc>11</tpc>
               </Note>
             </Chord>
+          <Beam>
+            <StemDirection>down</StemDirection>
+            </Beam>
           <Chord>
             <linkedMain/>
             <durationType>16th</durationType>
@@ -279477,8 +279666,8 @@ expressif</i></text>
               </Note>
             </Chord>
           <Clef>
-            <concertClefType>C4</concertClefType>
-            <transposingClefType>C4</transposingClefType>
+            <concertClefType>G</concertClefType>
+            <transposingClefType>G</transposingClefType>
             <linkedMain/>
             </Clef>
           </voice>
@@ -285760,6 +285949,16 @@ expressif</i></text>
           <Chord>
             <linkedMain/>
             <durationType>eighth</durationType>
+            <Spanner type="Slur">
+              <Slur>
+                <linkedMain/>
+                </Slur>
+              <next>
+                <location>
+                  <fractions>1/6</fractions>
+                  </location>
+                </next>
+              </Spanner>
             <Note>
               <linkedMain/>
               <Accidental>
@@ -285785,6 +285984,13 @@ expressif</i></text>
           <Chord>
             <linkedMain/>
             <durationType>eighth</durationType>
+            <Spanner type="Slur">
+              <prev>
+                <location>
+                  <fractions>-1/6</fractions>
+                  </location>
+                </prev>
+              </Spanner>
             <Note>
               <linkedMain/>
               <Accidental>
@@ -287182,6 +287388,11 @@ expressif</i></text>
               <tpc>14</tpc>
               </Note>
             </Chord>
+          <Clef>
+            <concertClefType>C4</concertClefType>
+            <transposingClefType>C4</transposingClefType>
+            <linkedMain/>
+            </Clef>
           </voice>
         </Measure>
       <Measure>
@@ -287960,7 +288171,7 @@ expressif</i></text>
             <linkedMain/>
             <durationType>eighth</durationType>
             <Articulation>
-              <subtype>articAccentAbove</subtype>
+              <subtype>articAccentBelow</subtype>
               <linkedMain/>
               </Articulation>
             <Note>
@@ -287976,7 +288187,7 @@ expressif</i></text>
             <linkedMain/>
             <durationType>eighth</durationType>
             <Articulation>
-              <subtype>articAccentAbove</subtype>
+              <subtype>articAccentBelow</subtype>
               <linkedMain/>
               </Articulation>
             <Note>
@@ -287993,7 +288204,7 @@ expressif</i></text>
             <BeamMode>mid</BeamMode>
             <durationType>eighth</durationType>
             <Articulation>
-              <subtype>articAccentAbove</subtype>
+              <subtype>articAccentBelow</subtype>
               <linkedMain/>
               </Articulation>
             <Note>
@@ -288009,7 +288220,7 @@ expressif</i></text>
             <linkedMain/>
             <durationType>eighth</durationType>
             <Articulation>
-              <subtype>articAccentAbove</subtype>
+              <subtype>articAccentBelow</subtype>
               <linkedMain/>
               </Articulation>
             <Note>
@@ -288019,6 +288230,11 @@ expressif</i></text>
               </Note>
             </Chord>
           <endTuplet/>
+          <Clef>
+            <concertClefType>F</concertClefType>
+            <transposingClefType>F</transposingClefType>
+            <linkedMain/>
+            </Clef>
           </voice>
         </Measure>
       <Measure>
@@ -290864,6 +291080,11 @@ expressif</i></text>
             <linkedMain/>
             <durationType>half</durationType>
             </Rest>
+          <Clef>
+            <concertClefType>C4</concertClefType>
+            <transposingClefType>C4</transposingClefType>
+            <linkedMain/>
+            </Clef>
           </voice>
         </Measure>
       <Measure>
@@ -291006,6 +291227,11 @@ expressif</i></text>
               <tpc>16</tpc>
               </Note>
             </Chord>
+          <Clef>
+            <concertClefType>F</concertClefType>
+            <transposingClefType>F</transposingClefType>
+            <linkedMain/>
+            </Clef>
           </voice>
         </Measure>
       <Measure>
@@ -293537,6 +293763,11 @@ expressif</i></text>
               <tpc>16</tpc>
               </Note>
             </Chord>
+          <Clef>
+            <concertClefType>C4</concertClefType>
+            <transposingClefType>C4</transposingClefType>
+            <linkedMain/>
+            </Clef>
           </voice>
         </Measure>
       <Measure>
@@ -294171,6 +294402,11 @@ expressif</i></text>
               <tpc>15</tpc>
               </Note>
             </Chord>
+          <Clef>
+            <concertClefType>F</concertClefType>
+            <transposingClefType>F</transposingClefType>
+            <linkedMain/>
+            </Clef>
           </voice>
         </Measure>
       <Measure>
@@ -298077,6 +298313,11 @@ expressif</i></text>
               <tpc>12</tpc>
               </Note>
             </Chord>
+          <Clef>
+            <concertClefType>C4</concertClefType>
+            <transposingClefType>C4</transposingClefType>
+            <linkedMain/>
+            </Clef>
           <Chord>
             <linkedMain/>
             <durationType>quarter</durationType>
@@ -298613,6 +298854,11 @@ expressif</i></text>
             <linkedMain/>
             <durationType>half</durationType>
             </Rest>
+          <Clef>
+            <concertClefType>F</concertClefType>
+            <transposingClefType>F</transposingClefType>
+            <linkedMain/>
+            </Clef>
           </voice>
         </Measure>
       <Measure>
@@ -305480,8 +305726,8 @@ expressif</i></text>
               </Note>
             </Chord>
           <Clef>
-            <concertClefType>F</concertClefType>
-            <transposingClefType>F</transposingClefType>
+            <concertClefType>C4</concertClefType>
+            <transposingClefType>C4</transposingClefType>
             <linkedMain/>
             </Clef>
           </voice>
@@ -306066,6 +306312,11 @@ expressif</i></text>
               <linkedMain/>
               </Tremolo>
             </Chord>
+          <Clef>
+            <concertClefType>F</concertClefType>
+            <transposingClefType>F</transposingClefType>
+            <linkedMain/>
+            </Clef>
           </voice>
         </Measure>
       <Measure>
@@ -355834,6 +356085,17 @@ expressif</i></text>
               <linked>
                 </linked>
               <durationType>32nd</durationType>
+              <Spanner type="Slur">
+                <Slur>
+                  <linked>
+                    </linked>
+                  </Slur>
+                <next>
+                  <location>
+                    <fractions>1/24</fractions>
+                    </location>
+                  </next>
+                </Spanner>
               <Note>
                 <linked>
                   </linked>
@@ -355860,6 +356122,13 @@ expressif</i></text>
                 <prev>
                   <location>
                     <fractions>-5/48</fractions>
+                    </location>
+                  </prev>
+                </Spanner>
+              <Spanner type="Slur">
+                <prev>
+                  <location>
+                    <fractions>-1/24</fractions>
                     </location>
                   </prev>
                 </Spanner>
@@ -355971,6 +356240,17 @@ expressif</i></text>
               <linked>
                 </linked>
               <durationType>32nd</durationType>
+              <Spanner type="Slur">
+                <Slur>
+                  <linked>
+                    </linked>
+                  </Slur>
+                <next>
+                  <location>
+                    <fractions>1/24</fractions>
+                    </location>
+                  </next>
+                </Spanner>
               <Note>
                 <linked>
                   </linked>
@@ -355997,6 +356277,13 @@ expressif</i></text>
                 <prev>
                   <location>
                     <fractions>-5/48</fractions>
+                    </location>
+                  </prev>
+                </Spanner>
+              <Spanner type="Slur">
+                <prev>
+                  <location>
+                    <fractions>-1/24</fractions>
                     </location>
                   </prev>
                 </Spanner>
@@ -356101,6 +356388,17 @@ expressif</i></text>
               <linked>
                 </linked>
               <durationType>32nd</durationType>
+              <Spanner type="Slur">
+                <Slur>
+                  <linked>
+                    </linked>
+                  </Slur>
+                <next>
+                  <location>
+                    <fractions>1/24</fractions>
+                    </location>
+                  </next>
+                </Spanner>
               <Note>
                 <linked>
                   </linked>
@@ -356127,6 +356425,13 @@ expressif</i></text>
                 <prev>
                   <location>
                     <fractions>-5/48</fractions>
+                    </location>
+                  </prev>
+                </Spanner>
+              <Spanner type="Slur">
+                <prev>
+                  <location>
+                    <fractions>-1/24</fractions>
                     </location>
                   </prev>
                 </Spanner>
@@ -356323,6 +356628,17 @@ expressif</i></text>
               <linked>
                 </linked>
               <durationType>32nd</durationType>
+              <Spanner type="Slur">
+                <Slur>
+                  <linked>
+                    </linked>
+                  </Slur>
+                <next>
+                  <location>
+                    <fractions>1/24</fractions>
+                    </location>
+                  </next>
+                </Spanner>
               <Note>
                 <linked>
                   </linked>
@@ -356349,6 +356665,13 @@ expressif</i></text>
                 <prev>
                   <location>
                     <fractions>-5/48</fractions>
+                    </location>
+                  </prev>
+                </Spanner>
+              <Spanner type="Slur">
+                <prev>
+                  <location>
+                    <fractions>-1/24</fractions>
                     </location>
                   </prev>
                 </Spanner>
@@ -463028,17 +463351,6 @@ et avec passion </b><font face="ScoreText"></font><b><font face="Edwin"></fon
               <linked>
                 </linked>
               <durationType>quarter</durationType>
-              <Spanner type="Slur">
-                <Slur>
-                  <linked>
-                    </linked>
-                  </Slur>
-                <next>
-                  <location>
-                    <fractions>5/8</fractions>
-                    </location>
-                  </next>
-                </Spanner>
               <Note>
                 <linked>
                   </linked>
@@ -463096,13 +463408,6 @@ et avec passion </b><font face="ScoreText"></font><b><font face="Edwin"></fon
               <linked>
                 </linked>
               <durationType>eighth</durationType>
-              <Spanner type="Slur">
-                <prev>
-                  <location>
-                    <fractions>-5/8</fractions>
-                    </location>
-                  </prev>
-                </Spanner>
               <Note>
                 <linked>
                   </linked>
@@ -463160,17 +463465,6 @@ et avec passion </b><font face="ScoreText"></font><b><font face="Edwin"></fon
               <linked>
                 </linked>
               <durationType>quarter</durationType>
-              <Spanner type="Slur">
-                <Slur>
-                  <linked>
-                    </linked>
-                  </Slur>
-                <next>
-                  <location>
-                    <fractions>2/3</fractions>
-                    </location>
-                  </next>
-                </Spanner>
               <Note>
                 <linked>
                   </linked>
@@ -463261,13 +463555,6 @@ et avec passion </b><font face="ScoreText"></font><b><font face="Edwin"></fon
               <linked>
                 </linked>
               <durationType>quarter</durationType>
-              <Spanner type="Slur">
-                <prev>
-                  <location>
-                    <fractions>-2/3</fractions>
-                    </location>
-                  </prev>
-                </Spanner>
               <Note>
                 <linked>
                   </linked>
@@ -559509,6 +559796,17 @@ expressif</i></text>
               <linked>
                 </linked>
               <durationType>eighth</durationType>
+              <Spanner type="Slur">
+                <Slur>
+                  <linked>
+                    </linked>
+                  </Slur>
+                <next>
+                  <location>
+                    <fractions>1/6</fractions>
+                    </location>
+                  </next>
+                </Spanner>
               <Note>
                 <linked>
                   </linked>
@@ -559535,6 +559833,13 @@ expressif</i></text>
               <linked>
                 </linked>
               <durationType>eighth</durationType>
+              <Spanner type="Slur">
+                <prev>
+                  <location>
+                    <fractions>-1/6</fractions>
+                    </location>
+                  </prev>
+                </Spanner>
               <Note>
                 <linked>
                   </linked>
@@ -602698,6 +603003,12 @@ et avec passion </b><font face="ScoreText"></font><b><font face="Edwin"></fon
                 </linked>
               <durationType>half</durationType>
               </Rest>
+            <Clef>
+              <concertClefType>C4</concertClefType>
+              <transposingClefType>C4</transposingClefType>
+              <linked>
+                </linked>
+              </Clef>
             </voice>
           </Measure>
         <Measure>
@@ -602731,25 +603042,25 @@ et avec passion </b><font face="ScoreText"></font><b><font face="Edwin"></fon
               <subtype>other-dynamics</subtype>
               <velocity>96</velocity>
               <linked>
-                <indexDiff>1</indexDiff>
+                <indexDiff>2</indexDiff>
                 </linked>
               <align>left,baseline</align>
               <text><i></i><font face="ScoreText"></font><i><font face="Edwin"></font> très expressif</i></text>
               </Dynamic>
             <Chord>
               <linked>
-                <indexDiff>1</indexDiff>
+                <indexDiff>2</indexDiff>
                 </linked>
               <durationType>quarter</durationType>
               <Articulation>
                 <subtype>articTenutoAbove</subtype>
                 <linked>
-                  <indexDiff>1</indexDiff>
+                  <indexDiff>2</indexDiff>
                   </linked>
                 </Articulation>
               <Note>
                 <linked>
-                  <indexDiff>1</indexDiff>
+                  <indexDiff>2</indexDiff>
                   </linked>
                 <Accidental>
                   <subtype>accidentalSharp</subtype>
@@ -603752,6 +604063,12 @@ et avec passion </b><font face="ScoreText"></font><b><font face="Edwin"></fon
                 </Note>
               </Chord>
             <endTuplet/>
+            <Clef>
+              <concertClefType>F</concertClefType>
+              <transposingClefType>F</transposingClefType>
+              <linked>
+                </linked>
+              </Clef>
             </voice>
           </Measure>
         <Measure>
@@ -603775,18 +604092,18 @@ et avec passion </b><font face="ScoreText"></font><b><font face="Edwin"></fon
               <subtype>f</subtype>
               <velocity>96</velocity>
               <linked>
-                <indexDiff>1</indexDiff>
+                <indexDiff>2</indexDiff>
                 </linked>
               </Dynamic>
             <Chord>
               <linked>
-                <indexDiff>1</indexDiff>
+                <indexDiff>2</indexDiff>
                 </linked>
               <durationType>quarter</durationType>
               <Spanner type="Slur">
                 <Slur>
                   <linked>
-                    <indexDiff>1</indexDiff>
+                    <indexDiff>2</indexDiff>
                     </linked>
                   </Slur>
                 <next>
@@ -603797,7 +604114,7 @@ et avec passion </b><font face="ScoreText"></font><b><font face="Edwin"></fon
                 </Spanner>
               <Note>
                 <linked>
-                  <indexDiff>1</indexDiff>
+                  <indexDiff>2</indexDiff>
                   </linked>
                 <pitch>53</pitch>
                 <tpc>25</tpc>
@@ -604805,6 +605122,12 @@ et avec passion </b><font face="ScoreText"></font><b><font face="Edwin"></fon
                 <tpc>13</tpc>
                 </Note>
               </Chord>
+            <Clef>
+              <concertClefType>C4</concertClefType>
+              <transposingClefType>C4</transposingClefType>
+              <linked>
+                </linked>
+              </Clef>
             </voice>
           </Measure>
         <Measure>
@@ -605259,7 +605582,7 @@ et avec passion </b><font face="ScoreText"></font><b><font face="Edwin"></fon
                 </linked>
               <durationType>eighth</durationType>
               <Articulation>
-                <subtype>articStaccatoAbove</subtype>
+                <subtype>articStaccatoBelow</subtype>
                 <linked>
                   </linked>
                 </Articulation>
@@ -605275,7 +605598,7 @@ et avec passion </b><font face="ScoreText"></font><b><font face="Edwin"></fon
                 </linked>
               <durationType>eighth</durationType>
               <Articulation>
-                <subtype>articStaccatoAbove</subtype>
+                <subtype>articStaccatoBelow</subtype>
                 <linked>
                   </linked>
                 </Articulation>
@@ -605295,7 +605618,7 @@ et avec passion </b><font face="ScoreText"></font><b><font face="Edwin"></fon
                 </linked>
               <durationType>eighth</durationType>
               <Articulation>
-                <subtype>articStaccatoAbove</subtype>
+                <subtype>articStaccatoBelow</subtype>
                 <linked>
                   </linked>
                 </Articulation>
@@ -605400,7 +605723,7 @@ et avec passion </b><font face="ScoreText"></font><b><font face="Edwin"></fon
                 </linked>
               <durationType>eighth</durationType>
               <Articulation>
-                <subtype>articStaccatoAbove</subtype>
+                <subtype>articStaccatoBelow</subtype>
                 <linked>
                   </linked>
                 </Articulation>
@@ -605416,7 +605739,7 @@ et avec passion </b><font face="ScoreText"></font><b><font face="Edwin"></fon
                 </linked>
               <durationType>eighth</durationType>
               <Articulation>
-                <subtype>articStaccatoAbove</subtype>
+                <subtype>articStaccatoBelow</subtype>
                 <linked>
                   </linked>
                 </Articulation>
@@ -605432,7 +605755,7 @@ et avec passion </b><font face="ScoreText"></font><b><font face="Edwin"></fon
                 </linked>
               <durationType>eighth</durationType>
               <Articulation>
-                <subtype>articStaccatoAbove</subtype>
+                <subtype>articStaccatoBelow</subtype>
                 <linked>
                   </linked>
                 </Articulation>
@@ -605444,6 +605767,12 @@ et avec passion </b><font face="ScoreText"></font><b><font face="Edwin"></fon
                 </Note>
               </Chord>
             <endTuplet/>
+            <Clef>
+              <concertClefType>F</concertClefType>
+              <transposingClefType>F</transposingClefType>
+              <linked>
+                </linked>
+              </Clef>
             </voice>
           </Measure>
         <Measure>
@@ -611556,6 +611885,12 @@ et avec passion </b><font face="ScoreText"></font><b><font face="Edwin"></fon
                 <tpc>13</tpc>
                 </Note>
               </Chord>
+            <Clef>
+              <concertClefType>C4</concertClefType>
+              <transposingClefType>C4</transposingClefType>
+              <linked>
+                </linked>
+              </Clef>
             </voice>
           </Measure>
         <Measure>
@@ -612521,6 +612856,12 @@ et avec passion </b><font face="ScoreText"></font><b><font face="Edwin"></fon
                 <tpc>18</tpc>
                 </Note>
               </Chord>
+            <Clef>
+              <concertClefType>F</concertClefType>
+              <transposingClefType>F</transposingClefType>
+              <linked>
+                </linked>
+              </Clef>
             <Chord>
               <linked>
                 </linked>
@@ -619804,6 +620145,12 @@ et avec passion </b><font face="ScoreText"></font><b><font face="Edwin"></fon
                 </Note>
               </Chord>
             <endTuplet/>
+            <Clef>
+              <concertClefType>C4</concertClefType>
+              <transposingClefType>C4</transposingClefType>
+              <linked>
+                </linked>
+              </Clef>
             </voice>
           </Measure>
         <Measure>
@@ -620090,6 +620437,12 @@ et avec passion </b><font face="ScoreText"></font><b><font face="Edwin"></fon
                 </linked>
               <durationType>eighth</durationType>
               </Rest>
+            <Clef>
+              <concertClefType>F</concertClefType>
+              <transposingClefType>F</transposingClefType>
+              <linked>
+                </linked>
+              </Clef>
             </voice>
           </Measure>
         <Measure>
@@ -620429,6 +620782,12 @@ et avec passion </b><font face="ScoreText"></font><b><font face="Edwin"></fon
                 </Note>
               </Chord>
             <endTuplet/>
+            <Clef>
+              <concertClefType>C4</concertClefType>
+              <transposingClefType>C4</transposingClefType>
+              <linked>
+                </linked>
+              </Clef>
             </voice>
           </Measure>
         <Measure>
@@ -620610,6 +620969,12 @@ et avec passion </b><font face="ScoreText"></font><b><font face="Edwin"></fon
                 <tpc>16</tpc>
                 </Note>
               </Chord>
+            <Clef>
+              <concertClefType>F</concertClefType>
+              <transposingClefType>F</transposingClefType>
+              <linked>
+                </linked>
+              </Clef>
             </voice>
           </Measure>
         <Measure>
@@ -625438,6 +625803,12 @@ et avec passion </b><font face="ScoreText"></font><b><font face="Edwin"></fon
               <durationType>measure</durationType>
               <duration>18/8</duration>
               </Rest>
+            <Clef>
+              <concertClefType>C4</concertClefType>
+              <transposingClefType>C4</transposingClefType>
+              <linked>
+                </linked>
+              </Clef>
             </voice>
           </Measure>
         <Measure>
@@ -625458,6 +625829,12 @@ et avec passion </b><font face="ScoreText"></font><b><font face="Edwin"></fon
               <durationType>measure</durationType>
               <duration>6/8</duration>
               </Rest>
+            <Clef>
+              <concertClefType>C4</concertClefType>
+              <transposingClefType>C4</transposingClefType>
+              <linked>
+                </linked>
+              </Clef>
             </voice>
           </Measure>
         <Measure>
@@ -625476,6 +625853,7 @@ et avec passion </b><font face="ScoreText"></font><b><font face="Edwin"></fon
               <channelSwitch voice="2" name="arco"/>
               <channelSwitch voice="3" name="arco"/>
               <linked>
+                <indexDiff>1</indexDiff>
                 </linked>
               <text>arco</text>
               </StaffText>
@@ -625483,16 +625861,19 @@ et avec passion </b><font face="ScoreText"></font><b><font face="Edwin"></fon
               <subtype>p</subtype>
               <velocity>49</velocity>
               <linked>
+                <indexDiff>1</indexDiff>
                 </linked>
               </Dynamic>
             <Chord>
               <linked>
+                <indexDiff>1</indexDiff>
                 </linked>
               <dots>1</dots>
               <durationType>quarter</durationType>
               <Spanner type="Slur">
                 <Slur>
                   <linked>
+                    <indexDiff>1</indexDiff>
                     </linked>
                   </Slur>
                 <next>
@@ -625503,6 +625884,7 @@ et avec passion </b><font face="ScoreText"></font><b><font face="Edwin"></fon
                 </Spanner>
               <Note>
                 <linked>
+                  <indexDiff>1</indexDiff>
                   </linked>
                 <pitch>60</pitch>
                 <tpc>14</tpc>
@@ -625840,6 +626222,12 @@ et avec passion </b><font face="ScoreText"></font><b><font face="Edwin"></fon
                 </linked>
               <durationType>eighth</durationType>
               </Rest>
+            <Clef>
+              <concertClefType>F</concertClefType>
+              <transposingClefType>F</transposingClefType>
+              <linked>
+                </linked>
+              </Clef>
             </voice>
           </Measure>
         <Measure>
@@ -632041,6 +632429,12 @@ et avec passion </b><font face="ScoreText"></font><b><font face="Edwin"></fon
                 </linked>
               <durationType>eighth</durationType>
               </Rest>
+            <Clef>
+              <concertClefType>C4</concertClefType>
+              <transposingClefType>C4</transposingClefType>
+              <linked>
+                </linked>
+              </Clef>
             </voice>
           </Measure>
         <Measure>
@@ -632475,7 +632869,7 @@ et avec passion </b><font face="ScoreText"></font><b><font face="Edwin"></fon
               <dots>1</dots>
               <durationType>quarter</durationType>
               <Articulation>
-                <subtype>articTenutoAbove</subtype>
+                <subtype>articTenutoBelow</subtype>
                 <linked>
                   </linked>
                 </Articulation>
@@ -632492,7 +632886,7 @@ et avec passion </b><font face="ScoreText"></font><b><font face="Edwin"></fon
               <dots>1</dots>
               <durationType>quarter</durationType>
               <Articulation>
-                <subtype>articTenutoAbove</subtype>
+                <subtype>articTenutoBelow</subtype>
                 <linked>
                   </linked>
                 </Articulation>
@@ -632547,6 +632941,12 @@ et avec passion </b><font face="ScoreText"></font><b><font face="Edwin"></fon
                 <tpc>23</tpc>
                 </Note>
               </Chord>
+            <Clef>
+              <concertClefType>F</concertClefType>
+              <transposingClefType>F</transposingClefType>
+              <linked>
+                </linked>
+              </Clef>
             <Chord>
               <linked>
                 </linked>
@@ -632825,6 +633225,12 @@ et avec passion </b><font face="ScoreText"></font><b><font face="Edwin"></fon
                 <tpc>25</tpc>
                 </Note>
               </Chord>
+            <Clef>
+              <concertClefType>C4</concertClefType>
+              <transposingClefType>C4</transposingClefType>
+              <linked>
+                </linked>
+              </Clef>
             </voice>
           </Measure>
         <Measure>
@@ -633219,6 +633625,12 @@ et avec passion </b><font face="ScoreText"></font><b><font face="Edwin"></fon
                 <tpc>18</tpc>
                 </Note>
               </Chord>
+            <Clef>
+              <concertClefType>F</concertClefType>
+              <transposingClefType>F</transposingClefType>
+              <linked>
+                </linked>
+              </Clef>
             </voice>
           </Measure>
         <Measure>
@@ -635759,8 +636171,8 @@ et avec passion </b><font face="ScoreText"></font><b><font face="Edwin"></fon
                 </Note>
               </Chord>
             <Clef>
-              <concertClefType>C4</concertClefType>
-              <transposingClefType>C4</transposingClefType>
+              <concertClefType>G</concertClefType>
+              <transposingClefType>G</transposingClefType>
               <linked>
                 </linked>
               </Clef>
@@ -643233,6 +643645,17 @@ et avec passion </b><font face="ScoreText"></font><b><font face="Edwin"></fon
               <linked>
                 </linked>
               <durationType>eighth</durationType>
+              <Spanner type="Slur">
+                <Slur>
+                  <linked>
+                    </linked>
+                  </Slur>
+                <next>
+                  <location>
+                    <fractions>1/6</fractions>
+                    </location>
+                  </next>
+                </Spanner>
               <Note>
                 <linked>
                   </linked>
@@ -643262,6 +643685,13 @@ et avec passion </b><font face="ScoreText"></font><b><font face="Edwin"></fon
               <linked>
                 </linked>
               <durationType>eighth</durationType>
+              <Spanner type="Slur">
+                <prev>
+                  <location>
+                    <fractions>-1/6</fractions>
+                    </location>
+                  </prev>
+                </Spanner>
               <Note>
                 <linked>
                   </linked>
@@ -644893,6 +645323,12 @@ et avec passion </b><font face="ScoreText"></font><b><font face="Edwin"></fon
                 <tpc>14</tpc>
                 </Note>
               </Chord>
+            <Clef>
+              <concertClefType>C4</concertClefType>
+              <transposingClefType>C4</transposingClefType>
+              <linked>
+                </linked>
+              </Clef>
             </voice>
           </Measure>
         <Measure>
@@ -645778,7 +646214,7 @@ et avec passion </b><font face="ScoreText"></font><b><font face="Edwin"></fon
                 </linked>
               <durationType>eighth</durationType>
               <Articulation>
-                <subtype>articAccentAbove</subtype>
+                <subtype>articAccentBelow</subtype>
                 <linked>
                   </linked>
                 </Articulation>
@@ -645797,7 +646233,7 @@ et avec passion </b><font face="ScoreText"></font><b><font face="Edwin"></fon
                 </linked>
               <durationType>eighth</durationType>
               <Articulation>
-                <subtype>articAccentAbove</subtype>
+                <subtype>articAccentBelow</subtype>
                 <linked>
                   </linked>
                 </Articulation>
@@ -645817,7 +646253,7 @@ et avec passion </b><font face="ScoreText"></font><b><font face="Edwin"></fon
               <BeamMode>mid</BeamMode>
               <durationType>eighth</durationType>
               <Articulation>
-                <subtype>articAccentAbove</subtype>
+                <subtype>articAccentBelow</subtype>
                 <linked>
                   </linked>
                 </Articulation>
@@ -645836,7 +646272,7 @@ et avec passion </b><font face="ScoreText"></font><b><font face="Edwin"></fon
                 </linked>
               <durationType>eighth</durationType>
               <Articulation>
-                <subtype>articAccentAbove</subtype>
+                <subtype>articAccentBelow</subtype>
                 <linked>
                   </linked>
                 </Articulation>
@@ -645848,6 +646284,12 @@ et avec passion </b><font face="ScoreText"></font><b><font face="Edwin"></fon
                 </Note>
               </Chord>
             <endTuplet/>
+            <Clef>
+              <concertClefType>F</concertClefType>
+              <transposingClefType>F</transposingClefType>
+              <linked>
+                </linked>
+              </Clef>
             </voice>
           </Measure>
         <Measure>
@@ -649132,6 +649574,12 @@ et avec passion </b><font face="ScoreText"></font><b><font face="Edwin"></fon
                 </linked>
               <durationType>half</durationType>
               </Rest>
+            <Clef>
+              <concertClefType>C4</concertClefType>
+              <transposingClefType>C4</transposingClefType>
+              <linked>
+                </linked>
+              </Clef>
             </voice>
           </Measure>
         <Measure>
@@ -649290,6 +649738,12 @@ et avec passion </b><font face="ScoreText"></font><b><font face="Edwin"></fon
                 <tpc>16</tpc>
                 </Note>
               </Chord>
+            <Clef>
+              <concertClefType>F</concertClefType>
+              <transposingClefType>F</transposingClefType>
+              <linked>
+                </linked>
+              </Clef>
             </voice>
           </Measure>
         <Measure>
@@ -652129,6 +652583,12 @@ et avec passion </b><font face="ScoreText"></font><b><font face="Edwin"></fon
                 <tpc>16</tpc>
                 </Note>
               </Chord>
+            <Clef>
+              <concertClefType>C4</concertClefType>
+              <transposingClefType>C4</transposingClefType>
+              <linked>
+                </linked>
+              </Clef>
             </voice>
           </Measure>
         <Measure>
@@ -652145,15 +652605,18 @@ et avec passion </b><font face="ScoreText"></font><b><font face="Edwin"></fon
               <subtype>f</subtype>
               <velocity>96</velocity>
               <linked>
+                <indexDiff>1</indexDiff>
                 </linked>
               </Dynamic>
             <Chord>
               <linked>
+                <indexDiff>1</indexDiff>
                 </linked>
               <durationType>eighth</durationType>
               <Spanner type="Slur">
                 <Slur>
                   <linked>
+                    <indexDiff>1</indexDiff>
                     </linked>
                   </Slur>
                 <next>
@@ -652164,6 +652627,7 @@ et avec passion </b><font face="ScoreText"></font><b><font face="Edwin"></fon
                 </Spanner>
               <Note>
                 <linked>
+                  <indexDiff>1</indexDiff>
                   </linked>
                 <pitch>67</pitch>
                 <tpc>15</tpc>
@@ -652863,6 +653327,12 @@ et avec passion </b><font face="ScoreText"></font><b><font face="Edwin"></fon
                 <tpc>15</tpc>
                 </Note>
               </Chord>
+            <Clef>
+              <concertClefType>F</concertClefType>
+              <transposingClefType>F</transposingClefType>
+              <linked>
+                </linked>
+              </Clef>
             </voice>
           </Measure>
         <Measure>
@@ -657388,6 +657858,12 @@ et avec passion </b><font face="ScoreText"></font><b><font face="Edwin"></fon
                 <tpc>12</tpc>
                 </Note>
               </Chord>
+            <Clef>
+              <concertClefType>C4</concertClefType>
+              <transposingClefType>C4</transposingClefType>
+              <linked>
+                </linked>
+              </Clef>
             <Chord>
               <linked>
                 </linked>
@@ -658010,6 +658486,12 @@ et avec passion </b><font face="ScoreText"></font><b><font face="Edwin"></fon
                 </linked>
               <durationType>half</durationType>
               </Rest>
+            <Clef>
+              <concertClefType>F</concertClefType>
+              <transposingClefType>F</transposingClefType>
+              <linked>
+                </linked>
+              </Clef>
             </voice>
           </Measure>
         <Measure>
@@ -665914,8 +666396,8 @@ et avec passion </b><font face="ScoreText"></font><b><font face="Edwin"></fon
                 </Note>
               </Chord>
             <Clef>
-              <concertClefType>F</concertClefType>
-              <transposingClefType>F</transposingClefType>
+              <concertClefType>C4</concertClefType>
+              <transposingClefType>C4</transposingClefType>
               <linked>
                 </linked>
               </Clef>
@@ -666590,6 +667072,12 @@ et avec passion </b><font face="ScoreText"></font><b><font face="Edwin"></fon
                   </linked>
                 </Tremolo>
               </Chord>
+            <Clef>
+              <concertClefType>F</concertClefType>
+              <transposingClefType>F</transposingClefType>
+              <linked>
+                </linked>
+              </Clef>
             </voice>
           </Measure>
         <Measure>
