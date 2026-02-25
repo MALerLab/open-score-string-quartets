@@ -46,19 +46,21 @@ Score and lyric files are arranged in the following directory structure:
         partwise/
     lmxe/
       synthetic/
-        full/
+	      systemwise/
           sq<id>:<page>:<system>.lmxe
-        reduced/
+        systemwise_reduced/
           sq<id>:<page>:<system>.lmxe
         partwise/
+          sq<id>:<page>:<system>:<part>.lmxe
+        systemwise_reduced/
           sq<id>:<page>:<system>:<part>.lmxe
       scanned/
     kern/
       synthetic/
-        full/
-          sq<id>:<page>:<system>.bekrn
+        systemwise/
+          sq<id>:<page>:<system>.krn
         partwise/
-          sq<id>:<page>:<system>:<part>.bekrn
+          sq<id>:<page>:<system>:<part>.krn
       scanned/
 ```
 
