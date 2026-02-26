@@ -11,7 +11,7 @@
     <rights>OpenScore (CC0)</rights>
     <encoding>
       <software>MuseScore 3.6.2</software>
-      <encoding-date>2026-02-09</encoding-date>
+      <encoding-date>2026-02-26</encoding-date>
       <supports element="accidental" type="yes"/>
       <supports element="beam" type="yes"/>
       <supports element="print" attribute="new-page" type="yes" value="yes"/>
@@ -1746,11 +1746,11 @@
         <duration>6</duration>
         <voice>1</voice>
         <type>16th</type>
-        <stem>up</stem>
+        <stem>down</stem>
         <beam number="1">continue</beam>
         <beam number="2">begin</beam>
         <notations>
-          <slur type="start" placement="below" number="1"/>
+          <slur type="start" placement="above" number="1"/>
           </notations>
         </note>
       <note default-x="272.67" default-y="5.00">
@@ -1761,7 +1761,7 @@
         <duration>6</duration>
         <voice>1</voice>
         <type>16th</type>
-        <stem>up</stem>
+        <stem>down</stem>
         <beam number="1">end</beam>
         <beam number="2">end</beam>
         <notations>
@@ -4631,7 +4631,7 @@
         <duration>6</duration>
         <voice>1</voice>
         <type>16th</type>
-        <stem>up</stem>
+        <stem>down</stem>
         <beam number="1">continue</beam>
         <beam number="2">continue</beam>
         </note>
@@ -4643,7 +4643,7 @@
         <duration>6</duration>
         <voice>1</voice>
         <type>16th</type>
-        <stem>up</stem>
+        <stem>down</stem>
         <beam number="1">continue</beam>
         <beam number="2">continue</beam>
         </note>
@@ -4655,7 +4655,7 @@
         <duration>6</duration>
         <voice>1</voice>
         <type>16th</type>
-        <stem>up</stem>
+        <stem>down</stem>
         <beam number="1">end</beam>
         <beam number="2">end</beam>
         </note>
@@ -6404,7 +6404,7 @@
         <duration>12</duration>
         <voice>1</voice>
         <type>eighth</type>
-        <stem>up</stem>
+        <stem>down</stem>
         <beam number="1">begin</beam>
         </note>
       <note default-x="39.90" default-y="-65.00">
@@ -9994,7 +9994,7 @@
         <duration>12</duration>
         <voice>1</voice>
         <type>eighth</type>
-        <stem>up</stem>
+        <stem>down</stem>
         <beam number="1">begin</beam>
         </note>
       <note default-x="37.22" default-y="-65.00">
@@ -13451,7 +13451,7 @@
     <measure number="41" width="191.67">
       <direction placement="below">
         <direction-type>
-          <dynamics default-x="3.25" default-y="-92.70" relative-y="-25.00">
+          <dynamics default-x="6.50" default-y="-74.26" relative-y="-25.00">
             <f/>
             </dynamics>
           </direction-type>
@@ -13465,7 +13465,7 @@
         <duration>12</duration>
         <voice>1</voice>
         <type>eighth</type>
-        <stem>down</stem>
+        <stem>up</stem>
         <beam number="1">begin</beam>
         <notations>
           <articulations>
@@ -13484,7 +13484,7 @@
         <stem>down</stem>
         <beam number="1">continue</beam>
         <notations>
-          <slur type="start" placement="below" number="1"/>
+          <slur type="start" placement="above" number="1"/>
           </notations>
         </note>
       <note default-x="74.74" default-y="0.00">
@@ -30500,7 +30500,7 @@
     <measure number="42" width="191.67">
       <direction placement="below">
         <direction-type>
-          <dynamics default-x="3.25" default-y="-92.70" relative-y="-25.00">
+          <dynamics default-x="6.50" default-y="-74.26" relative-y="-25.00">
             <f/>
             </dynamics>
           </direction-type>
@@ -30514,7 +30514,7 @@
         <duration>12</duration>
         <voice>1</voice>
         <type>eighth</type>
-        <stem>down</stem>
+        <stem>up</stem>
         <beam number="1">begin</beam>
         <notations>
           <articulations>
@@ -39399,7 +39399,7 @@
         <duration>12</duration>
         <voice>1</voice>
         <type>eighth</type>
-        <stem>down</stem>
+        <stem>up</stem>
         <beam number="1">begin</beam>
         <notations>
           <articulations>
@@ -39419,13 +39419,13 @@
           <actual-notes>6</actual-notes>
           <normal-notes>4</normal-notes>
           </time-modification>
-        <stem>down</stem>
+        <stem>up</stem>
         <beam number="1">continue</beam>
         <beam number="2">begin</beam>
         <beam number="3">begin</beam>
         <notations>
           <tuplet type="start" bracket="no"/>
-          <slur type="start" placement="above" number="1"/>
+          <slur type="start" placement="below" number="1"/>
           <articulations>
             <staccato/>
             </articulations>
@@ -39443,7 +39443,7 @@
           <actual-notes>6</actual-notes>
           <normal-notes>4</normal-notes>
           </time-modification>
-        <stem>down</stem>
+        <stem>up</stem>
         <beam number="1">continue</beam>
         <beam number="2">continue</beam>
         <beam number="3">continue</beam>
@@ -39465,7 +39465,7 @@
           <actual-notes>6</actual-notes>
           <normal-notes>4</normal-notes>
           </time-modification>
-        <stem>down</stem>
+        <stem>up</stem>
         <beam number="1">continue</beam>
         <beam number="2">continue</beam>
         <beam number="3">continue</beam>
@@ -39487,7 +39487,7 @@
           <actual-notes>6</actual-notes>
           <normal-notes>4</normal-notes>
           </time-modification>
-        <stem>down</stem>
+        <stem>up</stem>
         <beam number="1">continue</beam>
         <beam number="2">continue</beam>
         <beam number="3">continue</beam>
@@ -39509,7 +39509,7 @@
           <actual-notes>6</actual-notes>
           <normal-notes>4</normal-notes>
           </time-modification>
-        <stem>down</stem>
+        <stem>up</stem>
         <beam number="1">continue</beam>
         <beam number="2">continue</beam>
         <beam number="3">continue</beam>
@@ -39532,7 +39532,7 @@
           <actual-notes>6</actual-notes>
           <normal-notes>4</normal-notes>
           </time-modification>
-        <stem>down</stem>
+        <stem>up</stem>
         <beam number="1">end</beam>
         <beam number="2">end</beam>
         <beam number="3">end</beam>
