@@ -1,0 +1,19 @@
+version: 0.1.0
+data_id: sq7093885
+image_type: scanned
+system:
+  model: ls-yolo-system-v3.0.0
+  confidence_threshold: 0.85
+  merge_threshold: 0.7
+  exceptions:
+  - sq7093885:0006:0003.png
+  - sq7093885:0006:0004.png
+  - sq7093885:0006:0005.png
+staff_height:
+  model: ls-yolo-staff-height-v2.0.0
+  target_height: 18
+staff_bbox:
+  model:
+  confidence_threshold:
+  merge_threshold:
+  exceptions:
