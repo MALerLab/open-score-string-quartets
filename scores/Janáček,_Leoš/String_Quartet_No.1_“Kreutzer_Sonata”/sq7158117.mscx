@@ -3478,6 +3478,7 @@
           <endTuplet/>
           <Chord>
             <linkedMain/>
+            <BeamMode>mid</BeamMode>
             <durationType>eighth</durationType>
             <Note>
               <linkedMain/>
@@ -5213,7 +5214,7 @@
               </Note>
             </Chord>
           <Beam>
-            <StemDirection>up</StemDirection>
+            <StemDirection>down</StemDirection>
             <distribute>1</distribute>
             </Beam>
           <Chord>
@@ -5327,6 +5328,9 @@
               <tpc>22</tpc>
               </Note>
             </Chord>
+          <Beam>
+            <StemDirection>down</StemDirection>
+            </Beam>
           <Chord>
             <linkedMain/>
             <BeamMode>begin</BeamMode>
@@ -5434,6 +5438,9 @@
               <tpc>22</tpc>
               </Note>
             </Chord>
+          <Beam>
+            <StemDirection>down</StemDirection>
+            </Beam>
           <Chord>
             <linkedMain/>
             <BeamMode>begin</BeamMode>
@@ -5848,7 +5855,7 @@
             <direction>up</direction>
             </Tuplet>
           <Beam>
-            <StemDirection>up</StemDirection>
+            <StemDirection>down</StemDirection>
             </Beam>
           <Chord>
             <linkedMain/>
@@ -9218,6 +9225,17 @@
                   </location>
                 </next>
               </Spanner>
+            <Spanner type="Slur">
+              <Slur>
+                <linkedMain/>
+                </Slur>
+              <next>
+                <location>
+                  <measures>1</measures>
+                  <fractions>3/8</fractions>
+                  </location>
+                </next>
+              </Spanner>
             <Note>
               <linkedMain/>
               <Accidental>
@@ -9358,6 +9376,14 @@
             <Spanner type="Slur">
               <prev>
                 <location>
+                  <measures>-1</measures>
+                  <fractions>-3/8</fractions>
+                  </location>
+                </prev>
+              </Spanner>
+            <Spanner type="Slur">
+              <prev>
+                <location>
                   <fractions>-3/8</fractions>
                   </location>
                 </prev>
@@ -9395,6 +9421,17 @@
               <next>
                 <location>
                   <fractions>5/12</fractions>
+                  </location>
+                </next>
+              </Spanner>
+            <Spanner type="Slur">
+              <Slur>
+                <linkedMain/>
+                </Slur>
+              <next>
+                <location>
+                  <measures>1</measures>
+                  <fractions>3/8</fractions>
                   </location>
                 </next>
               </Spanner>
@@ -9539,6 +9576,14 @@
           <Chord>
             <linkedMain/>
             <durationType>eighth</durationType>
+            <Spanner type="Slur">
+              <prev>
+                <location>
+                  <measures>-1</measures>
+                  <fractions>-3/8</fractions>
+                  </location>
+                </prev>
+              </Spanner>
             <Spanner type="Slur">
               <prev>
                 <location>
@@ -12841,6 +12886,7 @@
             <Spanner type="Slur">
               <Slur>
                 <linkedMain/>
+                <up>up</up>
                 </Slur>
               <next>
                 <location>
@@ -12852,6 +12898,7 @@
             <Spanner type="Slur">
               <Slur>
                 <linkedMain/>
+                <up>up</up>
                 </Slur>
               <next>
                 <location>
@@ -15035,6 +15082,9 @@
             <linkedMain/>
             <text><b>Tempo II. (</b><font face="ScoreText"></font><b><font face="Edwin"></font> = 84 al 72)</b></text>
             </Tempo>
+          <Beam>
+            <StemDirection>up</StemDirection>
+            </Beam>
           <Chord>
             <linkedMain/>
             <durationType>eighth</durationType>
@@ -15054,10 +15104,23 @@
             <Spanner type="Slur">
               <Slur>
                 <linkedMain/>
+                <up>up</up>
                 </Slur>
               <next>
                 <location>
                   <measures>1</measures>
+                  </location>
+                </next>
+              </Spanner>
+            <Spanner type="Slur">
+              <Slur>
+                <linkedMain/>
+                <up>up</up>
+                </Slur>
+              <next>
+                <location>
+                  <measures>1</measures>
+                  <fractions>-1/8</fractions>
                   </location>
                 </next>
               </Spanner>
@@ -15086,6 +15149,14 @@
           <Chord>
             <linkedMain/>
             <durationType>eighth</durationType>
+            <Spanner type="Slur">
+              <prev>
+                <location>
+                  <measures>-1</measures>
+                  <fractions>1/8</fractions>
+                  </location>
+                </prev>
+              </Spanner>
             <Note>
               <linkedMain/>
               <Accidental>
@@ -16863,6 +16934,7 @@
             <Spanner type="Slur">
               <Slur>
                 <linkedMain/>
+                <up>down</up>
                 </Slur>
               <next>
                 <location>
@@ -18467,6 +18539,7 @@ largamente</text>
             <Spanner type="Slur">
               <Slur>
                 <linkedMain/>
+                <up>down</up>
                 </Slur>
               <next>
                 <location>
@@ -19307,6 +19380,7 @@ largamente</text>
             <Spanner type="Slur">
               <Slur>
                 <linkedMain/>
+                <up>up</up>
                 </Slur>
               <next>
                 <location>
@@ -28755,6 +28829,7 @@ largamente</text>
               <Spanner type="Tie">
                 <Tie>
                   <linkedMain/>
+                  <up>down</up>
                   </Tie>
                 <next>
                   <location>
@@ -29642,7 +29717,6 @@ largamente</text>
           </voice>
         </Measure>
       <Measure>
-        <vspacerUp>14</vspacerUp>
         <voice>
           <Spanner type="HairPin">
             <prev>
@@ -31499,7 +31573,6 @@ poco meno mosso </b><font face="ScoreText"></font><b><font face="Edwin"></fon
           </voice>
         </Measure>
       <Measure>
-        <vspacerUp>12</vspacerUp>
         <voice>
           <Spanner type="HairPin">
             <prev>
@@ -37935,6 +38008,9 @@ Con moto </b><font face="ScoreText"></font><b><font face="Edwin"></font> = 13
           </voice>
         </Measure>
       <Measure>
+        <LayoutBreak>
+          <subtype>line</subtype>
+          </LayoutBreak>
         <voice>
           <Rest>
             <linkedMain/>
@@ -42560,6 +42636,7 @@ accel. al </b><font face="ScoreText"></font><b><font face="Edwin"></font> = 1
             <Spanner type="Slur">
               <Slur>
                 <linkedMain/>
+                <up>down</up>
                 </Slur>
               <next>
                 <location>
@@ -42703,6 +42780,7 @@ accel. al </b><font face="ScoreText"></font><b><font face="Edwin"></font> = 1
             <Spanner type="Slur">
               <Slur>
                 <linkedMain/>
+                <up>down</up>
                 </Slur>
               <next>
                 <location>
@@ -42846,6 +42924,7 @@ accel. al </b><font face="ScoreText"></font><b><font face="Edwin"></font> = 1
             <Spanner type="Slur">
               <Slur>
                 <linkedMain/>
+                <up>down</up>
                 </Slur>
               <next>
                 <location>
@@ -43032,6 +43111,7 @@ accel. al </b><font face="ScoreText"></font><b><font face="Edwin"></font> = 1
             <Spanner type="Slur">
               <Slur>
                 <linkedMain/>
+                <up>down</up>
                 </Slur>
               <next>
                 <location>
@@ -43175,6 +43255,7 @@ accel. al </b><font face="ScoreText"></font><b><font face="Edwin"></font> = 1
             <Spanner type="Slur">
               <Slur>
                 <linkedMain/>
+                <up>down</up>
                 </Slur>
               <next>
                 <location>
@@ -48837,7 +48918,7 @@ accel. al </b><font face="ScoreText"></font><b><font face="Edwin"></font> = 1
             <direction>up</direction>
             </Tuplet>
           <Beam>
-            <StemDirection>up</StemDirection>
+            <StemDirection>down</StemDirection>
             </Beam>
           <Chord>
             <linkedMain/>
@@ -52187,6 +52268,17 @@ accel. al </b><font face="ScoreText"></font><b><font face="Edwin"></font> = 1
                   </location>
                 </next>
               </Spanner>
+            <Spanner type="Slur">
+              <Slur>
+                <linkedMain/>
+                </Slur>
+              <next>
+                <location>
+                  <measures>1</measures>
+                  <fractions>3/8</fractions>
+                  </location>
+                </next>
+              </Spanner>
             <Note>
               <linkedMain/>
               <Accidental>
@@ -52329,6 +52421,14 @@ accel. al </b><font face="ScoreText"></font><b><font face="Edwin"></font> = 1
           <Chord>
             <linkedMain/>
             <durationType>eighth</durationType>
+            <Spanner type="Slur">
+              <prev>
+                <location>
+                  <measures>-1</measures>
+                  <fractions>-3/8</fractions>
+                  </location>
+                </prev>
+              </Spanner>
             <Spanner type="Slur">
               <prev>
                 <location>
@@ -59379,6 +59479,7 @@ accel. al </b><font face="ScoreText"></font><b><font face="Edwin"></font> = 1
             <Spanner type="Slur">
               <Slur>
                 <linkedMain/>
+                <up>down</up>
                 </Slur>
               <next>
                 <location>
@@ -59463,6 +59564,7 @@ accel. al </b><font face="ScoreText"></font><b><font face="Edwin"></font> = 1
             <Spanner type="Slur">
               <Slur>
                 <linkedMain/>
+                <up>up</up>
                 </Slur>
               <next>
                 <location>
@@ -60092,6 +60194,9 @@ accel. al </b><font face="ScoreText"></font><b><font face="Edwin"></font> = 1
         </Measure>
       <Measure>
         <voice>
+          <Beam>
+            <StemDirection>up</StemDirection>
+            </Beam>
           <Chord>
             <linkedMain/>
             <durationType>eighth</durationType>
@@ -60152,6 +60257,9 @@ accel. al </b><font face="ScoreText"></font><b><font face="Edwin"></font> = 1
         </Measure>
       <Measure>
         <voice>
+          <Beam>
+            <StemDirection>up</StemDirection>
+            </Beam>
           <Chord>
             <linkedMain/>
             <durationType>eighth</durationType>
@@ -60212,6 +60320,9 @@ accel. al </b><font face="ScoreText"></font><b><font face="Edwin"></font> = 1
         </Measure>
       <Measure>
         <voice>
+          <Beam>
+            <StemDirection>up</StemDirection>
+            </Beam>
           <Chord>
             <linkedMain/>
             <durationType>eighth</durationType>
@@ -61181,6 +61292,7 @@ accel. al </b><font face="ScoreText"></font><b><font face="Edwin"></font> = 1
             <Spanner type="Slur">
               <Slur>
                 <linkedMain/>
+                <up>down</up>
                 </Slur>
               <next>
                 <location>
@@ -62863,6 +62975,7 @@ accel. al </b><font face="ScoreText"></font><b><font face="Edwin"></font> = 1
             <Spanner type="Slur">
               <Slur>
                 <linkedMain/>
+                <up>down</up>
                 </Slur>
               <next>
                 <location>
@@ -73450,6 +73563,7 @@ accel. al </b><font face="ScoreText"></font><b><font face="Edwin"></font> = 1
             <Spanner type="Slur">
               <Slur>
                 <linkedMain/>
+                <up>down</up>
                 </Slur>
               <next>
                 <location>
@@ -79603,6 +79717,17 @@ accel. al </b><font face="ScoreText"></font><b><font face="Edwin"></font> = 1
           <Chord>
             <linkedMain/>
             <durationType>16th</durationType>
+            <Spanner type="Slur">
+              <Slur>
+                <linkedMain/>
+                </Slur>
+              <next>
+                <location>
+                  <measures>1</measures>
+                  <fractions>-1/8</fractions>
+                  </location>
+                </next>
+              </Spanner>
             <Note>
               <linkedMain/>
               <Spanner type="Tie">
@@ -79736,6 +79861,14 @@ accel. al </b><font face="ScoreText"></font><b><font face="Edwin"></font> = 1
           <Chord>
             <linkedMain/>
             <durationType>16th</durationType>
+            <Spanner type="Slur">
+              <prev>
+                <location>
+                  <measures>-1</measures>
+                  <fractions>1/8</fractions>
+                  </location>
+                </prev>
+              </Spanner>
             <Note>
               <linkedMain/>
               <pitch>65</pitch>
@@ -79972,7 +80105,7 @@ accel. al </b><font face="ScoreText"></font><b><font face="Edwin"></font> = 1
             <Spanner type="Slur">
               <Slur>
                 <linkedMain/>
-                <up>up</up>
+                <up>down</up>
                 </Slur>
               <next>
                 <location>
@@ -80392,10 +80525,6 @@ accel. al </b><font face="ScoreText"></font><b><font face="Edwin"></font> = 1
             <Spanner type="Slur">
               <Slur>
                 <linkedMain/>
-                <visible>0</visible>
-                <SlurSegment no="0">
-                  <visible>0</visible>
-                  </SlurSegment>
                 </Slur>
               <next>
                 <location>
@@ -88530,6 +88659,7 @@ accel. al </b><font face="ScoreText"></font><b><font face="Edwin"></font> = 1
             <Spanner type="Slur">
               <Slur>
                 <linkedMain/>
+                <up>down</up>
                 </Slur>
               <next>
                 <location>
@@ -88673,6 +88803,7 @@ accel. al </b><font face="ScoreText"></font><b><font face="Edwin"></font> = 1
             <Spanner type="Slur">
               <Slur>
                 <linkedMain/>
+                <up>down</up>
                 </Slur>
               <next>
                 <location>
@@ -88859,6 +88990,7 @@ accel. al </b><font face="ScoreText"></font><b><font face="Edwin"></font> = 1
             <Spanner type="Slur">
               <Slur>
                 <linkedMain/>
+                <up>down</up>
                 </Slur>
               <next>
                 <location>
@@ -103942,6 +104074,7 @@ accel. al </b><font face="ScoreText"></font><b><font face="Edwin"></font> = 1
             <Spanner type="Slur">
               <Slur>
                 <linkedMain/>
+                <up>down</up>
                 </Slur>
               <next>
                 <location>
@@ -107503,6 +107636,7 @@ accel. al </b><font face="ScoreText"></font><b><font face="Edwin"></font> = 1
             <Spanner type="Slur">
               <Slur>
                 <linkedMain/>
+                <up>down</up>
                 </Slur>
               <next>
                 <location>
@@ -107663,6 +107797,7 @@ accel. al </b><font face="ScoreText"></font><b><font face="Edwin"></font> = 1
             <Spanner type="Slur">
               <Slur>
                 <linkedMain/>
+                <up>down</up>
                 </Slur>
               <next>
                 <location>
@@ -107813,6 +107948,7 @@ accel. al </b><font face="ScoreText"></font><b><font face="Edwin"></font> = 1
             <Spanner type="Slur">
               <Slur>
                 <linkedMain/>
+                <up>down</up>
                 </Slur>
               <next>
                 <location>
@@ -119360,6 +119496,7 @@ accel. al </b><font face="ScoreText"></font><b><font face="Edwin"></font> = 1
             <Spanner type="Slur">
               <Slur>
                 <linkedMain/>
+                <up>up</up>
                 </Slur>
               <next>
                 <location>
@@ -132941,6 +133078,16 @@ accel. al </b><font face="ScoreText"></font><b><font face="Edwin"></font> = 1
                   </location>
                 </next>
               </Spanner>
+            <Spanner type="Slur">
+              <Slur>
+                <linkedMain/>
+                </Slur>
+              <next>
+                <location>
+                  <fractions>3/16</fractions>
+                  </location>
+                </next>
+              </Spanner>
             <Note>
               <linkedMain/>
               <Accidental>
@@ -132991,6 +133138,13 @@ accel. al </b><font face="ScoreText"></font><b><font face="Edwin"></font> = 1
           <Chord>
             <linkedMain/>
             <durationType>16th</durationType>
+            <Spanner type="Slur">
+              <prev>
+                <location>
+                  <fractions>-3/16</fractions>
+                  </location>
+                </prev>
+              </Spanner>
             <Note>
               <linkedMain/>
               <Accidental>
@@ -137213,17 +137367,6 @@ accel. al </b><font face="ScoreText"></font><b><font face="Edwin"></font> = 1
                   </location>
                 </next>
               </Spanner>
-            <Spanner type="Slur">
-              <Slur>
-                <linkedMain/>
-                <up>up</up>
-                </Slur>
-              <next>
-                <location>
-                  <fractions>3/16</fractions>
-                  </location>
-                </next>
-              </Spanner>
             <Note>
               <linkedMain/>
               <Accidental>
@@ -137290,13 +137433,6 @@ accel. al </b><font face="ScoreText"></font><b><font face="Edwin"></font> = 1
           <Chord>
             <linkedMain/>
             <durationType>16th</durationType>
-            <Spanner type="Slur">
-              <prev>
-                <location>
-                  <fractions>-3/16</fractions>
-                  </location>
-                </prev>
-              </Spanner>
             <Spanner type="Slur">
               <prev>
                 <location>
@@ -141250,6 +141386,7 @@ accel. al </b><font face="ScoreText"></font><b><font face="Edwin"></font> = 1
                 <SlurSegment no="0">
                   <o1 x="0" y="-2"/>
                   </SlurSegment>
+                <up>down</up>
                 </Slur>
               <next>
                 <location>
@@ -142750,6 +142887,7 @@ accel. al </b><font face="ScoreText"></font><b><font face="Edwin"></font> = 1
             <Spanner type="Slur">
               <Slur>
                 <linkedMain/>
+                <up>down</up>
                 </Slur>
               <next>
                 <location>
@@ -144374,6 +144512,16 @@ accel. al </b><font face="ScoreText"></font><b><font face="Edwin"></font> = 1
           <Chord>
             <linkedMain/>
             <durationType>quarter</durationType>
+            <Spanner type="Slur">
+              <Slur>
+                <linkedMain/>
+                </Slur>
+              <next>
+                <location>
+                  <fractions>1/4</fractions>
+                  </location>
+                </next>
+              </Spanner>
             <Note>
               <linkedMain/>
               <Accidental>
@@ -144390,6 +144538,13 @@ accel. al </b><font face="ScoreText"></font><b><font face="Edwin"></font> = 1
               <prev>
                 <location>
                   <measures>-2</measures>
+                  </location>
+                </prev>
+              </Spanner>
+            <Spanner type="Slur">
+              <prev>
+                <location>
+                  <fractions>-1/4</fractions>
                   </location>
                 </prev>
               </Spanner>
@@ -144435,6 +144590,7 @@ accel. al </b><font face="ScoreText"></font><b><font face="Edwin"></font> = 1
             <Spanner type="Slur">
               <Slur>
                 <linkedMain/>
+                <up>down</up>
                 </Slur>
               <next>
                 <location>
@@ -144576,6 +144732,7 @@ accel. al </b><font face="ScoreText"></font><b><font face="Edwin"></font> = 1
             <Spanner type="Slur">
               <Slur>
                 <linkedMain/>
+                <up>down</up>
                 </Slur>
               <next>
                 <location>
@@ -144608,6 +144765,7 @@ accel. al </b><font face="ScoreText"></font><b><font face="Edwin"></font> = 1
           <Chord>
             <linkedMain/>
             <durationType>quarter</durationType>
+            <StemDirection>up</StemDirection>
             <Note>
               <linkedMain/>
               <Spanner type="Tie">
@@ -144642,6 +144800,9 @@ accel. al </b><font face="ScoreText"></font><b><font face="Edwin"></font> = 1
                 </location>
               </next>
             </Spanner>
+          <Beam>
+            <StemDirection>up</StemDirection>
+            </Beam>
           <Chord>
             <linkedMain/>
             <durationType>eighth</durationType>
@@ -144702,6 +144863,7 @@ accel. al </b><font face="ScoreText"></font><b><font face="Edwin"></font> = 1
             <Spanner type="Slur">
               <Slur>
                 <linkedMain/>
+                <up>down</up>
                 </Slur>
               <next>
                 <location>
@@ -144906,6 +145068,7 @@ accel. al </b><font face="ScoreText"></font><b><font face="Edwin"></font> = 1
             <Spanner type="Slur">
               <Slur>
                 <linkedMain/>
+                <up>down</up>
                 </Slur>
               <next>
                 <location>
@@ -145032,6 +145195,7 @@ accel. al </b><font face="ScoreText"></font><b><font face="Edwin"></font> = 1
             <Spanner type="Slur">
               <Slur>
                 <linkedMain/>
+                <up>down</up>
                 </Slur>
               <next>
                 <location>
@@ -147388,8 +147552,8 @@ accel. al </b><font face="ScoreText"></font><b><font face="Edwin"></font> = 1
             <durationType>quarter</durationType>
             </Rest>
           <Clef>
-            <concertClefType>C4</concertClefType>
-            <transposingClefType>C4</transposingClefType>
+            <concertClefType>G8vb</concertClefType>
+            <transposingClefType>G8vb</transposingClefType>
             <linkedMain/>
             </Clef>
           <Dynamic>
@@ -151243,6 +151407,11 @@ accel. al </b><font face="ScoreText"></font><b><font face="Edwin"></font> = 1
               <tpc>17</tpc>
               </Note>
             </Chord>
+          <Clef>
+            <concertClefType>G</concertClefType>
+            <transposingClefType>G</transposingClefType>
+            <linkedMain/>
+            </Clef>
           </voice>
         </Measure>
       <Measure>
@@ -151717,6 +151886,11 @@ accel. al </b><font face="ScoreText"></font><b><font face="Edwin"></font> = 1
               <tpc>15</tpc>
               </Note>
             </Chord>
+          <Clef>
+            <concertClefType>F</concertClefType>
+            <transposingClefType>F</transposingClefType>
+            <linkedMain/>
+            </Clef>
           </voice>
         </Measure>
       <Measure>
@@ -153610,6 +153784,9 @@ accel. al </b><font face="ScoreText"></font><b><font face="Edwin"></font> = 1
                 </location>
               </next>
             </Spanner>
+          <Beam>
+            <StemDirection>up</StemDirection>
+            </Beam>
           <Chord>
             <linkedMain/>
             <durationType>16th</durationType>
@@ -154121,8 +154298,8 @@ accel. al </b><font face="ScoreText"></font><b><font face="Edwin"></font> = 1
               </Note>
             </Chord>
           <Clef>
-            <concertClefType>C4</concertClefType>
-            <transposingClefType>C4</transposingClefType>
+            <concertClefType>G</concertClefType>
+            <transposingClefType>G</transposingClefType>
             <linkedMain/>
             </Clef>
           </voice>
@@ -154176,6 +154353,7 @@ accel. al </b><font face="ScoreText"></font><b><font face="Edwin"></font> = 1
             <Spanner type="Slur">
               <Slur>
                 <linkedMain/>
+                <up>down</up>
                 </Slur>
               <next>
                 <location>
@@ -154357,6 +154535,7 @@ accel. al </b><font face="ScoreText"></font><b><font face="Edwin"></font> = 1
             <Spanner type="Slur">
               <Slur>
                 <linkedMain/>
+                <up>down</up>
                 </Slur>
               <next>
                 <location>
@@ -155163,8 +155342,8 @@ accel. al </b><font face="ScoreText"></font><b><font face="Edwin"></font> = 1
               </Note>
             </Chord>
           <Clef>
-            <concertClefType>C4</concertClefType>
-            <transposingClefType>C4</transposingClefType>
+            <concertClefType>G</concertClefType>
+            <transposingClefType>G</transposingClefType>
             <linkedMain/>
             </Clef>
           </voice>
@@ -155720,6 +155899,7 @@ accel. al </b><font face="ScoreText"></font><b><font face="Edwin"></font> = 1
             <Spanner type="Slur">
               <Slur>
                 <linkedMain/>
+                <up>up</up>
                 </Slur>
               <next>
                 <location>
@@ -171439,6 +171619,7 @@ accel. al </b><font face="ScoreText"></font><b><font face="Edwin"></font> = 1
             <Chord>
               <linked>
                 </linked>
+              <BeamMode>mid</BeamMode>
               <durationType>eighth</durationType>
               <Note>
                 <linked>
@@ -177857,6 +178038,18 @@ accel. al </b><font face="ScoreText"></font><b><font face="Edwin"></font> = 1
                     </location>
                   </next>
                 </Spanner>
+              <Spanner type="Slur">
+                <Slur>
+                  <linked>
+                    </linked>
+                  </Slur>
+                <next>
+                  <location>
+                    <measures>1</measures>
+                    <fractions>3/8</fractions>
+                    </location>
+                  </next>
+                </Spanner>
               <Note>
                 <linked>
                   </linked>
@@ -178014,6 +178207,14 @@ accel. al </b><font face="ScoreText"></font><b><font face="Edwin"></font> = 1
               <Spanner type="Slur">
                 <prev>
                   <location>
+                    <measures>-1</measures>
+                    <fractions>-3/8</fractions>
+                    </location>
+                  </prev>
+                </Spanner>
+              <Spanner type="Slur">
+                <prev>
+                  <location>
                     <fractions>-3/8</fractions>
                     </location>
                   </prev>
@@ -178055,6 +178256,18 @@ accel. al </b><font face="ScoreText"></font><b><font face="Edwin"></font> = 1
                 <next>
                   <location>
                     <fractions>5/12</fractions>
+                    </location>
+                  </next>
+                </Spanner>
+              <Spanner type="Slur">
+                <Slur>
+                  <linked>
+                    </linked>
+                  </Slur>
+                <next>
+                  <location>
+                    <measures>1</measures>
+                    <fractions>3/8</fractions>
                     </location>
                   </next>
                 </Spanner>
@@ -178219,6 +178432,14 @@ accel. al </b><font face="ScoreText"></font><b><font face="Edwin"></font> = 1
               <linked>
                 </linked>
               <durationType>eighth</durationType>
+              <Spanner type="Slur">
+                <prev>
+                  <location>
+                    <measures>-1</measures>
+                    <fractions>-3/8</fractions>
+                    </location>
+                  </prev>
+                </Spanner>
               <Spanner type="Slur">
                 <prev>
                   <location>
@@ -184413,6 +184634,18 @@ accel. al </b><font face="ScoreText"></font><b><font face="Edwin"></font> = 1
                     </location>
                   </next>
                 </Spanner>
+              <Spanner type="Slur">
+                <Slur>
+                  <linked>
+                    </linked>
+                  </Slur>
+                <next>
+                  <location>
+                    <measures>1</measures>
+                    <fractions>-1/8</fractions>
+                    </location>
+                  </next>
+                </Spanner>
               <Note>
                 <linked>
                   </linked>
@@ -184441,6 +184674,14 @@ accel. al </b><font face="ScoreText"></font><b><font face="Edwin"></font> = 1
               <linked>
                 </linked>
               <durationType>eighth</durationType>
+              <Spanner type="Slur">
+                <prev>
+                  <location>
+                    <measures>-1</measures>
+                    <fractions>1/8</fractions>
+                    </location>
+                  </prev>
+                </Spanner>
               <Note>
                 <linked>
                   </linked>
@@ -194124,6 +194365,13 @@ largamente</text>
               <fractions>-3/8</fractions>
               </location>
             <Spanner type="HairPin">
+              <prev>
+                <location>
+                  <fractions>-1/8</fractions>
+                  </location>
+                </prev>
+              </Spanner>
+            <Spanner type="HairPin">
               <HairPin>
                 <subtype>1</subtype>
                 <veloChange>16</veloChange>
@@ -194143,13 +194391,6 @@ largamente</text>
                   <fractions>-1/8</fractions>
                   </location>
                 </next>
-              </Spanner>
-            <Spanner type="HairPin">
-              <prev>
-                <location>
-                  <fractions>-1/8</fractions>
-                  </location>
-                </prev>
               </Spanner>
             <location>
               <fractions>3/8</fractions>
@@ -226915,6 +227156,18 @@ accel. al </b><font face="ScoreText"></font><b><font face="Edwin"></font> = 1
                     </location>
                   </next>
                 </Spanner>
+              <Spanner type="Slur">
+                <Slur>
+                  <linked>
+                    </linked>
+                  </Slur>
+                <next>
+                  <location>
+                    <measures>1</measures>
+                    <fractions>3/8</fractions>
+                    </location>
+                  </next>
+                </Spanner>
               <Note>
                 <linked>
                   </linked>
@@ -227077,6 +227330,14 @@ accel. al </b><font face="ScoreText"></font><b><font face="Edwin"></font> = 1
               <linked>
                 </linked>
               <durationType>eighth</durationType>
+              <Spanner type="Slur">
+                <prev>
+                  <location>
+                    <measures>-1</measures>
+                    <fractions>-3/8</fractions>
+                    </location>
+                  </prev>
+                </Spanner>
               <Spanner type="Slur">
                 <prev>
                   <location>
@@ -260173,6 +260434,18 @@ Con moto </b><font face="ScoreText"></font><b><font face="Edwin"></font> = 13
               <linked>
                 </linked>
               <durationType>16th</durationType>
+              <Spanner type="Slur">
+                <Slur>
+                  <linked>
+                    </linked>
+                  </Slur>
+                <next>
+                  <location>
+                    <measures>1</measures>
+                    <fractions>-1/8</fractions>
+                    </location>
+                  </next>
+                </Spanner>
               <Note>
                 <linked>
                   </linked>
@@ -260329,6 +260602,14 @@ Con moto </b><font face="ScoreText"></font><b><font face="Edwin"></font> = 13
               <linked>
                 </linked>
               <durationType>16th</durationType>
+              <Spanner type="Slur">
+                <prev>
+                  <location>
+                    <measures>-1</measures>
+                    <fractions>1/8</fractions>
+                    </location>
+                  </prev>
+                </Spanner>
               <Note>
                 <linked>
                   </linked>
@@ -323356,6 +323637,17 @@ accel. al </b><font face="ScoreText"></font><b><font face="Edwin"></font> = 1
                     </location>
                   </next>
                 </Spanner>
+              <Spanner type="Slur">
+                <Slur>
+                  <linked>
+                    </linked>
+                  </Slur>
+                <next>
+                  <location>
+                    <fractions>3/16</fractions>
+                    </location>
+                  </next>
+                </Spanner>
               <Note>
                 <linked>
                   </linked>
@@ -323414,6 +323706,13 @@ accel. al </b><font face="ScoreText"></font><b><font face="Edwin"></font> = 1
               <linked>
                 </linked>
               <durationType>16th</durationType>
+              <Spanner type="Slur">
+                <prev>
+                  <location>
+                    <fractions>-3/16</fractions>
+                    </location>
+                  </prev>
+                </Spanner>
               <Note>
                 <linked>
                   </linked>
@@ -328296,18 +328595,6 @@ accel. al </b><font face="ScoreText"></font><b><font face="Edwin"></font> = 1
                     </location>
                   </next>
                 </Spanner>
-              <Spanner type="Slur">
-                <Slur>
-                  <linked>
-                    </linked>
-                  <up>up</up>
-                  </Slur>
-                <next>
-                  <location>
-                    <fractions>3/16</fractions>
-                    </location>
-                  </next>
-                </Spanner>
               <Note>
                 <linked>
                   </linked>
@@ -328383,13 +328670,6 @@ accel. al </b><font face="ScoreText"></font><b><font face="Edwin"></font> = 1
               <linked>
                 </linked>
               <durationType>16th</durationType>
-              <Spanner type="Slur">
-                <prev>
-                  <location>
-                    <fractions>-3/16</fractions>
-                    </location>
-                  </prev>
-                </Spanner>
               <Spanner type="Slur">
                 <prev>
                   <location>
@@ -332817,23 +333097,21 @@ accel. al </b><font face="ScoreText"></font><b><font face="Edwin"></font> = 1
               <Spanner type="Slur">
                 <Slur>
                   <linked>
-                    <indexDiff>1</indexDiff>
                     </linked>
                   </Slur>
                 <next>
                   <location>
-                    <measures>2</measures>
                     </location>
                   </next>
                 </Spanner>
               <Spanner type="Slur">
                 <Slur>
                   <linked>
-                    <indexDiff>-1</indexDiff>
                     </linked>
                   </Slur>
                 <next>
                   <location>
+                    <measures>2</measures>
                     </location>
                   </next>
                 </Spanner>
@@ -336595,6 +336873,17 @@ largamente</text>
               <linked>
                 </linked>
               <durationType>quarter</durationType>
+              <Spanner type="Slur">
+                <Slur>
+                  <linked>
+                    </linked>
+                  </Slur>
+                <next>
+                  <location>
+                    <fractions>1/4</fractions>
+                    </location>
+                  </next>
+                </Spanner>
               <Note>
                 <linked>
                   </linked>
@@ -336613,6 +336902,13 @@ largamente</text>
                 <prev>
                   <location>
                     <measures>-2</measures>
+                    </location>
+                  </prev>
+                </Spanner>
+              <Spanner type="Slur">
+                <prev>
+                  <location>
+                    <fractions>-1/4</fractions>
                     </location>
                   </prev>
                 </Spanner>
@@ -340164,8 +340460,8 @@ largamente</text>
               <durationType>quarter</durationType>
               </Rest>
             <Clef>
-              <concertClefType>C4</concertClefType>
-              <transposingClefType>C4</transposingClefType>
+              <concertClefType>G8vb</concertClefType>
+              <transposingClefType>G8vb</transposingClefType>
               <linked>
                 </linked>
               </Clef>
@@ -344727,6 +345023,12 @@ largamente</text>
                 <tpc>17</tpc>
                 </Note>
               </Chord>
+            <Clef>
+              <concertClefType>G</concertClefType>
+              <transposingClefType>G</transposingClefType>
+              <linked>
+                </linked>
+              </Clef>
             </voice>
           </Measure>
         <Measure>
@@ -345268,6 +345570,12 @@ largamente</text>
                 <tpc>15</tpc>
                 </Note>
               </Chord>
+            <Clef>
+              <concertClefType>F</concertClefType>
+              <transposingClefType>F</transposingClefType>
+              <linked>
+                </linked>
+              </Clef>
             </voice>
           </Measure>
         <Measure>
@@ -348301,8 +348609,8 @@ Con moto </b><font face="ScoreText"></font><b><font face="Edwin"></font> = 13
                 </Note>
               </Chord>
             <Clef>
-              <concertClefType>C4</concertClefType>
-              <transposingClefType>C4</transposingClefType>
+              <concertClefType>G</concertClefType>
+              <transposingClefType>G</transposingClefType>
               <linked>
                 </linked>
               </Clef>
@@ -349477,8 +349785,8 @@ Con moto </b><font face="ScoreText"></font><b><font face="Edwin"></font> = 13
                 </Note>
               </Chord>
             <Clef>
-              <concertClefType>C4</concertClefType>
-              <transposingClefType>C4</transposingClefType>
+              <concertClefType>G</concertClefType>
+              <transposingClefType>G</transposingClefType>
               <linked>
                 </linked>
               </Clef>
