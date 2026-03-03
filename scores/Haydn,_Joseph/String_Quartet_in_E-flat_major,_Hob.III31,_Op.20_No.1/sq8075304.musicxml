@@ -11,7 +11,7 @@
     <rights>OpenScore (CC0)</rights>
     <encoding>
       <software>MuseScore 3.6.2</software>
-      <encoding-date>2026-02-10</encoding-date>
+      <encoding-date>2026-03-03</encoding-date>
       <supports element="accidental" type="yes"/>
       <supports element="beam" type="yes"/>
       <supports element="print" attribute="new-page" type="yes" value="yes"/>
@@ -4165,6 +4165,7 @@
         <beam number="2">begin</beam>
         <notations>
           <slur type="start" placement="above" number="1"/>
+          <slur type="start" placement="above" number="2"/>
           </notations>
         </note>
       <note default-x="172.15" default-y="-10.00">
@@ -4210,6 +4211,7 @@
         <beam number="1">end</beam>
         <beam number="2">end</beam>
         <notations>
+          <slur type="stop" number="2"/>
           <slur type="stop" number="1"/>
           </notations>
         </note>
@@ -12303,6 +12305,9 @@
         <stem>down</stem>
         <beam number="1">continue</beam>
         <beam number="2">continue</beam>
+        <notations>
+          <slur type="start" placement="above" number="1"/>
+          </notations>
         </note>
       <note default-x="311.10" default-y="10.00">
         <pitch>
@@ -12318,6 +12323,7 @@
         <beam number="2">end</beam>
         <notations>
           <slur type="stop" number="2"/>
+          <slur type="stop" number="1"/>
           </notations>
         </note>
       <note default-x="345.24" default-y="15.00">
@@ -29762,7 +29768,7 @@
     <measure number="21" width="378.26">
       <direction placement="below">
         <direction-type>
-          <dynamics default-x="6.50" default-y="-40.00" relative-y="-25.00">
+          <dynamics default-x="6.50" default-y="-41.59" relative-y="-25.00">
             <f/>
             </dynamics>
           </direction-type>
@@ -29779,7 +29785,7 @@
         <type>quarter</type>
         <stem>up</stem>
         <notations>
-          <slur type="start" placement="above" number="1"/>
+          <slur type="start" placement="below" number="1"/>
           </notations>
         </note>
       <note default-x="78.49" default-y="-153.06">
@@ -30859,6 +30865,7 @@
         <beam number="2">begin</beam>
         <notations>
           <slur type="start" placement="above" number="1"/>
+          <slur type="start" placement="above" number="2"/>
           </notations>
         </note>
       <note default-x="172.15" default-y="-143.29">
@@ -30905,6 +30912,7 @@
         <beam number="1">end</beam>
         <beam number="2">end</beam>
         <notations>
+          <slur type="stop" number="2"/>
           <slur type="stop" number="1"/>
           </notations>
         </note>
@@ -55027,7 +55035,7 @@
         <type>quarter</type>
         <stem>up</stem>
         <notations>
-          <slur type="start" placement="above" number="1"/>
+          <slur type="start" placement="below" number="1"/>
           <slur type="start" placement="above" number="2"/>
           </notations>
         </note>
@@ -55692,6 +55700,9 @@
         <stem>down</stem>
         <beam number="1">continue</beam>
         <beam number="2">continue</beam>
+        <notations>
+          <slur type="start" placement="above" number="1"/>
+          </notations>
         </note>
       <note default-x="225.20" default-y="-238.11">
         <pitch>
@@ -55707,6 +55718,7 @@
         <beam number="2">end</beam>
         <notations>
           <slur type="stop" number="2"/>
+          <slur type="stop" number="1"/>
           </notations>
         </note>
       <note default-x="259.42" default-y="-233.11">
@@ -57537,7 +57549,7 @@
         <type>quarter</type>
         <stem>up</stem>
         <notations>
-          <slur type="start" placement="above" number="1"/>
+          <slur type="start" placement="below" number="1"/>
           </notations>
         </note>
       <note default-x="69.50" default-y="-259.51">
@@ -57559,7 +57571,7 @@
         <duration>24</duration>
         <voice>1</voice>
         <type>quarter</type>
-        <stem>down</stem>
+        <stem>up</stem>
         <notations>
           <slur type="stop" number="1"/>
           </notations>
@@ -69799,6 +69811,9 @@
         <stem>up</stem>
         <beam number="1">continue</beam>
         <beam number="2">continue</beam>
+        <notations>
+          <slur type="start" placement="below" number="1"/>
+          </notations>
         </note>
       <note default-x="231.51" default-y="-409.87">
         <pitch>
@@ -69814,6 +69829,7 @@
         <beam number="2">end</beam>
         <notations>
           <slur type="stop" number="2"/>
+          <slur type="stop" number="1"/>
           </notations>
         </note>
       <note default-x="264.58" default-y="-404.87">
@@ -69987,6 +70003,9 @@
         <stem>down</stem>
         <beam number="1">continue</beam>
         <beam number="2">continue</beam>
+        <notations>
+          <slur type="start" placement="above" number="1"/>
+          </notations>
         </note>
       <note default-x="229.53" default-y="-369.87">
         <pitch>
@@ -70002,6 +70021,7 @@
         <beam number="2">end</beam>
         <notations>
           <slur type="stop" number="2"/>
+          <slur type="stop" number="1"/>
           </notations>
         </note>
       <note default-x="265.45" default-y="-364.87">
