@@ -9,8 +9,11 @@ system:
 staff_height:
   model: ls-yolo-staff-height-v2.0.0
   target_height: 18
-staff_bbox:
-  model:
-  confidence_threshold:
-  merge_threshold:
   exceptions:
+staff_bbox:
+  model: ls-yolo-staff-bbox-v1.0.1
+  confidence_threshold: 0.7
+  merge_threshold: 0.7
+  exceptions:
+  ignores:
+    - sq10414906:0009:0005
