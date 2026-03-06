@@ -1419,20 +1419,6 @@
           <Chord>
             <linkedMain/>
             <durationType>half</durationType>
-            <Spanner type="Slur">
-              <Slur>
-                <linkedMain/>
-                <SlurSegment no="0">
-                  <o2 x="1.78028e-17" y="-0.5"/>
-                  <o3 x="1.78028e-17" y="-0.5"/>
-                  </SlurSegment>
-                </Slur>
-              <next>
-                <location>
-                  <fractions>5/8</fractions>
-                  </location>
-                </next>
-              </Spanner>
             <Note>
               <linkedMain/>
               <Spanner type="Tie">
@@ -1452,6 +1438,21 @@
           <Chord>
             <linkedMain/>
             <durationType>eighth</durationType>
+            <Spanner type="Slur">
+              <Slur>
+                <linkedMain/>
+                <SlurSegment no="0">
+                  <o1 x="-0.362857" y="-1.08857"/>
+                  <o2 x="1.78028e-17" y="-0.5"/>
+                  <o3 x="1.78028e-17" y="-0.5"/>
+                  </SlurSegment>
+                </Slur>
+              <next>
+                <location>
+                  <fractions>1/8</fractions>
+                  </location>
+                </next>
+              </Spanner>
             <Note>
               <linkedMain/>
               <Spanner type="Tie">
@@ -1471,7 +1472,7 @@
             <Spanner type="Slur">
               <prev>
                 <location>
-                  <fractions>-5/8</fractions>
+                  <fractions>-1/8</fractions>
                   </location>
                 </prev>
               </Spanner>
@@ -1558,16 +1559,6 @@
           <Chord>
             <linkedMain/>
             <durationType>half</durationType>
-            <Spanner type="Slur">
-              <Slur>
-                <linkedMain/>
-                </Slur>
-              <next>
-                <location>
-                  <fractions>5/8</fractions>
-                  </location>
-                </next>
-              </Spanner>
             <Note>
               <linkedMain/>
               <Spanner type="Tie">
@@ -1587,6 +1578,16 @@
           <Chord>
             <linkedMain/>
             <durationType>eighth</durationType>
+            <Spanner type="Slur">
+              <Slur>
+                <linkedMain/>
+                </Slur>
+              <next>
+                <location>
+                  <fractions>1/8</fractions>
+                  </location>
+                </next>
+              </Spanner>
             <Note>
               <linkedMain/>
               <Spanner type="Tie">
@@ -1606,7 +1607,7 @@
             <Spanner type="Slur">
               <prev>
                 <location>
-                  <fractions>-5/8</fractions>
+                  <fractions>-1/8</fractions>
                   </location>
                 </prev>
               </Spanner>
@@ -2686,16 +2687,6 @@
           <Chord>
             <linkedMain/>
             <durationType>half</durationType>
-            <Spanner type="Slur">
-              <Slur>
-                <linkedMain/>
-                </Slur>
-              <next>
-                <location>
-                  <fractions>5/8</fractions>
-                  </location>
-                </next>
-              </Spanner>
             <Note>
               <linkedMain/>
               <Spanner type="Tie">
@@ -2712,9 +2703,25 @@
               <tpc>14</tpc>
               </Note>
             </Chord>
+          <Beam>
+            <StemDirection>down</StemDirection>
+            </Beam>
           <Chord>
             <linkedMain/>
             <durationType>eighth</durationType>
+            <Spanner type="Slur">
+              <Slur>
+                <linkedMain/>
+                <SlurSegment no="0">
+                  <o1 x="-0.362857" y="0"/>
+                  </SlurSegment>
+                </Slur>
+              <next>
+                <location>
+                  <fractions>1/8</fractions>
+                  </location>
+                </next>
+              </Spanner>
             <Note>
               <linkedMain/>
               <Spanner type="Tie">
@@ -2734,7 +2741,7 @@
             <Spanner type="Slur">
               <prev>
                 <location>
-                  <fractions>-5/8</fractions>
+                  <fractions>-1/8</fractions>
                   </location>
                 </prev>
               </Spanner>
@@ -2748,7 +2755,7 @@
             <linkedMain/>
             <durationType>eighth</durationType>
             <Articulation>
-              <subtype>articStaccatoBelow</subtype>
+              <subtype>articStaccatoAbove</subtype>
               <linkedMain/>
               </Articulation>
             <Note>
@@ -2761,7 +2768,7 @@
             <linkedMain/>
             <durationType>eighth</durationType>
             <Articulation>
-              <subtype>articStaccatoBelow</subtype>
+              <subtype>articStaccatoAbove</subtype>
               <linkedMain/>
               </Articulation>
             <Note>
@@ -2838,16 +2845,6 @@
           <Chord>
             <linkedMain/>
             <durationType>half</durationType>
-            <Spanner type="Slur">
-              <Slur>
-                <linkedMain/>
-                </Slur>
-              <next>
-                <location>
-                  <fractions>5/8</fractions>
-                  </location>
-                </next>
-              </Spanner>
             <Note>
               <linkedMain/>
               <Spanner type="Tie">
@@ -2867,6 +2864,16 @@
           <Chord>
             <linkedMain/>
             <durationType>eighth</durationType>
+            <Spanner type="Slur">
+              <Slur>
+                <linkedMain/>
+                </Slur>
+              <next>
+                <location>
+                  <fractions>1/8</fractions>
+                  </location>
+                </next>
+              </Spanner>
             <Note>
               <linkedMain/>
               <Spanner type="Tie">
@@ -2886,7 +2893,7 @@
             <Spanner type="Slur">
               <prev>
                 <location>
-                  <fractions>-5/8</fractions>
+                  <fractions>-1/8</fractions>
                   </location>
                 </prev>
               </Spanner>
@@ -3017,19 +3024,6 @@
           <Chord>
             <linkedMain/>
             <durationType>half</durationType>
-            <Spanner type="Slur">
-              <Slur>
-                <linkedMain/>
-                <SlurSegment no="0">
-                  <o1 x="0" y="-1"/>
-                  </SlurSegment>
-                </Slur>
-              <next>
-                <location>
-                  <fractions>5/8</fractions>
-                  </location>
-                </next>
-              </Spanner>
             <Note>
               <linkedMain/>
               <Spanner type="Tie">
@@ -3046,9 +3040,25 @@
               <tpc>14</tpc>
               </Note>
             </Chord>
+          <Beam>
+            <StemDirection>up</StemDirection>
+            </Beam>
           <Chord>
             <linkedMain/>
             <durationType>eighth</durationType>
+            <Spanner type="Slur">
+              <Slur>
+                <linkedMain/>
+                <SlurSegment no="0">
+                  <o1 x="0" y="-0.725714"/>
+                  </SlurSegment>
+                </Slur>
+              <next>
+                <location>
+                  <fractions>1/8</fractions>
+                  </location>
+                </next>
+              </Spanner>
             <Note>
               <linkedMain/>
               <Spanner type="Tie">
@@ -3068,7 +3078,7 @@
             <Spanner type="Slur">
               <prev>
                 <location>
-                  <fractions>-5/8</fractions>
+                  <fractions>-1/8</fractions>
                   </location>
                 </prev>
               </Spanner>
@@ -3179,16 +3189,6 @@
           <Chord>
             <linkedMain/>
             <durationType>half</durationType>
-            <Spanner type="Slur">
-              <Slur>
-                <linkedMain/>
-                </Slur>
-              <next>
-                <location>
-                  <fractions>5/8</fractions>
-                  </location>
-                </next>
-              </Spanner>
             <Note>
               <linkedMain/>
               <Spanner type="Tie">
@@ -3208,6 +3208,16 @@
           <Chord>
             <linkedMain/>
             <durationType>eighth</durationType>
+            <Spanner type="Slur">
+              <Slur>
+                <linkedMain/>
+                </Slur>
+              <next>
+                <location>
+                  <fractions>1/8</fractions>
+                  </location>
+                </next>
+              </Spanner>
             <Note>
               <linkedMain/>
               <Spanner type="Tie">
@@ -3227,7 +3237,7 @@
             <Spanner type="Slur">
               <prev>
                 <location>
-                  <fractions>-5/8</fractions>
+                  <fractions>-1/8</fractions>
                   </location>
                 </prev>
               </Spanner>
@@ -3342,16 +3352,6 @@
           <Chord>
             <linkedMain/>
             <durationType>half</durationType>
-            <Spanner type="Slur">
-              <Slur>
-                <linkedMain/>
-                </Slur>
-              <next>
-                <location>
-                  <fractions>5/8</fractions>
-                  </location>
-                </next>
-              </Spanner>
             <Note>
               <linkedMain/>
               <Spanner type="Tie">
@@ -3371,6 +3371,16 @@
           <Chord>
             <linkedMain/>
             <durationType>eighth</durationType>
+            <Spanner type="Slur">
+              <Slur>
+                <linkedMain/>
+                </Slur>
+              <next>
+                <location>
+                  <fractions>1/8</fractions>
+                  </location>
+                </next>
+              </Spanner>
             <Note>
               <linkedMain/>
               <Spanner type="Tie">
@@ -3390,7 +3400,7 @@
             <Spanner type="Slur">
               <prev>
                 <location>
-                  <fractions>-5/8</fractions>
+                  <fractions>-1/8</fractions>
                   </location>
                 </prev>
               </Spanner>
@@ -7727,20 +7737,6 @@
           <Chord>
             <linkedMain/>
             <durationType>half</durationType>
-            <Spanner type="Slur">
-              <Slur>
-                <linkedMain/>
-                <SlurSegment no="0">
-                  <o1 x="0" y="-0.3"/>
-                  </SlurSegment>
-                </Slur>
-              <next>
-                <location>
-                  <measures>1</measures>
-                  <fractions>1/4</fractions>
-                  </location>
-                </next>
-              </Spanner>
             <Note>
               <linkedMain/>
               <Spanner type="Tie">
@@ -7768,6 +7764,16 @@
           <Chord>
             <linkedMain/>
             <durationType>quarter</durationType>
+            <Spanner type="Slur">
+              <Slur>
+                <linkedMain/>
+                </Slur>
+              <next>
+                <location>
+                  <fractions>3/4</fractions>
+                  </location>
+                </next>
+              </Spanner>
             <Note>
               <linkedMain/>
               <Spanner type="Tie">
@@ -7806,8 +7812,7 @@
             <Spanner type="Slur">
               <prev>
                 <location>
-                  <measures>-1</measures>
-                  <fractions>-1/4</fractions>
+                  <fractions>-3/4</fractions>
                   </location>
                 </prev>
               </Spanner>
@@ -8368,6 +8373,7 @@
             <Spanner type="Slur">
               <Slur>
                 <linkedMain/>
+                <up>down</up>
                 </Slur>
               <next>
                 <location>
@@ -8428,6 +8434,7 @@
             <Spanner type="Slur">
               <Slur>
                 <linkedMain/>
+                <up>down</up>
                 </Slur>
               <next>
                 <location>
@@ -8581,6 +8588,7 @@
             <Spanner type="Slur">
               <Slur>
                 <linkedMain/>
+                <up>down</up>
                 </Slur>
               <next>
                 <location>
@@ -8700,6 +8708,7 @@
             <Spanner type="Slur">
               <Slur>
                 <linkedMain/>
+                <up>down</up>
                 </Slur>
               <next>
                 <location>
@@ -9921,16 +9930,6 @@
           <Chord>
             <linkedMain/>
             <durationType>half</durationType>
-            <Spanner type="Slur">
-              <Slur>
-                <linkedMain/>
-                </Slur>
-              <next>
-                <location>
-                  <fractions>5/8</fractions>
-                  </location>
-                </next>
-              </Spanner>
             <Note>
               <linkedMain/>
               <Spanner type="Tie">
@@ -9950,6 +9949,16 @@
           <Chord>
             <linkedMain/>
             <durationType>eighth</durationType>
+            <Spanner type="Slur">
+              <Slur>
+                <linkedMain/>
+                </Slur>
+              <next>
+                <location>
+                  <fractions>1/8</fractions>
+                  </location>
+                </next>
+              </Spanner>
             <Note>
               <linkedMain/>
               <Spanner type="Tie">
@@ -9969,7 +9978,7 @@
             <Spanner type="Slur">
               <prev>
                 <location>
-                  <fractions>-5/8</fractions>
+                  <fractions>-1/8</fractions>
                   </location>
                 </prev>
               </Spanner>
@@ -10054,16 +10063,6 @@
           <Chord>
             <linkedMain/>
             <durationType>half</durationType>
-            <Spanner type="Slur">
-              <Slur>
-                <linkedMain/>
-                </Slur>
-              <next>
-                <location>
-                  <fractions>5/8</fractions>
-                  </location>
-                </next>
-              </Spanner>
             <Note>
               <linkedMain/>
               <Spanner type="Tie">
@@ -10083,6 +10082,16 @@
           <Chord>
             <linkedMain/>
             <durationType>eighth</durationType>
+            <Spanner type="Slur">
+              <Slur>
+                <linkedMain/>
+                </Slur>
+              <next>
+                <location>
+                  <fractions>1/8</fractions>
+                  </location>
+                </next>
+              </Spanner>
             <Note>
               <linkedMain/>
               <Spanner type="Tie">
@@ -10102,7 +10111,7 @@
             <Spanner type="Slur">
               <prev>
                 <location>
-                  <fractions>-5/8</fractions>
+                  <fractions>-1/8</fractions>
                   </location>
                 </prev>
               </Spanner>
@@ -10759,16 +10768,6 @@
           <Chord>
             <linkedMain/>
             <durationType>half</durationType>
-            <Spanner type="Slur">
-              <Slur>
-                <linkedMain/>
-                </Slur>
-              <next>
-                <location>
-                  <fractions>5/8</fractions>
-                  </location>
-                </next>
-              </Spanner>
             <Note>
               <linkedMain/>
               <Spanner type="Tie">
@@ -10788,6 +10787,16 @@
           <Chord>
             <linkedMain/>
             <durationType>eighth</durationType>
+            <Spanner type="Slur">
+              <Slur>
+                <linkedMain/>
+                </Slur>
+              <next>
+                <location>
+                  <fractions>1/8</fractions>
+                  </location>
+                </next>
+              </Spanner>
             <Note>
               <linkedMain/>
               <Spanner type="Tie">
@@ -10807,7 +10816,7 @@
             <Spanner type="Slur">
               <prev>
                 <location>
-                  <fractions>-5/8</fractions>
+                  <fractions>-1/8</fractions>
                   </location>
                 </prev>
               </Spanner>
@@ -10889,19 +10898,6 @@
           <Chord>
             <linkedMain/>
             <durationType>half</durationType>
-            <Spanner type="Slur">
-              <Slur>
-                <linkedMain/>
-                <SlurSegment no="0">
-                  <o1 x="0" y="-1"/>
-                  </SlurSegment>
-                </Slur>
-              <next>
-                <location>
-                  <fractions>5/8</fractions>
-                  </location>
-                </next>
-              </Spanner>
             <Note>
               <linkedMain/>
               <Spanner type="Tie">
@@ -10921,6 +10917,19 @@
           <Chord>
             <linkedMain/>
             <durationType>eighth</durationType>
+            <Spanner type="Slur">
+              <Slur>
+                <linkedMain/>
+                <SlurSegment no="0">
+                  <o1 x="0.725714" y="-0.362857"/>
+                  </SlurSegment>
+                </Slur>
+              <next>
+                <location>
+                  <fractions>1/8</fractions>
+                  </location>
+                </next>
+              </Spanner>
             <Note>
               <linkedMain/>
               <Spanner type="Tie">
@@ -10940,7 +10949,7 @@
             <Spanner type="Slur">
               <prev>
                 <location>
-                  <fractions>-5/8</fractions>
+                  <fractions>-1/8</fractions>
                   </location>
                 </prev>
               </Spanner>
@@ -15082,16 +15091,6 @@
           <Chord>
             <linkedMain/>
             <durationType>half</durationType>
-            <Spanner type="Slur">
-              <Slur>
-                <linkedMain/>
-                </Slur>
-              <next>
-                <location>
-                  <fractions>5/8</fractions>
-                  </location>
-                </next>
-              </Spanner>
             <Note>
               <linkedMain/>
               <Spanner type="Tie">
@@ -15108,9 +15107,22 @@
               <tpc>14</tpc>
               </Note>
             </Chord>
+          <Beam>
+            <StemDirection>down</StemDirection>
+            </Beam>
           <Chord>
             <linkedMain/>
             <durationType>eighth</durationType>
+            <Spanner type="Slur">
+              <Slur>
+                <linkedMain/>
+                </Slur>
+              <next>
+                <location>
+                  <fractions>1/8</fractions>
+                  </location>
+                </next>
+              </Spanner>
             <Note>
               <linkedMain/>
               <Spanner type="Tie">
@@ -15130,7 +15142,7 @@
             <Spanner type="Slur">
               <prev>
                 <location>
-                  <fractions>-5/8</fractions>
+                  <fractions>-1/8</fractions>
                   </location>
                 </prev>
               </Spanner>
@@ -15144,7 +15156,7 @@
             <linkedMain/>
             <durationType>eighth</durationType>
             <Articulation>
-              <subtype>articStaccatoBelow</subtype>
+              <subtype>articStaccatoAbove</subtype>
               <linkedMain/>
               </Articulation>
             <Note>
@@ -15157,7 +15169,7 @@
             <linkedMain/>
             <durationType>eighth</durationType>
             <Articulation>
-              <subtype>articStaccatoBelow</subtype>
+              <subtype>articStaccatoAbove</subtype>
               <linkedMain/>
               </Articulation>
             <Note>
@@ -15231,16 +15243,6 @@
           <Chord>
             <linkedMain/>
             <durationType>half</durationType>
-            <Spanner type="Slur">
-              <Slur>
-                <linkedMain/>
-                </Slur>
-              <next>
-                <location>
-                  <fractions>5/8</fractions>
-                  </location>
-                </next>
-              </Spanner>
             <Note>
               <linkedMain/>
               <Spanner type="Tie">
@@ -15260,6 +15262,16 @@
           <Chord>
             <linkedMain/>
             <durationType>eighth</durationType>
+            <Spanner type="Slur">
+              <Slur>
+                <linkedMain/>
+                </Slur>
+              <next>
+                <location>
+                  <fractions>1/8</fractions>
+                  </location>
+                </next>
+              </Spanner>
             <Note>
               <linkedMain/>
               <Spanner type="Tie">
@@ -15279,7 +15291,7 @@
             <Spanner type="Slur">
               <prev>
                 <location>
-                  <fractions>-5/8</fractions>
+                  <fractions>-1/8</fractions>
                   </location>
                 </prev>
               </Spanner>
@@ -15405,19 +15417,6 @@
           <Chord>
             <linkedMain/>
             <durationType>half</durationType>
-            <Spanner type="Slur">
-              <Slur>
-                <linkedMain/>
-                <SlurSegment no="0">
-                  <o1 x="0" y="-1"/>
-                  </SlurSegment>
-                </Slur>
-              <next>
-                <location>
-                  <fractions>5/8</fractions>
-                  </location>
-                </next>
-              </Spanner>
             <Note>
               <linkedMain/>
               <Spanner type="Tie">
@@ -15434,9 +15433,22 @@
               <tpc>14</tpc>
               </Note>
             </Chord>
+          <Beam>
+            <StemDirection>down</StemDirection>
+            </Beam>
           <Chord>
             <linkedMain/>
             <durationType>eighth</durationType>
+            <Spanner type="Slur">
+              <Slur>
+                <linkedMain/>
+                </Slur>
+              <next>
+                <location>
+                  <fractions>1/8</fractions>
+                  </location>
+                </next>
+              </Spanner>
             <Note>
               <linkedMain/>
               <Spanner type="Tie">
@@ -15456,7 +15468,7 @@
             <Spanner type="Slur">
               <prev>
                 <location>
-                  <fractions>-5/8</fractions>
+                  <fractions>-1/8</fractions>
                   </location>
                 </prev>
               </Spanner>
@@ -15470,7 +15482,7 @@
             <linkedMain/>
             <durationType>eighth</durationType>
             <Articulation>
-              <subtype>articStaccatoBelow</subtype>
+              <subtype>articStaccatoAbove</subtype>
               <linkedMain/>
               </Articulation>
             <Note>
@@ -15483,7 +15495,7 @@
             <linkedMain/>
             <durationType>eighth</durationType>
             <Articulation>
-              <subtype>articStaccatoBelow</subtype>
+              <subtype>articStaccatoAbove</subtype>
               <linkedMain/>
               </Articulation>
             <Note>
@@ -15565,19 +15577,6 @@
           <Chord>
             <linkedMain/>
             <durationType>half</durationType>
-            <Spanner type="Slur">
-              <Slur>
-                <linkedMain/>
-                <SlurSegment no="0">
-                  <o1 x="0" y="0.4"/>
-                  </SlurSegment>
-                </Slur>
-              <next>
-                <location>
-                  <fractions>5/8</fractions>
-                  </location>
-                </next>
-              </Spanner>
             <Note>
               <linkedMain/>
               <Spanner type="Tie">
@@ -15597,6 +15596,16 @@
           <Chord>
             <linkedMain/>
             <durationType>eighth</durationType>
+            <Spanner type="Slur">
+              <Slur>
+                <linkedMain/>
+                </Slur>
+              <next>
+                <location>
+                  <fractions>1/8</fractions>
+                  </location>
+                </next>
+              </Spanner>
             <Note>
               <linkedMain/>
               <Spanner type="Tie">
@@ -15616,7 +15625,7 @@
             <Spanner type="Slur">
               <prev>
                 <location>
-                  <fractions>-5/8</fractions>
+                  <fractions>-1/8</fractions>
                   </location>
                 </prev>
               </Spanner>
@@ -21237,17 +21246,6 @@
           <Chord>
             <linkedMain/>
             <durationType>whole</durationType>
-            <Spanner type="Slur">
-              <Slur>
-                <linkedMain/>
-                </Slur>
-              <next>
-                <location>
-                  <measures>1</measures>
-                  <fractions>3/4</fractions>
-                  </location>
-                </next>
-              </Spanner>
             <Note>
               <linkedMain/>
               <Accidental>
@@ -21292,6 +21290,17 @@
           <Chord>
             <linkedMain/>
             <durationType>half</durationType>
+            <Spanner type="Slur">
+              <Slur>
+                <linkedMain/>
+                <up>down</up>
+                </Slur>
+              <next>
+                <location>
+                  <fractions>3/4</fractions>
+                  </location>
+                </next>
+              </Spanner>
             <Note>
               <linkedMain/>
               <Spanner type="Tie">
@@ -21320,7 +21329,6 @@
             <Spanner type="Slur">
               <prev>
                 <location>
-                  <measures>-1</measures>
                   <fractions>-3/4</fractions>
                   </location>
                 </prev>
@@ -21640,6 +21648,7 @@
                   </location>
                 </next>
               </Spanner>
+            <StemDirection>up</StemDirection>
             <Note>
               <linkedMain/>
               <pitch>70</pitch>
@@ -21765,6 +21774,7 @@
                   </location>
                 </next>
               </Spanner>
+            <StemDirection>up</StemDirection>
             <Note>
               <linkedMain/>
               <pitch>70</pitch>
@@ -21939,6 +21949,7 @@
                   </location>
                 </next>
               </Spanner>
+            <StemDirection>up</StemDirection>
             <Note>
               <linkedMain/>
               <pitch>70</pitch>
@@ -32034,6 +32045,7 @@
             <Spanner type="Slur">
               <Slur>
                 <linkedMain/>
+                <up>down</up>
                 </Slur>
               <next>
                 <location>
@@ -32915,6 +32927,7 @@
                   </location>
                 </next>
               </Spanner>
+            <StemDirection>up</StemDirection>
             <Note>
               <linkedMain/>
               <Spanner type="Tie">
@@ -33701,6 +33714,7 @@
             <Spanner type="Slur">
               <Slur>
                 <linkedMain/>
+                <up>down</up>
                 </Slur>
               <next>
                 <location>
@@ -33862,6 +33876,7 @@
             <Spanner type="Slur">
               <Slur>
                 <linkedMain/>
+                <up>down</up>
                 </Slur>
               <next>
                 <location>
@@ -39010,17 +39025,6 @@
             <linkedMain/>
             <dots>1</dots>
             <durationType>half</durationType>
-            <Spanner type="Slur">
-              <Slur>
-                <linkedMain/>
-                </Slur>
-              <next>
-                <location>
-                  <measures>1</measures>
-                  <fractions>1/2</fractions>
-                  </location>
-                </next>
-              </Spanner>
             <Note>
               <linkedMain/>
               <Spanner type="Tie">
@@ -39044,6 +39048,20 @@
           <Chord>
             <linkedMain/>
             <durationType>half</durationType>
+            <Spanner type="Slur">
+              <Slur>
+                <linkedMain/>
+                <SlurSegment no="0">
+                  <o1 x="0.362857" y="0.362857"/>
+                  </SlurSegment>
+                <up>down</up>
+                </Slur>
+              <next>
+                <location>
+                  <fractions>1/2</fractions>
+                  </location>
+                </next>
+              </Spanner>
             <Note>
               <linkedMain/>
               <Spanner type="Tie">
@@ -39063,7 +39081,6 @@
             <Spanner type="Slur">
               <prev>
                 <location>
-                  <measures>-1</measures>
                   <fractions>-1/2</fractions>
                   </location>
                 </prev>
@@ -39085,17 +39102,6 @@
             <linkedMain/>
             <dots>1</dots>
             <durationType>half</durationType>
-            <Spanner type="Slur">
-              <Slur>
-                <linkedMain/>
-                </Slur>
-              <next>
-                <location>
-                  <measures>1</measures>
-                  <fractions>1/2</fractions>
-                  </location>
-                </next>
-              </Spanner>
             <Note>
               <linkedMain/>
               <Spanner type="Tie">
@@ -39119,6 +39125,20 @@
           <Chord>
             <linkedMain/>
             <durationType>half</durationType>
+            <Spanner type="Slur">
+              <Slur>
+                <linkedMain/>
+                <SlurSegment no="0">
+                  <o1 x="0.725714" y="0.362857"/>
+                  </SlurSegment>
+                <up>down</up>
+                </Slur>
+              <next>
+                <location>
+                  <fractions>1/2</fractions>
+                  </location>
+                </next>
+              </Spanner>
             <Note>
               <linkedMain/>
               <Spanner type="Tie">
@@ -39138,7 +39158,6 @@
             <Spanner type="Slur">
               <prev>
                 <location>
-                  <measures>-1</measures>
                   <fractions>-1/2</fractions>
                   </location>
                 </prev>
@@ -39167,17 +39186,6 @@
             <linkedMain/>
             <dots>1</dots>
             <durationType>half</durationType>
-            <Spanner type="Slur">
-              <Slur>
-                <linkedMain/>
-                </Slur>
-              <next>
-                <location>
-                  <measures>1</measures>
-                  <fractions>1/2</fractions>
-                  </location>
-                </next>
-              </Spanner>
             <Note>
               <linkedMain/>
               <Spanner type="Tie">
@@ -39201,6 +39209,17 @@
           <Chord>
             <linkedMain/>
             <durationType>half</durationType>
+            <Spanner type="Slur">
+              <Slur>
+                <linkedMain/>
+                <up>down</up>
+                </Slur>
+              <next>
+                <location>
+                  <fractions>1/2</fractions>
+                  </location>
+                </next>
+              </Spanner>
             <Note>
               <linkedMain/>
               <Spanner type="Tie">
@@ -39220,7 +39239,6 @@
             <Spanner type="Slur">
               <prev>
                 <location>
-                  <measures>-1</measures>
                   <fractions>-1/2</fractions>
                   </location>
                 </prev>
@@ -39242,17 +39260,6 @@
             <linkedMain/>
             <dots>1</dots>
             <durationType>half</durationType>
-            <Spanner type="Slur">
-              <Slur>
-                <linkedMain/>
-                </Slur>
-              <next>
-                <location>
-                  <measures>1</measures>
-                  <fractions>1/2</fractions>
-                  </location>
-                </next>
-              </Spanner>
             <Note>
               <linkedMain/>
               <Spanner type="Tie">
@@ -39289,6 +39296,17 @@
           <Chord>
             <linkedMain/>
             <durationType>half</durationType>
+            <Spanner type="Slur">
+              <Slur>
+                <linkedMain/>
+                <up>down</up>
+                </Slur>
+              <next>
+                <location>
+                  <fractions>1/2</fractions>
+                  </location>
+                </next>
+              </Spanner>
             <Note>
               <linkedMain/>
               <Spanner type="Tie">
@@ -39308,7 +39326,6 @@
             <Spanner type="Slur">
               <prev>
                 <location>
-                  <measures>-1</measures>
                   <fractions>-1/2</fractions>
                   </location>
                 </prev>
@@ -39392,6 +39409,7 @@
             <Spanner type="Slur">
               <Slur>
                 <linkedMain/>
+                <up>down</up>
                 </Slur>
               <next>
                 <location>
@@ -53496,6 +53514,7 @@
             <Spanner type="Slur">
               <Slur>
                 <linkedMain/>
+                <up>down</up>
                 </Slur>
               <next>
                 <location>
@@ -58425,6 +58444,7 @@
               </Note>
             <Tremolo>
               <subtype>c16</subtype>
+              <strokeStyle>1</strokeStyle>
               <linkedMain/>
               </Tremolo>
             </Chord>
@@ -61108,6 +61128,7 @@
             <Spanner type="Slur">
               <Slur>
                 <linkedMain/>
+                <up>down</up>
                 </Slur>
               <next>
                 <location>
@@ -61149,6 +61170,7 @@
             <linkedMain/>
             <dots>1</dots>
             <durationType>quarter</durationType>
+            <StemDirection>up</StemDirection>
             <Note>
               <linkedMain/>
               <Accidental>
@@ -61292,16 +61314,7 @@
             <linkedMain/>
             <dots>1</dots>
             <durationType>quarter</durationType>
-            <Spanner type="Slur">
-              <Slur>
-                <linkedMain/>
-                </Slur>
-              <next>
-                <location>
-                  <fractions>3/8</fractions>
-                  </location>
-                </next>
-              </Spanner>
+            <StemDirection>up</StemDirection>
             <Note>
               <linkedMain/>
               <Accidental>
@@ -61319,13 +61332,6 @@
                 <location>
                   <measures>-1</measures>
                   <fractions>-1/8</fractions>
-                  </location>
-                </prev>
-              </Spanner>
-            <Spanner type="Slur">
-              <prev>
-                <location>
-                  <fractions>-3/8</fractions>
                   </location>
                 </prev>
               </Spanner>
@@ -61469,6 +61475,7 @@
             <Spanner type="Slur">
               <Slur>
                 <linkedMain/>
+                <up>down</up>
                 </Slur>
               <next>
                 <location>
@@ -62200,6 +62207,7 @@
             <Spanner type="Slur">
               <Slur>
                 <linkedMain/>
+                <up>up</up>
                 </Slur>
               <next>
                 <location>
@@ -62446,6 +62454,7 @@
             <Spanner type="Slur">
               <Slur>
                 <linkedMain/>
+                <up>up</up>
                 </Slur>
               <next>
                 <location>
@@ -64273,6 +64282,7 @@
             <Spanner type="Slur">
               <Slur>
                 <linkedMain/>
+                <up>down</up>
                 </Slur>
               <next>
                 <location>
@@ -75449,20 +75459,6 @@
           <Chord>
             <linkedMain/>
             <durationType>half</durationType>
-            <Spanner type="Slur">
-              <Slur>
-                <linkedMain/>
-                <SlurSegment no="0">
-                  <o2 x="0" y="-1"/>
-                  <o3 x="0" y="-1"/>
-                  </SlurSegment>
-                </Slur>
-              <next>
-                <location>
-                  <fractions>5/8</fractions>
-                  </location>
-                </next>
-              </Spanner>
             <Note>
               <linkedMain/>
               <Spanner type="Tie">
@@ -75482,6 +75478,21 @@
           <Chord>
             <linkedMain/>
             <durationType>eighth</durationType>
+            <Spanner type="Slur">
+              <Slur>
+                <linkedMain/>
+                <SlurSegment no="0">
+                  <o1 x="-0.362857" y="-1.08857"/>
+                  <o2 x="0" y="-1"/>
+                  <o3 x="0" y="-1"/>
+                  </SlurSegment>
+                </Slur>
+              <next>
+                <location>
+                  <fractions>1/8</fractions>
+                  </location>
+                </next>
+              </Spanner>
             <Note>
               <linkedMain/>
               <Spanner type="Tie">
@@ -75501,7 +75512,7 @@
             <Spanner type="Slur">
               <prev>
                 <location>
-                  <fractions>-5/8</fractions>
+                  <fractions>-1/8</fractions>
                   </location>
                 </prev>
               </Spanner>
@@ -80125,10 +80136,11 @@
             <Spanner type="Slur">
               <Slur>
                 <linkedMain/>
+                <up>down</up>
                 </Slur>
               <next>
                 <location>
-                  <measures>2</measures>
+                  <measures>1</measures>
                   </location>
                 </next>
               </Spanner>
@@ -80145,6 +80157,13 @@
           <Chord>
             <linkedMain/>
             <durationType>whole</durationType>
+            <Spanner type="Slur">
+              <prev>
+                <location>
+                  <measures>-1</measures>
+                  </location>
+                </prev>
+              </Spanner>
             <Note>
               <linkedMain/>
               <Accidental>
@@ -80171,13 +80190,6 @@
           <Chord>
             <linkedMain/>
             <durationType>whole</durationType>
-            <Spanner type="Slur">
-              <prev>
-                <location>
-                  <measures>-2</measures>
-                  </location>
-                </prev>
-              </Spanner>
             <Note>
               <linkedMain/>
               <Spanner type="Tie">
@@ -82171,16 +82183,6 @@
           <Chord>
             <linkedMain/>
             <durationType>half</durationType>
-            <Spanner type="Slur">
-              <Slur>
-                <linkedMain/>
-                </Slur>
-              <next>
-                <location>
-                  <fractions>5/8</fractions>
-                  </location>
-                </next>
-              </Spanner>
             <Note>
               <linkedMain/>
               <Spanner type="Tie">
@@ -82200,6 +82202,16 @@
           <Chord>
             <linkedMain/>
             <durationType>eighth</durationType>
+            <Spanner type="Slur">
+              <Slur>
+                <linkedMain/>
+                </Slur>
+              <next>
+                <location>
+                  <fractions>1/8</fractions>
+                  </location>
+                </next>
+              </Spanner>
             <Note>
               <linkedMain/>
               <Spanner type="Tie">
@@ -82219,7 +82231,7 @@
             <Spanner type="Slur">
               <prev>
                 <location>
-                  <fractions>-5/8</fractions>
+                  <fractions>-1/8</fractions>
                   </location>
                 </prev>
               </Spanner>
@@ -82304,16 +82316,6 @@
           <Chord>
             <linkedMain/>
             <durationType>half</durationType>
-            <Spanner type="Slur">
-              <Slur>
-                <linkedMain/>
-                </Slur>
-              <next>
-                <location>
-                  <fractions>5/8</fractions>
-                  </location>
-                </next>
-              </Spanner>
             <Note>
               <linkedMain/>
               <Spanner type="Tie">
@@ -82333,6 +82335,16 @@
           <Chord>
             <linkedMain/>
             <durationType>eighth</durationType>
+            <Spanner type="Slur">
+              <Slur>
+                <linkedMain/>
+                </Slur>
+              <next>
+                <location>
+                  <fractions>1/8</fractions>
+                  </location>
+                </next>
+              </Spanner>
             <Note>
               <linkedMain/>
               <Spanner type="Tie">
@@ -82352,7 +82364,7 @@
             <Spanner type="Slur">
               <prev>
                 <location>
-                  <fractions>-5/8</fractions>
+                  <fractions>-1/8</fractions>
                   </location>
                 </prev>
               </Spanner>
@@ -82406,16 +82418,6 @@
           <Chord>
             <linkedMain/>
             <durationType>half</durationType>
-            <Spanner type="Slur">
-              <Slur>
-                <linkedMain/>
-                </Slur>
-              <next>
-                <location>
-                  <fractions>5/8</fractions>
-                  </location>
-                </next>
-              </Spanner>
             <Note>
               <linkedMain/>
               <Spanner type="Tie">
@@ -82435,6 +82437,16 @@
           <Chord>
             <linkedMain/>
             <durationType>eighth</durationType>
+            <Spanner type="Slur">
+              <Slur>
+                <linkedMain/>
+                </Slur>
+              <next>
+                <location>
+                  <fractions>1/8</fractions>
+                  </location>
+                </next>
+              </Spanner>
             <Note>
               <linkedMain/>
               <Spanner type="Tie">
@@ -82454,7 +82466,7 @@
             <Spanner type="Slur">
               <prev>
                 <location>
-                  <fractions>-5/8</fractions>
+                  <fractions>-1/8</fractions>
                   </location>
                 </prev>
               </Spanner>
@@ -82644,16 +82656,6 @@
           <Chord>
             <linkedMain/>
             <durationType>half</durationType>
-            <Spanner type="Slur">
-              <Slur>
-                <linkedMain/>
-                </Slur>
-              <next>
-                <location>
-                  <fractions>5/8</fractions>
-                  </location>
-                </next>
-              </Spanner>
             <Note>
               <linkedMain/>
               <Spanner type="Tie">
@@ -82673,6 +82675,16 @@
           <Chord>
             <linkedMain/>
             <durationType>eighth</durationType>
+            <Spanner type="Slur">
+              <Slur>
+                <linkedMain/>
+                </Slur>
+              <next>
+                <location>
+                  <fractions>1/8</fractions>
+                  </location>
+                </next>
+              </Spanner>
             <Note>
               <linkedMain/>
               <Spanner type="Tie">
@@ -82692,7 +82704,7 @@
             <Spanner type="Slur">
               <prev>
                 <location>
-                  <fractions>-5/8</fractions>
+                  <fractions>-1/8</fractions>
                   </location>
                 </prev>
               </Spanner>
@@ -82774,19 +82786,6 @@
           <Chord>
             <linkedMain/>
             <durationType>half</durationType>
-            <Spanner type="Slur">
-              <Slur>
-                <linkedMain/>
-                <SlurSegment no="0">
-                  <o1 x="0" y="-1"/>
-                  </SlurSegment>
-                </Slur>
-              <next>
-                <location>
-                  <fractions>5/8</fractions>
-                  </location>
-                </next>
-              </Spanner>
             <Note>
               <linkedMain/>
               <Spanner type="Tie">
@@ -82806,6 +82805,19 @@
           <Chord>
             <linkedMain/>
             <durationType>eighth</durationType>
+            <Spanner type="Slur">
+              <Slur>
+                <linkedMain/>
+                <SlurSegment no="0">
+                  <o1 x="0.362857" y="0.362857"/>
+                  </SlurSegment>
+                </Slur>
+              <next>
+                <location>
+                  <fractions>1/8</fractions>
+                  </location>
+                </next>
+              </Spanner>
             <Note>
               <linkedMain/>
               <Spanner type="Tie">
@@ -82825,7 +82837,7 @@
             <Spanner type="Slur">
               <prev>
                 <location>
-                  <fractions>-5/8</fractions>
+                  <fractions>-1/8</fractions>
                   </location>
                 </prev>
               </Spanner>
@@ -82912,16 +82924,6 @@
           <Chord>
             <linkedMain/>
             <durationType>half</durationType>
-            <Spanner type="Slur">
-              <Slur>
-                <linkedMain/>
-                </Slur>
-              <next>
-                <location>
-                  <fractions>5/8</fractions>
-                  </location>
-                </next>
-              </Spanner>
             <Note>
               <linkedMain/>
               <Spanner type="Tie">
@@ -82941,6 +82943,16 @@
           <Chord>
             <linkedMain/>
             <durationType>eighth</durationType>
+            <Spanner type="Slur">
+              <Slur>
+                <linkedMain/>
+                </Slur>
+              <next>
+                <location>
+                  <fractions>1/8</fractions>
+                  </location>
+                </next>
+              </Spanner>
             <Note>
               <linkedMain/>
               <Spanner type="Tie">
@@ -82960,7 +82972,7 @@
             <Spanner type="Slur">
               <prev>
                 <location>
-                  <fractions>-5/8</fractions>
+                  <fractions>-1/8</fractions>
                   </location>
                 </prev>
               </Spanner>
@@ -83030,16 +83042,6 @@
           <Chord>
             <linkedMain/>
             <durationType>half</durationType>
-            <Spanner type="Slur">
-              <Slur>
-                <linkedMain/>
-                </Slur>
-              <next>
-                <location>
-                  <fractions>5/8</fractions>
-                  </location>
-                </next>
-              </Spanner>
             <Note>
               <linkedMain/>
               <Spanner type="Tie">
@@ -83059,6 +83061,16 @@
           <Chord>
             <linkedMain/>
             <durationType>eighth</durationType>
+            <Spanner type="Slur">
+              <Slur>
+                <linkedMain/>
+                </Slur>
+              <next>
+                <location>
+                  <fractions>1/8</fractions>
+                  </location>
+                </next>
+              </Spanner>
             <Note>
               <linkedMain/>
               <Spanner type="Tie">
@@ -83078,7 +83090,7 @@
             <Spanner type="Slur">
               <prev>
                 <location>
-                  <fractions>-5/8</fractions>
+                  <fractions>-1/8</fractions>
                   </location>
                 </prev>
               </Spanner>
@@ -90356,6 +90368,7 @@
             <Spanner type="Slur">
               <Slur>
                 <linkedMain/>
+                <up>down</up>
                 </Slur>
               <next>
                 <location>
@@ -90837,6 +90850,7 @@
             <Spanner type="Slur">
               <Slur>
                 <linkedMain/>
+                <up>down</up>
                 </Slur>
               <next>
                 <location>
@@ -91049,6 +91063,7 @@
             <Spanner type="Slur">
               <Slur>
                 <linkedMain/>
+                <up>down</up>
                 </Slur>
               <next>
                 <location>
@@ -93745,6 +93760,7 @@
                   </location>
                 </next>
               </Spanner>
+            <StemDirection>up</StemDirection>
             <Note>
               <linkedMain/>
               <pitch>70</pitch>
@@ -98732,6 +98748,7 @@
             <Spanner type="Slur">
               <Slur>
                 <linkedMain/>
+                <up>down</up>
                 </Slur>
               <next>
                 <location>
@@ -98842,6 +98859,7 @@
             <Spanner type="Slur">
               <Slur>
                 <linkedMain/>
+                <up>down</up>
                 </Slur>
               <next>
                 <location>
@@ -98965,6 +98983,7 @@
             <Spanner type="Slur">
               <Slur>
                 <linkedMain/>
+                <up>down</up>
                 </Slur>
               <next>
                 <location>
@@ -99082,6 +99101,7 @@
             <Spanner type="Slur">
               <Slur>
                 <linkedMain/>
+                <up>down</up>
                 </Slur>
               <next>
                 <location>
@@ -104779,6 +104799,7 @@
             <Spanner type="Slur">
               <Slur>
                 <linkedMain/>
+                <up>down</up>
                 </Slur>
               <next>
                 <location>
@@ -105036,6 +105057,7 @@
             <Spanner type="Slur">
               <Slur>
                 <linkedMain/>
+                <up>down</up>
                 </Slur>
               <next>
                 <location>
@@ -106207,6 +106229,9 @@
         </Measure>
       <Measure>
         <voice>
+          <Beam>
+            <StemDirection>down</StemDirection>
+            </Beam>
           <Chord>
             <linkedMain/>
             <durationType>eighth</durationType>
@@ -106820,6 +106845,7 @@
           <Chord>
             <linkedMain/>
             <durationType>quarter</durationType>
+            <StemDirection>up</StemDirection>
             <Note>
               <linkedMain/>
               <Spanner type="Tie">
@@ -108845,6 +108871,7 @@
               </next>
             </Spanner>
           <Beam>
+            <StemDirection>up</StemDirection>
             <distribute>1</distribute>
             </Beam>
           <Chord>
@@ -110078,6 +110105,7 @@
             <Spanner type="Slur">
               <Slur>
                 <linkedMain/>
+                <up>up</up>
                 </Slur>
               <next>
                 <location>
@@ -113943,6 +113971,9 @@
         </Measure>
       <Measure>
         <voice>
+          <Beam>
+            <StemDirection>up</StemDirection>
+            </Beam>
           <Chord>
             <linkedMain/>
             <durationType>16th</durationType>
@@ -114861,6 +114892,9 @@
                 </location>
               </next>
             </Spanner>
+          <Beam>
+            <StemDirection>up</StemDirection>
+            </Beam>
           <Chord>
             <linkedMain/>
             <durationType>16th</durationType>
@@ -124065,6 +124099,7 @@
             <Spanner type="Slur">
               <Slur>
                 <linkedMain/>
+                <up>down</up>
                 </Slur>
               <next>
                 <location>
@@ -126376,6 +126411,7 @@
             <Spanner type="Slur">
               <Slur>
                 <linkedMain/>
+                <up>down</up>
                 </Slur>
               <next>
                 <location>
@@ -133821,20 +133857,6 @@
           <Chord>
             <linkedMain/>
             <durationType>half</durationType>
-            <Spanner type="Slur">
-              <Slur>
-                <linkedMain/>
-                <SlurSegment no="0">
-                  <o2 x="0" y="-1"/>
-                  <o3 x="0" y="-1"/>
-                  </SlurSegment>
-                </Slur>
-              <next>
-                <location>
-                  <fractions>5/8</fractions>
-                  </location>
-                </next>
-              </Spanner>
             <Note>
               <linkedMain/>
               <Spanner type="Tie">
@@ -133854,6 +133876,21 @@
           <Chord>
             <linkedMain/>
             <durationType>eighth</durationType>
+            <Spanner type="Slur">
+              <Slur>
+                <linkedMain/>
+                <SlurSegment no="0">
+                  <o1 x="0.362857" y="-1.45143"/>
+                  <o2 x="0" y="-1"/>
+                  <o3 x="0" y="-1"/>
+                  </SlurSegment>
+                </Slur>
+              <next>
+                <location>
+                  <fractions>1/8</fractions>
+                  </location>
+                </next>
+              </Spanner>
             <Note>
               <linkedMain/>
               <Spanner type="Tie">
@@ -133873,7 +133910,7 @@
             <Spanner type="Slur">
               <prev>
                 <location>
-                  <fractions>-5/8</fractions>
+                  <fractions>-1/8</fractions>
                   </location>
                 </prev>
               </Spanner>
@@ -134735,19 +134772,6 @@
           <Chord>
             <linkedMain/>
             <durationType>half</durationType>
-            <Spanner type="Slur">
-              <Slur>
-                <linkedMain/>
-                <SlurSegment no="0">
-                  <o1 x="0" y="0.6"/>
-                  </SlurSegment>
-                </Slur>
-              <next>
-                <location>
-                  <fractions>5/8</fractions>
-                  </location>
-                </next>
-              </Spanner>
             <StemDirection>up</StemDirection>
             <Note>
               <linkedMain/>
@@ -134768,6 +134792,16 @@
           <Chord>
             <linkedMain/>
             <durationType>eighth</durationType>
+            <Spanner type="Slur">
+              <Slur>
+                <linkedMain/>
+                </Slur>
+              <next>
+                <location>
+                  <fractions>1/8</fractions>
+                  </location>
+                </next>
+              </Spanner>
             <Note>
               <linkedMain/>
               <Spanner type="Tie">
@@ -134787,7 +134821,7 @@
             <Spanner type="Slur">
               <prev>
                 <location>
-                  <fractions>-5/8</fractions>
+                  <fractions>-1/8</fractions>
                   </location>
                 </prev>
               </Spanner>
@@ -134922,19 +134956,6 @@
           <Chord>
             <linkedMain/>
             <durationType>half</durationType>
-            <Spanner type="Slur">
-              <Slur>
-                <linkedMain/>
-                <SlurSegment no="0">
-                  <o1 x="0" y="0.6"/>
-                  </SlurSegment>
-                </Slur>
-              <next>
-                <location>
-                  <fractions>5/8</fractions>
-                  </location>
-                </next>
-              </Spanner>
             <StemDirection>up</StemDirection>
             <Note>
               <linkedMain/>
@@ -134955,6 +134976,16 @@
           <Chord>
             <linkedMain/>
             <durationType>eighth</durationType>
+            <Spanner type="Slur">
+              <Slur>
+                <linkedMain/>
+                </Slur>
+              <next>
+                <location>
+                  <fractions>1/8</fractions>
+                  </location>
+                </next>
+              </Spanner>
             <Note>
               <linkedMain/>
               <Spanner type="Tie">
@@ -134974,7 +135005,7 @@
             <Spanner type="Slur">
               <prev>
                 <location>
-                  <fractions>-5/8</fractions>
+                  <fractions>-1/8</fractions>
                   </location>
                 </prev>
               </Spanner>
@@ -139118,21 +139149,6 @@
           <Chord>
             <linkedMain/>
             <durationType>half</durationType>
-            <Spanner type="Slur">
-              <Slur>
-                <linkedMain/>
-                <SlurSegment no="0">
-                  <o2 x="-1.06817e-17" y="-0.3"/>
-                  <o3 x="-1.06817e-17" y="-0.3"/>
-                  <offset x="0.276009" y="-0.414013"/>
-                  </SlurSegment>
-                </Slur>
-              <next>
-                <location>
-                  <fractions>5/8</fractions>
-                  </location>
-                </next>
-              </Spanner>
             <Note>
               <linkedMain/>
               <Spanner type="Tie">
@@ -139152,6 +139168,22 @@
           <Chord>
             <linkedMain/>
             <durationType>eighth</durationType>
+            <Spanner type="Slur">
+              <Slur>
+                <linkedMain/>
+                <SlurSegment no="0">
+                  <o1 x="0" y="-0.725714"/>
+                  <o2 x="-1.06817e-17" y="-0.3"/>
+                  <o3 x="-1.06817e-17" y="-0.3"/>
+                  <offset x="0.276009" y="-0.414013"/>
+                  </SlurSegment>
+                </Slur>
+              <next>
+                <location>
+                  <fractions>1/8</fractions>
+                  </location>
+                </next>
+              </Spanner>
             <Note>
               <linkedMain/>
               <Spanner type="Tie">
@@ -139171,7 +139203,7 @@
             <Spanner type="Slur">
               <prev>
                 <location>
-                  <fractions>-5/8</fractions>
+                  <fractions>-1/8</fractions>
                   </location>
                 </prev>
               </Spanner>
@@ -139262,16 +139294,6 @@
           <Chord>
             <linkedMain/>
             <durationType>half</durationType>
-            <Spanner type="Slur">
-              <Slur>
-                <linkedMain/>
-                </Slur>
-              <next>
-                <location>
-                  <fractions>5/8</fractions>
-                  </location>
-                </next>
-              </Spanner>
             <Note>
               <linkedMain/>
               <Accidental>
@@ -139294,6 +139316,16 @@
           <Chord>
             <linkedMain/>
             <durationType>eighth</durationType>
+            <Spanner type="Slur">
+              <Slur>
+                <linkedMain/>
+                </Slur>
+              <next>
+                <location>
+                  <fractions>1/8</fractions>
+                  </location>
+                </next>
+              </Spanner>
             <Note>
               <linkedMain/>
               <Spanner type="Tie">
@@ -139313,7 +139345,7 @@
             <Spanner type="Slur">
               <prev>
                 <location>
-                  <fractions>-5/8</fractions>
+                  <fractions>-1/8</fractions>
                   </location>
                 </prev>
               </Spanner>
@@ -139542,16 +139574,6 @@
           <Chord>
             <linkedMain/>
             <durationType>half</durationType>
-            <Spanner type="Slur">
-              <Slur>
-                <linkedMain/>
-                </Slur>
-              <next>
-                <location>
-                  <fractions>5/8</fractions>
-                  </location>
-                </next>
-              </Spanner>
             <Note>
               <linkedMain/>
               <Spanner type="Tie">
@@ -139571,6 +139593,16 @@
           <Chord>
             <linkedMain/>
             <durationType>eighth</durationType>
+            <Spanner type="Slur">
+              <Slur>
+                <linkedMain/>
+                </Slur>
+              <next>
+                <location>
+                  <fractions>1/8</fractions>
+                  </location>
+                </next>
+              </Spanner>
             <Note>
               <linkedMain/>
               <Spanner type="Tie">
@@ -139590,7 +139622,7 @@
             <Spanner type="Slur">
               <prev>
                 <location>
-                  <fractions>-5/8</fractions>
+                  <fractions>-1/8</fractions>
                   </location>
                 </prev>
               </Spanner>
@@ -139672,16 +139704,6 @@
           <Chord>
             <linkedMain/>
             <durationType>half</durationType>
-            <Spanner type="Slur">
-              <Slur>
-                <linkedMain/>
-                </Slur>
-              <next>
-                <location>
-                  <fractions>5/8</fractions>
-                  </location>
-                </next>
-              </Spanner>
             <Note>
               <linkedMain/>
               <Spanner type="Tie">
@@ -139701,6 +139723,16 @@
           <Chord>
             <linkedMain/>
             <durationType>eighth</durationType>
+            <Spanner type="Slur">
+              <Slur>
+                <linkedMain/>
+                </Slur>
+              <next>
+                <location>
+                  <fractions>1/8</fractions>
+                  </location>
+                </next>
+              </Spanner>
             <Note>
               <linkedMain/>
               <Spanner type="Tie">
@@ -139720,7 +139752,7 @@
             <Spanner type="Slur">
               <prev>
                 <location>
-                  <fractions>-5/8</fractions>
+                  <fractions>-1/8</fractions>
                   </location>
                 </prev>
               </Spanner>
@@ -141833,19 +141865,7 @@
           <Chord>
             <linkedMain/>
             <durationType>half</durationType>
-            <Spanner type="Slur">
-              <Slur>
-                <linkedMain/>
-                <SlurSegment no="0">
-                  <o1 x="0" y="-1"/>
-                  </SlurSegment>
-                </Slur>
-              <next>
-                <location>
-                  <fractions>5/8</fractions>
-                  </location>
-                </next>
-              </Spanner>
+            <StemDirection>up</StemDirection>
             <Note>
               <linkedMain/>
               <Spanner type="Tie">
@@ -141865,6 +141885,16 @@
           <Chord>
             <linkedMain/>
             <durationType>eighth</durationType>
+            <Spanner type="Slur">
+              <Slur>
+                <linkedMain/>
+                </Slur>
+              <next>
+                <location>
+                  <fractions>1/8</fractions>
+                  </location>
+                </next>
+              </Spanner>
             <Note>
               <linkedMain/>
               <Spanner type="Tie">
@@ -141884,7 +141914,7 @@
             <Spanner type="Slur">
               <prev>
                 <location>
-                  <fractions>-5/8</fractions>
+                  <fractions>-1/8</fractions>
                   </location>
                 </prev>
               </Spanner>
@@ -142011,19 +142041,7 @@
           <Chord>
             <linkedMain/>
             <durationType>half</durationType>
-            <Spanner type="Slur">
-              <Slur>
-                <linkedMain/>
-                <SlurSegment no="0">
-                  <o1 x="0" y="-1"/>
-                  </SlurSegment>
-                </Slur>
-              <next>
-                <location>
-                  <fractions>5/8</fractions>
-                  </location>
-                </next>
-              </Spanner>
+            <StemDirection>up</StemDirection>
             <Note>
               <linkedMain/>
               <Spanner type="Tie">
@@ -142043,6 +142061,19 @@
           <Chord>
             <linkedMain/>
             <durationType>eighth</durationType>
+            <Spanner type="Slur">
+              <Slur>
+                <linkedMain/>
+                <SlurSegment no="0">
+                  <o1 x="0" y="1.08857"/>
+                  </SlurSegment>
+                </Slur>
+              <next>
+                <location>
+                  <fractions>1/8</fractions>
+                  </location>
+                </next>
+              </Spanner>
             <Note>
               <linkedMain/>
               <Spanner type="Tie">
@@ -142062,7 +142093,7 @@
             <Spanner type="Slur">
               <prev>
                 <location>
-                  <fractions>-5/8</fractions>
+                  <fractions>-1/8</fractions>
                   </location>
                 </prev>
               </Spanner>
@@ -160867,6 +160898,7 @@
             <Spanner type="Slur">
               <Slur>
                 <linkedMain/>
+                <up>down</up>
                 </Slur>
               <next>
                 <location>
@@ -162131,6 +162163,9 @@
         </Measure>
       <Measure>
         <voice>
+          <Beam>
+            <StemDirection>down</StemDirection>
+            </Beam>
           <Chord>
             <linkedMain/>
             <durationType>eighth</durationType>
@@ -163005,6 +163040,12 @@
               <tpc>17</tpc>
               </Note>
             </Chord>
+          <Beam>
+            <Fragment>
+              <y1>2.34714</y1>
+              <y2>1.55714</y2>
+              </Fragment>
+            </Beam>
           <Chord>
             <linkedMain/>
             <durationType>eighth</durationType>
@@ -171441,6 +171482,7 @@
             <Spanner type="Slur">
               <Slur>
                 <linkedMain/>
+                <up>down</up>
                 </Slur>
               <next>
                 <location>
@@ -172307,6 +172349,7 @@
             <Spanner type="Slur">
               <Slur>
                 <linkedMain/>
+                <up>down</up>
                 </Slur>
               <next>
                 <location>
@@ -172561,6 +172604,7 @@
             <Spanner type="Slur">
               <Slur>
                 <linkedMain/>
+                <up>down</up>
                 </Slur>
               <next>
                 <location>
@@ -174067,6 +174111,7 @@
             <Spanner type="Slur">
               <Slur>
                 <linkedMain/>
+                <up>down</up>
                 </Slur>
               <next>
                 <location>
@@ -180437,6 +180482,7 @@
             <Spanner type="Slur">
               <Slur>
                 <linkedMain/>
+                <up>up</up>
                 </Slur>
               <next>
                 <location>
@@ -180505,6 +180551,7 @@
             <Spanner type="Slur">
               <Slur>
                 <linkedMain/>
+                <up>up</up>
                 </Slur>
               <next>
                 <location>
@@ -189204,16 +189251,6 @@
           <Chord>
             <linkedMain/>
             <durationType>half</durationType>
-            <Spanner type="Slur">
-              <Slur>
-                <linkedMain/>
-                </Slur>
-              <next>
-                <location>
-                  <fractions>5/8</fractions>
-                  </location>
-                </next>
-              </Spanner>
             <StemDirection>up</StemDirection>
             <Note>
               <linkedMain/>
@@ -189234,6 +189271,16 @@
           <Chord>
             <linkedMain/>
             <durationType>eighth</durationType>
+            <Spanner type="Slur">
+              <Slur>
+                <linkedMain/>
+                </Slur>
+              <next>
+                <location>
+                  <fractions>1/8</fractions>
+                  </location>
+                </next>
+              </Spanner>
             <Note>
               <linkedMain/>
               <Spanner type="Tie">
@@ -189253,7 +189300,7 @@
             <Spanner type="Slur">
               <prev>
                 <location>
-                  <fractions>-5/8</fractions>
+                  <fractions>-1/8</fractions>
                   </location>
                 </prev>
               </Spanner>
@@ -192670,6 +192717,7 @@
             <Spanner type="Slur">
               <Slur>
                 <linkedMain/>
+                <up>down</up>
                 </Slur>
               <next>
                 <location>
@@ -193305,6 +193353,7 @@
             <Spanner type="Slur">
               <Slur>
                 <linkedMain/>
+                <up>down</up>
                 </Slur>
               <next>
                 <location>
@@ -194101,22 +194150,6 @@
           <Chord>
             <linkedMain/>
             <durationType>half</durationType>
-            <Spanner type="Slur">
-              <Slur>
-                <linkedMain/>
-                <SlurSegment no="0">
-                  <o1 x="0" y="-0.3"/>
-                  <o2 x="0" y="-0.6"/>
-                  <o3 x="0" y="-0.6"/>
-                  <o4 x="0" y="-1"/>
-                  </SlurSegment>
-                </Slur>
-              <next>
-                <location>
-                  <fractions>5/8</fractions>
-                  </location>
-                </next>
-              </Spanner>
             <Note>
               <linkedMain/>
               <Spanner type="Tie">
@@ -194136,6 +194169,21 @@
           <Chord>
             <linkedMain/>
             <durationType>eighth</durationType>
+            <Spanner type="Slur">
+              <Slur>
+                <linkedMain/>
+                <SlurSegment no="0">
+                  <o2 x="0" y="-0.6"/>
+                  <o3 x="0" y="-0.6"/>
+                  <o4 x="0" y="-1"/>
+                  </SlurSegment>
+                </Slur>
+              <next>
+                <location>
+                  <fractions>1/8</fractions>
+                  </location>
+                </next>
+              </Spanner>
             <Note>
               <linkedMain/>
               <Spanner type="Tie">
@@ -194155,7 +194203,7 @@
             <Spanner type="Slur">
               <prev>
                 <location>
-                  <fractions>-5/8</fractions>
+                  <fractions>-1/8</fractions>
                   </location>
                 </prev>
               </Spanner>
@@ -194501,19 +194549,6 @@
           <Chord>
             <linkedMain/>
             <durationType>half</durationType>
-            <Spanner type="Slur">
-              <Slur>
-                <linkedMain/>
-                <SlurSegment no="0">
-                  <offset x="0" y="-0.5"/>
-                  </SlurSegment>
-                </Slur>
-              <next>
-                <location>
-                  <fractions>5/8</fractions>
-                  </location>
-                </next>
-              </Spanner>
             <Note>
               <linkedMain/>
               <Spanner type="Tie">
@@ -194533,6 +194568,19 @@
           <Chord>
             <linkedMain/>
             <durationType>eighth</durationType>
+            <Spanner type="Slur">
+              <Slur>
+                <linkedMain/>
+                <SlurSegment no="0">
+                  <offset x="0" y="-0.5"/>
+                  </SlurSegment>
+                </Slur>
+              <next>
+                <location>
+                  <fractions>1/8</fractions>
+                  </location>
+                </next>
+              </Spanner>
             <Note>
               <linkedMain/>
               <Spanner type="Tie">
@@ -194552,7 +194600,7 @@
             <Spanner type="Slur">
               <prev>
                 <location>
-                  <fractions>-5/8</fractions>
+                  <fractions>-1/8</fractions>
                   </location>
                 </prev>
               </Spanner>
@@ -195072,16 +195120,6 @@
           <Chord>
             <linkedMain/>
             <durationType>half</durationType>
-            <Spanner type="Slur">
-              <Slur>
-                <linkedMain/>
-                </Slur>
-              <next>
-                <location>
-                  <fractions>5/8</fractions>
-                  </location>
-                </next>
-              </Spanner>
             <Note>
               <linkedMain/>
               <Accidental>
@@ -195104,6 +195142,19 @@
           <Chord>
             <linkedMain/>
             <durationType>eighth</durationType>
+            <Spanner type="Slur">
+              <Slur>
+                <linkedMain/>
+                <SlurSegment no="0">
+                  <o1 x="-0.725714" y="0.362857"/>
+                  </SlurSegment>
+                </Slur>
+              <next>
+                <location>
+                  <fractions>1/8</fractions>
+                  </location>
+                </next>
+              </Spanner>
             <Note>
               <linkedMain/>
               <Spanner type="Tie">
@@ -195123,7 +195174,7 @@
             <Spanner type="Slur">
               <prev>
                 <location>
-                  <fractions>-5/8</fractions>
+                  <fractions>-1/8</fractions>
                   </location>
                 </prev>
               </Spanner>
@@ -195214,16 +195265,6 @@
           <Chord>
             <linkedMain/>
             <durationType>half</durationType>
-            <Spanner type="Slur">
-              <Slur>
-                <linkedMain/>
-                </Slur>
-              <next>
-                <location>
-                  <fractions>5/8</fractions>
-                  </location>
-                </next>
-              </Spanner>
             <Note>
               <linkedMain/>
               <Accidental>
@@ -195246,6 +195287,19 @@
           <Chord>
             <linkedMain/>
             <durationType>eighth</durationType>
+            <Spanner type="Slur">
+              <Slur>
+                <linkedMain/>
+                <SlurSegment no="0">
+                  <o1 x="0.725714" y="-0.362857"/>
+                  </SlurSegment>
+                </Slur>
+              <next>
+                <location>
+                  <fractions>1/8</fractions>
+                  </location>
+                </next>
+              </Spanner>
             <Note>
               <linkedMain/>
               <Spanner type="Tie">
@@ -195265,7 +195319,7 @@
             <Spanner type="Slur">
               <prev>
                 <location>
-                  <fractions>-5/8</fractions>
+                  <fractions>-1/8</fractions>
                   </location>
                 </prev>
               </Spanner>
@@ -195730,20 +195784,6 @@
           <Chord>
             <linkedMain/>
             <durationType>whole</durationType>
-            <Spanner type="Slur">
-              <Slur>
-                <linkedMain/>
-                <SlurSegment no="0">
-                  <o1 x="0" y="1.48408"/>
-                  </SlurSegment>
-                </Slur>
-              <next>
-                <location>
-                  <measures>1</measures>
-                  <fractions>1/8</fractions>
-                  </location>
-                </next>
-              </Spanner>
             <Note>
               <linkedMain/>
               <Spanner type="Tie">
@@ -195767,6 +195807,19 @@
           <Chord>
             <linkedMain/>
             <durationType>eighth</durationType>
+            <Spanner type="Slur">
+              <Slur>
+                <linkedMain/>
+                <SlurSegment no="0">
+                  <o1 x="0.362857" y="-0.725714"/>
+                  </SlurSegment>
+                </Slur>
+              <next>
+                <location>
+                  <fractions>1/8</fractions>
+                  </location>
+                </next>
+              </Spanner>
             <Note>
               <linkedMain/>
               <Spanner type="Tie">
@@ -195786,7 +195839,6 @@
             <Spanner type="Slur">
               <prev>
                 <location>
-                  <measures>-1</measures>
                   <fractions>-1/8</fractions>
                   </location>
                 </prev>
@@ -198507,6 +198559,7 @@
             <Spanner type="Slur">
               <Slur>
                 <linkedMain/>
+                <up>down</up>
                 </Slur>
               <next>
                 <location>
@@ -198652,6 +198705,7 @@
             <Spanner type="Slur">
               <Slur>
                 <linkedMain/>
+                <up>down</up>
                 </Slur>
               <next>
                 <location>
@@ -199951,6 +200005,7 @@
             <Spanner type="Slur">
               <Slur>
                 <linkedMain/>
+                <up>down</up>
                 </Slur>
               <next>
                 <location>
@@ -200561,7 +200616,7 @@
                 </Slur>
               <next>
                 <location>
-                  <measures>2</measures>
+                  <measures>1</measures>
                   </location>
                 </next>
               </Spanner>
@@ -200578,6 +200633,23 @@
           <Chord>
             <linkedMain/>
             <durationType>whole</durationType>
+            <Spanner type="Slur">
+              <prev>
+                <location>
+                  <measures>-1</measures>
+                  </location>
+                </prev>
+              </Spanner>
+            <Spanner type="Slur">
+              <Slur>
+                <linkedMain/>
+                </Slur>
+              <next>
+                <location>
+                  <measures>1</measures>
+                  </location>
+                </next>
+              </Spanner>
             <Note>
               <linkedMain/>
               <pitch>43</pitch>
@@ -200594,7 +200666,7 @@
             <Spanner type="Slur">
               <prev>
                 <location>
-                  <measures>-2</measures>
+                  <measures>-1</measures>
                   </location>
                 </prev>
               </Spanner>
@@ -215071,6 +215143,12 @@
         </Measure>
       <Measure>
         <voice>
+          <Beam>
+            <Fragment>
+              <y1>2.64857</y1>
+              <y2>2.69714</y2>
+              </Fragment>
+            </Beam>
           <Chord>
             <linkedMain/>
             <durationType>eighth</durationType>
@@ -221921,6 +221999,7 @@
             <Spanner type="Slur">
               <Slur>
                 <linkedMain/>
+                <up>down</up>
                 </Slur>
               <next>
                 <location>
@@ -222847,6 +222926,7 @@
             <Spanner type="Slur">
               <Slur>
                 <linkedMain/>
+                <up>down</up>
                 </Slur>
               <next>
                 <location>
@@ -222855,6 +222935,7 @@
                   </location>
                 </next>
               </Spanner>
+            <StemDirection>up</StemDirection>
             <Note>
               <linkedMain/>
               <pitch>49</pitch>
@@ -222985,6 +223066,7 @@
             <Spanner type="Slur">
               <Slur>
                 <linkedMain/>
+                <up>down</up>
                 </Slur>
               <next>
                 <location>
@@ -223974,17 +224056,7 @@
             <Spanner type="Slur">
               <Slur>
                 <linkedMain/>
-                </Slur>
-              <next>
-                <location>
-                  <measures>1</measures>
-                  <fractions>1/4</fractions>
-                  </location>
-                </next>
-              </Spanner>
-            <Spanner type="Slur">
-              <Slur>
-                <linkedMain/>
+                <up>down</up>
                 </Slur>
               <next>
                 <location>
@@ -224059,14 +224131,6 @@
           <Chord>
             <linkedMain/>
             <durationType>eighth</durationType>
-            <Spanner type="Slur">
-              <prev>
-                <location>
-                  <measures>-1</measures>
-                  <fractions>-1/4</fractions>
-                  </location>
-                </prev>
-              </Spanner>
             <Spanner type="Slur">
               <prev>
                 <location>
@@ -232206,6 +232270,7 @@
             <Spanner type="Slur">
               <Slur>
                 <linkedMain/>
+                <up>up</up>
                 </Slur>
               <next>
                 <location>
@@ -238161,17 +238226,6 @@
               <linked>
                 </linked>
               <durationType>half</durationType>
-              <Spanner type="Slur">
-                <Slur>
-                  <linked>
-                    </linked>
-                  </Slur>
-                <next>
-                  <location>
-                    <fractions>5/8</fractions>
-                    </location>
-                  </next>
-                </Spanner>
               <Note>
                 <linked>
                   </linked>
@@ -238194,6 +238248,17 @@
               <linked>
                 </linked>
               <durationType>eighth</durationType>
+              <Spanner type="Slur">
+                <Slur>
+                  <linked>
+                    </linked>
+                  </Slur>
+                <next>
+                  <location>
+                    <fractions>1/8</fractions>
+                    </location>
+                  </next>
+                </Spanner>
               <Note>
                 <linked>
                   </linked>
@@ -238215,7 +238280,7 @@
               <Spanner type="Slur">
                 <prev>
                   <location>
-                    <fractions>-5/8</fractions>
+                    <fractions>-1/8</fractions>
                     </location>
                   </prev>
                 </Spanner>
@@ -238321,17 +238386,6 @@
               <linked>
                 </linked>
               <durationType>half</durationType>
-              <Spanner type="Slur">
-                <Slur>
-                  <linked>
-                    </linked>
-                  </Slur>
-                <next>
-                  <location>
-                    <fractions>5/8</fractions>
-                    </location>
-                  </next>
-                </Spanner>
               <Note>
                 <linked>
                   </linked>
@@ -238354,6 +238408,17 @@
               <linked>
                 </linked>
               <durationType>eighth</durationType>
+              <Spanner type="Slur">
+                <Slur>
+                  <linked>
+                    </linked>
+                  </Slur>
+                <next>
+                  <location>
+                    <fractions>1/8</fractions>
+                    </location>
+                  </next>
+                </Spanner>
               <Note>
                 <linked>
                   </linked>
@@ -238375,7 +238440,7 @@
               <Spanner type="Slur">
                 <prev>
                   <location>
-                    <fractions>-5/8</fractions>
+                    <fractions>-1/8</fractions>
                     </location>
                   </prev>
                 </Spanner>
@@ -239668,17 +239733,6 @@
               <linked>
                 </linked>
               <durationType>half</durationType>
-              <Spanner type="Slur">
-                <Slur>
-                  <linked>
-                    </linked>
-                  </Slur>
-                <next>
-                  <location>
-                    <fractions>5/8</fractions>
-                    </location>
-                  </next>
-                </Spanner>
               <Note>
                 <linked>
                   </linked>
@@ -239701,6 +239755,17 @@
               <linked>
                 </linked>
               <durationType>eighth</durationType>
+              <Spanner type="Slur">
+                <Slur>
+                  <linked>
+                    </linked>
+                  </Slur>
+                <next>
+                  <location>
+                    <fractions>1/8</fractions>
+                    </location>
+                  </next>
+                </Spanner>
               <Note>
                 <linked>
                   </linked>
@@ -239722,7 +239787,7 @@
               <Spanner type="Slur">
                 <prev>
                   <location>
-                    <fractions>-5/8</fractions>
+                    <fractions>-1/8</fractions>
                     </location>
                   </prev>
                 </Spanner>
@@ -239840,17 +239905,6 @@
               <linked>
                 </linked>
               <durationType>half</durationType>
-              <Spanner type="Slur">
-                <Slur>
-                  <linked>
-                    </linked>
-                  </Slur>
-                <next>
-                  <location>
-                    <fractions>5/8</fractions>
-                    </location>
-                  </next>
-                </Spanner>
               <Note>
                 <linked>
                   </linked>
@@ -239873,6 +239927,17 @@
               <linked>
                 </linked>
               <durationType>eighth</durationType>
+              <Spanner type="Slur">
+                <Slur>
+                  <linked>
+                    </linked>
+                  </Slur>
+                <next>
+                  <location>
+                    <fractions>1/8</fractions>
+                    </location>
+                  </next>
+                </Spanner>
               <Note>
                 <linked>
                   </linked>
@@ -239894,7 +239959,7 @@
               <Spanner type="Slur">
                 <prev>
                   <location>
-                    <fractions>-5/8</fractions>
+                    <fractions>-1/8</fractions>
                     </location>
                   </prev>
                 </Spanner>
@@ -240043,17 +240108,6 @@
               <linked>
                 </linked>
               <durationType>half</durationType>
-              <Spanner type="Slur">
-                <Slur>
-                  <linked>
-                    </linked>
-                  </Slur>
-                <next>
-                  <location>
-                    <fractions>5/8</fractions>
-                    </location>
-                  </next>
-                </Spanner>
               <Note>
                 <linked>
                   </linked>
@@ -240076,6 +240130,17 @@
               <linked>
                 </linked>
               <durationType>eighth</durationType>
+              <Spanner type="Slur">
+                <Slur>
+                  <linked>
+                    </linked>
+                  </Slur>
+                <next>
+                  <location>
+                    <fractions>1/8</fractions>
+                    </location>
+                  </next>
+                </Spanner>
               <Note>
                 <linked>
                   </linked>
@@ -240097,7 +240162,7 @@
               <Spanner type="Slur">
                 <prev>
                   <location>
-                    <fractions>-5/8</fractions>
+                    <fractions>-1/8</fractions>
                     </location>
                   </prev>
                 </Spanner>
@@ -240229,17 +240294,6 @@
               <linked>
                 </linked>
               <durationType>half</durationType>
-              <Spanner type="Slur">
-                <Slur>
-                  <linked>
-                    </linked>
-                  </Slur>
-                <next>
-                  <location>
-                    <fractions>5/8</fractions>
-                    </location>
-                  </next>
-                </Spanner>
               <Note>
                 <linked>
                   </linked>
@@ -240262,6 +240316,17 @@
               <linked>
                 </linked>
               <durationType>eighth</durationType>
+              <Spanner type="Slur">
+                <Slur>
+                  <linked>
+                    </linked>
+                  </Slur>
+                <next>
+                  <location>
+                    <fractions>1/8</fractions>
+                    </location>
+                  </next>
+                </Spanner>
               <Note>
                 <linked>
                   </linked>
@@ -240283,7 +240348,7 @@
               <Spanner type="Slur">
                 <prev>
                   <location>
-                    <fractions>-5/8</fractions>
+                    <fractions>-1/8</fractions>
                     </location>
                   </prev>
                 </Spanner>
@@ -240415,17 +240480,6 @@
               <linked>
                 </linked>
               <durationType>half</durationType>
-              <Spanner type="Slur">
-                <Slur>
-                  <linked>
-                    </linked>
-                  </Slur>
-                <next>
-                  <location>
-                    <fractions>5/8</fractions>
-                    </location>
-                  </next>
-                </Spanner>
               <Note>
                 <linked>
                   </linked>
@@ -240448,6 +240502,17 @@
               <linked>
                 </linked>
               <durationType>eighth</durationType>
+              <Spanner type="Slur">
+                <Slur>
+                  <linked>
+                    </linked>
+                  </Slur>
+                <next>
+                  <location>
+                    <fractions>1/8</fractions>
+                    </location>
+                  </next>
+                </Spanner>
               <Note>
                 <linked>
                   </linked>
@@ -240469,7 +240534,7 @@
               <Spanner type="Slur">
                 <prev>
                   <location>
-                    <fractions>-5/8</fractions>
+                    <fractions>-1/8</fractions>
                     </location>
                   </prev>
                 </Spanner>
@@ -245489,18 +245554,6 @@
               <linked>
                 </linked>
               <durationType>half</durationType>
-              <Spanner type="Slur">
-                <Slur>
-                  <linked>
-                    </linked>
-                  </Slur>
-                <next>
-                  <location>
-                    <measures>1</measures>
-                    <fractions>1/4</fractions>
-                    </location>
-                  </next>
-                </Spanner>
               <Note>
                 <linked>
                   </linked>
@@ -245531,6 +245584,17 @@
               <linked>
                 </linked>
               <durationType>quarter</durationType>
+              <Spanner type="Slur">
+                <Slur>
+                  <linked>
+                    </linked>
+                  </Slur>
+                <next>
+                  <location>
+                    <fractions>3/4</fractions>
+                    </location>
+                  </next>
+                </Spanner>
               <Note>
                 <linked>
                   </linked>
@@ -245575,8 +245639,7 @@
               <Spanner type="Slur">
                 <prev>
                   <location>
-                    <measures>-1</measures>
-                    <fractions>-1/4</fractions>
+                    <fractions>-3/4</fractions>
                     </location>
                   </prev>
                 </Spanner>
@@ -248037,17 +248100,6 @@
               <linked>
                 </linked>
               <durationType>half</durationType>
-              <Spanner type="Slur">
-                <Slur>
-                  <linked>
-                    </linked>
-                  </Slur>
-                <next>
-                  <location>
-                    <fractions>5/8</fractions>
-                    </location>
-                  </next>
-                </Spanner>
               <Note>
                 <linked>
                   </linked>
@@ -248070,6 +248122,17 @@
               <linked>
                 </linked>
               <durationType>eighth</durationType>
+              <Spanner type="Slur">
+                <Slur>
+                  <linked>
+                    </linked>
+                  </Slur>
+                <next>
+                  <location>
+                    <fractions>1/8</fractions>
+                    </location>
+                  </next>
+                </Spanner>
               <Note>
                 <linked>
                   </linked>
@@ -248091,7 +248154,7 @@
               <Spanner type="Slur">
                 <prev>
                   <location>
-                    <fractions>-5/8</fractions>
+                    <fractions>-1/8</fractions>
                     </location>
                   </prev>
                 </Spanner>
@@ -248191,17 +248254,6 @@
               <linked>
                 </linked>
               <durationType>half</durationType>
-              <Spanner type="Slur">
-                <Slur>
-                  <linked>
-                    </linked>
-                  </Slur>
-                <next>
-                  <location>
-                    <fractions>5/8</fractions>
-                    </location>
-                  </next>
-                </Spanner>
               <Note>
                 <linked>
                   </linked>
@@ -248224,6 +248276,17 @@
               <linked>
                 </linked>
               <durationType>eighth</durationType>
+              <Spanner type="Slur">
+                <Slur>
+                  <linked>
+                    </linked>
+                  </Slur>
+                <next>
+                  <location>
+                    <fractions>1/8</fractions>
+                    </location>
+                  </next>
+                </Spanner>
               <Note>
                 <linked>
                   </linked>
@@ -248245,7 +248308,7 @@
               <Spanner type="Slur">
                 <prev>
                   <location>
-                    <fractions>-5/8</fractions>
+                    <fractions>-1/8</fractions>
                     </location>
                   </prev>
                 </Spanner>
@@ -249010,17 +249073,6 @@
               <linked>
                 </linked>
               <durationType>half</durationType>
-              <Spanner type="Slur">
-                <Slur>
-                  <linked>
-                    </linked>
-                  </Slur>
-                <next>
-                  <location>
-                    <fractions>5/8</fractions>
-                    </location>
-                  </next>
-                </Spanner>
               <Note>
                 <linked>
                   </linked>
@@ -249043,6 +249095,17 @@
               <linked>
                 </linked>
               <durationType>eighth</durationType>
+              <Spanner type="Slur">
+                <Slur>
+                  <linked>
+                    </linked>
+                  </Slur>
+                <next>
+                  <location>
+                    <fractions>1/8</fractions>
+                    </location>
+                  </next>
+                </Spanner>
               <Note>
                 <linked>
                   </linked>
@@ -249064,7 +249127,7 @@
               <Spanner type="Slur">
                 <prev>
                   <location>
-                    <fractions>-5/8</fractions>
+                    <fractions>-1/8</fractions>
                     </location>
                   </prev>
                 </Spanner>
@@ -249161,17 +249224,6 @@
               <linked>
                 </linked>
               <durationType>half</durationType>
-              <Spanner type="Slur">
-                <Slur>
-                  <linked>
-                    </linked>
-                  </Slur>
-                <next>
-                  <location>
-                    <fractions>5/8</fractions>
-                    </location>
-                  </next>
-                </Spanner>
               <Note>
                 <linked>
                   </linked>
@@ -249194,6 +249246,17 @@
               <linked>
                 </linked>
               <durationType>eighth</durationType>
+              <Spanner type="Slur">
+                <Slur>
+                  <linked>
+                    </linked>
+                  </Slur>
+                <next>
+                  <location>
+                    <fractions>1/8</fractions>
+                    </location>
+                  </next>
+                </Spanner>
               <Note>
                 <linked>
                   </linked>
@@ -249215,7 +249278,7 @@
               <Spanner type="Slur">
                 <prev>
                   <location>
-                    <fractions>-5/8</fractions>
+                    <fractions>-1/8</fractions>
                     </location>
                   </prev>
                 </Spanner>
@@ -253967,17 +254030,6 @@
               <linked>
                 </linked>
               <durationType>half</durationType>
-              <Spanner type="Slur">
-                <Slur>
-                  <linked>
-                    </linked>
-                  </Slur>
-                <next>
-                  <location>
-                    <fractions>5/8</fractions>
-                    </location>
-                  </next>
-                </Spanner>
               <Note>
                 <linked>
                   </linked>
@@ -254000,6 +254052,17 @@
               <linked>
                 </linked>
               <durationType>eighth</durationType>
+              <Spanner type="Slur">
+                <Slur>
+                  <linked>
+                    </linked>
+                  </Slur>
+                <next>
+                  <location>
+                    <fractions>1/8</fractions>
+                    </location>
+                  </next>
+                </Spanner>
               <Note>
                 <linked>
                   </linked>
@@ -254021,7 +254084,7 @@
               <Spanner type="Slur">
                 <prev>
                   <location>
-                    <fractions>-5/8</fractions>
+                    <fractions>-1/8</fractions>
                     </location>
                   </prev>
                 </Spanner>
@@ -254139,17 +254202,6 @@
               <linked>
                 </linked>
               <durationType>half</durationType>
-              <Spanner type="Slur">
-                <Slur>
-                  <linked>
-                    </linked>
-                  </Slur>
-                <next>
-                  <location>
-                    <fractions>5/8</fractions>
-                    </location>
-                  </next>
-                </Spanner>
               <Note>
                 <linked>
                   </linked>
@@ -254172,6 +254224,17 @@
               <linked>
                 </linked>
               <durationType>eighth</durationType>
+              <Spanner type="Slur">
+                <Slur>
+                  <linked>
+                    </linked>
+                  </Slur>
+                <next>
+                  <location>
+                    <fractions>1/8</fractions>
+                    </location>
+                  </next>
+                </Spanner>
               <Note>
                 <linked>
                   </linked>
@@ -254193,7 +254256,7 @@
               <Spanner type="Slur">
                 <prev>
                   <location>
-                    <fractions>-5/8</fractions>
+                    <fractions>-1/8</fractions>
                     </location>
                   </prev>
                 </Spanner>
@@ -254337,17 +254400,6 @@
               <linked>
                 </linked>
               <durationType>half</durationType>
-              <Spanner type="Slur">
-                <Slur>
-                  <linked>
-                    </linked>
-                  </Slur>
-                <next>
-                  <location>
-                    <fractions>5/8</fractions>
-                    </location>
-                  </next>
-                </Spanner>
               <Note>
                 <linked>
                   </linked>
@@ -254370,6 +254422,17 @@
               <linked>
                 </linked>
               <durationType>eighth</durationType>
+              <Spanner type="Slur">
+                <Slur>
+                  <linked>
+                    </linked>
+                  </Slur>
+                <next>
+                  <location>
+                    <fractions>1/8</fractions>
+                    </location>
+                  </next>
+                </Spanner>
               <Note>
                 <linked>
                   </linked>
@@ -254391,7 +254454,7 @@
               <Spanner type="Slur">
                 <prev>
                   <location>
-                    <fractions>-5/8</fractions>
+                    <fractions>-1/8</fractions>
                     </location>
                   </prev>
                 </Spanner>
@@ -254515,17 +254578,6 @@
               <linked>
                 </linked>
               <durationType>half</durationType>
-              <Spanner type="Slur">
-                <Slur>
-                  <linked>
-                    </linked>
-                  </Slur>
-                <next>
-                  <location>
-                    <fractions>5/8</fractions>
-                    </location>
-                  </next>
-                </Spanner>
               <Note>
                 <linked>
                   </linked>
@@ -254548,6 +254600,17 @@
               <linked>
                 </linked>
               <durationType>eighth</durationType>
+              <Spanner type="Slur">
+                <Slur>
+                  <linked>
+                    </linked>
+                  </Slur>
+                <next>
+                  <location>
+                    <fractions>1/8</fractions>
+                    </location>
+                  </next>
+                </Spanner>
               <Note>
                 <linked>
                   </linked>
@@ -254569,7 +254632,7 @@
               <Spanner type="Slur">
                 <prev>
                   <location>
-                    <fractions>-5/8</fractions>
+                    <fractions>-1/8</fractions>
                     </location>
                   </prev>
                 </Spanner>
@@ -260967,18 +261030,6 @@
               <linked>
                 </linked>
               <durationType>whole</durationType>
-              <Spanner type="Slur">
-                <Slur>
-                  <linked>
-                    </linked>
-                  </Slur>
-                <next>
-                  <location>
-                    <measures>1</measures>
-                    <fractions>3/4</fractions>
-                    </location>
-                  </next>
-                </Spanner>
               <Note>
                 <linked>
                   </linked>
@@ -261027,6 +261078,17 @@
               <linked>
                 </linked>
               <durationType>half</durationType>
+              <Spanner type="Slur">
+                <Slur>
+                  <linked>
+                    </linked>
+                  </Slur>
+                <next>
+                  <location>
+                    <fractions>3/4</fractions>
+                    </location>
+                  </next>
+                </Spanner>
               <Note>
                 <linked>
                   </linked>
@@ -261059,7 +261121,6 @@
               <Spanner type="Slur">
                 <prev>
                   <location>
-                    <measures>-1</measures>
                     <fractions>-3/4</fractions>
                     </location>
                   </prev>
@@ -280860,18 +280921,6 @@
                 </linked>
               <dots>1</dots>
               <durationType>half</durationType>
-              <Spanner type="Slur">
-                <Slur>
-                  <linked>
-                    </linked>
-                  </Slur>
-                <next>
-                  <location>
-                    <measures>1</measures>
-                    <fractions>1/2</fractions>
-                    </location>
-                  </next>
-                </Spanner>
               <Note>
                 <linked>
                   </linked>
@@ -280898,6 +280947,17 @@
               <linked>
                 </linked>
               <durationType>half</durationType>
+              <Spanner type="Slur">
+                <Slur>
+                  <linked>
+                    </linked>
+                  </Slur>
+                <next>
+                  <location>
+                    <fractions>1/2</fractions>
+                    </location>
+                  </next>
+                </Spanner>
               <Note>
                 <linked>
                   </linked>
@@ -280919,7 +280979,6 @@
               <Spanner type="Slur">
                 <prev>
                   <location>
-                    <measures>-1</measures>
                     <fractions>-1/2</fractions>
                     </location>
                   </prev>
@@ -280943,18 +281002,6 @@
                 </linked>
               <dots>1</dots>
               <durationType>half</durationType>
-              <Spanner type="Slur">
-                <Slur>
-                  <linked>
-                    </linked>
-                  </Slur>
-                <next>
-                  <location>
-                    <measures>1</measures>
-                    <fractions>1/2</fractions>
-                    </location>
-                  </next>
-                </Spanner>
               <Note>
                 <linked>
                   </linked>
@@ -280981,6 +281028,17 @@
               <linked>
                 </linked>
               <durationType>half</durationType>
+              <Spanner type="Slur">
+                <Slur>
+                  <linked>
+                    </linked>
+                  </Slur>
+                <next>
+                  <location>
+                    <fractions>1/2</fractions>
+                    </location>
+                  </next>
+                </Spanner>
               <Note>
                 <linked>
                   </linked>
@@ -281002,7 +281060,6 @@
               <Spanner type="Slur">
                 <prev>
                   <location>
-                    <measures>-1</measures>
                     <fractions>-1/2</fractions>
                     </location>
                   </prev>
@@ -281033,18 +281090,6 @@
                 </linked>
               <dots>1</dots>
               <durationType>half</durationType>
-              <Spanner type="Slur">
-                <Slur>
-                  <linked>
-                    </linked>
-                  </Slur>
-                <next>
-                  <location>
-                    <measures>1</measures>
-                    <fractions>1/2</fractions>
-                    </location>
-                  </next>
-                </Spanner>
               <Note>
                 <linked>
                   </linked>
@@ -281071,6 +281116,17 @@
               <linked>
                 </linked>
               <durationType>half</durationType>
+              <Spanner type="Slur">
+                <Slur>
+                  <linked>
+                    </linked>
+                  </Slur>
+                <next>
+                  <location>
+                    <fractions>1/2</fractions>
+                    </location>
+                  </next>
+                </Spanner>
               <Note>
                 <linked>
                   </linked>
@@ -281092,7 +281148,6 @@
               <Spanner type="Slur">
                 <prev>
                   <location>
-                    <measures>-1</measures>
                     <fractions>-1/2</fractions>
                     </location>
                   </prev>
@@ -281116,18 +281171,6 @@
                 </linked>
               <dots>1</dots>
               <durationType>half</durationType>
-              <Spanner type="Slur">
-                <Slur>
-                  <linked>
-                    </linked>
-                  </Slur>
-                <next>
-                  <location>
-                    <measures>1</measures>
-                    <fractions>1/2</fractions>
-                    </location>
-                  </next>
-                </Spanner>
               <Note>
                 <linked>
                   </linked>
@@ -281168,6 +281211,17 @@
               <linked>
                 </linked>
               <durationType>half</durationType>
+              <Spanner type="Slur">
+                <Slur>
+                  <linked>
+                    </linked>
+                  </Slur>
+                <next>
+                  <location>
+                    <fractions>1/2</fractions>
+                    </location>
+                  </next>
+                </Spanner>
               <Note>
                 <linked>
                   </linked>
@@ -281189,7 +281243,6 @@
               <Spanner type="Slur">
                 <prev>
                   <location>
-                    <measures>-1</measures>
                     <fractions>-1/2</fractions>
                     </location>
                   </prev>
@@ -285260,6 +285313,14 @@
         <Measure>
           <voice>
             <Spanner type="HairPin">
+              <prev>
+                <location>
+                  <measures>-1</measures>
+                  <fractions>5/16</fractions>
+                  </location>
+                </prev>
+              </Spanner>
+            <Spanner type="HairPin">
               <HairPin>
                 <subtype>1</subtype>
                 <linked>
@@ -285270,14 +285331,6 @@
                   <fractions>1/4</fractions>
                   </location>
                 </next>
-              </Spanner>
-            <Spanner type="HairPin">
-              <prev>
-                <location>
-                  <measures>-1</measures>
-                  <fractions>5/16</fractions>
-                  </location>
-                </prev>
               </Spanner>
             <Chord>
               <linked>
@@ -293547,14 +293600,6 @@
         <Measure>
           <voice>
             <Spanner type="HairPin">
-              <prev>
-                <location>
-                  <measures>-1</measures>
-                  <fractions>1/4</fractions>
-                  </location>
-                </prev>
-              </Spanner>
-            <Spanner type="HairPin">
               <HairPin>
                 <subtype>0</subtype>
                 <veloChange>24</veloChange>
@@ -293566,6 +293611,14 @@
                   <fractions>1/4</fractions>
                   </location>
                 </next>
+              </Spanner>
+            <Spanner type="HairPin">
+              <prev>
+                <location>
+                  <measures>-1</measures>
+                  <fractions>1/4</fractions>
+                  </location>
+                </prev>
               </Spanner>
             <Chord>
               <linked>
@@ -293638,6 +293691,13 @@
                 </Note>
               </Chord>
             <Spanner type="HairPin">
+              <prev>
+                <location>
+                  <fractions>-1/4</fractions>
+                  </location>
+                </prev>
+              </Spanner>
+            <Spanner type="HairPin">
               <HairPin>
                 <subtype>1</subtype>
                 <veloChange>24</veloChange>
@@ -293650,13 +293710,6 @@
                   <fractions>-1/4</fractions>
                   </location>
                 </next>
-              </Spanner>
-            <Spanner type="HairPin">
-              <prev>
-                <location>
-                  <fractions>-1/4</fractions>
-                  </location>
-                </prev>
               </Spanner>
             <Chord>
               <linked>
@@ -306105,17 +306158,6 @@
                 </linked>
               <dots>1</dots>
               <durationType>quarter</durationType>
-              <Spanner type="Slur">
-                <Slur>
-                  <linked>
-                    </linked>
-                  </Slur>
-                <next>
-                  <location>
-                    <fractions>3/8</fractions>
-                    </location>
-                  </next>
-                </Spanner>
               <Note>
                 <linked>
                   </linked>
@@ -306135,13 +306177,6 @@
                   <location>
                     <measures>-1</measures>
                     <fractions>-1/8</fractions>
-                    </location>
-                  </prev>
-                </Spanner>
-              <Spanner type="Slur">
-                <prev>
-                  <location>
-                    <fractions>-3/8</fractions>
                     </location>
                   </prev>
                 </Spanner>
@@ -321957,17 +321992,6 @@
               <linked>
                 </linked>
               <durationType>half</durationType>
-              <Spanner type="Slur">
-                <Slur>
-                  <linked>
-                    </linked>
-                  </Slur>
-                <next>
-                  <location>
-                    <fractions>5/8</fractions>
-                    </location>
-                  </next>
-                </Spanner>
               <Note>
                 <linked>
                   </linked>
@@ -321990,6 +322014,17 @@
               <linked>
                 </linked>
               <durationType>eighth</durationType>
+              <Spanner type="Slur">
+                <Slur>
+                  <linked>
+                    </linked>
+                  </Slur>
+                <next>
+                  <location>
+                    <fractions>1/8</fractions>
+                    </location>
+                  </next>
+                </Spanner>
               <Note>
                 <linked>
                   </linked>
@@ -322011,7 +322046,7 @@
               <Spanner type="Slur">
                 <prev>
                   <location>
-                    <fractions>-5/8</fractions>
+                    <fractions>-1/8</fractions>
                     </location>
                   </prev>
                 </Spanner>
@@ -327316,7 +327351,7 @@
                   </Slur>
                 <next>
                   <location>
-                    <measures>2</measures>
+                    <measures>1</measures>
                     </location>
                   </next>
                 </Spanner>
@@ -327335,6 +327370,13 @@
               <linked>
                 </linked>
               <durationType>whole</durationType>
+              <Spanner type="Slur">
+                <prev>
+                  <location>
+                    <measures>-1</measures>
+                    </location>
+                  </prev>
+                </Spanner>
               <Note>
                 <linked>
                   </linked>
@@ -327364,13 +327406,6 @@
               <linked>
                 </linked>
               <durationType>whole</durationType>
-              <Spanner type="Slur">
-                <prev>
-                  <location>
-                    <measures>-2</measures>
-                    </location>
-                  </prev>
-                </Spanner>
               <Note>
                 <linked>
                   </linked>
@@ -329732,17 +329767,6 @@
               <linked>
                 </linked>
               <durationType>half</durationType>
-              <Spanner type="Slur">
-                <Slur>
-                  <linked>
-                    </linked>
-                  </Slur>
-                <next>
-                  <location>
-                    <fractions>5/8</fractions>
-                    </location>
-                  </next>
-                </Spanner>
               <Note>
                 <linked>
                   </linked>
@@ -329765,6 +329789,17 @@
               <linked>
                 </linked>
               <durationType>eighth</durationType>
+              <Spanner type="Slur">
+                <Slur>
+                  <linked>
+                    </linked>
+                  </Slur>
+                <next>
+                  <location>
+                    <fractions>1/8</fractions>
+                    </location>
+                  </next>
+                </Spanner>
               <Note>
                 <linked>
                   </linked>
@@ -329786,7 +329821,7 @@
               <Spanner type="Slur">
                 <prev>
                   <location>
-                    <fractions>-5/8</fractions>
+                    <fractions>-1/8</fractions>
                     </location>
                   </prev>
                 </Spanner>
@@ -329886,17 +329921,6 @@
               <linked>
                 </linked>
               <durationType>half</durationType>
-              <Spanner type="Slur">
-                <Slur>
-                  <linked>
-                    </linked>
-                  </Slur>
-                <next>
-                  <location>
-                    <fractions>5/8</fractions>
-                    </location>
-                  </next>
-                </Spanner>
               <Note>
                 <linked>
                   </linked>
@@ -329919,6 +329943,17 @@
               <linked>
                 </linked>
               <durationType>eighth</durationType>
+              <Spanner type="Slur">
+                <Slur>
+                  <linked>
+                    </linked>
+                  </Slur>
+                <next>
+                  <location>
+                    <fractions>1/8</fractions>
+                    </location>
+                  </next>
+                </Spanner>
               <Note>
                 <linked>
                   </linked>
@@ -329940,7 +329975,7 @@
               <Spanner type="Slur">
                 <prev>
                   <location>
-                    <fractions>-5/8</fractions>
+                    <fractions>-1/8</fractions>
                     </location>
                   </prev>
                 </Spanner>
@@ -330003,17 +330038,6 @@
               <linked>
                 </linked>
               <durationType>half</durationType>
-              <Spanner type="Slur">
-                <Slur>
-                  <linked>
-                    </linked>
-                  </Slur>
-                <next>
-                  <location>
-                    <fractions>5/8</fractions>
-                    </location>
-                  </next>
-                </Spanner>
               <Note>
                 <linked>
                   </linked>
@@ -330036,6 +330060,17 @@
               <linked>
                 </linked>
               <durationType>eighth</durationType>
+              <Spanner type="Slur">
+                <Slur>
+                  <linked>
+                    </linked>
+                  </Slur>
+                <next>
+                  <location>
+                    <fractions>1/8</fractions>
+                    </location>
+                  </next>
+                </Spanner>
               <Note>
                 <linked>
                   </linked>
@@ -330057,7 +330092,7 @@
               <Spanner type="Slur">
                 <prev>
                   <location>
-                    <fractions>-5/8</fractions>
+                    <fractions>-1/8</fractions>
                     </location>
                   </prev>
                 </Spanner>
@@ -330278,17 +330313,6 @@
               <linked>
                 </linked>
               <durationType>half</durationType>
-              <Spanner type="Slur">
-                <Slur>
-                  <linked>
-                    </linked>
-                  </Slur>
-                <next>
-                  <location>
-                    <fractions>5/8</fractions>
-                    </location>
-                  </next>
-                </Spanner>
               <Note>
                 <linked>
                   </linked>
@@ -330311,6 +330335,17 @@
               <linked>
                 </linked>
               <durationType>eighth</durationType>
+              <Spanner type="Slur">
+                <Slur>
+                  <linked>
+                    </linked>
+                  </Slur>
+                <next>
+                  <location>
+                    <fractions>1/8</fractions>
+                    </location>
+                  </next>
+                </Spanner>
               <Note>
                 <linked>
                   </linked>
@@ -330332,7 +330367,7 @@
               <Spanner type="Slur">
                 <prev>
                   <location>
-                    <fractions>-5/8</fractions>
+                    <fractions>-1/8</fractions>
                     </location>
                   </prev>
                 </Spanner>
@@ -330432,17 +330467,6 @@
               <linked>
                 </linked>
               <durationType>half</durationType>
-              <Spanner type="Slur">
-                <Slur>
-                  <linked>
-                    </linked>
-                  </Slur>
-                <next>
-                  <location>
-                    <fractions>5/8</fractions>
-                    </location>
-                  </next>
-                </Spanner>
               <Note>
                 <linked>
                   </linked>
@@ -330465,6 +330489,17 @@
               <linked>
                 </linked>
               <durationType>eighth</durationType>
+              <Spanner type="Slur">
+                <Slur>
+                  <linked>
+                    </linked>
+                  </Slur>
+                <next>
+                  <location>
+                    <fractions>1/8</fractions>
+                    </location>
+                  </next>
+                </Spanner>
               <Note>
                 <linked>
                   </linked>
@@ -330486,7 +330521,7 @@
               <Spanner type="Slur">
                 <prev>
                   <location>
-                    <fractions>-5/8</fractions>
+                    <fractions>-1/8</fractions>
                     </location>
                   </prev>
                 </Spanner>
@@ -330589,17 +330624,6 @@
               <linked>
                 </linked>
               <durationType>half</durationType>
-              <Spanner type="Slur">
-                <Slur>
-                  <linked>
-                    </linked>
-                  </Slur>
-                <next>
-                  <location>
-                    <fractions>5/8</fractions>
-                    </location>
-                  </next>
-                </Spanner>
               <Note>
                 <linked>
                   </linked>
@@ -330622,6 +330646,17 @@
               <linked>
                 </linked>
               <durationType>eighth</durationType>
+              <Spanner type="Slur">
+                <Slur>
+                  <linked>
+                    </linked>
+                  </Slur>
+                <next>
+                  <location>
+                    <fractions>1/8</fractions>
+                    </location>
+                  </next>
+                </Spanner>
               <Note>
                 <linked>
                   </linked>
@@ -330643,7 +330678,7 @@
               <Spanner type="Slur">
                 <prev>
                   <location>
-                    <fractions>-5/8</fractions>
+                    <fractions>-1/8</fractions>
                     </location>
                   </prev>
                 </Spanner>
@@ -330724,17 +330759,6 @@
               <linked>
                 </linked>
               <durationType>half</durationType>
-              <Spanner type="Slur">
-                <Slur>
-                  <linked>
-                    </linked>
-                  </Slur>
-                <next>
-                  <location>
-                    <fractions>5/8</fractions>
-                    </location>
-                  </next>
-                </Spanner>
               <Note>
                 <linked>
                   </linked>
@@ -330757,6 +330781,17 @@
               <linked>
                 </linked>
               <durationType>eighth</durationType>
+              <Spanner type="Slur">
+                <Slur>
+                  <linked>
+                    </linked>
+                  </Slur>
+                <next>
+                  <location>
+                    <fractions>1/8</fractions>
+                    </location>
+                  </next>
+                </Spanner>
               <Note>
                 <linked>
                   </linked>
@@ -330778,7 +330813,7 @@
               <Spanner type="Slur">
                 <prev>
                   <location>
-                    <fractions>-5/8</fractions>
+                    <fractions>-1/8</fractions>
                     </location>
                   </prev>
                 </Spanner>
@@ -389502,17 +389537,6 @@
               <linked>
                 </linked>
               <durationType>half</durationType>
-              <Spanner type="Slur">
-                <Slur>
-                  <linked>
-                    </linked>
-                  </Slur>
-                <next>
-                  <location>
-                    <fractions>5/8</fractions>
-                    </location>
-                  </next>
-                </Spanner>
               <Note>
                 <linked>
                   </linked>
@@ -389535,6 +389559,17 @@
               <linked>
                 </linked>
               <durationType>eighth</durationType>
+              <Spanner type="Slur">
+                <Slur>
+                  <linked>
+                    </linked>
+                  </Slur>
+                <next>
+                  <location>
+                    <fractions>1/8</fractions>
+                    </location>
+                  </next>
+                </Spanner>
               <Note>
                 <linked>
                   </linked>
@@ -389556,7 +389591,7 @@
               <Spanner type="Slur">
                 <prev>
                   <location>
-                    <fractions>-5/8</fractions>
+                    <fractions>-1/8</fractions>
                     </location>
                   </prev>
                 </Spanner>
@@ -390611,17 +390646,6 @@
               <linked>
                 </linked>
               <durationType>half</durationType>
-              <Spanner type="Slur">
-                <Slur>
-                  <linked>
-                    </linked>
-                  </Slur>
-                <next>
-                  <location>
-                    <fractions>5/8</fractions>
-                    </location>
-                  </next>
-                </Spanner>
               <StemDirection>up</StemDirection>
               <Note>
                 <linked>
@@ -390645,6 +390669,17 @@
               <linked>
                 </linked>
               <durationType>eighth</durationType>
+              <Spanner type="Slur">
+                <Slur>
+                  <linked>
+                    </linked>
+                  </Slur>
+                <next>
+                  <location>
+                    <fractions>1/8</fractions>
+                    </location>
+                  </next>
+                </Spanner>
               <Note>
                 <linked>
                   </linked>
@@ -390666,7 +390701,7 @@
               <Spanner type="Slur">
                 <prev>
                   <location>
-                    <fractions>-5/8</fractions>
+                    <fractions>-1/8</fractions>
                     </location>
                   </prev>
                 </Spanner>
@@ -390819,17 +390854,6 @@
               <linked>
                 </linked>
               <durationType>half</durationType>
-              <Spanner type="Slur">
-                <Slur>
-                  <linked>
-                    </linked>
-                  </Slur>
-                <next>
-                  <location>
-                    <fractions>5/8</fractions>
-                    </location>
-                  </next>
-                </Spanner>
               <StemDirection>up</StemDirection>
               <Note>
                 <linked>
@@ -390853,6 +390877,17 @@
               <linked>
                 </linked>
               <durationType>eighth</durationType>
+              <Spanner type="Slur">
+                <Slur>
+                  <linked>
+                    </linked>
+                  </Slur>
+                <next>
+                  <location>
+                    <fractions>1/8</fractions>
+                    </location>
+                  </next>
+                </Spanner>
               <Note>
                 <linked>
                   </linked>
@@ -390874,7 +390909,7 @@
               <Spanner type="Slur">
                 <prev>
                   <location>
-                    <fractions>-5/8</fractions>
+                    <fractions>-1/8</fractions>
                     </location>
                   </prev>
                 </Spanner>
@@ -395682,17 +395717,6 @@
               <linked>
                 </linked>
               <durationType>half</durationType>
-              <Spanner type="Slur">
-                <Slur>
-                  <linked>
-                    </linked>
-                  </Slur>
-                <next>
-                  <location>
-                    <fractions>5/8</fractions>
-                    </location>
-                  </next>
-                </Spanner>
               <Note>
                 <linked>
                   </linked>
@@ -395715,6 +395739,17 @@
               <linked>
                 </linked>
               <durationType>eighth</durationType>
+              <Spanner type="Slur">
+                <Slur>
+                  <linked>
+                    </linked>
+                  </Slur>
+                <next>
+                  <location>
+                    <fractions>1/8</fractions>
+                    </location>
+                  </next>
+                </Spanner>
               <Note>
                 <linked>
                   </linked>
@@ -395736,7 +395771,7 @@
               <Spanner type="Slur">
                 <prev>
                   <location>
-                    <fractions>-5/8</fractions>
+                    <fractions>-1/8</fractions>
                     </location>
                   </prev>
                 </Spanner>
@@ -395845,17 +395880,6 @@
               <linked>
                 </linked>
               <durationType>half</durationType>
-              <Spanner type="Slur">
-                <Slur>
-                  <linked>
-                    </linked>
-                  </Slur>
-                <next>
-                  <location>
-                    <fractions>5/8</fractions>
-                    </location>
-                  </next>
-                </Spanner>
               <Note>
                 <linked>
                   </linked>
@@ -395881,6 +395905,17 @@
               <linked>
                 </linked>
               <durationType>eighth</durationType>
+              <Spanner type="Slur">
+                <Slur>
+                  <linked>
+                    </linked>
+                  </Slur>
+                <next>
+                  <location>
+                    <fractions>1/8</fractions>
+                    </location>
+                  </next>
+                </Spanner>
               <Note>
                 <linked>
                   </linked>
@@ -395902,7 +395937,7 @@
               <Spanner type="Slur">
                 <prev>
                   <location>
-                    <fractions>-5/8</fractions>
+                    <fractions>-1/8</fractions>
                     </location>
                   </prev>
                 </Spanner>
@@ -396167,17 +396202,6 @@
               <linked>
                 </linked>
               <durationType>half</durationType>
-              <Spanner type="Slur">
-                <Slur>
-                  <linked>
-                    </linked>
-                  </Slur>
-                <next>
-                  <location>
-                    <fractions>5/8</fractions>
-                    </location>
-                  </next>
-                </Spanner>
               <Note>
                 <linked>
                   </linked>
@@ -396200,6 +396224,17 @@
               <linked>
                 </linked>
               <durationType>eighth</durationType>
+              <Spanner type="Slur">
+                <Slur>
+                  <linked>
+                    </linked>
+                  </Slur>
+                <next>
+                  <location>
+                    <fractions>1/8</fractions>
+                    </location>
+                  </next>
+                </Spanner>
               <Note>
                 <linked>
                   </linked>
@@ -396221,7 +396256,7 @@
               <Spanner type="Slur">
                 <prev>
                   <location>
-                    <fractions>-5/8</fractions>
+                    <fractions>-1/8</fractions>
                     </location>
                   </prev>
                 </Spanner>
@@ -396318,17 +396353,6 @@
               <linked>
                 </linked>
               <durationType>half</durationType>
-              <Spanner type="Slur">
-                <Slur>
-                  <linked>
-                    </linked>
-                  </Slur>
-                <next>
-                  <location>
-                    <fractions>5/8</fractions>
-                    </location>
-                  </next>
-                </Spanner>
               <Note>
                 <linked>
                   </linked>
@@ -396351,6 +396375,17 @@
               <linked>
                 </linked>
               <durationType>eighth</durationType>
+              <Spanner type="Slur">
+                <Slur>
+                  <linked>
+                    </linked>
+                  </Slur>
+                <next>
+                  <location>
+                    <fractions>1/8</fractions>
+                    </location>
+                  </next>
+                </Spanner>
               <Note>
                 <linked>
                   </linked>
@@ -396372,7 +396407,7 @@
               <Spanner type="Slur">
                 <prev>
                   <location>
-                    <fractions>-5/8</fractions>
+                    <fractions>-1/8</fractions>
                     </location>
                   </prev>
                 </Spanner>
@@ -398816,17 +398851,6 @@
               <linked>
                 </linked>
               <durationType>half</durationType>
-              <Spanner type="Slur">
-                <Slur>
-                  <linked>
-                    </linked>
-                  </Slur>
-                <next>
-                  <location>
-                    <fractions>5/8</fractions>
-                    </location>
-                  </next>
-                </Spanner>
               <Note>
                 <linked>
                   </linked>
@@ -398849,6 +398873,17 @@
               <linked>
                 </linked>
               <durationType>eighth</durationType>
+              <Spanner type="Slur">
+                <Slur>
+                  <linked>
+                    </linked>
+                  </Slur>
+                <next>
+                  <location>
+                    <fractions>1/8</fractions>
+                    </location>
+                  </next>
+                </Spanner>
               <Note>
                 <linked>
                   </linked>
@@ -398870,7 +398905,7 @@
               <Spanner type="Slur">
                 <prev>
                   <location>
-                    <fractions>-5/8</fractions>
+                    <fractions>-1/8</fractions>
                     </location>
                   </prev>
                 </Spanner>
@@ -399015,17 +399050,6 @@
               <linked>
                 </linked>
               <durationType>half</durationType>
-              <Spanner type="Slur">
-                <Slur>
-                  <linked>
-                    </linked>
-                  </Slur>
-                <next>
-                  <location>
-                    <fractions>5/8</fractions>
-                    </location>
-                  </next>
-                </Spanner>
               <Note>
                 <linked>
                   </linked>
@@ -399048,6 +399072,17 @@
               <linked>
                 </linked>
               <durationType>eighth</durationType>
+              <Spanner type="Slur">
+                <Slur>
+                  <linked>
+                    </linked>
+                  </Slur>
+                <next>
+                  <location>
+                    <fractions>1/8</fractions>
+                    </location>
+                  </next>
+                </Spanner>
               <Note>
                 <linked>
                   </linked>
@@ -399069,7 +399104,7 @@
               <Spanner type="Slur">
                 <prev>
                   <location>
-                    <fractions>-5/8</fractions>
+                    <fractions>-1/8</fractions>
                     </location>
                   </prev>
                 </Spanner>
@@ -453832,17 +453867,6 @@
               <linked>
                 </linked>
               <durationType>half</durationType>
-              <Spanner type="Slur">
-                <Slur>
-                  <linked>
-                    </linked>
-                  </Slur>
-                <next>
-                  <location>
-                    <fractions>5/8</fractions>
-                    </location>
-                  </next>
-                </Spanner>
               <StemDirection>up</StemDirection>
               <Note>
                 <linked>
@@ -453866,6 +453890,17 @@
               <linked>
                 </linked>
               <durationType>eighth</durationType>
+              <Spanner type="Slur">
+                <Slur>
+                  <linked>
+                    </linked>
+                  </Slur>
+                <next>
+                  <location>
+                    <fractions>1/8</fractions>
+                    </location>
+                  </next>
+                </Spanner>
               <Note>
                 <linked>
                   </linked>
@@ -453887,7 +453922,7 @@
               <Spanner type="Slur">
                 <prev>
                   <location>
-                    <fractions>-5/8</fractions>
+                    <fractions>-1/8</fractions>
                     </location>
                   </prev>
                 </Spanner>
@@ -459492,17 +459527,6 @@
               <linked>
                 </linked>
               <durationType>half</durationType>
-              <Spanner type="Slur">
-                <Slur>
-                  <linked>
-                    </linked>
-                  </Slur>
-                <next>
-                  <location>
-                    <fractions>5/8</fractions>
-                    </location>
-                  </next>
-                </Spanner>
               <Note>
                 <linked>
                   </linked>
@@ -459525,6 +459549,17 @@
               <linked>
                 </linked>
               <durationType>eighth</durationType>
+              <Spanner type="Slur">
+                <Slur>
+                  <linked>
+                    </linked>
+                  </Slur>
+                <next>
+                  <location>
+                    <fractions>1/8</fractions>
+                    </location>
+                  </next>
+                </Spanner>
               <Note>
                 <linked>
                   </linked>
@@ -459546,7 +459581,7 @@
               <Spanner type="Slur">
                 <prev>
                   <location>
-                    <fractions>-5/8</fractions>
+                    <fractions>-1/8</fractions>
                     </location>
                   </prev>
                 </Spanner>
@@ -459949,17 +459984,6 @@
               <linked>
                 </linked>
               <durationType>half</durationType>
-              <Spanner type="Slur">
-                <Slur>
-                  <linked>
-                    </linked>
-                  </Slur>
-                <next>
-                  <location>
-                    <fractions>5/8</fractions>
-                    </location>
-                  </next>
-                </Spanner>
               <Note>
                 <linked>
                   </linked>
@@ -459982,6 +460006,17 @@
               <linked>
                 </linked>
               <durationType>eighth</durationType>
+              <Spanner type="Slur">
+                <Slur>
+                  <linked>
+                    </linked>
+                  </Slur>
+                <next>
+                  <location>
+                    <fractions>1/8</fractions>
+                    </location>
+                  </next>
+                </Spanner>
               <Note>
                 <linked>
                   </linked>
@@ -460003,7 +460038,7 @@
               <Spanner type="Slur">
                 <prev>
                   <location>
-                    <fractions>-5/8</fractions>
+                    <fractions>-1/8</fractions>
                     </location>
                   </prev>
                 </Spanner>
@@ -460605,17 +460640,6 @@
               <linked>
                 </linked>
               <durationType>half</durationType>
-              <Spanner type="Slur">
-                <Slur>
-                  <linked>
-                    </linked>
-                  </Slur>
-                <next>
-                  <location>
-                    <fractions>5/8</fractions>
-                    </location>
-                  </next>
-                </Spanner>
               <Note>
                 <linked>
                   </linked>
@@ -460641,6 +460665,17 @@
               <linked>
                 </linked>
               <durationType>eighth</durationType>
+              <Spanner type="Slur">
+                <Slur>
+                  <linked>
+                    </linked>
+                  </Slur>
+                <next>
+                  <location>
+                    <fractions>1/8</fractions>
+                    </location>
+                  </next>
+                </Spanner>
               <Note>
                 <linked>
                   </linked>
@@ -460662,7 +460697,7 @@
               <Spanner type="Slur">
                 <prev>
                   <location>
-                    <fractions>-5/8</fractions>
+                    <fractions>-1/8</fractions>
                     </location>
                   </prev>
                 </Spanner>
@@ -460768,17 +460803,6 @@
               <linked>
                 </linked>
               <durationType>half</durationType>
-              <Spanner type="Slur">
-                <Slur>
-                  <linked>
-                    </linked>
-                  </Slur>
-                <next>
-                  <location>
-                    <fractions>5/8</fractions>
-                    </location>
-                  </next>
-                </Spanner>
               <Note>
                 <linked>
                   </linked>
@@ -460804,6 +460828,17 @@
               <linked>
                 </linked>
               <durationType>eighth</durationType>
+              <Spanner type="Slur">
+                <Slur>
+                  <linked>
+                    </linked>
+                  </Slur>
+                <next>
+                  <location>
+                    <fractions>1/8</fractions>
+                    </location>
+                  </next>
+                </Spanner>
               <Note>
                 <linked>
                   </linked>
@@ -460825,7 +460860,7 @@
               <Spanner type="Slur">
                 <prev>
                   <location>
-                    <fractions>-5/8</fractions>
+                    <fractions>-1/8</fractions>
                     </location>
                   </prev>
                 </Spanner>
@@ -461359,18 +461394,6 @@
               <linked>
                 </linked>
               <durationType>whole</durationType>
-              <Spanner type="Slur">
-                <Slur>
-                  <linked>
-                    </linked>
-                  </Slur>
-                <next>
-                  <location>
-                    <measures>1</measures>
-                    <fractions>1/8</fractions>
-                    </location>
-                  </next>
-                </Spanner>
               <Note>
                 <linked>
                   </linked>
@@ -461397,6 +461420,17 @@
               <linked>
                 </linked>
               <durationType>eighth</durationType>
+              <Spanner type="Slur">
+                <Slur>
+                  <linked>
+                    </linked>
+                  </Slur>
+                <next>
+                  <location>
+                    <fractions>1/8</fractions>
+                    </location>
+                  </next>
+                </Spanner>
               <Note>
                 <linked>
                   </linked>
@@ -461418,7 +461452,6 @@
               <Spanner type="Slur">
                 <prev>
                   <location>
-                    <measures>-1</measures>
                     <fractions>-1/8</fractions>
                     </location>
                   </prev>
@@ -466924,7 +466957,7 @@
                   </Slur>
                 <next>
                   <location>
-                    <measures>2</measures>
+                    <measures>1</measures>
                     </location>
                   </next>
                 </Spanner>
@@ -466943,6 +466976,24 @@
               <linked>
                 </linked>
               <durationType>whole</durationType>
+              <Spanner type="Slur">
+                <prev>
+                  <location>
+                    <measures>-1</measures>
+                    </location>
+                  </prev>
+                </Spanner>
+              <Spanner type="Slur">
+                <Slur>
+                  <linked>
+                    </linked>
+                  </Slur>
+                <next>
+                  <location>
+                    <measures>1</measures>
+                    </location>
+                  </next>
+                </Spanner>
               <Note>
                 <linked>
                   </linked>
@@ -466961,7 +467012,7 @@
               <Spanner type="Slur">
                 <prev>
                   <location>
-                    <measures>-2</measures>
+                    <measures>-1</measures>
                     </location>
                   </prev>
                 </Spanner>
@@ -494006,18 +494057,6 @@
                     </location>
                   </next>
                 </Spanner>
-              <Spanner type="Slur">
-                <Slur>
-                  <linked>
-                    </linked>
-                  </Slur>
-                <next>
-                  <location>
-                    <measures>1</measures>
-                    <fractions>1/4</fractions>
-                    </location>
-                  </next>
-                </Spanner>
               <Note>
                 <linked>
                   </linked>
@@ -494096,14 +494135,6 @@
               <linked>
                 </linked>
               <durationType>eighth</durationType>
-              <Spanner type="Slur">
-                <prev>
-                  <location>
-                    <measures>-1</measures>
-                    <fractions>-1/4</fractions>
-                    </location>
-                  </prev>
-                </Spanner>
               <Spanner type="Slur">
                 <prev>
                   <location>
