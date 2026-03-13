@@ -5555,7 +5555,7 @@
             <followText>1</followText>
             <linkedMain/>
             <textLineSpacing>0.85</textLineSpacing>
-            <text><b>a tempo </b><font face="ScoreText"/><b><font face="Edwin"/> = 76  (76-70)</b></text>
+            <text><b>a tempo </b><font face="ScoreText"></font><b><font face="Edwin"></font> = 76  (76-70)</b></text>
             </Tempo>
           <Rest>
             <linkedMain/>
@@ -27351,7 +27351,6 @@
               </Note>
             </Chord>
           <StaffText>
-            <linkedMain/>
             <text>ritard.</text>
             </StaffText>
           <Chord>
@@ -32531,7 +32530,6 @@
               </Note>
             </Chord>
           <SystemText>
-            <linkedMain/>
             <placement>below</placement>
             <offset x="5.80571" y="45.8886"/>
             <text>Attaca:</text>
@@ -39790,65 +39788,33 @@
               </Note>
             </Chord>
           <Chord>
+            <linkedMain/>
             <durationType>half</durationType>
             <duration>1/4</duration>
+            <StemDirection>down</StemDirection>
             <Note>
+              <linkedMain/>
               <pitch>79</pitch>
               <tpc>15</tpc>
               </Note>
             <Tremolo>
               <subtype>c8</subtype>
+              <linkedMain/>
               <visible>0</visible>
               </Tremolo>
             </Chord>
           <Chord>
+            <linkedMain/>
+            <BeamMode>mid</BeamMode>
             <durationType>half</durationType>
             <duration>1/4</duration>
-            <Note>
-              <pitch>77</pitch>
-              <tpc>13</tpc>
-              </Note>
-            </Chord>
-          </voice>
-        <voice>
-          <location>
-            <fractions>1/2</fractions>
-            </location>
-          <Tuplet>
-            <linkedMain/>
-            <visible>0</visible>
-            <normalNotes>4</normalNotes>
-            <actualNotes>4</actualNotes>
-            <baseNote>eighth</baseNote>
-            <Number>
-              <visible>0</visible>
-              <style>Tuplet</style>
-              <text>4</text>
-              </Number>
-            </Tuplet>
-          <Chord>
-            <linkedMain/>
-            <BeamMode>begin</BeamMode>
-            <durationType>quarter</durationType>
-            <Note>
-              <linkedMain/>
-              <pitch>79</pitch>
-              <tpc>15</tpc>
-              <play>0</play>
-              </Note>
-            </Chord>
-          <Chord>
-            <linkedMain/>
-            <BeamMode>begin</BeamMode>
-            <durationType>quarter</durationType>
+            <StemDirection>down</StemDirection>
             <Note>
               <linkedMain/>
               <pitch>77</pitch>
               <tpc>13</tpc>
-              <play>0</play>
               </Note>
             </Chord>
-          <endTuplet/>
           </voice>
         </Measure>
       <Measure>
@@ -39863,6 +39829,7 @@
           <Chord>
             <durationType>half</durationType>
             <duration>1/4</duration>
+            <StemDirection>down</StemDirection>
             <Note>
               <pitch>79</pitch>
               <tpc>15</tpc>
@@ -39886,13 +39853,18 @@
               </next>
             </Spanner>
           <Chord>
+            <BeamMode>mid</BeamMode>
             <durationType>half</durationType>
             <duration>1/4</duration>
+            <StemDirection>down</StemDirection>
             <Note>
               <pitch>77</pitch>
               <tpc>13</tpc>
               </Note>
             </Chord>
+          <Beam>
+            <StemDirection>down</StemDirection>
+            </Beam>
           <Chord>
             <durationType>eighth</durationType>
             <Note>
@@ -39927,7 +39899,6 @@
           </voice>
         <voice>
           <Rest>
-            <linkedMain/>
             <durationType>measure</durationType>
             <duration>4/4</duration>
             </Rest>
@@ -47816,7 +47787,6 @@ string.</text>
             <durationType>32nd</durationType>
             <Spanner type="Slur">
               <Slur>
-                <linkedMain/>
                 <SlurSegment no="0">
                   <o1 x="0.430893" y="-4.445"/>
                   <o2 x="-0.0680357" y="-3.53786"/>
@@ -178041,15 +178011,15 @@ sostenuto</text>
               <tpc>12</tpc>
               </Note>
             </Chord>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
           <Clef>
             <concertClefType>G</concertClefType>
             <transposingClefType>G</transposingClefType>
             <linkedMain/>
             </Clef>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
           <Chord>
             <linkedMain/>
             <durationType>quarter</durationType>
@@ -196748,7 +196718,7 @@ sostenuto</text>
             <autoplace>0</autoplace>
             <linkedMain/>
             <offset x="-2.35857" y="4.18571"/>
-            <text><i></i><font face="ScoreText"/></text>
+            <text><i></i><font face="ScoreText"></font></text>
             </Dynamic>
           <StaffText>
             <linkedMain/>
@@ -201081,6 +201051,7 @@ sostenuto</text>
             <Spanner type="Slur">
               <Slur>
                 <linkedMain/>
+                <up>up</up>
                 </Slur>
               <next>
                 <location>
@@ -201360,6 +201331,7 @@ sostenuto</text>
             <Spanner type="Slur">
               <Slur>
                 <linkedMain/>
+                <up>up</up>
                 </Slur>
               <next>
                 <location>
@@ -224059,6 +224031,7 @@ sostenuto</text>
             <concertClefType>C4</concertClefType>
             <transposingClefType>C4</transposingClefType>
             <linkedMain/>
+            <visible>0</visible>
             </Clef>
           </voice>
         </Measure>
@@ -261997,7 +261970,7 @@ sostenuto</text>
               <linked>
                 </linked>
               <textLineSpacing>0.85</textLineSpacing>
-              <text><b>a tempo </b><font face="ScoreText"/><b><font face="Edwin"/> = 76  (76-70)</b></text>
+              <text><b>a tempo </b><font face="ScoreText"></font><b><font face="Edwin"></font> = 76  (76-70)</b></text>
               </Tempo>
             <Rest>
               <linked>
@@ -262017,7 +261990,7 @@ sostenuto</text>
                 <indexDiff>-2</indexDiff>
                 </linked>
               <textLineSpacing>0.85</textLineSpacing>
-              <text><b>a tempo </b><font face="ScoreText"/><b><font face="Edwin"/> = 76  (76-70)</b></text>
+              <text><b>a tempo </b><font face="ScoreText"></font><b><font face="Edwin"></font> = 76  (76-70)</b></text>
               </Tempo>
             <Rest>
               <durationType>measure</durationType>
@@ -284369,8 +284342,6 @@ sostenuto</text>
                 </Note>
               </Chord>
             <StaffText>
-              <linked>
-                </linked>
               <text>ritard.</text>
               </StaffText>
             <Chord>
@@ -289584,8 +289555,6 @@ sostenuto</text>
               <text>Attaca:</text>
               </SystemText>
             <SystemText>
-              <linked>
-                </linked>
               <text>Attaca:</text>
               </SystemText>
             <Spanner type="Ottava">
@@ -296826,21 +296795,9 @@ sostenuto</text>
           </Measure>
         <Measure>
           <voice>
-            <Chord>
-              <durationType>eighth</durationType>
-              <Note>
-                <Spanner type="Tie">
-                  <prev>
-                    <location>
-                      <measures>-1</measures>
-                      <fractions>3/4</fractions>
-                      </location>
-                    </prev>
-                  </Spanner>
-                <pitch>79</pitch>
-                <tpc>15</tpc>
-                </Note>
-              </Chord>
+            <location>
+              <fractions>1/8</fractions>
+              </location>
             <Chord>
               <durationType>eighth</durationType>
               <Spanner type="Slur">
@@ -296856,14 +296813,9 @@ sostenuto</text>
                 <tpc>13</tpc>
                 </Note>
               </Chord>
-            <Chord>
-              <BeamMode>begin</BeamMode>
-              <durationType>eighth</durationType>
-              <Note>
-                <pitch>79</pitch>
-                <tpc>15</tpc>
-                </Note>
-              </Chord>
+            <location>
+              <fractions>1/8</fractions>
+              </location>
             <Chord>
               <durationType>eighth</durationType>
               <Note>
@@ -296871,50 +296823,32 @@ sostenuto</text>
                 <tpc>13</tpc>
                 </Note>
               </Chord>
-            <location>
-              <fractions>1/4</fractions>
-              </location>
             <Chord>
+              <linked>
+                </linked>
               <durationType>half</durationType>
               <duration>1/4</duration>
-              <Note>
-                <pitch>77</pitch>
-                <tpc>13</tpc>
-                </Note>
-              </Chord>
-            </voice>
-          <voice>
-            <location>
-              <fractions>1/2</fractions>
-              </location>
-            <Tuplet>
-              <linked>
-                </linked>
-              <normalNotes>4</normalNotes>
-              <actualNotes>4</actualNotes>
-              <baseNote>eighth</baseNote>
-              <Number>
-                <style>Tuplet</style>
-                <text>4</text>
-                </Number>
-              </Tuplet>
-            <Chord>
-              <linked>
-                </linked>
-              <BeamMode>begin</BeamMode>
-              <durationType>quarter</durationType>
+              <StemDirection>down</StemDirection>
               <Note>
                 <linked>
                   </linked>
                 <pitch>79</pitch>
                 <tpc>15</tpc>
                 </Note>
+              <Tremolo>
+                <subtype>c8</subtype>
+                <linked>
+                  </linked>
+                <visible>0</visible>
+                </Tremolo>
               </Chord>
             <Chord>
               <linked>
                 </linked>
-              <BeamMode>begin</BeamMode>
-              <durationType>quarter</durationType>
+              <BeamMode>mid</BeamMode>
+              <durationType>half</durationType>
+              <duration>1/4</duration>
+              <StemDirection>down</StemDirection>
               <Note>
                 <linked>
                   </linked>
@@ -296922,7 +296856,6 @@ sostenuto</text>
                 <tpc>13</tpc>
                 </Note>
               </Chord>
-            <endTuplet/>
             </voice>
           </Measure>
         <Measure>
@@ -296997,8 +296930,6 @@ sostenuto</text>
             </voice>
           <voice>
             <Rest>
-              <linked>
-                </linked>
               <durationType>measure</durationType>
               <duration>4/4</duration>
               </Rest>
@@ -304966,8 +304897,6 @@ sostenuto</text>
               <durationType>quarter</durationType>
               <Spanner type="Slur">
                 <Slur>
-                  <linked>
-                    </linked>
                   </Slur>
                 <next>
                   <location>
@@ -356291,11 +356220,6 @@ sostenuto</text>
               <text>Attaca:</text>
               </SystemText>
             <SystemText>
-              <linked>
-                <location>
-                  <staves>-1</staves>
-                  </location>
-                </linked>
               <text>Attaca:</text>
               </SystemText>
             <Rest>
@@ -434633,11 +434557,6 @@ sostenuto</text>
               <text>Attaca:</text>
               </SystemText>
             <SystemText>
-              <linked>
-                <location>
-                  <staves>-2</staves>
-                  </location>
-                </linked>
               <text>Attaca:</text>
               </SystemText>
             <Rest>
@@ -454785,16 +454704,16 @@ sostenuto</text>
                 <tpc>12</tpc>
                 </Note>
               </Chord>
-            </voice>
-          </Measure>
-        <Measure>
-          <voice>
             <Clef>
               <concertClefType>G</concertClefType>
               <transposingClefType>G</transposingClefType>
               <linked>
                 </linked>
               </Clef>
+            </voice>
+          </Measure>
+        <Measure>
+          <voice>
             <Chord>
               <linked>
                 </linked>
@@ -476938,7 +476857,7 @@ sostenuto</text>
               <velocity>49</velocity>
               <linked>
                 </linked>
-              <text><i></i><font face="ScoreText"/></text>
+              <text><i></i><font face="ScoreText"></font></text>
               </Dynamic>
             <StaffText>
               <linked>
@@ -508659,11 +508578,6 @@ sostenuto</text>
               <text>Attaca:</text>
               </SystemText>
             <SystemText>
-              <linked>
-                <location>
-                  <staves>-3</staves>
-                  </location>
-                </linked>
               <text>Attaca:</text>
               </SystemText>
             <Rest>
