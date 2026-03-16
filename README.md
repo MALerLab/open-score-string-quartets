@@ -35,31 +35,51 @@ Score and lyric files are arranged in the following directory structure:
           sq<id>:<page>.png # 4-digits page index starting from 1
         cropped/
           sq<id>:<page>:<system>.png # 4-digits page, system index starting from 1
-        crop_resized/
+        systemwise/
           sq<id>:<page>:<system>.png # 4-digits page, system index starting from 1
         partwise/
           sq<id>:<page>:<system>:<part>.png # 4-digits page, system index starting from 1, 1-digit part index [1,4]
       scanned/
         original/
         cropped/
-        crop_resized/
+        systemwise/
         partwise/
     lmxe/
       synthetic/
-        full/
+	      systemwise/
           sq<id>:<page>:<system>.lmxe
-        reduced/
+        systemwise_reduced/
           sq<id>:<page>:<system>.lmxe
         partwise/
           sq<id>:<page>:<system>:<part>.lmxe
+        partwise_reduced/
+          sq<id>:<page>:<system>:<part>.lmxe
       scanned/
+        systemwise/
+        partwise/
     kern/
       synthetic/
-        full/
-          sq<id>:<page>:<system>.bekrn
+        systemwise/
+          sq<id>:<page>:<system>.krn
+          sq<id>:<page>:<system>.ekrn
         partwise/
-          sq<id>:<page>:<system>:<part>.bekrn
+          sq<id>:<page>:<system>:<part>.ekrn
       scanned/
+    musicxml/
+      synthetic/
+        systemwise/
+          sq<id>:<page>:<system>.musicxml
+        systemwise_krn/ # musicxml file with time signatures for krn conversion
+          sq<id>:<page>:<system>.musicxml
+        partwise/
+          sq<id>:<page>:<system>:<part>.musicxml
+        partwise_krn/ # musicxml file with time signatures for krn conversion
+          sq<id>:<page>:<system>:<part>.musicxml
+      scanned/
+        systemwise/
+        systemwise_krn/
+        partwise/
+        partwise_krn/
 ```
 
 

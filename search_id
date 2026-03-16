@@ -1,0 +1,4 @@
+#!/bin/bash
+ID=$1
+
+find -wholename "./scores/*/*/${ID}.mscx"
