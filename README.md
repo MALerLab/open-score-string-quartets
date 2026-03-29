@@ -10,17 +10,18 @@ Collection of string quartets by "long 19th century" composers in MuseScore form
 Scores can be downloaded individually in PDF, MIDI, MusicXML, MP3 and other formats from
 their [official pages][OSSQ] on MuseScore.com. Alternatively, scores can be
 converted to other formats *en masse* using MuseScore's free desktop software using either
-the [Batch Convert Plugin] 
-or the [command line interface][MuseScore Command Line].
+the [Batch Convert Plugin](https://musescore.org/en/project/batch-convert)
+or the [command line interface](https://handbook.musescore.org/appendix/command-line-usage).
 
 **!Important NOTE!**  
-To render or convert .mscx files in this repo, you **need to use MuseScore3 v3.6.2**
+To render or convert .mscx files in this repo, you **need to use MuseScore3 v3.6.2**  
+In server environments, you can use MuseScore3 v3.6.2's command line interface. Please visit the [musescore-3.6.2-headless@github](https://github.com/halsoo/musescore-3.6.2-headless) repository for instructions on how to set up a headless version of MuseScore3 v3.6.2.
 
 # [Scores directory](./scores/)
 
 Score and lyric files are arranged in the following directory structure:
 
-```
+```yaml
 <composer>/
   <set>/
     sq<id>.mscx
@@ -31,6 +32,7 @@ Score and lyric files are arranged in the following directory structure:
     sq<id>_scanned.csv # optional alignment data
     images/
       synthetic/
+        sq<id>_yolo_infos.yaml # infos on image segmentation for reproducibility and future reference
         original/
           sq<id>:<page>.png # 4-digits page index starting from 1
         cropped/
@@ -40,23 +42,27 @@ Score and lyric files are arranged in the following directory structure:
         partwise/
           sq<id>:<page>:<system>:<part>.png # 4-digits page, system index starting from 1, 1-digit part index [1,4]
       scanned/
+        sq<id>_yolo_infos.yaml # infos on image segmentation for reproducibility and future reference
         original/
         cropped/
         systemwise/
         partwise/
+    metadata/
+      synthetic/
+        systemwise/
+          sq<id>:<page>:<system>.yaml # metadata for synthetic systemwise images
+        partwise/
+          sq<id>:<page>:<system>:<part>.yaml # metadata for synthetic partwise images
+      scanned/
     lmxe/
       synthetic/
 	      systemwise/
           sq<id>:<page>:<system>.lmxe
-        systemwise_reduced/
-          sq<id>:<page>:<system>.lmxe
+          sq<id>:<page>:<system>.rlmxe
         partwise/
           sq<id>:<page>:<system>:<part>.lmxe
-        partwise_reduced/
-          sq<id>:<page>:<system>:<part>.lmxe
+          sq<id>:<page>:<system>.rlmxe
       scanned/
-        systemwise/
-        partwise/
     kern/
       synthetic/
         systemwise/
@@ -64,6 +70,15 @@ Score and lyric files are arranged in the following directory structure:
           sq<id>:<page>:<system>.ekrn
         partwise/
           sq<id>:<page>:<system>:<part>.ekrn
+      scanned/
+    abc/
+      synthetic/
+        systemwise/
+          sq<id>:<page>:<system>.abc
+          sq<id>:<page>:<system>.eabc
+        partwise/
+          sq<id>:<page>:<system>:<part>.abc
+          sq<id>:<page>:<system>:<part>.eabc
       scanned/
     musicxml/
       synthetic/
