@@ -6,6 +6,7 @@ system:
   confidence_threshold: 0.45
   merge_threshold: 0.7
   exceptions:
+    - sq7362818:0056:0001
 staff_height:
   model: ls-yolo-staff-height-v2.0.0
   target_height: 18
