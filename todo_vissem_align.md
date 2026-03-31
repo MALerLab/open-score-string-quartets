@@ -46,8 +46,8 @@
     - [+] mvmt4 m84-100 p3: connected tremolos for 32th note tremolos with empty notehead. disconnected tremolos for 32th note tremolos with filled notehead. leave them as is. musescore's automatic behavior
     - [+] mvmt4 m101-124 p2: connected tremolos for 32th note tremolos with empty notehead. disconnected tremolos for 32th note tremolos with filled notehead. leave them as is. musescore's automatic behavior
     - [+] mvmt4 m239-242 p1: split 18 8th notes tremolo. scanned version is 18th-tuplet of 2 dotted 2nd notes. leave them as is. musescore's limitation
-- [-] scores/Mendelssohn,_Felix/String_Quartet_No.1,_Op.12/sq7224846.mscx
-    - [-] mm260 + mm276 connect tremolo
+- [+] scores/Mendelssohn,_Felix/String_Quartet_No.1,_Op.12/sq7224846.mscx
+    - [+] mvmt4 m260-m294 p3: disconnected tremolos for 8th note tremolos with empty notehead. leave them as is. musescore's automatic behavior
 - [-] scores/Mendelssohn,_Felix/String_Quartet_No.4_in_E_minor,_Op.44_No.2/sq8623643.mscx
     - [-] mm51 + mm154 + mm191 + mm61 ii mvt connect tremolo
 - [-] scores/Mozart,_Wolfgang_Amadeus/String_Quartet_No.14_in_G_major,_K.387_(Op._10,_No._1)/sq7103818.mscx
