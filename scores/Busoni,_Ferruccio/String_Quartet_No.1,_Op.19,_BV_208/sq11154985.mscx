@@ -4125,9 +4125,10 @@ a tempo</text>
                 </next>
               </Spanner>
             <Articulation>
-              <subtype>articAccentAbove</subtype>
+              <subtype>articAccentBelow</subtype>
               <linkedMain/>
               </Articulation>
+            <StemDirection>up</StemDirection>
             <Note>
               <linkedMain/>
               <pitch>86</pitch>
@@ -61220,9 +61221,10 @@ a tempo</text>
                 </next>
               </Spanner>
             <Articulation>
-              <subtype>articAccentAbove</subtype>
+              <subtype>articAccentBelow</subtype>
               <linkedMain/>
               </Articulation>
+            <StemDirection>up</StemDirection>
             <Note>
               <linkedMain/>
               <Accidental>
@@ -116034,9 +116036,10 @@ a tempo</text>
                 </next>
               </Spanner>
             <Articulation>
-              <subtype>articAccentAbove</subtype>
+              <subtype>articAccentBelow</subtype>
               <linkedMain/>
               </Articulation>
+            <StemDirection>up</StemDirection>
             <Note>
               <linkedMain/>
               <pitch>72</pitch>
@@ -315772,8 +315775,6 @@ a tempo</text>
               <linked>
                 </linked>
               <durationType>32nd</durationType>
-              <Stem>
-                </Stem>
               <Note>
                 <linked>
                   </linked>

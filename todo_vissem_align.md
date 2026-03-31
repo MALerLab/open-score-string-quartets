@@ -12,10 +12,10 @@
 - [-] scores/Brahms,_Johannes/String_Quartet_No.1,_Op.51_No.1/sq7108150.mscx
     - [-] mvmt1 m84-91 p1-3: half note tremolos
     - [-] mvmt3 m106-108 p3: half note tremolos
-- [-] scores/Busoni,_Ferruccio/String_Quartet_No.1,_Op.19,_BV_208/sq11154985.mscx
-    - [-] mvmt1 m53-4 p1-3: multi-measure beam connection
-    - [-] mvmt1 m53 p1-3: last note stem from down to up
-    - [-] mvmt1 m59 p1-3: multi-measure beam connection
+- [+] scores/Busoni,_Ferruccio/String_Quartet_No.1,_Op.19,_BV_208/sq11154985.mscx
+    - [+] mvmt1 m53-4 p1-3: multi-measure beam connection
+    - [+] mvmt1 m53 p1-3: last note stem from down to up
+    - [+] mvmt1 m59 p1-3: multi-measure beam connection
 - [-] scores/Dvořák,_Antonín/String_Quartet_No.10,_Op.51/sq9137469.mscx
     - [-] mvmt2 m108 p2: (8th, 8th rest, 8th) beam between 8th notes
     - [-] mvmt2 m108 p2: remove staccato dot on first 8th note
