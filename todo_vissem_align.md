@@ -23,9 +23,9 @@
     - [+] cello staff's bar lines are isolated from other parts
     - [+] mvmt4 m103-106 p2-3: half note tremolos
     - [+] mvmt4 m107-110 p4: half note tremolos
-- [-] scores/Glinka,_Mikhail/String_Quartet/sq14720995.mscx
-    - [-] mvmt1 m35 p2: dotted half note and second voice position swapped. musescore's automatic behavior
-    - [-] mvmt4 m235-240 p4: cello part clef misprint in scanned (F4 but should be C4), fix synthetic version to follow misprinted scanned version.
+- [+] scores/Glinka,_Mikhail/String_Quartet/sq14720995.mscx
+    - [+] mvmt1 m35 p2: dotted half note and second voice position swapped. musescore's automatic behavior
+    - [+] mvmt4 m235-240 p4: cello part clef misprint in scanned (F4 but should be C4), fix synthetic version to follow misprinted scanned version.
 - [-] scores/Grieg,_Edvard/String_Quartet_No.1,_Op.27/sq9631717.mscx
     - [-] mm555 and next measure rests compression to one measure?
 - [-] scores/Haydn,_Joseph/String_Quartet_in_B-flat_major,_Hob.III67,_Op.64_No.3/sq7123582.mscx
