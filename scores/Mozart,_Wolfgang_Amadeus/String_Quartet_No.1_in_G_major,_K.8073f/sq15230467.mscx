@@ -1909,6 +1909,12 @@
               </Note>
             </Chord>
           <endTuplet/>
+          <Beam>
+            <Fragment>
+              <y1>1.81599</y1>
+              <y2>2.76633</y2>
+              </Fragment>
+            </Beam>
           <Chord>
             <linkedMain/>
             <durationType>eighth</durationType>
@@ -4825,6 +4831,10 @@
           <endTuplet/>
           <Beam>
             <StemDirection>up</StemDirection>
+            <Fragment>
+              <y1>2.12483</y1>
+              <y2>2.90238</y2>
+              </Fragment>
             </Beam>
           <Chord>
             <linkedMain/>
@@ -6457,6 +6467,12 @@
         </Measure>
       <Measure>
         <voice>
+          <Beam>
+            <Fragment>
+              <y1>2.45204</y1>
+              <y2>2.02007</y2>
+              </Fragment>
+            </Beam>
           <Chord>
             <linkedMain/>
             <durationType>eighth</durationType>
@@ -9633,6 +9649,12 @@
         </Measure>
       <Measure>
         <voice>
+          <Beam>
+            <Fragment>
+              <y1>2.36565</y1>
+              <y2>1.76088</y2>
+              </Fragment>
+            </Beam>
           <Chord>
             <linkedMain/>
             <durationType>eighth</durationType>
@@ -13105,13 +13127,17 @@
             </Dynamic>
           <Beam>
             <StemDirection>down</StemDirection>
+            <Fragment>
+              <y1>3.20238</y1>
+              <y2>4.38061</y2>
+              </Fragment>
             </Beam>
           <Chord>
             <linkedMain/>
             <BeamMode>begin</BeamMode>
             <durationType>eighth</durationType>
             <Articulation>
-              <subtype>articStaccatoAbove</subtype>
+              <subtype>articStaccatoBelow</subtype>
               <linkedMain/>
               </Articulation>
             <Note>
@@ -13127,7 +13153,7 @@
             <Spanner type="Slur">
               <Slur>
                 <linkedMain/>
-                <up>down</up>
+                <up>up</up>
                 </Slur>
               <next>
                 <location>
@@ -27718,6 +27744,7 @@
             <Spanner type="Slur">
               <Slur>
                 <linkedMain/>
+                <up>down</up>
                 </Slur>
               <next>
                 <location>
@@ -27985,6 +28012,7 @@
             <Spanner type="Slur">
               <Slur>
                 <linkedMain/>
+                <up>down</up>
                 </Slur>
               <next>
                 <location>
@@ -29259,12 +29287,16 @@
             </Dynamic>
           <Beam>
             <StemDirection>down</StemDirection>
+            <Fragment>
+              <y1>2.77041</y1>
+              <y2>3.94864</y2>
+              </Fragment>
             </Beam>
           <Chord>
             <linkedMain/>
             <durationType>eighth</durationType>
             <Articulation>
-              <subtype>articStaccatoAbove</subtype>
+              <subtype>articStaccatoBelow</subtype>
               <linkedMain/>
               </Articulation>
             <Note>
@@ -38089,11 +38121,14 @@
         </Measure>
       <Measure>
         <voice>
+          <Beam>
+            <StemDirection>up</StemDirection>
+            </Beam>
           <Chord>
             <linkedMain/>
             <durationType>eighth</durationType>
             <Articulation>
-              <subtype>articStaccatoAbove</subtype>
+              <subtype>articStaccatoBelow</subtype>
               <linkedMain/>
               </Articulation>
             <Note>
@@ -38126,7 +38161,7 @@
                 </next>
               </Spanner>
             <Articulation>
-              <subtype>articStaccatoAbove</subtype>
+              <subtype>articStaccatoBelow</subtype>
               <linkedMain/>
               </Articulation>
             <Note>
@@ -38139,7 +38174,7 @@
             <linkedMain/>
             <durationType>32nd</durationType>
             <Articulation>
-              <subtype>articStaccatoAbove</subtype>
+              <subtype>articStaccatoBelow</subtype>
               <linkedMain/>
               </Articulation>
             <Note>
@@ -38152,7 +38187,7 @@
             <linkedMain/>
             <durationType>32nd</durationType>
             <Articulation>
-              <subtype>articStaccatoAbove</subtype>
+              <subtype>articStaccatoBelow</subtype>
               <linkedMain/>
               </Articulation>
             <Note>
@@ -38165,7 +38200,7 @@
             <linkedMain/>
             <durationType>32nd</durationType>
             <Articulation>
-              <subtype>articStaccatoAbove</subtype>
+              <subtype>articStaccatoBelow</subtype>
               <linkedMain/>
               </Articulation>
             <Note>
@@ -38178,7 +38213,7 @@
             <linkedMain/>
             <durationType>32nd</durationType>
             <Articulation>
-              <subtype>articStaccatoAbove</subtype>
+              <subtype>articStaccatoBelow</subtype>
               <linkedMain/>
               </Articulation>
             <Note>
@@ -38198,7 +38233,7 @@
                 </prev>
               </Spanner>
             <Articulation>
-              <subtype>articStaccatoAbove</subtype>
+              <subtype>articStaccatoBelow</subtype>
               <linkedMain/>
               </Articulation>
             <Note>

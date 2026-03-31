@@ -11,7 +11,7 @@
     <rights>OpenScore (CC0)</rights>
     <encoding>
       <software>MuseScore 3.6.2</software>
-      <encoding-date>2026-02-19</encoding-date>
+      <encoding-date>2026-03-03</encoding-date>
       <supports element="accidental" type="yes"/>
       <supports element="beam" type="yes"/>
       <supports element="print" attribute="new-page" type="yes" value="yes"/>
@@ -17716,7 +17716,7 @@
         <type>quarter</type>
         <stem>up</stem>
         <notations>
-          <slur type="start" placement="above" number="1"/>
+          <slur type="start" placement="below" number="1"/>
           </notations>
         </note>
       <note default-x="82.33" default-y="-30.00">
@@ -77280,7 +77280,7 @@
         <type>quarter</type>
         <stem>up</stem>
         <notations>
-          <slur type="start" placement="above" number="1"/>
+          <slur type="start" placement="below" number="1"/>
           </notations>
         </note>
       <note default-x="66.88" default-y="-237.42">
@@ -77314,7 +77314,7 @@
         <duration>240</duration>
         <voice>1</voice>
         <type>quarter</type>
-        <stem>down</stem>
+        <stem>up</stem>
         <notations>
           <slur type="stop" number="1"/>
           </notations>
@@ -81614,9 +81614,9 @@
         <voice>1</voice>
         <type>quarter</type>
         <accidental>natural</accidental>
-        <stem>up</stem>
+        <stem>down</stem>
         <notations>
-          <slur type="start" placement="below" number="1"/>
+          <slur type="start" placement="above" number="1"/>
           </notations>
         </note>
       <note default-x="71.70" default-y="-223.21">
@@ -95796,7 +95796,7 @@
         <type>quarter</type>
         <stem>up</stem>
         <notations>
-          <slur type="start" placement="below" number="1"/>
+          <slur type="start" placement="above" number="1"/>
           </notations>
         </note>
       </measure>

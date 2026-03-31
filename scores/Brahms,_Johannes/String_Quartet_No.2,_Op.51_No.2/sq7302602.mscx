@@ -6272,6 +6272,7 @@
                 <SlurSegment no="0">
                   <o1 x="0" y="-1"/>
                   </SlurSegment>
+                <up>down</up>
                 </Slur>
               <next>
                 <location>
@@ -10557,6 +10558,7 @@
             <Spanner type="Slur">
               <Slur>
                 <linkedMain/>
+                <up>down</up>
                 </Slur>
               <next>
                 <location>
@@ -16254,6 +16256,7 @@
             <Spanner type="Slur">
               <Slur>
                 <linkedMain/>
+                <up>down</up>
                 </Slur>
               <next>
                 <location>
@@ -19311,6 +19314,9 @@
               <tpc>24</tpc>
               </Note>
             </Chord>
+          <Beam>
+            <StemDirection>up</StemDirection>
+            </Beam>
           <Chord>
             <linkedMain/>
             <durationType>eighth</durationType>
@@ -20192,6 +20198,7 @@
             <Spanner type="Slur">
               <Slur>
                 <linkedMain/>
+                <up>down</up>
                 </Slur>
               <next>
                 <location>
@@ -28211,6 +28218,9 @@
               <tpc>26</tpc>
               </Note>
             </Chord>
+          <Beam>
+            <StemDirection>down</StemDirection>
+            </Beam>
           <Chord>
             <linkedMain/>
             <durationType>eighth</durationType>
@@ -39033,6 +39043,7 @@
             </Chord>
           <Chord>
             <linkedMain/>
+            <BeamMode>mid</BeamMode>
             <dots>1</dots>
             <durationType>eighth</durationType>
             <Spanner type="Slur">
@@ -43310,6 +43321,7 @@
             <Spanner type="Slur">
               <Slur>
                 <linkedMain/>
+                <up>down</up>
                 </Slur>
               <next>
                 <location>
@@ -43551,6 +43563,7 @@
             <Spanner type="Slur">
               <Slur>
                 <linkedMain/>
+                <up>down</up>
                 </Slur>
               <next>
                 <location>
@@ -50435,6 +50448,7 @@
             <Spanner type="Slur">
               <Slur>
                 <linkedMain/>
+                <up>up</up>
                 </Slur>
               <next>
                 <location>
@@ -54139,6 +54153,7 @@
             <Spanner type="Slur">
               <Slur>
                 <linkedMain/>
+                <up>up</up>
                 </Slur>
               <next>
                 <location>
@@ -75823,6 +75838,7 @@
             <Spanner type="Slur">
               <Slur>
                 <linkedMain/>
+                <up>up</up>
                 </Slur>
               <next>
                 <location>
@@ -83979,6 +83995,7 @@
             <Spanner type="Slur">
               <Slur>
                 <linkedMain/>
+                <up>down</up>
                 </Slur>
               <next>
                 <location>
@@ -90346,6 +90363,7 @@
             <Spanner type="Slur">
               <Slur>
                 <linkedMain/>
+                <up>down</up>
                 </Slur>
               <next>
                 <location>
@@ -90587,6 +90605,7 @@
             <Spanner type="Slur">
               <Slur>
                 <linkedMain/>
+                <up>down</up>
                 </Slur>
               <next>
                 <location>
@@ -103498,6 +103517,9 @@
         </Measure>
       <Measure>
         <voice>
+          <Beam>
+            <StemDirection>down</StemDirection>
+            </Beam>
           <Chord>
             <linkedMain/>
             <durationType>eighth</durationType>
@@ -129129,6 +129151,7 @@
             <Spanner type="Slur">
               <Slur>
                 <linkedMain/>
+                <up>down</up>
                 </Slur>
               <next>
                 <location>
@@ -131951,6 +131974,7 @@
             <Spanner type="Slur">
               <Slur>
                 <linkedMain/>
+                <up>down</up>
                 </Slur>
               <next>
                 <location>
@@ -137742,6 +137766,9 @@
         </Measure>
       <Measure>
         <voice>
+          <Beam>
+            <StemDirection>down</StemDirection>
+            </Beam>
           <Chord>
             <linkedMain/>
             <durationType>eighth</durationType>
@@ -141784,6 +141811,7 @@
             <Spanner type="Slur">
               <Slur>
                 <linkedMain/>
+                <up>down</up>
                 </Slur>
               <next>
                 <location>
@@ -149471,6 +149499,11 @@
               <tpc>13</tpc>
               </Note>
             </Chord>
+          <Clef>
+            <concertClefType>G</concertClefType>
+            <transposingClefType>G</transposingClefType>
+            <linkedMain/>
+            </Clef>
           </voice>
         </Measure>
       <Measure>
@@ -149627,6 +149660,11 @@
               <tpc>15</tpc>
               </Note>
             </Chord>
+          <Clef>
+            <concertClefType>C3</concertClefType>
+            <transposingClefType>C3</transposingClefType>
+            <linkedMain/>
+            </Clef>
           <Spanner type="HairPin">
             <prev>
               <location>
@@ -151908,6 +151946,11 @@
               <tpc>14</tpc>
               </Note>
             </Chord>
+          <Clef>
+            <concertClefType>G</concertClefType>
+            <transposingClefType>G</transposingClefType>
+            <linkedMain/>
+            </Clef>
           <Tuplet>
             <linkedMain/>
             <normalNotes>2</normalNotes>
@@ -152003,6 +152046,11 @@
               </Note>
             </Chord>
           <endTuplet/>
+          <Clef>
+            <concertClefType>C3</concertClefType>
+            <transposingClefType>C3</transposingClefType>
+            <linkedMain/>
+            </Clef>
           </voice>
         </Measure>
       <Measure>
@@ -155564,6 +155612,7 @@
             <Spanner type="Slur">
               <Slur>
                 <linkedMain/>
+                <up>up</up>
                 </Slur>
               <next>
                 <location>
@@ -157912,7 +157961,7 @@
             <Spanner type="Slur">
               <Slur>
                 <linkedMain/>
-                <up>down</up>
+                <up>up</up>
                 </Slur>
               <next>
                 <location>
@@ -165699,6 +165748,11 @@
               <tpc>12</tpc>
               </Note>
             </Chord>
+          <Clef>
+            <concertClefType>G</concertClefType>
+            <transposingClefType>G</transposingClefType>
+            <linkedMain/>
+            </Clef>
           <Dynamic>
             <subtype>f</subtype>
             <velocity>96</velocity>
@@ -165791,6 +165845,11 @@
               <tpc>18</tpc>
               </Note>
             </Chord>
+          <Clef>
+            <concertClefType>C3</concertClefType>
+            <transposingClefType>C3</transposingClefType>
+            <linkedMain/>
+            </Clef>
           </voice>
         </Measure>
       <Measure>
@@ -177671,6 +177730,11 @@
             <linkedMain/>
             <durationType>quarter</durationType>
             </Rest>
+          <Clef>
+            <concertClefType>G</concertClefType>
+            <transposingClefType>G</transposingClefType>
+            <linkedMain/>
+            </Clef>
           </voice>
         </Measure>
       <Measure>
@@ -177860,6 +177924,11 @@
             <linkedMain/>
             <durationType>eighth</durationType>
             </Rest>
+          <Clef>
+            <concertClefType>C3</concertClefType>
+            <transposingClefType>C3</transposingClefType>
+            <linkedMain/>
+            </Clef>
           <Chord>
             <linkedMain/>
             <durationType>eighth</durationType>
@@ -180648,6 +180717,9 @@
               <tpc>16</tpc>
               </Note>
             </Chord>
+          <Beam>
+            <StemDirection>down</StemDirection>
+            </Beam>
           <Chord>
             <linkedMain/>
             <durationType>eighth</durationType>
@@ -180697,7 +180769,7 @@
             <linkedMain/>
             <durationType>eighth</durationType>
             <Articulation>
-              <subtype>articStaccatoBelow</subtype>
+              <subtype>articStaccatoAbove</subtype>
               <linkedMain/>
               </Articulation>
             <Note>
@@ -180717,7 +180789,7 @@
                 </prev>
               </Spanner>
             <Articulation>
-              <subtype>articStaccatoBelow</subtype>
+              <subtype>articStaccatoAbove</subtype>
               <linkedMain/>
               </Articulation>
             <Note>
@@ -183393,6 +183465,11 @@
             <linkedMain/>
             <durationType>quarter</durationType>
             </Rest>
+          <Clef>
+            <concertClefType>G</concertClefType>
+            <transposingClefType>G</transposingClefType>
+            <linkedMain/>
+            </Clef>
           </voice>
         </Measure>
       <Measure>
@@ -183465,6 +183542,11 @@
               <tpc>14</tpc>
               </Note>
             </Chord>
+          <Clef>
+            <concertClefType>C3</concertClefType>
+            <transposingClefType>C3</transposingClefType>
+            <linkedMain/>
+            </Clef>
           <Tuplet>
             <linkedMain/>
             <normalNotes>2</normalNotes>
@@ -184200,6 +184282,11 @@
         </Measure>
       <Measure>
         <voice>
+          <Clef>
+            <concertClefType>G</concertClefType>
+            <transposingClefType>G</transposingClefType>
+            <linkedMain/>
+            </Clef>
           <Dynamic>
             <subtype>other-dynamics</subtype>
             <velocity>49</velocity>
@@ -184305,7 +184392,7 @@
                 </next>
               </Spanner>
             <Articulation>
-              <subtype>articStaccatoAbove</subtype>
+              <subtype>articStaccatoBelow</subtype>
               <linkedMain/>
               </Articulation>
             <Note>
@@ -184318,7 +184405,7 @@
             <linkedMain/>
             <durationType>eighth</durationType>
             <Articulation>
-              <subtype>articStaccatoAbove</subtype>
+              <subtype>articStaccatoBelow</subtype>
               <linkedMain/>
               </Articulation>
             <Note>
@@ -184338,7 +184425,7 @@
                 </prev>
               </Spanner>
             <Articulation>
-              <subtype>articStaccatoAbove</subtype>
+              <subtype>articStaccatoBelow</subtype>
               <linkedMain/>
               </Articulation>
             <Note>
@@ -184645,6 +184732,11 @@
               <tpc>12</tpc>
               </Note>
             </Chord>
+          <Clef>
+            <concertClefType>C3</concertClefType>
+            <transposingClefType>C3</transposingClefType>
+            <linkedMain/>
+            </Clef>
           <Chord>
             <linkedMain/>
             <durationType>quarter</durationType>
@@ -184766,6 +184858,11 @@
               <tpc>18</tpc>
               </Note>
             </Chord>
+          <Clef>
+            <concertClefType>G</concertClefType>
+            <transposingClefType>G</transposingClefType>
+            <linkedMain/>
+            </Clef>
           </voice>
         </Measure>
       <Measure>
@@ -184870,7 +184967,7 @@
             <linkedMain/>
             <durationType>eighth</durationType>
             <Articulation>
-              <subtype>articStaccatoAbove</subtype>
+              <subtype>articStaccatoBelow</subtype>
               <linkedMain/>
               </Articulation>
             <Note>
@@ -184883,7 +184980,7 @@
             <linkedMain/>
             <durationType>eighth</durationType>
             <Articulation>
-              <subtype>articStaccatoAbove</subtype>
+              <subtype>articStaccatoBelow</subtype>
               <linkedMain/>
               </Articulation>
             <Note>
@@ -184897,7 +184994,7 @@
             <BeamMode>mid</BeamMode>
             <durationType>eighth</durationType>
             <Articulation>
-              <subtype>articStaccatoAbove</subtype>
+              <subtype>articStaccatoBelow</subtype>
               <linkedMain/>
               </Articulation>
             <Note>
@@ -184910,7 +185007,7 @@
             <linkedMain/>
             <durationType>eighth</durationType>
             <Articulation>
-              <subtype>articStaccatoAbove</subtype>
+              <subtype>articStaccatoBelow</subtype>
               <linkedMain/>
               </Articulation>
             <Note>
@@ -184933,7 +185030,7 @@
             <linkedMain/>
             <durationType>eighth</durationType>
             <Articulation>
-              <subtype>articStaccatoAbove</subtype>
+              <subtype>articStaccatoBelow</subtype>
               <linkedMain/>
               </Articulation>
             <Note>
@@ -184946,7 +185043,7 @@
             <linkedMain/>
             <durationType>eighth</durationType>
             <Articulation>
-              <subtype>articStaccatoAbove</subtype>
+              <subtype>articStaccatoBelow</subtype>
               <linkedMain/>
               </Articulation>
             <Note>
@@ -184959,7 +185056,7 @@
             <linkedMain/>
             <durationType>eighth</durationType>
             <Articulation>
-              <subtype>articStaccatoAbove</subtype>
+              <subtype>articStaccatoBelow</subtype>
               <linkedMain/>
               </Articulation>
             <Note>
@@ -184977,7 +185074,7 @@
             <linkedMain/>
             <durationType>eighth</durationType>
             <Articulation>
-              <subtype>articStaccatoAbove</subtype>
+              <subtype>articStaccatoBelow</subtype>
               <linkedMain/>
               </Articulation>
             <Note>
@@ -184993,7 +185090,7 @@
             <linkedMain/>
             <durationType>eighth</durationType>
             <Articulation>
-              <subtype>articStaccatoAbove</subtype>
+              <subtype>articStaccatoBelow</subtype>
               <linkedMain/>
               </Articulation>
             <Note>
@@ -185007,7 +185104,7 @@
             <BeamMode>mid</BeamMode>
             <durationType>eighth</durationType>
             <Articulation>
-              <subtype>articStaccatoAbove</subtype>
+              <subtype>articStaccatoBelow</subtype>
               <linkedMain/>
               </Articulation>
             <Note>
@@ -185020,7 +185117,7 @@
             <linkedMain/>
             <durationType>eighth</durationType>
             <Articulation>
-              <subtype>articStaccatoAbove</subtype>
+              <subtype>articStaccatoBelow</subtype>
               <linkedMain/>
               </Articulation>
             <Note>
@@ -185191,7 +185288,7 @@
             <linkedMain/>
             <durationType>eighth</durationType>
             <Articulation>
-              <subtype>articStaccatoAbove</subtype>
+              <subtype>articStaccatoBelow</subtype>
               <linkedMain/>
               </Articulation>
             <Note>
@@ -185204,7 +185301,7 @@
             <linkedMain/>
             <durationType>eighth</durationType>
             <Articulation>
-              <subtype>articStaccatoAbove</subtype>
+              <subtype>articStaccatoBelow</subtype>
               <linkedMain/>
               </Articulation>
             <Note>
@@ -185217,7 +185314,7 @@
             <linkedMain/>
             <durationType>eighth</durationType>
             <Articulation>
-              <subtype>articStaccatoAbove</subtype>
+              <subtype>articStaccatoBelow</subtype>
               <linkedMain/>
               </Articulation>
             <Note>
@@ -185290,6 +185387,11 @@
               <tpc>19</tpc>
               </Note>
             </Chord>
+          <Clef>
+            <concertClefType>C3</concertClefType>
+            <transposingClefType>C3</transposingClefType>
+            <linkedMain/>
+            </Clef>
           <Tuplet>
             <linkedMain/>
             <normalNotes>2</normalNotes>
@@ -186963,6 +187065,11 @@
               <tpc>21</tpc>
               </Note>
             </Chord>
+          <Clef>
+            <concertClefType>G</concertClefType>
+            <transposingClefType>G</transposingClefType>
+            <linkedMain/>
+            </Clef>
           <Dynamic>
             <subtype>p</subtype>
             <velocity>49</velocity>
@@ -187374,6 +187481,9 @@
               <tpc>21</tpc>
               </Note>
             </Chord>
+          <Beam>
+            <StemDirection>up</StemDirection>
+            </Beam>
           <Chord>
             <linkedMain/>
             <durationType>16th</durationType>
@@ -187445,6 +187555,9 @@
                 </location>
               </next>
             </Spanner>
+          <Beam>
+            <StemDirection>up</StemDirection>
+            </Beam>
           <Chord>
             <linkedMain/>
             <durationType>16th</durationType>
@@ -187698,6 +187811,11 @@
             <linkedMain/>
             <durationType>quarter</durationType>
             </Rest>
+          <Clef>
+            <concertClefType>C3</concertClefType>
+            <transposingClefType>C3</transposingClefType>
+            <linkedMain/>
+            </Clef>
           </voice>
         </Measure>
       <Measure>
@@ -189444,6 +189562,9 @@
         </Measure>
       <Measure>
         <voice>
+          <Beam>
+            <StemDirection>down</StemDirection>
+            </Beam>
           <Chord>
             <linkedMain/>
             <durationType>eighth</durationType>
@@ -194007,6 +194128,11 @@
             <linkedMain/>
             <durationType>quarter</durationType>
             </Rest>
+          <Clef>
+            <concertClefType>G</concertClefType>
+            <transposingClefType>G</transposingClefType>
+            <linkedMain/>
+            </Clef>
           </voice>
         </Measure>
       <Measure>
@@ -194079,6 +194205,11 @@
               <tpc>14</tpc>
               </Note>
             </Chord>
+          <Clef>
+            <concertClefType>C3</concertClefType>
+            <transposingClefType>C3</transposingClefType>
+            <linkedMain/>
+            </Clef>
           <Tuplet>
             <linkedMain/>
             <normalNotes>2</normalNotes>
@@ -194828,6 +194959,11 @@
               <tpc>18</tpc>
               </Note>
             </Chord>
+          <Clef>
+            <concertClefType>G</concertClefType>
+            <transposingClefType>G</transposingClefType>
+            <linkedMain/>
+            </Clef>
           <BarLine>
             <subtype>double</subtype>
             <linkedMain/>
@@ -194836,11 +194972,6 @@
         </Measure>
       <Measure>
         <voice>
-          <Clef>
-            <concertClefType>G</concertClefType>
-            <transposingClefType>G</transposingClefType>
-            <linkedMain/>
-            </Clef>
           <Dynamic>
             <subtype>other-dynamics</subtype>
             <velocity>49</velocity>
@@ -195416,6 +195547,11 @@
               <tpc>18</tpc>
               </Note>
             </Chord>
+          <Clef>
+            <concertClefType>G</concertClefType>
+            <transposingClefType>G</transposingClefType>
+            <linkedMain/>
+            </Clef>
           </voice>
         </Measure>
       <Measure>
@@ -195520,7 +195656,7 @@
             <linkedMain/>
             <durationType>eighth</durationType>
             <Articulation>
-              <subtype>articStaccatoAbove</subtype>
+              <subtype>articStaccatoBelow</subtype>
               <linkedMain/>
               </Articulation>
             <Note>
@@ -195533,7 +195669,7 @@
             <linkedMain/>
             <durationType>eighth</durationType>
             <Articulation>
-              <subtype>articStaccatoAbove</subtype>
+              <subtype>articStaccatoBelow</subtype>
               <linkedMain/>
               </Articulation>
             <Note>
@@ -195547,7 +195683,7 @@
             <BeamMode>mid</BeamMode>
             <durationType>eighth</durationType>
             <Articulation>
-              <subtype>articStaccatoAbove</subtype>
+              <subtype>articStaccatoBelow</subtype>
               <linkedMain/>
               </Articulation>
             <Note>
@@ -195560,7 +195696,7 @@
             <linkedMain/>
             <durationType>eighth</durationType>
             <Articulation>
-              <subtype>articStaccatoAbove</subtype>
+              <subtype>articStaccatoBelow</subtype>
               <linkedMain/>
               </Articulation>
             <Note>
@@ -195583,7 +195719,7 @@
             <linkedMain/>
             <durationType>eighth</durationType>
             <Articulation>
-              <subtype>articStaccatoAbove</subtype>
+              <subtype>articStaccatoBelow</subtype>
               <linkedMain/>
               </Articulation>
             <Note>
@@ -195596,7 +195732,7 @@
             <linkedMain/>
             <durationType>eighth</durationType>
             <Articulation>
-              <subtype>articStaccatoAbove</subtype>
+              <subtype>articStaccatoBelow</subtype>
               <linkedMain/>
               </Articulation>
             <Note>
@@ -195609,7 +195745,7 @@
             <linkedMain/>
             <durationType>eighth</durationType>
             <Articulation>
-              <subtype>articStaccatoAbove</subtype>
+              <subtype>articStaccatoBelow</subtype>
               <linkedMain/>
               </Articulation>
             <Note>
@@ -195627,7 +195763,7 @@
             <linkedMain/>
             <durationType>eighth</durationType>
             <Articulation>
-              <subtype>articStaccatoAbove</subtype>
+              <subtype>articStaccatoBelow</subtype>
               <linkedMain/>
               </Articulation>
             <Note>
@@ -195643,7 +195779,7 @@
             <linkedMain/>
             <durationType>eighth</durationType>
             <Articulation>
-              <subtype>articStaccatoAbove</subtype>
+              <subtype>articStaccatoBelow</subtype>
               <linkedMain/>
               </Articulation>
             <Note>
@@ -195657,7 +195793,7 @@
             <BeamMode>mid</BeamMode>
             <durationType>eighth</durationType>
             <Articulation>
-              <subtype>articStaccatoAbove</subtype>
+              <subtype>articStaccatoBelow</subtype>
               <linkedMain/>
               </Articulation>
             <Note>
@@ -195670,7 +195806,7 @@
             <linkedMain/>
             <durationType>eighth</durationType>
             <Articulation>
-              <subtype>articStaccatoAbove</subtype>
+              <subtype>articStaccatoBelow</subtype>
               <linkedMain/>
               </Articulation>
             <Note>
@@ -195841,7 +195977,7 @@
             <linkedMain/>
             <durationType>eighth</durationType>
             <Articulation>
-              <subtype>articStaccatoAbove</subtype>
+              <subtype>articStaccatoBelow</subtype>
               <linkedMain/>
               </Articulation>
             <Note>
@@ -195854,7 +195990,7 @@
             <linkedMain/>
             <durationType>eighth</durationType>
             <Articulation>
-              <subtype>articStaccatoAbove</subtype>
+              <subtype>articStaccatoBelow</subtype>
               <linkedMain/>
               </Articulation>
             <Note>
@@ -195867,7 +196003,7 @@
             <linkedMain/>
             <durationType>eighth</durationType>
             <Articulation>
-              <subtype>articStaccatoAbove</subtype>
+              <subtype>articStaccatoBelow</subtype>
               <linkedMain/>
               </Articulation>
             <Note>
@@ -195940,6 +196076,11 @@
               <tpc>19</tpc>
               </Note>
             </Chord>
+          <Clef>
+            <concertClefType>C3</concertClefType>
+            <transposingClefType>C3</transposingClefType>
+            <linkedMain/>
+            </Clef>
           <Tuplet>
             <linkedMain/>
             <normalNotes>2</normalNotes>
@@ -201243,6 +201384,11 @@
               <tpc>17</tpc>
               </Note>
             </Chord>
+          <Clef>
+            <concertClefType>G</concertClefType>
+            <transposingClefType>G</transposingClefType>
+            <linkedMain/>
+            </Clef>
           </voice>
         </Measure>
       <Measure>
@@ -201767,6 +201913,11 @@
               <tpc>17</tpc>
               </Note>
             </Chord>
+          <Clef>
+            <concertClefType>C3</concertClefType>
+            <transposingClefType>C3</transposingClefType>
+            <linkedMain/>
+            </Clef>
           </voice>
         </Measure>
       <Measure>
@@ -211756,6 +211907,11 @@
               <tpc>20</tpc>
               </Note>
             </Chord>
+          <Clef>
+            <concertClefType>G</concertClefType>
+            <transposingClefType>G</transposingClefType>
+            <linkedMain/>
+            </Clef>
           </voice>
         </Measure>
       <Measure>
@@ -212246,6 +212402,11 @@
               <tpc>20</tpc>
               </Note>
             </Chord>
+          <Clef>
+            <concertClefType>C3</concertClefType>
+            <transposingClefType>C3</transposingClefType>
+            <linkedMain/>
+            </Clef>
           </voice>
         </Measure>
       <Measure>
@@ -239771,6 +239932,7 @@
             <Spanner type="Slur">
               <Slur>
                 <linkedMain/>
+                <up>down</up>
                 </Slur>
               <next>
                 <location>
@@ -241095,6 +241257,11 @@
               <tpc>18</tpc>
               </Note>
             </Chord>
+          <Clef>
+            <concertClefType>C4</concertClefType>
+            <transposingClefType>C4</transposingClefType>
+            <linkedMain/>
+            </Clef>
           <Spanner type="HairPin">
             <HairPin>
               <subtype>0</subtype>
@@ -241693,6 +241860,11 @@
               <tpc>17</tpc>
               </Note>
             </Chord>
+          <Clef>
+            <concertClefType>F</concertClefType>
+            <transposingClefType>F</transposingClefType>
+            <linkedMain/>
+            </Clef>
           <Spanner type="HairPin">
             <HairPin>
               <subtype>0</subtype>
@@ -241894,6 +242066,9 @@
                 </location>
               </next>
             </Spanner>
+          <Beam>
+            <StemDirection>down</StemDirection>
+            </Beam>
           <Chord>
             <linkedMain/>
             <durationType>eighth</durationType>
@@ -241949,7 +242124,7 @@
             <linkedMain/>
             <durationType>eighth</durationType>
             <Articulation>
-              <subtype>articStaccatoBelow</subtype>
+              <subtype>articStaccatoAbove</subtype>
               <linkedMain/>
               </Articulation>
             <Note>
@@ -241972,7 +242147,7 @@
                 </prev>
               </Spanner>
             <Articulation>
-              <subtype>articStaccatoBelow</subtype>
+              <subtype>articStaccatoAbove</subtype>
               <linkedMain/>
               </Articulation>
             <Note>
@@ -242519,6 +242694,11 @@
               <tpc>17</tpc>
               </Note>
             </Chord>
+          <Clef>
+            <concertClefType>C4</concertClefType>
+            <transposingClefType>C4</transposingClefType>
+            <linkedMain/>
+            </Clef>
           <Chord>
             <linkedMain/>
             <durationType>quarter</durationType>
@@ -242636,6 +242816,11 @@
             <linkedMain/>
             <durationType>quarter</durationType>
             </Rest>
+          <Clef>
+            <concertClefType>F</concertClefType>
+            <transposingClefType>F</transposingClefType>
+            <linkedMain/>
+            </Clef>
           <Dynamic>
             <subtype>p</subtype>
             <velocity>49</velocity>
@@ -243000,6 +243185,11 @@
             <linkedMain/>
             <durationType>eighth</durationType>
             </Rest>
+          <Clef>
+            <concertClefType>C4</concertClefType>
+            <transposingClefType>C4</transposingClefType>
+            <linkedMain/>
+            </Clef>
           <Chord>
             <linkedMain/>
             <durationType>eighth</durationType>
@@ -243276,6 +243466,11 @@
               <tpc>17</tpc>
               </Note>
             </Chord>
+          <Clef>
+            <concertClefType>F</concertClefType>
+            <transposingClefType>F</transposingClefType>
+            <linkedMain/>
+            </Clef>
           <Chord>
             <linkedMain/>
             <durationType>eighth</durationType>
@@ -245331,6 +245526,7 @@
             <Spanner type="Slur">
               <Slur>
                 <linkedMain/>
+                <up>down</up>
                 </Slur>
               <next>
                 <location>
@@ -257833,6 +258029,9 @@
         </Measure>
       <Measure>
         <voice>
+          <Beam>
+            <StemDirection>down</StemDirection>
+            </Beam>
           <Chord>
             <linkedMain/>
             <durationType>eighth</durationType>
@@ -259067,6 +259266,11 @@
               <tpc>17</tpc>
               </Note>
             </Chord>
+          <Clef>
+            <concertClefType>C4</concertClefType>
+            <transposingClefType>C4</transposingClefType>
+            <linkedMain/>
+            </Clef>
           <Chord>
             <linkedMain/>
             <durationType>half</durationType>
@@ -259622,6 +259826,11 @@
             <linkedMain/>
             <durationType>quarter</durationType>
             </Rest>
+          <Clef>
+            <concertClefType>F</concertClefType>
+            <transposingClefType>F</transposingClefType>
+            <linkedMain/>
+            </Clef>
           </voice>
         </Measure>
       <Measure>
@@ -264541,6 +264750,9 @@
         </Measure>
       <Measure>
         <voice>
+          <Beam>
+            <StemDirection>down</StemDirection>
+            </Beam>
           <Chord>
             <linkedMain/>
             <durationType>eighth</durationType>
@@ -265885,7 +266097,7 @@
             <Spanner type="Slur">
               <Slur>
                 <linkedMain/>
-                <up>down</up>
+                <up>up</up>
                 </Slur>
               <next>
                 <location>
@@ -266321,6 +266533,11 @@
               <tpc>21</tpc>
               </Note>
             </Chord>
+          <Clef>
+            <concertClefType>C4</concertClefType>
+            <transposingClefType>C4</transposingClefType>
+            <linkedMain/>
+            </Clef>
           <BarLine>
             <subtype>double</subtype>
             <linkedMain/>
@@ -266847,6 +267064,11 @@
             <linkedMain/>
             <durationType>quarter</durationType>
             </Rest>
+          <Clef>
+            <concertClefType>F</concertClefType>
+            <transposingClefType>F</transposingClefType>
+            <linkedMain/>
+            </Clef>
           <Dynamic>
             <subtype>f</subtype>
             <velocity>96</velocity>
@@ -269441,6 +269663,11 @@
             <linkedMain/>
             <durationType>quarter</durationType>
             </Rest>
+          <Clef>
+            <concertClefType>C4</concertClefType>
+            <transposingClefType>C4</transposingClefType>
+            <linkedMain/>
+            </Clef>
           </voice>
         </Measure>
       <Measure>
@@ -270059,6 +270286,11 @@
             <linkedMain/>
             <durationType>quarter</durationType>
             </Rest>
+          <Clef>
+            <concertClefType>F</concertClefType>
+            <transposingClefType>F</transposingClefType>
+            <linkedMain/>
+            </Clef>
           <Chord>
             <linkedMain/>
             <durationType>quarter</durationType>
@@ -270678,6 +270910,11 @@
             <durationType>measure</durationType>
             <duration>3/4</duration>
             </Rest>
+          <Clef>
+            <concertClefType>C4</concertClefType>
+            <transposingClefType>C4</transposingClefType>
+            <linkedMain/>
+            </Clef>
           </voice>
         </Measure>
       <Measure>
@@ -270828,6 +271065,11 @@
               <tpc>17</tpc>
               </Note>
             </Chord>
+          <Clef>
+            <concertClefType>F</concertClefType>
+            <transposingClefType>F</transposingClefType>
+            <linkedMain/>
+            </Clef>
           </voice>
         </Measure>
       <Measure>
@@ -316067,6 +316309,7 @@
             <Chord>
               <linked>
                 </linked>
+              <BeamMode>mid</BeamMode>
               <dots>1</dots>
               <durationType>eighth</durationType>
               <Spanner type="Slur">
@@ -445649,6 +445892,12 @@
                 <tpc>13</tpc>
                 </Note>
               </Chord>
+            <Clef>
+              <concertClefType>G</concertClefType>
+              <transposingClefType>G</transposingClefType>
+              <linked>
+                </linked>
+              </Clef>
             </voice>
           </Measure>
         <Measure>
@@ -445832,6 +446081,12 @@
                 <tpc>15</tpc>
                 </Note>
               </Chord>
+            <Clef>
+              <concertClefType>C3</concertClefType>
+              <transposingClefType>C3</transposingClefType>
+              <linked>
+                </linked>
+              </Clef>
             <Spanner type="HairPin">
               <prev>
                 <location>
@@ -448484,6 +448739,12 @@
             <location>
               <fractions>1/6</fractions>
               </location>
+            <Clef>
+              <concertClefType>G</concertClefType>
+              <transposingClefType>G</transposingClefType>
+              <linked>
+                </linked>
+              </Clef>
             <Tempo>
               <tempo>2.3449999999999998</tempo>
               <followText>1</followText>
@@ -448630,6 +448891,12 @@
                 </Note>
               </Chord>
             <endTuplet/>
+            <Clef>
+              <concertClefType>C3</concertClefType>
+              <transposingClefType>C3</transposingClefType>
+              <linked>
+                </linked>
+              </Clef>
             </voice>
           </Measure>
         <Measure>
@@ -464812,6 +465079,12 @@
                 <tpc>12</tpc>
                 </Note>
               </Chord>
+            <Clef>
+              <concertClefType>G</concertClefType>
+              <transposingClefType>G</transposingClefType>
+              <linked>
+                </linked>
+              </Clef>
             <Dynamic>
               <subtype>f</subtype>
               <velocity>96</velocity>
@@ -464919,6 +465192,12 @@
                 <tpc>18</tpc>
                 </Note>
               </Chord>
+            <Clef>
+              <concertClefType>C3</concertClefType>
+              <transposingClefType>C3</transposingClefType>
+              <linked>
+                </linked>
+              </Clef>
             </voice>
           </Measure>
         <Measure>
@@ -478610,6 +478889,12 @@
                 </linked>
               <durationType>quarter</durationType>
               </Rest>
+            <Clef>
+              <concertClefType>G</concertClefType>
+              <transposingClefType>G</transposingClefType>
+              <linked>
+                </linked>
+              </Clef>
             </voice>
           </Measure>
         <Measure>
@@ -478830,6 +479115,12 @@
                 </linked>
               <durationType>eighth</durationType>
               </Rest>
+            <Clef>
+              <concertClefType>C3</concertClefType>
+              <transposingClefType>C3</transposingClefType>
+              <linked>
+                </linked>
+              </Clef>
             <Chord>
               <linked>
                 </linked>
@@ -485236,6 +485527,12 @@
                 </linked>
               <durationType>quarter</durationType>
               </Rest>
+            <Clef>
+              <concertClefType>G</concertClefType>
+              <transposingClefType>G</transposingClefType>
+              <linked>
+                </linked>
+              </Clef>
             </voice>
           </Measure>
         <Measure>
@@ -485319,6 +485616,12 @@
                 <tpc>14</tpc>
                 </Note>
               </Chord>
+            <Clef>
+              <concertClefType>C3</concertClefType>
+              <transposingClefType>C3</transposingClefType>
+              <linked>
+                </linked>
+              </Clef>
             <Tuplet>
               <linked>
                 </linked>
@@ -486162,6 +486465,12 @@
           </Measure>
         <Measure>
           <voice>
+            <Clef>
+              <concertClefType>G</concertClefType>
+              <transposingClefType>G</transposingClefType>
+              <linked>
+                </linked>
+              </Clef>
             <Dynamic>
               <subtype>other-dynamics</subtype>
               <velocity>49</velocity>
@@ -486281,7 +486590,7 @@
                   </next>
                 </Spanner>
               <Articulation>
-                <subtype>articStaccatoAbove</subtype>
+                <subtype>articStaccatoBelow</subtype>
                 <linked>
                   </linked>
                 </Articulation>
@@ -486297,7 +486606,7 @@
                 </linked>
               <durationType>eighth</durationType>
               <Articulation>
-                <subtype>articStaccatoAbove</subtype>
+                <subtype>articStaccatoBelow</subtype>
                 <linked>
                   </linked>
                 </Articulation>
@@ -486320,7 +486629,7 @@
                   </prev>
                 </Spanner>
               <Articulation>
-                <subtype>articStaccatoAbove</subtype>
+                <subtype>articStaccatoBelow</subtype>
                 <linked>
                   </linked>
                 </Articulation>
@@ -486673,6 +486982,12 @@
                 <tpc>12</tpc>
                 </Note>
               </Chord>
+            <Clef>
+              <concertClefType>C3</concertClefType>
+              <transposingClefType>C3</transposingClefType>
+              <linked>
+                </linked>
+              </Clef>
             <Chord>
               <linked>
                 </linked>
@@ -486812,6 +487127,12 @@
                 <tpc>18</tpc>
                 </Note>
               </Chord>
+            <Clef>
+              <concertClefType>G</concertClefType>
+              <transposingClefType>G</transposingClefType>
+              <linked>
+                </linked>
+              </Clef>
             </voice>
           </Measure>
         <Measure>
@@ -486936,7 +487257,7 @@
                 </linked>
               <durationType>eighth</durationType>
               <Articulation>
-                <subtype>articStaccatoAbove</subtype>
+                <subtype>articStaccatoBelow</subtype>
                 <linked>
                   </linked>
                 </Articulation>
@@ -486952,7 +487273,7 @@
                 </linked>
               <durationType>eighth</durationType>
               <Articulation>
-                <subtype>articStaccatoAbove</subtype>
+                <subtype>articStaccatoBelow</subtype>
                 <linked>
                   </linked>
                 </Articulation>
@@ -486969,7 +487290,7 @@
               <BeamMode>mid</BeamMode>
               <durationType>eighth</durationType>
               <Articulation>
-                <subtype>articStaccatoAbove</subtype>
+                <subtype>articStaccatoBelow</subtype>
                 <linked>
                   </linked>
                 </Articulation>
@@ -486985,7 +487306,7 @@
                 </linked>
               <durationType>eighth</durationType>
               <Articulation>
-                <subtype>articStaccatoAbove</subtype>
+                <subtype>articStaccatoBelow</subtype>
                 <linked>
                   </linked>
                 </Articulation>
@@ -487012,7 +487333,7 @@
                 </linked>
               <durationType>eighth</durationType>
               <Articulation>
-                <subtype>articStaccatoAbove</subtype>
+                <subtype>articStaccatoBelow</subtype>
                 <linked>
                   </linked>
                 </Articulation>
@@ -487028,7 +487349,7 @@
                 </linked>
               <durationType>eighth</durationType>
               <Articulation>
-                <subtype>articStaccatoAbove</subtype>
+                <subtype>articStaccatoBelow</subtype>
                 <linked>
                   </linked>
                 </Articulation>
@@ -487044,7 +487365,7 @@
                 </linked>
               <durationType>eighth</durationType>
               <Articulation>
-                <subtype>articStaccatoAbove</subtype>
+                <subtype>articStaccatoBelow</subtype>
                 <linked>
                   </linked>
                 </Articulation>
@@ -487065,7 +487386,7 @@
                 </linked>
               <durationType>eighth</durationType>
               <Articulation>
-                <subtype>articStaccatoAbove</subtype>
+                <subtype>articStaccatoBelow</subtype>
                 <linked>
                   </linked>
                 </Articulation>
@@ -487084,7 +487405,7 @@
                 </linked>
               <durationType>eighth</durationType>
               <Articulation>
-                <subtype>articStaccatoAbove</subtype>
+                <subtype>articStaccatoBelow</subtype>
                 <linked>
                   </linked>
                 </Articulation>
@@ -487101,7 +487422,7 @@
               <BeamMode>mid</BeamMode>
               <durationType>eighth</durationType>
               <Articulation>
-                <subtype>articStaccatoAbove</subtype>
+                <subtype>articStaccatoBelow</subtype>
                 <linked>
                   </linked>
                 </Articulation>
@@ -487117,7 +487438,7 @@
                 </linked>
               <durationType>eighth</durationType>
               <Articulation>
-                <subtype>articStaccatoAbove</subtype>
+                <subtype>articStaccatoBelow</subtype>
                 <linked>
                   </linked>
                 </Articulation>
@@ -487326,7 +487647,7 @@
                 </linked>
               <durationType>eighth</durationType>
               <Articulation>
-                <subtype>articStaccatoAbove</subtype>
+                <subtype>articStaccatoBelow</subtype>
                 <linked>
                   </linked>
                 </Articulation>
@@ -487342,7 +487663,7 @@
                 </linked>
               <durationType>eighth</durationType>
               <Articulation>
-                <subtype>articStaccatoAbove</subtype>
+                <subtype>articStaccatoBelow</subtype>
                 <linked>
                   </linked>
                 </Articulation>
@@ -487358,7 +487679,7 @@
                 </linked>
               <durationType>eighth</durationType>
               <Articulation>
-                <subtype>articStaccatoAbove</subtype>
+                <subtype>articStaccatoBelow</subtype>
                 <linked>
                   </linked>
                 </Articulation>
@@ -487445,6 +487766,12 @@
                 <tpc>19</tpc>
                 </Note>
               </Chord>
+            <Clef>
+              <concertClefType>C3</concertClefType>
+              <transposingClefType>C3</transposingClefType>
+              <linked>
+                </linked>
+              </Clef>
             <Tuplet>
               <linked>
                 </linked>
@@ -489391,6 +489718,12 @@
                 <tpc>21</tpc>
                 </Note>
               </Chord>
+            <Clef>
+              <concertClefType>G</concertClefType>
+              <transposingClefType>G</transposingClefType>
+              <linked>
+                </linked>
+              </Clef>
             <Dynamic>
               <subtype>p</subtype>
               <velocity>49</velocity>
@@ -490257,6 +490590,12 @@
                 </linked>
               <durationType>quarter</durationType>
               </Rest>
+            <Clef>
+              <concertClefType>C3</concertClefType>
+              <transposingClefType>C3</transposingClefType>
+              <linked>
+                </linked>
+              </Clef>
             </voice>
           </Measure>
         <Measure>
@@ -497737,6 +498076,12 @@
                 </linked>
               <durationType>quarter</durationType>
               </Rest>
+            <Clef>
+              <concertClefType>G</concertClefType>
+              <transposingClefType>G</transposingClefType>
+              <linked>
+                </linked>
+              </Clef>
             </voice>
           </Measure>
         <Measure>
@@ -497820,6 +498165,12 @@
                 <tpc>14</tpc>
                 </Note>
               </Chord>
+            <Clef>
+              <concertClefType>C3</concertClefType>
+              <transposingClefType>C3</transposingClefType>
+              <linked>
+                </linked>
+              </Clef>
             <Tuplet>
               <linked>
                 </linked>
@@ -498674,6 +499025,12 @@
                 <tpc>18</tpc>
                 </Note>
               </Chord>
+            <Clef>
+              <concertClefType>G</concertClefType>
+              <transposingClefType>G</transposingClefType>
+              <linked>
+                </linked>
+              </Clef>
             <BarLine>
               <subtype>double</subtype>
               <linked>
@@ -498683,12 +499040,6 @@
           </Measure>
         <Measure>
           <voice>
-            <Clef>
-              <concertClefType>G</concertClefType>
-              <transposingClefType>G</transposingClefType>
-              <linked>
-                </linked>
-              </Clef>
             <RehearsalMark>
               <text>G</text>
               </RehearsalMark>
@@ -499352,6 +499703,12 @@
                 <tpc>18</tpc>
                 </Note>
               </Chord>
+            <Clef>
+              <concertClefType>G</concertClefType>
+              <transposingClefType>G</transposingClefType>
+              <linked>
+                </linked>
+              </Clef>
             </voice>
           </Measure>
         <Measure>
@@ -499479,7 +499836,7 @@
                 </linked>
               <durationType>eighth</durationType>
               <Articulation>
-                <subtype>articStaccatoAbove</subtype>
+                <subtype>articStaccatoBelow</subtype>
                 <linked>
                   </linked>
                 </Articulation>
@@ -499495,7 +499852,7 @@
                 </linked>
               <durationType>eighth</durationType>
               <Articulation>
-                <subtype>articStaccatoAbove</subtype>
+                <subtype>articStaccatoBelow</subtype>
                 <linked>
                   </linked>
                 </Articulation>
@@ -499512,7 +499869,7 @@
               <BeamMode>mid</BeamMode>
               <durationType>eighth</durationType>
               <Articulation>
-                <subtype>articStaccatoAbove</subtype>
+                <subtype>articStaccatoBelow</subtype>
                 <linked>
                   </linked>
                 </Articulation>
@@ -499528,7 +499885,7 @@
                 </linked>
               <durationType>eighth</durationType>
               <Articulation>
-                <subtype>articStaccatoAbove</subtype>
+                <subtype>articStaccatoBelow</subtype>
                 <linked>
                   </linked>
                 </Articulation>
@@ -499555,7 +499912,7 @@
                 </linked>
               <durationType>eighth</durationType>
               <Articulation>
-                <subtype>articStaccatoAbove</subtype>
+                <subtype>articStaccatoBelow</subtype>
                 <linked>
                   </linked>
                 </Articulation>
@@ -499571,7 +499928,7 @@
                 </linked>
               <durationType>eighth</durationType>
               <Articulation>
-                <subtype>articStaccatoAbove</subtype>
+                <subtype>articStaccatoBelow</subtype>
                 <linked>
                   </linked>
                 </Articulation>
@@ -499587,7 +499944,7 @@
                 </linked>
               <durationType>eighth</durationType>
               <Articulation>
-                <subtype>articStaccatoAbove</subtype>
+                <subtype>articStaccatoBelow</subtype>
                 <linked>
                   </linked>
                 </Articulation>
@@ -499608,7 +499965,7 @@
                 </linked>
               <durationType>eighth</durationType>
               <Articulation>
-                <subtype>articStaccatoAbove</subtype>
+                <subtype>articStaccatoBelow</subtype>
                 <linked>
                   </linked>
                 </Articulation>
@@ -499627,7 +499984,7 @@
                 </linked>
               <durationType>eighth</durationType>
               <Articulation>
-                <subtype>articStaccatoAbove</subtype>
+                <subtype>articStaccatoBelow</subtype>
                 <linked>
                   </linked>
                 </Articulation>
@@ -499644,7 +500001,7 @@
               <BeamMode>mid</BeamMode>
               <durationType>eighth</durationType>
               <Articulation>
-                <subtype>articStaccatoAbove</subtype>
+                <subtype>articStaccatoBelow</subtype>
                 <linked>
                   </linked>
                 </Articulation>
@@ -499660,7 +500017,7 @@
                 </linked>
               <durationType>eighth</durationType>
               <Articulation>
-                <subtype>articStaccatoAbove</subtype>
+                <subtype>articStaccatoBelow</subtype>
                 <linked>
                   </linked>
                 </Articulation>
@@ -499866,7 +500223,7 @@
                 </linked>
               <durationType>eighth</durationType>
               <Articulation>
-                <subtype>articStaccatoAbove</subtype>
+                <subtype>articStaccatoBelow</subtype>
                 <linked>
                   </linked>
                 </Articulation>
@@ -499882,7 +500239,7 @@
                 </linked>
               <durationType>eighth</durationType>
               <Articulation>
-                <subtype>articStaccatoAbove</subtype>
+                <subtype>articStaccatoBelow</subtype>
                 <linked>
                   </linked>
                 </Articulation>
@@ -499898,7 +500255,7 @@
                 </linked>
               <durationType>eighth</durationType>
               <Articulation>
-                <subtype>articStaccatoAbove</subtype>
+                <subtype>articStaccatoBelow</subtype>
                 <linked>
                   </linked>
                 </Articulation>
@@ -499985,6 +500342,12 @@
                 <tpc>19</tpc>
                 </Note>
               </Chord>
+            <Clef>
+              <concertClefType>C3</concertClefType>
+              <transposingClefType>C3</transposingClefType>
+              <linked>
+                </linked>
+              </Clef>
             <Tuplet>
               <linked>
                 </linked>
@@ -506178,6 +506541,12 @@
                 <tpc>17</tpc>
                 </Note>
               </Chord>
+            <Clef>
+              <concertClefType>G</concertClefType>
+              <transposingClefType>G</transposingClefType>
+              <linked>
+                </linked>
+              </Clef>
             </voice>
           </Measure>
         <Measure>
@@ -506779,6 +507148,12 @@
                 <tpc>17</tpc>
                 </Note>
               </Chord>
+            <Clef>
+              <concertClefType>C3</concertClefType>
+              <transposingClefType>C3</transposingClefType>
+              <linked>
+                </linked>
+              </Clef>
             </voice>
           </Measure>
         <Measure>
@@ -518429,6 +518804,12 @@
                 <tpc>20</tpc>
                 </Note>
               </Chord>
+            <Clef>
+              <concertClefType>G</concertClefType>
+              <transposingClefType>G</transposingClefType>
+              <linked>
+                </linked>
+              </Clef>
             </voice>
           </Measure>
         <Measure>
@@ -518996,6 +519377,12 @@
                 <tpc>20</tpc>
                 </Note>
               </Chord>
+            <Clef>
+              <concertClefType>C3</concertClefType>
+              <transposingClefType>C3</transposingClefType>
+              <linked>
+                </linked>
+              </Clef>
             </voice>
           </Measure>
         <Measure>
@@ -553616,6 +554003,12 @@
                 <tpc>18</tpc>
                 </Note>
               </Chord>
+            <Clef>
+              <concertClefType>C4</concertClefType>
+              <transposingClefType>C4</transposingClefType>
+              <linked>
+                </linked>
+              </Clef>
             <Spanner type="HairPin">
               <HairPin>
                 <subtype>0</subtype>
@@ -554307,6 +554700,12 @@
                 <tpc>17</tpc>
                 </Note>
               </Chord>
+            <Clef>
+              <concertClefType>F</concertClefType>
+              <transposingClefType>F</transposingClefType>
+              <linked>
+                </linked>
+              </Clef>
             <Spanner type="HairPin">
               <HairPin>
                 <subtype>0</subtype>
@@ -555252,6 +555651,12 @@
                 <tpc>17</tpc>
                 </Note>
               </Chord>
+            <Clef>
+              <concertClefType>C4</concertClefType>
+              <transposingClefType>C4</transposingClefType>
+              <linked>
+                </linked>
+              </Clef>
             <Chord>
               <linked>
                 </linked>
@@ -555390,6 +555795,12 @@
                 </linked>
               <durationType>quarter</durationType>
               </Rest>
+            <Clef>
+              <concertClefType>F</concertClefType>
+              <transposingClefType>F</transposingClefType>
+              <linked>
+                </linked>
+              </Clef>
             <Dynamic>
               <subtype>p</subtype>
               <velocity>49</velocity>
@@ -555810,6 +556221,12 @@
                 </linked>
               <durationType>eighth</durationType>
               </Rest>
+            <Clef>
+              <concertClefType>C4</concertClefType>
+              <transposingClefType>C4</transposingClefType>
+              <linked>
+                </linked>
+              </Clef>
             <Chord>
               <linked>
                 </linked>
@@ -556125,6 +556542,12 @@
                 <tpc>17</tpc>
                 </Note>
               </Chord>
+            <Clef>
+              <concertClefType>F</concertClefType>
+              <transposingClefType>F</transposingClefType>
+              <linked>
+                </linked>
+              </Clef>
             <Chord>
               <linked>
                 </linked>
@@ -567327,9 +567750,6 @@
               <durationType>quarter</durationType>
               <Spanner type="Slur">
                 <Slur>
-                  <SlurSegment no="0">
-                    <offset x="0" y="-1"/>
-                    </SlurSegment>
                   </Slur>
                 <next>
                   <location>
@@ -568402,9 +568822,6 @@
                 <Slur>
                   <linked>
                     </linked>
-                  <SlurSegment no="0">
-                    <offset x="0" y="-1"/>
-                    </SlurSegment>
                   </Slur>
                 <next>
                   <location>
@@ -568926,9 +569343,6 @@
                 <Slur>
                   <linked>
                     </linked>
-                  <SlurSegment no="0">
-                    <offset x="0" y="-1"/>
-                    </SlurSegment>
                   </Slur>
                 <next>
                   <location>
@@ -574608,6 +575022,12 @@
                 <tpc>17</tpc>
                 </Note>
               </Chord>
+            <Clef>
+              <concertClefType>C4</concertClefType>
+              <transposingClefType>C4</transposingClefType>
+              <linked>
+                </linked>
+              </Clef>
             <Chord>
               <linked>
                 </linked>
@@ -575248,6 +575668,12 @@
                 </linked>
               <durationType>quarter</durationType>
               </Rest>
+            <Clef>
+              <concertClefType>F</concertClefType>
+              <transposingClefType>F</transposingClefType>
+              <linked>
+                </linked>
+              </Clef>
             </voice>
           </Measure>
         <Measure>
@@ -583173,6 +583599,12 @@
                 <tpc>21</tpc>
                 </Note>
               </Chord>
+            <Clef>
+              <concertClefType>C4</concertClefType>
+              <transposingClefType>C4</transposingClefType>
+              <linked>
+                </linked>
+              </Clef>
             <BarLine>
               <subtype>double</subtype>
               <linked>
@@ -583785,6 +584217,12 @@
                 </linked>
               <durationType>quarter</durationType>
               </Rest>
+            <Clef>
+              <concertClefType>F</concertClefType>
+              <transposingClefType>F</transposingClefType>
+              <linked>
+                </linked>
+              </Clef>
             <Dynamic>
               <subtype>f</subtype>
               <velocity>96</velocity>
@@ -586783,6 +587221,12 @@
                 </linked>
               <durationType>quarter</durationType>
               </Rest>
+            <Clef>
+              <concertClefType>C4</concertClefType>
+              <transposingClefType>C4</transposingClefType>
+              <linked>
+                </linked>
+              </Clef>
             </voice>
           </Measure>
         <Measure>
@@ -587501,6 +587945,12 @@
                 </linked>
               <durationType>quarter</durationType>
               </Rest>
+            <Clef>
+              <concertClefType>F</concertClefType>
+              <transposingClefType>F</transposingClefType>
+              <linked>
+                </linked>
+              </Clef>
             <Chord>
               <linked>
                 </linked>
@@ -588216,6 +588666,12 @@
               <durationType>measure</durationType>
               <duration>3/4</duration>
               </Rest>
+            <Clef>
+              <concertClefType>C4</concertClefType>
+              <transposingClefType>C4</transposingClefType>
+              <linked>
+                </linked>
+              </Clef>
             </voice>
           </Measure>
         <Measure>
@@ -588392,6 +588848,12 @@
                 <tpc>17</tpc>
                 </Note>
               </Chord>
+            <Clef>
+              <concertClefType>F</concertClefType>
+              <transposingClefType>F</transposingClefType>
+              <linked>
+                </linked>
+              </Clef>
             </voice>
           </Measure>
         <Measure>

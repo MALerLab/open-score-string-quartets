@@ -1243,7 +1243,7 @@
               </Note>
             </Chord>
           <Beam>
-            <StemDirection>down</StemDirection>
+            <StemDirection>up</StemDirection>
             </Beam>
           <Chord>
             <linkedMain/>
@@ -1252,7 +1252,7 @@
             <Spanner type="Slur">
               <Slur>
                 <linkedMain/>
-                <up>up</up>
+                <up>down</up>
                 </Slur>
               <next>
                 <location>
@@ -1288,7 +1288,7 @@
             <BeamMode>mid</BeamMode>
             <durationType>eighth</durationType>
             <Articulation>
-              <subtype>articStaccatoAbove</subtype>
+              <subtype>articStaccatoBelow</subtype>
               <linkedMain/>
               </Articulation>
             <Note>
@@ -3605,7 +3605,7 @@
             <linkedMain/>
             <BeamMode>no</BeamMode>
             <durationType>eighth</durationType>
-            <StemDirection>down</StemDirection>
+            <StemDirection>up</StemDirection>
             <Note>
               <linkedMain/>
               <pitch>70</pitch>
@@ -9326,6 +9326,10 @@
             </Chord>
           <Beam>
             <StemDirection>down</StemDirection>
+            <Fragment>
+              <y1>1.36282</y1>
+              <y2>-0.640523</y2>
+              </Fragment>
             </Beam>
           <Chord>
             <linkedMain/>
@@ -11676,6 +11680,10 @@
             </Chord>
           <Beam>
             <StemDirection>down</StemDirection>
+            <Fragment>
+              <y1>1.2046</y1>
+              <y2>2.05307</y2>
+              </Fragment>
             </Beam>
           <Chord>
             <linkedMain/>
@@ -11709,6 +11717,10 @@
             </Chord>
           <Beam>
             <StemDirection>up</StemDirection>
+            <Fragment>
+              <y1>1.21462</y1>
+              <y2>2.64052</y2>
+              </Fragment>
             </Beam>
           <Chord>
             <linkedMain/>
