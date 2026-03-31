@@ -4,9 +4,10 @@
     - [-] system, page breaks
 - [-] scores/Delius,_Frederick/String_Quartet_in_E_minor
     - [-] system, page breaks
-- [+] scores/Fauré,_Gabriel/String_Quartet,_Op.121/sq7358708.mscx
+- [-] scores/Fauré,_Gabriel/String_Quartet,_Op.121/sq7358708.mscx
     - [+] system, page breaks
     - [+] mvmt3 m36 p1: remove percussion clef
+    - [-] add _scanned.csv file
 - [-] scores/Glazunov,_Alexander/String_Quartet_No.1,_Op.1
     - [-] system, page breaks
 - [-] scores/Haydn,_Joseph/String_Quartet_in_B-flat_major_(“La_Chasse”),_Hob._III1,_Op.1_No.1/sq8461409.mscx
@@ -31,6 +32,7 @@
     - [-] system, page breaks
 - [-] scores/Mozart,_Wolfgang_Amadeus/String_Quartet_No.19_in_C_major,_K.465_(Op._10,_No._6)/sq7471661.mscx
   - [-] mvmt2 p1 m53: remove percussion clef
+  - [-] add _scanned.csv file
 - [-] scores/Ravel,_Maurice/String_Quartet_in_F_major
     - [-] system, page breaks
 - [-] scores/Smyth,_Ethel/String_Quartet_in_E_minor
