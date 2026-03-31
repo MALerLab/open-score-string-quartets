@@ -39,8 +39,13 @@
 - [+] scores/Janáček,_Leoš/String_Quartet_No.1_"Kreutzer_Sonata"/sq7158117.mscx
     - [+] remove p5 entriely (was added for Ossia)
     - [+] mvmt4 m168 p2: parenthesized slurs (ignored for transcription)
-- [-] scores/Janáček,_Leoš/String_Quartet_No.2_"Intimate_Letters"/sq7267316.mscx
-    - [-] mm56 + mm125 + mm85 + mm239 connecting or fixing tremolos
+- [+] scores/Janáček,_Leoš/String_Quartet_No.2_"Intimate_Letters"/sq7267316.mscx
+    - [+] add _scanned.csv file
+    - [+] mvmt2 m56-63 p4: disconnected tremolos for 16th note tremolos with filled notehead. leave them as is. musescore's automatic behavior
+    - [+] mvmt2 m125-134 p4: disconnected tremolos for 16th note tremolos with filled notehead. leave them as is. musescore's automatic behavior
+    - [+] mvmt4 m84-100 p3: connected tremolos for 32th note tremolos with empty notehead. disconnected tremolos for 32th note tremolos with filled notehead. leave them as is. musescore's automatic behavior
+    - [+] mvmt4 m101-124 p2: connected tremolos for 32th note tremolos with empty notehead. disconnected tremolos for 32th note tremolos with filled notehead. leave them as is. musescore's automatic behavior
+    - [+] mvmt4 m239-242 p1: split 18 8th notes tremolo. scanned version is 18th-tuplet of 2 dotted 2nd notes. leave them as is. musescore's limitation
 - [-] scores/Mendelssohn,_Felix/String_Quartet_No.1,_Op.12/sq7224846.mscx
     - [-] mm260 + mm276 connect tremolo
 - [-] scores/Mendelssohn,_Felix/String_Quartet_No.4_in_E_minor,_Op.44_No.2/sq8623643.mscx
