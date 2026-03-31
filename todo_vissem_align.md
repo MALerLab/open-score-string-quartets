@@ -1,6 +1,6 @@
 
 - [*] scores/Beethoven,_Ludwig_van/String_Quartet_No.4,_Op.18_No.4/sq8913219.mscx
-    - [*] mvmt1 m94-95 p3: tied end note omitted in scanned
+    - [*] mvmt1 m94-95 p3: tied end note omitted in scanned. 
     - [+] mvmt2 m94 p1-4: 3 8th rest to measure rest
 - [*] scores/Beethoven,_Ludwig_van/String_Quartet_No.5,_Op.18_No.5/sq9396439.mscx
     - [*] mvmt3 m113-114 p4: tied end note omitted in scanned
@@ -52,6 +52,5 @@
     - [+] mvmt1 m51-52 p4: disconnected tremolos for 16th note tremolos with empty notehead. leave them as is. musescore's automatic behavior
     - [+] mvmt1 m154 p4: disconnected tremolos for 16th note tremolos with empty notehead. leave them as is. musescore's automatic behavior
     - [+] mvmt1 m191-192 p4: disconnected tremolos for 16th note tremolos with empty notehead. leave them as is. musescore's automatic behavior
-- [-] scores/Mozart,_Wolfgang_Amadeus/String_Quartet_No.14_in_G_major,_K.387_(Op._10,_No._1)/sq7103818.mscx
-    - [-] mm10 iv mvt missing ties
-
+- [+] scores/Mozart,_Wolfgang_Amadeus/String_Quartet_No.14_in_G_major,_K.387_(Op._10,_No._1)/sq7103818.mscx
+    - [+] mvmt4 m10-12 p2: tied end note omitted in scanned
