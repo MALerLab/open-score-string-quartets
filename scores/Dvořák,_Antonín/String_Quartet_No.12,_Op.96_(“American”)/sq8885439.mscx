@@ -230,6 +230,7 @@
           <name>stdNormal</name>
           </StaffType>
         <defaultClef>C3</defaultClef>
+        <barLineSpan>1</barLineSpan>
         </Staff>
       <trackName>Viola</trackName>
       <Instrument id="viola">
@@ -33997,21 +33998,21 @@
             <Spanner type="Slur">
               <Slur>
                 <linkedMain/>
-                <up>up</up>
                 </Slur>
               <next>
                 <location>
-                  <measures>1</measures>
+                  <fractions>1/4</fractions>
                   </location>
                 </next>
               </Spanner>
             <Spanner type="Slur">
               <Slur>
                 <linkedMain/>
+                <up>up</up>
                 </Slur>
               <next>
                 <location>
-                  <fractions>1/4</fractions>
+                  <measures>1</measures>
                   </location>
                 </next>
               </Spanner>
@@ -48539,18 +48540,6 @@
             <Spanner type="Slur">
               <Slur>
                 <linkedMain/>
-                <up>up</up>
-                </Slur>
-              <next>
-                <location>
-                  <measures>1</measures>
-                  <fractions>1/4</fractions>
-                  </location>
-                </next>
-              </Spanner>
-            <Spanner type="Slur">
-              <Slur>
-                <linkedMain/>
                 <SlurSegment no="0">
                   <o4 x="0.274892" y="0.274892"/>
                   </SlurSegment>
@@ -48558,6 +48547,18 @@
               <next>
                 <location>
                   <measures>1</measures>
+                  </location>
+                </next>
+              </Spanner>
+            <Spanner type="Slur">
+              <Slur>
+                <linkedMain/>
+                <up>up</up>
+                </Slur>
+              <next>
+                <location>
+                  <measures>1</measures>
+                  <fractions>1/4</fractions>
                   </location>
                 </next>
               </Spanner>
@@ -297223,11 +297224,10 @@ Tempo I.</text>
                 <Slur>
                   <linked>
                     </linked>
-                  <up>up</up>
                   </Slur>
                 <next>
                   <location>
-                    <measures>1</measures>
+                    <fractions>1/4</fractions>
                     </location>
                   </next>
                 </Spanner>
@@ -297235,10 +297235,11 @@ Tempo I.</text>
                 <Slur>
                   <linked>
                     </linked>
+                  <up>up</up>
                   </Slur>
                 <next>
                   <location>
-                    <fractions>1/4</fractions>
+                    <measures>1</measures>
                     </location>
                   </next>
                 </Spanner>
@@ -313916,12 +313917,10 @@ Tempo I.</text>
                 <Slur>
                   <linked>
                     </linked>
-                  <up>up</up>
                   </Slur>
                 <next>
                   <location>
                     <measures>1</measures>
-                    <fractions>1/4</fractions>
                     </location>
                   </next>
                 </Spanner>
@@ -313929,10 +313928,12 @@ Tempo I.</text>
                 <Slur>
                   <linked>
                     </linked>
+                  <up>up</up>
                   </Slur>
                 <next>
                   <location>
                     <measures>1</measures>
+                    <fractions>1/4</fractions>
                     </location>
                   </next>
                 </Spanner>

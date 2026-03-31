@@ -19,10 +19,10 @@
 - [+] scores/Dvořák,_Antonín/String_Quartet_No.10,_Op.51/sq9137469.mscx
     - [+] mvmt2 m108 p2: (8th, 8th rest, 8th) beam between 8th notes
     - [+] mvmt2 m108 p2: remove staccato dot on first 8th note
-- [-] scores/Dvořák,_Antonín/String_Quartet_No.12,_Op.96_("American")/sq8885439.mscx
-    - [-] cello staff's bar lines are isolated from other parts
-    - [-] mvmt4 m103-106 p2-3: half note tremolos
-    - [-] mvmt4 m107-110 p4: half note tremolos
+- [+] scores/Dvořák,_Antonín/String_Quartet_No.12,_Op.96_("American")/sq8885439.mscx
+    - [+] cello staff's bar lines are isolated from other parts
+    - [+] mvmt4 m103-106 p2-3: half note tremolos
+    - [+] mvmt4 m107-110 p4: half note tremolos
 - [-] scores/Glinka,_Mikhail/String_Quartet/sq14720995.mscx
     - [-] mvmt1 m35 p2: dotted half note and second voice position swapped. musescore's automatic behavior
     - [-] mvmt4 m235-240 p4: cello part clef misprint in scanned (F4 but should be C4), fix synthetic version to follow misprinted scanned version.
