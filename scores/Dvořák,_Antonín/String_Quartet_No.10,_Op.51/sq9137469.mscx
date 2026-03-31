@@ -110609,12 +110609,8 @@ Finale</text>
         <voice>
           <Chord>
             <linkedMain/>
-            <BeamMode>no</BeamMode>
+            <BeamMode>begin</BeamMode>
             <durationType>eighth</durationType>
-            <Articulation>
-              <subtype>articStaccatoAbove</subtype>
-              <linkedMain/>
-              </Articulation>
             <Note>
               <linkedMain/>
               <pitch>71</pitch>
@@ -110623,6 +110619,7 @@ Finale</text>
             </Chord>
           <Rest>
             <linkedMain/>
+            <BeamMode>mid</BeamMode>
             <durationType>eighth</durationType>
             </Rest>
           <Chord>
@@ -404524,13 +404521,8 @@ Finale</text>
             <Chord>
               <linked>
                 </linked>
-              <BeamMode>no</BeamMode>
+              <BeamMode>begin</BeamMode>
               <durationType>eighth</durationType>
-              <Articulation>
-                <subtype>articStaccatoAbove</subtype>
-                <linked>
-                  </linked>
-                </Articulation>
               <Note>
                 <linked>
                   </linked>
@@ -404541,6 +404533,7 @@ Finale</text>
             <Rest>
               <linked>
                 </linked>
+              <BeamMode>mid</BeamMode>
               <durationType>eighth</durationType>
               </Rest>
             <Chord>

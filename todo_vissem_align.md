@@ -16,9 +16,9 @@
     - [+] mvmt1 m53-4 p1-3: multi-measure beam connection
     - [+] mvmt1 m53 p1-3: last note stem from down to up
     - [+] mvmt1 m59 p1-3: multi-measure beam connection
-- [-] scores/Dvořák,_Antonín/String_Quartet_No.10,_Op.51/sq9137469.mscx
-    - [-] mvmt2 m108 p2: (8th, 8th rest, 8th) beam between 8th notes
-    - [-] mvmt2 m108 p2: remove staccato dot on first 8th note
+- [+] scores/Dvořák,_Antonín/String_Quartet_No.10,_Op.51/sq9137469.mscx
+    - [+] mvmt2 m108 p2: (8th, 8th rest, 8th) beam between 8th notes
+    - [+] mvmt2 m108 p2: remove staccato dot on first 8th note
 - [-] scores/Dvořák,_Antonín/String_Quartet_No.12,_Op.96_("American")/sq8885439.mscx
     - [-] cello staff's bar lines are isolated from other parts
     - [-] mvmt4 m103-106 p2-3: half note tremolos
