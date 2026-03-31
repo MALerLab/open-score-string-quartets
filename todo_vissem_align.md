@@ -28,9 +28,9 @@
     - [+] mvmt4 m235-240 p4: cello part clef misprint in scanned (F4 but should be C4), fix synthetic version to follow misprinted scanned version.
 - [-] scores/Grieg,_Edvard/String_Quartet_No.1,_Op.27/sq9631717.mscx
     - [-] mm555 and next measure rests compression to one measure?
-- [-] scores/Haydn,_Joseph/String_Quartet_in_B-flat_major,_Hob.III67,_Op.64_No.3/sq7123582.mscx
-    - [-] mvmt1 m43 p4: old style tremolo
-    - [-] mvmt1 m117 p3: old style tremolo
+- [+] scores/Haydn,_Joseph/String_Quartet_in_B-flat_major,_Hob.III67,_Op.64_No.3/sq7123582.mscx
+    - [+] mvmt1 m43 p4: old style tremolo
+    - [+] mvmt1 m117 p3: old style tremolo
 - [-] scores/Indy,_Vincent_d\342\200\231/String_Quartet_No.1,_Op.35/sq7354505.mscx
     - [-] mm198 + mm279 + last page viola, 2nd vln, 1st vln respectively double note offset
 - [-] scores/Janáček,_Leoš/String_Quartet_No.1_"Kreutzer_Sonata"/sq7158117.mscx
