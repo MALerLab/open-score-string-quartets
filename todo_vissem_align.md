@@ -36,8 +36,9 @@
     - [+] mvmt3 m198 p3: double note offset
     - [+] mvmt4 m279-280 p2: double note offset
     - [+] mvmt4 m586-587 p1: double note offset
-- [-] scores/Janáček,_Leoš/String_Quartet_No.1_"Kreutzer_Sonata"/sq7158117.mscx
-    - [-] mm168 parenthesized slurs 2nd vln
+- [+] scores/Janáček,_Leoš/String_Quartet_No.1_"Kreutzer_Sonata"/sq7158117.mscx
+    - [+] remove p5 entriely (was added for Ossia)
+    - [+] mvmt4 m168 p2: parenthesized slurs (ignored for transcription)
 - [-] scores/Janáček,_Leoš/String_Quartet_No.2_"Intimate_Letters"/sq7267316.mscx
     - [-] mm56 + mm125 + mm85 + mm239 connecting or fixing tremolos
 - [-] scores/Mendelssohn,_Felix/String_Quartet_No.1,_Op.12/sq7224846.mscx
