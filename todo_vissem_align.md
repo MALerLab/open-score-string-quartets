@@ -9,9 +9,9 @@
 - [*] scores/Beethoven,_Ludwig_van/String_Quartet_No.9,_Op.59_No.3/sq7872392.mscx
     - [*] mvmt1 m74 p3: tied end note omitted in scanned
     - [*] mvmt1 m153-172 all: tied end note omitted in scanned
-- [-] scores/Brahms,_Johannes/String_Quartet_No.1,_Op.51_No.1/sq7108150.mscx
-    - [-] mvmt1 m84-91 p1-3: half note tremolos
-    - [-] mvmt3 m106-108 p3: half note tremolos
+- [+] scores/Brahms,_Johannes/String_Quartet_No.1,_Op.51_No.1/sq7108150.mscx
+    - [+] mvmt1 m84-91 p1-3: half note tremolos
+    - [+] mvmt3 m106-108 p3: half note tremolos
 - [+] scores/Busoni,_Ferruccio/String_Quartet_No.1,_Op.19,_BV_208/sq11154985.mscx
     - [+] mvmt1 m53-4 p1-3: multi-measure beam connection
     - [+] mvmt1 m53 p1-3: last note stem from down to up
