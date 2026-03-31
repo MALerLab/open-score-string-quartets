@@ -1,0 +1,46 @@
+
+- [-] scores/Beethoven,_Ludwig_van/String_Quartet_No.4,_Op.18_No.4/sq8913219.mscx
+    - [-] mvmt1 m94-95 p3: tied end note omitted in scanned
+    - [-] mvmt2 m94 p1-4: 3 8th rest to measure rest
+- [-] scores/Beethoven,_Ludwig_van/String_Quartet_No.5,_Op.18_No.5/sq9396439.mscx
+    - [-] mvmt3 m113-114 p4: tied end note omitted in scanned
+    - [-] mvmt3 m114-115 p4: tied end note omitted in scanned
+    - [-] mvmt1 m114 p4: stem direction of 16th notes from down to up
+- [-] scores/Beethoven,_Ludwig_van/String_Quartet_No.9,_Op.59_No.3/sq7872392.mscx
+    - [-] mvmt1 m74 p3: tied end note omitted in scanned
+    - [-] mvmt1 m153-172 all: tied end note omitted in scanned
+- [-] scores/Brahms,_Johannes/String_Quartet_No.1,_Op.51_No.1/sq7108150.mscx
+    - [-] mvmt1 m84-91 p1-3: half note tremolos
+    - [-] mvmt3 m106-108 p3: half note tremolos
+- [-] scores/Busoni,_Ferruccio/String_Quartet_No.1,_Op.19,_BV_208/sq11154985.mscx
+    - [-] mvmt1 m53-4 p1-3: multi-measure beam connection
+    - [-] mvmt1 m53 p1-3: last note stem from down to up
+    - [-] mvmt1 m59 p1-3: multi-measure beam connection
+- [-] scores/Dvořák,_Antonín/String_Quartet_No.10,_Op.51/sq9137469.mscx
+    - [-] mvmt2 m108 p2: (8th, 8th rest, 8th) beam between 8th notes
+    - [-] mvmt2 m108 p2: remove staccato dot on first 8th note
+- [-] scores/Dvořák,_Antonín/String_Quartet_No.12,_Op.96_("American")/sq8885439.mscx
+    - [-] cello staff's bar lines are isolated from other parts
+    - [-] mvmt4 m103-106 p2-3: half note tremolos
+    - [-] mvmt4 m107-110 p4: half note tremolos
+- [-] scores/Glinka,_Mikhail/String_Quartet/sq14720995.mscx
+    - [-] mvmt1 m35 p2: dotted half note and second voice position swapped. musescore's automatic behavior
+    - [-] mvmt4 m235-240 p4: cello part clef misprint in scanned (F4 but should be C4), fix synthetic version to follow misprinted scanned version.
+- [-] scores/Grieg,_Edvard/String_Quartet_No.1,_Op.27/sq9631717.mscx
+    - [-] mm555 and next measure rests compression to one measure?
+- [-] scores/Haydn,_Joseph/String_Quartet_in_B-flat_major,_Hob.III67,_Op.64_No.3/sq7123582.mscx
+    - [-] mvmt1 m43 p4: old style tremolo
+    - [-] mvmt1 m117 p3: old style tremolo
+- [-] scores/Indy,_Vincent_d\342\200\231/String_Quartet_No.1,_Op.35/sq7354505.mscx
+    - [-] mm198 + mm279 + last page viola, 2nd vln, 1st vln respectively double note offset
+- [-] scores/Janáček,_Leoš/String_Quartet_No.1_"Kreutzer_Sonata"/sq7158117.mscx
+    - [-] mm168 parenthesized slurs 2nd vln
+- [-] scores/Janáček,_Leoš/String_Quartet_No.2_"Intimate_Letters"/sq7267316.mscx
+    - [-] mm56 + mm125 + mm85 + mm239 connecting or fixing tremolos
+- [-] scores/Mendelssohn,_Felix/String_Quartet_No.1,_Op.12/sq7224846.mscx
+    - [-] mm260 + mm276 connect tremolo
+- [-] scores/Mendelssohn,_Felix/String_Quartet_No.4_in_E_minor,_Op.44_No.2/sq8623643.mscx
+    - [-] mm51 + mm154 + mm191 + mm61 ii mvt connect tremolo
+- [-] scores/Mozart,_Wolfgang_Amadeus/String_Quartet_No.14_in_G_major,_K.387_(Op._10,_No._1)/sq7103818.mscx
+    - [-] mm10 iv mvt missing ties
+
