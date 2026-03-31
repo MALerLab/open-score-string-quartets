@@ -1,7 +1,7 @@
 
-- [-] scores/Beethoven,_Ludwig_van/String_Quartet_No.4,_Op.18_No.4/sq8913219.mscx
-    - [-] mvmt1 m94-95 p3: tied end note omitted in scanned
-    - [-] mvmt2 m94 p1-4: 3 8th rest to measure rest
+- [*] scores/Beethoven,_Ludwig_van/String_Quartet_No.4,_Op.18_No.4/sq8913219.mscx
+    - [*] mvmt1 m94-95 p3: tied end note omitted in scanned
+    - [+] mvmt2 m94 p1-4: 3 8th rest to measure rest
 - [-] scores/Beethoven,_Ludwig_van/String_Quartet_No.5,_Op.18_No.5/sq9396439.mscx
     - [-] mvmt3 m113-114 p4: tied end note omitted in scanned
     - [-] mvmt3 m114-115 p4: tied end note omitted in scanned
