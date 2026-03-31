@@ -31,8 +31,11 @@
 - [+] scores/Haydn,_Joseph/String_Quartet_in_B-flat_major,_Hob.III67,_Op.64_No.3/sq7123582.mscx
     - [+] mvmt1 m43 p4: old style tremolo
     - [+] mvmt1 m117 p3: old style tremolo
-- [-] scores/Indy,_Vincent_d\342\200\231/String_Quartet_No.1,_Op.35/sq7354505.mscx
-    - [-] mm198 + mm279 + last page viola, 2nd vln, 1st vln respectively double note offset
+- [+] scores/Indy,_Vincent_d'/String_Quartet_No.1,_Op.35/sq7354505.mscx
+    - [+] mvmt1 m198 p1: 2nd note stem missing
+    - [+] mvmt3 m198 p3: double note offset
+    - [+] mvmt4 m279-280 p2: double note offset
+    - [+] mvmt4 m586-587 p1: double note offset
 - [-] scores/Janáček,_Leoš/String_Quartet_No.1_"Kreutzer_Sonata"/sq7158117.mscx
     - [-] mm168 parenthesized slurs 2nd vln
 - [-] scores/Janáček,_Leoš/String_Quartet_No.2_"Intimate_Letters"/sq7267316.mscx
