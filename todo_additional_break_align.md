@@ -30,9 +30,9 @@
     - [-] system, page breaks
 - [-] scores/Mozart,_Wolfgang_Amadeus/String_Quartet_No.18_in_A_major,_K.464_(Op._10,_No._5)
     - [-] system, page breaks
-- [-] scores/Mozart,_Wolfgang_Amadeus/String_Quartet_No.19_in_C_major,_K.465_(Op._10,_No._6)/sq7471661.mscx
-  - [-] mvmt2 p1 m53: remove percussion clef
-  - [-] add _scanned.csv file
+- [+] scores/Mozart,_Wolfgang_Amadeus/String_Quartet_No.19_in_C_major,_K.465_(Op._10,_No._6)/sq7471661.mscx
+  - [+] mvmt2 m53 p1: remove percussion clef
+  - [+] add _scanned.csv file
 - [-] scores/Ravel,_Maurice/String_Quartet_in_F_major
     - [-] system, page breaks
 - [-] scores/Smyth,_Ethel/String_Quartet_in_E_minor
