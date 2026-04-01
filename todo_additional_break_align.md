@@ -1,7 +1,8 @@
 - [+] scores/Bartók,_Béla/String_Quartet_No.2,_Op.17_(Sz.67)
     - [+] mvmt1 m24 p1: disconnected barline
 - [-] scores/Borodin,_Alexander/String_Quartet_No.2
-    - [-] system, page breaks
+    - [+] system, page breaks
+    - [+] mvmt4 m593 p1: stem direction
 - [-] scores/Delius,_Frederick/String_Quartet_in_E_minor
     - [-] system, page breaks
 - [+] scores/Fauré,_Gabriel/String_Quartet,_Op.121/sq7358708.mscx

@@ -5048,13 +5048,6 @@
             <linkedMain/>
             </Dynamic>
           <Spanner type="HairPin">
-            <prev>
-              <location>
-                <fractions>-3/4</fractions>
-                </location>
-              </prev>
-            </Spanner>
-          <Spanner type="HairPin">
             <HairPin>
               <subtype>1</subtype>
               <linkedMain/>
@@ -5062,9 +5055,15 @@
             <next>
               <location>
                 <measures>1</measures>
-                <fractions>-1/2</fractions>
                 </location>
               </next>
+            </Spanner>
+          <Spanner type="HairPin">
+            <prev>
+              <location>
+                <fractions>-3/4</fractions>
+                </location>
+              </prev>
             </Spanner>
           <Chord>
             <linkedMain/>
@@ -5116,25 +5115,18 @@
               <tpc>17</tpc>
               </Note>
             </Chord>
-          <location>
-            <fractions>-1/2</fractions>
-            </location>
-          <Spanner type="HairPin">
-            <prev>
-              <location>
-                <measures>-1</measures>
-                <fractions>1/2</fractions>
-                </location>
-              </prev>
-            </Spanner>
-          <location>
-            <fractions>1/2</fractions>
-            </location>
           <Dynamic>
             <subtype>fz</subtype>
             <velocity>112</velocity>
             <linkedMain/>
             </Dynamic>
+          <Spanner type="HairPin">
+            <prev>
+              <location>
+                <measures>-1</measures>
+                </location>
+              </prev>
+            </Spanner>
           <Spanner type="HairPin">
             <HairPin>
               <subtype>1</subtype>
@@ -79906,11 +79898,14 @@
           <subtype>line</subtype>
           </LayoutBreak>
         <voice>
+          <Beam>
+            <StemDirection>up</StemDirection>
+            </Beam>
           <Chord>
             <linkedMain/>
             <durationType>eighth</durationType>
             <Articulation>
-              <subtype>articStaccatoAbove</subtype>
+              <subtype>articStaccatoBelow</subtype>
               <linkedMain/>
               </Articulation>
             <Note>
@@ -79926,7 +79921,7 @@
             <linkedMain/>
             <durationType>eighth</durationType>
             <Articulation>
-              <subtype>articStaccatoAbove</subtype>
+              <subtype>articStaccatoBelow</subtype>
               <linkedMain/>
               </Articulation>
             <Note>
@@ -79939,7 +79934,7 @@
             <linkedMain/>
             <durationType>eighth</durationType>
             <Articulation>
-              <subtype>articStaccatoAbove</subtype>
+              <subtype>articStaccatoBelow</subtype>
               <linkedMain/>
               </Articulation>
             <Note>
@@ -79952,7 +79947,7 @@
             <linkedMain/>
             <durationType>eighth</durationType>
             <Articulation>
-              <subtype>articStaccatoAbove</subtype>
+              <subtype>articStaccatoBelow</subtype>
               <linkedMain/>
               </Articulation>
             <Note>
@@ -297934,7 +297929,6 @@
               <next>
                 <location>
                   <measures>1</measures>
-                  <fractions>-1/2</fractions>
                   </location>
                 </next>
               </Spanner>
@@ -297991,26 +297985,19 @@
                 <tpc>17</tpc>
                 </Note>
               </Chord>
-            <location>
-              <fractions>-1/2</fractions>
-              </location>
-            <Spanner type="HairPin">
-              <prev>
-                <location>
-                  <measures>-1</measures>
-                  <fractions>1/2</fractions>
-                  </location>
-                </prev>
-              </Spanner>
-            <location>
-              <fractions>1/2</fractions>
-              </location>
             <Dynamic>
               <subtype>fz</subtype>
               <velocity>112</velocity>
               <linked>
                 </linked>
               </Dynamic>
+            <Spanner type="HairPin">
+              <prev>
+                <location>
+                  <measures>-1</measures>
+                  </location>
+                </prev>
+              </Spanner>
             <Spanner type="HairPin">
               <HairPin>
                 <subtype>1</subtype>
