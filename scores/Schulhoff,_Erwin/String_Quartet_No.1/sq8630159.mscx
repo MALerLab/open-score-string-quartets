@@ -6850,6 +6850,7 @@
             <Spanner type="Slur">
               <Slur>
                 <linkedMain/>
+                <up>down</up>
                 </Slur>
               <next>
                 <location>
@@ -7822,6 +7823,7 @@
             <Spanner type="Slur">
               <Slur>
                 <linkedMain/>
+                <up>up</up>
                 </Slur>
               <next>
                 <location>
@@ -48012,6 +48014,9 @@ ordinario</text>
               <text>6</text>
               </Number>
             </Tuplet>
+          <Beam>
+            <StemDirection>down</StemDirection>
+            </Beam>
           <Chord>
             <linkedMain/>
             <BeamMode>begin</BeamMode>
@@ -48020,7 +48025,7 @@ ordinario</text>
             <Spanner type="Slur">
               <Slur>
                 <linkedMain/>
-                <up>down</up>
+                <up>up</up>
                 </Slur>
               <next>
                 <location>
@@ -52686,12 +52691,12 @@ ordinario</text>
               <linkedMain/>
               <dashGapLength>20</dashGapLength>
               <Segment>
-                <subtype>3</subtype>
+                <subtype>1</subtype>
                 <offset x="2" y="2.5"/>
                 <off2 x="-2" y="0"/>
                 </Segment>
               <Segment>
-                <subtype>1</subtype>
+                <subtype>3</subtype>
                 <offset x="0" y="2.5"/>
                 <off2 x="0" y="0"/>
                 </Segment>
@@ -59288,12 +59293,6 @@ ordinario</text>
             <durationType>quarter</durationType>
             <Note>
               <linkedMain/>
-              <pitch>64</pitch>
-              <tpc>18</tpc>
-              <play>0</play>
-              </Note>
-            <Note>
-              <linkedMain/>
               <pitch>69</pitch>
               <tpc>17</tpc>
               <head>diamond</head>
@@ -59320,18 +59319,28 @@ ordinario</text>
               </Note>
             </Chord>
           </voice>
+        <voice>
+          <location>
+            <fractions>1/4</fractions>
+            </location>
+          <Chord>
+            <linkedMain/>
+            <durationType>quarter</durationType>
+            <StemDirection>down</StemDirection>
+            <Note>
+              <linkedMain/>
+              <pitch>64</pitch>
+              <tpc>18</tpc>
+              <play>0</play>
+              </Note>
+            </Chord>
+          </voice>
         </Measure>
       <Measure>
         <voice>
           <Chord>
             <linkedMain/>
             <durationType>quarter</durationType>
-            <Note>
-              <linkedMain/>
-              <pitch>59</pitch>
-              <tpc>19</tpc>
-              <play>0</play>
-              </Note>
             <Note>
               <linkedMain/>
               <pitch>64</pitch>
@@ -59344,15 +59353,6 @@ ordinario</text>
           <Chord>
             <linkedMain/>
             <durationType>quarter</durationType>
-            <Note>
-              <linkedMain/>
-              <Accidental>
-                <subtype>accidentalSharp</subtype>
-                </Accidental>
-              <pitch>66</pitch>
-              <tpc>20</tpc>
-              <play>0</play>
-              </Note>
             <Note>
               <linkedMain/>
               <pitch>71</pitch>
@@ -59391,21 +59391,39 @@ ordinario</text>
               </Note>
             </Chord>
           </voice>
+        <voice>
+          <Chord>
+            <linkedMain/>
+            <durationType>quarter</durationType>
+            <StemDirection>down</StemDirection>
+            <Note>
+              <linkedMain/>
+              <pitch>59</pitch>
+              <tpc>19</tpc>
+              <play>0</play>
+              </Note>
+            </Chord>
+          <Chord>
+            <linkedMain/>
+            <durationType>quarter</durationType>
+            <StemDirection>down</StemDirection>
+            <Note>
+              <linkedMain/>
+              <Accidental>
+                <subtype>accidentalSharp</subtype>
+                </Accidental>
+              <pitch>66</pitch>
+              <tpc>20</tpc>
+              <play>0</play>
+              </Note>
+            </Chord>
+          </voice>
         </Measure>
       <Measure>
         <voice>
           <Chord>
             <linkedMain/>
             <durationType>quarter</durationType>
-            <Note>
-              <linkedMain/>
-              <Accidental>
-                <subtype>accidentalSharp</subtype>
-                </Accidental>
-              <pitch>61</pitch>
-              <tpc>21</tpc>
-              <play>0</play>
-              </Note>
             <Note>
               <linkedMain/>
               <Accidental>
@@ -59421,15 +59439,6 @@ ordinario</text>
           <Chord>
             <linkedMain/>
             <durationType>quarter</durationType>
-            <Note>
-              <linkedMain/>
-              <Accidental>
-                <subtype>accidentalSharp</subtype>
-                </Accidental>
-              <pitch>56</pitch>
-              <tpc>22</tpc>
-              <play>0</play>
-              </Note>
             <Note>
               <linkedMain/>
               <Accidental>
@@ -59476,21 +59485,42 @@ ordinario</text>
               </Note>
             </Chord>
           </voice>
+        <voice>
+          <Chord>
+            <linkedMain/>
+            <durationType>quarter</durationType>
+            <StemDirection>down</StemDirection>
+            <Note>
+              <linkedMain/>
+              <Accidental>
+                <subtype>accidentalSharp</subtype>
+                </Accidental>
+              <pitch>61</pitch>
+              <tpc>21</tpc>
+              <play>0</play>
+              </Note>
+            </Chord>
+          <Chord>
+            <linkedMain/>
+            <durationType>quarter</durationType>
+            <StemDirection>down</StemDirection>
+            <Note>
+              <linkedMain/>
+              <Accidental>
+                <subtype>accidentalSharp</subtype>
+                </Accidental>
+              <pitch>56</pitch>
+              <tpc>22</tpc>
+              <play>0</play>
+              </Note>
+            </Chord>
+          </voice>
         </Measure>
       <Measure>
         <voice>
           <Chord>
             <linkedMain/>
             <durationType>quarter</durationType>
-            <Note>
-              <linkedMain/>
-              <Accidental>
-                <subtype>accidentalSharp</subtype>
-                </Accidental>
-              <pitch>63</pitch>
-              <tpc>23</tpc>
-              <play>0</play>
-              </Note>
             <Note>
               <linkedMain/>
               <Accidental>
@@ -59522,6 +59552,22 @@ ordinario</text>
                 </Accidental>
               <pitch>87</pitch>
               <tpc>23</tpc>
+              </Note>
+            </Chord>
+          </voice>
+        <voice>
+          <Chord>
+            <linkedMain/>
+            <durationType>quarter</durationType>
+            <StemDirection>down</StemDirection>
+            <Note>
+              <linkedMain/>
+              <Accidental>
+                <subtype>accidentalSharp</subtype>
+                </Accidental>
+              <pitch>63</pitch>
+              <tpc>23</tpc>
+              <play>0</play>
               </Note>
             </Chord>
           <Rest>
@@ -75088,7 +75134,7 @@ ordinario</text>
             <Spanner type="Slur">
               <Slur>
                 <linkedMain/>
-                <up>up</up>
+                <up>down</up>
                 </Slur>
               <next>
                 <location>
@@ -80022,6 +80068,7 @@ ordinario</text>
             <Spanner type="Slur">
               <Slur>
                 <linkedMain/>
+                <up>up</up>
                 </Slur>
               <next>
                 <location>
@@ -82017,6 +82064,7 @@ ordinario</text>
             <Spanner type="Slur">
               <Slur>
                 <linkedMain/>
+                <up>down</up>
                 </Slur>
               <next>
                 <location>
@@ -90954,6 +91002,7 @@ ordinario</text>
             <Spanner type="Slur">
               <Slur>
                 <linkedMain/>
+                <up>up</up>
                 </Slur>
               <next>
                 <location>
@@ -99072,12 +99121,12 @@ ordinario</text>
               <linkedMain/>
               <dashGapLength>20</dashGapLength>
               <Segment>
-                <subtype>3</subtype>
+                <subtype>1</subtype>
                 <offset x="2" y="2.5"/>
                 <off2 x="-2" y="0"/>
                 </Segment>
               <Segment>
-                <subtype>1</subtype>
+                <subtype>3</subtype>
                 <offset x="0" y="2.5"/>
                 <off2 x="0" y="0"/>
                 </Segment>
@@ -107102,6 +107151,9 @@ ordinario</text>
               <tpc>15</tpc>
               </Note>
             </Chord>
+          <Beam>
+            <StemDirection>up</StemDirection>
+            </Beam>
           <Chord>
             <linkedMain/>
             <durationType>16th</durationType>
@@ -120695,6 +120747,7 @@ al perdendosi</text>
             <Spanner type="Slur">
               <Slur>
                 <linkedMain/>
+                <up>down</up>
                 </Slur>
               <next>
                 <location>
@@ -125897,7 +125950,7 @@ al perdendosi</text>
                 </Slur>
               <next>
                 <location>
-                  <fractions>13/32</fractions>
+                  <fractions>1/2</fractions>
                   </location>
                 </next>
               </Spanner>
@@ -126026,13 +126079,6 @@ al perdendosi</text>
           <Chord>
             <linkedMain/>
             <durationType>32nd</durationType>
-            <Spanner type="Slur">
-              <prev>
-                <location>
-                  <fractions>-13/32</fractions>
-                  </location>
-                </prev>
-              </Spanner>
             <Note>
               <linkedMain/>
               <pitch>56</pitch>
@@ -126060,6 +126106,13 @@ al perdendosi</text>
           <Chord>
             <linkedMain/>
             <durationType>32nd</durationType>
+            <Spanner type="Slur">
+              <prev>
+                <location>
+                  <fractions>-1/2</fractions>
+                  </location>
+                </prev>
+              </Spanner>
             <Note>
               <linkedMain/>
               <pitch>50</pitch>
@@ -162592,12 +162645,6 @@ al perdendosi</text>
             <durationType>quarter</durationType>
             <Note>
               <linkedMain/>
-              <pitch>52</pitch>
-              <tpc>18</tpc>
-              <play>0</play>
-              </Note>
-            <Note>
-              <linkedMain/>
               <pitch>57</pitch>
               <tpc>17</tpc>
               <head>diamond</head>
@@ -162616,10 +162663,26 @@ al perdendosi</text>
             <linkedMain/>
             <durationType>quarter</durationType>
             <noStem>1</noStem>
+            <StemDirection>down</StemDirection>
             <Note>
               <linkedMain/>
               <visible>0</visible>
               <pitch>76</pitch>
+              <tpc>18</tpc>
+              </Note>
+            </Chord>
+          </voice>
+        <voice>
+          <location>
+            <fractions>1/4</fractions>
+            </location>
+          <Chord>
+            <linkedMain/>
+            <durationType>quarter</durationType>
+            <StemDirection>down</StemDirection>
+            <Note>
+              <linkedMain/>
+              <pitch>52</pitch>
               <tpc>18</tpc>
               </Note>
             </Chord>
@@ -162630,12 +162693,7 @@ al perdendosi</text>
           <Chord>
             <linkedMain/>
             <durationType>quarter</durationType>
-            <Note>
-              <linkedMain/>
-              <pitch>47</pitch>
-              <tpc>19</tpc>
-              <play>0</play>
-              </Note>
+            <StemDirection>up</StemDirection>
             <Note>
               <linkedMain/>
               <pitch>52</pitch>
@@ -162648,15 +162706,6 @@ al perdendosi</text>
           <Chord>
             <linkedMain/>
             <durationType>quarter</durationType>
-            <Note>
-              <linkedMain/>
-              <Accidental>
-                <subtype>accidentalSharp</subtype>
-                </Accidental>
-              <pitch>54</pitch>
-              <tpc>20</tpc>
-              <play>0</play>
-              </Note>
             <Note>
               <linkedMain/>
               <pitch>59</pitch>
@@ -162695,21 +162744,39 @@ al perdendosi</text>
               </Note>
             </Chord>
           </voice>
+        <voice>
+          <Chord>
+            <linkedMain/>
+            <durationType>quarter</durationType>
+            <StemDirection>down</StemDirection>
+            <Note>
+              <linkedMain/>
+              <pitch>47</pitch>
+              <tpc>19</tpc>
+              <play>0</play>
+              </Note>
+            </Chord>
+          <Chord>
+            <linkedMain/>
+            <durationType>quarter</durationType>
+            <StemDirection>down</StemDirection>
+            <Note>
+              <linkedMain/>
+              <Accidental>
+                <subtype>accidentalSharp</subtype>
+                </Accidental>
+              <pitch>54</pitch>
+              <tpc>20</tpc>
+              <play>0</play>
+              </Note>
+            </Chord>
+          </voice>
         </Measure>
       <Measure>
         <voice>
           <Chord>
             <linkedMain/>
             <durationType>quarter</durationType>
-            <Note>
-              <linkedMain/>
-              <Accidental>
-                <subtype>accidentalSharp</subtype>
-                </Accidental>
-              <pitch>49</pitch>
-              <tpc>21</tpc>
-              <play>0</play>
-              </Note>
             <Note>
               <linkedMain/>
               <Accidental>
@@ -162725,15 +162792,6 @@ al perdendosi</text>
           <Chord>
             <linkedMain/>
             <durationType>quarter</durationType>
-            <Note>
-              <linkedMain/>
-              <Accidental>
-                <subtype>accidentalSharp</subtype>
-                </Accidental>
-              <pitch>44</pitch>
-              <tpc>22</tpc>
-              <play>0</play>
-              </Note>
             <Note>
               <linkedMain/>
               <Accidental>
@@ -162780,21 +162838,42 @@ al perdendosi</text>
               </Note>
             </Chord>
           </voice>
+        <voice>
+          <Chord>
+            <linkedMain/>
+            <durationType>quarter</durationType>
+            <StemDirection>down</StemDirection>
+            <Note>
+              <linkedMain/>
+              <Accidental>
+                <subtype>accidentalSharp</subtype>
+                </Accidental>
+              <pitch>49</pitch>
+              <tpc>21</tpc>
+              <play>0</play>
+              </Note>
+            </Chord>
+          <Chord>
+            <linkedMain/>
+            <durationType>quarter</durationType>
+            <StemDirection>down</StemDirection>
+            <Note>
+              <linkedMain/>
+              <Accidental>
+                <subtype>accidentalSharp</subtype>
+                </Accidental>
+              <pitch>44</pitch>
+              <tpc>22</tpc>
+              <play>0</play>
+              </Note>
+            </Chord>
+          </voice>
         </Measure>
       <Measure>
         <voice>
           <Chord>
             <linkedMain/>
             <durationType>quarter</durationType>
-            <Note>
-              <linkedMain/>
-              <Accidental>
-                <subtype>accidentalSharp</subtype>
-                </Accidental>
-              <pitch>39</pitch>
-              <tpc>23</tpc>
-              <play>0</play>
-              </Note>
             <Note>
               <linkedMain/>
               <Accidental>
@@ -162833,6 +162912,22 @@ al perdendosi</text>
             <visible>0</visible>
             <durationType>quarter</durationType>
             </Rest>
+          </voice>
+        <voice>
+          <Chord>
+            <linkedMain/>
+            <durationType>quarter</durationType>
+            <StemDirection>down</StemDirection>
+            <Note>
+              <linkedMain/>
+              <Accidental>
+                <subtype>accidentalSharp</subtype>
+                </Accidental>
+              <pitch>39</pitch>
+              <tpc>23</tpc>
+              <play>0</play>
+              </Note>
+            </Chord>
           </voice>
         </Measure>
       <Measure>
@@ -260295,13 +260390,6 @@ ordinario</text>
               <Note>
                 <linked>
                   </linked>
-                <pitch>64</pitch>
-                <tpc>18</tpc>
-                <play>0</play>
-                </Note>
-              <Note>
-                <linked>
-                  </linked>
                 <pitch>69</pitch>
                 <tpc>17</tpc>
                 <head>diamond</head>
@@ -260331,9 +260419,10 @@ ordinario</text>
                 </Note>
               </Chord>
             </voice>
-          </Measure>
-        <Measure>
           <voice>
+            <location>
+              <fractions>1/4</fractions>
+              </location>
             <Chord>
               <linked>
                 </linked>
@@ -260341,10 +260430,19 @@ ordinario</text>
               <Note>
                 <linked>
                   </linked>
-                <pitch>59</pitch>
-                <tpc>19</tpc>
+                <pitch>64</pitch>
+                <tpc>18</tpc>
                 <play>0</play>
                 </Note>
+              </Chord>
+            </voice>
+          </Measure>
+        <Measure>
+          <voice>
+            <Chord>
+              <linked>
+                </linked>
+              <durationType>quarter</durationType>
               <Note>
                 <linked>
                   </linked>
@@ -260359,16 +260457,6 @@ ordinario</text>
               <linked>
                 </linked>
               <durationType>quarter</durationType>
-              <Note>
-                <linked>
-                  </linked>
-                <Accidental>
-                  <subtype>accidentalSharp</subtype>
-                  </Accidental>
-                <pitch>66</pitch>
-                <tpc>20</tpc>
-                <play>0</play>
-                </Note>
               <Note>
                 <linked>
                   </linked>
@@ -260412,9 +260500,19 @@ ordinario</text>
                 </Note>
               </Chord>
             </voice>
-          </Measure>
-        <Measure>
           <voice>
+            <Chord>
+              <linked>
+                </linked>
+              <durationType>quarter</durationType>
+              <Note>
+                <linked>
+                  </linked>
+                <pitch>59</pitch>
+                <tpc>19</tpc>
+                <play>0</play>
+                </Note>
+              </Chord>
             <Chord>
               <linked>
                 </linked>
@@ -260425,10 +260523,19 @@ ordinario</text>
                 <Accidental>
                   <subtype>accidentalSharp</subtype>
                   </Accidental>
-                <pitch>61</pitch>
-                <tpc>21</tpc>
+                <pitch>66</pitch>
+                <tpc>20</tpc>
                 <play>0</play>
                 </Note>
+              </Chord>
+            </voice>
+          </Measure>
+        <Measure>
+          <voice>
+            <Chord>
+              <linked>
+                </linked>
+              <durationType>quarter</durationType>
               <Note>
                 <linked>
                   </linked>
@@ -260446,16 +260553,6 @@ ordinario</text>
               <linked>
                 </linked>
               <durationType>quarter</durationType>
-              <Note>
-                <linked>
-                  </linked>
-                <Accidental>
-                  <subtype>accidentalSharp</subtype>
-                  </Accidental>
-                <pitch>56</pitch>
-                <tpc>22</tpc>
-                <play>0</play>
-                </Note>
               <Note>
                 <linked>
                   </linked>
@@ -260507,8 +260604,6 @@ ordinario</text>
                 </Note>
               </Chord>
             </voice>
-          </Measure>
-        <Measure>
           <voice>
             <Chord>
               <linked>
@@ -260520,10 +260615,34 @@ ordinario</text>
                 <Accidental>
                   <subtype>accidentalSharp</subtype>
                   </Accidental>
-                <pitch>63</pitch>
-                <tpc>23</tpc>
+                <pitch>61</pitch>
+                <tpc>21</tpc>
                 <play>0</play>
                 </Note>
+              </Chord>
+            <Chord>
+              <linked>
+                </linked>
+              <durationType>quarter</durationType>
+              <Note>
+                <linked>
+                  </linked>
+                <Accidental>
+                  <subtype>accidentalSharp</subtype>
+                  </Accidental>
+                <pitch>56</pitch>
+                <tpc>22</tpc>
+                <play>0</play>
+                </Note>
+              </Chord>
+            </voice>
+          </Measure>
+        <Measure>
+          <voice>
+            <Chord>
+              <linked>
+                </linked>
+              <durationType>quarter</durationType>
               <Note>
                 <linked>
                   </linked>
@@ -260559,6 +260678,23 @@ ordinario</text>
                   </Accidental>
                 <pitch>87</pitch>
                 <tpc>23</tpc>
+                </Note>
+              </Chord>
+            </voice>
+          <voice>
+            <Chord>
+              <linked>
+                </linked>
+              <durationType>quarter</durationType>
+              <Note>
+                <linked>
+                  </linked>
+                <Accidental>
+                  <subtype>accidentalSharp</subtype>
+                  </Accidental>
+                <pitch>63</pitch>
+                <tpc>23</tpc>
+                <play>0</play>
                 </Note>
               </Chord>
             <Rest>
@@ -339149,7 +339285,7 @@ al perdendosi</text>
                   </Slur>
                 <next>
                   <location>
-                    <fractions>13/32</fractions>
+                    <fractions>1/2</fractions>
                     </location>
                   </next>
                 </Spanner>
@@ -339304,13 +339440,6 @@ al perdendosi</text>
               <linked>
                 </linked>
               <durationType>32nd</durationType>
-              <Spanner type="Slur">
-                <prev>
-                  <location>
-                    <fractions>-13/32</fractions>
-                    </location>
-                  </prev>
-                </Spanner>
               <Note>
                 <linked>
                   </linked>
@@ -339344,6 +339473,13 @@ al perdendosi</text>
               <linked>
                 </linked>
               <durationType>32nd</durationType>
+              <Spanner type="Slur">
+                <prev>
+                  <location>
+                    <fractions>-1/2</fractions>
+                    </location>
+                  </prev>
+                </Spanner>
               <Note>
                 <linked>
                   </linked>
@@ -382286,13 +382422,6 @@ al perdendosi</text>
               <Note>
                 <linked>
                   </linked>
-                <pitch>52</pitch>
-                <tpc>18</tpc>
-                <play>0</play>
-                </Note>
-              <Note>
-                <linked>
-                  </linked>
                 <pitch>57</pitch>
                 <tpc>17</tpc>
                 <head>diamond</head>
@@ -382322,9 +382451,10 @@ al perdendosi</text>
                 </Note>
               </Chord>
             </voice>
-          </Measure>
-        <Measure>
           <voice>
+            <location>
+              <fractions>1/4</fractions>
+              </location>
             <Chord>
               <linked>
                 </linked>
@@ -382332,10 +382462,18 @@ al perdendosi</text>
               <Note>
                 <linked>
                   </linked>
-                <pitch>47</pitch>
-                <tpc>19</tpc>
-                <play>0</play>
+                <pitch>52</pitch>
+                <tpc>18</tpc>
                 </Note>
+              </Chord>
+            </voice>
+          </Measure>
+        <Measure>
+          <voice>
+            <Chord>
+              <linked>
+                </linked>
+              <durationType>quarter</durationType>
               <Note>
                 <linked>
                   </linked>
@@ -382350,16 +382488,6 @@ al perdendosi</text>
               <linked>
                 </linked>
               <durationType>quarter</durationType>
-              <Note>
-                <linked>
-                  </linked>
-                <Accidental>
-                  <subtype>accidentalSharp</subtype>
-                  </Accidental>
-                <pitch>54</pitch>
-                <tpc>20</tpc>
-                <play>0</play>
-                </Note>
               <Note>
                 <linked>
                   </linked>
@@ -382403,9 +382531,19 @@ al perdendosi</text>
                 </Note>
               </Chord>
             </voice>
-          </Measure>
-        <Measure>
           <voice>
+            <Chord>
+              <linked>
+                </linked>
+              <durationType>quarter</durationType>
+              <Note>
+                <linked>
+                  </linked>
+                <pitch>47</pitch>
+                <tpc>19</tpc>
+                <play>0</play>
+                </Note>
+              </Chord>
             <Chord>
               <linked>
                 </linked>
@@ -382416,10 +382554,19 @@ al perdendosi</text>
                 <Accidental>
                   <subtype>accidentalSharp</subtype>
                   </Accidental>
-                <pitch>49</pitch>
-                <tpc>21</tpc>
+                <pitch>54</pitch>
+                <tpc>20</tpc>
                 <play>0</play>
                 </Note>
+              </Chord>
+            </voice>
+          </Measure>
+        <Measure>
+          <voice>
+            <Chord>
+              <linked>
+                </linked>
+              <durationType>quarter</durationType>
               <Note>
                 <linked>
                   </linked>
@@ -382437,16 +382584,6 @@ al perdendosi</text>
               <linked>
                 </linked>
               <durationType>quarter</durationType>
-              <Note>
-                <linked>
-                  </linked>
-                <Accidental>
-                  <subtype>accidentalSharp</subtype>
-                  </Accidental>
-                <pitch>44</pitch>
-                <tpc>22</tpc>
-                <play>0</play>
-                </Note>
               <Note>
                 <linked>
                   </linked>
@@ -382498,8 +382635,6 @@ al perdendosi</text>
                 </Note>
               </Chord>
             </voice>
-          </Measure>
-        <Measure>
           <voice>
             <Chord>
               <linked>
@@ -382511,10 +382646,34 @@ al perdendosi</text>
                 <Accidental>
                   <subtype>accidentalSharp</subtype>
                   </Accidental>
-                <pitch>39</pitch>
-                <tpc>23</tpc>
+                <pitch>49</pitch>
+                <tpc>21</tpc>
                 <play>0</play>
                 </Note>
+              </Chord>
+            <Chord>
+              <linked>
+                </linked>
+              <durationType>quarter</durationType>
+              <Note>
+                <linked>
+                  </linked>
+                <Accidental>
+                  <subtype>accidentalSharp</subtype>
+                  </Accidental>
+                <pitch>44</pitch>
+                <tpc>22</tpc>
+                <play>0</play>
+                </Note>
+              </Chord>
+            </voice>
+          </Measure>
+        <Measure>
+          <voice>
+            <Chord>
+              <linked>
+                </linked>
+              <durationType>quarter</durationType>
               <Note>
                 <linked>
                   </linked>
@@ -382558,6 +382717,23 @@ al perdendosi</text>
               <visible>0</visible>
               <durationType>quarter</durationType>
               </Rest>
+            </voice>
+          <voice>
+            <Chord>
+              <linked>
+                </linked>
+              <durationType>quarter</durationType>
+              <Note>
+                <linked>
+                  </linked>
+                <Accidental>
+                  <subtype>accidentalSharp</subtype>
+                  </Accidental>
+                <pitch>39</pitch>
+                <tpc>23</tpc>
+                <play>0</play>
+                </Note>
+              </Chord>
             </voice>
           </Measure>
         <Measure>

@@ -8300,6 +8300,9 @@
           </voice>
         </Measure>
       <Measure>
+        <LayoutBreak>
+          <subtype>page</subtype>
+          </LayoutBreak>
         <voice>
           <Chord>
             <linkedMain/>
@@ -8351,9 +8354,6 @@
           </voice>
         </Measure>
       <Measure>
-        <LayoutBreak>
-          <subtype>page</subtype>
-          </LayoutBreak>
         <voice>
           <Chord>
             <linkedMain/>
@@ -25269,12 +25269,6 @@
             <Spanner type="Slur">
               <Slur>
                 <linkedMain/>
-                <SlurSegment no="0">
-                  <o1 x="0.873858" y="1.49769"/>
-                  <o2 x="0.486629" y="2.20263"/>
-                  <o3 x="0.486629" y="2.20263"/>
-                  <o4 x="1.25499" y="3.07344"/>
-                  </SlurSegment>
                 </Slur>
               <next>
                 <location>
@@ -25342,9 +25336,6 @@
             <Spanner type="Slur">
               <Slur>
                 <linkedMain/>
-                <SlurSegment no="0">
-                  <o4 x="0.258153" y="0"/>
-                  </SlurSegment>
                 </Slur>
               <next>
                 <location>
@@ -26037,11 +26028,6 @@
             <HairPin>
               <subtype>0</subtype>
               <linkedMain/>
-              <Segment>
-                <subtype>0</subtype>
-                <offset x="0" y="2"/>
-                <off2 x="-1.69204" y="0"/>
-                </Segment>
               </HairPin>
             <next>
               <location>
@@ -26160,11 +26146,6 @@
             <HairPin>
               <subtype>1</subtype>
               <linkedMain/>
-              <Segment>
-                <subtype>0</subtype>
-                <offset x="0" y="2"/>
-                <off2 x="-1.69204" y="0"/>
-                </Segment>
               </HairPin>
             <next>
               <location>
@@ -27168,11 +27149,6 @@
             <HairPin>
               <subtype>1</subtype>
               <linkedMain/>
-              <Segment>
-                <subtype>0</subtype>
-                <offset x="0" y="2.5"/>
-                <off2 x="0" y="0"/>
-                </Segment>
               </HairPin>
             <next>
               <location>
@@ -44349,6 +44325,7 @@
             </Spanner>
           <Chord>
             <linkedMain/>
+            <BeamMode>begin</BeamMode>
             <durationType>16th</durationType>
             <Spanner type="Slur">
               <Slur>
@@ -73415,12 +73392,6 @@
             <HairPin>
               <subtype>0</subtype>
               <linkedMain/>
-              <Segment>
-                <subtype>0</subtype>
-                <offset x="-3.08369" y="2.35402"/>
-                <off2 x="3.44272" y="0"/>
-                <minDistance>-0.0744592</minDistance>
-                </Segment>
               </HairPin>
             <next>
               <location>
@@ -73498,11 +73469,6 @@
             <HairPin>
               <subtype>1</subtype>
               <linkedMain/>
-              <Segment>
-                <subtype>0</subtype>
-                <offset x="0.258153" y="3.58885"/>
-                <off2 x="-1.69204" y="0"/>
-                </Segment>
               </HairPin>
             <next>
               <location>
@@ -75866,7 +75832,7 @@
             </Chord>
           <Chord>
             <linkedMain/>
-            <BeamMode>mid</BeamMode>
+            <BeamMode>begin</BeamMode>
             <durationType>eighth</durationType>
             <Spanner type="Slur">
               <Slur>
@@ -96881,9 +96847,6 @@
             <Spanner type="Slur">
               <Slur>
                 <linkedMain/>
-                <SlurSegment no="0">
-                  <offset x="0" y="-1"/>
-                  </SlurSegment>
                 </Slur>
               <next>
                 <location>
@@ -102304,6 +102267,7 @@
             <Spanner type="Slur">
               <Slur>
                 <linkedMain/>
+                <up>up</up>
                 </Slur>
               <next>
                 <location>
@@ -102317,6 +102281,9 @@
               <tpc>11</tpc>
               </Note>
             </Chord>
+          <Beam>
+            <StemDirection>down</StemDirection>
+            </Beam>
           <Chord>
             <linkedMain/>
             <durationType>16th</durationType>
@@ -107987,11 +107954,6 @@
             <HairPin>
               <subtype>0</subtype>
               <linkedMain/>
-              <Segment>
-                <subtype>0</subtype>
-                <offset x="0" y="2"/>
-                <off2 x="-1.69204" y="0"/>
-                </Segment>
               </HairPin>
             <next>
               <location>
@@ -108090,11 +108052,6 @@
             <HairPin>
               <subtype>1</subtype>
               <linkedMain/>
-              <Segment>
-                <subtype>0</subtype>
-                <offset x="0.258153" y="2.64538"/>
-                <off2 x="-1.69204" y="0"/>
-                </Segment>
               </HairPin>
             <next>
               <location>
@@ -122855,6 +122812,7 @@
             <Spanner type="Slur">
               <Slur>
                 <linkedMain/>
+                <up>down</up>
                 </Slur>
               <next>
                 <location>
@@ -133579,11 +133537,6 @@
             <HairPin>
               <subtype>1</subtype>
               <linkedMain/>
-              <Segment>
-                <subtype>0</subtype>
-                <offset x="-1.23378" y="2"/>
-                <off2 x="1.15842" y="0"/>
-                </Segment>
               </HairPin>
             <next>
               <location>
@@ -134091,11 +134044,6 @@
             <HairPin>
               <subtype>0</subtype>
               <linkedMain/>
-              <Segment>
-                <subtype>0</subtype>
-                <offset x="0" y="2"/>
-                <off2 x="-1.69204" y="0"/>
-                </Segment>
               </HairPin>
             <next>
               <location>
@@ -134194,11 +134142,6 @@
             <HairPin>
               <subtype>1</subtype>
               <linkedMain/>
-              <Segment>
-                <subtype>0</subtype>
-                <offset x="0" y="2"/>
-                <off2 x="-1.69204" y="0"/>
-                </Segment>
               </HairPin>
             <next>
               <location>
@@ -197697,6 +197640,7 @@
             <Chord>
               <linked>
                 </linked>
+              <BeamMode>begin</BeamMode>
               <durationType>16th</durationType>
               <Spanner type="Slur">
                 <Slur>
@@ -234513,7 +234457,7 @@
             <Chord>
               <linked>
                 </linked>
-              <BeamMode>mid</BeamMode>
+              <BeamMode>begin</BeamMode>
               <durationType>eighth</durationType>
               <Spanner type="Slur">
                 <Slur>
