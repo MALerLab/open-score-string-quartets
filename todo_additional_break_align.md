@@ -10,8 +10,8 @@
     - [+] add _scanned.csv file
 - [-] scores/Glazunov,_Alexander/String_Quartet_No.1,_Op.1
     - [-] system, page breaks
-- [-] scores/Haydn,_Joseph/String_Quartet_in_B-flat_major_(“La_Chasse”),_Hob._III1,_Op.1_No.1/sq8461409.mscx
-  - [-] mvmt2 m21 p1: remove mis-transcribed double staccato
+- [+] scores/Haydn,_Joseph/String_Quartet_in_B-flat_major_(“La_Chasse”),_Hob._III1,_Op.1_No.1/sq8461409.mscx
+  - [+] mvmt2 m21 p1: remove duplicate staccato
 - [-] scores/Haydn,_Joseph/String_Quartet_in_C_major,_Hob.III32,_Op.20_No.2
     - [-] system, page breaks
 - [-] scores/Haydn,_Joseph/String_Quartet_in_D_major,_Hob.III34,_Op.20_No.4
