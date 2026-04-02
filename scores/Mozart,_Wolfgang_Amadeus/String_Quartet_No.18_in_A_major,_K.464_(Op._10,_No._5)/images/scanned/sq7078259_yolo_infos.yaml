@@ -7,10 +7,10 @@ system:
   merge_threshold: 0.7
   exceptions:
   ignores:
-    sq7078259:0008:0001
-    sq7078259:0013:0003
-    sq7078259:0013:0004
-    sq7078259:0013:0005
+    - sq7078259:0008:0001
+    - sq7078259:0013:0003
+    - sq7078259:0013:0004
+    - sq7078259:0013:0005
 staff_height:
   model: ls-yolo-staff-height-v2.0.0
   target_height: 18
@@ -20,7 +20,7 @@ staff_bbox:
   merge_threshold: 0.7
   exceptions:
   ignores:
-    sq7078259:0008:0001
-    sq7078259:0013:0003
-    sq7078259:0013:0004
-    sq7078259:0013:0005
+    - sq7078259:0008:0001
+    - sq7078259:0013:0003
+    - sq7078259:0013:0004
+    - sq7078259:0013:0005

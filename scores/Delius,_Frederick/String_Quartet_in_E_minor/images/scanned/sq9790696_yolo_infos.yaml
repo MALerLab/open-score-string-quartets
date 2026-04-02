@@ -16,6 +16,6 @@ staff_bbox:
   merge_threshold: 0.7
   exceptions:
   ignores:
-    sq9790696:0028:0002:1.png
-    sq9790696:0028:0002:2.png
-    sq9790696:0028:0002:3.png
+    - sq9790696:0028:0002:1.png
+    - sq9790696:0028:0002:2.png
+    - sq9790696:0028:0002:3.png
