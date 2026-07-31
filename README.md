@@ -17,7 +17,6 @@ OSSQ is the dataset behind *"A Dataset and Benchmark for Optical Music Recogniti
 - **[omr-data-preprocessor](https://github.com/MALerLab/omr-data-preprocessor)**: the preprocessing pipeline that builds every derived symbolic format from the dataset sources.
 - **[sqomr](https://github.com/MALerLab/sqomr)**: model training and evaluation experiments.
 - **[lmxe](https://github.com/MALerLab/lmxe)**: the LMXE symbolic format library (derived from [OMR-Research/lmx](https://github.com/OMR-Research/lmx)).
-- **[LEGATO](https://github.com/guang-yng/legato)**: baseline OMR model used for benchmark comparison.
 
 Scores can be downloaded individually in PDF, MIDI, MusicXML, MP3 and other formats from
 their [official pages][OSSQ] on MuseScore.com. Alternatively, scores can be
