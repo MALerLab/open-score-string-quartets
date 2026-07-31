@@ -9,7 +9,11 @@ To render or convert .mscx files in this repo, you **need to use MuseScore3 v3.6
 
 ## Part of the String Quartet OMR Benchmark
 
-OSSQ-OMR is the dataset behind *"A Dataset and Benchmark for Optical Music Recognition of String Quartet Scores"* (MALer Lab, Sogang University). This repository holds the tracked MuseScore/MusicXML annotation sources; related repositories in the release:
+> **A Dataset and Benchmark for Optical Music Recognition of String Quartet Scores**<br>
+> Dongmin Kim, Brian Liu, Jose J. Valero-Mas, Dasaem Jeong<br>
+> *Proceedings of the 27th International Society for Music Information Retrieval Conference (ISMIR), 2026*
+
+OSSQ-OMR is the dataset behind the paper. This repository holds the tracked MuseScore/MusicXML annotation sources; related repositories in the release:
 
 - **[string-quartet-omr-benchmark](https://github.com/MALerLab/string-quartet-omr-benchmark)**: umbrella entry point for the paper and the full repository constellation.
 - **[ossq-omr](https://github.com/MALerLab/ossq-omr)**: the OSSQ-OMR dataset — MuseScore/MusicXML annotation sources and their revision history. *(this repository)*
