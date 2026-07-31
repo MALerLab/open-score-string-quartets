@@ -16,7 +16,7 @@ touched, by which approach, when, and why.
 
 As of this writing, the default/release branch is **`omr-dev`** (which has just absorbed
 `ossq-v2.4.0` via squash-merge and now carries the current release state), and
-**`ossq-v2.4.0`** continues on as the active working line for OSSQ v2.4.x development.
+**`ossq-v2.4.0`** continues on as the active working line for OSSQ-OMR v2.4.x development.
 
 ## Branch inventory
 
@@ -29,7 +29,7 @@ deleted before this table was finalized and are intentionally omitted.
 
 | Branch | Role / theme | Unique commits | Total commits | Date range | Merged into trunk? |
 |---|---|---:|---:|---|---|
-| `ossq-v2.4.0` | Active working line for OSSQ v2.4.x; was the trunk at time of writing | 38 | 46 | 2025-05-20 → 2026-07-31 | — (is the trunk) |
+| `ossq-v2.4.0` | Active working line for OSSQ-OMR v2.4.x; was the trunk at time of writing | 38 | 46 | 2025-05-20 → 2026-07-31 | — (is the trunk) |
 | `omr-dev` | Default branch; OMR processing line. Now the default/release branch after squash-merging `ossq-v2.4.0` | 21 | 29 | 2025-05-20 → 2026-03-29 | **Yes** (ancestor of `ossq-v2.4.0`) |
 | `align-pt2` | System & page-break alignment across many scores (PR #2: 20 scores); largest single alignment branch by commit count | 115 | 123 | 2025-05-20 → 2026-02-11 | No |
 | `merge-vissem-align` | Consolidation branch bringing together `vissem-align` plus review PRs #2, #5, #6, #7, #8 | 110 | 118 | 2025-05-20 → 2026-03-31 | No |

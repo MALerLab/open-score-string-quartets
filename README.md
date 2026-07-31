@@ -10,10 +10,10 @@ To render or convert .mscx files in this repo, you **need to use MuseScore3 v3.6
 
 ## Part of the String Quartet OMR Benchmark
 
-OSSQ is the dataset behind *"A Dataset and Benchmark for Optical Music Recognition of String Quartet Scores"* (MALer Lab, Sogang University). This repository holds the tracked MuseScore/MusicXML annotation sources; related repositories in the release:
+OSSQ-OMR is the dataset behind *"A Dataset and Benchmark for Optical Music Recognition of String Quartet Scores"* (MALer Lab, Sogang University). This repository holds the tracked MuseScore/MusicXML annotation sources; related repositories in the release:
 
 - **[string-quartet-omr-benchmark](https://github.com/MALerLab/string-quartet-omr-benchmark)**: umbrella entry point for the paper and the full repository constellation.
-- **[ossq-omr](https://github.com/MALerLab/ossq-omr)**: the OSSQ dataset — MuseScore/MusicXML annotation sources and their revision history. *(this repository)*
+- **[ossq-omr](https://github.com/MALerLab/ossq-omr)**: the OSSQ-OMR dataset — MuseScore/MusicXML annotation sources and their revision history. *(this repository)*
 - **[omr-data-preprocessor](https://github.com/MALerLab/omr-data-preprocessor)**: the preprocessing pipeline that builds every derived symbolic format from the dataset sources.
 - **[sqomr](https://github.com/MALerLab/sqomr)**: model training and evaluation experiments.
 - **[lmxe](https://github.com/MALerLab/lmxe)**: the LMXE symbolic format library (derived from [OMR-Research/lmx](https://github.com/OMR-Research/lmx)).
@@ -27,7 +27,7 @@ or the [command line interface](https://handbook.musescore.org/appendix/command-
 
 # What this repository tracks
 
-This git repository is the **auditable revision history of the MuseScore annotation work** behind OSSQ, not a distribution channel for the full multi-format dataset. `git ls-files` tracks 878 files:
+This git repository is the **auditable revision history of the MuseScore annotation work** behind OSSQ-OMR, not a distribution channel for the full multi-format dataset. `git ls-files` tracks 878 files:
 
 - the MuseScore/MusicXML source annotations (`sq<id>.mscx`, `sq<id>.musicxml`, `sq<id>_cleaned.musicxml`, and `sq<id>_scanned.csv` alignment data where a scanned exemplar exists)
 - per-composer and per-score `README.md` files
