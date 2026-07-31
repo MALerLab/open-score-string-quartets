@@ -242,7 +242,7 @@ If you use the OMR benchmark (derived formats, splits, baselines), please cite t
 
 If you use the underlying OpenScore String Quartet corpus itself, please also cite the original report published in DLfM 2023:
 
-```
+```bibtex
 @inproceedings{gotham_openscore_2023,
 	address = {Milan Italy},
 	title = {The “{OpenScore} {String} {Quartet}” {Corpus}},
