@@ -110,11 +110,11 @@ Score and lyric files are arranged in the following directory structure:
       synthetic/
 	      systemwise/
           sq<id>:<page>:<system>.lmxe
-          sq<id>:<page>:<system>.plmxe # parametrized LMXE
-          sq<id>:<page>:<system>.rlmxe # relative LMXE
+          sq<id>:<page>:<system>.plmxe # part-by-part LMXE
+          sq<id>:<page>:<system>.rlmxe # reduced LMXE
         partwise/
           sq<id>:<page>:<system>:<part>.lmxe
-          sq<id>:<page>:<system>:<part>.rlmxe # relative LMXE
+          sq<id>:<page>:<system>:<part>.rlmxe # reduced LMXE
       scanned/
     krn/
       synthetic/
