@@ -54,6 +54,25 @@ The bulk derived artifacts — rendered PDFs/images and the symbolic formats (`.
 
 See [Regenerating derived formats](#regenerating-derived-formats) below to build them yourself instead.
 
+# Provenance and audit history
+
+The git history in this repository *is* the auditable record of the annotation work: every
+alignment fix, correction, and style decision applied to a score is a commit. That history
+spans many divergent branches — different alignment passes, annotation-style experiments, and
+release snapshots — rather than a single linear trunk, because each approach is kept
+individually inspectable instead of being squashed away.
+
+The single most useful command for tracing a score's provenance is:
+
+```sh
+git log --all --source --oneline -- <path/to/score>
+```
+
+This walks every branch in a full clone (not just the default branch — see the warning below)
+and labels which branch each commit came from. See [`BRANCHES.md`](./BRANCHES.md) for the full
+branch inventory, verified commit counts, and more tracing commands, including why **GitHub's
+web history UI only shows the default branch** and won't give you this picture on its own.
+
 # Dataset versions
 
 The benchmark paper uses **OSSQ v2.4.1**, which adds two LMXE variants on top of v2.4.0 — nothing else differs between the two versions:
