@@ -17,13 +17,6 @@ OSSQ-OMR is the dataset behind *"A Dataset and Benchmark for Optical Music Recog
 - **[sqomr](https://github.com/MALerLab/sqomr)**: model training and evaluation experiments.
 - **[lmxe](https://github.com/MALerLab/lmxe)**: the LMXE symbolic format library (derived from [OMR-Research/lmx](https://github.com/OMR-Research/lmx)).
 
-Scores can be downloaded individually in PDF, MIDI, MusicXML, MP3 and other formats from
-their [official pages][OSSQ] on MuseScore.com. Alternatively, scores can be
-converted to other formats *en masse* using MuseScore's free desktop software using either
-the [Batch Convert Plugin](https://musescore.org/en/project/batch-convert)
-or the [command line interface](https://handbook.musescore.org/appendix/command-line-usage).
-
-
 # What this repository tracks
 
 This git repository is the **auditable revision history of the MuseScore annotation work** behind OSSQ-OMR, not a distribution channel for the full multi-format dataset. `git ls-files` tracks 878 files:
