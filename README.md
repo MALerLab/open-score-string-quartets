@@ -264,3 +264,5 @@ If you use the underlying OpenScore String Quartet corpus itself, please also ci
     url       = {https://dl.acm.org/doi/10.1145/3625135.3625155},
 }
 ```
+
+[OSSQ]: https://github.com/OpenScore/StringQuartets
