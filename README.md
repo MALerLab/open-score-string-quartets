@@ -239,14 +239,12 @@ We kindly ask that you credit OpenScore String Quartets and provide a link to [O
 
 If you use the OMR benchmark (derived formats, splits, baselines), please cite the paper this dataset accompanies:
 
-<!-- TODO: replace with final BibTeX once the paper is published -->
 ```bibtex
-@inproceedings{TODO_ossq_omr_benchmark,
-	title     = {A Dataset and Benchmark for Optical Music Recognition of String Quartet Scores},
-	author    = {TODO},
-	booktitle = {TODO},
-	year      = {TODO},
-	note      = {MALer Lab, Sogang University},
+@inproceedings{Kim2026sqomrbench,
+    title     = {A Dataset and Benchmark for Optical Music Recognition of String Quartet Scores},
+    author    = {Dongmin Kim and Brian Liu and Jose J. Valero-Mas and Dasaem Jeong},
+    year      = 2026,
+    booktitle = {Proceedings of the 27th International Society for Music Information Retrieval Conference (ISMIR)},
 }
 ```
 
