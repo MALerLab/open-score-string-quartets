@@ -1828,6 +1828,7 @@
             <Spanner type="Slur">
               <Slur>
                 <linkedMain/>
+                <up>down</up>
                 </Slur>
               <next>
                 <location>
@@ -9858,6 +9859,9 @@
                 </location>
               </next>
             </Spanner>
+          <Beam>
+            <StemDirection>up</StemDirection>
+            </Beam>
           <Chord>
             <linkedMain/>
             <durationType>eighth</durationType>
@@ -9909,7 +9913,7 @@
             <linkedMain/>
             <durationType>eighth</durationType>
             <Articulation>
-              <subtype>articStaccatoAbove</subtype>
+              <subtype>articStaccatoBelow</subtype>
               <linkedMain/>
               </Articulation>
             <Note>
@@ -18652,6 +18656,7 @@
             <Spanner type="Slur">
               <Slur>
                 <linkedMain/>
+                <up>down</up>
                 </Slur>
               <next>
                 <location>
@@ -22442,6 +22447,9 @@
           </voice>
         </Measure>
       <Measure>
+        <LayoutBreak>
+          <subtype>line</subtype>
+          </LayoutBreak>
         <voice>
           <Chord>
             <linkedMain/>
@@ -22518,9 +22526,6 @@
           </voice>
         </Measure>
       <Measure>
-        <LayoutBreak>
-          <subtype>line</subtype>
-          </LayoutBreak>
         <voice>
           <Chord>
             <linkedMain/>
@@ -23278,8 +23283,8 @@
               </Articulation>
             <Note>
               <linkedMain/>
-              <pitch>77</pitch>
-              <tpc>13</tpc>
+              <pitch>79</pitch>
+              <tpc>15</tpc>
               </Note>
             </Chord>
           <Chord>
@@ -23291,8 +23296,8 @@
               </Articulation>
             <Note>
               <linkedMain/>
-              <pitch>79</pitch>
-              <tpc>15</tpc>
+              <pitch>80</pitch>
+              <tpc>10</tpc>
               </Note>
             </Chord>
           <Chord>
@@ -24999,6 +25004,7 @@
             <Spanner type="Slur">
               <Slur>
                 <linkedMain/>
+                <up>up</up>
                 </Slur>
               <next>
                 <location>
@@ -25134,6 +25140,7 @@
             <Spanner type="Slur">
               <Slur>
                 <linkedMain/>
+                <up>up</up>
                 </Slur>
               <next>
                 <location>
@@ -25197,6 +25204,7 @@
                   </location>
                 </next>
               </Spanner>
+            <StemDirection>up</StemDirection>
             <Note>
               <linkedMain/>
               <pitch>70</pitch>
@@ -25278,6 +25286,7 @@
             <Spanner type="Slur">
               <Slur>
                 <linkedMain/>
+                <up>up</up>
                 </Slur>
               <next>
                 <location>
@@ -25598,6 +25607,7 @@
                   </location>
                 </prev>
               </Spanner>
+            <StemDirection>up</StemDirection>
             <Note>
               <linkedMain/>
               <Spanner type="Tie">
@@ -26157,6 +26167,7 @@
             <Spanner type="Slur">
               <Slur>
                 <linkedMain/>
+                <up>up</up>
                 </Slur>
               <next>
                 <location>
@@ -26213,6 +26224,7 @@
             <Spanner type="Slur">
               <Slur>
                 <linkedMain/>
+                <up>down</up>
                 </Slur>
               <next>
                 <location>
@@ -26303,6 +26315,7 @@
                   </location>
                 </next>
               </Spanner>
+            <StemDirection>up</StemDirection>
             <Note>
               <linkedMain/>
               <pitch>70</pitch>
@@ -26384,6 +26397,7 @@
             <Spanner type="Slur">
               <Slur>
                 <linkedMain/>
+                <up>up</up>
                 </Slur>
               <next>
                 <location>
@@ -28399,6 +28413,7 @@
             <Spanner type="Slur">
               <Slur>
                 <linkedMain/>
+                <up>up</up>
                 </Slur>
               <next>
                 <location>
@@ -29489,6 +29504,7 @@
             <Spanner type="Slur">
               <Slur>
                 <linkedMain/>
+                <up>up</up>
                 </Slur>
               <next>
                 <location>
@@ -29624,6 +29640,7 @@
             <Spanner type="Slur">
               <Slur>
                 <linkedMain/>
+                <up>up</up>
                 </Slur>
               <next>
                 <location>
@@ -31476,6 +31493,16 @@
           <Chord>
             <linkedMain/>
             <durationType>32nd</durationType>
+            <Spanner type="Slur">
+              <Slur>
+                <linkedMain/>
+                </Slur>
+              <next>
+                <location>
+                  <fractions>3/16</fractions>
+                  </location>
+                </next>
+              </Spanner>
             <Articulation>
               <subtype>articStaccatoAbove</subtype>
               <linkedMain/>
@@ -31565,6 +31592,13 @@
           <Chord>
             <linkedMain/>
             <durationType>32nd</durationType>
+            <Spanner type="Slur">
+              <prev>
+                <location>
+                  <fractions>-3/16</fractions>
+                  </location>
+                </prev>
+              </Spanner>
             <Articulation>
               <subtype>articStaccatoAbove</subtype>
               <linkedMain/>
@@ -32435,6 +32469,7 @@
             <Spanner type="Slur">
               <Slur>
                 <linkedMain/>
+                <up>up</up>
                 </Slur>
               <next>
                 <location>
@@ -35507,6 +35542,12 @@
           <subtype>page</subtype>
           </LayoutBreak>
         <voice>
+          <Beam>
+            <Fragment>
+              <y1>2.11869</y1>
+              <y2>0.618687</y2>
+              </Fragment>
+            </Beam>
           <Chord>
             <linkedMain/>
             <durationType>eighth</durationType>
@@ -35953,6 +35994,12 @@
           <subtype>line</subtype>
           </LayoutBreak>
         <voice>
+          <Beam>
+            <Fragment>
+              <y1>4.63711</y1>
+              <y2>-3.92736</y2>
+              </Fragment>
+            </Beam>
           <Chord>
             <linkedMain/>
             <durationType>16th</durationType>
@@ -36006,6 +36053,7 @@
               <Spanner type="Tie">
                 <Tie>
                   <linkedMain/>
+                  <up>down</up>
                   </Tie>
                 <next>
                   <location>
@@ -36731,6 +36779,12 @@
         </Measure>
       <Measure>
         <voice>
+          <Beam>
+            <Fragment>
+              <y1>1.265</y1>
+              <y2>-0.484997</y2>
+              </Fragment>
+            </Beam>
           <Chord>
             <linkedMain/>
             <durationType>eighth</durationType>
@@ -37001,6 +37055,10 @@
             <Spanner type="Slur">
               <Slur>
                 <linkedMain/>
+                <SlurSegment no="1">
+                  <offset x="-0.22" y="0"/>
+                  </SlurSegment>
+                <up>down</up>
                 </Slur>
               <next>
                 <location>
@@ -43588,6 +43646,7 @@
             <Spanner type="Slur">
               <Slur>
                 <linkedMain/>
+                <up>down</up>
                 </Slur>
               <next>
                 <location>
@@ -43951,6 +44010,7 @@
             <Spanner type="Slur">
               <Slur>
                 <linkedMain/>
+                <up>down</up>
                 </Slur>
               <next>
                 <location>
@@ -44181,6 +44241,7 @@
             <Spanner type="Slur">
               <Slur>
                 <linkedMain/>
+                <up>down</up>
                 </Slur>
               <next>
                 <location>
@@ -44339,6 +44400,7 @@
             <Spanner type="Slur">
               <Slur>
                 <linkedMain/>
+                <up>down</up>
                 </Slur>
               <next>
                 <location>
@@ -44375,6 +44437,8 @@
         </Measure>
       <Measure>
         <voice>
+          <Beam>
+            </Beam>
           <Chord>
             <linkedMain/>
             <durationType>eighth</durationType>
@@ -53937,6 +54001,9 @@
               <tpc>17</tpc>
               </Note>
             </Chord>
+          <Beam>
+            <StemDirection>up</StemDirection>
+            </Beam>
           <Chord>
             <linkedMain/>
             <durationType>16th</durationType>
@@ -70172,6 +70239,7 @@
             <Spanner type="Slur">
               <Slur>
                 <linkedMain/>
+                <up>down</up>
                 </Slur>
               <next>
                 <location>
@@ -71277,6 +71345,7 @@
             <Spanner type="Slur">
               <Slur>
                 <linkedMain/>
+                <up>down</up>
                 </Slur>
               <next>
                 <location>
@@ -71510,6 +71579,7 @@
             <Spanner type="Slur">
               <Slur>
                 <linkedMain/>
+                <up>down</up>
                 </Slur>
               <next>
                 <location>
@@ -80168,6 +80238,9 @@
               <tpc>16</tpc>
               </Note>
             </Chord>
+          <Beam>
+            <StemDirection>up</StemDirection>
+            </Beam>
           <Chord>
             <linkedMain/>
             <durationType>eighth</durationType>
@@ -80219,7 +80292,7 @@
             <linkedMain/>
             <durationType>eighth</durationType>
             <Articulation>
-              <subtype>articStaccatoAbove</subtype>
+              <subtype>articStaccatoBelow</subtype>
               <linkedMain/>
               </Articulation>
             <Note>
@@ -90327,6 +90400,7 @@
             <Spanner type="Slur">
               <Slur>
                 <linkedMain/>
+                <up>down</up>
                 </Slur>
               <next>
                 <location>
@@ -96517,6 +96591,7 @@
             <Spanner type="Slur">
               <Slur>
                 <linkedMain/>
+                <up>down</up>
                 </Slur>
               <next>
                 <location>
@@ -96725,6 +96800,7 @@
             <Spanner type="Slur">
               <Slur>
                 <linkedMain/>
+                <up>down</up>
                 </Slur>
               <next>
                 <location>
@@ -96877,6 +96953,7 @@
                   </location>
                 </prev>
               </Spanner>
+            <StemDirection>up</StemDirection>
             <Note>
               <linkedMain/>
               <pitch>70</pitch>
@@ -97141,6 +97218,7 @@
             <Spanner type="Slur">
               <Slur>
                 <linkedMain/>
+                <up>up</up>
                 </Slur>
               <next>
                 <location>
@@ -101070,6 +101148,7 @@
             <Spanner type="Slur">
               <Slur>
                 <linkedMain/>
+                <up>down</up>
                 </Slur>
               <next>
                 <location>
@@ -102162,6 +102241,7 @@
             <Spanner type="Slur">
               <Slur>
                 <linkedMain/>
+                <up>down</up>
                 </Slur>
               <next>
                 <location>
@@ -102694,6 +102774,7 @@
             <Spanner type="Slur">
               <Slur>
                 <linkedMain/>
+                <up>up</up>
                 </Slur>
               <next>
                 <location>
@@ -105694,6 +105775,12 @@
         </Measure>
       <Measure>
         <voice>
+          <Beam>
+            <Fragment>
+              <y1>5.33526</y1>
+              <y2>-1.71999</y2>
+              </Fragment>
+            </Beam>
           <Chord>
             <linkedMain/>
             <durationType>16th</durationType>
@@ -111338,6 +111425,7 @@
             <Spanner type="Slur">
               <Slur>
                 <linkedMain/>
+                <up>up</up>
                 </Slur>
               <next>
                 <location>
@@ -114103,6 +114191,7 @@
             <Spanner type="Slur">
               <Slur>
                 <linkedMain/>
+                <up>down</up>
                 </Slur>
               <next>
                 <location>
@@ -114180,6 +114269,7 @@
             <Spanner type="Slur">
               <Slur>
                 <linkedMain/>
+                <up>down</up>
                 </Slur>
               <next>
                 <location>
@@ -114519,6 +114609,7 @@
             <Spanner type="Slur">
               <Slur>
                 <linkedMain/>
+                <up>down</up>
                 </Slur>
               <next>
                 <location>
@@ -114674,6 +114765,7 @@
             <Spanner type="Slur">
               <Slur>
                 <linkedMain/>
+                <up>down</up>
                 </Slur>
               <next>
                 <location>
@@ -128071,6 +128163,7 @@
             <Spanner type="Slur">
               <Slur>
                 <linkedMain/>
+                <up>down</up>
                 </Slur>
               <next>
                 <location>
@@ -128224,6 +128317,7 @@
             <Spanner type="Slur">
               <Slur>
                 <linkedMain/>
+                <up>down</up>
                 </Slur>
               <next>
                 <location>
@@ -140819,12 +140913,16 @@
             <velocity>49</velocity>
             <linkedMain/>
             </Dynamic>
+          <Beam>
+            <StemDirection>down</StemDirection>
+            </Beam>
           <Chord>
             <linkedMain/>
             <durationType>eighth</durationType>
             <Spanner type="Slur">
               <Slur>
                 <linkedMain/>
+                <up>up</up>
                 </Slur>
               <next>
                 <location>
@@ -141923,6 +142021,7 @@
             <Spanner type="Slur">
               <Slur>
                 <linkedMain/>
+                <up>down</up>
                 </Slur>
               <next>
                 <location>
@@ -144887,7 +144986,7 @@
               </Note>
             </Chord>
           <Beam>
-            <StemDirection>up</StemDirection>
+            <StemDirection>down</StemDirection>
             </Beam>
           <Chord>
             <linkedMain/>
@@ -144980,7 +145079,7 @@
               </Note>
             </Chord>
           <Beam>
-            <StemDirection>up</StemDirection>
+            <StemDirection>down</StemDirection>
             </Beam>
           <Chord>
             <linkedMain/>
@@ -149441,6 +149540,68 @@
             <Spanner type="Slur">
               <Slur>
                 <linkedMain/>
+                <up>down</up>
+                </Slur>
+              <next>
+                <location>
+                  <fractions>1/4</fractions>
+                  </location>
+                </next>
+              </Spanner>
+            <Articulation>
+              <subtype>articAccentBelow</subtype>
+              <linkedMain/>
+              </Articulation>
+            <Note>
+              <linkedMain/>
+              <pitch>58</pitch>
+              <tpc>12</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <linkedMain/>
+            <durationType>quarter</durationType>
+            <Spanner type="Slur">
+              <prev>
+                <location>
+                  <fractions>-1/4</fractions>
+                  </location>
+                </prev>
+              </Spanner>
+            <Note>
+              <linkedMain/>
+              <pitch>60</pitch>
+              <tpc>14</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <linkedMain/>
+            <durationType>quarter</durationType>
+            <Articulation>
+              <subtype>articStaccatoBelow</subtype>
+              <linkedMain/>
+              </Articulation>
+            <Note>
+              <linkedMain/>
+              <pitch>53</pitch>
+              <tpc>13</tpc>
+              </Note>
+            </Chord>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Rest>
+            <linkedMain/>
+            <durationType>quarter</durationType>
+            </Rest>
+          <Chord>
+            <linkedMain/>
+            <durationType>quarter</durationType>
+            <Spanner type="Slur">
+              <Slur>
+                <linkedMain/>
+                <up>down</up>
                 </Slur>
               <next>
                 <location>
@@ -149512,66 +149673,7 @@
               <subtype>articAccentBelow</subtype>
               <linkedMain/>
               </Articulation>
-            <Note>
-              <linkedMain/>
-              <pitch>58</pitch>
-              <tpc>12</tpc>
-              </Note>
-            </Chord>
-          <Chord>
-            <linkedMain/>
-            <durationType>quarter</durationType>
-            <Spanner type="Slur">
-              <prev>
-                <location>
-                  <fractions>-1/4</fractions>
-                  </location>
-                </prev>
-              </Spanner>
-            <Note>
-              <linkedMain/>
-              <pitch>60</pitch>
-              <tpc>14</tpc>
-              </Note>
-            </Chord>
-          <Chord>
-            <linkedMain/>
-            <durationType>quarter</durationType>
-            <Articulation>
-              <subtype>articStaccatoBelow</subtype>
-              <linkedMain/>
-              </Articulation>
-            <Note>
-              <linkedMain/>
-              <pitch>53</pitch>
-              <tpc>13</tpc>
-              </Note>
-            </Chord>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <Rest>
-            <linkedMain/>
-            <durationType>quarter</durationType>
-            </Rest>
-          <Chord>
-            <linkedMain/>
-            <durationType>quarter</durationType>
-            <Spanner type="Slur">
-              <Slur>
-                <linkedMain/>
-                </Slur>
-              <next>
-                <location>
-                  <fractions>1/4</fractions>
-                  </location>
-                </next>
-              </Spanner>
-            <Articulation>
-              <subtype>articAccentAbove</subtype>
-              <linkedMain/>
-              </Articulation>
+            <StemDirection>up</StemDirection>
             <Note>
               <linkedMain/>
               <pitch>60</pitch>
@@ -149609,9 +149711,10 @@
                 </next>
               </Spanner>
             <Articulation>
-              <subtype>articAccentAbove</subtype>
+              <subtype>articAccentBelow</subtype>
               <linkedMain/>
               </Articulation>
+            <StemDirection>up</StemDirection>
             <Note>
               <linkedMain/>
               <pitch>60</pitch>
@@ -149653,9 +149756,10 @@
                 </next>
               </Spanner>
             <Articulation>
-              <subtype>articAccentAbove</subtype>
+              <subtype>articAccentBelow</subtype>
               <linkedMain/>
               </Articulation>
+            <StemDirection>up</StemDirection>
             <Note>
               <linkedMain/>
               <pitch>60</pitch>
@@ -149698,9 +149802,10 @@
                 </next>
               </Spanner>
             <Articulation>
-              <subtype>articAccentAbove</subtype>
+              <subtype>articAccentBelow</subtype>
               <linkedMain/>
               </Articulation>
+            <StemDirection>up</StemDirection>
             <Note>
               <linkedMain/>
               <pitch>60</pitch>
@@ -151207,6 +151312,7 @@
             <Spanner type="Slur">
               <Slur>
                 <linkedMain/>
+                <up>down</up>
                 </Slur>
               <next>
                 <location>
@@ -151259,6 +151365,7 @@
             <Spanner type="Slur">
               <Slur>
                 <linkedMain/>
+                <up>down</up>
                 </Slur>
               <next>
                 <location>
@@ -151314,6 +151421,7 @@
             <Spanner type="Slur">
               <Slur>
                 <linkedMain/>
+                <up>down</up>
                 </Slur>
               <next>
                 <location>
@@ -154261,13 +154369,16 @@
             <linkedMain/>
             <durationType>eighth</durationType>
             </Rest>
+          <Beam>
+            <StemDirection>down</StemDirection>
+            </Beam>
           <Chord>
             <linkedMain/>
             <durationType>16th</durationType>
             <Spanner type="Slur">
               <Slur>
                 <linkedMain/>
-                <up>down</up>
+                <up>up</up>
                 </Slur>
               <next>
                 <location>
@@ -154458,6 +154569,9 @@
         </Measure>
       <Measure>
         <voice>
+          <Beam>
+            <StemDirection>down</StemDirection>
+            </Beam>
           <Chord>
             <linkedMain/>
             <durationType>eighth</durationType>
@@ -154473,7 +154587,7 @@
             <Spanner type="Slur">
               <Slur>
                 <linkedMain/>
-                <up>down</up>
+                <up>up</up>
                 </Slur>
               <next>
                 <location>
@@ -159423,6 +159537,9 @@
             <linkedMain/>
             <durationType>eighth</durationType>
             </Rest>
+          <Beam>
+            <StemDirection>down</StemDirection>
+            </Beam>
           <Chord>
             <linkedMain/>
             <durationType>16th</durationType>
@@ -166771,6 +166888,7 @@
                   </location>
                 </next>
               </Spanner>
+            <StemDirection>up</StemDirection>
             <Note>
               <linkedMain/>
               <pitch>60</pitch>
@@ -171536,6 +171654,7 @@
             <Spanner type="Slur">
               <Slur>
                 <linkedMain/>
+                <up>down</up>
                 </Slur>
               <next>
                 <location>
@@ -171679,6 +171798,7 @@
             <Spanner type="Slur">
               <Slur>
                 <linkedMain/>
+                <up>down</up>
                 </Slur>
               <next>
                 <location>
@@ -172053,16 +172173,6 @@
           <Chord>
             <linkedMain/>
             <durationType>32nd</durationType>
-            <Spanner type="Slur">
-              <Slur>
-                <linkedMain/>
-                </Slur>
-              <next>
-                <location>
-                  <fractions>1/32</fractions>
-                  </location>
-                </next>
-              </Spanner>
             <Note>
               <linkedMain/>
               <pitch>53</pitch>
@@ -172072,13 +172182,6 @@
           <Chord>
             <linkedMain/>
             <durationType>eighth</durationType>
-            <Spanner type="Slur">
-              <prev>
-                <location>
-                  <fractions>-1/32</fractions>
-                  </location>
-                </prev>
-              </Spanner>
             <Note>
               <linkedMain/>
               <pitch>58</pitch>
@@ -172087,6 +172190,7 @@
             </Chord>
           <Rest>
             <linkedMain/>
+            <BeamMode>mid</BeamMode>
             <dots>1</dots>
             <durationType>16th</durationType>
             </Rest>
@@ -172096,6 +172200,11 @@
             <Spanner type="Slur">
               <Slur>
                 <linkedMain/>
+                <SlurSegment no="1">
+                  <o4 x="-0.301842" y="0"/>
+                  <offset x="0.08" y="0"/>
+                  </SlurSegment>
+                <up>up</up>
                 </Slur>
               <next>
                 <location>
@@ -175297,6 +175406,9 @@
         </Measure>
       <Measure>
         <voice>
+          <Beam>
+            <StemDirection>down</StemDirection>
+            </Beam>
           <Chord>
             <linkedMain/>
             <durationType>16th</durationType>
@@ -182681,6 +182793,7 @@
             <Spanner type="Slur">
               <Slur>
                 <linkedMain/>
+                <up>down</up>
                 </Slur>
               <next>
                 <location>
@@ -183680,6 +183793,13 @@
             <linkedMain/>
             <durationType>eighth</durationType>
             </Rest>
+          <Beam>
+            <StemDirection>down</StemDirection>
+            <Fragment>
+              <y1>4.64973</y1>
+              <y2>4.55526</y2>
+              </Fragment>
+            </Beam>
           <Chord>
             <linkedMain/>
             <offset x="-0.282458" y="-1.69474"/>
@@ -186437,7 +186557,7 @@
             <linkedMain/>
             <durationType>eighth</durationType>
             <Articulation>
-              <subtype>articStaccatoBelow</subtype>
+              <subtype>articStaccatoAbove</subtype>
               <linkedMain/>
               </Articulation>
             <Note>
@@ -186450,7 +186570,7 @@
             <linkedMain/>
             <durationType>eighth</durationType>
             <Articulation>
-              <subtype>articStaccatoBelow</subtype>
+              <subtype>articStaccatoAbove</subtype>
               <linkedMain/>
               </Articulation>
             <Note>
@@ -186461,6 +186581,7 @@
             </Chord>
           <Chord>
             <linkedMain/>
+            <BeamMode>begin</BeamMode>
             <durationType>eighth</durationType>
             <Articulation>
               <subtype>articStaccatoBelow</subtype>
@@ -194863,6 +194984,7 @@
             <Spanner type="Slur">
               <Slur>
                 <linkedMain/>
+                <up>down</up>
                 </Slur>
               <next>
                 <location>
@@ -195612,6 +195734,9 @@
         </Measure>
       <Measure>
         <voice>
+          <Beam>
+            <StemDirection>up</StemDirection>
+            </Beam>
           <Chord>
             <linkedMain/>
             <durationType>eighth</durationType>
@@ -195726,6 +195851,9 @@
         </Measure>
       <Measure>
         <voice>
+          <Beam>
+            <StemDirection>up</StemDirection>
+            </Beam>
           <Chord>
             <linkedMain/>
             <durationType>eighth</durationType>
@@ -204836,6 +204964,7 @@
             <Spanner type="Slur">
               <Slur>
                 <linkedMain/>
+                <up>down</up>
                 </Slur>
               <next>
                 <location>
@@ -205104,6 +205233,7 @@
             <Spanner type="Slur">
               <Slur>
                 <linkedMain/>
+                <up>down</up>
                 </Slur>
               <next>
                 <location>
@@ -205977,6 +206107,7 @@
             <Spanner type="Slur">
               <Slur>
                 <linkedMain/>
+                <up>down</up>
                 </Slur>
               <next>
                 <location>
@@ -206223,6 +206354,7 @@
             <Spanner type="Slur">
               <Slur>
                 <linkedMain/>
+                <up>down</up>
                 </Slur>
               <next>
                 <location>
@@ -206798,6 +206930,7 @@
             <Spanner type="Slur">
               <Slur>
                 <linkedMain/>
+                <up>down</up>
                 </Slur>
               <next>
                 <location>
@@ -207514,6 +207647,7 @@
             <Spanner type="Slur">
               <Slur>
                 <linkedMain/>
+                <up>down</up>
                 </Slur>
               <next>
                 <location>
@@ -207566,6 +207700,7 @@
             <Spanner type="Slur">
               <Slur>
                 <linkedMain/>
+                <up>down</up>
                 </Slur>
               <next>
                 <location>
@@ -209142,7 +209277,7 @@
               </Note>
             </Chord>
           <Beam>
-            <StemDirection>up</StemDirection>
+            <StemDirection>down</StemDirection>
             </Beam>
           <Chord>
             <linkedMain/>
@@ -209257,7 +209392,7 @@
               </Note>
             </Chord>
           <Beam>
-            <StemDirection>up</StemDirection>
+            <StemDirection>down</StemDirection>
             </Beam>
           <Chord>
             <linkedMain/>
@@ -217490,6 +217625,9 @@
             <linkedMain/>
             <durationType>eighth</durationType>
             </Rest>
+          <Beam>
+            <StemDirection>down</StemDirection>
+            </Beam>
           <Chord>
             <linkedMain/>
             <durationType>16th</durationType>
@@ -221010,6 +221148,9 @@
               <tpc>11</tpc>
               </Note>
             </Chord>
+          <Beam>
+            <StemDirection>down</StemDirection>
+            </Beam>
           <Chord>
             <linkedMain/>
             <durationType>eighth</durationType>
@@ -227725,6 +227866,7 @@
             <Spanner type="Slur">
               <Slur>
                 <linkedMain/>
+                <up>down</up>
                 </Slur>
               <next>
                 <location>
@@ -230056,6 +230198,7 @@
             <Spanner type="Slur">
               <Slur>
                 <linkedMain/>
+                <up>down</up>
                 </Slur>
               <next>
                 <location>
@@ -242205,6 +242348,7 @@
           <Chord>
             <linkedMain/>
             <durationType>eighth</durationType>
+            <StemDirection>up</StemDirection>
             <Note>
               <linkedMain/>
               <pitch>49</pitch>
@@ -243002,6 +243146,9 @@
         </Measure>
       <Measure>
         <voice>
+          <Beam>
+            <StemDirection>up</StemDirection>
+            </Beam>
           <Chord>
             <linkedMain/>
             <durationType>16th</durationType>
@@ -250535,6 +250682,7 @@
             <Spanner type="Slur">
               <Slur>
                 <linkedMain/>
+                <up>down</up>
                 </Slur>
               <next>
                 <location>
@@ -251098,6 +251246,7 @@
           <Chord>
             <linkedMain/>
             <durationType>quarter</durationType>
+            <StemDirection>up</StemDirection>
             <Note>
               <linkedMain/>
               <pitch>50</pitch>
@@ -286557,8 +286706,8 @@
               <Note>
                 <linked>
                   </linked>
-                <pitch>77</pitch>
-                <tpc>13</tpc>
+                <pitch>79</pitch>
+                <tpc>15</tpc>
                 </Note>
               </Chord>
             <Chord>
@@ -286573,8 +286722,8 @@
               <Note>
                 <linked>
                   </linked>
-                <pitch>79</pitch>
-                <tpc>15</tpc>
+                <pitch>80</pitch>
+                <tpc>10</tpc>
                 </Note>
               </Chord>
             <Chord>
@@ -296093,6 +296242,17 @@
               <linked>
                 </linked>
               <durationType>32nd</durationType>
+              <Spanner type="Slur">
+                <Slur>
+                  <linked>
+                    </linked>
+                  </Slur>
+                <next>
+                  <location>
+                    <fractions>3/16</fractions>
+                    </location>
+                  </next>
+                </Spanner>
               <Articulation>
                 <subtype>articStaccatoAbove</subtype>
                 <linked>
@@ -296200,6 +296360,13 @@
               <linked>
                 </linked>
               <durationType>32nd</durationType>
+              <Spanner type="Slur">
+                <prev>
+                  <location>
+                    <fractions>-3/16</fractions>
+                    </location>
+                  </prev>
+                </Spanner>
               <Articulation>
                 <subtype>articStaccatoAbove</subtype>
                 <linked>
@@ -462010,17 +462177,6 @@
               <linked>
                 </linked>
               <durationType>32nd</durationType>
-              <Spanner type="Slur">
-                <Slur>
-                  <linked>
-                    </linked>
-                  </Slur>
-                <next>
-                  <location>
-                    <fractions>1/32</fractions>
-                    </location>
-                  </next>
-                </Spanner>
               <Note>
                 <linked>
                   </linked>
@@ -462032,13 +462188,6 @@
               <linked>
                 </linked>
               <durationType>eighth</durationType>
-              <Spanner type="Slur">
-                <prev>
-                  <location>
-                    <fractions>-1/32</fractions>
-                    </location>
-                  </prev>
-                </Spanner>
               <Note>
                 <linked>
                   </linked>
@@ -462049,6 +462198,7 @@
             <Rest>
               <linked>
                 </linked>
+              <BeamMode>mid</BeamMode>
               <dots>1</dots>
               <durationType>16th</durationType>
               </Rest>
@@ -479149,7 +479299,7 @@
                 </linked>
               <durationType>eighth</durationType>
               <Articulation>
-                <subtype>articStaccatoBelow</subtype>
+                <subtype>articStaccatoAbove</subtype>
                 <linked>
                   </linked>
                 </Articulation>
@@ -479165,7 +479315,7 @@
                 </linked>
               <durationType>eighth</durationType>
               <Articulation>
-                <subtype>articStaccatoBelow</subtype>
+                <subtype>articStaccatoAbove</subtype>
                 <linked>
                   </linked>
                 </Articulation>
@@ -479179,6 +479329,7 @@
             <Chord>
               <linked>
                 </linked>
+              <BeamMode>begin</BeamMode>
               <durationType>eighth</durationType>
               <Articulation>
                 <subtype>articStaccatoBelow</subtype>

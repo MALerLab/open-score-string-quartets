@@ -3,16 +3,22 @@ data_id: sq12772795
 image_type: scanned
 system:
   model: ls-yolo-system-v3.0.0
-  confidence_threshold: 0.85
+  confidence_threshold: 0.3
   merge_threshold: 0.7
   exceptions:
+  ignores:
+    - sq12772795:0015:0005
+    - sq12772795:0019:0005
+    - sq12772795:0020:0005
+    - sq12772795:0022:0005
+    - sq12772795:0025:0005
 staff_height:
   model: ls-yolo-staff-height-v2.0.0
   target_height: 18
-  exceptions:
 staff_bbox:
   model: ls-yolo-staff-bbox-v1.0.1
   confidence_threshold: 0.7
   merge_threshold: 0.7
   exceptions:
   ignores:
+    - sq12772795:0015:0005

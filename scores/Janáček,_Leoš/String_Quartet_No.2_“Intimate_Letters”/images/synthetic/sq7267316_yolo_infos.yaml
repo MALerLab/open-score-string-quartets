@@ -6,15 +6,17 @@ system:
   confidence_threshold: 0.45
   merge_threshold: 0.7
   exceptions:
+    - sq7267316:0026:0001
+    - sq7267316:0035:0001
+  ignores:
 staff_height:
   model: ls-yolo-staff-height-v2.0.0
   target_height: 18
-  exceptions:
-  - sq7267316:0026:0001.png
-  - sq7267316:0035:0001.png
 staff_bbox:
   model: ls-yolo-staff-bbox-v1.0.1
   confidence_threshold: 0.7
   merge_threshold: 0.7
   exceptions:
+    - sq7267316:0026:0001
+    - sq7267316:0035:0001
   ignores:

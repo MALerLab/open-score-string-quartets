@@ -8418,6 +8418,12 @@
               <tpc>21</tpc>
               </Note>
             </Chord>
+          <Beam>
+            <Fragment>
+              <y1>2.31311</y1>
+              <y2>0.767</y2>
+              </Fragment>
+            </Beam>
           <Chord>
             <linkedMain/>
             <durationType>eighth</durationType>
@@ -11320,6 +11326,9 @@
             <linkedMain/>
             <durationType>eighth</durationType>
             </Rest>
+          <Beam>
+            <StemDirection>up</StemDirection>
+            </Beam>
           <Chord>
             <linkedMain/>
             <durationType>16th</durationType>
@@ -15257,6 +15266,7 @@
                   </location>
                 </prev>
               </Spanner>
+            <StemDirection>up</StemDirection>
             <Note>
               <linkedMain/>
               <Accidental>
@@ -19062,6 +19072,12 @@
             <linkedMain/>
             <durationType>eighth</durationType>
             </Rest>
+          <Beam>
+            <Fragment>
+              <y1>2.11772</y1>
+              <y2>-0.0376116</y2>
+              </Fragment>
+            </Beam>
           <Chord>
             <linkedMain/>
             <durationType>eighth</durationType>
@@ -19106,7 +19122,7 @@
             <linkedMain/>
             <durationType>eighth</durationType>
             <Articulation>
-              <subtype>articStaccatoAbove</subtype>
+              <subtype>articStaccatoBelow</subtype>
               <linkedMain/>
               </Articulation>
             <Note>
@@ -22843,6 +22859,7 @@
               <Spanner type="Tie">
                 <Tie>
                   <linkedMain/>
+                  <up>down</up>
                   </Tie>
                 <next>
                   <location>
@@ -24275,6 +24292,12 @@
                 </location>
               </next>
             </Spanner>
+          <Beam>
+            <Fragment>
+              <y1>2.26456</y1>
+              <y2>3.483</y2>
+              </Fragment>
+            </Beam>
           <Chord>
             <linkedMain/>
             <durationType>eighth</durationType>
@@ -31262,6 +31285,7 @@
             <Spanner type="Slur">
               <Slur>
                 <linkedMain/>
+                <up>down</up>
                 </Slur>
               <next>
                 <location>
@@ -36106,6 +36130,12 @@
               <tpc>11</tpc>
               </Note>
             </Chord>
+          <Beam>
+            <Fragment>
+              <y1>3.78761</y1>
+              <y2>2.18689</y2>
+              </Fragment>
+            </Beam>
           <Chord>
             <linkedMain/>
             <durationType>eighth</durationType>
@@ -42792,7 +42822,7 @@
             </Chord>
           <Chord>
             <linkedMain/>
-            <BeamMode>mid</BeamMode>
+            <BeamMode>begin</BeamMode>
             <dots>1</dots>
             <durationType>eighth</durationType>
             <Note>
@@ -60890,11 +60920,17 @@
         </Measure>
       <Measure>
         <voice>
+          <Beam>
+            <Fragment>
+              <y1>2.92839</y1>
+              <y2>-0.422333</y2>
+              </Fragment>
+            </Beam>
           <Chord>
             <linkedMain/>
             <durationType>eighth</durationType>
             <Articulation>
-              <subtype>articStaccatoBelow</subtype>
+              <subtype>articStaccatoAbove</subtype>
               <linkedMain/>
               </Articulation>
             <Note>
@@ -111881,7 +111917,7 @@
             <Chord>
               <linked>
                 </linked>
-              <BeamMode>mid</BeamMode>
+              <BeamMode>begin</BeamMode>
               <dots>1</dots>
               <durationType>eighth</durationType>
               <Note>

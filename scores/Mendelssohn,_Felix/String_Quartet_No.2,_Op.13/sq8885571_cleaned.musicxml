@@ -10,7 +10,7 @@
     <rights>OpenScore (CC0)</rights>
     <encoding>
       <software>MuseScore 3.6.2</software>
-      <encoding-date>2026-02-19</encoding-date>
+      <encoding-date>2026-04-01</encoding-date>
       <supports element="accidental" type="yes" />
       <supports element="beam" type="yes" />
       <supports element="print" attribute="new-page" type="yes" value="yes" />
@@ -1004,7 +1004,7 @@
         <voice>1</voice>
         <type>eighth</type>
         <dot />
-        <stem>down</stem>
+        <stem>up</stem>
         <beam number="1">begin</beam>
         <notations>
           <slur type="start" />
@@ -1018,7 +1018,7 @@
         <duration>6</duration>
         <voice>1</voice>
         <type>16th</type>
-        <stem>down</stem>
+        <stem>up</stem>
         <beam number="1">continue</beam>
         <beam number="2">forward hook</beam>
         <notations>
@@ -1034,7 +1034,7 @@
         <voice>1</voice>
         <type>eighth</type>
         <dot />
-        <stem>down</stem>
+        <stem>up</stem>
         <beam number="1">continue</beam>
         <notations>
           <slur type="start" />
@@ -1049,7 +1049,7 @@
         <duration>6</duration>
         <voice>1</voice>
         <type>16th</type>
-        <stem>down</stem>
+        <stem>up</stem>
         <beam number="1">end</beam>
         <beam number="2">backward hook</beam>
         <notations>
@@ -17797,7 +17797,7 @@
             <left-margin>6.20</left-margin>
             <right-margin>0.00</right-margin>
           </system-margins>
-          <system-distance>94.33</system-distance>
+          <system-distance>176.01</system-distance>
         </system-layout>
       </print>
       <note>
@@ -18171,14 +18171,14 @@
         <voice>1</voice>
       </note>
     </measure>
-    <measure number="224" width="265.66">
+    <measure number="224" width="291.16">
       <print new-system="yes">
         <system-layout>
           <system-margins>
             <left-margin>6.20</left-margin>
             <right-margin>0.00</right-margin>
           </system-margins>
-          <system-distance>108.96</system-distance>
+          <system-distance>176.01</system-distance>
         </system-layout>
       </print>
       <note>
@@ -18187,7 +18187,7 @@
         <voice>1</voice>
       </note>
     </measure>
-    <measure number="225" width="233.26">
+    <measure number="225" width="258.76">
       <note>
         <rest />
         <duration>48</duration>
@@ -18225,7 +18225,7 @@
         <beam number="2">backward hook</beam>
       </note>
     </measure>
-    <measure number="226" width="235.22">
+    <measure number="226" width="260.72">
       <note>
         <pitch>
           <step>E</step>
@@ -18307,7 +18307,7 @@
         <beam number="2">backward hook</beam>
       </note>
     </measure>
-    <measure number="227" width="243.78">
+    <measure number="227" width="269.28">
       <note>
         <pitch>
           <step>A</step>
@@ -18427,7 +18427,7 @@
         <beam number="2">backward hook</beam>
       </note>
     </measure>
-    <measure number="228" width="235.22">
+    <measure number="228" width="260.72">
       <note>
         <pitch>
           <step>E</step>
@@ -18509,7 +18509,7 @@
         <beam number="2">backward hook</beam>
       </note>
     </measure>
-    <measure number="229" width="288.05">
+    <measure number="229" width="313.55">
       <note>
         <pitch>
           <step>A</step>
@@ -18647,7 +18647,7 @@
         </notations>
       </note>
     </measure>
-    <measure number="230" width="208.84">
+    <measure number="230" width="234.35">
       <note>
         <pitch>
           <step>C</step>
@@ -18673,7 +18673,16 @@
         </notations>
       </note>
     </measure>
-    <measure number="231" width="178.53">
+    <measure number="231" width="284.28">
+      <print new-system="yes">
+        <system-layout>
+          <system-margins>
+            <left-margin>6.20</left-margin>
+            <right-margin>0.00</right-margin>
+          </system-margins>
+          <system-distance>176.01</system-distance>
+        </system-layout>
+      </print>
       <note>
         <pitch>
           <step>C</step>
@@ -18722,16 +18731,7 @@
         </notations>
       </note>
     </measure>
-    <measure number="232" width="337.34">
-      <print new-system="yes">
-        <system-layout>
-          <system-margins>
-            <left-margin>6.20</left-margin>
-            <right-margin>0.00</right-margin>
-          </system-margins>
-          <system-distance>109.57</system-distance>
-        </system-layout>
-      </print>
+    <measure number="232" width="238.42">
       <note>
         <pitch>
           <step>D</step>
@@ -18777,7 +18777,7 @@
         </notations>
       </note>
     </measure>
-    <measure number="233" width="324.29">
+    <measure number="233" width="277.07">
       <note>
         <pitch>
           <step>E</step>
@@ -18841,7 +18841,7 @@
         <beam number="2">backward hook</beam>
       </note>
     </measure>
-    <measure number="234" width="401.82">
+    <measure number="234" width="354.60">
       <note>
         <pitch>
           <step>E</step>
@@ -18923,7 +18923,7 @@
         <beam number="2">backward hook</beam>
       </note>
     </measure>
-    <measure number="235" width="423.28">
+    <measure number="235" width="379.56">
       <note>
         <pitch>
           <step>F</step>
@@ -18993,7 +18993,7 @@
         <beam number="2">backward hook</beam>
       </note>
     </measure>
-    <measure number="236" width="401.82">
+    <measure number="236" width="354.60">
       <note>
         <pitch>
           <step>E</step>
@@ -19075,14 +19075,14 @@
         <beam number="2">backward hook</beam>
       </note>
     </measure>
-    <measure number="237" width="430.05">
+    <measure number="237" width="432.85">
       <print new-system="yes">
         <system-layout>
           <system-margins>
             <left-margin>6.20</left-margin>
             <right-margin>0.00</right-margin>
           </system-margins>
-          <system-distance>117.47</system-distance>
+          <system-distance>176.01</system-distance>
         </system-layout>
       </print>
       <note>
@@ -19162,7 +19162,7 @@
         </notations>
       </note>
     </measure>
-    <measure number="238" width="363.68">
+    <measure number="238" width="362.98">
       <note>
         <pitch>
           <step>C</step>
@@ -19184,7 +19184,7 @@
         <stem>down</stem>
       </note>
     </measure>
-    <measure number="239" width="364.86">
+    <measure number="239" width="364.16">
       <note>
         <pitch>
           <step>C</step>
@@ -19246,7 +19246,7 @@
         </notations>
       </note>
     </measure>
-    <measure number="240" width="366.28">
+    <measure number="240" width="365.58">
       <note>
         <pitch>
           <step>C</step>
@@ -19332,7 +19332,7 @@
         </notations>
       </note>
     </measure>
-    <measure number="241" width="363.68">
+    <measure number="241" width="362.98">
       <note>
         <pitch>
           <step>A</step>
@@ -19405,13 +19405,13 @@
       </note>
     </measure>
     <measure number="242" width="497.66">
-      <print new-system="yes">
+      <print new-page="yes">
         <system-layout>
           <system-margins>
-            <left-margin>6.20</left-margin>
+            <left-margin>6.83</left-margin>
             <right-margin>0.00</right-margin>
           </system-margins>
-          <system-distance>94.33</system-distance>
+          <top-system-distance>70.00</top-system-distance>
         </system-layout>
       </print>
       <note>
@@ -19765,13 +19765,13 @@
       </note>
     </measure>
     <measure number="246" width="414.57">
-      <print new-page="yes">
+      <print new-system="yes">
         <system-layout>
           <system-margins>
             <left-margin>6.83</left-margin>
             <right-margin>0.00</right-margin>
           </system-margins>
-          <top-system-distance>70.00</top-system-distance>
+          <system-distance>361.24</system-distance>
         </system-layout>
       </print>
       <note>
@@ -26125,7 +26125,7 @@
             <left-margin>6.20</left-margin>
             <right-margin>0.00</right-margin>
           </system-margins>
-          <system-distance>169.93</system-distance>
+          <system-distance>172.47</system-distance>
         </system-layout>
       </print>
       <note>
@@ -26681,7 +26681,7 @@
             <left-margin>6.20</left-margin>
             <right-margin>0.00</right-margin>
           </system-margins>
-          <system-distance>169.93</system-distance>
+          <system-distance>172.47</system-distance>
         </system-layout>
       </print>
       <note>
@@ -27455,7 +27455,7 @@
             <left-margin>6.20</left-margin>
             <right-margin>0.00</right-margin>
           </system-margins>
-          <system-distance>169.93</system-distance>
+          <system-distance>172.47</system-distance>
         </system-layout>
       </print>
       <note>
@@ -28209,7 +28209,7 @@
             <left-margin>6.20</left-margin>
             <right-margin>0.00</right-margin>
           </system-margins>
-          <system-distance>169.93</system-distance>
+          <system-distance>172.47</system-distance>
         </system-layout>
       </print>
       <note>
@@ -32426,7 +32426,7 @@
             <left-margin>6.20</left-margin>
             <right-margin>0.00</right-margin>
           </system-margins>
-          <system-distance>162.94</system-distance>
+          <system-distance>161.11</system-distance>
         </system-layout>
       </print>
       <note>
@@ -33021,7 +33021,7 @@
             <left-margin>6.20</left-margin>
             <right-margin>0.00</right-margin>
           </system-margins>
-          <system-distance>162.94</system-distance>
+          <system-distance>161.11</system-distance>
         </system-layout>
       </print>
       <note>
@@ -33296,7 +33296,7 @@
             <left-margin>6.20</left-margin>
             <right-margin>0.00</right-margin>
           </system-margins>
-          <system-distance>162.94</system-distance>
+          <system-distance>161.11</system-distance>
         </system-layout>
       </print>
       <note>
@@ -33662,7 +33662,7 @@
             <left-margin>6.20</left-margin>
             <right-margin>0.00</right-margin>
           </system-margins>
-          <system-distance>162.94</system-distance>
+          <system-distance>161.11</system-distance>
         </system-layout>
       </print>
       <note>
@@ -36613,7 +36613,7 @@
         </notations>
       </note>
     </measure>
-    <measure number="97" width="243.75">
+    <measure number="97" width="250.35">
       <print new-system="yes">
         <system-layout>
           <system-margins>
@@ -36692,7 +36692,7 @@
         </notations>
       </note>
     </measure>
-    <measure number="98" width="152.71">
+    <measure number="98" width="159.31">
       <note>
         <pitch>
           <step>C</step>
@@ -36741,7 +36741,7 @@
         <beam number="1">end</beam>
       </note>
     </measure>
-    <measure number="99" width="155.63">
+    <measure number="99" width="162.23">
       <note>
         <pitch>
           <step>C</step>
@@ -36791,7 +36791,7 @@
         <beam number="1">end</beam>
       </note>
     </measure>
-    <measure number="100" width="175.47">
+    <measure number="100" width="182.07">
       <note>
         <pitch>
           <step>C</step>
@@ -36841,7 +36841,7 @@
         <beam number="1">end</beam>
       </note>
     </measure>
-    <measure number="101" width="192.53">
+    <measure number="101" width="199.13">
       <note>
         <pitch>
           <step>E</step>
@@ -36891,7 +36891,7 @@
         <beam number="1">end</beam>
       </note>
     </measure>
-    <measure number="102" width="170.93">
+    <measure number="102" width="177.53">
       <note>
         <pitch>
           <step>E</step>
@@ -36947,7 +36947,7 @@
         </notations>
       </note>
     </measure>
-    <measure number="103" width="171.39">
+    <measure number="103" width="177.99">
       <note>
         <pitch>
           <step>E</step>
@@ -36997,7 +36997,7 @@
         <beam number="1">end</beam>
       </note>
     </measure>
-    <measure number="104" width="224.62">
+    <measure number="104" width="165.23">
       <note>
         <pitch>
           <step>A</step>
@@ -37048,71 +37048,21 @@
           <step>E</step>
           <octave>6</octave>
         </pitch>
-        <duration>6</duration>
+        <duration>24</duration>
         <voice>1</voice>
-        <type>16th</type>
+        <type>quarter</type>
         <stem>down</stem>
-        <beam number="1">begin</beam>
-        <beam number="2">begin</beam>
         <notations>
           <articulations>
             <staccato />
           </articulations>
-        </notations>
-      </note>
-      <note>
-        <pitch>
-          <step>E</step>
-          <octave>6</octave>
-        </pitch>
-        <duration>6</duration>
-        <voice>1</voice>
-        <type>16th</type>
-        <stem>down</stem>
-        <beam number="1">continue</beam>
-        <beam number="2">continue</beam>
-        <notations>
-          <articulations>
-            <staccato />
-          </articulations>
-        </notations>
-      </note>
-      <note>
-        <pitch>
-          <step>E</step>
-          <octave>6</octave>
-        </pitch>
-        <duration>6</duration>
-        <voice>1</voice>
-        <type>16th</type>
-        <stem>down</stem>
-        <beam number="1">continue</beam>
-        <beam number="2">continue</beam>
-        <notations>
-          <articulations>
-            <staccato />
-          </articulations>
-        </notations>
-      </note>
-      <note>
-        <pitch>
-          <step>E</step>
-          <octave>6</octave>
-        </pitch>
-        <duration>6</duration>
-        <voice>1</voice>
-        <type>16th</type>
-        <stem>down</stem>
-        <beam number="1">end</beam>
-        <beam number="2">end</beam>
-        <notations>
-          <articulations>
-            <staccato />
-          </articulations>
+          <ornaments>
+            <tremolo type="single">2</tremolo>
+          </ornaments>
         </notations>
       </note>
     </measure>
-    <measure number="105" width="200.75">
+    <measure number="105" width="207.35">
       <note>
         <pitch>
           <step>E</step>
@@ -37129,7 +37079,7 @@
         </notations>
       </note>
     </measure>
-    <measure number="106" width="200.75">
+    <measure number="106" width="207.35">
       <note>
         <pitch>
           <step>E</step>
@@ -47590,7 +47540,7 @@
             <left-margin>6.83</left-margin>
             <right-margin>0.00</right-margin>
           </system-margins>
-          <system-distance>179.66</system-distance>
+          <system-distance>178.40</system-distance>
         </system-layout>
       </print>
       <note>
@@ -48321,7 +48271,7 @@
             <left-margin>6.83</left-margin>
             <right-margin>0.00</right-margin>
           </system-margins>
-          <system-distance>179.66</system-distance>
+          <system-distance>178.40</system-distance>
         </system-layout>
       </print>
       <note>
@@ -49200,7 +49150,7 @@
             <left-margin>6.83</left-margin>
             <right-margin>0.00</right-margin>
           </system-margins>
-          <system-distance>179.66</system-distance>
+          <system-distance>178.40</system-distance>
         </system-layout>
       </print>
       <note>
@@ -49651,7 +49601,7 @@
             <left-margin>6.83</left-margin>
             <right-margin>0.00</right-margin>
           </system-margins>
-          <system-distance>179.66</system-distance>
+          <system-distance>178.40</system-distance>
         </system-layout>
       </print>
       <note>
@@ -60720,14 +60670,14 @@
         </notations>
       </note>
     </measure>
-    <measure number="347" width="154.10">
+    <measure number="347" width="169.55">
       <print new-system="yes">
         <system-layout>
           <system-margins>
             <left-margin>6.20</left-margin>
-            <right-margin>-0.00</right-margin>
+            <right-margin>0.00</right-margin>
           </system-margins>
-          <system-distance>173.49</system-distance>
+          <system-distance>172.69</system-distance>
         </system-layout>
       </print>
       <note>
@@ -60744,7 +60694,7 @@
         </notations>
       </note>
     </measure>
-    <measure number="348" width="82.34">
+    <measure number="348" width="97.78">
       <note>
         <pitch>
           <step>A</step>
@@ -60759,7 +60709,7 @@
         </notations>
       </note>
     </measure>
-    <measure number="349" width="56.09">
+    <measure number="349" width="71.53">
       <note>
         <pitch>
           <step>E</step>
@@ -60770,7 +60720,7 @@
         <type>whole</type>
       </note>
     </measure>
-    <measure number="350" width="87.34">
+    <measure number="350" width="102.78">
       <note>
         <pitch>
           <step>E</step>
@@ -60799,7 +60749,7 @@
         <stem>down</stem>
       </note>
     </measure>
-    <measure number="351" width="58.76">
+    <measure number="351" width="74.21">
       <note>
         <pitch>
           <step>E</step>
@@ -60814,7 +60764,7 @@
         </notations>
       </note>
     </measure>
-    <measure number="352" width="138.27">
+    <measure number="352" width="153.71">
       <note>
         <pitch>
           <step>E</step>
@@ -60884,7 +60834,7 @@
         </notations>
       </note>
     </measure>
-    <measure number="353" width="58.76">
+    <measure number="353" width="74.21">
       <note>
         <pitch>
           <step>E</step>
@@ -60895,7 +60845,7 @@
         <type>whole</type>
       </note>
     </measure>
-    <measure number="354" width="87.34">
+    <measure number="354" width="102.78">
       <note>
         <pitch>
           <step>E</step>
@@ -60919,7 +60869,7 @@
         <stem>down</stem>
       </note>
     </measure>
-    <measure number="355" width="58.76">
+    <measure number="355" width="74.21">
       <note>
         <pitch>
           <step>E</step>
@@ -60934,7 +60884,7 @@
         </notations>
       </note>
     </measure>
-    <measure number="356" width="138.27">
+    <measure number="356" width="153.71">
       <note>
         <pitch>
           <step>E</step>
@@ -61004,7 +60954,7 @@
         </notations>
       </note>
     </measure>
-    <measure number="357" width="77.34">
+    <measure number="357" width="92.78">
       <note>
         <pitch>
           <step>E</step>
@@ -61033,7 +60983,7 @@
         </notations>
       </note>
     </measure>
-    <measure number="358" width="80.84">
+    <measure number="358" width="96.28">
       <note>
         <pitch>
           <step>G</step>
@@ -61064,7 +61014,7 @@
         </notations>
       </note>
     </measure>
-    <measure number="359" width="77.34">
+    <measure number="359" width="92.78">
       <note>
         <pitch>
           <step>A</step>
@@ -61090,7 +61040,7 @@
         <stem>down</stem>
       </note>
     </measure>
-    <measure number="360" width="77.34">
+    <measure number="360" width="92.78">
       <note>
         <pitch>
           <step>E</step>
@@ -61116,7 +61066,7 @@
         </notations>
       </note>
     </measure>
-    <measure number="361" width="77.34">
+    <measure number="361" width="92.78">
       <note>
         <pitch>
           <step>A</step>
@@ -61145,7 +61095,7 @@
         </notations>
       </note>
     </measure>
-    <measure number="362" width="80.84">
+    <measure number="362" width="96.28">
       <note>
         <pitch>
           <step>C</step>
@@ -61179,7 +61129,7 @@
         </notations>
       </note>
     </measure>
-    <measure number="363" width="97.37">
+    <measure number="363" width="112.82">
       <note>
         <pitch>
           <step>D</step>
@@ -61205,7 +61155,7 @@
         <stem>down</stem>
       </note>
     </measure>
-    <measure number="364" width="76.38">
+    <measure number="364" width="137.57">
       <note>
         <pitch>
           <step>A</step>
@@ -61231,7 +61181,16 @@
         <stem>down</stem>
       </note>
     </measure>
-    <measure number="365" width="133.60">
+    <measure number="365" width="238.38">
+      <print new-system="yes">
+        <system-layout>
+          <system-margins>
+            <left-margin>6.20</left-margin>
+            <right-margin>0.00</right-margin>
+          </system-margins>
+          <system-distance>172.69</system-distance>
+        </system-layout>
+      </print>
       <attributes>
         <key>
           <fifths>-1</fifths>
@@ -61280,7 +61239,7 @@
         </notations>
       </note>
     </measure>
-    <measure number="366" width="190.14">
+    <measure number="366" width="246.56">
       <note>
         <pitch>
           <step>A</step>
@@ -61401,16 +61360,7 @@
         </notations>
       </note>
     </measure>
-    <measure number="367" width="363.07">
-      <print new-system="yes">
-        <system-layout>
-          <system-margins>
-            <left-margin>6.20</left-margin>
-            <right-margin>0.00</right-margin>
-          </system-margins>
-          <system-distance>173.49</system-distance>
-        </system-layout>
-      </print>
+    <measure number="367" width="240.80">
       <note>
         <pitch>
           <step>G</step>
@@ -61536,7 +61486,7 @@
         </notations>
       </note>
     </measure>
-    <measure number="368" width="322.31">
+    <measure number="368" width="247.91">
       <attributes>
         <key>
           <fifths>0</fifths>
@@ -61615,7 +61565,7 @@
         </notations>
       </note>
     </measure>
-    <measure number="369" width="272.95">
+    <measure number="369" width="198.56">
       <note>
         <pitch>
           <step>E</step>
@@ -61683,7 +61633,7 @@
         </notations>
       </note>
     </measure>
-    <measure number="370" width="274.29">
+    <measure number="370" width="199.90">
       <note>
         <pitch>
           <step>A</step>
@@ -61746,7 +61696,7 @@
         </notations>
       </note>
     </measure>
-    <measure number="371" width="282.49">
+    <measure number="371" width="208.09">
       <note>
         <pitch>
           <step>F</step>
@@ -61826,7 +61776,7 @@
         </notations>
       </note>
     </measure>
-    <measure number="372" width="373.43">
+    <measure number="372" width="308.34">
       <note>
         <pitch>
           <step>A</step>
@@ -61917,7 +61867,7 @@
             <left-margin>6.20</left-margin>
             <right-margin>0.00</right-margin>
           </system-margins>
-          <system-distance>173.49</system-distance>
+          <system-distance>172.69</system-distance>
         </system-layout>
       </print>
       <attributes>
@@ -62525,7 +62475,7 @@
             <left-margin>6.20</left-margin>
             <right-margin>0.00</right-margin>
           </system-margins>
-          <system-distance>173.49</system-distance>
+          <system-distance>172.69</system-distance>
         </system-layout>
       </print>
       <note>
@@ -78607,7 +78557,7 @@
     <measure number="208" width="264.39">
       <print new-page="yes">
         <staff-layout number="1">
-          <staff-distance>77.56</staff-distance>
+          <staff-distance>77.53</staff-distance>
         </staff-layout>
       </print>
       <note>
@@ -78896,7 +78846,7 @@
     <measure number="216" width="263.78">
       <print new-system="yes">
         <staff-layout number="1">
-          <staff-distance>66.27</staff-distance>
+          <staff-distance>70.41</staff-distance>
         </staff-layout>
       </print>
       <note>
@@ -79594,10 +79544,10 @@
         </notations>
       </note>
     </measure>
-    <measure number="224" width="265.66">
+    <measure number="224" width="291.16">
       <print new-system="yes">
         <staff-layout number="1">
-          <staff-distance>41.44</staff-distance>
+          <staff-distance>70.41</staff-distance>
         </staff-layout>
       </print>
       <note>
@@ -79713,7 +79663,7 @@
         </notations>
       </note>
     </measure>
-    <measure number="225" width="233.26">
+    <measure number="225" width="258.76">
       <note>
         <pitch>
           <step>A</step>
@@ -79827,7 +79777,7 @@
         </notations>
       </note>
     </measure>
-    <measure number="226" width="235.22">
+    <measure number="226" width="260.72">
       <note>
         <pitch>
           <step>A</step>
@@ -79941,7 +79891,7 @@
         </notations>
       </note>
     </measure>
-    <measure number="227" width="243.78">
+    <measure number="227" width="269.28">
       <note>
         <pitch>
           <step>A</step>
@@ -80058,7 +80008,7 @@
         </notations>
       </note>
     </measure>
-    <measure number="228" width="235.22">
+    <measure number="228" width="260.72">
       <note>
         <pitch>
           <step>A</step>
@@ -80172,7 +80122,7 @@
         </notations>
       </note>
     </measure>
-    <measure number="229" width="288.05">
+    <measure number="229" width="313.55">
       <note>
         <pitch>
           <step>A</step>
@@ -80289,7 +80239,7 @@
         </notations>
       </note>
     </measure>
-    <measure number="230" width="208.84">
+    <measure number="230" width="234.35">
       <note>
         <pitch>
           <step>A</step>
@@ -80406,7 +80356,12 @@
         </notations>
       </note>
     </measure>
-    <measure number="231" width="178.53">
+    <measure number="231" width="284.28">
+      <print new-system="yes">
+        <staff-layout number="1">
+          <staff-distance>70.41</staff-distance>
+        </staff-layout>
+      </print>
       <note>
         <pitch>
           <step>A</step>
@@ -80520,12 +80475,7 @@
         </notations>
       </note>
     </measure>
-    <measure number="232" width="337.34">
-      <print new-system="yes">
-        <staff-layout number="1">
-          <staff-distance>52.08</staff-distance>
-        </staff-layout>
-      </print>
+    <measure number="232" width="238.42">
       <note>
         <pitch>
           <step>B</step>
@@ -80640,7 +80590,7 @@
         </notations>
       </note>
     </measure>
-    <measure number="233" width="324.29">
+    <measure number="233" width="277.07">
       <note>
         <pitch>
           <step>D</step>
@@ -80782,7 +80732,7 @@
         <beam number="2">backward hook</beam>
       </note>
     </measure>
-    <measure number="234" width="401.82">
+    <measure number="234" width="354.60">
       <note>
         <pitch>
           <step>E</step>
@@ -80864,7 +80814,7 @@
         <beam number="2">backward hook</beam>
       </note>
     </measure>
-    <measure number="235" width="423.28">
+    <measure number="235" width="379.56">
       <note>
         <pitch>
           <step>A</step>
@@ -80961,7 +80911,7 @@
         <beam number="2">backward hook</beam>
       </note>
     </measure>
-    <measure number="236" width="401.82">
+    <measure number="236" width="354.60">
       <note>
         <pitch>
           <step>E</step>
@@ -81043,10 +80993,10 @@
         <beam number="2">backward hook</beam>
       </note>
     </measure>
-    <measure number="237" width="430.05">
+    <measure number="237" width="432.85">
       <print new-system="yes">
         <staff-layout number="1">
-          <staff-distance>44.23</staff-distance>
+          <staff-distance>70.41</staff-distance>
         </staff-layout>
       </print>
       <note>
@@ -81126,7 +81076,7 @@
         <beam number="2">backward hook</beam>
       </note>
     </measure>
-    <measure number="238" width="363.68">
+    <measure number="238" width="362.98">
       <note>
         <pitch>
           <step>C</step>
@@ -81159,7 +81109,7 @@
         <stem>down</stem>
       </note>
     </measure>
-    <measure number="239" width="364.86">
+    <measure number="239" width="364.16">
       <note>
         <pitch>
           <step>A</step>
@@ -81232,7 +81182,7 @@
         </notations>
       </note>
     </measure>
-    <measure number="240" width="366.28">
+    <measure number="240" width="365.58">
       <note>
         <pitch>
           <step>C</step>
@@ -81318,7 +81268,7 @@
         </notations>
       </note>
     </measure>
-    <measure number="241" width="363.68">
+    <measure number="241" width="362.98">
       <note>
         <pitch>
           <step>A</step>
@@ -81391,9 +81341,9 @@
       </note>
     </measure>
     <measure number="242" width="497.66">
-      <print new-system="yes">
+      <print new-page="yes">
         <staff-layout number="1">
-          <staff-distance>44.69</staff-distance>
+          <staff-distance>144.50</staff-distance>
         </staff-layout>
       </print>
       <note>
@@ -81900,9 +81850,9 @@
       </note>
     </measure>
     <measure number="246" width="414.57">
-      <print new-page="yes">
+      <print new-system="yes">
         <staff-layout number="1">
-          <staff-distance>141.80</staff-distance>
+          <staff-distance>144.50</staff-distance>
         </staff-layout>
       </print>
       <note>
@@ -87079,7 +87029,7 @@
     <measure number="60" width="305.44">
       <print new-page="yes">
         <staff-layout number="1">
-          <staff-distance>67.97</staff-distance>
+          <staff-distance>68.99</staff-distance>
         </staff-layout>
       </print>
       <note>
@@ -93699,7 +93649,7 @@
     <measure number="11" width="221.05">
       <print new-system="yes">
         <staff-layout number="1">
-          <staff-distance>65.18</staff-distance>
+          <staff-distance>64.44</staff-distance>
         </staff-layout>
       </print>
       <note>
@@ -94358,7 +94308,7 @@
     <measure number="22" width="221.48">
       <print new-system="yes">
         <staff-layout number="1">
-          <staff-distance>65.18</staff-distance>
+          <staff-distance>64.44</staff-distance>
         </staff-layout>
       </print>
       <note>
@@ -94721,7 +94671,7 @@
     <measure number="31" width="276.74">
       <print new-system="yes">
         <staff-layout number="1">
-          <staff-distance>65.18</staff-distance>
+          <staff-distance>64.44</staff-distance>
         </staff-layout>
       </print>
       <note>
@@ -95326,7 +95276,7 @@
     <measure number="39" width="321.49">
       <print new-system="yes">
         <staff-layout number="1">
-          <staff-distance>65.18</staff-distance>
+          <staff-distance>64.44</staff-distance>
         </staff-layout>
       </print>
       <note>
@@ -98367,7 +98317,7 @@
         <stem>up</stem>
       </note>
     </measure>
-    <measure number="97" width="243.75">
+    <measure number="97" width="250.35">
       <print new-system="yes">
         <staff-layout number="1">
           <staff-distance>73.12</staff-distance>
@@ -98462,7 +98412,7 @@
         <stem>up</stem>
       </note>
     </measure>
-    <measure number="98" width="152.71">
+    <measure number="98" width="159.31">
       <note>
         <pitch>
           <step>E</step>
@@ -98552,7 +98502,7 @@
         <stem>up</stem>
       </note>
     </measure>
-    <measure number="99" width="155.63">
+    <measure number="99" width="162.23">
       <note>
         <pitch>
           <step>E</step>
@@ -98642,7 +98592,7 @@
         <stem>up</stem>
       </note>
     </measure>
-    <measure number="100" width="175.47">
+    <measure number="100" width="182.07">
       <note>
         <pitch>
           <step>E</step>
@@ -98677,14 +98627,14 @@
         <type>quarter</type>
       </note>
     </measure>
-    <measure number="101" width="192.53">
+    <measure number="101" width="199.13">
       <note>
         <rest measure="yes" />
         <duration>48</duration>
         <voice>1</voice>
       </note>
     </measure>
-    <measure number="102" width="170.93">
+    <measure number="102" width="177.53">
       <note>
         <rest />
         <duration>12</duration>
@@ -98738,7 +98688,7 @@
         </notations>
       </note>
     </measure>
-    <measure number="103" width="171.39">
+    <measure number="103" width="177.99">
       <note>
         <pitch>
           <step>E</step>
@@ -98784,7 +98734,7 @@
         <beam number="1">end</beam>
       </note>
     </measure>
-    <measure number="104" width="224.62">
+    <measure number="104" width="165.23">
       <note>
         <pitch>
           <step>E</step>
@@ -98808,7 +98758,7 @@
         <type>quarter</type>
       </note>
     </measure>
-    <measure number="105" width="200.75">
+    <measure number="105" width="207.35">
       <note>
         <pitch>
           <step>E</step>
@@ -98875,7 +98825,7 @@
         <type>16th</type>
       </note>
     </measure>
-    <measure number="106" width="200.75">
+    <measure number="106" width="207.35">
       <note>
         <pitch>
           <step>G</step>
@@ -109252,7 +109202,7 @@
     <measure number="107" width="231.64">
       <print new-page="yes">
         <staff-layout number="1">
-          <staff-distance>71.86</staff-distance>
+          <staff-distance>71.36</staff-distance>
         </staff-layout>
       </print>
       <note>
@@ -109563,7 +109513,7 @@
     <measure number="118" width="258.93">
       <print new-system="yes">
         <staff-layout number="1">
-          <staff-distance>71.86</staff-distance>
+          <staff-distance>71.36</staff-distance>
         </staff-layout>
       </print>
       <note>
@@ -110069,7 +110019,7 @@
     <measure number="134" width="295.74">
       <print new-system="yes">
         <staff-layout number="1">
-          <staff-distance>71.86</staff-distance>
+          <staff-distance>71.36</staff-distance>
         </staff-layout>
       </print>
       <note>
@@ -110480,7 +110430,7 @@
     <measure number="142" width="300.74">
       <print new-system="yes">
         <staff-layout number="1">
-          <staff-distance>71.86</staff-distance>
+          <staff-distance>71.36</staff-distance>
         </staff-layout>
       </print>
       <note>
@@ -122496,7 +122446,7 @@
     <measure number="332" width="168.03">
       <print new-page="yes">
         <staff-layout number="1">
-          <staff-distance>69.40</staff-distance>
+          <staff-distance>69.08</staff-distance>
         </staff-layout>
       </print>
       <note>
@@ -123354,10 +123304,10 @@
         <stem>up</stem>
       </note>
     </measure>
-    <measure number="347" width="154.10">
+    <measure number="347" width="169.55">
       <print new-system="yes">
         <staff-layout number="1">
-          <staff-distance>69.40</staff-distance>
+          <staff-distance>69.08</staff-distance>
         </staff-layout>
       </print>
       <note>
@@ -123382,7 +123332,7 @@
         <stem>up</stem>
       </note>
     </measure>
-    <measure number="348" width="82.34">
+    <measure number="348" width="97.78">
       <note>
         <pitch>
           <step>C</step>
@@ -123404,7 +123354,7 @@
         <stem>up</stem>
       </note>
     </measure>
-    <measure number="349" width="56.09">
+    <measure number="349" width="71.53">
       <note>
         <pitch>
           <step>E</step>
@@ -123418,7 +123368,7 @@
         </notations>
       </note>
     </measure>
-    <measure number="350" width="87.34">
+    <measure number="350" width="102.78">
       <note>
         <pitch>
           <step>D</step>
@@ -123431,7 +123381,7 @@
         <accidental>sharp</accidental>
       </note>
     </measure>
-    <measure number="351" width="58.76">
+    <measure number="351" width="74.21">
       <note>
         <pitch>
           <step>D</step>
@@ -123443,7 +123393,7 @@
         <accidental>natural</accidental>
       </note>
     </measure>
-    <measure number="352" width="138.27">
+    <measure number="352" width="153.71">
       <note>
         <pitch>
           <step>C</step>
@@ -123457,7 +123407,7 @@
         </notations>
       </note>
     </measure>
-    <measure number="353" width="58.76">
+    <measure number="353" width="74.21">
       <note>
         <pitch>
           <step>E</step>
@@ -123471,7 +123421,7 @@
         </notations>
       </note>
     </measure>
-    <measure number="354" width="87.34">
+    <measure number="354" width="102.78">
       <note>
         <pitch>
           <step>D</step>
@@ -123484,7 +123434,7 @@
         <accidental>sharp</accidental>
       </note>
     </measure>
-    <measure number="355" width="58.76">
+    <measure number="355" width="74.21">
       <note>
         <pitch>
           <step>D</step>
@@ -123496,7 +123446,7 @@
         <accidental>natural</accidental>
       </note>
     </measure>
-    <measure number="356" width="138.27">
+    <measure number="356" width="153.71">
       <note>
         <pitch>
           <step>C</step>
@@ -123510,7 +123460,7 @@
         </notations>
       </note>
     </measure>
-    <measure number="357" width="77.34">
+    <measure number="357" width="92.78">
       <note>
         <pitch>
           <step>C</step>
@@ -123525,7 +123475,7 @@
         </notations>
       </note>
     </measure>
-    <measure number="358" width="80.84">
+    <measure number="358" width="96.28">
       <note>
         <pitch>
           <step>C</step>
@@ -123542,7 +123492,7 @@
         </notations>
       </note>
     </measure>
-    <measure number="359" width="77.34">
+    <measure number="359" width="92.78">
       <note>
         <pitch>
           <step>C</step>
@@ -123559,7 +123509,7 @@
         </notations>
       </note>
     </measure>
-    <measure number="360" width="77.34">
+    <measure number="360" width="92.78">
       <note>
         <pitch>
           <step>C</step>
@@ -123574,7 +123524,7 @@
         </notations>
       </note>
     </measure>
-    <measure number="361" width="77.34">
+    <measure number="361" width="92.78">
       <note>
         <pitch>
           <step>F</step>
@@ -123589,7 +123539,7 @@
         </notations>
       </note>
     </measure>
-    <measure number="362" width="80.84">
+    <measure number="362" width="96.28">
       <note>
         <pitch>
           <step>F</step>
@@ -123606,7 +123556,7 @@
         </notations>
       </note>
     </measure>
-    <measure number="363" width="97.37">
+    <measure number="363" width="112.82">
       <note>
         <pitch>
           <step>F</step>
@@ -123634,14 +123584,19 @@
         <type>half</type>
       </note>
     </measure>
-    <measure number="364" width="76.38">
+    <measure number="364" width="137.57">
       <note>
         <rest measure="yes" />
         <duration>96</duration>
         <voice>1</voice>
       </note>
     </measure>
-    <measure number="365" width="133.60">
+    <measure number="365" width="238.38">
+      <print new-system="yes">
+        <staff-layout number="1">
+          <staff-distance>82.72</staff-distance>
+        </staff-layout>
+      </print>
       <attributes>
         <key>
           <fifths>-1</fifths>
@@ -123657,26 +123612,21 @@
         <voice>1</voice>
       </note>
     </measure>
-    <measure number="366" width="190.14">
+    <measure number="366" width="246.56">
       <note>
         <rest measure="yes" />
         <duration>72</duration>
         <voice>1</voice>
       </note>
     </measure>
-    <measure number="367" width="363.07">
-      <print new-system="yes">
-        <staff-layout number="1">
-          <staff-distance>76.29</staff-distance>
-        </staff-layout>
-      </print>
+    <measure number="367" width="240.80">
       <note>
         <rest measure="yes" />
         <duration>72</duration>
         <voice>1</voice>
       </note>
     </measure>
-    <measure number="368" width="322.31">
+    <measure number="368" width="247.91">
       <attributes>
         <key>
           <fifths>0</fifths>
@@ -123692,28 +123642,28 @@
         <voice>1</voice>
       </note>
     </measure>
-    <measure number="369" width="272.95">
+    <measure number="369" width="198.56">
       <note>
         <rest measure="yes" />
         <duration>96</duration>
         <voice>1</voice>
       </note>
     </measure>
-    <measure number="370" width="274.29">
+    <measure number="370" width="199.90">
       <note>
         <rest measure="yes" />
         <duration>96</duration>
         <voice>1</voice>
       </note>
     </measure>
-    <measure number="371" width="282.49">
+    <measure number="371" width="208.09">
       <note>
         <rest measure="yes" />
         <duration>96</duration>
         <voice>1</voice>
       </note>
     </measure>
-    <measure number="372" width="373.43">
+    <measure number="372" width="308.34">
       <note>
         <rest />
         <duration>48</duration>
@@ -123734,7 +123684,7 @@
     <measure number="X1" implicit="yes" width="174.75">
       <print new-system="yes">
         <staff-layout number="1">
-          <staff-distance>69.40</staff-distance>
+          <staff-distance>69.08</staff-distance>
         </staff-layout>
       </print>
       <attributes>
@@ -124313,7 +124263,7 @@
     <measure number="385" width="221.95">
       <print new-system="yes">
         <staff-layout number="1">
-          <staff-distance>69.40</staff-distance>
+          <staff-distance>69.08</staff-distance>
         </staff-layout>
       </print>
       <note>
@@ -130515,7 +130465,7 @@
         <duration>12</duration>
         <voice>1</voice>
         <type>eighth</type>
-        <stem>down</stem>
+        <stem>up</stem>
         <beam number="1">begin</beam>
         <notations>
           <slur type="start" />
@@ -139875,7 +139825,7 @@
     <measure number="208" width="264.39">
       <print new-page="yes">
         <staff-layout number="1">
-          <staff-distance>48.87</staff-distance>
+          <staff-distance>70.41</staff-distance>
         </staff-layout>
       </print>
       <note>
@@ -140116,7 +140066,7 @@
     <measure number="216" width="263.78">
       <print new-system="yes">
         <staff-layout number="1">
-          <staff-distance>73.10</staff-distance>
+          <staff-distance>73.08</staff-distance>
         </staff-layout>
       </print>
       <note>
@@ -140375,10 +140325,10 @@
         </notations>
       </note>
     </measure>
-    <measure number="224" width="265.66">
+    <measure number="224" width="291.16">
       <print new-system="yes">
         <staff-layout number="1">
-          <staff-distance>79.15</staff-distance>
+          <staff-distance>80.11</staff-distance>
         </staff-layout>
       </print>
       <note>
@@ -140410,7 +140360,7 @@
         </notations>
       </note>
     </measure>
-    <measure number="225" width="233.26">
+    <measure number="225" width="258.76">
       <note>
         <pitch>
           <step>F</step>
@@ -140441,7 +140391,7 @@
         </notations>
       </note>
     </measure>
-    <measure number="226" width="235.22">
+    <measure number="226" width="260.72">
       <note>
         <pitch>
           <step>E</step>
@@ -140471,7 +140421,7 @@
         </notations>
       </note>
     </measure>
-    <measure number="227" width="243.78">
+    <measure number="227" width="269.28">
       <note>
         <pitch>
           <step>F</step>
@@ -140507,7 +140457,7 @@
         <type>quarter</type>
       </note>
     </measure>
-    <measure number="228" width="235.22">
+    <measure number="228" width="260.72">
       <note>
         <pitch>
           <step>E</step>
@@ -140537,7 +140487,7 @@
         </notations>
       </note>
     </measure>
-    <measure number="229" width="288.05">
+    <measure number="229" width="313.55">
       <note>
         <pitch>
           <step>F</step>
@@ -140573,7 +140523,7 @@
         <type>quarter</type>
       </note>
     </measure>
-    <measure number="230" width="208.84">
+    <measure number="230" width="234.35">
       <note>
         <pitch>
           <step>C</step>
@@ -140599,7 +140549,12 @@
         </notations>
       </note>
     </measure>
-    <measure number="231" width="178.53">
+    <measure number="231" width="284.28">
+      <print new-system="yes">
+        <staff-layout number="1">
+          <staff-distance>72.29</staff-distance>
+        </staff-layout>
+      </print>
       <note>
         <pitch>
           <step>C</step>
@@ -140647,12 +140602,7 @@
         </notations>
       </note>
     </measure>
-    <measure number="232" width="337.34">
-      <print new-system="yes">
-        <staff-layout number="1">
-          <staff-distance>72.48</staff-distance>
-        </staff-layout>
-      </print>
+    <measure number="232" width="238.42">
       <note>
         <pitch>
           <step>D</step>
@@ -140697,7 +140647,7 @@
         </notations>
       </note>
     </measure>
-    <measure number="233" width="324.29">
+    <measure number="233" width="277.07">
       <note>
         <pitch>
           <step>E</step>
@@ -140759,7 +140709,7 @@
         <beam number="1">end</beam>
       </note>
     </measure>
-    <measure number="234" width="401.82">
+    <measure number="234" width="354.60">
       <note>
         <pitch>
           <step>E</step>
@@ -141017,7 +140967,7 @@
         </notations>
       </note>
     </measure>
-    <measure number="235" width="423.28">
+    <measure number="235" width="379.56">
       <note>
         <pitch>
           <step>D</step>
@@ -141026,7 +140976,7 @@
         <duration>6</duration>
         <voice>1</voice>
         <type>16th</type>
-        <stem>up</stem>
+        <stem>down</stem>
         <beam number="1">begin</beam>
         <beam number="2">begin</beam>
         <notations>
@@ -141041,7 +140991,7 @@
         <duration>6</duration>
         <voice>1</voice>
         <type>16th</type>
-        <stem>up</stem>
+        <stem>down</stem>
         <beam number="1">continue</beam>
         <beam number="2">continue</beam>
         <notations>
@@ -141056,7 +141006,7 @@
         <duration>6</duration>
         <voice>1</voice>
         <type>16th</type>
-        <stem>up</stem>
+        <stem>down</stem>
         <beam number="1">continue</beam>
         <beam number="2">continue</beam>
         <notations>
@@ -141073,7 +141023,7 @@
         <duration>6</duration>
         <voice>1</voice>
         <type>16th</type>
-        <stem>up</stem>
+        <stem>down</stem>
         <beam number="1">end</beam>
         <beam number="2">end</beam>
         <notations>
@@ -141090,7 +141040,7 @@
         <duration>6</duration>
         <voice>1</voice>
         <type>16th</type>
-        <stem>up</stem>
+        <stem>down</stem>
         <beam number="1">begin</beam>
         <beam number="2">begin</beam>
         <notations>
@@ -141105,7 +141055,7 @@
         <duration>6</duration>
         <voice>1</voice>
         <type>16th</type>
-        <stem>up</stem>
+        <stem>down</stem>
         <beam number="1">continue</beam>
         <beam number="2">continue</beam>
         <notations>
@@ -141120,7 +141070,7 @@
         <duration>6</duration>
         <voice>1</voice>
         <type>16th</type>
-        <stem>up</stem>
+        <stem>down</stem>
         <beam number="1">continue</beam>
         <beam number="2">continue</beam>
         <notations>
@@ -141137,7 +141087,7 @@
         <duration>6</duration>
         <voice>1</voice>
         <type>16th</type>
-        <stem>up</stem>
+        <stem>down</stem>
         <beam number="1">end</beam>
         <beam number="2">end</beam>
         <notations>
@@ -141154,7 +141104,7 @@
         <duration>6</duration>
         <voice>1</voice>
         <type>16th</type>
-        <stem>up</stem>
+        <stem>down</stem>
         <beam number="1">begin</beam>
         <beam number="2">begin</beam>
         <notations>
@@ -141169,7 +141119,7 @@
         <duration>6</duration>
         <voice>1</voice>
         <type>16th</type>
-        <stem>up</stem>
+        <stem>down</stem>
         <beam number="1">continue</beam>
         <beam number="2">continue</beam>
       </note>
@@ -141183,7 +141133,7 @@
         <voice>1</voice>
         <type>16th</type>
         <accidental>sharp</accidental>
-        <stem>up</stem>
+        <stem>down</stem>
         <beam number="1">continue</beam>
         <beam number="2">continue</beam>
       </note>
@@ -141195,7 +141145,7 @@
         <duration>6</duration>
         <voice>1</voice>
         <type>16th</type>
-        <stem>up</stem>
+        <stem>down</stem>
         <beam number="1">end</beam>
         <beam number="2">end</beam>
         <notations>
@@ -141210,7 +141160,7 @@
         <duration>6</duration>
         <voice>1</voice>
         <type>16th</type>
-        <stem>up</stem>
+        <stem>down</stem>
         <beam number="1">begin</beam>
         <beam number="2">begin</beam>
         <notations>
@@ -141225,7 +141175,7 @@
         <duration>6</duration>
         <voice>1</voice>
         <type>16th</type>
-        <stem>up</stem>
+        <stem>down</stem>
         <beam number="1">continue</beam>
         <beam number="2">continue</beam>
       </note>
@@ -141238,7 +141188,7 @@
         <duration>6</duration>
         <voice>1</voice>
         <type>16th</type>
-        <stem>up</stem>
+        <stem>down</stem>
         <beam number="1">continue</beam>
         <beam number="2">continue</beam>
       </note>
@@ -141250,7 +141200,7 @@
         <duration>6</duration>
         <voice>1</voice>
         <type>16th</type>
-        <stem>up</stem>
+        <stem>down</stem>
         <beam number="1">end</beam>
         <beam number="2">end</beam>
         <notations>
@@ -141258,7 +141208,7 @@
         </notations>
       </note>
     </measure>
-    <measure number="236" width="401.82">
+    <measure number="236" width="354.60">
       <note>
         <pitch>
           <step>E</step>
@@ -141516,10 +141466,10 @@
         </notations>
       </note>
     </measure>
-    <measure number="237" width="430.05">
+    <measure number="237" width="432.85">
       <print new-system="yes">
         <staff-layout number="1">
-          <staff-distance>90.93</staff-distance>
+          <staff-distance>77.29</staff-distance>
         </staff-layout>
       </print>
       <note>
@@ -141530,7 +141480,7 @@
         <duration>6</duration>
         <voice>1</voice>
         <type>16th</type>
-        <stem>up</stem>
+        <stem>down</stem>
         <beam number="1">begin</beam>
         <beam number="2">begin</beam>
         <notations>
@@ -141545,7 +141495,7 @@
         <duration>6</duration>
         <voice>1</voice>
         <type>16th</type>
-        <stem>up</stem>
+        <stem>down</stem>
         <beam number="1">continue</beam>
         <beam number="2">continue</beam>
         <notations>
@@ -141560,7 +141510,7 @@
         <duration>6</duration>
         <voice>1</voice>
         <type>16th</type>
-        <stem>up</stem>
+        <stem>down</stem>
         <beam number="1">continue</beam>
         <beam number="2">continue</beam>
         <notations>
@@ -141577,7 +141527,7 @@
         <duration>6</duration>
         <voice>1</voice>
         <type>16th</type>
-        <stem>up</stem>
+        <stem>down</stem>
         <beam number="1">end</beam>
         <beam number="2">end</beam>
         <notations>
@@ -141594,7 +141544,7 @@
         <duration>6</duration>
         <voice>1</voice>
         <type>16th</type>
-        <stem>up</stem>
+        <stem>down</stem>
         <beam number="1">begin</beam>
         <beam number="2">begin</beam>
         <notations>
@@ -141609,7 +141559,7 @@
         <duration>6</duration>
         <voice>1</voice>
         <type>16th</type>
-        <stem>up</stem>
+        <stem>down</stem>
         <beam number="1">continue</beam>
         <beam number="2">continue</beam>
         <notations>
@@ -141624,7 +141574,7 @@
         <duration>6</duration>
         <voice>1</voice>
         <type>16th</type>
-        <stem>up</stem>
+        <stem>down</stem>
         <beam number="1">continue</beam>
         <beam number="2">continue</beam>
         <notations>
@@ -141641,7 +141591,7 @@
         <duration>6</duration>
         <voice>1</voice>
         <type>16th</type>
-        <stem>up</stem>
+        <stem>down</stem>
         <beam number="1">end</beam>
         <beam number="2">end</beam>
         <notations>
@@ -141658,7 +141608,7 @@
         <duration>6</duration>
         <voice>1</voice>
         <type>16th</type>
-        <stem>up</stem>
+        <stem>down</stem>
         <beam number="1">begin</beam>
         <beam number="2">begin</beam>
         <notations>
@@ -141673,7 +141623,7 @@
         <duration>6</duration>
         <voice>1</voice>
         <type>16th</type>
-        <stem>up</stem>
+        <stem>down</stem>
         <beam number="1">continue</beam>
         <beam number="2">continue</beam>
       </note>
@@ -141687,7 +141637,7 @@
         <voice>1</voice>
         <type>16th</type>
         <accidental>sharp</accidental>
-        <stem>up</stem>
+        <stem>down</stem>
         <beam number="1">continue</beam>
         <beam number="2">continue</beam>
       </note>
@@ -141699,7 +141649,7 @@
         <duration>6</duration>
         <voice>1</voice>
         <type>16th</type>
-        <stem>up</stem>
+        <stem>down</stem>
         <beam number="1">end</beam>
         <beam number="2">end</beam>
         <notations>
@@ -141714,7 +141664,7 @@
         <duration>6</duration>
         <voice>1</voice>
         <type>16th</type>
-        <stem>up</stem>
+        <stem>down</stem>
         <beam number="1">begin</beam>
         <beam number="2">begin</beam>
         <notations>
@@ -141729,7 +141679,7 @@
         <duration>6</duration>
         <voice>1</voice>
         <type>16th</type>
-        <stem>up</stem>
+        <stem>down</stem>
         <beam number="1">continue</beam>
         <beam number="2">continue</beam>
       </note>
@@ -141742,7 +141692,7 @@
         <duration>6</duration>
         <voice>1</voice>
         <type>16th</type>
-        <stem>up</stem>
+        <stem>down</stem>
         <beam number="1">continue</beam>
         <beam number="2">continue</beam>
       </note>
@@ -141754,7 +141704,7 @@
         <duration>6</duration>
         <voice>1</voice>
         <type>16th</type>
-        <stem>up</stem>
+        <stem>down</stem>
         <beam number="1">end</beam>
         <beam number="2">end</beam>
         <notations>
@@ -141762,7 +141712,7 @@
         </notations>
       </note>
     </measure>
-    <measure number="238" width="363.68">
+    <measure number="238" width="362.98">
       <note>
         <pitch>
           <step>E</step>
@@ -141985,7 +141935,7 @@
         </notations>
       </note>
     </measure>
-    <measure number="239" width="364.86">
+    <measure number="239" width="364.16">
       <note>
         <pitch>
           <step>C</step>
@@ -142223,7 +142173,7 @@
         </notations>
       </note>
     </measure>
-    <measure number="240" width="366.28">
+    <measure number="240" width="365.58">
       <note>
         <pitch>
           <step>E</step>
@@ -142360,7 +142310,7 @@
         <duration>6</duration>
         <voice>1</voice>
         <type>16th</type>
-        <stem>up</stem>
+        <stem>down</stem>
         <beam number="1">begin</beam>
         <beam number="2">begin</beam>
         <notations>
@@ -142375,7 +142325,7 @@
         <duration>6</duration>
         <voice>1</voice>
         <type>16th</type>
-        <stem>up</stem>
+        <stem>down</stem>
         <beam number="1">continue</beam>
         <beam number="2">continue</beam>
         <notations>
@@ -142392,7 +142342,7 @@
         <voice>1</voice>
         <type>16th</type>
         <accidental>sharp</accidental>
-        <stem>up</stem>
+        <stem>down</stem>
         <beam number="1">continue</beam>
         <beam number="2">continue</beam>
         <notations>
@@ -142410,7 +142360,7 @@
         <duration>6</duration>
         <voice>1</voice>
         <type>16th</type>
-        <stem>up</stem>
+        <stem>down</stem>
         <beam number="1">end</beam>
         <beam number="2">end</beam>
         <notations>
@@ -142428,7 +142378,7 @@
         <duration>6</duration>
         <voice>1</voice>
         <type>16th</type>
-        <stem>up</stem>
+        <stem>down</stem>
         <beam number="1">begin</beam>
         <beam number="2">begin</beam>
         <notations>
@@ -142443,7 +142393,7 @@
         <duration>6</duration>
         <voice>1</voice>
         <type>16th</type>
-        <stem>up</stem>
+        <stem>down</stem>
         <beam number="1">continue</beam>
         <beam number="2">continue</beam>
         <notations>
@@ -142458,7 +142408,7 @@
         <duration>6</duration>
         <voice>1</voice>
         <type>16th</type>
-        <stem>up</stem>
+        <stem>down</stem>
         <beam number="1">continue</beam>
         <beam number="2">continue</beam>
         <notations>
@@ -142475,7 +142425,7 @@
         <duration>6</duration>
         <voice>1</voice>
         <type>16th</type>
-        <stem>up</stem>
+        <stem>down</stem>
         <beam number="1">end</beam>
         <beam number="2">end</beam>
         <notations>
@@ -142485,7 +142435,7 @@
         </notations>
       </note>
     </measure>
-    <measure number="241" width="363.68">
+    <measure number="241" width="362.98">
       <note>
         <pitch>
           <step>E</step>
@@ -142709,9 +142659,9 @@
       </note>
     </measure>
     <measure number="242" width="497.66">
-      <print new-system="yes">
+      <print new-page="yes">
         <staff-layout number="1">
-          <staff-distance>84.52</staff-distance>
+          <staff-distance>144.50</staff-distance>
         </staff-layout>
       </print>
       <note>
@@ -143450,9 +143400,9 @@
       </note>
     </measure>
     <measure number="246" width="414.57">
-      <print new-page="yes">
+      <print new-system="yes">
         <staff-layout number="1">
-          <staff-distance>141.80</staff-distance>
+          <staff-distance>144.50</staff-distance>
         </staff-layout>
       </print>
       <note>
@@ -147209,7 +147159,7 @@
         <tie type="stop" />
         <voice>1</voice>
         <type>eighth</type>
-        <stem>down</stem>
+        <stem>up</stem>
         <beam number="1">begin</beam>
         <notations>
           <tied type="stop" />
@@ -150888,7 +150838,7 @@
     <measure number="84" width="447.21">
       <print new-system="yes">
         <staff-layout number="1">
-          <staff-distance>72.29</staff-distance>
+          <staff-distance>68.99</staff-distance>
         </staff-layout>
       </print>
       <note>
@@ -154684,7 +154634,7 @@
     <measure number="11" width="221.05">
       <print new-system="yes">
         <staff-layout number="1">
-          <staff-distance>70.57</staff-distance>
+          <staff-distance>85.94</staff-distance>
         </staff-layout>
       </print>
       <note>
@@ -155106,7 +155056,7 @@
     <measure number="22" width="221.48">
       <print new-system="yes">
         <staff-layout number="1">
-          <staff-distance>65.18</staff-distance>
+          <staff-distance>64.44</staff-distance>
         </staff-layout>
       </print>
       <note>
@@ -155688,7 +155638,7 @@
     <measure number="31" width="276.74">
       <print new-system="yes">
         <staff-layout number="1">
-          <staff-distance>65.18</staff-distance>
+          <staff-distance>64.44</staff-distance>
         </staff-layout>
       </print>
       <note>
@@ -156301,7 +156251,7 @@
     <measure number="39" width="321.49">
       <print new-system="yes">
         <staff-layout number="1">
-          <staff-distance>65.18</staff-distance>
+          <staff-distance>64.44</staff-distance>
         </staff-layout>
       </print>
       <note>
@@ -159070,7 +159020,7 @@
         </notations>
       </note>
     </measure>
-    <measure number="97" width="243.75">
+    <measure number="97" width="250.35">
       <print new-system="yes">
         <staff-layout number="1">
           <staff-distance>73.12</staff-distance>
@@ -159122,7 +159072,7 @@
         <beam number="1">end</beam>
       </note>
     </measure>
-    <measure number="98" width="152.71">
+    <measure number="98" width="159.31">
       <note>
         <pitch>
           <step>A</step>
@@ -159170,7 +159120,7 @@
         <beam number="1">end</beam>
       </note>
     </measure>
-    <measure number="99" width="155.63">
+    <measure number="99" width="162.23">
       <note>
         <pitch>
           <step>A</step>
@@ -159217,7 +159167,7 @@
         <beam number="1">end</beam>
       </note>
     </measure>
-    <measure number="100" width="175.47">
+    <measure number="100" width="182.07">
       <note>
         <pitch>
           <step>A</step>
@@ -159265,7 +159215,7 @@
         <beam number="1">end</beam>
       </note>
     </measure>
-    <measure number="101" width="192.53">
+    <measure number="101" width="199.13">
       <note>
         <pitch>
           <step>C</step>
@@ -159315,7 +159265,7 @@
         <beam number="1">end</beam>
       </note>
     </measure>
-    <measure number="102" width="170.93">
+    <measure number="102" width="177.53">
       <note>
         <pitch>
           <step>C</step>
@@ -159376,7 +159326,7 @@
         </notations>
       </note>
     </measure>
-    <measure number="103" width="171.39">
+    <measure number="103" width="177.99">
       <note>
         <pitch>
           <step>C</step>
@@ -159423,7 +159373,7 @@
         <beam number="1">end</beam>
       </note>
     </measure>
-    <measure number="104" width="224.62">
+    <measure number="104" width="165.23">
       <note>
         <pitch>
           <step>C</step>
@@ -159448,7 +159398,7 @@
         <type>quarter</type>
       </note>
     </measure>
-    <measure number="105" width="200.75">
+    <measure number="105" width="207.35">
       <note>
         <pitch>
           <step>E</step>
@@ -159515,7 +159465,7 @@
         <type>16th</type>
       </note>
     </measure>
-    <measure number="106" width="200.75">
+    <measure number="106" width="207.35">
       <note>
         <pitch>
           <step>G</step>
@@ -165679,7 +165629,7 @@
         <duration>24</duration>
         <voice>1</voice>
         <type>quarter</type>
-        <stem>down</stem>
+        <stem>up</stem>
         <notations>
           <slur type="start" />
         </notations>
@@ -169804,7 +169754,7 @@
     <measure number="107" width="231.64">
       <print new-page="yes">
         <staff-layout number="1">
-          <staff-distance>71.86</staff-distance>
+          <staff-distance>71.36</staff-distance>
         </staff-layout>
       </print>
       <note>
@@ -170046,7 +169996,7 @@
     <measure number="118" width="258.93">
       <print new-system="yes">
         <staff-layout number="1">
-          <staff-distance>71.86</staff-distance>
+          <staff-distance>71.36</staff-distance>
         </staff-layout>
       </print>
       <note>
@@ -170295,7 +170245,7 @@
     <measure number="126" width="277.93">
       <print new-system="yes">
         <staff-layout number="1">
-          <staff-distance>71.86</staff-distance>
+          <staff-distance>71.36</staff-distance>
         </staff-layout>
       </print>
       <note>
@@ -171278,7 +171228,7 @@
     <measure number="142" width="300.74">
       <print new-system="yes">
         <staff-layout number="1">
-          <staff-distance>71.86</staff-distance>
+          <staff-distance>71.36</staff-distance>
         </staff-layout>
       </print>
       <note>
@@ -182051,7 +182001,7 @@
     <measure number="332" width="168.03">
       <print new-page="yes">
         <staff-layout number="1">
-          <staff-distance>69.40</staff-distance>
+          <staff-distance>69.08</staff-distance>
         </staff-layout>
       </print>
       <note>
@@ -182706,10 +182656,10 @@
         <stem>up</stem>
       </note>
     </measure>
-    <measure number="347" width="154.10">
+    <measure number="347" width="169.55">
       <print new-system="yes">
         <staff-layout number="1">
-          <staff-distance>69.40</staff-distance>
+          <staff-distance>69.08</staff-distance>
         </staff-layout>
       </print>
       <note>
@@ -182733,7 +182683,7 @@
         <stem>up</stem>
       </note>
     </measure>
-    <measure number="348" width="82.34">
+    <measure number="348" width="97.78">
       <note>
         <pitch>
           <step>D</step>
@@ -182758,7 +182708,7 @@
         <stem>up</stem>
       </note>
     </measure>
-    <measure number="349" width="56.09">
+    <measure number="349" width="71.53">
       <note>
         <pitch>
           <step>E</step>
@@ -182787,7 +182737,7 @@
         </notations>
       </note>
     </measure>
-    <measure number="350" width="87.34">
+    <measure number="350" width="102.78">
       <note>
         <pitch>
           <step>E</step>
@@ -182819,7 +182769,7 @@
         </notations>
       </note>
     </measure>
-    <measure number="351" width="58.76">
+    <measure number="351" width="74.21">
       <note>
         <pitch>
           <step>E</step>
@@ -182848,7 +182798,7 @@
         <type>whole</type>
       </note>
     </measure>
-    <measure number="352" width="138.27">
+    <measure number="352" width="153.71">
       <note>
         <pitch>
           <step>E</step>
@@ -182874,7 +182824,7 @@
         <type>whole</type>
       </note>
     </measure>
-    <measure number="353" width="58.76">
+    <measure number="353" width="74.21">
       <note>
         <pitch>
           <step>G</step>
@@ -182890,7 +182840,7 @@
         </notations>
       </note>
     </measure>
-    <measure number="354" width="87.34">
+    <measure number="354" width="102.78">
       <note>
         <pitch>
           <step>A</step>
@@ -182901,7 +182851,7 @@
         <type>whole</type>
       </note>
     </measure>
-    <measure number="355" width="58.76">
+    <measure number="355" width="74.21">
       <note>
         <pitch>
           <step>B</step>
@@ -182912,7 +182862,7 @@
         <type>whole</type>
       </note>
     </measure>
-    <measure number="356" width="138.27">
+    <measure number="356" width="153.71">
       <note>
         <pitch>
           <step>A</step>
@@ -182926,7 +182876,7 @@
         </notations>
       </note>
     </measure>
-    <measure number="357" width="77.34">
+    <measure number="357" width="92.78">
       <note>
         <pitch>
           <step>E</step>
@@ -182955,40 +182905,7 @@
         </notations>
       </note>
     </measure>
-    <measure number="358" width="80.84">
-      <note>
-        <pitch>
-          <step>E</step>
-          <octave>3</octave>
-        </pitch>
-        <duration>96</duration>
-        <tie type="stop" />
-        <tie type="start" />
-        <voice>1</voice>
-        <type>whole</type>
-        <notations>
-          <tied type="stop" />
-          <tied type="start" />
-        </notations>
-      </note>
-      <note>
-        <chord />
-        <pitch>
-          <step>A</step>
-          <octave>3</octave>
-        </pitch>
-        <duration>96</duration>
-        <tie type="stop" />
-        <tie type="start" />
-        <voice>1</voice>
-        <type>whole</type>
-        <notations>
-          <tied type="stop" />
-          <tied type="start" />
-        </notations>
-      </note>
-    </measure>
-    <measure number="359" width="77.34">
+    <measure number="358" width="96.28">
       <note>
         <pitch>
           <step>E</step>
@@ -183021,7 +182938,40 @@
         </notations>
       </note>
     </measure>
-    <measure number="360" width="77.34">
+    <measure number="359" width="92.78">
+      <note>
+        <pitch>
+          <step>E</step>
+          <octave>3</octave>
+        </pitch>
+        <duration>96</duration>
+        <tie type="stop" />
+        <tie type="start" />
+        <voice>1</voice>
+        <type>whole</type>
+        <notations>
+          <tied type="stop" />
+          <tied type="start" />
+        </notations>
+      </note>
+      <note>
+        <chord />
+        <pitch>
+          <step>A</step>
+          <octave>3</octave>
+        </pitch>
+        <duration>96</duration>
+        <tie type="stop" />
+        <tie type="start" />
+        <voice>1</voice>
+        <type>whole</type>
+        <notations>
+          <tied type="stop" />
+          <tied type="start" />
+        </notations>
+      </note>
+    </measure>
+    <measure number="360" width="92.78">
       <note>
         <pitch>
           <step>E</step>
@@ -183050,7 +183000,7 @@
         </notations>
       </note>
     </measure>
-    <measure number="361" width="77.34">
+    <measure number="361" width="92.78">
       <note>
         <pitch>
           <step>A</step>
@@ -183065,7 +183015,7 @@
         </notations>
       </note>
     </measure>
-    <measure number="362" width="80.84">
+    <measure number="362" width="96.28">
       <note>
         <pitch>
           <step>A</step>
@@ -183082,7 +183032,7 @@
         </notations>
       </note>
     </measure>
-    <measure number="363" width="97.37">
+    <measure number="363" width="112.82">
       <note>
         <pitch>
           <step>A</step>
@@ -183110,14 +183060,19 @@
         <type>half</type>
       </note>
     </measure>
-    <measure number="364" width="76.38">
+    <measure number="364" width="137.57">
       <note>
         <rest measure="yes" />
         <duration>96</duration>
         <voice>1</voice>
       </note>
     </measure>
-    <measure number="365" width="133.60">
+    <measure number="365" width="238.38">
+      <print new-system="yes">
+        <staff-layout number="1">
+          <staff-distance>69.08</staff-distance>
+        </staff-layout>
+      </print>
       <attributes>
         <key>
           <fifths>-1</fifths>
@@ -183133,26 +183088,21 @@
         <voice>1</voice>
       </note>
     </measure>
-    <measure number="366" width="190.14">
+    <measure number="366" width="246.56">
       <note>
         <rest measure="yes" />
         <duration>72</duration>
         <voice>1</voice>
       </note>
     </measure>
-    <measure number="367" width="363.07">
-      <print new-system="yes">
-        <staff-layout number="1">
-          <staff-distance>69.40</staff-distance>
-        </staff-layout>
-      </print>
+    <measure number="367" width="240.80">
       <note>
         <rest measure="yes" />
         <duration>72</duration>
         <voice>1</voice>
       </note>
     </measure>
-    <measure number="368" width="322.31">
+    <measure number="368" width="247.91">
       <attributes>
         <key>
           <fifths>0</fifths>
@@ -183168,28 +183118,28 @@
         <voice>1</voice>
       </note>
     </measure>
-    <measure number="369" width="272.95">
+    <measure number="369" width="198.56">
       <note>
         <rest measure="yes" />
         <duration>96</duration>
         <voice>1</voice>
       </note>
     </measure>
-    <measure number="370" width="274.29">
+    <measure number="370" width="199.90">
       <note>
         <rest measure="yes" />
         <duration>96</duration>
         <voice>1</voice>
       </note>
     </measure>
-    <measure number="371" width="282.49">
+    <measure number="371" width="208.09">
       <note>
         <rest measure="yes" />
         <duration>96</duration>
         <voice>1</voice>
       </note>
     </measure>
-    <measure number="372" width="373.43">
+    <measure number="372" width="308.34">
       <note>
         <rest />
         <duration>48</duration>
@@ -195341,7 +195291,7 @@
     <measure number="208" width="264.39">
       <print new-page="yes">
         <staff-layout number="1">
-          <staff-distance>44.07</staff-distance>
+          <staff-distance>70.41</staff-distance>
         </staff-layout>
       </print>
       <note>
@@ -195614,7 +195564,7 @@
     <measure number="216" width="263.78">
       <print new-system="yes">
         <staff-layout number="1">
-          <staff-distance>54.05</staff-distance>
+          <staff-distance>70.41</staff-distance>
         </staff-layout>
       </print>
       <note>
@@ -195888,10 +195838,10 @@
         </notations>
       </note>
     </measure>
-    <measure number="224" width="265.66">
+    <measure number="224" width="291.16">
       <print new-system="yes">
         <staff-layout number="1">
-          <staff-distance>67.28</staff-distance>
+          <staff-distance>70.41</staff-distance>
         </staff-layout>
       </print>
       <note>
@@ -195961,7 +195911,7 @@
         </notations>
       </note>
     </measure>
-    <measure number="225" width="233.26">
+    <measure number="225" width="258.76">
       <note>
         <pitch>
           <step>C</step>
@@ -196009,7 +195959,7 @@
         </notations>
       </note>
     </measure>
-    <measure number="226" width="235.22">
+    <measure number="226" width="260.72">
       <note>
         <pitch>
           <step>E</step>
@@ -196024,7 +195974,7 @@
         </notations>
       </note>
     </measure>
-    <measure number="227" width="243.78">
+    <measure number="227" width="269.28">
       <note>
         <pitch>
           <step>E</step>
@@ -196039,7 +195989,7 @@
         </notations>
       </note>
     </measure>
-    <measure number="228" width="235.22">
+    <measure number="228" width="260.72">
       <note>
         <pitch>
           <step>E</step>
@@ -196054,7 +196004,7 @@
         </notations>
       </note>
     </measure>
-    <measure number="229" width="288.05">
+    <measure number="229" width="313.55">
       <note>
         <pitch>
           <step>E</step>
@@ -196069,7 +196019,7 @@
         </notations>
       </note>
     </measure>
-    <measure number="230" width="208.84">
+    <measure number="230" width="234.35">
       <note>
         <pitch>
           <step>E</step>
@@ -196085,7 +196035,12 @@
         </notations>
       </note>
     </measure>
-    <measure number="231" width="178.53">
+    <measure number="231" width="284.28">
+      <print new-system="yes">
+        <staff-layout number="1">
+          <staff-distance>94.65</staff-distance>
+        </staff-layout>
+      </print>
       <note>
         <pitch>
           <step>F</step>
@@ -196116,12 +196071,7 @@
         </notations>
       </note>
     </measure>
-    <measure number="232" width="337.34">
-      <print new-system="yes">
-        <staff-layout number="1">
-          <staff-distance>77.39</staff-distance>
-        </staff-layout>
-      </print>
+    <measure number="232" width="238.42">
       <note>
         <pitch>
           <step>G</step>
@@ -196152,7 +196102,7 @@
         </notations>
       </note>
     </measure>
-    <measure number="233" width="324.29">
+    <measure number="233" width="277.07">
       <note>
         <pitch>
           <step>G</step>
@@ -196203,7 +196153,7 @@
         <stem>up</stem>
       </note>
     </measure>
-    <measure number="234" width="401.82">
+    <measure number="234" width="354.60">
       <note>
         <pitch>
           <step>A</step>
@@ -196293,7 +196243,7 @@
         <beam number="1">end</beam>
       </note>
     </measure>
-    <measure number="235" width="423.28">
+    <measure number="235" width="379.56">
       <note>
         <pitch>
           <step>D</step>
@@ -196383,7 +196333,7 @@
         <beam number="1">end</beam>
       </note>
     </measure>
-    <measure number="236" width="401.82">
+    <measure number="236" width="354.60">
       <note>
         <pitch>
           <step>C</step>
@@ -196473,10 +196423,10 @@
         <beam number="1">end</beam>
       </note>
     </measure>
-    <measure number="237" width="430.05">
+    <measure number="237" width="432.85">
       <print new-system="yes">
         <staff-layout number="1">
-          <staff-distance>65.41</staff-distance>
+          <staff-distance>70.41</staff-distance>
         </staff-layout>
       </print>
       <note>
@@ -196568,7 +196518,7 @@
         <beam number="1">end</beam>
       </note>
     </measure>
-    <measure number="238" width="363.68">
+    <measure number="238" width="362.98">
       <note>
         <pitch>
           <step>C</step>
@@ -196658,7 +196608,7 @@
         <beam number="1">end</beam>
       </note>
     </measure>
-    <measure number="239" width="364.86">
+    <measure number="239" width="364.16">
       <note>
         <pitch>
           <step>F</step>
@@ -196748,7 +196698,7 @@
         <beam number="1">end</beam>
       </note>
     </measure>
-    <measure number="240" width="366.28">
+    <measure number="240" width="365.58">
       <note>
         <pitch>
           <step>E</step>
@@ -196838,7 +196788,7 @@
         <beam number="1">end</beam>
       </note>
     </measure>
-    <measure number="241" width="363.68">
+    <measure number="241" width="362.98">
       <note>
         <pitch>
           <step>C</step>
@@ -196929,9 +196879,9 @@
       </note>
     </measure>
     <measure number="242" width="497.66">
-      <print new-system="yes">
+      <print new-page="yes">
         <staff-layout number="1">
-          <staff-distance>67.70</staff-distance>
+          <staff-distance>144.50</staff-distance>
         </staff-layout>
       </print>
       <note>
@@ -197135,9 +197085,9 @@
       </note>
     </measure>
     <measure number="246" width="414.57">
-      <print new-page="yes">
+      <print new-system="yes">
         <staff-layout number="1">
-          <staff-distance>141.80</staff-distance>
+          <staff-distance>144.50</staff-distance>
         </staff-layout>
       </print>
       <note>
@@ -197594,7 +197544,6 @@
         <type>half</type>
         <stem>up</stem>
         <notations>
-          <slur type="start" />
           <articulations>
             <accent />
           </articulations>
@@ -197640,9 +197589,6 @@
         <voice>1</voice>
         <type>quarter</type>
         <stem>up</stem>
-        <notations>
-          <slur type="stop" />
-        </notations>
       </note>
       <note>
         <chord />
@@ -201198,7 +201144,7 @@
     <measure number="60" width="305.44">
       <print new-page="yes">
         <staff-layout number="1">
-          <staff-distance>67.97</staff-distance>
+          <staff-distance>68.99</staff-distance>
         </staff-layout>
       </print>
       <note>
@@ -202048,7 +201994,7 @@
     <measure number="66" width="397.94">
       <print new-system="yes">
         <staff-layout number="1">
-          <staff-distance>67.97</staff-distance>
+          <staff-distance>68.99</staff-distance>
         </staff-layout>
       </print>
       <note>
@@ -202512,7 +202458,7 @@
     <measure number="72" width="368.30">
       <print new-system="yes">
         <staff-layout number="1">
-          <staff-distance>86.65</staff-distance>
+          <staff-distance>74.66</staff-distance>
         </staff-layout>
       </print>
       <note>
@@ -202752,7 +202698,7 @@
         <duration>12</duration>
         <voice>1</voice>
         <type>eighth</type>
-        <stem>up</stem>
+        <stem>down</stem>
         <beam number="1">begin</beam>
       </note>
       <note>
@@ -203156,7 +203102,7 @@
     <measure number="78" width="314.39">
       <print new-system="yes">
         <staff-layout number="1">
-          <staff-distance>67.97</staff-distance>
+          <staff-distance>68.99</staff-distance>
         </staff-layout>
       </print>
       <note>
@@ -203257,7 +203203,7 @@
     <measure number="84" width="447.21">
       <print new-system="yes">
         <staff-layout number="1">
-          <staff-distance>67.97</staff-distance>
+          <staff-distance>68.99</staff-distance>
         </staff-layout>
       </print>
       <note>
@@ -205647,7 +205593,7 @@
     <measure number="11" width="221.05">
       <print new-system="yes">
         <staff-layout number="1">
-          <staff-distance>65.18</staff-distance>
+          <staff-distance>64.44</staff-distance>
         </staff-layout>
       </print>
       <note>
@@ -206021,7 +205967,7 @@
     <measure number="22" width="221.48">
       <print new-system="yes">
         <staff-layout number="1">
-          <staff-distance>65.18</staff-distance>
+          <staff-distance>64.44</staff-distance>
         </staff-layout>
       </print>
       <note>
@@ -206250,7 +206196,7 @@
     <measure number="31" width="276.74">
       <print new-system="yes">
         <staff-layout number="1">
-          <staff-distance>65.18</staff-distance>
+          <staff-distance>64.44</staff-distance>
         </staff-layout>
       </print>
       <note>
@@ -206616,7 +206562,7 @@
     <measure number="39" width="321.49">
       <print new-system="yes">
         <staff-layout number="1">
-          <staff-distance>65.18</staff-distance>
+          <staff-distance>64.44</staff-distance>
         </staff-layout>
       </print>
       <note>
@@ -209215,7 +209161,7 @@
         </notations>
       </note>
     </measure>
-    <measure number="97" width="243.75">
+    <measure number="97" width="250.35">
       <print new-system="yes">
         <staff-layout number="1">
           <staff-distance>73.12</staff-distance>
@@ -209267,7 +209213,7 @@
         <beam number="1">end</beam>
       </note>
     </measure>
-    <measure number="98" width="152.71">
+    <measure number="98" width="159.31">
       <note>
         <pitch>
           <step>A</step>
@@ -209314,7 +209260,7 @@
         <beam number="1">end</beam>
       </note>
     </measure>
-    <measure number="99" width="155.63">
+    <measure number="99" width="162.23">
       <note>
         <pitch>
           <step>A</step>
@@ -209361,7 +209307,7 @@
         <beam number="1">end</beam>
       </note>
     </measure>
-    <measure number="100" width="175.47">
+    <measure number="100" width="182.07">
       <note>
         <pitch>
           <step>A</step>
@@ -209410,7 +209356,7 @@
         <beam number="1">end</beam>
       </note>
     </measure>
-    <measure number="101" width="192.53">
+    <measure number="101" width="199.13">
       <note>
         <pitch>
           <step>E</step>
@@ -209460,7 +209406,7 @@
         <beam number="1">end</beam>
       </note>
     </measure>
-    <measure number="102" width="170.93">
+    <measure number="102" width="177.53">
       <note>
         <pitch>
           <step>E</step>
@@ -209517,7 +209463,7 @@
         </notations>
       </note>
     </measure>
-    <measure number="103" width="171.39">
+    <measure number="103" width="177.99">
       <note>
         <pitch>
           <step>E</step>
@@ -209565,7 +209511,7 @@
         <beam number="1">end</beam>
       </note>
     </measure>
-    <measure number="104" width="224.62">
+    <measure number="104" width="165.23">
       <note>
         <pitch>
           <step>A</step>
@@ -209589,14 +209535,14 @@
         <type>quarter</type>
       </note>
     </measure>
-    <measure number="105" width="200.75">
+    <measure number="105" width="207.35">
       <note>
         <rest measure="yes" />
         <duration>48</duration>
         <voice>1</voice>
       </note>
     </measure>
-    <measure number="106" width="200.75">
+    <measure number="106" width="207.35">
       <note>
         <rest measure="yes" />
         <duration>48</duration>
@@ -218404,7 +218350,7 @@
     <measure number="107" width="231.64">
       <print new-page="yes">
         <staff-layout number="1">
-          <staff-distance>71.86</staff-distance>
+          <staff-distance>71.36</staff-distance>
         </staff-layout>
       </print>
       <note>
@@ -218507,7 +218453,7 @@
     <measure number="118" width="258.93">
       <print new-system="yes">
         <staff-layout number="1">
-          <staff-distance>71.86</staff-distance>
+          <staff-distance>82.41</staff-distance>
         </staff-layout>
       </print>
       <note>
@@ -218745,7 +218691,7 @@
     <measure number="126" width="277.93">
       <print new-system="yes">
         <staff-layout number="1">
-          <staff-distance>71.86</staff-distance>
+          <staff-distance>71.36</staff-distance>
         </staff-layout>
       </print>
       <note>
@@ -220017,7 +219963,7 @@
     <measure number="142" width="300.74">
       <print new-system="yes">
         <staff-layout number="1">
-          <staff-distance>71.86</staff-distance>
+          <staff-distance>71.36</staff-distance>
         </staff-layout>
       </print>
       <note>
@@ -228727,7 +228673,7 @@
     <measure number="332" width="168.03">
       <print new-page="yes">
         <staff-layout number="1">
-          <staff-distance>69.40</staff-distance>
+          <staff-distance>69.08</staff-distance>
         </staff-layout>
       </print>
       <note>
@@ -229373,10 +229319,10 @@
         <stem>up</stem>
       </note>
     </measure>
-    <measure number="347" width="154.10">
+    <measure number="347" width="169.55">
       <print new-system="yes">
         <staff-layout number="1">
-          <staff-distance>69.40</staff-distance>
+          <staff-distance>69.08</staff-distance>
         </staff-layout>
       </print>
       <note>
@@ -229420,7 +229366,7 @@
         <stem>up</stem>
       </note>
     </measure>
-    <measure number="348" width="82.34">
+    <measure number="348" width="97.78">
       <note>
         <pitch>
           <step>F</step>
@@ -229442,7 +229388,7 @@
         <stem>up</stem>
       </note>
     </measure>
-    <measure number="349" width="56.09">
+    <measure number="349" width="71.53">
       <note>
         <pitch>
           <step>E</step>
@@ -229456,7 +229402,7 @@
         </notations>
       </note>
     </measure>
-    <measure number="350" width="87.34">
+    <measure number="350" width="102.78">
       <note>
         <pitch>
           <step>F</step>
@@ -229468,7 +229414,7 @@
         <accidental>natural</accidental>
       </note>
     </measure>
-    <measure number="351" width="58.76">
+    <measure number="351" width="74.21">
       <note>
         <pitch>
           <step>G</step>
@@ -229481,7 +229427,7 @@
         <accidental>sharp</accidental>
       </note>
     </measure>
-    <measure number="352" width="138.27">
+    <measure number="352" width="153.71">
       <note>
         <pitch>
           <step>A</step>
@@ -229495,7 +229441,7 @@
         </notations>
       </note>
     </measure>
-    <measure number="353" width="58.76">
+    <measure number="353" width="74.21">
       <note>
         <pitch>
           <step>E</step>
@@ -229509,7 +229455,7 @@
         </notations>
       </note>
     </measure>
-    <measure number="354" width="87.34">
+    <measure number="354" width="102.78">
       <note>
         <pitch>
           <step>F</step>
@@ -229520,7 +229466,7 @@
         <type>whole</type>
       </note>
     </measure>
-    <measure number="355" width="58.76">
+    <measure number="355" width="74.21">
       <note>
         <pitch>
           <step>G</step>
@@ -229533,7 +229479,7 @@
         <accidental>sharp</accidental>
       </note>
     </measure>
-    <measure number="356" width="138.27">
+    <measure number="356" width="153.71">
       <note>
         <pitch>
           <step>A</step>
@@ -229547,7 +229493,7 @@
         </notations>
       </note>
     </measure>
-    <measure number="357" width="77.34">
+    <measure number="357" width="92.78">
       <note>
         <pitch>
           <step>A</step>
@@ -229562,7 +229508,7 @@
         </notations>
       </note>
     </measure>
-    <measure number="358" width="80.84">
+    <measure number="358" width="96.28">
       <note>
         <pitch>
           <step>A</step>
@@ -229579,7 +229525,7 @@
         </notations>
       </note>
     </measure>
-    <measure number="359" width="77.34">
+    <measure number="359" width="92.78">
       <note>
         <pitch>
           <step>A</step>
@@ -229596,7 +229542,7 @@
         </notations>
       </note>
     </measure>
-    <measure number="360" width="77.34">
+    <measure number="360" width="92.78">
       <note>
         <pitch>
           <step>A</step>
@@ -229611,7 +229557,7 @@
         </notations>
       </note>
     </measure>
-    <measure number="361" width="77.34">
+    <measure number="361" width="92.78">
       <note>
         <pitch>
           <step>D</step>
@@ -229626,7 +229572,7 @@
         </notations>
       </note>
     </measure>
-    <measure number="362" width="80.84">
+    <measure number="362" width="96.28">
       <note>
         <pitch>
           <step>D</step>
@@ -229643,7 +229589,7 @@
         </notations>
       </note>
     </measure>
-    <measure number="363" width="97.37">
+    <measure number="363" width="112.82">
       <note>
         <pitch>
           <step>D</step>
@@ -229671,14 +229617,19 @@
         <type>half</type>
       </note>
     </measure>
-    <measure number="364" width="76.38">
+    <measure number="364" width="137.57">
       <note>
         <rest measure="yes" />
         <duration>96</duration>
         <voice>1</voice>
       </note>
     </measure>
-    <measure number="365" width="133.60">
+    <measure number="365" width="238.38">
+      <print new-system="yes">
+        <staff-layout number="1">
+          <staff-distance>69.08</staff-distance>
+        </staff-layout>
+      </print>
       <attributes>
         <key>
           <fifths>-1</fifths>
@@ -229694,26 +229645,21 @@
         <voice>1</voice>
       </note>
     </measure>
-    <measure number="366" width="190.14">
+    <measure number="366" width="246.56">
       <note>
         <rest measure="yes" />
         <duration>72</duration>
         <voice>1</voice>
       </note>
     </measure>
-    <measure number="367" width="363.07">
-      <print new-system="yes">
-        <staff-layout number="1">
-          <staff-distance>69.40</staff-distance>
-        </staff-layout>
-      </print>
+    <measure number="367" width="240.80">
       <note>
         <rest measure="yes" />
         <duration>72</duration>
         <voice>1</voice>
       </note>
     </measure>
-    <measure number="368" width="322.31">
+    <measure number="368" width="247.91">
       <attributes>
         <key>
           <fifths>0</fifths>
@@ -229729,28 +229675,28 @@
         <voice>1</voice>
       </note>
     </measure>
-    <measure number="369" width="272.95">
+    <measure number="369" width="198.56">
       <note>
         <rest measure="yes" />
         <duration>96</duration>
         <voice>1</voice>
       </note>
     </measure>
-    <measure number="370" width="274.29">
+    <measure number="370" width="199.90">
       <note>
         <rest measure="yes" />
         <duration>96</duration>
         <voice>1</voice>
       </note>
     </measure>
-    <measure number="371" width="282.49">
+    <measure number="371" width="208.09">
       <note>
         <rest measure="yes" />
         <duration>96</duration>
         <voice>1</voice>
       </note>
     </measure>
-    <measure number="372" width="373.43">
+    <measure number="372" width="308.34">
       <note>
         <rest />
         <duration>48</duration>

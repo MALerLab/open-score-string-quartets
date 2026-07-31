@@ -27973,10 +27973,6 @@
             </Rest>
           </voice>
         </Measure>
-      <VBox>
-        <height>10</height>
-        <linkedMain/>
-        </VBox>
       <Measure len="1/8">
         <voice>
           <Rest>
@@ -28008,9 +28004,6 @@
             <Spanner type="Slur">
               <Slur>
                 <linkedMain/>
-                <SlurSegment no="0">
-                  <o4 x="0" y="0.5"/>
-                  </SlurSegment>
                 </Slur>
               <next>
                 <location>
@@ -28070,9 +28063,6 @@
             <Spanner type="Slur">
               <Slur>
                 <linkedMain/>
-                <SlurSegment no="0">
-                  <o1 x="0" y="-0.5"/>
-                  </SlurSegment>
                 </Slur>
               <next>
                 <location>
@@ -28136,9 +28126,6 @@
             <Spanner type="Slur">
               <Slur>
                 <linkedMain/>
-                <SlurSegment no="0">
-                  <o4 x="0" y="0.5"/>
-                  </SlurSegment>
                 </Slur>
               <next>
                 <location>
@@ -28198,9 +28185,6 @@
             <Spanner type="Slur">
               <Slur>
                 <linkedMain/>
-                <SlurSegment no="0">
-                  <o1 x="0" y="-0.5"/>
-                  </SlurSegment>
                 </Slur>
               <next>
                 <location>
@@ -28264,9 +28248,6 @@
             <Spanner type="Slur">
               <Slur>
                 <linkedMain/>
-                <SlurSegment no="0">
-                  <o4 x="0" y="0.5"/>
-                  </SlurSegment>
                 </Slur>
               <next>
                 <location>
@@ -28326,9 +28307,6 @@
             <Spanner type="Slur">
               <Slur>
                 <linkedMain/>
-                <SlurSegment no="0">
-                  <o1 x="0" y="-0.5"/>
-                  </SlurSegment>
                 </Slur>
               <next>
                 <location>
@@ -28777,9 +28755,6 @@
             <Spanner type="Slur">
               <Slur>
                 <linkedMain/>
-                <SlurSegment no="0">
-                  <offset x="0" y="-1"/>
-                  </SlurSegment>
                 </Slur>
               <next>
                 <location>
@@ -30211,12 +30186,6 @@
             <Spanner type="Slur">
               <Slur>
                 <linkedMain/>
-                <SlurSegment no="0">
-                  <o2 x="-0.298968" y="3.58762"/>
-                  <o3 x="-0.298968" y="3.58762"/>
-                  <o4 x="0" y="1.64432"/>
-                  <offset x="-0.448452" y="1.04639"/>
-                  </SlurSegment>
                 </Slur>
               <next>
                 <location>
@@ -30346,12 +30315,6 @@
               <endText></endText>
               <lineVisible>0</lineVisible>
               <linkedMain/>
-              <Segment>
-                <subtype>0</subtype>
-                <offset x="-1.5" y="3.02583"/>
-                <off2 x="0" y="0"/>
-                <minDistance>0.2</minDistance>
-                </Segment>
               </HairPin>
             <next>
               <location>
@@ -37712,10 +37675,6 @@
             </Chord>
           </voice>
         </Measure>
-      <VBox>
-        <height>10</height>
-        <linkedMain/>
-        </VBox>
       <Measure>
         <voice>
           <Chord>
@@ -62449,6 +62408,7 @@
             </Chord>
           <Chord>
             <linkedMain/>
+            <BeamMode>mid</BeamMode>
             <durationType>eighth</durationType>
             <Spanner type="Slur">
               <prev>
@@ -62833,9 +62793,6 @@
             <Spanner type="Slur">
               <Slur>
                 <linkedMain/>
-                <SlurSegment no="0">
-                  <o1 x="0" y="-1"/>
-                  </SlurSegment>
                 </Slur>
               <next>
                 <location>
@@ -62919,9 +62876,6 @@
             <Spanner type="Slur">
               <Slur>
                 <linkedMain/>
-                <SlurSegment no="0">
-                  <o1 x="0" y="-1"/>
-                  </SlurSegment>
                 </Slur>
               <next>
                 <location>
@@ -63168,9 +63122,6 @@
             <Spanner type="Slur">
               <Slur>
                 <linkedMain/>
-                <SlurSegment no="0">
-                  <offset x="0.448452" y="0.195873"/>
-                  </SlurSegment>
                 </Slur>
               <next>
                 <location>
@@ -63975,12 +63926,6 @@
               <endText></endText>
               <lineVisible>0</lineVisible>
               <linkedMain/>
-              <Segment>
-                <subtype>0</subtype>
-                <offset x="-1.5" y="4.02583"/>
-                <off2 x="0" y="0"/>
-                <minDistance>0.2</minDistance>
-                </Segment>
               </HairPin>
             <next>
               <location>
@@ -64082,9 +64027,6 @@
             <Spanner type="Slur">
               <Slur>
                 <linkedMain/>
-                <SlurSegment no="0">
-                  <o1 x="0" y="-0.5"/>
-                  </SlurSegment>
                 </Slur>
               <next>
                 <location>
@@ -64168,9 +64110,6 @@
             <Spanner type="Slur">
               <Slur>
                 <linkedMain/>
-                <SlurSegment no="0">
-                  <o1 x="0" y="-0.5"/>
-                  </SlurSegment>
                 </Slur>
               <next>
                 <location>
@@ -84503,6 +84442,7 @@
             <Spanner type="Slur">
               <Slur>
                 <linkedMain/>
+                <up>up</up>
                 </Slur>
               <next>
                 <location>
@@ -90830,9 +90770,6 @@
             <Spanner type="Slur">
               <Slur>
                 <linkedMain/>
-                <SlurSegment no="0">
-                  <offset x="0" y="-1"/>
-                  </SlurSegment>
                 </Slur>
               <next>
                 <location>
@@ -95840,8 +95777,8 @@
               <visible>0</visible>
               <Segment>
                 <subtype>0</subtype>
-                <offset x="1" y="2"/>
-                <off2 x="-1" y="0"/>
+                <offset x="0" y="2"/>
+                <off2 x="0" y="0"/>
                 <visible>0</visible>
                 </Segment>
               </HairPin>
@@ -116295,6 +116232,7 @@
             </Rest>
           <Chord>
             <linkedMain/>
+            <BeamMode>begin</BeamMode>
             <durationType>eighth</durationType>
             <Articulation>
               <subtype>articStaccatoBelow</subtype>
@@ -116308,6 +116246,7 @@
             </Chord>
           <Chord>
             <linkedMain/>
+            <BeamMode>mid</BeamMode>
             <durationType>eighth</durationType>
             <Articulation>
               <subtype>articStaccatoBelow</subtype>
@@ -117161,10 +117100,6 @@
             <Spanner type="Slur">
               <Slur>
                 <linkedMain/>
-                <SlurSegment no="0">
-                  <o1 x="0" y="-1"/>
-                  <offset x="0" y="-1"/>
-                  </SlurSegment>
                 </Slur>
               <next>
                 <location>
@@ -117701,12 +117636,6 @@
               <endText></endText>
               <lineVisible>0</lineVisible>
               <linkedMain/>
-              <Segment>
-                <subtype>0</subtype>
-                <offset x="-1.5" y="2.52583"/>
-                <off2 x="0" y="0"/>
-                <minDistance>0.2</minDistance>
-                </Segment>
               </HairPin>
             <next>
               <location>
@@ -157404,11 +157333,6 @@
               </Rest>
             </voice>
           </Measure>
-        <VBox>
-          <height>10</height>
-          <linked>
-            </linked>
-          </VBox>
         <Measure len="1/8">
           <voice>
             <Rest>
@@ -168521,11 +168445,6 @@
               </Chord>
             </voice>
           </Measure>
-        <VBox>
-          <height>10</height>
-          <linked>
-            </linked>
-          </VBox>
         <Measure>
           <voice>
             <Chord>
@@ -197391,14 +197310,6 @@
               </Rest>
             </voice>
           </Measure>
-        <VBox>
-          <height>10</height>
-          <linked>
-            <location>
-              <staves>-1</staves>
-              </location>
-            </linked>
-          </VBox>
         <Measure len="1/8">
           <voice>
             <Rest>
@@ -197571,6 +197482,7 @@
             <Chord>
               <linked>
                 </linked>
+              <BeamMode>mid</BeamMode>
               <durationType>eighth</durationType>
               <Spanner type="Slur">
                 <prev>
@@ -205266,14 +205178,6 @@
               </Chord>
             </voice>
           </Measure>
-        <VBox>
-          <height>10</height>
-          <linked>
-            <location>
-              <staves>-1</staves>
-              </location>
-            </linked>
-          </VBox>
         <Measure>
           <voice>
             <Chord>
@@ -230313,14 +230217,6 @@
               </Rest>
             </voice>
           </Measure>
-        <VBox>
-          <height>10</height>
-          <linked>
-            <location>
-              <staves>-2</staves>
-              </location>
-            </linked>
-          </VBox>
         <Measure len="1/8">
           <voice>
             <Dynamic>
@@ -236957,7 +236853,7 @@
                 <visible>0</visible>
                 <Segment>
                   <subtype>0</subtype>
-                  <offset x="0" y="1.99975"/>
+                  <offset x="0" y="2"/>
                   <off2 x="0" y="0"/>
                   <visible>0</visible>
                   </Segment>
@@ -237015,7 +236911,7 @@
                 <visible>0</visible>
                 <Segment>
                   <subtype>0</subtype>
-                  <offset x="0" y="1.99975"/>
+                  <offset x="0" y="2"/>
                   <off2 x="0" y="0"/>
                   <visible>0</visible>
                   </Segment>
@@ -238055,14 +237951,6 @@
               </Chord>
             </voice>
           </Measure>
-        <VBox>
-          <height>10</height>
-          <linked>
-            <location>
-              <staves>-2</staves>
-              </location>
-            </linked>
-          </VBox>
         <Measure>
           <voice>
             <Chord>
@@ -261122,14 +261010,6 @@
               </Rest>
             </voice>
           </Measure>
-        <VBox>
-          <height>10</height>
-          <linked>
-            <location>
-              <staves>-3</staves>
-              </location>
-            </linked>
-          </VBox>
         <Measure len="1/8">
           <voice>
             <Rest>
@@ -261263,6 +261143,7 @@
             <Chord>
               <linked>
                 </linked>
+              <BeamMode>begin</BeamMode>
               <durationType>eighth</durationType>
               <Articulation>
                 <subtype>articStaccatoBelow</subtype>
@@ -261279,6 +261160,7 @@
             <Chord>
               <linked>
                 </linked>
+              <BeamMode>mid</BeamMode>
               <durationType>eighth</durationType>
               <Articulation>
                 <subtype>articStaccatoBelow</subtype>
@@ -262271,9 +262153,6 @@
                 <Slur>
                   <linked>
                     </linked>
-                  <SlurSegment no="0">
-                    <offset x="0" y="-1.5"/>
-                    </SlurSegment>
                   </Slur>
                 <next>
                   <location>
@@ -268302,14 +268181,6 @@
               </Chord>
             </voice>
           </Measure>
-        <VBox>
-          <height>10</height>
-          <linked>
-            <location>
-              <staves>-3</staves>
-              </location>
-            </linked>
-          </VBox>
         <Measure>
           <voice>
             <Chord>

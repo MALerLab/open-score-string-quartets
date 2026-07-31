@@ -7,6 +7,16 @@ Mirror of https://musescore.com/openscore-string-quartets.
 
 Collection of string quartets by "long 19th century" composers in MuseScore format with associated data.
 
+## Part of the String Quartet OMR Benchmark
+
+OSSQ is the dataset behind *"A Dataset and Benchmark for Optical Music Recognition of String Quartet Scores"* (MALer Lab, Sogang University). This repository holds the tracked MuseScore/MusicXML annotation sources; related repositories in the release:
+
+- **[string-quartet-omr-benchmark](https://github.com/MALerLab/string-quartet-omr-benchmark)** — umbrella entry point for the paper and the full repo constellation. *(Not yet public; linked for reference.)*
+- **[sqomr](https://github.com/MALerLab/sqomr)** (branch `omr-dev`) — model training/evaluation experiments run on this dataset.
+- **[omr-data-preprocessor](https://github.com/MALerLab/omr-data-preprocessor)** (branch `ossq-v2.4.0`) — the pipeline that builds every derived format below from the sources tracked in this repo.
+- **[lmxe](https://github.com/MALerLab/lmxe)** (branch `v0.2.0`) — the LMXE symbolic format library behind the `.lmxe`/`.plmxe`/`.rlmxe` files (derived from [OMR-Research/lmx](https://github.com/OMR-Research/lmx)).
+- **[LEGATO](https://github.com/guang-yng/legato)** (`179c228`) — baseline OMR model used for benchmark comparison.
+
 Scores can be downloaded individually in PDF, MIDI, MusicXML, MP3 and other formats from
 their [official pages][OSSQ] on MuseScore.com. Alternatively, scores can be
 converted to other formats *en masse* using MuseScore's free desktop software using either
@@ -16,6 +26,72 @@ or the [command line interface](https://handbook.musescore.org/appendix/command-
 **!Important NOTE!**  
 To render or convert .mscx files in this repo, you **need to use MuseScore3 v3.6.2**  
 In server environments, you can use MuseScore3 v3.6.2's command line interface. Please visit the [musescore-3.6.2-headless@github](https://github.com/halsoo/musescore-3.6.2-headless) repository for instructions on how to set up a headless version of MuseScore3 v3.6.2.
+
+# What this repository tracks
+
+This git repository is the **auditable revision history of the MuseScore annotation work** behind OSSQ, not a distribution channel for the full multi-format dataset. `git ls-files` tracks 878 files:
+
+- the MuseScore/MusicXML source annotations (`sq<id>.mscx`, `sq<id>.musicxml`, `sq<id>_cleaned.musicxml`, and `sq<id>_scanned.csv` alignment data where a scanned exemplar exists)
+- per-composer and per-score `README.md` files
+- corpus-level metadata under [`data/`](./data/) (`.tsv`/`.yaml`)
+- per-score image-segmentation metadata (`sq<id>_yolo_infos.yaml`)
+
+All *derived* symbolic formats are intentionally gitignored, since they are large, and fully reproducible from the tracked sources:
+
+```
+scores/*/*/abc/
+scores/*/*/krn/
+scores/*/*/lmxe/
+scores/*/*/musicxml/    # segmented systemwise/partwise MusicXML; not the top-level sq<id>.musicxml
+scores/*/*/metadata/
+versions/               # entire directory: packaged builds of past dataset versions
+```
+
+The bulk derived artifacts — rendered PDFs/images and the symbolic formats (`.lmxe`/`.plmxe`/`.rlmxe`, `.krn`/`.ekrn`, `.abc`/`.eabc`) — are published separately:
+
+- **Zenodo** (versioned DOI): <!-- TODO: Zenodo DOI --> (link TBD)
+- **Hugging Face**: (link TBD)
+
+See [Regenerating derived formats](#regenerating-derived-formats) below to build them yourself instead.
+
+# Provenance and audit history
+
+The git history in this repository *is* the auditable record of the annotation work: every
+alignment fix, correction, and style decision applied to a score is a commit. That history
+spans many divergent branches — different alignment passes, annotation-style experiments, and
+release snapshots — rather than a single linear trunk, because each approach is kept
+individually inspectable instead of being squashed away.
+
+The single most useful command for tracing a score's provenance is:
+
+```sh
+git log --all --source --oneline -- <path/to/score>
+```
+
+This walks every branch in a full clone (not just the default branch — see the warning below)
+and labels which branch each commit came from. See [`BRANCHES.md`](./BRANCHES.md) for the full
+branch inventory, verified commit counts, and more tracing commands, including why **GitHub's
+web history UI only shows the default branch** and won't give you this picture on its own.
+
+# Dataset versions
+
+The benchmark paper uses **OSSQ v2.4.1**, which adds two LMXE variants on top of v2.4.0 — nothing else differs between the two versions:
+
+- **PLMXE** (parametrized LMXE), systemwise only: 24,546 files
+- **RLMXE** (relative LMXE), systemwise + partwise: 122,718 files
+
+Packaged builds of each dataset version are archived under the gitignored `versions/<version>/` directory (e.g. `versions/ossq-v2.4.0/`, `versions/ossq-v2.4.1/`) and are not part of this git history.
+
+To obtain OSSQ v2.4.1:
+
+- **Download** the packaged build from Zenodo or Hugging Face once published (see links above), or
+- **Regenerate it** from a checkout of this repo (branch `ossq-v2.4.0`, which already contains the v2.4.0 sources unchanged) using the `omr-data-preprocessor` pipeline through its PLMXE/RLMXE conversion step.
+
+# Regenerating derived formats
+
+Everything under `scores/*/*/{abc,krn,lmxe,musicxml,metadata}/` is reproducible from the tracked MuseScore/MusicXML sources using the [omr-data-preprocessor](https://github.com/MALerLab/omr-data-preprocessor) pipeline (`omrdp`).
+
+Each pipeline script sets a `BASE_DIR` pointing at a local checkout of this repository. See that repo's README for full setup and its numbered pipeline (`ossq_step_001.sh` through `ossq_step_005.sh`, plus the crawl/download steps) that in turn produces the images, LMXE/PLMXE/RLMXE, **kern/eKern and ABC/eABC formats.
 
 # [Scores directory](./scores/)
 
@@ -58,12 +134,13 @@ Score and lyric files are arranged in the following directory structure:
       synthetic/
 	      systemwise/
           sq<id>:<page>:<system>.lmxe
-          sq<id>:<page>:<system>.rlmxe
+          sq<id>:<page>:<system>.plmxe # parametrized LMXE, added in v2.4.1
+          sq<id>:<page>:<system>.rlmxe # relative LMXE, added in v2.4.1
         partwise/
           sq<id>:<page>:<system>:<part>.lmxe
-          sq<id>:<page>:<system>.rlmxe
+          sq<id>:<page>:<system>:<part>.rlmxe # relative LMXE, added in v2.4.1
       scanned/
-    kern/
+    krn/
       synthetic/
         systemwise/
           sq<id>:<page>:<system>.krn
@@ -102,6 +179,8 @@ Directories:
 
 - `<composer>` - composer's name in the form `Last,_First_Second...`.
 - `<set>` - name of the extended work that the song belongs to, if any.
+
+The top-level `search`/`search_id`/`search_img` shell scripts are developer helpers for looking up a score's derived files by MuseScore ID during pipeline work; they aren't required to use the dataset.
 
 ## Filenames
 
@@ -143,14 +222,12 @@ behave this way by default for all repositories on your local machine.
 The `Data/` directory contains the following:
 - composers.tsv and composers.yaml: information about the corpus composers.
 - corpus.tsv and corpus.yaml: total numbers of composers, sets, and scores.
-- corpus_conversion.json: for batch conversion as described above.
-- corpus_conversion.py: a basic script for updating the `corpus_conversion.json` file.
-- plot.py: for producing the summative plots contained in ... 
-- plots/: a folder for the summative plots as discussed below.
 - scores.tsv and scores.yaml: information about each score
 - sets.tsv and sets.yaml: information about each set (collection of scores).
+- vocabulary.txt: the symbolic-token vocabulary used across the corpus.
+- code-plots/: `plot.py`, for producing the summative plots below, and their output.
 
-## [Data plots](./data/plots/)
+## [Data plots](./data/code-plots/)
 
 Summative plots of the corpus contents:
 
@@ -165,11 +242,26 @@ Summative plots of the corpus contents:
 
 # License and acknowledgement
 
-These scores are released under Creative Commons Zero (CC0). See LICENSE.txt.
+These scores are released under Creative Commons Zero (CC0). See LICENSE.txt. This covers both the annotation sources tracked in this repository and the bulk-distributed derived formats.
 
 We kindly ask that you credit OpenScore String Quartets and provide a link to [OSSQ] or this repository for any public-facing use of these scores.
 
-For academic publications, please cite the report on we published in DLfM 2023:
+# Citation
+
+If you use the OMR benchmark (derived formats, splits, baselines), please cite the paper this dataset accompanies:
+
+<!-- TODO: replace with final BibTeX once the paper is published -->
+```bibtex
+@inproceedings{TODO_ossq_omr_benchmark,
+	title     = {A Dataset and Benchmark for Optical Music Recognition of String Quartet Scores},
+	author    = {TODO},
+	booktitle = {TODO},
+	year      = {TODO},
+	note      = {MALer Lab, Sogang University},
+}
+```
+
+If you use the underlying OpenScore String Quartet corpus itself, please also cite the original report published in DLfM 2023:
 
 ```
 @inproceedings{gotham_openscore_2023,

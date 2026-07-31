@@ -3,19 +3,22 @@ data_id: sq7093885
 image_type: scanned
 system:
   model: ls-yolo-system-v3.0.0
-  confidence_threshold: 0.85
+  confidence_threshold: 0.3
   merge_threshold: 0.7
   exceptions:
-  - sq7093885:0006:0003.png
-  - sq7093885:0006:0004.png
-  - sq7093885:0006:0005.png
+  ignores:
+    - sq7093885:0006:0003
+    - sq7093885:0006:0004
+    - sq7093885:0006:0005
 staff_height:
   model: ls-yolo-staff-height-v2.0.0
   target_height: 18
-  exceptions:
 staff_bbox:
   model: ls-yolo-staff-bbox-v1.0.1
   confidence_threshold: 0.7
   merge_threshold: 0.7
   exceptions:
   ignores:
+    - sq7093885:0006:0003
+    - sq7093885:0006:0004
+    - sq7093885:0006:0005

@@ -1259,6 +1259,7 @@
               <Spanner type="Tie">
                 <Tie>
                   <linkedMain/>
+                  <up>down</up>
                   </Tie>
                 <next>
                   <location>
@@ -9517,6 +9518,7 @@
             <Spanner type="Slur">
               <Slur>
                 <linkedMain/>
+                <up>down</up>
                 </Slur>
               <next>
                 <location>
@@ -11555,6 +11557,7 @@
             <Spanner type="Slur">
               <Slur>
                 <linkedMain/>
+                <up>down</up>
                 </Slur>
               <next>
                 <location>
@@ -11684,6 +11687,7 @@
             <Spanner type="Slur">
               <Slur>
                 <linkedMain/>
+                <up>down</up>
                 </Slur>
               <next>
                 <location>
@@ -11866,6 +11870,7 @@
             <Spanner type="Slur">
               <Slur>
                 <linkedMain/>
+                <up>down</up>
                 </Slur>
               <next>
                 <location>
@@ -12015,6 +12020,7 @@
             <Spanner type="Slur">
               <Slur>
                 <linkedMain/>
+                <up>down</up>
                 </Slur>
               <next>
                 <location>
@@ -24011,6 +24017,7 @@
               <Spanner type="Tie">
                 <Tie>
                   <linkedMain/>
+                  <up>down</up>
                   </Tie>
                 <next>
                   <location>
@@ -27083,6 +27090,7 @@
             <Spanner type="Slur">
               <Slur>
                 <linkedMain/>
+                <up>down</up>
                 </Slur>
               <next>
                 <location>
@@ -27160,6 +27168,7 @@
             <Spanner type="Slur">
               <Slur>
                 <linkedMain/>
+                <up>down</up>
                 </Slur>
               <next>
                 <location>
@@ -27232,6 +27241,7 @@
             <Spanner type="Slur">
               <Slur>
                 <linkedMain/>
+                <up>down</up>
                 </Slur>
               <next>
                 <location>
@@ -30657,6 +30667,7 @@
             <Spanner type="Slur">
               <Slur>
                 <linkedMain/>
+                <up>down</up>
                 </Slur>
               <next>
                 <location>
@@ -30763,6 +30774,7 @@
             <Spanner type="Slur">
               <Slur>
                 <linkedMain/>
+                <up>down</up>
                 </Slur>
               <next>
                 <location>
@@ -30883,6 +30895,7 @@
             <Spanner type="Slur">
               <Slur>
                 <linkedMain/>
+                <up>down</up>
                 </Slur>
               <next>
                 <location>
@@ -34397,6 +34410,7 @@
             <Spanner type="Slur">
               <Slur>
                 <linkedMain/>
+                <up>down</up>
                 </Slur>
               <next>
                 <location>
@@ -34564,6 +34578,7 @@
             <Spanner type="Slur">
               <Slur>
                 <linkedMain/>
+                <up>down</up>
                 </Slur>
               <next>
                 <location>
@@ -34794,6 +34809,7 @@
             <Spanner type="Slur">
               <Slur>
                 <linkedMain/>
+                <up>down</up>
                 </Slur>
               <next>
                 <location>
@@ -34866,6 +34882,7 @@
             <Spanner type="Slur">
               <Slur>
                 <linkedMain/>
+                <up>down</up>
                 </Slur>
               <next>
                 <location>
@@ -34938,6 +34955,7 @@
             <Spanner type="Slur">
               <Slur>
                 <linkedMain/>
+                <up>down</up>
                 </Slur>
               <next>
                 <location>
@@ -46538,6 +46556,9 @@
               <tpc>18</tpc>
               </Note>
             </Chord>
+          <Beam>
+            <StemDirection>up</StemDirection>
+            </Beam>
           <Chord>
             <linkedMain/>
             <durationType>eighth</durationType>
@@ -46648,6 +46669,9 @@
               <tpc>18</tpc>
               </Note>
             </Chord>
+          <Beam>
+            <StemDirection>up</StemDirection>
+            </Beam>
           <Chord>
             <linkedMain/>
             <durationType>eighth</durationType>
@@ -61049,6 +61073,17 @@
           <Chord>
             <linkedMain/>
             <durationType>eighth</durationType>
+            <Spanner type="Slur">
+              <Slur>
+                <linkedMain/>
+                </Slur>
+              <next>
+                <location>
+                  <measures>2</measures>
+                  <fractions>3/8</fractions>
+                  </location>
+                </next>
+              </Spanner>
             <Note>
               <linkedMain/>
               <Accidental>
@@ -61139,6 +61174,16 @@
           <Chord>
             <linkedMain/>
             <durationType>whole</durationType>
+            <Spanner type="Slur">
+              <Slur>
+                <linkedMain/>
+                </Slur>
+              <next>
+                <location>
+                  <measures>2</measures>
+                  </location>
+                </next>
+              </Spanner>
             <Note>
               <linkedMain/>
               <Spanner type="Tie">
@@ -61301,6 +61346,14 @@
           <Chord>
             <linkedMain/>
             <durationType>eighth</durationType>
+            <Spanner type="Slur">
+              <prev>
+                <location>
+                  <measures>-2</measures>
+                  <fractions>-3/8</fractions>
+                  </location>
+                </prev>
+              </Spanner>
             <Note>
               <linkedMain/>
               <pitch>81</pitch>
@@ -61332,6 +61385,13 @@
           <Chord>
             <linkedMain/>
             <durationType>half</durationType>
+            <Spanner type="Slur">
+              <prev>
+                <location>
+                  <measures>-2</measures>
+                  </location>
+                </prev>
+              </Spanner>
             <Note>
               <linkedMain/>
               <Spanner type="Tie">
@@ -61483,9 +61543,6 @@
             <Spanner type="Slur">
               <Slur>
                 <linkedMain/>
-                <SlurSegment no="0">
-                  <o4 x="0" y="-0.3"/>
-                  </SlurSegment>
                 </Slur>
               <next>
                 <location>
@@ -62924,6 +62981,7 @@
             <Spanner type="Slur">
               <Slur>
                 <linkedMain/>
+                <up>down</up>
                 </Slur>
               <next>
                 <location>
@@ -71766,6 +71824,7 @@
             <Spanner type="Slur">
               <Slur>
                 <linkedMain/>
+                <up>down</up>
                 </Slur>
               <next>
                 <location>
@@ -71990,6 +72049,7 @@
             <Spanner type="Slur">
               <Slur>
                 <linkedMain/>
+                <up>down</up>
                 </Slur>
               <next>
                 <location>
@@ -72101,6 +72161,7 @@
             <Spanner type="Slur">
               <Slur>
                 <linkedMain/>
+                <up>down</up>
                 </Slur>
               <next>
                 <location>
@@ -76891,6 +76952,7 @@
             <Spanner type="Slur">
               <Slur>
                 <linkedMain/>
+                <up>down</up>
                 </Slur>
               <next>
                 <location>
@@ -78708,6 +78770,7 @@
             <Spanner type="Slur">
               <Slur>
                 <linkedMain/>
+                <up>down</up>
                 </Slur>
               <next>
                 <location>
@@ -80957,6 +81020,7 @@
             <Spanner type="Slur">
               <Slur>
                 <linkedMain/>
+                <up>down</up>
                 </Slur>
               <next>
                 <location>
@@ -80966,9 +81030,10 @@
                 </next>
               </Spanner>
             <Articulation>
-              <subtype>articAccentAbove</subtype>
+              <subtype>articAccentBelow</subtype>
               <linkedMain/>
               </Articulation>
+            <StemDirection>up</StemDirection>
             <Note>
               <linkedMain/>
               <Spanner type="Tie">
@@ -81026,6 +81091,7 @@
             <linkedMain/>
             <dots>1</dots>
             <durationType>quarter</durationType>
+            <StemDirection>up</StemDirection>
             <Note>
               <linkedMain/>
               <Spanner type="Tie">
@@ -88354,6 +88420,7 @@
             <Spanner type="Slur">
               <Slur>
                 <linkedMain/>
+                <up>down</up>
                 </Slur>
               <next>
                 <location>
@@ -88459,6 +88526,7 @@
             <Spanner type="Slur">
               <Slur>
                 <linkedMain/>
+                <up>down</up>
                 </Slur>
               <next>
                 <location>
@@ -88560,6 +88628,7 @@
             <Spanner type="Slur">
               <Slur>
                 <linkedMain/>
+                <up>down</up>
                 </Slur>
               <next>
                 <location>
@@ -88706,6 +88775,7 @@
             <Spanner type="Slur">
               <Slur>
                 <linkedMain/>
+                <up>down</up>
                 </Slur>
               <next>
                 <location>
@@ -88812,6 +88882,7 @@
             <Spanner type="Slur">
               <Slur>
                 <linkedMain/>
+                <up>down</up>
                 </Slur>
               <next>
                 <location>
@@ -88918,6 +88989,7 @@
             <Spanner type="Slur">
               <Slur>
                 <linkedMain/>
+                <up>down</up>
                 </Slur>
               <next>
                 <location>
@@ -89375,6 +89447,7 @@
             <Spanner type="Slur">
               <Slur>
                 <linkedMain/>
+                <up>down</up>
                 </Slur>
               <next>
                 <location>
@@ -89444,6 +89517,7 @@
             <Spanner type="Slur">
               <Slur>
                 <linkedMain/>
+                <up>down</up>
                 </Slur>
               <next>
                 <location>
@@ -89526,6 +89600,7 @@
             <Spanner type="Slur">
               <Slur>
                 <linkedMain/>
+                <up>down</up>
                 </Slur>
               <next>
                 <location>
@@ -101871,6 +101946,7 @@
             <Spanner type="Slur">
               <Slur>
                 <linkedMain/>
+                <up>down</up>
                 </Slur>
               <next>
                 <location>
@@ -106582,6 +106658,7 @@
             <Spanner type="Slur">
               <Slur>
                 <linkedMain/>
+                <up>down</up>
                 </Slur>
               <next>
                 <location>
@@ -114992,6 +115069,7 @@
             <Spanner type="Slur">
               <Slur>
                 <linkedMain/>
+                <up>down</up>
                 </Slur>
               <next>
                 <location>
@@ -115183,6 +115261,7 @@
             <Spanner type="Slur">
               <Slur>
                 <linkedMain/>
+                <up>down</up>
                 </Slur>
               <next>
                 <location>
@@ -122515,6 +122594,7 @@
             <Spanner type="Slur">
               <Slur>
                 <linkedMain/>
+                <up>down</up>
                 </Slur>
               <next>
                 <location>
@@ -126543,6 +126623,20 @@
           <Chord>
             <linkedMain/>
             <durationType>eighth</durationType>
+            <Spanner type="Slur">
+              <Slur>
+                <linkedMain/>
+                <SlurSegment no="0">
+                  <o1 x="-0.302381" y="0"/>
+                  </SlurSegment>
+                <up>up</up>
+                </Slur>
+              <next>
+                <location>
+                  <measures>1</measures>
+                  </location>
+                </next>
+              </Spanner>
             <Note>
               <linkedMain/>
               <Accidental>
@@ -126571,16 +126665,6 @@
           <Chord>
             <linkedMain/>
             <durationType>quarter</durationType>
-            <Spanner type="Slur">
-              <Slur>
-                <linkedMain/>
-                </Slur>
-              <next>
-                <location>
-                  <fractions>5/8</fractions>
-                  </location>
-                </next>
-              </Spanner>
             <Note>
               <linkedMain/>
               <pitch>65</pitch>
@@ -126614,7 +126698,7 @@
             <Spanner type="Slur">
               <prev>
                 <location>
-                  <fractions>-5/8</fractions>
+                  <measures>-1</measures>
                   </location>
                 </prev>
               </Spanner>
@@ -126672,6 +126756,7 @@
             <Spanner type="Slur">
               <Slur>
                 <linkedMain/>
+                <up>down</up>
                 </Slur>
               <next>
                 <location>
@@ -129490,6 +129575,7 @@
               <Spanner type="Tie">
                 <Tie>
                   <linkedMain/>
+                  <up>down</up>
                   </Tie>
                 <next>
                   <location>
@@ -130681,6 +130767,7 @@
             <Spanner type="Slur">
               <Slur>
                 <linkedMain/>
+                <up>down</up>
                 </Slur>
               <next>
                 <location>
@@ -130814,6 +130901,7 @@
             <Spanner type="Slur">
               <Slur>
                 <linkedMain/>
+                <up>down</up>
                 </Slur>
               <next>
                 <location>
@@ -132811,6 +132899,7 @@
             <Spanner type="Slur">
               <Slur>
                 <linkedMain/>
+                <up>down</up>
                 </Slur>
               <next>
                 <location>
@@ -136144,6 +136233,11 @@
               <tpc>15</tpc>
               </Note>
             </Chord>
+          <Clef>
+            <concertClefType>G</concertClefType>
+            <transposingClefType>G</transposingClefType>
+            <linkedMain/>
+            </Clef>
           </voice>
         </Measure>
       <Measure>
@@ -136165,6 +136259,7 @@
               <Spanner type="Tie">
                 <Tie>
                   <linkedMain/>
+                  <up>down</up>
                   </Tie>
                 <next>
                   <location>
@@ -136383,7 +136478,7 @@
             <linkedMain/>
             <durationType>eighth</durationType>
             <Articulation>
-              <subtype>articStaccatoAbove</subtype>
+              <subtype>articStaccatoBelow</subtype>
               <linkedMain/>
               </Articulation>
             <Note>
@@ -136396,7 +136491,7 @@
             <linkedMain/>
             <durationType>eighth</durationType>
             <Articulation>
-              <subtype>articStaccatoAbove</subtype>
+              <subtype>articStaccatoBelow</subtype>
               <linkedMain/>
               </Articulation>
             <Note>
@@ -136409,7 +136504,7 @@
             <linkedMain/>
             <durationType>eighth</durationType>
             <Articulation>
-              <subtype>articStaccatoAbove</subtype>
+              <subtype>articStaccatoBelow</subtype>
               <linkedMain/>
               </Articulation>
             <Note>
@@ -136477,7 +136572,7 @@
             <linkedMain/>
             <durationType>eighth</durationType>
             <Articulation>
-              <subtype>articStaccatoAbove</subtype>
+              <subtype>articStaccatoBelow</subtype>
               <linkedMain/>
               </Articulation>
             <Note>
@@ -136493,7 +136588,7 @@
             <linkedMain/>
             <durationType>eighth</durationType>
             <Articulation>
-              <subtype>articStaccatoAbove</subtype>
+              <subtype>articStaccatoBelow</subtype>
               <linkedMain/>
               </Articulation>
             <Note>
@@ -136506,7 +136601,7 @@
             <linkedMain/>
             <durationType>eighth</durationType>
             <Articulation>
-              <subtype>articStaccatoAbove</subtype>
+              <subtype>articStaccatoBelow</subtype>
               <linkedMain/>
               </Articulation>
             <Note>
@@ -136562,6 +136657,11 @@
             <linkedMain/>
             <durationType>eighth</durationType>
             </Rest>
+          <Clef>
+            <concertClefType>C3</concertClefType>
+            <transposingClefType>C3</transposingClefType>
+            <linkedMain/>
+            </Clef>
           <BarLine>
             <linkedMain/>
             </BarLine>
@@ -143245,6 +143345,7 @@
             <Spanner type="Slur">
               <Slur>
                 <linkedMain/>
+                <up>down</up>
                 </Slur>
               <next>
                 <location>
@@ -143378,6 +143479,7 @@
             <Spanner type="Slur">
               <Slur>
                 <linkedMain/>
+                <up>down</up>
                 </Slur>
               <next>
                 <location>
@@ -143554,6 +143656,7 @@
                 <SlurSegment no="0">
                   <o1 x="0" y="-2"/>
                   </SlurSegment>
+                <up>down</up>
                 </Slur>
               <next>
                 <location>
@@ -149582,6 +149685,9 @@
         </Measure>
       <Measure>
         <voice>
+          <Beam>
+            <StemDirection>up</StemDirection>
+            </Beam>
           <Chord>
             <linkedMain/>
             <durationType>eighth</durationType>
@@ -150992,6 +151098,7 @@
             <Spanner type="Slur">
               <Slur>
                 <linkedMain/>
+                <up>down</up>
                 </Slur>
               <next>
                 <location>
@@ -151135,6 +151242,7 @@
             <Spanner type="Slur">
               <Slur>
                 <linkedMain/>
+                <up>down</up>
                 </Slur>
               <next>
                 <location>
@@ -151204,6 +151312,7 @@
             <Spanner type="Slur">
               <Slur>
                 <linkedMain/>
+                <up>down</up>
                 </Slur>
               <next>
                 <location>
@@ -151273,6 +151382,7 @@
             <Spanner type="Slur">
               <Slur>
                 <linkedMain/>
+                <up>down</up>
                 </Slur>
               <next>
                 <location>
@@ -151713,6 +151823,7 @@
             <Spanner type="Slur">
               <Slur>
                 <linkedMain/>
+                <up>down</up>
                 </Slur>
               <next>
                 <location>
@@ -151776,6 +151887,7 @@
             <Spanner type="Slur">
               <Slur>
                 <linkedMain/>
+                <up>down</up>
                 </Slur>
               <next>
                 <location>
@@ -151864,6 +151976,7 @@
             <Spanner type="Slur">
               <Slur>
                 <linkedMain/>
+                <up>down</up>
                 </Slur>
               <next>
                 <location>
@@ -152874,6 +152987,9 @@
         </Measure>
       <Measure>
         <voice>
+          <Beam>
+            <StemDirection>up</StemDirection>
+            </Beam>
           <Chord>
             <linkedMain/>
             <durationType>eighth</durationType>
@@ -156525,6 +156641,9 @@
         </Measure>
       <Measure>
         <voice>
+          <Beam>
+            <StemDirection>up</StemDirection>
+            </Beam>
           <Chord>
             <linkedMain/>
             <durationType>eighth</durationType>
@@ -161183,6 +161302,7 @@
             <Spanner type="Slur">
               <Slur>
                 <linkedMain/>
+                <up>down</up>
                 </Slur>
               <next>
                 <location>
@@ -162688,6 +162808,11 @@
               <tpc>12</tpc>
               </Note>
             </Chord>
+          <Clef>
+            <concertClefType>G</concertClefType>
+            <transposingClefType>G</transposingClefType>
+            <linkedMain/>
+            </Clef>
           <Chord>
             <linkedMain/>
             <durationType>16th</durationType>
@@ -162852,6 +162977,11 @@
               <tpc>10</tpc>
               </Note>
             </Chord>
+          <Clef>
+            <concertClefType>C3</concertClefType>
+            <transposingClefType>C3</transposingClefType>
+            <linkedMain/>
+            </Clef>
           <Chord>
             <linkedMain/>
             <durationType>16th</durationType>
@@ -162947,6 +163077,11 @@
               <tpc>10</tpc>
               </Note>
             </Chord>
+          <Clef>
+            <concertClefType>G</concertClefType>
+            <transposingClefType>G</transposingClefType>
+            <linkedMain/>
+            </Clef>
           <Chord>
             <linkedMain/>
             <durationType>16th</durationType>
@@ -163090,6 +163225,11 @@
               <tpc>9</tpc>
               </Note>
             </Chord>
+          <Clef>
+            <concertClefType>C3</concertClefType>
+            <transposingClefType>C3</transposingClefType>
+            <linkedMain/>
+            </Clef>
           </voice>
         </Measure>
       <Measure>
@@ -166369,6 +166509,11 @@
             <linkedMain/>
             <durationType>16th</durationType>
             </Rest>
+          <Clef>
+            <concertClefType>G</concertClefType>
+            <transposingClefType>G</transposingClefType>
+            <linkedMain/>
+            </Clef>
           <Chord>
             <linkedMain/>
             <durationType>16th</durationType>
@@ -166553,6 +166698,11 @@
             <linkedMain/>
             <durationType>16th</durationType>
             </Rest>
+          <Clef>
+            <concertClefType>C3</concertClefType>
+            <transposingClefType>C3</transposingClefType>
+            <linkedMain/>
+            </Clef>
           <Chord>
             <linkedMain/>
             <durationType>16th</durationType>
@@ -166658,6 +166808,7 @@
               <Spanner type="Tie">
                 <Tie>
                   <linkedMain/>
+                  <up>down</up>
                   </Tie>
                 <next>
                   <location>
@@ -169452,6 +169603,11 @@
             <durationType>measure</durationType>
             <duration>2/2</duration>
             </Rest>
+          <Clef>
+            <concertClefType>G</concertClefType>
+            <transposingClefType>G</transposingClefType>
+            <linkedMain/>
+            </Clef>
           </voice>
         </Measure>
       <Measure>
@@ -169724,6 +169880,11 @@
               <tpc>20</tpc>
               </Note>
             </Chord>
+          <Clef>
+            <concertClefType>C3</concertClefType>
+            <transposingClefType>C3</transposingClefType>
+            <linkedMain/>
+            </Clef>
           </voice>
         </Measure>
       <Measure>
@@ -176567,6 +176728,7 @@
             <Spanner type="Slur">
               <Slur>
                 <linkedMain/>
+                <up>up</up>
                 </Slur>
               <next>
                 <location>
@@ -182743,6 +182905,11 @@
               <tpc>13</tpc>
               </Note>
             </Chord>
+          <Clef>
+            <concertClefType>G</concertClefType>
+            <transposingClefType>G</transposingClefType>
+            <linkedMain/>
+            </Clef>
           <BarLine>
             <subtype>double</subtype>
             <linkedMain/>
@@ -183036,6 +183203,11 @@
               <tpc>23</tpc>
               </Note>
             </Chord>
+          <Clef>
+            <concertClefType>C3</concertClefType>
+            <transposingClefType>C3</transposingClefType>
+            <linkedMain/>
+            </Clef>
           </voice>
         </Measure>
       <Measure>
@@ -185341,6 +185513,7 @@
             <Spanner type="Slur">
               <Slur>
                 <linkedMain/>
+                <up>down</up>
                 </Slur>
               <next>
                 <location>
@@ -185389,6 +185562,7 @@
             <Spanner type="Slur">
               <Slur>
                 <linkedMain/>
+                <up>down</up>
                 </Slur>
               <next>
                 <location>
@@ -185411,6 +185585,9 @@
               <tpc>19</tpc>
               </Note>
             </Chord>
+          <Beam>
+            <StemDirection>up</StemDirection>
+            </Beam>
           <Chord>
             <linkedMain/>
             <durationType>eighth</durationType>
@@ -191562,17 +191739,6 @@
             <linkedMain/>
             <dots>1</dots>
             <durationType>quarter</durationType>
-            <Spanner type="Slur">
-              <Slur>
-                <linkedMain/>
-                </Slur>
-              <next>
-                <location>
-                  <measures>2</measures>
-                  <fractions>-3/8</fractions>
-                  </location>
-                </next>
-              </Spanner>
             <Articulation>
               <subtype>articAccentAbove</subtype>
               <anchor>3</anchor>
@@ -191661,14 +191827,6 @@
             <linkedMain/>
             <dots>1</dots>
             <durationType>quarter</durationType>
-            <Spanner type="Slur">
-              <prev>
-                <location>
-                  <measures>-2</measures>
-                  <fractions>3/8</fractions>
-                  </location>
-                </prev>
-              </Spanner>
             <Note>
               <linkedMain/>
               <Spanner type="Tie">
@@ -191698,6 +191856,7 @@
             <Spanner type="Slur">
               <Slur>
                 <linkedMain/>
+                <up>down</up>
                 </Slur>
               <next>
                 <location>
@@ -192293,7 +192452,7 @@
                 </Slur>
               <next>
                 <location>
-                  <measures>3</measures>
+                  <measures>2</measures>
                   <fractions>3/8</fractions>
                   </location>
                 </next>
@@ -192434,6 +192593,24 @@
             <linkedMain/>
             <dots>1</dots>
             <durationType>quarter</durationType>
+            <Spanner type="Slur">
+              <prev>
+                <location>
+                  <measures>-2</measures>
+                  <fractions>-3/8</fractions>
+                  </location>
+                </prev>
+              </Spanner>
+            <Spanner type="Slur">
+              <Slur>
+                <linkedMain/>
+                </Slur>
+              <next>
+                <location>
+                  <measures>1</measures>
+                  </location>
+                </next>
+              </Spanner>
             <Note>
               <linkedMain/>
               <Spanner type="Tie">
@@ -192490,8 +192667,7 @@
             <Spanner type="Slur">
               <prev>
                 <location>
-                  <measures>-3</measures>
-                  <fractions>-3/8</fractions>
+                  <measures>-1</measures>
                   </location>
                 </prev>
               </Spanner>
@@ -194133,8 +194309,8 @@
               </Note>
             </Chord>
           <Clef>
-            <concertClefType>C4</concertClefType>
-            <transposingClefType>C4</transposingClefType>
+            <concertClefType>G8vb</concertClefType>
+            <transposingClefType>G8vb</transposingClefType>
             <linkedMain/>
             </Clef>
           <BarLine>
@@ -194558,8 +194734,8 @@
               </Note>
             </Chord>
           <Clef>
-            <concertClefType>C4</concertClefType>
-            <transposingClefType>C4</transposingClefType>
+            <concertClefType>G8vb</concertClefType>
+            <transposingClefType>G8vb</transposingClefType>
             <linkedMain/>
             </Clef>
           </voice>
@@ -197968,6 +198144,7 @@
               <Spanner type="Tie">
                 <Tie>
                   <linkedMain/>
+                  <up>down</up>
                   </Tie>
                 <next>
                   <location>
@@ -198506,6 +198683,7 @@
             <Spanner type="Slur">
               <Slur>
                 <linkedMain/>
+                <up>down</up>
                 </Slur>
               <next>
                 <location>
@@ -198530,7 +198708,7 @@
                   </location>
                 </prev>
               </Spanner>
-            <StemDirection>up</StemDirection>
+            <StemDirection>down</StemDirection>
             <Note>
               <linkedMain/>
               <pitch>50</pitch>
@@ -198756,7 +198934,7 @@
                   </location>
                 </next>
               </Spanner>
-            <StemDirection>up</StemDirection>
+            <StemDirection>down</StemDirection>
             <Note>
               <linkedMain/>
               <pitch>50</pitch>
@@ -204919,7 +205097,7 @@
                   </location>
                 </next>
               </Spanner>
-            <StemDirection>up</StemDirection>
+            <StemDirection>down</StemDirection>
             <Note>
               <linkedMain/>
               <pitch>55</pitch>
@@ -204937,7 +205115,7 @@
                   </location>
                 </prev>
               </Spanner>
-            <StemDirection>down</StemDirection>
+            <StemDirection>up</StemDirection>
             <Note>
               <linkedMain/>
               <pitch>48</pitch>
@@ -207773,6 +207951,7 @@
             <Spanner type="Slur">
               <Slur>
                 <linkedMain/>
+                <up>down</up>
                 </Slur>
               <next>
                 <location>
@@ -208227,6 +208406,7 @@
             <Spanner type="Slur">
               <Slur>
                 <linkedMain/>
+                <up>down</up>
                 </Slur>
               <next>
                 <location>
@@ -208290,6 +208470,7 @@
             <Spanner type="Slur">
               <Slur>
                 <linkedMain/>
+                <up>down</up>
                 </Slur>
               <next>
                 <location>
@@ -214026,6 +214207,7 @@
             <Spanner type="Slur">
               <Slur>
                 <linkedMain/>
+                <up>down</up>
                 </Slur>
               <next>
                 <location>
@@ -214345,6 +214527,11 @@
             <linkedMain/>
             <durationType>quarter</durationType>
             </Rest>
+          <Clef>
+            <concertClefType>G8vb</concertClefType>
+            <transposingClefType>G8vb</transposingClefType>
+            <linkedMain/>
+            </Clef>
           </voice>
         </Measure>
       <Measure>
@@ -216473,6 +216660,7 @@
             <Spanner type="Slur">
               <Slur>
                 <linkedMain/>
+                <up>down</up>
                 </Slur>
               <next>
                 <location>
@@ -216485,7 +216673,7 @@
               <anchor>3</anchor>
               <linkedMain/>
               </Articulation>
-            <StemDirection>up</StemDirection>
+            <StemDirection>down</StemDirection>
             <Note>
               <linkedMain/>
               <pitch>50</pitch>
@@ -216530,6 +216718,7 @@
               <Spanner type="Tie">
                 <Tie>
                   <linkedMain/>
+                  <up>down</up>
                   </Tie>
                 <next>
                   <location>
@@ -219198,8 +219387,8 @@
               </Note>
             </Chord>
           <Clef>
-            <concertClefType>C4</concertClefType>
-            <transposingClefType>C4</transposingClefType>
+            <concertClefType>G8vb</concertClefType>
+            <transposingClefType>G8vb</transposingClefType>
             <linkedMain/>
             </Clef>
           </voice>
@@ -219310,8 +219499,8 @@
               </Note>
             </Chord>
           <Clef>
-            <concertClefType>C4</concertClefType>
-            <transposingClefType>C4</transposingClefType>
+            <concertClefType>G8vb</concertClefType>
+            <transposingClefType>G8vb</transposingClefType>
             <linkedMain/>
             </Clef>
           </voice>
@@ -224390,8 +224579,8 @@
               </Note>
             </Chord>
           <Clef>
-            <concertClefType>C4</concertClefType>
-            <transposingClefType>C4</transposingClefType>
+            <concertClefType>G8vb</concertClefType>
+            <transposingClefType>G8vb</transposingClefType>
             <linkedMain/>
             </Clef>
           </voice>
@@ -224509,6 +224698,11 @@
               <tpc>11</tpc>
               </Note>
             </Chord>
+          <Clef>
+            <concertClefType>G8vb</concertClefType>
+            <transposingClefType>G8vb</transposingClefType>
+            <linkedMain/>
+            </Clef>
           </voice>
         </Measure>
       <Measure>
@@ -228858,6 +229052,7 @@
             <Spanner type="Slur">
               <Slur>
                 <linkedMain/>
+                <up>down</up>
                 </Slur>
               <next>
                 <location>
@@ -228959,6 +229154,7 @@
             <Spanner type="Slur">
               <Slur>
                 <linkedMain/>
+                <up>down</up>
                 </Slur>
               <next>
                 <location>
@@ -229060,6 +229256,7 @@
             <Spanner type="Slur">
               <Slur>
                 <linkedMain/>
+                <up>down</up>
                 </Slur>
               <next>
                 <location>
@@ -229161,6 +229358,7 @@
             <Spanner type="Slur">
               <Slur>
                 <linkedMain/>
+                <up>down</up>
                 </Slur>
               <next>
                 <location>
@@ -250515,6 +250713,13 @@
         <Measure>
           <voice>
             <Spanner type="HairPin">
+              <prev>
+                <location>
+                  <measures>-1</measures>
+                  </location>
+                </prev>
+              </Spanner>
+            <Spanner type="HairPin">
               <HairPin>
                 <subtype>1</subtype>
                 <veloChange>20</veloChange>
@@ -250526,13 +250731,6 @@
                   <measures>1</measures>
                   </location>
                 </next>
-              </Spanner>
-            <Spanner type="HairPin">
-              <prev>
-                <location>
-                  <measures>-1</measures>
-                  </location>
-                </prev>
               </Spanner>
             <Chord>
               <linked>
@@ -250593,13 +250791,6 @@
         <Measure>
           <voice>
             <Spanner type="HairPin">
-              <prev>
-                <location>
-                  <measures>-1</measures>
-                  </location>
-                </prev>
-              </Spanner>
-            <Spanner type="HairPin">
               <HairPin>
                 <subtype>0</subtype>
                 <veloChange>20</veloChange>
@@ -250611,6 +250802,13 @@
                   <measures>1</measures>
                   </location>
                 </next>
+              </Spanner>
+            <Spanner type="HairPin">
+              <prev>
+                <location>
+                  <measures>-1</measures>
+                  </location>
+                </prev>
               </Spanner>
             <Chord>
               <linked>
@@ -299966,6 +300164,18 @@
               <linked>
                 </linked>
               <durationType>eighth</durationType>
+              <Spanner type="Slur">
+                <Slur>
+                  <linked>
+                    </linked>
+                  </Slur>
+                <next>
+                  <location>
+                    <measures>2</measures>
+                    <fractions>3/8</fractions>
+                    </location>
+                  </next>
+                </Spanner>
               <Note>
                 <linked>
                   </linked>
@@ -300073,6 +300283,17 @@
               <linked>
                 </linked>
               <durationType>whole</durationType>
+              <Spanner type="Slur">
+                <Slur>
+                  <linked>
+                    </linked>
+                  </Slur>
+                <next>
+                  <location>
+                    <measures>2</measures>
+                    </location>
+                  </next>
+                </Spanner>
               <Note>
                 <linked>
                   </linked>
@@ -300263,6 +300484,14 @@
               <linked>
                 </linked>
               <durationType>eighth</durationType>
+              <Spanner type="Slur">
+                <prev>
+                  <location>
+                    <measures>-2</measures>
+                    <fractions>-3/8</fractions>
+                    </location>
+                  </prev>
+                </Spanner>
               <Note>
                 <linked>
                   </linked>
@@ -300299,6 +300528,13 @@
               <linked>
                 </linked>
               <durationType>half</durationType>
+              <Spanner type="Slur">
+                <prev>
+                  <location>
+                    <measures>-2</measures>
+                    </location>
+                  </prev>
+                </Spanner>
               <Note>
                 <linked>
                   </linked>
@@ -377225,6 +377461,17 @@
               <linked>
                 </linked>
               <durationType>eighth</durationType>
+              <Spanner type="Slur">
+                <Slur>
+                  <linked>
+                    </linked>
+                  </Slur>
+                <next>
+                  <location>
+                    <measures>1</measures>
+                    </location>
+                  </next>
+                </Spanner>
               <Note>
                 <linked>
                   </linked>
@@ -377256,17 +377503,6 @@
               <linked>
                 </linked>
               <durationType>quarter</durationType>
-              <Spanner type="Slur">
-                <Slur>
-                  <linked>
-                    </linked>
-                  </Slur>
-                <next>
-                  <location>
-                    <fractions>5/8</fractions>
-                    </location>
-                  </next>
-                </Spanner>
               <Note>
                 <linked>
                   </linked>
@@ -377306,7 +377542,7 @@
               <Spanner type="Slur">
                 <prev>
                   <location>
-                    <fractions>-5/8</fractions>
+                    <measures>-1</measures>
                     </location>
                   </prev>
                 </Spanner>
@@ -388262,6 +388498,12 @@
                 <tpc>15</tpc>
                 </Note>
               </Chord>
+            <Clef>
+              <concertClefType>G</concertClefType>
+              <transposingClefType>G</transposingClefType>
+              <linked>
+                </linked>
+              </Clef>
             </voice>
           </Measure>
         <Measure>
@@ -388280,15 +388522,18 @@
               <subtype>sf</subtype>
               <velocity>112</velocity>
               <linked>
+                <indexDiff>1</indexDiff>
                 </linked>
               </Dynamic>
             <Chord>
               <linked>
+                <indexDiff>1</indexDiff>
                 </linked>
               <dots>1</dots>
               <durationType>quarter</durationType>
               <Note>
                 <linked>
+                  <indexDiff>1</indexDiff>
                   </linked>
                 <Accidental>
                   <subtype>accidentalFlat</subtype>
@@ -388296,6 +388541,7 @@
                 <Spanner type="Tie">
                   <Tie>
                     <linked>
+                      <indexDiff>1</indexDiff>
                       </linked>
                     </Tie>
                   <next>
@@ -388550,7 +388796,7 @@
                 </linked>
               <durationType>eighth</durationType>
               <Articulation>
-                <subtype>articStaccatoAbove</subtype>
+                <subtype>articStaccatoBelow</subtype>
                 <linked>
                   </linked>
                 </Articulation>
@@ -388566,7 +388812,7 @@
                 </linked>
               <durationType>eighth</durationType>
               <Articulation>
-                <subtype>articStaccatoAbove</subtype>
+                <subtype>articStaccatoBelow</subtype>
                 <linked>
                   </linked>
                 </Articulation>
@@ -388582,7 +388828,7 @@
                 </linked>
               <durationType>eighth</durationType>
               <Articulation>
-                <subtype>articStaccatoAbove</subtype>
+                <subtype>articStaccatoBelow</subtype>
                 <linked>
                   </linked>
                 </Articulation>
@@ -388663,7 +388909,7 @@
                 </linked>
               <durationType>eighth</durationType>
               <Articulation>
-                <subtype>articStaccatoAbove</subtype>
+                <subtype>articStaccatoBelow</subtype>
                 <linked>
                   </linked>
                 </Articulation>
@@ -388682,7 +388928,7 @@
                 </linked>
               <durationType>eighth</durationType>
               <Articulation>
-                <subtype>articStaccatoAbove</subtype>
+                <subtype>articStaccatoBelow</subtype>
                 <linked>
                   </linked>
                 </Articulation>
@@ -388698,7 +388944,7 @@
                 </linked>
               <durationType>eighth</durationType>
               <Articulation>
-                <subtype>articStaccatoAbove</subtype>
+                <subtype>articStaccatoBelow</subtype>
                 <linked>
                   </linked>
                 </Articulation>
@@ -388766,6 +389012,12 @@
                 </linked>
               <durationType>eighth</durationType>
               </Rest>
+            <Clef>
+              <concertClefType>C3</concertClefType>
+              <transposingClefType>C3</transposingClefType>
+              <linked>
+                </linked>
+              </Clef>
             <BarLine>
               <linked>
                 </linked>
@@ -419328,6 +419580,12 @@
                 <tpc>12</tpc>
                 </Note>
               </Chord>
+            <Clef>
+              <concertClefType>G</concertClefType>
+              <transposingClefType>G</transposingClefType>
+              <linked>
+                </linked>
+              </Clef>
             <Chord>
               <linked>
                 </linked>
@@ -419518,6 +419776,12 @@
                 <tpc>10</tpc>
                 </Note>
               </Chord>
+            <Clef>
+              <concertClefType>C3</concertClefType>
+              <transposingClefType>C3</transposingClefType>
+              <linked>
+                </linked>
+              </Clef>
             <Chord>
               <linked>
                 </linked>
@@ -419628,6 +419892,12 @@
                 <tpc>10</tpc>
                 </Note>
               </Chord>
+            <Clef>
+              <concertClefType>G</concertClefType>
+              <transposingClefType>G</transposingClefType>
+              <linked>
+                </linked>
+              </Clef>
             <Chord>
               <linked>
                 </linked>
@@ -419795,6 +420065,12 @@
                 <tpc>9</tpc>
                 </Note>
               </Chord>
+            <Clef>
+              <concertClefType>C3</concertClefType>
+              <transposingClefType>C3</transposingClefType>
+              <linked>
+                </linked>
+              </Clef>
             </voice>
           </Measure>
         <Measure>
@@ -423566,6 +423842,12 @@
                 </linked>
               <durationType>16th</durationType>
               </Rest>
+            <Clef>
+              <concertClefType>G</concertClefType>
+              <transposingClefType>G</transposingClefType>
+              <linked>
+                </linked>
+              </Clef>
             <Chord>
               <linked>
                 </linked>
@@ -423787,6 +424069,12 @@
                 </linked>
               <durationType>16th</durationType>
               </Rest>
+            <Clef>
+              <concertClefType>C3</concertClefType>
+              <transposingClefType>C3</transposingClefType>
+              <linked>
+                </linked>
+              </Clef>
             <Chord>
               <linked>
                 </linked>
@@ -427353,6 +427641,12 @@
               <durationType>measure</durationType>
               <duration>2/2</duration>
               </Rest>
+            <Clef>
+              <concertClefType>G</concertClefType>
+              <transposingClefType>G</transposingClefType>
+              <linked>
+                </linked>
+              </Clef>
             </voice>
           </Measure>
         <Measure>
@@ -427677,6 +427971,12 @@
                 <tpc>20</tpc>
                 </Note>
               </Chord>
+            <Clef>
+              <concertClefType>C3</concertClefType>
+              <transposingClefType>C3</transposingClefType>
+              <linked>
+                </linked>
+              </Clef>
             </voice>
           </Measure>
         <Measure>
@@ -443245,6 +443545,12 @@
                 <tpc>13</tpc>
                 </Note>
               </Chord>
+            <Clef>
+              <concertClefType>G</concertClefType>
+              <transposingClefType>G</transposingClefType>
+              <linked>
+                </linked>
+              </Clef>
             <BarLine>
               <subtype>double</subtype>
               <linked>
@@ -443268,7 +443574,7 @@
               <subtype>other-dynamics</subtype>
               <velocity>49</velocity>
               <linked>
-                <indexDiff>1</indexDiff>
+                <indexDiff>2</indexDiff>
                 </linked>
               <text><i></i><font face="ScoreText"></font><i><font face="Edwin"></font> molto animato</i></text>
               </Dynamic>
@@ -443281,12 +443587,12 @@
               </Spanner>
             <Chord>
               <linked>
-                <indexDiff>1</indexDiff>
+                <indexDiff>2</indexDiff>
                 </linked>
               <durationType>quarter</durationType>
               <Note>
                 <linked>
-                  <indexDiff>1</indexDiff>
+                  <indexDiff>2</indexDiff>
                   </linked>
                 <pitch>71</pitch>
                 <tpc>19</tpc>
@@ -443602,6 +443908,12 @@
                 <tpc>23</tpc>
                 </Note>
               </Chord>
+            <Clef>
+              <concertClefType>C3</concertClefType>
+              <transposingClefType>C3</transposingClefType>
+              <linked>
+                </linked>
+              </Clef>
             </voice>
           </Measure>
         <Measure>
@@ -453796,18 +454108,6 @@
                 </linked>
               <dots>1</dots>
               <durationType>quarter</durationType>
-              <Spanner type="Slur">
-                <Slur>
-                  <linked>
-                    </linked>
-                  </Slur>
-                <next>
-                  <location>
-                    <measures>2</measures>
-                    <fractions>-3/8</fractions>
-                    </location>
-                  </next>
-                </Spanner>
               <Articulation>
                 <subtype>articAccentAbove</subtype>
                 <anchor>3</anchor>
@@ -453908,14 +454208,6 @@
                 </linked>
               <dots>1</dots>
               <durationType>quarter</durationType>
-              <Spanner type="Slur">
-                <prev>
-                  <location>
-                    <measures>-2</measures>
-                    <fractions>3/8</fractions>
-                    </location>
-                  </prev>
-                </Spanner>
               <Note>
                 <linked>
                   </linked>
@@ -454681,7 +454973,7 @@
                   </Slur>
                 <next>
                   <location>
-                    <measures>3</measures>
+                    <measures>2</measures>
                     <fractions>3/8</fractions>
                     </location>
                   </next>
@@ -454846,6 +455138,25 @@
                 </linked>
               <dots>1</dots>
               <durationType>quarter</durationType>
+              <Spanner type="Slur">
+                <prev>
+                  <location>
+                    <measures>-2</measures>
+                    <fractions>-3/8</fractions>
+                    </location>
+                  </prev>
+                </Spanner>
+              <Spanner type="Slur">
+                <Slur>
+                  <linked>
+                    </linked>
+                  </Slur>
+                <next>
+                  <location>
+                    <measures>1</measures>
+                    </location>
+                  </next>
+                </Spanner>
               <Note>
                 <linked>
                   </linked>
@@ -454908,8 +455219,7 @@
               <Spanner type="Slur">
                 <prev>
                   <location>
-                    <measures>-3</measures>
-                    <fractions>-3/8</fractions>
+                    <measures>-1</measures>
                     </location>
                   </prev>
                 </Spanner>
@@ -456781,8 +457091,8 @@
                 </Note>
               </Chord>
             <Clef>
-              <concertClefType>C4</concertClefType>
-              <transposingClefType>C4</transposingClefType>
+              <concertClefType>G8vb</concertClefType>
+              <transposingClefType>G8vb</transposingClefType>
               <linked>
                 </linked>
               </Clef>
@@ -457267,8 +457577,8 @@
                 </Note>
               </Chord>
             <Clef>
-              <concertClefType>C4</concertClefType>
-              <transposingClefType>C4</transposingClefType>
+              <concertClefType>G8vb</concertClefType>
+              <transposingClefType>G8vb</transposingClefType>
               <linked>
                 </linked>
               </Clef>
@@ -480638,6 +480948,12 @@
                 </linked>
               <durationType>quarter</durationType>
               </Rest>
+            <Clef>
+              <concertClefType>G8vb</concertClefType>
+              <transposingClefType>G8vb</transposingClefType>
+              <linked>
+                </linked>
+              </Clef>
             </voice>
           </Measure>
         <Measure>
@@ -486400,8 +486716,8 @@
                 </Note>
               </Chord>
             <Clef>
-              <concertClefType>C4</concertClefType>
-              <transposingClefType>C4</transposingClefType>
+              <concertClefType>G8vb</concertClefType>
+              <transposingClefType>G8vb</transposingClefType>
               <linked>
                 </linked>
               </Clef>
@@ -486534,8 +486850,8 @@
                 </Note>
               </Chord>
             <Clef>
-              <concertClefType>C4</concertClefType>
-              <transposingClefType>C4</transposingClefType>
+              <concertClefType>G8vb</concertClefType>
+              <transposingClefType>G8vb</transposingClefType>
               <linked>
                 </linked>
               </Clef>
@@ -492494,8 +492810,8 @@
                 </Note>
               </Chord>
             <Clef>
-              <concertClefType>C4</concertClefType>
-              <transposingClefType>C4</transposingClefType>
+              <concertClefType>G8vb</concertClefType>
+              <transposingClefType>G8vb</transposingClefType>
               <linked>
                 </linked>
               </Clef>
@@ -492637,6 +492953,12 @@
                 <tpc>11</tpc>
                 </Note>
               </Chord>
+            <Clef>
+              <concertClefType>G8vb</concertClefType>
+              <transposingClefType>G8vb</transposingClefType>
+              <linked>
+                </linked>
+              </Clef>
             </voice>
           </Measure>
         <Measure>

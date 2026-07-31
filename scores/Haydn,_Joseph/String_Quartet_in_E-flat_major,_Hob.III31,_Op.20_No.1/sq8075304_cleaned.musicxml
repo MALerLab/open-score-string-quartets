@@ -10,7 +10,7 @@
     <rights>OpenScore (CC0)</rights>
     <encoding>
       <software>MuseScore 3.6.2</software>
-      <encoding-date>2026-02-19</encoding-date>
+      <encoding-date>2026-04-01</encoding-date>
       <supports element="accidental" type="yes" />
       <supports element="beam" type="yes" />
       <supports element="print" attribute="new-page" type="yes" value="yes" />
@@ -4067,6 +4067,7 @@
         <beam number="2">begin</beam>
         <notations>
           <slur type="start" />
+          <slur type="start" />
         </notations>
       </note>
       <note>
@@ -4112,6 +4113,7 @@
         <beam number="1">end</beam>
         <beam number="2">end</beam>
         <notations>
+          <slur type="stop" />
           <slur type="stop" />
         </notations>
       </note>
@@ -11992,6 +11994,9 @@
         <stem>down</stem>
         <beam number="1">continue</beam>
         <beam number="2">continue</beam>
+        <notations>
+          <slur type="start" />
+        </notations>
       </note>
       <note>
         <pitch>
@@ -12006,6 +12011,7 @@
         <beam number="1">end</beam>
         <beam number="2">end</beam>
         <notations>
+          <slur type="stop" />
           <slur type="stop" />
         </notations>
       </note>
@@ -29879,6 +29885,7 @@
         <beam number="2">begin</beam>
         <notations>
           <slur type="start" />
+          <slur type="start" />
         </notations>
       </note>
       <note>
@@ -29925,6 +29932,7 @@
         <beam number="1">end</beam>
         <beam number="2">end</beam>
         <notations>
+          <slur type="stop" />
           <slur type="stop" />
         </notations>
       </note>
@@ -53818,6 +53826,9 @@
         <stem>down</stem>
         <beam number="1">continue</beam>
         <beam number="2">continue</beam>
+        <notations>
+          <slur type="start" />
+        </notations>
       </note>
       <note>
         <pitch>
@@ -53832,6 +53843,7 @@
         <beam number="1">end</beam>
         <beam number="2">end</beam>
         <notations>
+          <slur type="stop" />
           <slur type="stop" />
         </notations>
       </note>
@@ -55552,7 +55564,7 @@
         <duration>24</duration>
         <voice>1</voice>
         <type>quarter</type>
-        <stem>down</stem>
+        <stem>up</stem>
         <notations>
           <slur type="stop" />
         </notations>
@@ -67328,6 +67340,9 @@
         <stem>up</stem>
         <beam number="1">continue</beam>
         <beam number="2">continue</beam>
+        <notations>
+          <slur type="start" />
+        </notations>
       </note>
       <note>
         <pitch>
@@ -67342,6 +67357,7 @@
         <beam number="1">end</beam>
         <beam number="2">end</beam>
         <notations>
+          <slur type="stop" />
           <slur type="stop" />
         </notations>
       </note>
@@ -67516,6 +67532,9 @@
         <stem>down</stem>
         <beam number="1">continue</beam>
         <beam number="2">continue</beam>
+        <notations>
+          <slur type="start" />
+        </notations>
       </note>
       <note>
         <pitch>
@@ -67530,6 +67549,7 @@
         <beam number="1">end</beam>
         <beam number="2">end</beam>
         <notations>
+          <slur type="stop" />
           <slur type="stop" />
         </notations>
       </note>

@@ -10,7 +10,7 @@
     <rights>OpenScore (CC0)</rights>
     <encoding>
       <software>MuseScore 3.6.2</software>
-      <encoding-date>2026-02-19</encoding-date>
+      <encoding-date>2026-04-01</encoding-date>
       <supports element="accidental" type="yes" />
       <supports element="beam" type="yes" />
       <supports element="print" attribute="new-page" type="yes" value="yes" />
@@ -6973,7 +6973,7 @@
         <duration>24</duration>
         <voice>1</voice>
         <type>quarter</type>
-        <stem>down</stem>
+        <stem>up</stem>
       </note>
       <note>
         <pitch>
@@ -16519,8 +16519,8 @@
         <voice>1</voice>
         <type>32nd</type>
         <stem>down</stem>
-        <beam number="1">continue</beam>
-        <beam number="2">continue</beam>
+        <beam number="1">end</beam>
+        <beam number="2">end</beam>
         <beam number="3">end</beam>
       </note>
       <note>
@@ -16532,8 +16532,8 @@
         <voice>1</voice>
         <type>16th</type>
         <stem>down</stem>
-        <beam number="1">continue</beam>
-        <beam number="2">continue</beam>
+        <beam number="1">begin</beam>
+        <beam number="2">begin</beam>
       </note>
       <note>
         <pitch>
@@ -18109,7 +18109,7 @@
             <left-margin>6.79</left-margin>
             <right-margin>0.00</right-margin>
           </system-margins>
-          <system-distance>171.74</system-distance>
+          <system-distance>171.70</system-distance>
         </system-layout>
       </print>
       <note>
@@ -18426,7 +18426,7 @@
             <left-margin>6.79</left-margin>
             <right-margin>0.00</right-margin>
           </system-margins>
-          <system-distance>171.74</system-distance>
+          <system-distance>171.70</system-distance>
         </system-layout>
       </print>
       <note>
@@ -18905,7 +18905,7 @@
             <left-margin>6.79</left-margin>
             <right-margin>0.00</right-margin>
           </system-margins>
-          <system-distance>171.74</system-distance>
+          <system-distance>171.70</system-distance>
         </system-layout>
       </print>
       <note>
@@ -30645,7 +30645,7 @@
         <duration>6</duration>
         <voice>1</voice>
         <type>16th</type>
-        <stem>up</stem>
+        <stem>down</stem>
         <beam number="1">begin</beam>
         <beam number="2">begin</beam>
         <notations>
@@ -30660,7 +30660,7 @@
         <duration>6</duration>
         <voice>1</voice>
         <type>16th</type>
-        <stem>up</stem>
+        <stem>down</stem>
         <beam number="1">continue</beam>
         <beam number="2">continue</beam>
         <notations>
@@ -30676,7 +30676,7 @@
         <duration>6</duration>
         <voice>1</voice>
         <type>16th</type>
-        <stem>up</stem>
+        <stem>down</stem>
         <beam number="1">continue</beam>
         <beam number="2">continue</beam>
         <notations>
@@ -30691,7 +30691,7 @@
         <duration>6</duration>
         <voice>1</voice>
         <type>16th</type>
-        <stem>up</stem>
+        <stem>down</stem>
         <beam number="1">end</beam>
         <beam number="2">end</beam>
         <notations>
@@ -30771,7 +30771,7 @@
         <duration>6</duration>
         <voice>1</voice>
         <type>16th</type>
-        <stem>up</stem>
+        <stem>down</stem>
         <beam number="1">begin</beam>
         <beam number="2">begin</beam>
         <notations>
@@ -30787,7 +30787,7 @@
         <duration>6</duration>
         <voice>1</voice>
         <type>16th</type>
-        <stem>up</stem>
+        <stem>down</stem>
         <beam number="1">continue</beam>
         <beam number="2">continue</beam>
         <notations>
@@ -30804,7 +30804,7 @@
         <voice>1</voice>
         <type>16th</type>
         <accidental>flat</accidental>
-        <stem>up</stem>
+        <stem>down</stem>
         <beam number="1">continue</beam>
         <beam number="2">continue</beam>
         <notations>
@@ -30820,7 +30820,7 @@
         <duration>6</duration>
         <voice>1</voice>
         <type>16th</type>
-        <stem>up</stem>
+        <stem>down</stem>
         <beam number="1">end</beam>
         <beam number="2">end</beam>
         <notations>
@@ -49519,7 +49519,7 @@
     <measure number="0" implicit="yes" width="231.71">
       <print new-page="yes">
         <staff-layout number="1">
-          <staff-distance>68.69</staff-distance>
+          <staff-distance>68.68</staff-distance>
         </staff-layout>
       </print>
       <attributes>
@@ -49852,7 +49852,7 @@
     <measure number="7" width="273.79">
       <print new-system="yes">
         <staff-layout number="1">
-          <staff-distance>68.69</staff-distance>
+          <staff-distance>68.68</staff-distance>
         </staff-layout>
       </print>
       <note>
@@ -50159,7 +50159,7 @@
     <measure number="15" width="269.26">
       <print new-system="yes">
         <staff-layout number="1">
-          <staff-distance>68.69</staff-distance>
+          <staff-distance>68.68</staff-distance>
         </staff-layout>
       </print>
       <note>
@@ -50427,7 +50427,7 @@
         <duration>12</duration>
         <voice>1</voice>
         <type>eighth</type>
-        <stem>down</stem>
+        <stem>up</stem>
         <beam number="1">begin</beam>
         <notations>
           <slur type="start" />
@@ -50441,7 +50441,7 @@
         <duration>12</duration>
         <voice>1</voice>
         <type>eighth</type>
-        <stem>down</stem>
+        <stem>up</stem>
         <beam number="1">continue</beam>
       </note>
       <note>
@@ -50453,7 +50453,7 @@
         <duration>12</duration>
         <voice>1</voice>
         <type>eighth</type>
-        <stem>down</stem>
+        <stem>up</stem>
         <beam number="1">continue</beam>
       </note>
       <note>
@@ -50465,7 +50465,7 @@
         <duration>12</duration>
         <voice>1</voice>
         <type>eighth</type>
-        <stem>down</stem>
+        <stem>up</stem>
         <beam number="1">end</beam>
         <notations>
           <slur type="stop" />
@@ -50496,7 +50496,7 @@
     <measure number="22" width="315.79">
       <print new-system="yes">
         <staff-layout number="1">
-          <staff-distance>68.69</staff-distance>
+          <staff-distance>68.68</staff-distance>
         </staff-layout>
       </print>
       <note>
@@ -50508,7 +50508,7 @@
         <duration>12</duration>
         <voice>1</voice>
         <type>eighth</type>
-        <stem>down</stem>
+        <stem>up</stem>
         <beam number="1">begin</beam>
         <notations>
           <slur type="start" />
@@ -50522,7 +50522,7 @@
         <duration>12</duration>
         <voice>1</voice>
         <type>eighth</type>
-        <stem>down</stem>
+        <stem>up</stem>
         <beam number="1">continue</beam>
       </note>
       <note>
@@ -50534,7 +50534,7 @@
         <duration>12</duration>
         <voice>1</voice>
         <type>eighth</type>
-        <stem>down</stem>
+        <stem>up</stem>
         <beam number="1">continue</beam>
       </note>
       <note>
@@ -50546,7 +50546,7 @@
         <duration>12</duration>
         <voice>1</voice>
         <type>eighth</type>
-        <stem>down</stem>
+        <stem>up</stem>
         <beam number="1">end</beam>
         <notations>
           <slur type="stop" />
@@ -55197,7 +55197,7 @@
         <duration>12</duration>
         <voice>1</voice>
         <type>eighth</type>
-        <stem>down</stem>
+        <stem>up</stem>
         <beam number="1">begin</beam>
         <notations>
           <articulations>
@@ -55228,7 +55228,7 @@
         <duration>12</duration>
         <voice>1</voice>
         <type>eighth</type>
-        <stem>down</stem>
+        <stem>up</stem>
         <beam number="1">continue</beam>
         <notations>
           <slur type="stop" />
@@ -55245,7 +55245,7 @@
         <duration>12</duration>
         <voice>1</voice>
         <type>eighth</type>
-        <stem>down</stem>
+        <stem>up</stem>
         <beam number="1">continue</beam>
         <notations>
           <articulations>
@@ -55273,7 +55273,7 @@
         <duration>12</duration>
         <voice>1</voice>
         <type>eighth</type>
-        <stem>down</stem>
+        <stem>up</stem>
         <beam number="1">end</beam>
         <notations>
           <articulations>
@@ -55381,7 +55381,7 @@
         <duration>12</duration>
         <voice>1</voice>
         <type>eighth</type>
-        <stem>down</stem>
+        <stem>up</stem>
         <beam number="1">begin</beam>
         <notations>
           <articulations>
@@ -55412,7 +55412,7 @@
         <duration>12</duration>
         <voice>1</voice>
         <type>eighth</type>
-        <stem>down</stem>
+        <stem>up</stem>
         <beam number="1">continue</beam>
         <notations>
           <slur type="stop" />
@@ -55429,7 +55429,7 @@
         <duration>12</duration>
         <voice>1</voice>
         <type>eighth</type>
-        <stem>down</stem>
+        <stem>up</stem>
         <beam number="1">continue</beam>
         <notations>
           <articulations>
@@ -55460,7 +55460,7 @@
         <duration>12</duration>
         <voice>1</voice>
         <type>eighth</type>
-        <stem>down</stem>
+        <stem>up</stem>
         <beam number="1">end</beam>
         <notations>
           <slur type="stop" />
@@ -56054,7 +56054,7 @@
         <duration>6</duration>
         <voice>1</voice>
         <type>16th</type>
-        <stem>down</stem>
+        <stem>up</stem>
         <beam number="1">begin</beam>
         <beam number="2">begin</beam>
         <notations>
@@ -56070,7 +56070,7 @@
         <duration>6</duration>
         <voice>1</voice>
         <type>16th</type>
-        <stem>down</stem>
+        <stem>up</stem>
         <beam number="1">continue</beam>
         <beam number="2">continue</beam>
       </note>
@@ -56083,7 +56083,7 @@
         <voice>1</voice>
         <type>16th</type>
         <accidental>natural</accidental>
-        <stem>down</stem>
+        <stem>up</stem>
         <beam number="1">continue</beam>
         <beam number="2">continue</beam>
       </note>
@@ -56095,7 +56095,7 @@
         <duration>6</duration>
         <voice>1</voice>
         <type>16th</type>
-        <stem>down</stem>
+        <stem>up</stem>
         <beam number="1">end</beam>
         <beam number="2">end</beam>
         <notations>
@@ -76597,7 +76597,7 @@
     <measure number="0" implicit="yes" width="231.71">
       <print new-page="yes">
         <staff-layout number="1">
-          <staff-distance>68.78</staff-distance>
+          <staff-distance>69.09</staff-distance>
         </staff-layout>
       </print>
       <attributes>
@@ -76940,7 +76940,7 @@
     <measure number="7" width="273.79">
       <print new-system="yes">
         <staff-layout number="1">
-          <staff-distance>68.69</staff-distance>
+          <staff-distance>68.68</staff-distance>
         </staff-layout>
       </print>
       <note>
@@ -77343,7 +77343,7 @@
     <measure number="15" width="269.26">
       <print new-system="yes">
         <staff-layout number="1">
-          <staff-distance>68.69</staff-distance>
+          <staff-distance>68.68</staff-distance>
         </staff-layout>
       </print>
       <note>
@@ -77654,7 +77654,7 @@
     <measure number="22" width="315.79">
       <print new-system="yes">
         <staff-layout number="1">
-          <staff-distance>68.69</staff-distance>
+          <staff-distance>68.68</staff-distance>
         </staff-layout>
       </print>
       <note>
@@ -90088,7 +90088,7 @@
         <duration>12</duration>
         <voice>1</voice>
         <type>eighth</type>
-        <stem>down</stem>
+        <stem>up</stem>
         <beam number="1">begin</beam>
         <notations>
           <articulations>
@@ -90105,7 +90105,7 @@
         <duration>12</duration>
         <voice>1</voice>
         <type>eighth</type>
-        <stem>down</stem>
+        <stem>up</stem>
         <beam number="1">continue</beam>
         <notations>
           <articulations>
@@ -90122,7 +90122,7 @@
         <duration>12</duration>
         <voice>1</voice>
         <type>eighth</type>
-        <stem>down</stem>
+        <stem>up</stem>
         <beam number="1">continue</beam>
         <notations>
           <articulations>
@@ -90138,7 +90138,7 @@
         <duration>12</duration>
         <voice>1</voice>
         <type>eighth</type>
-        <stem>down</stem>
+        <stem>up</stem>
         <beam number="1">end</beam>
         <notations>
           <articulations>
@@ -101091,7 +101091,7 @@
     <measure number="0" implicit="yes" width="231.71">
       <print new-page="yes">
         <staff-layout number="1">
-          <staff-distance>68.69</staff-distance>
+          <staff-distance>68.68</staff-distance>
         </staff-layout>
       </print>
       <attributes>
@@ -101323,7 +101323,7 @@
     <measure number="7" width="273.79">
       <print new-system="yes">
         <staff-layout number="1">
-          <staff-distance>68.69</staff-distance>
+          <staff-distance>68.68</staff-distance>
         </staff-layout>
       </print>
       <note>
@@ -101617,7 +101617,7 @@
     <measure number="15" width="269.26">
       <print new-system="yes">
         <staff-layout number="1">
-          <staff-distance>68.69</staff-distance>
+          <staff-distance>68.68</staff-distance>
         </staff-layout>
       </print>
       <note>
@@ -101707,7 +101707,7 @@
     <measure number="22" width="315.79">
       <print new-system="yes">
         <staff-layout number="1">
-          <staff-distance>68.69</staff-distance>
+          <staff-distance>68.68</staff-distance>
         </staff-layout>
       </print>
       <note>
@@ -104075,7 +104075,7 @@
         <duration>12</duration>
         <voice>1</voice>
         <type>eighth</type>
-        <stem>up</stem>
+        <stem>down</stem>
         <beam number="1">begin</beam>
         <notations>
           <slur type="start" />
@@ -104089,7 +104089,7 @@
         <duration>12</duration>
         <voice>1</voice>
         <type>eighth</type>
-        <stem>up</stem>
+        <stem>down</stem>
         <beam number="1">continue</beam>
       </note>
       <note>
@@ -104102,7 +104102,7 @@
         <voice>1</voice>
         <type>eighth</type>
         <accidental>flat</accidental>
-        <stem>up</stem>
+        <stem>down</stem>
         <beam number="1">continue</beam>
         <notations>
           <slur type="stop" />
@@ -104117,7 +104117,7 @@
         <duration>12</duration>
         <voice>1</voice>
         <type>eighth</type>
-        <stem>up</stem>
+        <stem>down</stem>
         <beam number="1">end</beam>
         <notations>
           <articulations>
