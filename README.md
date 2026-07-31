@@ -1,21 +1,23 @@
-[OpenScore String Quartets][OSSQ]
+[OpenScore String Quartets for Optical Music Recognition][OSSQ-OMR]
 =================================
 
-[OSSQ]: https://musescore.com/openscore-string-quartets
+Fork of [OpenScore String Quartets Mirror](https://github.com/OpenScore/StringQuartets) optimized for Optical Music Recognition (OMR)
 
-Mirror of https://musescore.com/openscore-string-quartets.
+[OpenScore String Quartets Mirror](https://github.com/OpenScore/StringQuartets) is a collection of string quartets by "long 19th century" composers in MuseScore format with associated data.
 
-Collection of string quartets by "long 19th century" composers in MuseScore format with associated data.
+**!Important NOTE!**  
+To render or convert .mscx files in this repo, you **need to use MuseScore3 v3.6.2**  
 
 ## Part of the String Quartet OMR Benchmark
 
 OSSQ is the dataset behind *"A Dataset and Benchmark for Optical Music Recognition of String Quartet Scores"* (MALer Lab, Sogang University). This repository holds the tracked MuseScore/MusicXML annotation sources; related repositories in the release:
 
-- **[string-quartet-omr-benchmark](https://github.com/MALerLab/string-quartet-omr-benchmark)** — umbrella entry point for the paper and the full repo constellation. *(Not yet public; linked for reference.)*
-- **[sqomr](https://github.com/MALerLab/sqomr)** (branch `omr-dev`) — model training/evaluation experiments run on this dataset.
-- **[omr-data-preprocessor](https://github.com/MALerLab/omr-data-preprocessor)** (branch `ossq-v2.4.0`) — the pipeline that builds every derived format below from the sources tracked in this repo.
-- **[lmxe](https://github.com/MALerLab/lmxe)** (branch `v0.2.0`) — the LMXE symbolic format library behind the `.lmxe`/`.plmxe`/`.rlmxe` files (derived from [OMR-Research/lmx](https://github.com/OMR-Research/lmx)).
-- **[LEGATO](https://github.com/guang-yng/legato)** (`179c228`) — baseline OMR model used for benchmark comparison.
+- **[string-quartet-omr-benchmark](https://github.com/MALerLab/string-quartet-omr-benchmark)**: umbrella entry point for the paper and the full repository constellation.
+- **[ossq-omr](https://github.com/MALerLab/ossq-omr)**: the OSSQ dataset — MuseScore/MusicXML annotation sources and their revision history. *(this repository)*
+- **[omr-data-preprocessor](https://github.com/MALerLab/omr-data-preprocessor)**: the preprocessing pipeline that builds every derived symbolic format from the dataset sources.
+- **[sqomr](https://github.com/MALerLab/sqomr)**: model training and evaluation experiments.
+- **[lmxe](https://github.com/MALerLab/lmxe)**: the LMXE symbolic format library (derived from [OMR-Research/lmx](https://github.com/OMR-Research/lmx)).
+- **[LEGATO](https://github.com/guang-yng/legato)**: baseline OMR model used for benchmark comparison.
 
 Scores can be downloaded individually in PDF, MIDI, MusicXML, MP3 and other formats from
 their [official pages][OSSQ] on MuseScore.com. Alternatively, scores can be
@@ -23,9 +25,6 @@ converted to other formats *en masse* using MuseScore's free desktop software us
 the [Batch Convert Plugin](https://musescore.org/en/project/batch-convert)
 or the [command line interface](https://handbook.musescore.org/appendix/command-line-usage).
 
-**!Important NOTE!**  
-To render or convert .mscx files in this repo, you **need to use MuseScore3 v3.6.2**  
-In server environments, you can use MuseScore3 v3.6.2's command line interface. Please visit the [musescore-3.6.2-headless@github](https://github.com/halsoo/musescore-3.6.2-headless) repository for instructions on how to set up a headless version of MuseScore3 v3.6.2.
 
 # What this repository tracks
 
@@ -72,20 +71,6 @@ This walks every branch in a full clone (not just the default branch — see the
 and labels which branch each commit came from. See [`BRANCHES.md`](./BRANCHES.md) for the full
 branch inventory, verified commit counts, and more tracing commands, including why **GitHub's
 web history UI only shows the default branch** and won't give you this picture on its own.
-
-# Dataset versions
-
-The benchmark paper uses **OSSQ v2.4.1**, which adds two LMXE variants on top of v2.4.0 — nothing else differs between the two versions:
-
-- **PLMXE** (parametrized LMXE), systemwise only: 24,546 files
-- **RLMXE** (relative LMXE), systemwise + partwise: 122,718 files
-
-Packaged builds of each dataset version are archived under the gitignored `versions/<version>/` directory (e.g. `versions/ossq-v2.4.0/`, `versions/ossq-v2.4.1/`) and are not part of this git history.
-
-To obtain OSSQ v2.4.1:
-
-- **Download** the packaged build from Zenodo or Hugging Face once published (see links above), or
-- **Regenerate it** from a checkout of this repo (branch `ossq-v2.4.0`, which already contains the v2.4.0 sources unchanged) using the `omr-data-preprocessor` pipeline through its PLMXE/RLMXE conversion step.
 
 # Regenerating derived formats
 
@@ -134,11 +119,11 @@ Score and lyric files are arranged in the following directory structure:
       synthetic/
 	      systemwise/
           sq<id>:<page>:<system>.lmxe
-          sq<id>:<page>:<system>.plmxe # parametrized LMXE, added in v2.4.1
-          sq<id>:<page>:<system>.rlmxe # relative LMXE, added in v2.4.1
+          sq<id>:<page>:<system>.plmxe # parametrized LMXE
+          sq<id>:<page>:<system>.rlmxe # relative LMXE
         partwise/
           sq<id>:<page>:<system>:<part>.lmxe
-          sq<id>:<page>:<system>:<part>.rlmxe # relative LMXE, added in v2.4.1
+          sq<id>:<page>:<system>:<part>.rlmxe # relative LMXE
       scanned/
     krn/
       synthetic/
@@ -223,6 +208,11 @@ The `Data/` directory contains the following:
 - composers.tsv and composers.yaml: information about the corpus composers.
 - corpus.tsv and corpus.yaml: total numbers of composers, sets, and scores.
 - scores.tsv and scores.yaml: information about each score
+- scores_w_url.yaml: per-score IMSLP source metadata (catalog number and direct scan URL) for each MuseScore entry.
+- scores_w_pub.yaml: per-score publisher, publication date, copyright and source-type metadata.
+- publication_report.md: publication and source-type analysis of the corpus.
+- scanned_score_types.tsv: per-score source-type table (id, path, name, type, link, imslp, set_id).
+- score_types.md: legend for the `type` codes used in that TSV.
 - sets.tsv and sets.yaml: information about each set (collection of scores).
 - vocabulary.txt: the symbolic-token vocabulary used across the corpus.
 - code-plots/: `plot.py`, for producing the summative plots below, and their output.
