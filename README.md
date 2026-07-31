@@ -1,5 +1,4 @@
 # OpenScore String Quartets for Optical Music Recognition (OSSQ-OMR)
-=================================
 
 Fork of [OpenScore String Quartets Mirror](https://github.com/OpenScore/StringQuartets) optimized for Optical Music Recognition (OMR)
 
